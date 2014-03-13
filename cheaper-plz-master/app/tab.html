@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>cheaper plz.</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Finger+Paint">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Text+Me+One">
+    <link rel="stylesheet" href="styles/themed-bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/vendor/d3.v3.js"></script>
+
+    <script src="scripts/controllers/TabCtrl.js"></script>
+    <script src="scripts/controllers/SettingsCtrl.js"></script>
+    <script src="scripts/services/chromeApp.js"></script>
+    <script src="scripts/directives/sparkline.js"></script>
+  </head>
+  <body ng-csp ng-app="cheaperApp.tab" style="padding-top: 20px;">
+
+    <div ng-controller="TabCtrl" class="container">
+    
+
+      <div class="row">
+        <div class="span6">
+          <h1 class="brand">cheaper plz.</h1>
+        </div>
+        <div class="span6" style="text-align: right;">
+          <button class="btn"
+            ng-click="refresh()"
+            ng-disabled="isRefreshing() || items.length == 0">
+              <img ng-show="isRefreshing() && items.length > 0" src="img/spinner.gif">
+              <img ng-hide="isRefreshing() && items.length > 0" src="img/stopped-spinner.gif">
+          </button>
+          
+          <button class="btn" ng-class="{active: showConfig}" ng-click="showConfig = !showConfig">
+            <i class="icon icon-wrench"></i>
+          </button>
+          <button class="btn" ng-click="openHomepage()">
+            <i class="icon icon-globe"></i>
+          </button>
+          
+        </div>
+      </div>
+
+      <hr class="row">
+
+      <div class="row" ng-show="refreshStatus" style="height: 50px;">
+        <div class="span12">
+          <div class="alert alert-success">
+            <button type="button" class="close" ng-click="refreshStatus=''">×</button>
+            {{refreshStatus}}
+          </div>
+          <hr>
+        </div>
+      </div>
+      
+      <div class="row" ng-controller="SettingsCtrl" ng-show="showConfig">
+        <div class="span2">
+          <h2>Config</h2>
+        </div>
+        <form class="span12 form-inline">
+          <div class="input-append">
+            <span class="add-on">check prices every</span>
+            <input class="span2" ng-model="newInt" type="text">
+            <span class="add-on">milliseconds</span>
+          </div>
+          <button class="btn btn-primary" ng-click="changeInterval()">Save</button>
+          <hr>
+        </form>
+      </div>
+
+      <div class="row" ng-repeat="item in items">
+        <div class="span12">
+          <div class="row">
+            <div class="span3" ng-class="{sale: item.price < item.oldPrice, unsale: item.price > item.oldPrice}">
+              <h2 class="price">${{item.price}}</h2>
+              <span ng-show="item.oldPrice" class="old-price">was ${{item.oldPrice}}</span>
+            </div>
+            <div class="span9">
+              <h4>name</h4>
+              <a href="{{item.url}}" target="_blank">
+                 <h1>{{item.name}}</h1>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="span3">
+              <h4>last updated</h4>
+              <h3>{{item.updated | date:'short'}}</h3>
+            </div>
+            <div class="span9">
+              <h4>graph</h4>
+              <sparkline data="history[item.url]"></sparkline>
+            </div>
+          </div>
+          <a href ng-click="removeItem(item.url)">remove</a>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row" ng-show="items.length == 0">
+        <p>You have no watched items! Go browse <a href="http://www.amazon.com/">Amazon</a> or <a href="http://www.ebay.com">eBay</a> or something.</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

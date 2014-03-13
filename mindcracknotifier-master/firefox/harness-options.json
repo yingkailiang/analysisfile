@@ -1,0 +1,2002 @@
+{
+  "staticArgs": {}, 
+  "sdkVersion": "1.10", 
+  "jetpackID": "kgjbkelplacidapnkbclfmfkenldaihp", 
+  "name": "extension", 
+  "allTestModules": [], 
+  "loader": "api-utils/lib/cuddlefish.js", 
+  "mainPath": "extension/lib/main.js", 
+  "manifest": {
+    "addon-kit-sf/lib/windows.js": {
+      "moduleName": "windows", 
+      "requirements": {
+        "api-utils/window-utils": {
+          "path": "api-utils/lib/window-utils.js"
+        }, 
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/windows/loader": {
+          "path": "api-utils/lib/windows/loader.js"
+        }, 
+        "api-utils/tabs/observer": {
+          "path": "api-utils/lib/tabs/observer.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/windows/tabs": {
+          "path": "api-utils/lib/windows/tabs.js"
+        }, 
+        "api-utils/xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/tabs/tab": {
+          "path": "api-utils/lib/tabs/tab.js"
+        }, 
+        "api-utils/traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "tabs/utils": {
+          "path": "api-utils/lib/tabs/utils.js"
+        }, 
+        "api-utils/windows/dom": {
+          "path": "api-utils/lib/windows/dom.js"
+        }, 
+        "api-utils/list": {
+          "path": "api-utils/lib/list.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "3b71b9e993e8ccc244d5f3a3367424015ce2806c79aeae754702d799a1815560", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/utils/registry.js": {
+      "moduleName": "utils/registry", 
+      "requirements": {
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "cc3ace2ff3d695e838358221518afa8cb5ea80bac362e75c737bf27e0d93e405", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/xul-app.js": {
+      "moduleName": "xul-app", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "712b929399b525bf49eb95af4c2f91a5500d0c0a739ff87a7c5acf333dada3e9", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/l10n/html.js": {
+      "moduleName": "l10n/html", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "api-utils/l10n/core": {
+          "path": "api-utils/lib/l10n/core.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/system/events": {
+          "path": "api-utils/lib/system/events.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "8ea4647627577df810b461eaa6f7176abfb322642627270f65abff907b37882e", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/sandbox.js": {
+      "moduleName": "sandbox", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "5d5fcb3d381de91cf2a208d82f0d84eb353b0dd69daac86ef96cd1aaefa02c75", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/page-worker.js": {
+      "moduleName": "page-worker", 
+      "requirements": {
+        "api-utils/traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/content": {
+          "path": "api-utils/lib/content.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "6c1d75c65726230a9b5d9ebba2dcad83dfce856cd4b76f5193ab395f6a5b11a9", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/permission.js": {
+      "moduleName": "permission", 
+      "requirements": {
+        "services": {
+          "path": "utils-sf/lib/services.js"
+        }, 
+        "logger": {
+          "path": "utils-sf/lib/logger.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "de512583461b76742dc944c9ef7ef289bf2613ae6e79bf73f1c2187b8cf2a164", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/heritage.js": {
+      "moduleName": "heritage", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "5c9078a92d5d2ce130086c648cb6a31ae9e140aa223089a092efbe0904ad0531", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/misc.js": {
+      "moduleName": "api/misc", 
+      "requirements": {
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "ca3725a64e24bb960b40fec01a38b8059fa11ea41606a794e8855171fe5a940e", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/xmlhttprequest.js": {
+      "moduleName": "api/xmlhttprequest", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }, 
+        "api-utils/memory": {
+          "path": "api-utils/lib/memory.js"
+        }, 
+        "unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/url": {
+          "path": "api-utils/lib/url.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "256bdfff2ca6dfedb8709b9243290c351ca3153712be6c8fbf43eb92bdaedcb1", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content.js": {
+      "moduleName": "content", 
+      "requirements": {
+        "./content/symbiont": {
+          "path": "api-utils/lib/content/symbiont.js"
+        }, 
+        "./content/worker": {
+          "path": "api-utils/lib/content/worker.js"
+        }, 
+        "./content/loader": {
+          "path": "api-utils/lib/content/loader.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "0119f8c1c84d40bd8faa413aa9ce3106c86ba5c996f231f98753bff84fdb1db3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/addon/runner.js": {
+      "moduleName": "addon/runner", 
+      "requirements": {
+        "../unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "api-utils/loader": {
+          "path": "api-utils/lib/loader.js"
+        }, 
+        "api-utils/l10n/html": {
+          "path": "api-utils/lib/l10n/html.js"
+        }, 
+        "../system": {
+          "path": "api-utils/lib/system.js"
+        }, 
+        "../globals": {
+          "path": "api-utils/lib/globals.js"
+        }, 
+        "../system/events": {
+          "path": "api-utils/lib/system/events.js"
+        }, 
+        "api-utils/l10n/loader": {
+          "path": "api-utils/lib/l10n/loader.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "4a4e32e9678fa3bc8e7b2b286eb0a82642c98b1705a1c0cc3e3a792e061351ef", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/memory.js": {
+      "moduleName": "memory", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "f41b28860ac61fc69d05be491fc52d0babf109c25aee9a464db18bacd6b9bfd5", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/windows/tabs.js": {
+      "moduleName": "windows/tabs", 
+      "requirements": {
+        "../tabs/tab": {
+          "path": "api-utils/lib/tabs/tab.js"
+        }, 
+        "../tabs/events": {
+          "path": "api-utils/lib/tabs/events.js"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../tabs/observer": {
+          "path": "api-utils/lib/tabs/observer.js"
+        }, 
+        "../traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "../list": {
+          "path": "api-utils/lib/list.js"
+        }, 
+        "../tabs/utils": {
+          "path": "api-utils/lib/tabs/utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "2a5b7cad67dd079a05c1ad16e614c2998f60232c74c76200018955d51fcf47be", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/notifications.js": {
+      "moduleName": "api/notifications", 
+      "requirements": {
+        "traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "jetchrome/self": {
+          "path": "jetchrome/lib/self.js"
+        }, 
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }, 
+        "api-utils/timer": {
+          "path": "api-utils/lib/timer.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "28282bee820ed301932ff641d5d93588fe87b8ee3a6c0d17c5e423c024f3cca0", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/tabs.js": {
+      "moduleName": "tabs", 
+      "requirements": {
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/windows/tabs": {
+          "path": "api-utils/lib/windows/tabs.js"
+        }, 
+        "./windows": {
+          "path": "addon-kit-sf/lib/windows.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "aec1ebce533a99bbda9b5052e18346518702eb345b4f11a33636b03b312f78d7", 
+      "docsSHA256": null
+    }, 
+    "extension/lib/main.js": {
+      "moduleName": "main", 
+      "requirements": {
+        "utils-sf/firebug": {
+          "path": "utils-sf/lib/firebug.js"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }, 
+        "jetchrome": {
+          "path": "jetchrome/lib/jetchrome.js"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }, 
+        "api-utils/timer": {
+          "path": "api-utils/lib/timer.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "extension", 
+      "jsSHA256": "fe5ba7ada65d1b4b60bf1da63f5b2fe9c863ff223f6d418667c166b9d04df1ce", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/byte-streams.js": {
+      "moduleName": "byte-streams", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "70fb9a7ec33b9dda9b70e0d5c6b0234362e30c35f269027269b54a1d6f130eea", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/api-utils.js": {
+      "moduleName": "api-utils", 
+      "requirements": {
+        "api-utils/memory": {
+          "path": "api-utils/lib/memory.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "18c9219edf012f4eb8a863139e640ea7a18817055d21a6086619d6aa08f2d887", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/arguments.js": {
+      "moduleName": "arguments", 
+      "requirements": {
+        "types": {
+          "path": "utils-sf/lib/types.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "0a314d8325f232ae652008b874763327aaf54b4683555c070818694226fd81b9", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/utils/object.js": {
+      "moduleName": "utils/object", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "021787f0d120106d31e01bd10a01f03d6247804ea832faced3bf42bd67a8b48a", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/type.js": {
+      "moduleName": "type", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "4b1b10678b0087004b50bd9c765f9794120c2a23b0ddcc48351da58c9e5603d6", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/firebug.js": {
+      "moduleName": "firebug", 
+      "requirements": {
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }, 
+        "unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "040b03b1e62ff686fb0fb14ab7eb0698c33f6798e0cb7ddfb114cd45be2c57a2", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/list.js": {
+      "moduleName": "list", 
+      "requirements": {
+        "./traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "47fa2de01fecdf891bf8fee3ca7103e82d1d5ab32623513ab286b8939e56b079", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/timer.js": {
+      "moduleName": "timer", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "cc4ca39d4570f42755ff8fe3a2da101b0392db30e886db46578b722b4b57cfe0", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/url-pattern.js": {
+      "moduleName": "url-pattern", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "21e3ab0a20695a1624abb752e124bdf9d96df7c14ea4194e5ac78f14e313679a", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/components.js": {
+      "moduleName": "components", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "1b74bef6bafa9006520a2f9559446abe2d194bb38cc9286f98e5ce6f8db2645e", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content/symbiont.js": {
+      "moduleName": "content/symbiont", 
+      "requirements": {
+        "../observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "../unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "./worker": {
+          "path": "api-utils/lib/content/worker.js"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "./loader": {
+          "path": "api-utils/lib/content/loader.js"
+        }, 
+        "../hidden-frame": {
+          "path": "api-utils/lib/hidden-frame.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "3cbcee3e4ae89b2d5fba7e50567b30559e040c10f37d1aee6d0d3c44d703b662", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/loader.js": {
+      "moduleName": "loader", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "a79a60c5b48ddfffd6c07c5703462471a70ccb6ba63205e1f65cfee704135258", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/match-pattern.js": {
+      "moduleName": "match-pattern", 
+      "requirements": {
+        "./url": {
+          "path": "api-utils/lib/url.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "16f330e4d0eba08f53cf98631353552395e7f17e7273c0005273fcf9e7722518", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/observer-service.js": {
+      "moduleName": "observer-service", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "./namespace": {
+          "path": "api-utils/lib/namespace.js"
+        }, 
+        "./system/events": {
+          "path": "api-utils/lib/system/events.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "1bfe59b993d8f1f9d37f876606751f40687aa61a86463d03c7f969f10b9096bb", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/context-menu.js": {
+      "moduleName": "context-menu", 
+      "requirements": {
+        "api-utils/window-utils": {
+          "path": "api-utils/lib/window-utils.js"
+        }, 
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "api-utils/light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "api-utils/cortex": {
+          "path": "api-utils/lib/cortex.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/content": {
+          "path": "api-utils/lib/content.js"
+        }, 
+        "api-utils/match-pattern": {
+          "path": "api-utils/lib/match-pattern.js"
+        }, 
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "api-utils/collection": {
+          "path": "api-utils/lib/collection.js"
+        }, 
+        "api-utils/preferences-service": {
+          "path": "api-utils/lib/preferences-service.js"
+        }, 
+        "api-utils/url": {
+          "path": "api-utils/lib/url.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "dd5e480b5b738d825125412d373bc3feb94568d9069579210f8bf51c9fd2c5b7", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/l10n/core.js": {
+      "moduleName": "l10n/core", 
+      "requirements": {
+        "@l10n/data": {
+          "path": "@l10n/data"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "816e77bf5fc42fb77e4a6688bff5fa099948f0ebf89bb23321e128c4aadfecef", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/cortex.js": {
+      "moduleName": "cortex", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "7765b219e1e3c39a5109135343b572dcdc0a7ea8e1d9e21354ae66720ecf4ba0", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/l10n/loader.js": {
+      "moduleName": "l10n/loader", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/l10n/locale": {
+          "path": "api-utils/lib/l10n/locale.js"
+        }, 
+        "api-utils/promise": {
+          "path": "api-utils/lib/promise.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "393bb8a43da6feae315487af6f26db8f82a62a0464a1f3814cc61e39368061b6", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/protocol.js": {
+      "moduleName": "protocol", 
+      "requirements": {
+        "xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }, 
+        "api-utils/heritage": {
+          "path": "api-utils/lib/heritage.js"
+        }, 
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "b7ce00a80dc2cb1f4a349ebfa6e61d7930269cc19cb189cebc2b77c580194986", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/services.js": {
+      "moduleName": "services", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "af4eaaee8416294b67b49cf693d40d34e8eeabc4756bb3ad4bd2b94cc0de0efc", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/test/assert.js": {
+      "moduleName": "test/assert", 
+      "requirements": {
+        "../type": {
+          "path": "api-utils/lib/type.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "a7ee400b76a428356aff2665665d75b9faef60af9a4690994773f9c2f09601c6", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/xpcom.js": {
+      "moduleName": "xpcom", 
+      "requirements": {
+        "./heritage": {
+          "path": "api-utils/lib/heritage.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./uuid": {
+          "path": "api-utils/lib/uuid.js"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "./utils/object": {
+          "path": "api-utils/lib/utils/object.js"
+        }, 
+        "./runtime": {
+          "path": "api-utils/lib/runtime.js"
+        }, 
+        "./xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "fbdddaa6a2174a031c28ad85d09f00bb179138a67df3cbdf3b788bf3fde0e7b0", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/self.js": {
+      "moduleName": "self", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "57d4cb80b95290aaf9cbee40afc11a2b2e0709197dcdd22e4eb6a4553715d717", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/l10n/locale.js": {
+      "moduleName": "l10n/locale", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "preferences-service": {
+          "path": "api-utils/lib/preferences-service.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "a9f7f348af3544720893a21b7466c05dec43cb9c4cac4c8bd5acea51d17c788c", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/console.js": {
+      "moduleName": "api/console", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "e4beef515e6943507a7b6975131b69c0033fa8b7a838003524340c07a4420ee6", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/base64.js": {
+      "moduleName": "base64", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "43b63fc0aa3c6b884d1018410f5a3afee47cb220a70f0ce1c45ee154c44d0483", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/logger.js": {
+      "moduleName": "logger", 
+      "requirements": {
+        "traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "9c5a80b73c6491072418b4627f9babdc83fe1bc75644b92119fe91fb418c409d", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/utils/thumbnail.js": {
+      "moduleName": "utils/thumbnail", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "c4026174e3c2ee56ef1a7cc85fe6736db4f3de4249c9c9fb2e896b4d8aa9fec2", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/runtime.js": {
+      "moduleName": "runtime", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "c890d46b04876a2bdebcc9fade057fea2ba0b484e3f0be6a8e27d6bb59e7eab3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/events.js": {
+      "moduleName": "events", 
+      "requirements": {
+        "./light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "./traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "7d52b7d9931d4f94cb2da1745165f399f9ce637df0c25969259e14140a024b73", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/window/utils.js": {
+      "moduleName": "window/utils", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "d054c083e0affd6a5633da318d0761b61906bb5777b7eebfec004bb0e398ace1", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content/content-worker.js": {
+      "moduleName": "content/content-worker.js", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "935a723fca3f3917e1123e783b693466ccfaca899a7892190903ae6f3b354d5f", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/windows/observer.js": {
+      "moduleName": "windows/observer", 
+      "requirements": {
+        "../events/assembler": {
+          "path": "api-utils/lib/events/assembler.js"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "../window-utils": {
+          "path": "api-utils/lib/window-utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "50f75cb71e98319d309f9695f203e3e6d96d4e9a4fb93b0cf8b3df97261ff1f3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/events/assembler.js": {
+      "moduleName": "events/assembler", 
+      "requirements": {
+        "../light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "../dom/events": {
+          "path": "api-utils/lib/dom/events.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "d7d83af2f2b948340eb2960fc16246510f4ca594a5dda4e37e565b3f2fb747a5", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/panel.js": {
+      "moduleName": "panel", 
+      "requirements": {
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/content": {
+          "path": "api-utils/lib/content.js"
+        }, 
+        "api-utils/runtime": {
+          "path": "api-utils/lib/runtime.js"
+        }, 
+        "api-utils/timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "./windows": {
+          "path": "addon-kit-sf/lib/windows.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "21f5d20703ed28ebc2503750141ed50290f1f72bf3d05f223b4b037b02c05b46", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/traits.js": {
+      "moduleName": "traits", 
+      "requirements": {
+        "./traits/core": {
+          "path": "api-utils/lib/traits/core.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "b6b6bebf59c46adf01bcb80f8a97aa354b7a6eb912733ae5521097f25bf08fc3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content/worker.js": {
+      "moduleName": "content/worker", 
+      "requirements": {
+        "../tabs/tab": {
+          "path": "api-utils/lib/tabs/tab.js"
+        }, 
+        "../unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "../observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "../cortex": {
+          "path": "api-utils/lib/cortex.js"
+        }, 
+        "../sandbox": {
+          "path": "api-utils/lib/sandbox.js"
+        }, 
+        "../utils/object": {
+          "path": "api-utils/lib/utils/object.js"
+        }, 
+        "./content-worker.js": {
+          "path": "api-utils/lib/content/content-worker.js"
+        }, 
+        "../url": {
+          "path": "api-utils/lib/url.js"
+        }, 
+        "../timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "./content-proxy.js": {
+          "path": "api-utils/lib/content/content-proxy.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "8f0f35518818539e89fcf350e7ccbf69fb75eec5bf2bac9d30521d00e2225228", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/webstorage.js": {
+      "moduleName": "api/webstorage", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "9741b35f6d4b68eea49803f9abe6d4fd5be4b4e0acf8d7da62757d64b1fa5871", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/tabs/tab.js": {
+      "moduleName": "tabs/tab", 
+      "requirements": {
+        "../api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "../content/worker": {
+          "path": "api-utils/lib/content/worker.js"
+        }, 
+        "./events": {
+          "path": "api-utils/lib/tabs/events.js"
+        }, 
+        "../utils/data": {
+          "path": "api-utils/lib/utils/data.js"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "../functional": {
+          "path": "api-utils/lib/functional.js"
+        }, 
+        "addon-kit-sf/windows": {
+          "path": "addon-kit-sf/lib/windows.js"
+        }, 
+        "../utils/thumbnail": {
+          "path": "api-utils/lib/utils/thumbnail.js"
+        }, 
+        "./utils": {
+          "path": "api-utils/lib/tabs/utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "789a633f3755cf41f61a8aa4e84e35ff4f52c3011ae95ccb2e120f240644316e", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/page-mod.js": {
+      "moduleName": "page-mod", 
+      "requirements": {
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/content/loader": {
+          "path": "api-utils/lib/content/loader.js"
+        }, 
+        "api-utils/content": {
+          "path": "api-utils/lib/content.js"
+        }, 
+        "api-utils/match-pattern": {
+          "path": "api-utils/lib/match-pattern.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "api-utils/utils/object": {
+          "path": "api-utils/lib/utils/object.js"
+        }, 
+        "api-utils/utils/registry": {
+          "path": "api-utils/lib/utils/registry.js"
+        }, 
+        "api-utils/list": {
+          "path": "api-utils/lib/list.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "edf0b9c98f28f96e10fcc481b5168104a7e403cb26e2a5deead350458fdffe1e", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/text-streams.js": {
+      "moduleName": "text-streams", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "1290e60106ce88356cef2f78ee594082a711063351825732037542920a779225", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/widget.js": {
+      "moduleName": "widget", 
+      "requirements": {
+        "api-utils/uuid": {
+          "path": "api-utils/lib/uuid.js"
+        }, 
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "api-utils/cortex": {
+          "path": "api-utils/lib/cortex.js"
+        }, 
+        "./panel": {
+          "path": "addon-kit-sf/lib/panel.js"
+        }, 
+        "api-utils/content/loader": {
+          "path": "api-utils/lib/content/loader.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/content": {
+          "path": "api-utils/lib/content.js"
+        }, 
+        "api-utils/traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "api-utils/timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "./windows": {
+          "path": "addon-kit-sf/lib/windows.js"
+        }, 
+        "api-utils/window-utils": {
+          "path": "api-utils/lib/window-utils.js"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "api-utils/window/utils": {
+          "path": "api-utils/lib/window/utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "40a380ded9df8f8acc7f35e994e725e67a15420773be35796286f8b31a9086a6", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/uuid.js": {
+      "moduleName": "uuid", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "f0dee5801e578994f6c69db12713062a103c380ed55aa0632a1f02c14a9d2a32", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/globals.js": {
+      "moduleName": "globals", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/system": {
+          "path": "api-utils/lib/system.js"
+        }, 
+        "./plain-text-console": {
+          "path": "api-utils/lib/plain-text-console.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "31580a972c125bda7ef670a334b489921072e0edabd9b1ffa4f6aa6ae831ef2c", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/event/core.js": {
+      "moduleName": "event/core", 
+      "requirements": {
+        "../namespace": {
+          "path": "api-utils/lib/namespace.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "c48b9cb97880955dcc1127a6740f1f153010989752d180d0fb5c34b1093d59da", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/types.js": {
+      "moduleName": "types", 
+      "requirements": {
+        "logger": {
+          "path": "utils-sf/lib/logger.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "916bd7ae8d85f406356500bbfce1eeaa6cf14c0952bbcd2f2a1548adad62d7c6", 
+      "docsSHA256": null
+    }, 
+    "utils-sf/lib/global-storage.js": {
+      "moduleName": "global-storage", 
+      "requirements": {
+        "services": {
+          "path": "utils-sf/lib/services.js"
+        }, 
+        "traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "utils-sf", 
+      "jsSHA256": "bbc35d9736c6082e3ca1dfe8330c1d4d73f47dd242a52c3e47ba5ebe831217c0", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/windows/dom.js": {
+      "moduleName": "windows/dom", 
+      "requirements": {
+        "api-utils/private-browsing/utils": {
+          "path": "api-utils/lib/private-browsing/utils.js"
+        }, 
+        "../traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "51fbd2f7a8077bbfbdd8d26fe36dd9d6d721407f3cdb4ffd40048f79122eb7f3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/traceback.js": {
+      "moduleName": "traceback", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./url": {
+          "path": "api-utils/lib/url.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "1eea45d6b1540b46d8ed296b37e9326e55e14715ec3209a0d38d99bf862f0cdd", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/traits/core.js": {
+      "moduleName": "traits/core", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "3a89ea0ad6095bd1e318549e622fd9a030373d04d329315a3a182e91c09614c5", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/dom/events.js": {
+      "moduleName": "dom/events", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "c4fc5994b6a4e0008cf52eaaa765a5ad313155946fa5be6ffd1b83396c3b576d", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/chrome.js": {
+      "moduleName": "api/chrome", 
+      "requirements": {
+        "utils-sf/arguments": {
+          "path": "utils-sf/lib/arguments.js"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }, 
+        "jetchrome/self": {
+          "path": "jetchrome/lib/self.js"
+        }, 
+        "test/assert": {
+          "path": "api-utils/lib/test/assert.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "2f6321c64037332706f01995e0523a1e43b23e37861063ef045a950bb88826bc", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/tabs/events.js": {
+      "moduleName": "tabs/events", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "601f63124ee5fc721827f0bc7d51a0ce285ac20afd954eeb1d5ea2b3ae31c4da", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/file.js": {
+      "moduleName": "file", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./text-streams": {
+          "path": "api-utils/lib/text-streams.js"
+        }, 
+        "./byte-streams": {
+          "path": "api-utils/lib/byte-streams.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "d9f0ff832e14d93aa74150db5f69ad57c2f28248f69d726d164cb118c8717b29", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/self.js": {
+      "moduleName": "self", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "238916031c3111ded4e5554772fc20c457e0f8bce097953382f938b3fed985e9", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/promise.js": {
+      "moduleName": "promise", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "0b36a2d7d5d3fb4281c3997586a94d73e373167f9bf9f69d9204efb0349191c9", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/webkit.js": {
+      "moduleName": "api/webkit", 
+      "requirements": {
+        "api/notifications": {
+          "path": "jetchrome/lib/api/notifications.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "e73a3992a5cb69e8d7426ff2970c9c6d0c7105694a463e7f1b448e32d1ba2ac3", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/window-utils.js": {
+      "moduleName": "window-utils", 
+      "requirements": {
+        "./window/utils": {
+          "path": "api-utils/lib/window/utils.js"
+        }, 
+        "./errors": {
+          "path": "api-utils/lib/errors.js"
+        }, 
+        "./events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "window/utils": {
+          "path": "api-utils/lib/window/utils.js"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "./traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "4249792ddfacc51f767af4bfef48062cd7faa09e01473b563c022aad01e2815a", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/functional.js": {
+      "moduleName": "functional", 
+      "requirements": {
+        "./timer": {
+          "path": "api-utils/lib/timer.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "251780f6cea3aaefcccc202ca69cce53d5a2214205dd465e7c754b126dd44dea", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/tabs/observer.js": {
+      "moduleName": "tabs/observer", 
+      "requirements": {
+        "../windows/observer": {
+          "path": "api-utils/lib/windows/observer.js"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "../events/assembler": {
+          "path": "api-utils/lib/events/assembler.js"
+        }, 
+        "../light-traits": {
+          "path": "api-utils/lib/light-traits.js"
+        }, 
+        "../window-utils": {
+          "path": "api-utils/lib/window-utils.js"
+        }, 
+        "../window/utils": {
+          "path": "api-utils/lib/window/utils.js"
+        }, 
+        "./utils": {
+          "path": "api-utils/lib/tabs/utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "b00783f97b0410b4e09afdb75a88af01527d1007545bbdc2ed85b9e1bd386989", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/tabs/utils.js": {
+      "moduleName": "tabs/utils", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "26cbc832f8b608804d7caf3babb536b66a7cba536562e178c0e7457efa8f8fa9", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/private-browsing/utils.js": {
+      "moduleName": "private-browsing/utils", 
+      "requirements": {
+        "api-utils/xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "api-utils/observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/functional": {
+          "path": "api-utils/lib/functional.js"
+        }, 
+        "api-utils/event/core": {
+          "path": "api-utils/lib/event/core.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "1930d9fa76a6e3d649117dcdb49046afaefd950d97fc70fc1865b354092b8a55", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/preferences-service.js": {
+      "moduleName": "preferences-service", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "fc8688186754bee871eb50c5fc644366019b455e0a9a0bea942bf09ce4129b3b", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/environment.js": {
+      "moduleName": "environment", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "d96f4609263ef09f541cbe4a9df8532594fbb01f642b0af632b71c95e70c4b0c", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/errors.js": {
+      "moduleName": "errors", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "a9f3c34b8f0ed4b45c08e3691f934610cf4568d0c7031073df4e8c792b4c211e", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/api/background.js": {
+      "moduleName": "api/background", 
+      "requirements": {
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "8c35c47f0133eef41e63061820fa385a949ce1c98cd23188f92523c8b18843be", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/cuddlefish.js": {
+      "moduleName": "cuddlefish", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/loader": {
+          "path": "api-utils/lib/loader.js"
+        }, 
+        "api-utils/addon/runner": {
+          "path": "api-utils/lib/addon/runner.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "0d277706fbd89eb350573857a507939d7547007a41e2b41e299b4739bfada97a", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/unload.js": {
+      "moduleName": "unload", 
+      "requirements": {
+        "@loader/unload": {
+          "path": "@loader/unload"
+        }, 
+        "./system/events": {
+          "path": "api-utils/lib/system/events.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "b973f42e953989e84a4919f20d29e2ca742e71b9c857c173e325d8e99ea69471", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/simple-storage.js": {
+      "moduleName": "simple-storage", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "self": {
+          "path": "api-utils/lib/self.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "api-utils/preferences-service": {
+          "path": "api-utils/lib/preferences-service.js"
+        }, 
+        "api-utils/file": {
+          "path": "api-utils/lib/file.js"
+        }, 
+        "api-utils/event/core": {
+          "path": "api-utils/lib/event/core.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "7ab9cfa0f6ac65ea6179658fa935101e50a1c3fd510e0875594e1c44ffe2386e", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/url.js": {
+      "moduleName": "url", 
+      "requirements": {
+        "./base64": {
+          "path": "api-utils/lib/base64.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./heritage": {
+          "path": "api-utils/lib/heritage.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "5c88a2a8337dcc785ff3e6d3f10d7e83dcd6c39b7cb911618379a256443facbf", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/system.js": {
+      "moduleName": "system", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }, 
+        "./runtime.js": {
+          "path": "api-utils/lib/runtime.js"
+        }, 
+        "./environment": {
+          "path": "api-utils/lib/environment.js"
+        }, 
+        "./file": {
+          "path": "api-utils/lib/file.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "d72f5fd73f425cf6ee74f60ec5afc51f8f19b77bd5fccf0d14e305fdf07e4d64", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/system/events.js": {
+      "moduleName": "system/events", 
+      "requirements": {
+        "../namespace": {
+          "path": "api-utils/lib/namespace.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "../xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }, 
+        "../heritage": {
+          "path": "api-utils/lib/heritage.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "4784b543a1b284897d10e77ad35110351e66525d0b3b440aceba9453e909d7fc", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/utils/data.js": {
+      "moduleName": "utils/data", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "../base64": {
+          "path": "api-utils/lib/base64.js"
+        }, 
+        "api-utils/base64": {
+          "path": "api-utils/lib/base64.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "b59000d442138a2b2e15be6e0d606c09ec81b93c0e6dbc56002d92e1c251635a", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/hidden-frame.js": {
+      "moduleName": "hidden-frame", 
+      "requirements": {
+        "./errors": {
+          "path": "api-utils/lib/errors.js"
+        }, 
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "./xul-app": {
+          "path": "api-utils/lib/xul-app.js"
+        }, 
+        "./collection": {
+          "path": "api-utils/lib/collection.js"
+        }, 
+        "./api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "89acb3960fbc5ff9b03d48f866dadb6679b4a12decd92d9d7935051de5b6e9f4", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/plain-text-console.js": {
+      "moduleName": "plain-text-console", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "./traceback": {
+          "path": "api-utils/lib/traceback.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "42c7855906a65e3b39451245c6e5f682494bac2c6557b6ace14faecb714cbff6", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content/loader.js": {
+      "moduleName": "content/loader", 
+      "requirements": {
+        "../url": {
+          "path": "api-utils/lib/url.js"
+        }, 
+        "../api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "../file": {
+          "path": "api-utils/lib/file.js"
+        }, 
+        "../events": {
+          "path": "api-utils/lib/events.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "1fcb21d3e23b8d38d1054dcfa4c7a99d3f1dc77da41fc5a222dd38fb723c2f9e", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/namespace.js": {
+      "moduleName": "namespace", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "b668cfe8db6d69675a663eaa3edd6f29c11b9ca96c8da3cf333cbe8607ba0fea", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/light-traits.js": {
+      "moduleName": "light-traits", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "8d00d1661a149cf6e1ac50354418c4ac24e9d692b40ef8976ae481373d8bfb2c", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/xhr.js": {
+      "moduleName": "xhr", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "api-utils/memory": {
+          "path": "api-utils/lib/memory.js"
+        }, 
+        "./unload": {
+          "path": "api-utils/lib/unload.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "84be6976f23c885e91b236fb9b494875b73216c66393a78f0b771404dd3c9cbb", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/windows/loader.js": {
+      "moduleName": "windows/loader", 
+      "requirements": {
+        "chrome": {
+          "path": "chrome"
+        }, 
+        "../timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "../traits": {
+          "path": "api-utils/lib/traits.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "efd6ed41deec689db50dc09024fdd2d8ddcb8338f53b65a25447f2a38fa78c85", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/content/content-proxy.js": {
+      "moduleName": "content/content-proxy.js", 
+      "requirements": {
+        "./content-proxy.js": {
+          "path": "api-utils/lib/content/content-proxy.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "f9e1ab9295461fba3cf0fdef066c58942b62e7044ca63965f932ee82af993a76", 
+      "docsSHA256": null
+    }, 
+    "jetchrome/lib/jetchrome.js": {
+      "moduleName": "jetchrome", 
+      "requirements": {
+        "jetchrome/api/webstorage": {
+          "path": "jetchrome/lib/api/webstorage.js"
+        }, 
+        "utils-sf/permission": {
+          "path": "utils-sf/lib/permission.js"
+        }, 
+        "api-utils/observer-service": {
+          "path": "api-utils/lib/observer-service.js"
+        }, 
+        "jetchrome/api/console": {
+          "path": "jetchrome/lib/api/console.js"
+        }, 
+        "jetchrome/api/xmlhttprequest": {
+          "path": "jetchrome/lib/api/xmlhttprequest.js"
+        }, 
+        "api-utils/traits": {
+          "path": "api-utils/lib/traits.js"
+        }, 
+        "utils-sf/global-storage": {
+          "path": "utils-sf/lib/global-storage.js"
+        }, 
+        "api-utils/cuddlefish": {
+          "path": "api-utils/lib/cuddlefish.js"
+        }, 
+        "preferences-service": {
+          "path": "api-utils/lib/preferences-service.js"
+        }, 
+        "jetchrome/api/chrome": {
+          "path": "jetchrome/lib/api/chrome.js"
+        }, 
+        "api-utils/list": {
+          "path": "api-utils/lib/list.js"
+        }, 
+        "addon-kit-sf/request": {
+          "path": "addon-kit-sf/lib/request.js"
+        }, 
+        "addon-kit-sf/windows": {
+          "path": "addon-kit-sf/lib/windows.js"
+        }, 
+        "addon-kit-sf/page-mod": {
+          "path": "addon-kit-sf/lib/page-mod.js"
+        }, 
+        "@loader/options": {
+          "path": "@loader/options"
+        }, 
+        "jetchrome/api/misc": {
+          "path": "jetchrome/lib/api/misc.js"
+        }, 
+        "tabs/tab": {
+          "path": "api-utils/lib/tabs/tab.js"
+        }, 
+        "api-utils/file": {
+          "path": "api-utils/lib/file.js"
+        }, 
+        "addon-kit-sf/tabs": {
+          "path": "addon-kit-sf/lib/tabs.js"
+        }, 
+        "api-utils/unload": {
+          "path": "api-utils/lib/unload.js"
+        }, 
+        "api-utils/url": {
+          "path": "api-utils/lib/url.js"
+        }, 
+        "api-utils/match-pattern": {
+          "path": "api-utils/lib/match-pattern.js"
+        }, 
+        "addon-kit-sf/simple-storage": {
+          "path": "addon-kit-sf/lib/simple-storage.js"
+        }, 
+        "utils-sf/url-pattern": {
+          "path": "utils-sf/lib/url-pattern.js"
+        }, 
+        "jetchrome/api/background": {
+          "path": "jetchrome/lib/api/background.js"
+        }, 
+        "addon-kit-sf/context-menu": {
+          "path": "addon-kit-sf/lib/context-menu.js"
+        }, 
+        "utils-sf/logger": {
+          "path": "utils-sf/lib/logger.js"
+        }, 
+        "addon-kit-sf/panel": {
+          "path": "addon-kit-sf/lib/panel.js"
+        }, 
+        "jetchrome/self": {
+          "path": "jetchrome/lib/self.js"
+        }, 
+        "timer": {
+          "path": "api-utils/lib/timer.js"
+        }, 
+        "jetchrome/api/webkit": {
+          "path": "jetchrome/lib/api/webkit.js"
+        }, 
+        "components": {
+          "path": "utils-sf/lib/components.js"
+        }, 
+        "addon-kit-sf/widget": {
+          "path": "addon-kit-sf/lib/widget.js"
+        }, 
+        "utils-sf/protocol": {
+          "path": "utils-sf/lib/protocol.js"
+        }, 
+        "addon-kit-sf/page-worker": {
+          "path": "addon-kit-sf/lib/page-worker.js"
+        }, 
+        "utils-sf/services": {
+          "path": "utils-sf/lib/services.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "jetchrome", 
+      "jsSHA256": "0406488d8a454a299cefc42ed4554950ff990f57673ba108b4213e631722bc7d", 
+      "docsSHA256": null
+    }, 
+    "api-utils/lib/collection.js": {
+      "moduleName": "collection", 
+      "requirements": {}, 
+      "sectionName": "lib", 
+      "packageName": "api-utils", 
+      "jsSHA256": "dd21613fd2a748fcee0510f2ce774248c03c3fa34459c5a238d9ffd9b5d1f110", 
+      "docsSHA256": null
+    }, 
+    "addon-kit-sf/lib/request.js": {
+      "moduleName": "request", 
+      "requirements": {
+        "api-utils/api-utils": {
+          "path": "api-utils/lib/api-utils.js"
+        }, 
+        "api-utils/events": {
+          "path": "api-utils/lib/events.js"
+        }, 
+        "api-utils/errors": {
+          "path": "api-utils/lib/errors.js"
+        }, 
+        "api-utils/xhr": {
+          "path": "api-utils/lib/xhr.js"
+        }, 
+        "api-utils/xpcom": {
+          "path": "api-utils/lib/xpcom.js"
+        }
+      }, 
+      "sectionName": "lib", 
+      "packageName": "addon-kit-sf", 
+      "jsSHA256": "757abaf8d895e8c6396270f419207d39993ddf78937d8854aa02bab344a3d8f5", 
+      "docsSHA256": null
+    }
+  }, 
+  "enable_e10s": false, 
+  "verbose": false, 
+  "main": "main", 
+  "metadata": {
+    "addon-kit-sf": {
+      "name": "addon-kit-sf", 
+      "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+      "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>", 
+      "version": "1.10", 
+      "contributors": [
+        "Myk Melez (http://melez.com/) <myk@mozilla.org>", 
+        "Daniel Aquino <mr.danielaquino@gmail.com>"
+      ], 
+      "keywords": [
+        "javascript", 
+        "engine", 
+        "platform", 
+        "xulrunner"
+      ], 
+      "description": "Add-on development made easy."
+    }, 
+    "jetchrome": {
+      "name": "jetchrome", 
+      "version": "0.1", 
+      "description": "Chrome to Mozilla library", 
+      "license": "SF", 
+      "author": "Slice Factory"
+    }, 
+    "utils-sf": {
+      "name": "utils-sf", 
+      "version": "0.1", 
+      "description": "Some utils", 
+      "license": "SF", 
+      "author": "Slice Factory"
+    }, 
+    "extension": {
+      "name": "extension", 
+      "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+      "author": "[Slice Factory]", 
+      "version": "0.1", 
+      "main": "main", 
+      "description": "[a basic add-on]"
+    }, 
+    "api-utils": {
+      "name": "api-utils", 
+      "license": "MPL 2.0", 
+      "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>", 
+      "contributors": [
+        "Myk Melez (http://melez.com/) <myk@mozilla.org>", 
+        "Daniel Aquino <mr.danielaquino@gmail.com>"
+      ], 
+      "keywords": [
+        "javascript", 
+        "engine", 
+        "platform", 
+        "xulrunner", 
+        "jetpack-low-level"
+      ], 
+      "description": "Foundational infrastructure and utilities."
+    }
+  }
+}

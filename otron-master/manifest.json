@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+
+    "name": "OTRon",
+    "version": "0.1",
+    "description": "Encrypt your Facebook chats.",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.facebook.com/*"],
+
+            "css": ["css/fbotr.css"],
+            "js": ["lib/jquery.min.js",
+                   "js/shared.js",
+                   "js/fbotr.js"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["lib/bigint.js", "lib/crypto.js", "lib/eventemitter.js",
+                    "lib/otr.js", "js/shared.js",
+                    "lib/identicon.js",
+                    "js/gen.js", "js/event.js"],
+        "persistent": false
+    },
+
+    "web_accessible_resources": [
+        "safechat.html",
+        "img/unlock-alt.png",
+        "img/unlock-alt-hover.png",
+        "img/lock.png",
+        "img/lock-hover.png"
+    ],
+
+    "options_page": "options.html",
+
+    "permissions": ["storage"]
+}

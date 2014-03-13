@@ -1,0 +1,89 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "content/images/publish-sync/icons/19.png",
+      "default_popup": "pages/loading.html"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/publish-sync/foreground/social_helpers/site.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "scripts/jquery-1.7.2.min.js", "scripts/common.js", "scripts/publish-sync/foreground/buffer.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "all_frames": false,
+      "js": [ "scripts/jquery-1.7.2.min.js", "scripts/language.js", "scripts/common.js", "scripts/publish-sync/foreground/menu.js", "scripts/publish-sync/foreground/socialClient.js", "scripts/publish-sync/foreground/social_helpers/client.facebook.js", "scripts/publish-sync/foreground/social_helpers/client.gplus.js", "scripts/publish-sync/foreground/social_helpers/siteHelper.js" ],
+      "matches": [ "http://plus.google.com/*", "https://plus.google.com/*", "http://twitter.com/*", "https://twitter.com/*", "http://*.facebook.com/*", "https://*.facebook.com/*", "http://www.plurk.com/*", "http://*.weibo.com/*", "http://t.qq.com/*", "http://*.linkedin.com/*", "https://*.linkedin.com/*", "http://*.vk.com/*", "https://*.vk.com/*", "http://*.renren.com/*", "https://*.renren.com/*", "http://*.kaixin001.com/*", "https://*.kaixin001.com/*", "http://*.qzone.qq.com/*", "https://*.qzone.qq.com/*", "http://socialba.com/ext/user/session*", "https://socialba.com/ext/user/session*" ]
+   }, {
+      "css": [ "content/share.css" ],
+      "js": [ "scripts/common.js", "scripts/share/share.js", "scripts/share/s.twitter.injection.js" ],
+      "matches": [ "http://twitter.com/*", "https://twitter.com/*" ]
+   }, {
+      "css": [ "content/share.css" ],
+      "js": [ "scripts/common.js", "scripts/share/share.js", "scripts/share/s.gplus.injection.js" ],
+      "matches": [ "https://plus.google.com/*" ]
+   }, {
+      "js": [ "scripts/jquery-1.7.2.min.js", "scripts/common.js", "scripts/publish-sync/foreground/socialClient.js", "scripts/publish-sync/foreground/session.js" ],
+      "matches": [ "http://*.socialba.com/v/welcome*" ]
+   }, {
+      "js": [ "scripts/jquery-1.7.2.min.js", "scripts/publish-sync/foreground/socialClient.js", "scripts/publish-sync/foreground/session.js" ],
+      "matches": [ "http://socialba.com/ext/user/session*", "https://socialba.com/ext/user/session*", "http://api.vkontakte.ru/blank.html*", "http://open.z.qq.com/moc2/success.jsp*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_gplus.js" ],
+      "matches": [ "https://plus.google.com/*", "http://plus.google.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_facebook.js" ],
+      "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_twitter.js" ],
+      "matches": [ "http://twitter.com/*", "http://www.twitter.com/*", "https://twitter.com/*", "https://www.twitter.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_plurk.js" ],
+      "matches": [ "http://www.plurk.com/*", "https://www.plurk.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_weibo.js" ],
+      "matches": [ "http://*.weibo.com/*", "https://*.weibo.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_tencent.js" ],
+      "matches": [ "http://t.qq.com/*", "https://t.qq.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_vkontakte.js" ],
+      "matches": [ "http://vk.com/*", "https://vk.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_renren.js" ],
+      "matches": [ "http://*.renren.com/*", "https://*.renren.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_kaixin001.js" ],
+      "matches": [ "http://*.kaixin001.com/*", "https://*.kaixin001.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_qzone.js" ],
+      "matches": [ "http://*.qzone.qq.com/*", "https://*.qzone.qq.com/*" ]
+   }, {
+      "js": [ "scripts/publish-sync/foreground/social_injection/site_linkedin.js" ],
+      "matches": [ "http://*.linkedin.com/*", "https://*.linkedin.com/*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "scripts/publish-sync/background/social_helpers/weibo.iframe.js" ],
+      "matches": [ "http://www.weibo.com/favicon.ico*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "content/images/publish-sync/icons/128.png",
+      "16": "content/images/publish-sync/icons/16.png",
+      "19": "content/images/publish-sync/icons/19.png",
+      "48": "content/images/publish-sync/icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXqrAO3D82/M7kj6jeB3Znzp3W0ve4RkFjpBI48n5w9nGjioEPUds23B9zctv9cg1Z2rmK1GDYHUce8DsppgsaDUI1o/OmhF1j8j00/Co2R9EjnO+IlkU/GKZxO10D8oaXK+6WU9quePY2EEsEsfADdAgIk+4p8bkCU+Wm2hn7qwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "__MSG_name__",
+   "permissions": [ "notifications", "management", "tabs", "http://*/*", "https://*/*", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.78",
+   "web_accessible_resources": [ "pages/loading.html", "pages/options.html", "pages/buffer.html", "pages/bufferlist.html", "pages/buffernotify.html", "content/images/noticeIcon.png", "content/images/publish-sync/icons/48.png", "content/images/publish-sync/icons/locked.png", "content/images/publish-sync/icons/page.png", "content/images/publish-sync/icons/question.png", "content/images/publish-sync/icons/clock.png", "content/images/publish-sync/menu/l_blue.png", "content/images/publish-sync/menu/l_blue2.png", "content/images/publish-sync/menu/l_white.png", "content/share-0.png", "content/share-1.png" ]
+}

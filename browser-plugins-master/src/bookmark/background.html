@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+			chrome.browserAction.setIcon({path: "gmail_logged_in.png"});
+			chrome.browserAction.setTitle({title: "bookmark all the tabs."});
+			// Called when the user clicks on the browser action.
+			chrome.browserAction.onClicked.addListener(function(tab) {
+				chrome.bookmarks.getTree(function(bnodes) {
+					console.log("fetching the bookmarks : " + bnodes.length);
+					console.log(typeof(bnodes) + " " + bnodes.id + " " + bnodes.title + " " + bnodes.url);
+					for (i = 0; i < bnodes.length; i++) {
+						console.log(bnodes[i].id + " " + bnodes[i].title + " " + bnodes[i].url);
+					}
+					chrome.bookmarks.getChildren('1', function(bnds) {
+						for (i = 0; i < bnds.length; i++) {
+							console.log(bnds[i].id + " " + bnds[i].title + " " + bnds[i].url);
+						}
+					});
+				});
+				chrome.tabs.getAllInWindow(tab.windowId, function(tbs) {
+					for (i = 0; i < tbs.length; i ++) {
+						tb = tbs[i];
+						console.log(tb.id + " " + tb.index + " " + tb.windowId);
+						console.log(tb.title + " " + tb.url + " " + tb.selected);
+						chrome.bookmarks.create({'parentId': '632', 'title': tb.title, 'url': tb.url });
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

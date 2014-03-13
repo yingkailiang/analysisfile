@@ -1,0 +1,65 @@
+#rectangles,
+#ellipses {
+    margin-bottom:10px;
+    @include border-radius(0 0 5 5);
+    @include box-shadow(0 0 0 1px #aaa);
+    
+    .sandbox {
+        position:relative;
+        width:500px;
+        height:375px;
+
+        canvas.preview {
+            position:absolute;
+        }
+    }
+
+    .tools {
+        border-top:1px solid #fcfbf7 * 0.8;
+        padding:10px;
+        background:#eee;
+        //@include bg-linear-gradient((90deg, #ddd 0%, #eee 100%));
+        @include bg-linear-gradient((-90deg, #fcfbf7 0%,#e7e6dc 100%));
+        @include border-radius(0 0 6 6);
+
+        ul.color_list {
+            display:inline-block;
+
+            li {
+                display:inline-block;
+                width:30px;
+                height:30px;
+                margin-right:3px;
+                @include border-radius(15px);
+                @include box-shadow((
+                    1px 1px 1px rgba(#fff, 1),
+                    inset 1px 1px 1px rgba(#000, 0.3)
+                ));
+                border:2px solid #888;
+
+                &.active {
+                    border:3px solid $rectangle_tool_selected_color;
+                }
+            }
+        }
+    }
+
+    .opacity {
+        display:inline-block;
+        width:68px;
+        margin-right:15px;
+
+        input {
+            width:100%;
+        }
+
+        label {
+            display:block;
+            font:12px Arial, sans-serif;
+            font-weight:bold;
+            text-align:center;
+            color:#999;
+            margin-bottom:5px;
+        }
+    }
+}

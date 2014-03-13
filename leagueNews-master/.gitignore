@@ -1,0 +1,10 @@
+node_modules
+ruby_modules
+temp
+.tmp
+/dist
+.sass-cache
+.bundle
+.DS_Store
+dist.pem
+dist.crx

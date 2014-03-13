@@ -1,0 +1,41 @@
+{
+  "web_accessible_resources": [
+    "images/checkmark.png"
+  ], 
+  "description": "IMDB Watchlist Checker", 
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.imdb.com/name/nm*", 
+        "https://www.imdb.com/name/nm*"
+      ], 
+      "all_frames": true, 
+      "js": [
+        "includes/content.js"
+      ], 
+      "run_at": "document_start"
+    }
+  ], 
+  "manifest_version": 2, 
+  "icons": {
+    "128": "icons/icon128.png", 
+    "48": "icons/icon48.png", 
+    "16": "icons/button.png"
+  }, 
+  "homepage_url": "http://imdbwatcher.azurewebsites.net", 
+  "version": "0.2", 
+  "background": {
+    "page": "background.html"
+  }, 
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'", 
+  "permissions": [
+    "tabs", 
+    "http://www.imdb.com/name/nm*", 
+    "https://www.imdb.com/name/nm*", 
+    "contextMenus", 
+    "webNavigation", 
+    "notifications", 
+    "cookies"
+  ], 
+  "name": "IMDB Watchlist Checker"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ReadingList Extension",
+  "description": "ReadingList extension opens up all the websites marked as part of the daily-reading.",
+  "version": "0.1",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs", "bookmarks"
+   ],
+  "browser_action": {
+      "default_title": "open readinglist!",
+      "default_icon" : "icon-32x.png"
+  },
+  "icons": {
+    "128": "icon-32x.png"
+  }
+}

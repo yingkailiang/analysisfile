@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "youku.js", "js/youku.js", "gmWrapper.js"],
+      "matches": [ "http://youku.com/*", "http://*.youku.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "runtb.js" ],
+      "matches": [ "http://youku.com/*", "http://*.youku.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "\u4F18\u9177\u5E7F\u544A\u6740\u624B \u5C4F\u853D\u4F18\u9177\u5E7F\u544A,\u5C4F\u853D\u571F\u8C46\u5E7F\u544A\u3002\u53BB\u9664\u4F18\u9177\u3001\u571F\u8C46\u89C6\u9891\u64AD\u653E\u7684\u524D\u51E0\u5341\u79D2\u7684\u5E7F\u544A,\u89E3\u9664\u4EC5\u9650\u5185\u5730\u64AD\u653E\u9650\u5236\uFF0C\u63D0\u4F9B\u89C6\u9891\u5FEB\u6377\u4E0B\u8F7D\u94FE\u63A5\uFF0C\u89C6\u9891\u97F3\u9891\u4E0B\u8F7D\u3001\u6539\u8FDB\u8C46\u74E3\u6548\u679C\uFF0C\u5728\u8C46\u74E3\u4E0A\u67E5\u627E\u4F18\u9177\u3002",
+   "icons": {
+      "128": "icon64.png",
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClHyp/NRaR6mXx7RpsKNNnLjH3WDEViH7yv5kDIkczFH9Pauz2jYfdN2vMxb36hGu5WipitdMDLQP0rOPIl3E/mWWsxnWQWCjtSdLBWRgNdH/1CFv7L0GzsytM5K784V3Ccy3SidGWfUulmOT8ofbSDlsslLBnQg3/c57DvRUkYwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "\u4F18\u9177\u5E7F\u544A\u6740\u624B",
+   "options_page": "options.html",
+   "permissions": [ "http://youku.com/*", "http://*.youku.com/*", "http://*.tudou.com/*", "notifications", "webRequestBlocking", "webRequest", "notifications", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "6.8"
+}

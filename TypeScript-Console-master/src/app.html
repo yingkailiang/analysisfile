@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <script src="lib/beautify.js" type="text/javascript" charset="utf-8"></script>
+    <script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="ace/mode-typescript.js" type="text/javascript" charset="utf-8"></script>
+    <script src="ace/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+    <script src="ace/theme-monokai.js" type="text/javascript" charset="utf-8"></script>    
+    <script src="lib/typescript.js" type="text/javascript" charset="utf-8"></script>    
+
+    <script src="shims.js" type="text/javascript" charset="utf-8"></script>
+    <script src="compliationService.js" type="text/javascript" charset="utf-8"></script>
+    <script src="historyProvider.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #ts-editor {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            left: 0;
+        }
+
+        #js-output {
+            position: fixed;
+            right: 0;
+            height: 100%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>    
+    <div class="help"><span>Ctrl+Enter - Runs JS in console</span><span id="historyIndex">0</span></div>
+    <div id="ts-editor"></div>
+    <div id="js-output"></div>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

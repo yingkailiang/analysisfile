@@ -1,0 +1,7 @@
+["chrome.bookmarks", "chrome.omnibox", "chrome.management",
+		"chrome.tabs.onAttached", "chrome.tabs.onDetached",
+		"chrome.extension.isAllowedFileSchemeAccess",
+		"chrome.extension.isAllowedIncognitoAccess",
+		"chrome.extension.setUpdateUrlData",
+		"chrome.extension.onConnectExternal",
+		"chrome.extension.onRequestExternal"]

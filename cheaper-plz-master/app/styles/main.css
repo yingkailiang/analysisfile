@@ -1,0 +1,49 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+/* tell the SVG path to be a thin blue line without any area fill */
+path {
+  stroke: steelblue;
+  stroke-width: 1;
+  fill: none;
+}
+
+.brand {
+  font-family: "Finger Paint", cursive;
+}
+
+/* override font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .brand,
+.navbar .nav > li > a,
+.navbar .navbar-text,
+.navbar .dropdown-menu a,
+div.subnav,
+.btn,
+legend {
+  font-family: "Text Me One", sans-serif;
+}
+
+.cheaper-popup {
+  padding: 12px;
+}
+
+.price {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.old-price {
+  margin-left: 18px;
+}
+
+.sale {
+  color: #383;
+}
+
+.unsale {
+  color: #833;
+}

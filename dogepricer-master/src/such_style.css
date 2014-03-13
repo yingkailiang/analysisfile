@@ -1,0 +1,9 @@
+body {
+    font-family: "Comic Sans MS", sans-serif !important;
+    width: 500px;
+}
+
+#settings-div {
+    float: right;
+    cursor: pointer;
+}

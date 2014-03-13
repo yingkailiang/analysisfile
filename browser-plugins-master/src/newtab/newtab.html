@@ -1,0 +1,2935 @@
+<!DOCTYPE html>
+<html i18n-values=" 
+ dir:textdirection;
+ bookmarkbarattached:bookmarkbarattached;
+ hasattribution:hasattribution;
+ anim:anim;
+ syncispresent:syncispresent;
+ showsetashomepage:showsetashomepage"> 
+    <meta charset="utf-8">
+    <title i18n-content="title"></title>
+    <script>
+        // Logging info for benchmarking purposes.
+        var log = [];
+        function logEvent(name, shouldLogTime){
+            if (shouldLogTime) {
+                chrome.send('logEventTime', [name]);
+            }
+            log.push([name, Date.now()]);
+        }
+        
+        logEvent('Tab.NewTabScriptStart', true);
+        
+        var global = this;
+        
+        /**
+         * Registers a callback function so that if the backend calls it too early it
+         * will get delayed until DOMContentLoaded is fired.
+         * @param {string} name The name of the global function that the backend calls.
+         */
+        function registerCallback(name){
+            var f = function(var_args){
+                var args = Array.prototype.slice.call(arguments);
+                // If we still have the temporary function we delay until the dom is ready.
+                if (global[name] == f) {
+                    logEvent(name + ' is not yet ready. Waiting for DOMContentLoaded');
+                    document.addEventListener('DOMContentLoaded', function(){
+                        logEvent('Calling the new ' + name);
+                        global[name].apply(null, args);
+                    });
+                }
+            };
+            global[name] = f;
+        }
+        
+        chrome.send('getMostVisited');
+        chrome.send('getRecentlyClosedTabs');
+        chrome.send('getTips');
+        
+        registerCallback('onShownSections');
+        registerCallback('mostVisitedPages');
+        registerCallback('recentlyClosedTabs');
+        registerCallback('syncMessageChanged');
+        registerCallback('tips');
+        registerCallback('onHomePageSet');
+    </script>
+    <script>
+        var templateData = {
+            "anim": "true",
+            "attributionintro": "Theme created by",
+            "bookmarkbarattached": "false",
+            "bookmarks": "Recent bookmarks",
+            "cancelediting": "Cancel",
+            "closedwindowmultiple": "%s Tabs",
+            "closedwindowsingle": "1 Tab",
+            "closefirstrunnotification": "Close",
+            "doneediting": "Done",
+            "editmodeheading": "Click <div id=\"cross-image-container\"><\/div> to remove the thumbnail",
+            "editthumbnails": "Remove a thumbnail",
+            "extensionslink": "https://chrome.google.com/extensions?hl=en-US",
+            "firstrunnotification": "Over time, the area below will show your eight most visited sites.",
+            "fontfamily": "Arial",
+            "fontsize": "84%",
+            "hasattribution": "false",
+            "hidelist": "Hide list",
+            "hiderecentlyclosedtabs": "Hide recently closed tabs",
+            "hidethumbnails": "Hide thumbnails",
+            "makethishomepage": "Make this my home page",
+            "mostvisited": "Most visited",
+            "mostvisitedintro": "The \"Most visited\" area shows the websites that you use most often. After using Google Chrome for a while, you will see your most visited sites whenever you open a new tab. You can learn more about this and other features on the <a href=\"http://tools.google.com/chrome/intl/en/welcome.html\">Getting Started page<\/a>.",
+            "otrmessage": "<strong>You've gone incognito<\/strong>. Pages you view in this window won't appear in your browser history or search history, and they won't leave other traces, like cookies, on your computer after you close the incognito window. Any files you download or bookmarks you create will be preserved, however.\n        <br /><br />\n        <strong>Going incognito doesn't affect the behavior of other people, servers, or software. Be wary of:<\/strong>\n        <ul>\n          <li>Websites that collect or share information about you<\/li>\n          <li>Internet service providers or employers that track the pages you visit<\/li>\n          <li>Malicious software that tracks your keystrokes in exchange for free smileys<\/li>\n          <li>Surveillance by secret agents<\/li>\n          <li>People standing behind you<\/li>\n        <\/ul>\n        <a href=\"$1\">Learn more<\/a> about incognito browsing.",
+            "pagedisplaytooltip": "Change page layout",
+            "pinthumbnailtooltip": "Keep on this page",
+            "promomessage": "Google Chrome now has <a href=\"https://chrome.google.com/extensions?hl=en-US\">extensions<\/a> and <button>bookmark sync<\/button>.",
+            "promonew": "New!",
+            "recent": "Recent",
+            "recentlyclosed": "Recently closed",
+            "removethumbnailtooltip": "Don't show on this page",
+            "restorethumbnails": "Restore all removed thumbnails",
+            "searches": "Searches",
+            "searchhistory": "Search your history",
+            "showhidelisttooltip": "List view",
+            "showhidethumbnailtooltip": "Thumbnail view",
+            "showhistory": "Show full history",
+            "showhistoryurl": "chrome://history/",
+            "showlist": "Show list",
+            "shown_sections": 29,
+            "showrecentlyclosedtabs": "Show recently closed tabs",
+            "showthumbnails": "Show thumbnails",
+            "sync": "Bookmark sync",
+            "syncispresent": "false",
+            "textdirection": "ltr",
+            "themelink": "https://tools.google.com/chrome/intl/en/themes/index.html",
+            "thumbnailremovednotification": "Thumbnail removed.",
+            "tips": "Tips",
+            "title": "New Tab",
+            "undothumbnailremove": "Undo",
+            "unpinthumbnailtooltip": "Don't keep on this page",
+            "viewfullhistory": "View full history"
+        };
+    </script>
+    <style>
+        html {
+            /* This is needed because of chrome://theme/css/new_tab.css */
+            height: 100%;
+        }
+        
+        body {
+            margin: 0;
+            height: 100%;
+            overflow: auto;
+        }
+        
+        #container {
+            position: relative;
+            min-height: 100%;
+        }
+        
+        #promo-spacer {
+            height: 50px;
+        }
+        
+        #main {
+            background: url(chrome://theme/product_logo) no-repeat 0 6px;
+            position: relative;
+            margin: 0 auto;
+            width: 920px;
+            min-height: 50px;
+            -webkit-transition: width .15s;
+            padding-bottom: 110px;
+        }
+        
+        html[dir =
+        'rtl'] #main {
+            background-position-x: 100%;
+        }
+        
+        html[anim =
+        'false'] *, .no-anim, .no-anim *, .loading * {
+            -webkit-transition: none !important;
+            -webkit-animation: none !important;
+        }
+        
+        /* Most Visited */
+        #most-visited {
+            position: relative;
+            padding: 0;
+            margin-bottom: 34px;
+            height: 366px;
+            -webkit-user-select: none;
+            -webkit-transition: height .15s, opacity .15s;
+        }
+        
+        .thumbnail-container {
+            position: absolute;
+            color: black;
+            text-decoration: none;
+            -webkit-transition: left .15s, right .15s, top .15s;
+        }
+        
+        .list > .thumbnail-container {
+            overflow: hidden;
+        }
+        
+        /* hide outline in thumbnail view */:
+        not(.list) > .thumbnail-container:focus {
+            outline: none;
+        }
+        
+        .thumbnail, .thumbnail-container > .title {
+            width: 207px; /* natural size is 196 */
+            height: 129px; /* 136 */
+            -webkit-transition: width .15s, height .15s;
+        }
+        
+        .thumbnail-wrapper {
+            display: block;
+            -webkit-background-size: 212px 132px;
+            background: no-repeat 4px 4px;
+            background-color: white;
+            -webkit-border-radius: 5px;
+            -webkit-transition: -webkit-background-size .15s;
+            position: relative;
+        }
+        
+        .filler * {
+            visibility: hidden;
+        }
+        
+        .filler {
+            pointer-events: none;
+        }
+        
+        .filler .thumbnail-wrapper {
+            visibility: visible;
+            border: 3px solid hsl(213, 60%, 92%);
+        }
+        
+        .list > .filler * {
+            visibility: hidden !important;
+        }
+        
+        .filler .thumbnail {
+            visibility: inherit;
+            border: 1px solid white;
+            padding: 0;
+            background-color: hsl(213, 60%, 92%);
+        }
+        
+        .edit-bar {
+            display: -webkit-box;
+            -webkit-box-orient: horizontal;
+            -webkit-box-align: stretch;
+            padding: 3px;
+            padding-bottom: 0;
+            height: 17px; /* 23 - 2 * 3 */
+            cursor: move;
+            font-size: 100%;
+            line-height: 17px;
+            background: hsl(213, 54%, 95%);
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-top-right-radius: 4px;
+            position: relative;
+            margin-top: 21px;
+            margin-bottom: -21px;
+            -webkit-transition: margin .15s, background .15s;
+        }
+        
+        .edit-bar > * {
+            display: block;
+            position: relative;
+        }
+        
+        .thumbnail-container:focus .edit-bar, .thumbnail-container:hover .edit-bar {
+            margin-top: 0;
+            margin-bottom: 0;
+            -webkit-transition-delay: .5s, 0s;
+            /* We need background-color as well to get the fade out animation correct */
+            background-color: hsl(213, 66%, 57%);
+            background-image: -webkit-gradient(linear, left top, left bottom,
+                                             from(hsl(213, 87%, 67%)),
+                                             to(hsl(213, 66%, 57%)));
+        }
+         
+        .edit-bar > .spacer {
+          -webkit-box-flex: 1;
+        }
+         
+        .edit-bar > .pin,
+        .edit-bar > .remove {
+          width: 16px;
+          height: 16px;
+          cursor: pointer;
+          background-image: no-repeat 50% 50%;
+        }
+         
+        .edit-bar > .pin {
+          background-image: url(chrome://theme/newtab_pin_off);
+        }
+         
+        .edit-bar > .pin:hover {
+          background-image: url(chrome://theme/newtab_pin_off_h);
+        }
+         
+        .edit-bar > .pin:active {
+          background-image: url(chrome://theme/newtab_pin_off_p);
+        }
+         
+        .pinned .edit-bar > .pin {
+          background-image: url(chrome://theme/newtab_pin_on);
+        }
+         
+        .pinned .edit-bar > .pin:hover {
+          background-image: url(chrome://theme/newtab_pin_on_h);
+        }
+         
+        .pinned .edit-bar > .pin:active {
+          background-image: url(chrome://theme/newtab_pin_on_p);
+        }
+         
+        .edit-bar > .remove {
+          background-image: url(chrome://theme/newtab_close);
+        }
+         
+        .edit-bar > .remove:hover {
+          background-image: url(chrome://theme/newtab_close_h);
+        }
+         
+        .edit-bar > .remove:active {
+          background-image: url(chrome://theme/newtab_close_p);
+        }
+         
+        :link,
+        :visited,
+        .link {
+          cursor: pointer;
+          text-decoration: underline;
+          color: hsla(213, 90%, 24%, 0.33333);
+          -webkit-appearance: none;
+          border: 0;
+          background: none;
+        }
+         
+        .link-color {
+          color: hsl(213, 90%, 24%);
+          text-decoration: none;
+        }
+         
+        .thumbnail-container {
+          color: hsl(213, 90%, 24%);
+          text-decoration: none;
+        }
+         
+        .thumbnail-container > .title {
+          line-height: 16px;
+          height: 16px;
+          margin: 0;
+          margin-top: 4px;
+          font-size: 100%;
+          font-weight: normal;
+          padding: 0 3px;
+          opacity: 1;
+          -webkit-transition: opacity .15s, width .15s;
+          color: black;
+        }
+         
+        .thumbnail-container > .title > div {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+         
+          background: no-repeat 0 50%;
+          -webkit-background-size: 16px;
+          padding-left: 20px; /* we cannot use padding start here because even if we set
+                                 the direction we always want the icon on the same side
+                              */
+          padding-right: 0;
+        }
+         
+        html[dir=rtl] .thumbnail-container > .title > div {
+          background-position-x: 100%;
+          padding-left: 0;
+          padding-right: 20px;
+          text-align: right;
+        }
+         
+        .thumbnail {
+          border: 3px solid hsl(213, 63%, 93%);
+          padding: 1px;
+          -webkit-border-radius: 5px;
+          display: block;
+          -webkit-box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0);
+          -webkit-transition: width .15s, height .15s, border-color .15s,
+              -webkit-border-radius .15s, -webkit-box-shadow .15s;
+        }
+         
+        .edit-mode-border {
+          -webkit-border-radius: 4px;
+         
+          /* when dragged over we move this */
+          position: relative;
+          -webkit-transition: top .15s, left .15s;
+        }
+         
+        .thumbnail-container:focus .thumbnail,
+        .thumbnail-container:hover .thumbnail {
+          border-color: hsl(213, 66%, 57%);
+          -webkit-box-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0);
+          -webkit-border-top-left-radius: 0;
+          -webkit-border-top-right-radius: 0;
+         
+          background-image: -webkit-gradient(linear, left top, left bottom,
+            from(hsla(0, 0%, 0%, 0)),
+            color-stop(0.85, hsla(0, 0%, 47%, 0)),
+            to(hsla(0, 0%, 47%, 0.2))
+            );
+         
+          /* delay border radius transition as much as the edit bar slide delay */
+          -webkit-transition-delay: 0, 0, 0, .5s, 0;
+        }
+         
+        .thumbnail-container:focus > .edit-mode-border,
+        .thumbnail-container:hover > .edit-mode-border {
+          background-color: hsl(213, 66%, 57%);
+          -webkit-box-shadow: 0px 2px 2px hsla(0, 0%, 0%, .5);
+        }
+         
+        .dragging,
+        .dragging * {
+          -webkit-transition: none !important;
+        }
+         
+        .dragging > .title {
+          opacity: 0;
+        }
+         
+        .list > .dragging > .title {
+          opacity: 1;
+        }
+         
+        .hide {
+          opacity: 0 !important;
+          visibility: hidden !important;
+        }
+         
+        .collapsed {
+          height: 0 !important;
+          opacity: 0;
+        }
+         
+        @-webkit-keyframes 'fade-in' {
+          0% {
+            opacity: 0;
+          }
+         
+          100% {
+            opacity: 1;
+          }
+        }
+         
+        .fade-in {
+          -webkit-animation: 'fade-in' .15s;
+        }
+         
+        /* Notification */
+         
+        #notification {
+          position: relative;
+          background-color: hsl(52, 100%, 80%);
+          border: 1px solid rgb(211, 211, 211);
+          -webkit-border-radius: 6px;
+          padding: 7px 15px;
+          white-space: nowrap;
+          display: table;
+          margin: -8px auto 5px auto;
+          font-weight: bold;
+          opacity: 0;
+          -webkit-transition: opacity .15s;
+          pointer-events: none;
+          z-index: 1;
+          color: black;
+        }
+         
+        #notification.first-run {
+          padding: 5px 13px; /* subtract the border witdh */
+          border: 2px solid hsl(213, 55%, 75%);
+          background-color: hsl(213, 63%, 93%);
+          -webkit-box-shadow: 2px 2px 3px hsla(0, 0%, 0%, .3);
+          font-weight: normal;
+        }
+         
+        #notification > * {
+          display: table-cell;
+          max-width: 500px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+         
+        #notification.show {
+          opacity: 1;
+          pointer-events: all;
+          -webkit-transition: opacity 1s;
+        }
+         
+        #notification .link {
+          color: rgba(0, 102, 204, 0.3);
+          -webkit-padding-start: 20px;
+        }
+         
+        #notification .link-color {
+          color: rgb(0, 102, 204);
+        }
+         
+        #notification > span > .blacklist-title {
+          display: inline-block;
+          max-width: 30ex;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+         
+        /* List mode */
+         
+        .list .thumbnail,
+        .list .edit-bar {
+          display: none;
+        }
+         
+        .list > .thumbnail-container {
+          -webkit-box-sizing: border-box;
+        }
+         
+        .list > .thumbnail-container > .title {
+          font-size: 120%;
+          line-height: 34px;
+          height: 34px;
+          color: hsl(213, 27%, 68%);
+          width: 100%;
+        }
+         
+        .list > .thumbnail-container {
+          color: hsl(213, 27%, 68%);
+          text-decoration: underline;
+        }
+         
+        .list > .thumbnail-container > .title > div {
+          text-decoration: none;
+          color: rgb(6, 45, 117);
+        }
+         
+        .item {
+          background: no-repeat 0% 50%;
+          padding: 2px;
+          padding-left: 18px;
+          -webkit-background-size: 16px;
+          background-color: hsla(213, 63%, 93%, 0);
+          display: block;
+          line-height: 20px;
+          -webkit-box-sizing: border-box;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-decoration: none;
+          font-size: 100%;
+        }
+         
+        .item:visited,
+        .item:link {
+          color: hsl(213, 90%, 24%);
+        }
+         
+        html[dir='rtl'] .item {
+          background-position-x: 100%;
+          padding-right: 18px;
+          padding-left: 2px;
+          text-align: right;
+        }
+         
+        .window {
+          overflow: visible; /* We use visible so that the menu can be a child and shown
+                                on :hover. To get this to work we have to set visibility
+                                to visible which unfortunately breaks the ellipsis for t
+                                he window items */
+          background-image: url(chrome://theme/newtab_closed_window);
+        }
+         
+        .window-menu {
+          position: absolute;
+          display: none;
+          border: 1px solid #999;
+          -webkit-box-shadow: 2px 2px 3px hsla(0, 0%, 0%, .3);
+          color: black;
+          background-color: hsla(213, 0%, 100%, .95);
+          left: 0;
+          white-space: nowrap;
+          z-index: 2;
+          padding: 1px;
+          cursor: default;
+        }
+         
+        .window-menu > hr {
+          border: 0;
+          border-top: 1px solid rgb(153, 153, 153);
+          margin: 2px 0;
+        }
+         
+        /* Made to look like a tooltip using vista/win7 look and feel.
+           TODO(arv): Replace with -webkit-appearance once issue 17371 is fixed
+         */
+        #window-tooltip {
+          color: #555;
+          pointer-events: none;
+          border: 1px solid rgb(118, 118, 118);
+          -webkit-border-radius: 3px;
+          padding: 0px 3px;
+          background: -webkit-gradient(linear, left top, left bottom,
+                                       from(white),
+                                       to(rgb(228, 229, 240)));
+          width: auto;
+          max-width: 300px;
+        }
+         
+        .hbox {
+          display: -webkit-box;
+          -webkit-box-orient: horizontal;
+        }
+         
+        #recently-closed {
+          background-color: hsla(213, 60%, 92%, .4);
+          border: 1px solid hsl(213, 60%, 92%);
+          -webkit-border-radius: 5px;
+          padding: 5px 0px;
+          white-space: nowrap;
+          overflow-x: hidden;
+        }
+         
+        #recently-closed > * {
+          display: inline-block;
+          max-width: 114px; /* Selected so that we can fit 5 items in EN-US */
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 100%;
+          margin: 0 10px;
+        }
+         
+        #recently-closed > h2,
+        #recently-closed .nav {
+          max-width: none;
+        }
+        .nav > a {
+          /* no icon */
+          padding: 0;
+        }
+         
+        .nav > a:after {
+          content: '\00bb'; /* raque gets flipped automatically in rtl */
+          font-size: 115%;
+          -webkit-padding-start: 2px;
+        }
+         
+        #sync-status {
+          display: none;
+          -webkit-border-radius: 6px;
+          padding: 5px 0;
+          margin: 10px 0;
+          white-space: nowrap;
+          overflow-x: hidden;
+        }
+         
+        #sync-status > * {
+          display: inline-block;
+          max-width: none;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 100%;
+          margin: 0 10px;
+        }
+         
+        #set-as-home-page {
+          display: none;
+          margin: 10px 0;
+          text-align: center;
+        }
+         
+        #view-toolbar {
+          -webkit-user-select: none;
+          text-align: right;
+          position: relative;
+          top: 15px;
+        }
+         
+        html[dir='rtl'] #view-toolbar {
+          text-align: left;
+        }
+         
+        #view-toolbar > input {
+          -webkit-appearance: none;
+          background-color: transparent;
+          width: 19px;
+          height: 17px;
+          margin: 0;
+          border: 0;
+          padding: 0;
+          vertical-align: top;
+          -webkit-margin-start: 5px;
+          /* Do not show focus outline */
+          outline: none;
+        }
+         
+        #thumb-checkbox {
+          background-image: url(chrome://theme/newtab_thumb_off);
+        }
+         
+        #thumb-checkbox:hover,
+        #thumb-checkbox:focus {
+          background-image: url(chrome://theme/newtab_thumb_off_h);
+        }
+         
+        #thumb-checkbox:active {
+          background-image: url(chrome://theme/newtab_thumb_off_p);
+        }
+         
+        #thumb-checkbox:checked {
+          background-image: url(chrome://theme/newtab_thumb_on);
+        }
+         
+        #thumb-checkbox:checked:hover,
+        #thumb-checkbox:checked:focus {
+          background-image: url(chrome://theme/newtab_thumb_on_h);
+        }
+         
+        #thumb-checkbox:checked:active {
+          background-image: url(chrome://theme/newtab_thumb_on_p);
+        }
+         
+        #list-checkbox {
+          background-image: url(chrome://theme/newtab_list_off);
+        }
+         
+        #list-checkbox:hover,
+        #list-checkbox:focus {
+          background-image: url(chrome://theme/newtab_list_off_h);
+        }
+         
+        #list-checkbox:active {
+          background-image: url(chrome://theme/newtab_list_off_p);
+        }
+         
+        #list-checkbox:checked {
+          background-image: url(chrome://theme/newtab_list_on);
+        }
+         
+        #list-checkbox:checked:hover,
+        #list-checkbox:checked:focus {
+          background-image: url(chrome://theme/newtab_list_on_h);
+        }
+         
+        #list-checkbox:checked:active {
+          background-image: url(chrome://theme/newtab_list_on_p);
+        }
+         
+        #option-button {
+          background-image: url(chrome://theme/newtab_option);
+        }
+         
+        #option-button:hover,
+        #option-button:focus {
+          background-image: url(chrome://theme/newtab_option_h);
+        }
+         
+        #option-button:active,
+        #option-button.open {
+          background-image: url(chrome://theme/newtab_option_p);
+        }
+         
+        #option-menu {
+          -webkit-user-select: none;
+          position: absolute;
+          right: 0;
+          left: auto;
+          top: 33px; /* Position this below the option button. The option button
+                        is positioned 15px from the top and has a height of 17px. We add
+                        one to get some spacing there as well: 15 + 17 + 1 = 33 */
+          cursor: default;
+          pointer-events: all;
+          min-width: 175px;
+        }
+         
+        html[dir='rtl'] #option-menu {
+          right: auto;
+          left: 0;
+        }
+         
+        #option-menu > div {
+          padding: 3px 8px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+         
+        #option-menu > [selected] {
+          background-color: hsl(213, 66%, 57%);
+          color: white;
+        }
+         
+        #option-menu > [command='show']:before,
+        #option-menu > [command='hide']:before {
+          display: inline-block;
+          width: 12px;
+          content: '\00a0'; /* non breaking space */
+          background-position: 0 50%;
+          background-repeat: no-repeat;
+        }
+         
+        html[dir='rtl'] #option-menu > [command='show']:before,
+        html[dir='rtl'] #option-menu > [command='hide']:before {
+          background-position-x: 100%;
+        }
+         
+        #option-menu > [command='hide']:before {
+          background-image: url(chrome://theme/newtab_checkbox_black);
+        }
+         
+        #option-menu > [selected][command='hide']:before {
+          background-image: url(chrome://theme/newtab_checkbox_white);
+        }
+         
+        #most-visited.list {
+          height: 294px;
+        }
+         
+        .list > .thumbnail-container {
+          max-width: 920px;
+        }
+         
+        /* tip line */
+        #tip-line {
+          margin: 10px 0;
+          text-align: center;
+        }
+         
+        #attribution {
+          margin: 10px 0;
+        }
+         
+        /* promotions line and image */
+        #bottom-right-promo {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          display: block;
+          height: 131px;
+          border: 0;
+        }
+         
+        #promo-image {
+          display: block;
+        }
+         
+        .sync-button {
+          padding: 0;
+          margin: 0;
+          -webkit-appearance: none;
+          border: 0;
+          background: none;
+          cursor: pointer;
+          text-decoration: underline;
+          font-family: inherit;
+        }
+         
+        .win-button-padding-bug .sync-button {
+          margin: 0 -3px;
+        }
+         
+        #footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          min-width: 692px;
+        }
+         
+        .hide-promo-line {
+          opacity: 0;
+        }
+         
+        #promo-line {
+          display: inline-block;
+          margin-bottom: 20px;
+          background-color: hsl(52, 100%, 80%);
+          border: 1px solid rgb(211, 211, 211);
+          -webkit-border-radius: 6px;
+          padding: 7px 10px;
+          white-space: nowrap;
+          text-align: center;
+          vertical-align: middle;
+          color: black;
+          -webkit-transition: opacity .15s;
+        }
+         
+        #promo-line * {
+          font-weight: bold;
+          text-overflow: ellipsis;
+        }
+         
+        #promo-message a,
+        #promo-message button {
+          color: rgba(0, 102, 204, 0.3);
+          text-decoration: underline;
+        }
+         
+        #promo-message a > .link-color,
+        #promo-message button > .link-color {
+          color: rgb(0, 102, 204);
+        }
+         
+        #promo-new {
+          color: red;
+        }
+         
+        #promo-close {
+          display: inline-block;
+          border: 0px;
+          margin-left: 10px;
+          margin-right: auto;
+          vertical-align: middle;
+          width: 16px;
+          height: 16px;
+          background: no-repeat;
+          background-image: url(chrome://theme/close_bar);
+        }
+         
+        #promo-close:hover,
+        #promo-close:focus {
+          background-image: url(chrome://theme/close_bar_h);
+        }
+         
+        #promo-close:active {
+          background-image: url(chrome://theme/close_bar_p);
+        }
+         
+        /* small */
+         
+        @media (max-width: 920px) {
+         
+          #main {
+            width: 692px;
+          }
+         
+          #most-visited {
+            height: 294px;
+          }
+         
+          .thumbnail,
+          .thumbnail-container > .title {
+            width: 150px;
+            height: 93px;
+          }
+         
+          .thumbnail-container > .title {
+            height: auto;
+          }
+         
+          .thumbnail-wrapper {
+            -webkit-background-size: 150px 93px;
+          }
+         
+          .list > .thumbnail-container {
+            max-width: 692px;
+          }
+         
+          #notification > * {
+            max-width: 300px;
+          }
+         
+          #notification > span > .blacklist-title {
+            max-width: 15ex;
+          }
+        }
+    </style>
+    <script>
+        
+        /**
+         * Bitmask for the different UI sections.
+         * This matches the Section enum in ../dom_ui/shown_sections_handler.h
+         * @enum {number}
+         */
+        var Section = {
+            THUMB: 1,
+            LIST: 2,
+            RECENT: 4,
+            TIPS: 8,
+            SYNC: 16
+        };
+        
+        var shownSections = templateData['shown_sections'];
+        
+        function $(id){
+            return document.getElementById(id);
+        }
+        
+        // Until themes can clear the cache, force-reload the theme stylesheet.
+        document.write('<link id="themecss" rel="stylesheet" ' +
+        'href="chrome://theme/css/newtab.css?' +
+        (new Date()).getTime() +
+        '">');
+        
+        function useSmallGrid(){
+            return window.innerWidth <= 920;
+        }
+        
+        function isRtl(){
+            return templateData['textdirection'] == 'rtl';
+        }
+        
+        function getMostVisitedLayoutRects(){
+            var small = useSmallGrid();
+            
+            var cols = 4;
+            var rows = 2;
+            var marginWidth = 10;
+            var marginHeight = 7;
+            var borderWidth = 4;
+            var thumbWidth = small ? 150 : 207;
+            var thumbHeight = small ? 93 : 129;
+            var w = thumbWidth + 2 * borderWidth + 2 * marginWidth;
+            var h = thumbHeight + 40 + 2 * marginHeight;
+            var sumWidth = cols * w - 2 * marginWidth;
+            // Since the list mode does not have a toolbar move it down a little to add
+            // some spacing at the top.
+            var LIST_TOP_SPACING = 22;
+            
+            if (shownSections & Section.LIST) {
+                h = 34;
+                rows = 8;
+                cols = 1;
+            }
+            
+            var rtl = isRtl();
+            var rects = [];
+            
+            if (shownSections & Section.THUMB || shownSections & Section.LIST) {
+                for (var i = 0; i < rows * cols; i++) {
+                    var row, col, left, top;
+                    if (shownSections & Section.THUMB) {
+                        row = Math.floor(i / cols);
+                        col = i % cols;
+                    }
+                    else {
+                        col = Math.floor(i / rows);
+                        row = i % rows;
+                    }
+                    
+                    if (shownSections & Section.THUMB) {
+                        left = rtl ? sumWidth - col * w - thumbWidth - 2 * borderWidth : col * w;
+                    }
+                    else {
+                        left = rtl ? sumWidth - col * w - w + 2 * marginWidth : col * w;
+                    }
+                    top = row * h;
+                    
+                    if (shownSections & Section.LIST) {
+                        top += LIST_TOP_SPACING;
+                    }
+                    
+                    rects[i] = {
+                        left: left,
+                        top: top
+                    };
+                }
+            }
+            return rects;
+        }
+        
+        function applyMostVisitedRects(){
+            var isList = shownSections & Section.LIST;
+            if (shownSections & Section.THUMB || isList) {
+                var rects = getMostVisitedLayoutRects();
+                var rtlList = isRtl() && isList;
+                var children = $('most-visited').children;
+                for (var i = 0; i < 8; i++) {
+                    var t = children[i];
+                    t.style.left = rtlList ? '' : rects[i].left + 'px';
+                    t.style.top = rects[i].top + 'px';
+                    t.style.right = '';
+                    var innerStyle = t.firstElementChild.style;
+                    innerStyle.left = innerStyle.top = '';
+                }
+            }
+        }
+        
+        function updateSimpleSection(id, section){
+            $(id).style.display = shownSections & section ? '' : 'none';
+        }
+    </script>
+    </head>
+    <body class="loading" i18n-values=".style.fontFamily:fontfamily;.style.fontSize:fontsize">
+        <div id="container">
+            <div id="main">
+                <div id="view-toolbar">
+                    <input type=checkbox id="thumb-checkbox" checked i18n-values="title:showhidethumbnailtooltip"><input type=checkbox id="list-checkbox" i18n-values="title:showhidelisttooltip"><input type="button" id="option-button" i18n-values="title:pagedisplaytooltip">
+                </div>
+                <div id="option-menu" class="window-menu">
+                    <div command="hide" section="THUMB" i18n-content="mostvisited">
+                    </div>
+                    <div command="hide" section="RECENT" i18n-content="recentlyclosed">
+                    </div>
+                    <div command="hide" section="TIPS" i18n-content="tips">
+                    </div>
+                    <div command="hide" section="SYNC" i18n-content="sync" id="sync-menu-item">
+                    </div>
+                    <hr>
+                    <div command="clear-all-blacklisted" i18n-content="restorethumbnails">
+                    </div>
+                </div>
+                <script>
+                    $('thumb-checkbox').checked = shownSections & Section.THUMB;
+                    $('list-checkbox').checked = shownSections & Section.LIST;
+                    $('sync-menu-item').style.display = templateData['syncispresent'] == 'true' ? '' : 'none';
+                </script>
+                <div id="notification">
+                    <span>&nbsp;</span>
+                    <span class="link"><span class="link-color"></span></span>
+                </div>
+                <div id="most-visited">
+                    <a class="thumbnail-container filler" tabindex="1" id="t0">
+                        <div class="edit-mode-border">
+                            <div class="edit-bar">
+                                <div class="pin">
+                                </div>
+                                <div class="spacer">
+                                </div>
+                                <div class="remove">
+                                </div>
+                            </div>
+                            <span class="thumbnail-wrapper"><span class="thumbnail"></span></span>
+                        </div>
+                        <div class="title">
+                            <div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <script>
+                    (function(){
+                        var el = $('most-visited');
+                        if (shownSections & Section.LIST) {
+                            el.className += ' list';
+                        }
+                        else 
+                            if (!(shownSections & Section.THUMB)) {
+                                el.className += ' collapsed';
+                            }
+                        
+                        for (var i = 1; i < 8; i++) {
+                            el.appendChild(el.firstElementChild.cloneNode(true)).id = 't' + i;
+                        }
+                        
+                        applyMostVisitedRects();
+                    })();
+                </script>
+                <div id="recently-closed">
+                    <h2 i18n-content="recentlyclosed"></h2>
+                    <span class="nav"><a href="chrome://history/" class="item" i18n-content="viewfullhistory"></a></span>
+                </div>
+                <script>
+                    updateSimpleSection('recently-closed', Section.RECENT);
+                </script>
+                <div id="sync-status">
+                    <h2></h2>
+                    <span></span>
+                </div>
+                <script>
+                    updateSimpleSection('sync-status', Section.SYNC);
+                </script>
+                <div id="set-as-home-page">
+                    <button class="link">
+                        <span class="link-color" i18n-content="makethishomepage"></span>
+                    </button>
+                </div>
+                <div id="tip-line">
+                </div>
+                <script>
+                    updateSimpleSection('tip-line', Section.TIPS);
+                </script>
+                <div id="attribution" class="attribution">
+                    <div i18n-content="attributionintro">
+                    </div>
+                    <img id="attribution-img">
+                </div>
+            </div><!-- main -->
+            <div id="footer">
+                <div id="promo-line">
+                    <span id="promo-new" i18n-content="promonew"></span>
+                    <span id="promo-message" i18n-values=".innerHTML:promomessage"></span>
+                    <button class="link" id="promo-close">
+                    </button>
+                </div>
+                <div id="bottom-right-promo">
+                    <a i18n-values="href:extensionslink"><img id="promo-image" src="chrome://theme/newtab_extensions_promo"></a>
+                </div>
+            </div>
+        </div><!-- container -->
+        <div class="window-menu" id="window-tooltip">
+        </div>
+    </body>
+    <script>
+        /**
+         * @fileoverview This is a simple template engine inspired by JsTemplates
+         * optimized for i18n.
+         *
+         * It currently supports two handlers:
+         *
+         *   * i18n-content which sets the textContent of the element
+         *
+         *     <span i18n-content="myContent"></span>
+         *     i18nTemplate.process(element, {'myContent': 'Content'});
+         *
+         *   * i18n-values is a list of attribute-value or property-value pairs.
+         *     Properties are prefixed with a '.' and can contain nested properties.
+         *
+         *     <span i18n-values="title:myTitle;.style.fontSize:fontSize"></span>
+         *     i18nTemplate.process(element, {
+         *       'myTitle': 'Title',
+         *       'fontSize': '13px'
+         *     });
+         */
+         
+        var i18nTemplate = (function() {
+          /**
+           * This provides the handlers for the templating engine. The key is used as
+           * the attribute name and the value is the function that gets called for every
+           * single node that has this attribute.
+           * @type {Object}
+           */
+          var handlers = {
+            /**
+             * This handler sets the textContent of the element.
+             */
+            'i18n-content': function(element, attributeValue, obj) {
+              element.textContent = obj[attributeValue];
+            },
+         
+            /**
+             * This is used to set HTML attributes and DOM properties,. The syntax is:
+             *   attributename:key;
+             *   .domProperty:key;
+             *   .nested.dom.property:key
+             */
+            'i18n-values': function(element, attributeValue, obj) {
+              var parts = attributeValue.replace(/\s/g, '').split(/;/);
+              for (var j = 0; j < parts.length; j++) {
+                var a = parts[j].match(/^([^:]+):(.+)$/);
+                if (a) {
+                  var propName = a[1];
+                  var propExpr = a[2];
+         
+                  // Ignore missing properties
+                  if (propExpr in obj) {
+                    var value = obj[propExpr];
+                    if (propName.charAt(0) == '.') {
+                      var path = propName.slice(1).split('.');
+                      var object = element;
+                      while (object && path.length > 1) {
+                        object = object[path.shift()];
+                      }
+                      if (object) {
+                        object[path] = value;
+                        // In case we set innerHTML (ignoring others) we need to
+                        // recursively check the content
+                        if (path == 'innerHTML') {
+                          process(element, obj);
+                        }
+                      }
+                    } else {
+                      element.setAttribute(propName, value);
+                    }
+                  } else {
+                    console.warn('i18n-values: Missing value for "' + propExpr + '"');
+        i18n-values: Missing value for "showsetashomepage"
+                  }
+                }
+              }
+            }
+          };
+         
+          var attributeNames = [];
+          for (var key in handlers) {
+            attributeNames.push(key);
+          }
+          var selector = '[' + attributeNames.join('],[') + ']';
+         
+          /**
+           * Processes a DOM tree with the {@code obj} map.
+           */
+          function process(node, obj) {
+            var elements = node.querySelectorAll(selector);
+            for (var element, i = 0; element = elements[i]; i++) {
+              for (var j = 0; j < attributeNames.length; j++) {
+                var name = attributeNames[j];
+                var att = element.getAttribute(name);
+                if (att != null) {
+                  handlers[name](element, att, obj);
+                }
+              }
+            }
+          }
+         
+          return {
+            process: process
+          };
+        })();
+    </script>
+    <script>
+        /**
+         * The local strings get injected into the page usig a varaible named
+         * {@code templateData}. This class provides a simpler interface to access those
+         * strings.
+         * @constructor
+         */
+        function LocalStrings() {
+        }
+         
+        /**
+         * Gets a localized string by its id.
+         * @param {string} s The id of the string we want.
+         * @return {string} The localized string.
+         */
+        LocalStrings.prototype.getString = function(s) {
+          return templateData[s] || '';
+        };
+         
+        /**
+         * Returns a formatted localized string (where all %s contents are replaced
+         * by the second argument).
+         * @param {string} s The id of the string we want.
+         * @param {string} d The string to include in the formatted string.
+         * @return {string} The formatted string.
+         */
+        LocalStrings.prototype.formatString = function(s, d) {
+          return this.getString(s).replace(/%s/, d);
+        };
+    </script>
+    <script> 
+    // Helpers
+     
+    // TODO(arv): Remove these when classList is available in HTML5.
+    // https://bugs.webkit.org/show_bug.cgi?id=20709
+    function hasClass(el, name) {
+      return el.nodeType == 1 && el.className.split(/\s+/).indexOf(name) != -1;
+    }
+     
+    function addClass(el, name) {
+      var names = el.className.split(/\s+/);
+      if (names.indexOf(name) == -1) {
+        el.className += ' ' + name;
+      }
+    }
+     
+    function removeClass(el, name) {
+      var names = el.className.split(/\s+/);
+      el.className = names.filter(function(n) {
+        return name != n;
+      }).join(' ');
+    }
+     
+    function findAncestorByClass(el, className) {
+      return findAncestor(el, function(el) {
+        return hasClass(el, className);
+      });
+    }
+     
+    /**
+     * Return the first ancestor for which the {@code predicate} returns true.
+     * @param {Node} node The node to check.
+     * @param {function(Node) : boolean} predicate The function that tests the
+     *     nodes.
+     * @return {Node} The found ancestor or null if not found.
+     */
+    function findAncestor(node, predicate) {
+      var last = false;
+      while (node != null && !(last = predicate(node))) {
+        node = node.parentNode;
+      }
+      return last ? node : null;
+    }
+     
+    // WebKit does not have Node.prototype.swapNode
+    // https://bugs.webkit.org/show_bug.cgi?id=26525
+    function swapDomNodes(a, b) {
+      var afterA = a.nextSibling;
+      if (afterA == b) {
+        swapDomNodes(b, a);
+        return;
+      }
+      var aParent = a.parentNode;
+      b.parentNode.replaceChild(a, b);
+      aParent.insertBefore(b, afterA);
+    }
+     
+    function bind(fn, selfObj, var_args) {
+      var boundArgs = Array.prototype.slice.call(arguments, 2);
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift.apply(args, boundArgs);
+        return fn.apply(selfObj, args);
+      }
+    }
+     
+    var loading = true;
+    var mostVisitedData = [];
+    var gotMostVisited = false;
+     
+    function mostVisitedPages(data, firstRun) {
+      logEvent('received most visited pages');
+     
+      // We append the class name with the "filler" so that we can style fillers
+      // differently.
+      var maxItems = 8;
+      data.length = Math.min(maxItems, data.length);
+      var len = data.length;
+      for (var i = len; i < maxItems; i++) {
+        data[i] = {filler: true};
+      }
+     
+      mostVisitedData = data;
+      renderMostVisited(data);
+     
+      gotMostVisited = true;
+      onDataLoaded();
+     
+      // Only show the first run notification if first run.
+      if (firstRun) {
+        showFirstRunNotification();
+      }
+    }
+     
+    var tipCache = {};
+     
+    function tips(data) {
+      logEvent('received tips');
+      tipCache = data;
+      renderTip();
+    }
+     
+    function createTip(data) {
+      if (data.length) {
+        try {
+          return parseHtmlSubset(data[0].tip_html_text);
+        } catch (parseErr) {
+          console.error('Error parsing tips: ' + parseErr.message);
+        }
+      }
+      // Return an empty DF in case of failure.
+      return document.createDocumentFragment();
+    }
+     
+    function renderTip() {
+      var tipElement = $('tip-line');
+      // There should always be only one tip.
+      tipElement.textContent = '';
+      tipElement.appendChild(createTip(tipCache));
+      fixLinkUnderlines(tipElement);
+    }
+     
+    function recentlyClosedTabs(data) {
+      logEvent('received recently closed tabs');
+      // We need to store the recent items so we can update the layout on a resize.
+      recentItems = data;
+      renderRecentlyClosed();
+    }
+     
+    var recentItems = [];
+     
+    function renderRecentlyClosed() {
+      // We remove all items but the header and the nav
+      var recentlyClosedElement = $('recently-closed');
+      var headerEl = recentlyClosedElement.firstElementChild;
+      var navEl = recentlyClosedElement.lastElementChild;
+     
+      for (var el = navEl.previousElementSibling; el != headerEl;
+           el = navEl.previousElementSibling) {
+        recentlyClosedElement.removeChild(el);
+      }
+     
+      // Create new items
+      recentItems.forEach(function(item) {
+        var el = createRecentItem(item);
+        recentlyClosedElement.insertBefore(el, navEl);
+      });
+     
+      layoutRecentlyClosed();
+    }
+     
+    function createRecentItem(data) {
+      var isWindow = data.type == 'window';
+      var el;
+      if (isWindow) {
+        el = document.createElement('span');
+        el.className = 'item link window';
+        el.tabItems = data.tabs;
+        el.tabIndex = 0;
+        el.textContent = formatTabsText(data.tabs.length);
+      } else {
+        el = document.createElement('a');
+        el.className = 'item';
+        el.href = data.url;
+        el.style.backgroundImage = url('chrome://favicon/' + data.url);
+        el.dir = data.direction;
+        el.textContent = data.title;
+      }
+      el.sessionId = data.sessionId;
+      el.xtitle = data.title;
+      var wrapperEl = document.createElement('span');
+      wrapperEl.appendChild(el);
+      return wrapperEl;
+    }
+     
+    function onShownSections(mask) {
+      logEvent('received shown sections');
+      if (mask != shownSections) {
+        var oldShownSections = shownSections;
+        shownSections = mask;
+     
+        // Only invalidate most visited if needed.
+        if ((mask & Section.THUMB) != (oldShownSections & Section.THUMB) ||
+            (mask & Section.LIST) != (oldShownSections & Section.LIST)) {
+          mostVisited.invalidate();
+        }
+     
+        mostVisited.updateDisplayMode();
+        renderRecentlyClosed();
+      }
+    }
+     
+    function saveShownSections() {
+      chrome.send('setShownSections', [String(shownSections)]);
+    }
+     
+    function getThumbnailClassName(data) {
+      return 'thumbnail-container' +
+          (data.pinned ? ' pinned' : '') +
+          (data.filler ? ' filler' : '');
+    }
+     
+    function url(s) {
+      // http://www.w3.org/TR/css3-values/#uris
+      // Parentheses, commas, whitespace characters, single quotes (') and double
+      // quotes (") appearing in a URI must be escaped with a backslash
+      var s2 = s.replace(/(\(|\)|\,|\s|\'|\"|\\)/g, '\\$1');
+      // WebKit has a bug when it comes to URLs that end with \
+      // https://bugs.webkit.org/show_bug.cgi?id=28885
+      if (/\\\\$/.test(s2)) {
+        // Add a space to work around the WebKit bug.
+        s2 += ' ';
+      }
+      return 'url("' + s2 + '")';
+    }
+     
+    function renderMostVisited(data) {
+      var parent = $('most-visited');
+      var children = parent.children;
+      for (var i = 0; i < data.length; i++) {
+        var d = data[i];
+        var t = children[i];
+     
+        // If we have a filler continue
+        var oldClassName = t.className;
+        var newClassName = getThumbnailClassName(d);
+        if (oldClassName != newClassName) {
+          t.className = newClassName;
+        }
+     
+        // No need to continue if this is a filler.
+        if (newClassName == 'thumbnail-container filler') {
+          continue;
+        }
+     
+        t.href = d.url;
+        t.querySelector('.pin').title = localStrings.getString(d.pinned ?
+            'unpinthumbnailtooltip' : 'pinthumbnailtooltip');
+        t.querySelector('.remove').title =
+            localStrings.getString('removethumbnailtooltip');
+     
+        // There was some concern that a malformed malicious URL could cause an XSS
+        // attack but setting style.backgroundImage = 'url(javascript:...)' does
+        // not execute the JavaScript in WebKit.
+     
+        var thumbnailUrl = d.thumbnailUrl || 'chrome://thumb/' + d.url;
+        t.querySelector('.thumbnail-wrapper').style.backgroundImage =
+            url(thumbnailUrl);
+        var titleDiv = t.querySelector('.title > div');
+        titleDiv.xtitle = titleDiv.textContent = d.title;
+        var faviconUrl = d.faviconUrl || 'chrome://favicon/' + d.url;
+        titleDiv.style.backgroundImage = url(faviconUrl);
+        titleDiv.dir = d.direction;
+      }
+    }
+     
+    /**
+     * Calls chrome.send with a callback and restores the original afterwards.
+     */
+    function chromeSend(name, params, callbackName, callback) {
+      var old = global[callbackName];
+      global[callbackName] = function() {
+        // restore
+        global[callbackName] = old;
+     
+        var args = Array.prototype.slice.call(arguments);
+        return callback.apply(global, args);
+      };
+      chrome.send(name, params);
+    }
+     
+    var LayoutMode = {
+      SMALL: 1,
+      NORMAL: 2
+    };
+     
+    var layoutMode = useSmallGrid() ? LayoutMode.SMALL : LayoutMode.NORMAL;
+     
+    function handleWindowResize() {
+      if (window.innerWidth < 10) {
+        // We're probably a background tab, so don't do anything.
+        return;
+      }
+     
+      var oldLayoutMode = layoutMode;
+      layoutMode = useSmallGrid() ? LayoutMode.SMALL : LayoutMode.NORMAL
+     
+      if (layoutMode != oldLayoutMode){
+        mostVisited.invalidate();
+        mostVisited.layout();
+        renderRecentlyClosed();
+      }
+    }
+     
+    function showSection(section) {
+      if (!(section & shownSections)) {
+        shownSections |= section;
+     
+        // THUMBS and LIST are mutually exclusive.
+        if (section == Section.THUMB) {
+          // hide LIST
+          shownSections &= ~Section.LIST;
+        } else if (section == Section.LIST) {
+          // hide THUMB
+          shownSections &= ~Section.THUMB;
+        }
+        switch (section) {
+          case Section.THUMB:
+          case Section.LIST:
+            mostVisited.invalidate();
+            mostVisited.updateDisplayMode();
+            mostVisited.layout();
+            break;
+          case Section.RECENT:
+            renderRecentlyClosed();
+            break;
+          case Section.TIPS:
+            $('tip-line').style.display = '';
+            break;
+          case Section.SYNC:
+            $('sync-status').style.display = '';
+            break;
+        }
+      }
+    }
+     
+    function hideSection(section) {
+      if (section & shownSections) {
+        shownSections &= ~section;
+     
+        switch (section) {
+          case Section.THUMB:
+          case Section.LIST:
+            mostVisited.invalidate();
+            mostVisited.updateDisplayMode();
+            mostVisited.layout();
+            break;
+          case Section.RECENT:
+            renderRecentlyClosed();
+            break;
+          case Section.TIPS:
+            $('tip-line').style.display = 'none';
+            break;
+          case Section.SYNC:
+            $('sync-status').style.display = 'none';
+            break;
+        }
+      }
+    }
+     
+    var mostVisited = {
+      addPinnedUrl_: function(data, index) {
+        chrome.send('addPinnedURL', [data.url, data.title, data.faviconUrl || '',
+                                     data.thumbnailUrl || '', String(index)]);
+      },
+      getItem: function(el) {
+        return findAncestorByClass(el, 'thumbnail-container');
+      },
+     
+      getHref: function(el) {
+        return el.href;
+      },
+     
+      togglePinned: function(el) {
+        var index = this.getThumbnailIndex(el);
+        var data = mostVisitedData[index];
+        data.pinned = !data.pinned;
+        if (data.pinned) {
+          this.addPinnedUrl_(data, index);
+        } else {
+          chrome.send('removePinnedURL', [data.url]);
+        }
+        this.updatePinnedDom_(el, data.pinned);
+      },
+     
+      updatePinnedDom_: function(el, pinned) {
+        el.querySelector('.pin').title = localStrings.getString(pinned ?
+            'unpinthumbnailtooltip' : 'pinthumbnailtooltip');
+        if (pinned) {
+          addClass(el, 'pinned');
+        } else {
+          removeClass(el, 'pinned');
+        }
+      },
+     
+      getThumbnailIndex: function(el) {
+        var nodes = el.parentNode.querySelectorAll('.thumbnail-container');
+        return Array.prototype.indexOf.call(nodes, el);
+      },
+     
+      swapPosition: function(source, destination) {
+        var nodes = source.parentNode.querySelectorAll('.thumbnail-container');
+        var sourceIndex = this.getThumbnailIndex(source);
+        var destinationIndex = this.getThumbnailIndex(destination);
+        swapDomNodes(source, destination);
+     
+        var sourceData = mostVisitedData[sourceIndex];
+        this.addPinnedUrl_(sourceData, destinationIndex);
+        sourceData.pinned = true;
+        this.updatePinnedDom_(source, true);
+     
+        var destinationData = mostVisitedData[destinationIndex];
+        // Only update the destination if it was pinned before.
+        if (destinationData.pinned) {
+          this.addPinnedUrl_(destinationData, sourceIndex);
+        }
+        mostVisitedData[destinationIndex] = sourceData;
+        mostVisitedData[sourceIndex] = destinationData;
+      },
+     
+      blacklist: function(el) {
+        var self = this;
+        var url = this.getHref(el);
+        chrome.send('blacklistURLFromMostVisited', [url]);
+     
+        addClass(el, 'hide');
+     
+        // Find the old item.
+        var oldUrls = {};
+        var oldIndex = -1;
+        var oldItem;
+        for (var i = 0; i < mostVisitedData.length; i++) {
+          if (mostVisitedData[i].url == url) {
+            oldItem = mostVisitedData[i];
+            oldIndex = i;
+          }
+          oldUrls[mostVisitedData[i].url] = true;
+        }
+     
+        // Send 'getMostVisitedPages' with a callback since we want to find the new
+        // page and add that in the place of the removed page.
+        chromeSend('getMostVisited', [], 'mostVisitedPages', function(data) {
+          // Find new item.
+          var newItem;
+          for (var i = 0; i < data.length; i++) {
+            if (!(data[i].url in oldUrls)) {
+              newItem = data[i];
+              break;
+            }
+          }
+     
+          if (!newItem) {
+            // If no other page is available to replace the blacklisted item,
+            // we need to reorder items s.t. all filler items are in the rightmost
+            // indices.
+            mostVisitedPages(data);
+     
+          // Replace old item with new item in the mostVisitedData array.
+          } else if (oldIndex != -1) {
+            mostVisitedData.splice(oldIndex, 1, newItem);
+            mostVisitedPages(mostVisitedData);
+            addClass(el, 'fade-in');
+          }
+     
+          // We wrap the title in a <span class=blacklisted-title>. We pass an empty
+          // string to the notifier function and use DOM to insert the real string.
+          var actionText = localStrings.getString('undothumbnailremove');
+     
+          // Show notification and add undo callback function.
+          var wasPinned = oldItem.pinned;
+          showNotification('', actionText, function() {
+            self.removeFromBlackList(url);
+            if (wasPinned) {
+              self.addPinnedUrl_(oldItem, oldIndex);
+            }
+            chrome.send('getMostVisited');
+          });
+     
+          // Now change the DOM.
+          var removeText = localStrings.getString('thumbnailremovednotification');
+          var notifySpan = document.querySelector('#notification > span');
+          notifySpan.textContent = removeText;
+        });
+      },
+     
+      removeFromBlackList: function(url) {
+        chrome.send('removeURLsFromMostVisitedBlacklist', [url]);
+      },
+     
+      clearAllBlacklisted: function() {
+        chrome.send('clearMostVisitedURLsBlacklist', []);
+      },
+     
+      updateDisplayMode: function() {
+        if (!this.dirty_) {
+          return;
+        }
+     
+        var thumbCheckbox = $('thumb-checkbox');
+        var listCheckbox = $('list-checkbox');
+        var mostVisitedElement = $('most-visited');
+     
+        if (shownSections & Section.THUMB) {
+          thumbCheckbox.checked = true;
+          listCheckbox.checked = false;
+          removeClass(mostVisitedElement, 'list');
+          removeClass(mostVisitedElement, 'collapsed');
+        } else if (shownSections & Section.LIST) {
+          thumbCheckbox.checked = false;
+          listCheckbox.checked = true;
+          addClass(mostVisitedElement, 'list');
+          removeClass(mostVisitedElement, 'collapsed');
+        } else {
+          thumbCheckbox.checked = false;
+          listCheckbox.checked = false;
+          addClass(mostVisitedElement, 'collapsed');
+        }
+      },
+     
+      dirty_: false,
+     
+      invalidate: function() {
+        this.dirty_ = true;
+      },
+     
+      layout: function() {
+        if (!this.dirty_) {
+          return;
+        }
+        var d0 = Date.now();
+     
+        var mostVisitedElement = $('most-visited');
+        var thumbnails = mostVisitedElement.children;
+        var collapsed = false;
+     
+        if (shownSections & Section.LIST) {
+          addClass(mostVisitedElement, 'list');
+        } else if (shownSections & Section.THUMB) {
+          removeClass(mostVisitedElement, 'list');
+        } else {
+          collapsed = true;
+        }
+     
+        // We set overflow to hidden so that the most visited element does not
+        // "leak" when we hide and show it.
+        if (collapsed) {
+          mostVisitedElement.style.overflow = 'hidden';
+        }
+     
+        applyMostVisitedRects();
+     
+        // Only set overflow to visible if the element is shown.
+        if (!collapsed) {
+          afterTransition(function() {
+            mostVisitedElement.style.overflow = '';
+          });
+        }
+     
+        this.dirty_ = false;
+     
+        logEvent('mostVisited.layout: ' + (Date.now() - d0));
+      },
+     
+      getRectByIndex: function(index) {
+        return getMostVisitedLayoutRects()[index];
+      }
+    };
+     
+    // Recently closed
+     
+    function layoutRecentlyClosed() {
+      var recentShown = shownSections & Section.RECENT;
+      updateSimpleSection('recently-closed', Section.RECENT);
+     
+      if (recentShown) {
+        var recentElement = $('recently-closed');
+        var style = recentElement.style;
+        // We cannot use clientWidth here since the width has a transition.
+        var spacing = 20;
+        var headerEl = recentElement.firstElementChild;
+        var navEl = recentElement.lastElementChild;
+        var navWidth = navEl.offsetWidth;
+        // Subtract 10 for the padding
+        var availWidth = (useSmallGrid() ? 690 : 918) - navWidth - 10;
+     
+        // Now go backwards and hide as many elements as needed.
+        var elementsToHide = [];
+        for (var el = navEl.previousElementSibling; el != headerEl;
+             el = el.previousElementSibling) {
+          if (el.offsetLeft + el.offsetWidth + spacing > availWidth) {
+            elementsToHide.push(el);
+          }
+        }
+     
+        elementsToHide.forEach(function(el) {
+          el.parentNode.removeChild(el);
+        });
+      }
+    }
+     
+    /**
+     * This function is called by the backend whenever the sync status section
+     * needs to be updated to reflect recent sync state changes. The backend passes
+     * the new status information in the newMessage parameter. The state includes
+     * the following:
+     *
+     * syncsectionisvisible: true if the sync section needs to show up on the new
+     *                       tab page and false otherwise.
+     * msgtype: represents the states - "error", "presynced" or "synced".
+     * title: the header for the sync status section.
+     * msg: the actual message (e.g. "Synced to foo@gmail.com").
+     * linkisvisible: true if the link element should be visible within the sync
+     *                section and false otherwise.
+     * linktext: the text to display as the link in the sync status (only used if
+     *           linkisvisible is true).
+     * linkurlisset: true if an URL should be set as the href for the link and false
+     *               otherwise. If this field is false, then clicking on the link
+     *               will result in sending a message to the backend (see
+     *               'SyncLinkClicked').
+     * linkurl: the URL to use as the element's href (only used if linkurlisset is
+     *          true).
+     */
+    function syncMessageChanged(newMessage) {
+      var syncStatusElement = $('sync-status');
+      var style = syncStatusElement.style;
+      $('sync-menu-item').style.display = 'block';
+     
+      // Hide the section if the message is emtpy.
+      if (!newMessage['syncsectionisvisible'] || !(shownSections & Section.SYNC)) {
+        style.display = 'none';
+        return;
+      }
+      style.display = 'block';
+     
+      // Set the sync section background color based on the state.
+      if (newMessage.msgtype == 'error') {
+        style.backgroundColor = 'tomato';
+      } else {
+        style.backgroundColor = '';
+      }
+     
+      // Set the text for the header and sync message.
+      var titleElement = syncStatusElement.firstElementChild;
+      titleElement.textContent = newMessage.title;
+      var messageElement = titleElement.nextElementSibling;
+      messageElement.textContent = newMessage.msg;
+     
+      // Remove what comes after the message
+      while (messageElement.nextSibling) {
+        syncStatusElement.removeChild(messageElement.nextSibling);
+      }
+     
+      if (newMessage.linkisvisible) {
+        var el;
+        if (newMessage.linkurlisset) {
+          // Use a link
+          el = document.createElement('a');
+          el.href = newMessage.linkurl;
+        } else {
+          el = document.createElement('button');
+          el.className = 'link';
+          el.addEventListener('click', syncSectionLinkClicked);
+        }
+        el.textContent = newMessage.linktext;
+        syncStatusElement.appendChild(el);
+        fixLinkUnderline(el);
+      }
+    }
+     
+    /**
+     * Invoked when the link in the sync status section is clicked.
+     */
+    function syncSectionLinkClicked(e) {
+      chrome.send('SyncLinkClicked');
+      e.preventDefault();
+    }
+     
+    /**
+     * Returns the text used for a recently closed window.
+     * @param {number} numTabs Number of tabs in the window.
+     * @return {string} The text to use.
+     */
+    function formatTabsText(numTabs) {
+      if (numTabs == 1)
+        return localStrings.getString('closedwindowsingle');
+      return localStrings.formatString('closedwindowmultiple', numTabs);
+    }
+     
+    /**
+     * We need both most visited and the shown sections to be considered loaded.
+     * @return {boolean}
+     */
+    function onDataLoaded() {
+      if (gotMostVisited) {
+        mostVisited.layout();
+        loading = false;
+        // Remove class name in a timeout so that changes done in this JS thread are
+        // not animated.
+        window.setTimeout(function() {
+          removeClass(document.body, 'loading');
+        }, 1);
+      }
+    }
+     
+    // Theme related
+     
+    function themeChanged() {
+      $('themecss').href = 'chrome://theme/css/newtab.css?' + Date.now();
+      updateAttribution();
+    }
+     
+    function updateAttribution() {
+      $('attribution-img').src = 'chrome://theme/theme_ntp_attribution?' +
+          Date.now();
+    }
+     
+    function bookmarkBarAttached() {
+      document.documentElement.setAttribute('bookmarkbarattached', 'true');
+    }
+     
+    function bookmarkBarDetached() {
+      document.documentElement.setAttribute('bookmarkbarattached', 'false');
+    }
+     
+    function viewLog() {
+      var lines = [];
+      var start = log[0][1];
+     
+      for (var i = 0; i < log.length; i++) {
+        lines.push((log[i][1] - start) + ': ' + log[i][0]);
+      }
+     
+      console.log(lines.join('\n'));
+    }
+     
+    // Updates the visibility of the menu items.
+    function updateOptionMenu() {
+      var menuItems = $('option-menu').children;
+      for (var i = 0; i < menuItems.length; i++) {
+        var item = menuItems[i];
+        var command = item.getAttribute('command');
+        if (command == 'show' || command == 'hide') {
+          var section = Section[item.getAttribute('section')];
+          var visible;
+          if (section == Section.THUMB || section == Section.LIST) {
+            visible = shownSections & Section.THUMB || shownSections & Section.LIST;
+            // If visible we need to make sure we are hiding the visible section.
+            if (visible) {
+              item.setAttribute('section',
+                                shownSections & Section.THUMB ? 'THUMB' : 'LIST');
+            }
+          } else {
+            visible = shownSections & section;
+          }
+          item.setAttribute('command', visible ? 'hide' : 'show');
+        }
+      }
+    }
+     
+    // We apply the size class here so that we don't trigger layout animations
+    // onload.
+     
+    handleWindowResize();
+     
+    var localStrings = new LocalStrings();
+     
+    ///////////////////////////////////////////////////////////////////////////////
+    // Things we know are not needed at startup go below here
+     
+    function afterTransition(f) {
+      if (loading) {
+        // Make sure we do not use a timer during load since it slows down the UI.
+        f();
+      } else {
+        // The duration of all transitions are .15s
+        window.setTimeout(f, 150);
+      }
+    }
+     
+    // Notification
+     
+     
+    var notificationTimeout;
+     
+    function showNotification(text, actionText, opt_f, opt_delay) {
+      var notificationElement = $('notification');
+      var f = opt_f || function() {};
+      var delay = opt_delay || 10000;
+     
+      function show() {
+        window.clearTimeout(notificationTimeout);
+        addClass(notificationElement, 'show');
+      }
+     
+      function delayedHide() {
+        notificationTimeout = window.setTimeout(hideNotification, delay);
+      }
+     
+      function doAction() {
+        f();
+        hideNotification();
+      }
+     
+      // Remove any possible first-run trails.
+      removeClass(notification, 'first-run');
+     
+      var actionLink = notificationElement.querySelector('.link-color');
+      notificationElement.firstElementChild.textContent = text;
+      actionLink.textContent = actionText;
+     
+      actionLink.onclick = doAction;
+      actionLink.onkeydown = handleIfEnterKey(doAction);
+      notificationElement.onmouseover = show;
+      notificationElement.onmouseout = delayedHide;
+      actionLink.onfocus = show;
+      actionLink.onblur = delayedHide;
+      // Enable tabbing to the link now that it is shown.
+      actionLink.tabIndex = 0;
+     
+      show();
+      delayedHide();
+    }
+     
+    function hideNotification() {
+      var notificationElement = $('notification');
+      removeClass(notificationElement, 'show');
+      var actionLink = notificationElement.querySelector('.link-color');
+      // Prevent tabbing to the hidden link.
+      actionLink.tabIndex = -1;
+      // Setting tabIndex to -1 only prevents future tabbing to it. If, however, the
+      // user switches window or a tab and then moves back to this tab the element
+      // may gain focus. We therefore make sure that we blur the element so that the
+      // element focus is not restored when coming back to this window.
+      actionLink.blur();
+    }
+     
+    function showFirstRunNotification() {
+      showNotification(localStrings.getString('firstrunnotification'),
+                       localStrings.getString('closefirstrunnotification'),
+                       null, 30000);
+      var notificationElement = $('notification');
+      addClass(notification, 'first-run');
+    }
+     
+     
+    /**
+     * This handles the option menu.
+     * @param {Element} button The button element.
+     * @param {Element} menu The menu element.
+     * @constructor
+     */
+    function OptionMenu(button, menu) {
+      this.button = button;
+      this.menu = menu;
+      this.button.onmousedown = bind(this.handleMouseDown, this);
+      this.button.onkeydown = bind(this.handleKeyDown, this);
+      this.boundHideMenu_ = bind(this.hide, this);
+      this.boundMaybeHide_ = bind(this.maybeHide_, this);
+      this.menu.onmouseover = bind(this.handleMouseOver, this);
+      this.menu.onmouseout = bind(this.handleMouseOut, this);
+      this.menu.onmouseup = bind(this.handleMouseUp, this);
+    }
+     
+    OptionMenu.prototype = {
+      show: function() {
+        updateOptionMenu();
+        this.menu.style.display = 'block';
+        addClass(this.button, 'open');
+        this.button.focus();
+     
+        // Listen to document and window events so that we hide the menu when the
+        // user clicks outside the menu or tabs away or the whole window is blurred.
+        document.addEventListener('focus', this.boundMaybeHide_, true);
+        document.addEventListener('mousedown', this.boundMaybeHide_, true);
+      },
+     
+      hide: function() {
+        this.menu.style.display = 'none';
+        removeClass(this.button, 'open');
+        this.setSelectedIndex(-1);
+     
+        document.removeEventListener('focus', this.boundMaybeHide_, true);
+        document.removeEventListener('mousedown', this.boundMaybeHide_, true);
+      },
+     
+      isShown: function() {
+        return this.menu.style.display == 'block';
+      },
+     
+      /**
+       * Callback for document mousedown and focus. It checks if the user tried to
+       * navigate to a different element on the page and if so hides the menu.
+       * @param {Event} e The mouse or focus event.
+       * @private
+       */
+      maybeHide_: function(e) {
+        if (!this.menu.contains(e.target) && !this.button.contains(e.target)) {
+          this.hide();
+        }
+      },
+     
+      handleMouseDown: function(e) {
+        if (this.isShown()) {
+          this.hide();
+        } else {
+          this.show();
+        }
+      },
+     
+      handleMouseOver: function(e) {
+        var el = e.target;
+        if (!el.hasAttribute('command')) {
+          this.setSelectedIndex(-1);
+        } else {
+          var index = Array.prototype.indexOf.call(this.menu.children, el);
+          this.setSelectedIndex(index);
+        }
+      },
+     
+      handleMouseOut: function(e) {
+        this.setSelectedIndex(-1);
+      },
+     
+      handleMouseUp: function(e) {
+        var item = this.getSelectedItem();
+        if (item) {
+          this.executeItem(item);
+        }
+      },
+     
+      handleKeyDown: function(e) {
+        var item = this.getSelectedItem();
+     
+        var self = this;
+        function selectNextVisible(m) {
+          var children = self.menu.children;
+          var len = children.length;
+          var i = self.selectedIndex_;
+          if (i == -1 && m == -1) {
+            // Edge case when we need to go the last item fisrt.
+            i = 0;
+          }
+          while (true) {
+            i = (i + m + len) % len;
+            item = children[i];
+            if (item && item.hasAttribute('command') &&
+                item.style.display != 'none') {
+              break;
+            }
+          }
+          if (item) {
+            self.setSelectedIndex(i);
+          }
+        }
+     
+        switch (e.keyIdentifier) {
+          case 'Down':
+            if (!this.isShown()) {
+              this.show();
+            }
+            selectNextVisible(1);
+            e.preventDefault();
+            break;
+          case 'Up':
+            if (!this.isShown()) {
+              this.show();
+            }
+            selectNextVisible(-1);
+            e.preventDefault();
+            break;
+          case 'Esc':
+          case 'U+001B': // Maybe this is remote desktop playing a prank?
+            this.hide();
+            break;
+          case 'Enter':
+          case 'U+0020': // Space
+            if (this.isShown()) {
+              if (item) {
+                this.executeItem(item);
+              } else {
+                this.hide();
+              }
+            } else {
+              this.show();
+            }
+            e.preventDefault();
+            break;
+        }
+      },
+     
+      selectedIndex_: -1,
+      setSelectedIndex: function(i) {
+        if (i != this.selectedIndex_) {
+          var items = this.menu.children;
+          var oldItem = items[this.selectedIndex_];
+          if (oldItem) {
+            oldItem.removeAttribute('selected');
+          }
+          var newItem = items[i];
+          if (newItem) {
+            newItem.setAttribute('selected', 'selected');
+          }
+          this.selectedIndex_ = i;
+        }
+      },
+     
+      getSelectedItem: function() {
+        return this.menu.children[this.selectedIndex_] || null;
+      },
+     
+      executeItem: function(item) {
+        var command = item.getAttribute('command');
+        if (command in this.commands) {
+          this.commands[command].call(this, item);
+        }
+     
+        this.hide();
+      }
+    };
+     
+    var optionMenu = new OptionMenu($('option-button'), $('option-menu'));
+    optionMenu.commands = {
+      'clear-all-blacklisted' : function() {
+        mostVisited.clearAllBlacklisted();
+        chrome.send('getMostVisited');
+      },
+      'show': function(item) {
+        var section = Section[item.getAttribute('section')];
+        showSection(section);
+        saveShownSections();
+      },
+      'hide': function(item) {
+        var section = Section[item.getAttribute('section')];
+        hideSection(section);
+        saveShownSections();
+      }
+    };
+     
+    $('most-visited').addEventListener('click', function(e) {
+      var target = e.target;
+      if (hasClass(target, 'pin')) {
+        mostVisited.togglePinned(mostVisited.getItem(target));
+        e.preventDefault();
+      } else if (hasClass(target, 'remove')) {
+        mostVisited.blacklist(mostVisited.getItem(target));
+        e.preventDefault();
+      }
+    });
+     
+    function handleIfEnterKey(f) {
+      return function(e) {
+        if (e.keyIdentifier == 'Enter') {
+          f(e);
+        }
+      };
+    }
+     
+    function maybeReopenTab(e) {
+      var el = findAncestor(e.target, function(el) {
+        return el.sessionId !== undefined;
+      });
+      if (el) {
+        chrome.send('reopenTab', [String(el.sessionId)]);
+        e.preventDefault();
+     
+        // HACK(arv): After the window onblur event happens we get a mouseover event
+        // on the next item and we want to make sure that we do not show a tooltip
+        // for that.
+        window.setTimeout(function() {
+          windowTooltip.hide();
+        }, 2 * WindowTooltip.DELAY);
+      }
+    }
+     
+    function maybeShowWindowTooltip(e) {
+      var f = function(el) {
+        return el.tabItems !== undefined;
+      };
+      var el = findAncestor(e.target, f);
+      var relatedEl = findAncestor(e.relatedTarget, f);
+      if (el && el != relatedEl) {
+        windowTooltip.handleMouseOver(e, el, el.tabItems);
+      }
+    }
+     
+     
+    var recentlyClosedElement = $('recently-closed');
+     
+    recentlyClosedElement.addEventListener('click', maybeReopenTab);
+    recentlyClosedElement.addEventListener('keydown',
+                                           handleIfEnterKey(maybeReopenTab));
+     
+    recentlyClosedElement.addEventListener('mouseover', maybeShowWindowTooltip);
+    recentlyClosedElement.addEventListener('focus', maybeShowWindowTooltip, true);
+     
+    /**
+     * This object represents a tooltip representing a closed window. It is
+     * shown when hovering over a closed window item or when the item is focused. It
+     * gets hidden when blurred or when mousing out of the menu or the item.
+     * @param {Element} tooltipEl The element to use as the tooltip.
+     * @constructor
+     */
+    function WindowTooltip(tooltipEl) {
+      this.tooltipEl = tooltipEl;
+      this.boundHide_ = bind(this.hide, this);
+      this.boundHandleMouseOut_ = bind(this.handleMouseOut, this);
+    }
+     
+    WindowTooltip.trackMouseMove_ = function(e) {
+      WindowTooltip.clientX = e.clientX;
+      WindowTooltip.clientY = e.clientY;
+    };
+     
+    /**
+     * Time in ms to delay before the tooltip is shown.
+     * @type {number}
+     */
+    WindowTooltip.DELAY = 300;
+     
+    WindowTooltip.prototype = {
+      timer: 0,
+      handleMouseOver: function(e, linkEl, tabs) {
+        this.linkEl_ = linkEl;
+        if (e.type == 'mouseover') {
+          this.linkEl_.addEventListener('mousemove', WindowTooltip.trackMouseMove_);
+          this.linkEl_.addEventListener('mouseout', this.boundHandleMouseOut_);
+        } else { // focus
+          this.linkEl_.addEventListener('blur', this.boundHide_);
+        }
+        this.timer = window.setTimeout(bind(this.show, this, e.type, linkEl, tabs),
+                                       WindowTooltip.DELAY);
+      },
+      show: function(type, linkEl, tabs) {
+        window.addEventListener('blur', this.boundHide_);
+        this.linkEl_.removeEventListener('mousemove',
+                                         WindowTooltip.trackMouseMove_);
+        window.clearTimeout(this.timer);
+     
+        this.renderItems(tabs);
+        var rect = linkEl.getBoundingClientRect();
+        var bodyRect = document.body.getBoundingClientRect();
+        var rtl = document.documentElement.dir == 'rtl';
+     
+        this.tooltipEl.style.display = 'block';
+        var tooltipRect = this.tooltipEl.getBoundingClientRect();
+        var x, y;
+     
+        // When focused show below, like a drop down menu.
+        if (type == 'focus') {
+          x = rtl ?
+              rect.left + bodyRect.left + rect.width - this.tooltipEl.offsetWidth :
+              rect.left + bodyRect.left;
+          y = rect.top + bodyRect.top + rect.height;
+        } else {
+          x = bodyRect.left + (rtl ?
+              WindowTooltip.clientX - this.tooltipEl.offsetWidth :
+              WindowTooltip.clientX);
+          // Offset like a tooltip
+          y = 20 + WindowTooltip.clientY + bodyRect.top;
+        }
+     
+        // We need to ensure that the tooltip is inside the window viewport.
+        x = Math.min(x, bodyRect.width - tooltipRect.width);
+        x = Math.max(x, 0);
+        y = Math.min(y, bodyRect.height - tooltipRect.height);
+        y = Math.max(y, 0);
+     
+        this.tooltipEl.style.left = x + 'px';
+        this.tooltipEl.style.top = y + 'px';
+      },
+      handleMouseOut: function(e) {
+        // Don't hide when move to another item in the link.
+        var f = function(el) {
+          return el.tabItems !== undefined;
+        };
+        var el = findAncestor(e.target, f);
+        var relatedEl = findAncestor(e.relatedTarget, f);
+        if (el && el != relatedEl) {
+          this.hide();
+        }
+      },
+      hide: function() {
+        window.clearTimeout(this.timer);
+        window.removeEventListener('blur', this.boundHide_);
+        this.linkEl_.removeEventListener('mousemove',
+                                         WindowTooltip.trackMouseMove_);
+        this.linkEl_.removeEventListener('mouseout', this.boundHandleMouseOut_);
+        this.linkEl_.removeEventListener('blur', this.boundHide_);
+        this.linkEl_ = null;
+     
+        this.tooltipEl.style.display  = 'none';
+      },
+      renderItems: function(tabs) {
+        var tooltip = this.tooltipEl;
+        tooltip.textContent = '';
+     
+        tabs.forEach(function(tab) {
+          var span = document.createElement('span');
+          span.className = 'item';
+          span.style.backgroundImage = url('chrome://favicon/' + tab.url);
+          span.dir = tab.direction;
+          span.textContent = tab.title;
+          tooltip.appendChild(span);
+        });
+      }
+    };
+     
+    var windowTooltip = new WindowTooltip($('window-tooltip'));
+     
+    function getCheckboxHandler(section) {
+      return function(e) {
+        if (e.type == 'keydown') {
+          if (e.keyIdentifier == 'Enter') {
+            e.target.checked = !e.target.checked;
+          } else {
+            return;
+          }
+        }
+        if (e.target.checked) {
+          showSection(section);
+        } else {
+          hideSection(section);
+        }
+        saveShownSections();
+      }
+    }
+     
+    $('thumb-checkbox').addEventListener('change',
+                                         getCheckboxHandler(Section.THUMB));
+    $('thumb-checkbox').addEventListener('keydown',
+                                         getCheckboxHandler(Section.THUMB));
+    $('list-checkbox').addEventListener('change',
+                                        getCheckboxHandler(Section.LIST));
+    $('list-checkbox').addEventListener('keydown',
+                                        getCheckboxHandler(Section.LIST));
+     
+    window.addEventListener('load', bind(logEvent, global, 'Tab.NewTabOnload', true));
+    window.addEventListener('load', onDataLoaded);
+     
+    window.addEventListener('resize', handleWindowResize);
+    document.addEventListener('DOMContentLoaded',
+        bind(logEvent, global, 'Tab.NewTabDOMContentLoaded', true));
+     
+    // Whether or not we should send the initial 'GetSyncMessage' to the backend
+    // depends on the value of the attribue 'syncispresent' which the backend sets
+    // to indicate if there is code in the backend which is capable of processing
+    // this message. This attribute is loaded by the JSTemplate and therefore we
+    // must make sure we check the attribute after the DOM is loaded.
+    document.addEventListener('DOMContentLoaded',
+                              callGetSyncMessageIfSyncIsPresent);
+     
+    // This link allows user to make new tab page as homepage from the new tab
+    // page itself (without going to Options dialog box).
+    document.addEventListener('DOMContentLoaded', showSetAsHomePageLink);
+     
+    // Set up links and text-decoration for promotional message.
+    document.addEventListener('DOMContentLoaded', setUpPromoMessage);
+     
+    /**
+     * The sync code is not yet built by default on all platforms so we have to
+     * make sure we don't send the initial sync message to the backend unless the
+     * backend told us that the sync code is present.
+     */
+    function callGetSyncMessageIfSyncIsPresent() {
+      if (document.documentElement.getAttribute('syncispresent') == 'true') {
+        chrome.send('GetSyncMessage');
+      }
+    }
+     
+    function setAsHomePageLinkClicked(e) {
+      chrome.send('setHomePage');
+      e.preventDefault();
+    }
+     
+    function showSetAsHomePageLink() {
+      var setAsHomePageElement = $('set-as-home-page');
+      var style = setAsHomePageElement.style;
+      if (document.documentElement.getAttribute('showsetashomepage') != 'true') {
+        // Hide the section (if new tab page is already homepage).
+        return;
+      }
+     
+      style.display = 'block';
+      var buttonElement = setAsHomePageElement.firstElementChild;
+      buttonElement.addEventListener('click', setAsHomePageLinkClicked);
+    }
+     
+    function onHomePageSet(data) {
+      $('set-as-home-page').style.display = 'none';
+      showNotification(data[0], data[1]);
+    }
+     
+    function hideAllMenus() {
+      optionMenu.hide();
+    }
+     
+    window.addEventListener('blur', hideAllMenus);
+    window.addEventListener('keydown', function(e) {
+      if (e.keyIdentifier == 'Alt' || e.keyIdentifier == 'Meta') {
+        hideAllMenus();
+      }
+    }, true);
+     
+    // Tooltip for elements that have text that overflows.
+    document.addEventListener('mouseover', function(e) {
+      // We don't want to do this while we are dragging because it makes things very
+      // janky
+      if (dnd.dragItem) {
+        return;
+      }
+     
+      var el = findAncestor(e.target, function(el) {
+        return el.xtitle;
+      });
+      if (el && el.xtitle != el.title) {
+        if (el.scrollWidth > el.clientWidth) {
+          el.title = el.xtitle;
+        } else {
+          el.title = '';
+        }
+      }
+    });
+     
+    // DnD
+     
+    var dnd = {
+      currentOverItem_: null,
+      get currentOverItem() {
+        return this.currentOverItem_;
+      },
+      set currentOverItem(item) {
+        var style;
+        if (item != this.currentOverItem_) {
+          if (this.currentOverItem_) {
+            style = this.currentOverItem_.firstElementChild.style;
+            style.left = style.top = '';
+          }
+          this.currentOverItem_ = item;
+     
+          if (item) {
+            // Make the drag over item move 15px towards the source. The movement is
+            // done by only moving the edit-mode-border (as in the mocks) and it is
+            // done with relative positioning so that the movement does not change
+            // the drop target.
+            var dragIndex = mostVisited.getThumbnailIndex(this.dragItem);
+            var overIndex = mostVisited.getThumbnailIndex(item);
+            if (dragIndex == -1 || overIndex == -1) {
+              return;
+            }
+     
+            var dragRect = mostVisited.getRectByIndex(dragIndex);
+            var overRect = mostVisited.getRectByIndex(overIndex);
+     
+            var x = dragRect.left - overRect.left;
+            var y = dragRect.top - overRect.top;
+            var z = Math.sqrt(x * x + y * y);
+            var z2 = 15;
+            var x2 = x * z2 / z;
+            var y2 = y * z2 / z;
+     
+            style = this.currentOverItem_.firstElementChild.style;
+            style.left = x2 + 'px';
+            style.top = y2 + 'px';
+          }
+        }
+      },
+      dragItem: null,
+      startX: 0,
+      startY: 0,
+      startScreenX: 0,
+      startScreenY: 0,
+      dragEndTimer: null,
+     
+      handleDragStart: function(e) {
+        var thumbnail = mostVisited.getItem(e.target);
+        if (thumbnail) {
+          // Don't set data since HTML5 does not allow setting the name for
+          // url-list. Instead, we just rely on the dragging of link behavior.
+          this.dragItem = thumbnail;
+          addClass(this.dragItem, 'dragging');
+          this.dragItem.style.zIndex = 2;
+        }
+      },
+     
+      handleDragEnter: function(e) {
+        if (this.canDropOnElement(this.currentOverItem)) {
+          e.preventDefault();
+        }
+      },
+     
+      handleDragOver: function(e) {
+        var item = mostVisited.getItem(e.target);
+        this.currentOverItem = item;
+        if (this.canDropOnElement(item)) {
+          e.preventDefault();
+        }
+      },
+     
+      handleDragLeave: function(e) {
+        var item = mostVisited.getItem(e.target);
+        if (item) {
+          e.preventDefault();
+        }
+     
+        this.currentOverItem = null;
+      },
+     
+      handleDrop: function(e) {
+        var dropTarget = mostVisited.getItem(e.target);
+        if (this.canDropOnElement(dropTarget)) {
+          dropTarget.style.zIndex = 1;
+          mostVisited.swapPosition(this.dragItem, dropTarget);
+          // The timeout below is to allow WebKit to see that we turned off
+          // pointer-event before moving the thumbnails so that we can get out of
+          // hover mode.
+          window.setTimeout(function() {
+            mostVisited.invalidate();
+            mostVisited.layout();
+          }, 10);
+          e.preventDefault();
+          if (this.dragEndTimer) {
+            window.clearTimeout(this.dragEndTimer);
+            this.dragEndTimer = null;
+          }
+          afterTransition(function() {
+            dropTarget.style.zIndex = '';
+          });
+        }
+      },
+     
+      handleDragEnd: function(e) {
+        // WebKit fires dragend before drop.
+        var dragItem = this.dragItem;
+        if (dragItem) {
+          dragItem.style.pointerEvents = '';
+          removeClass(dragItem, 'dragging');
+     
+          afterTransition(function() {
+            // Delay resetting zIndex to let the animation finish.
+            dragItem.style.zIndex = '';
+            // Same for overflow.
+            dragItem.parentNode.style.overflow = '';
+          });
+          var self = this;
+          this.dragEndTimer = window.setTimeout(function() {
+            // These things needto happen after the drop event.
+            mostVisited.invalidate();
+            mostVisited.layout();
+            self.dragItem = null;
+          }, 10);
+        }
+      },
+     
+      handleDrag: function(e) {
+        // Moves the drag item making sure that it is not displayed outside the
+        // browser viewport.
+        var item = mostVisited.getItem(e.target);
+        var rect = document.querySelector('#most-visited').getBoundingClientRect();
+        item.style.pointerEvents = 'none';
+     
+        var x = this.startX + e.screenX - this.startScreenX;
+        var y = this.startY + e.screenY - this.startScreenY;
+     
+        // The position of the item is relative to #most-visited so we need to
+        // subtract that when calculating the allowed position.
+        x = Math.max(x, -rect.left);
+        x = Math.min(x, document.body.clientWidth - rect.left - item.offsetWidth -
+                     2);
+        // The shadow is 2px
+        y = Math.max(-rect.top, y);
+        y = Math.min(y, document.body.clientHeight - rect.top - item.offsetHeight -
+                     2);
+     
+        // Override right in case of RTL.
+        item.style.right = 'auto';
+        item.style.left = x + 'px';
+        item.style.top = y + 'px';
+        item.style.zIndex = 2;
+      },
+     
+      // We listen to mousedown to get the relative position of the cursor for dnd.
+      handleMouseDown: function(e) {
+        var item = mostVisited.getItem(e.target);
+        if (item) {
+          this.startX = item.offsetLeft;
+          this.startY = item.offsetTop;
+          this.startScreenX = e.screenX;
+          this.startScreenY = e.screenY;
+        }
+      },
+     
+      canDropOnElement: function(el) {
+        return this.dragItem && el && hasClass(el, 'thumbnail-container') &&
+            !hasClass(el, 'filler');
+      },
+     
+      init: function() {
+        var el = $('most-visited');
+        el.addEventListener('dragstart', bind(this.handleDragStart, this));
+        el.addEventListener('dragenter', bind(this.handleDragEnter, this));
+        el.addEventListener('dragover', bind(this.handleDragOver, this));
+        el.addEventListener('dragleave', bind(this.handleDragLeave, this));
+        el.addEventListener('drop', bind(this.handleDrop, this));
+        el.addEventListener('dragend', bind(this.handleDragEnd, this));
+        el.addEventListener('drag', bind(this.handleDrag, this));
+        el.addEventListener('mousedown', bind(this.handleMouseDown, this));
+      }
+    };
+     
+    dnd.init();
+     
+    /**
+     * Whitelist of tag names allowed in parseHtmlSubset.
+     * @type {[string]}
+     */
+    var allowedTags = ['A', 'B', 'STRONG'];
+     
+    /**
+     * Parse a very small subset of HTML.
+     * @param {string} s The string to parse.
+     * @throws {Error} In case of non supported markup.
+     * @return {DocumentFragment} A document fragment containing the DOM tree.
+     */
+    var allowedAttributes = {
+      'href': function(node, value) {
+        // Only allow a[href] starting with http:// and https://
+        return node.tagName == 'A' && (value.indexOf('http://') == 0 ||
+            value.indexOf('https://') == 0);
+      }
+    }
+     
+    /**
+     * Parse a very small subset of HTML.  This ensures that insecure HTML /
+     * javascript cannot be injected into the new tab page.
+     * @param {string} s The string to parse.
+     * @throws {Error} In case of non supported markup.
+     * @return {DocumentFragment} A document fragment containing the DOM tree.
+     */
+    function parseHtmlSubset(s) {
+      function walk(n, f) {
+        f(n);
+        for (var i = 0; i < n.childNodes.length; i++) {
+          walk(n.childNodes[i], f);
+        }
+      }
+     
+      function assertElement(node) {
+        if (allowedTags.indexOf(node.tagName) == -1)
+          throw Error(node.tagName + ' is not supported');
+      }
+     
+      function assertAttribute(attrNode, node) {
+        var n = attrNode.nodeName;
+        var v = attrNode.nodeValue;
+        if (!allowedAttributes.hasOwnProperty(n) || !allowedAttributes[n](node, v))
+          throw Error(node.tagName + '[' + n + '="' + v + '"] is not supported');
+      }
+     
+      var r = document.createRange();
+      r.selectNode(document.body);
+      // This does not execute any scripts.
+      var df = r.createContextualFragment(s);
+      walk(df, function(node) {
+        switch (node.nodeType) {
+          case Node.ELEMENT_NODE:
+            assertElement(node);
+            var attrs = node.attributes;
+            for (var i = 0; i < attrs.length; i++) {
+              assertAttribute(attrs[i], node);
+            }
+            break;
+     
+          case Node.COMMENT_NODE:
+          case Node.DOCUMENT_FRAGMENT_NODE:
+          case Node.TEXT_NODE:
+            break;
+     
+          default:
+            throw Error('Node type ' + node.nodeType + ' is not supported');
+        }
+      });
+      return df;
+    }
+     
+    /**
+     * Makes links and buttons support a different underline color.
+     * @param {Node} node The node to search for links and buttons in.
+     */
+    function fixLinkUnderlines(node) {
+      var elements = node.querySelectorAll('a,button');
+      Array.prototype.forEach.call(elements, fixLinkUnderline);
+    }
+     
+    /**
+     * Wraps the content of an element in a a link-color span.
+     * @param {Element} el The element to wrap.
+     */
+    function fixLinkUnderline(el) {
+      var span = document.createElement('span');
+      span.className = 'link-color';
+      while (el.hasChildNodes()) {
+        span.appendChild(el.firstChild);
+      }
+      el.appendChild(span);
+    }
+     
+    updateAttribution();
+     
+    // Closes the promo line when close button is clicked.
+    $('promo-close').onclick = function (e) {
+      $('promo-line').className = 'hide-promo-line';
+      chrome.send('stopPromoLineMessage');
+      e.preventDefault();
+    };
+     
+    // Set bookmark sync button to start bookmark sync process on click; also set
+    // link underline colors correctly.
+    function setUpPromoMessage() {
+      var syncButton = document.querySelector('#promo-message button');
+      syncButton.className = 'sync-button link';
+      syncButton.onclick = syncSectionLinkClicked;
+      fixLinkUnderlines($('promo-message'));
+    }
+     
+    // A Windows-specific Webkit bug adds padding to buttons and will push the
+    // bookmark sync button in the promo message too far to the right unless we
+    // use this fix.  See https://bugs.webkit.org/show_bug.cgi?id=31703
+    if (navigator.platform == 'Win32') {
+      addClass(document.body, 'win-button-padding-bug');
+    }
+</script>
+</html>

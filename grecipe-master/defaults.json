@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "debug": false,
+    "openonsave": false,
+    "sendanalytics": true
+  },
+  "grrs": [
+    {
+      "file": "plugins/hrecipe.grr",
+      "priority": 100
+    }, {
+      "file": "plugins/allrecipes.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/bbcgoodfood.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/chow.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/epicurious.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/food.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/foodandwine.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/foodnetwork.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/gourmet.grr",
+      "priority": 10
+    }, {
+      "file": "plugins/pioneerwoman.grr",
+      "priority": 10
+    }
+  ]
+}

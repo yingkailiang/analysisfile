@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>New Graph api & Javascript Base FBConnect Tutorial | Thinkdiff.net</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>		
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+			var userID;
+			var AccessToken;
+			
+			window.onload = function(){
+				//alert('loaded');
+				console.log('loaded123');
+			}
+			
+            window.fbAsyncInit = function() {
+                FB.init({appId: '251199818331265', status: true, cookie: true, xfbml: true, oauth: true});
+ 
+                /* All the events registered */
+                FB.Event.subscribe('auth.login', function(response) {
+                    // do something with response
+                    login();
+                });
+                FB.Event.subscribe('auth.logout', function(response) {
+                    // do something with response
+                    //logout();
+                });
+ 
+                FB.getLoginStatus(function(response) {
+                    if (response.session) {
+                        // logged in and connected user, someone you know
+                        login();
+                    }
+                });
+            };
+            (function() {
+                var e = document.createElement('script');
+                e.type = 'text/javascript';
+                e.src = document.location.protocol +
+                    '//connect.facebook.net/en_US/all.js';
+                e.async = true;
+                document.getElementById('fb-root').appendChild(e);
+            }());
+ 
+            function login(){
+                FB.api('/me', function(response) {
+                    document.getElementById('login').style.display = "block";
+                    document.getElementById('login').innerHTML = response.name + " succsessfully logged in!";
+                });
+            }
+ 
+            function graphStreamPublish(){
+			
+			
+                var body = 'This is a test at: ' + ((new Date()).getTime());
+                FB.api('/'+userID+'/feed', 'post', { message: body, acces_token: AccessToken}, function(response) {
+				console.log(response);
+                    if (!response || response.error) {
+                        alert('Error occured');
+                    } else {
+                        alert('Post ID: ' + response.id);
+                    }
+                });
+            }
+			
+			function getToken(){
+
+				FB.getLoginStatus(function(response) {
+				$('#AccessToken').val(response.authResponse.accessToken);				
+				$('#userID').val(response.authResponse.userID);				
+				
+				userID = response.authResponse.userID;
+				AccessToken = response.authResponse.accessToken;
+				
+				console.log(response.authResponse);
+				  if (response.status === 'connected') {
+					alert('the user is logged in');
+					// the user is logged in and has authenticated your
+					// app, and response.authResponse supplies
+					// the user's ID, a valid access token, a signed
+					// request, and the time the access token 
+					// and signed request each expire
+					var uid = response.authResponse.userID;
+					var accessToken = response.authResponse.accessToken;
+					console.log(response.authResponse);
+				  } else if (response.status === 'not_authorized') {
+					// the user is logged in to Facebook, 
+					// but has not authenticated your app
+					alert('the user is logged in to Facebook but has not authenticated your app');
+				  } else {
+					// the user isn't logged in to Facebook.
+					alert('the user isnt logged in to Facebook');
+				  }
+				 });						
+				 
+			}
+			
+			function extendToken(){
+
+				FB.getLoginStatus(function(response) {	
+				
+				userID = response.authResponse.userID;
+				AccessToken = response.authResponse.accessToken;
+				
+				console.log(response.authResponse);
+				  if (response.status === 'connected') {
+					alert('the user is logged in');
+					// the user is logged in and has authenticated your
+					// app, and response.authResponse supplies
+					// the user's ID, a valid access token, a signed
+					// request, and the time the access token 
+					// and signed request each expire
+					
+					FB.api('/oauth/access_token', 'get', { client_id: '251199818331265', client_secret: 'e7d81dc1174c5cba498987b3ba7ad005', grant_type: 'fb_exchange_token', fb_exchange_token: AccessToken}, function(response) {
+					console.log(response);
+						if (!response || response.error) {
+							alert('Error occured');
+						} else {
+							alert('Post ID: ' + response.id);
+						}
+					});	// TREBA NAJST SPOSOB, AKO ZISKAT TEN EXTENDED ACCESS TOKEN
+
+				  } else if (response.status === 'not_authorized') {
+					// the user is logged in to Facebook, 
+					// but has not authenticated your app
+					alert('the user is logged in to Facebook but has not authenticated your app');
+				  } else {
+					// the user isn't logged in to Facebook.
+					alert('the user isnt logged in to Facebook');
+				  }
+				 });						
+
+			
+			}
+			
+			function userLogin(){
+				
+				FB.login(function(response) {
+				   if (response.authResponse) {					     
+					 alert('Welcome!  Fetching your information.... ');
+					 FB.api('/me', function(response) {
+					   alert('Good to see you, ' + response.name + '.');
+					 });
+				   } else {
+					 alert('User cancelled login or did not fully authorize.');
+				   }
+				});
+				
+			}
+ 
+
+        </script>
+ 
+        <h3>New Graph api & Javascript Base FBConnect Tutorial | Thinkdiff.net</h3>
+        <p><fb:login-button autologoutlink="true" perms="email,user_birthday,status_update,publish_stream"></fb:login-button></p>
+ 
+        <p>
+            <a href="#" onclick="graphStreamPublish(); return false;" requirelogin="1">Publish Stream Using Graph API</a> |
+			<a href="#" onclick="getToken(); return false;" requirelogin="0">Get Access Token</a> |
+			<a href="#" onclick="extendToken(); return false;" requirelogin="0">EXTEND Access Token</a> |
+			<a href="#" onclick="userLogin(); return false;" requirelogin="0">LOGIN</a> |
+        </p>
+ 
+        <textarea id="status" cols="50" rows="5">Write your status here and click 'Status Set Using Legacy Api Call'</textarea>
+        <br />
+ 
+        <br /><br /><br />
+        <div id="login" style ="display:none"></div>
+        <div id="name"></div>
+		<input id="AccessToken" type="text" value="" />
+		<input id="userID" type="text" value="" />		
+
+    </body>
+</html>

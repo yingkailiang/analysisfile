@@ -1,0 +1,44 @@
+<style>
+body {
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+}
+
+#plusone {
+  float: right;
+}
+</style>
+
+<div id="plusone-div"></div>
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {"parsetags": "explicit"}
+</script>
+
+<script type="text/javascript">
+var url = decodeURIComponent(location.search.slice(1));
+
+/*
+if(location.search){
+
+  gapi.plusone.render("plusone-div", {
+    size: "standard",
+    count: "true",
+    href: /chrome-extension/.test(url)?'https://chrome.google.com/webstore/detail/pfphgaimeghgekhncbkfblhdhfaiaipf':url
+  })
+}else{
+  gapi.plusone.render("plusone-div", {
+    size: "small",
+    count: "false",
+    href: "https://chrome.google.com/webstore/detail/pfphgaimeghgekhncbkfblhdhfaiaipf"
+  })
+}*/
+
+
+gapi.plusone.render("plusone-div", {
+    size: "small",
+    count: "true",
+    href: (location.search&&/http/.test(url))?url:"https://chrome.google.com/webstore/detail/pfphgaimeghgekhncbkfblhdhfaiaipf"
+  })
+</script>

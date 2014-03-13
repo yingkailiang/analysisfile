@@ -1,0 +1,46 @@
+!!! 5
+html(ng-app="sites.md",ng-csp)
+  head
+    title {{i18n('appName')}}
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    // build:css({.tmp,app}) styles/popup.css
+    link(href='bower_components/bootstrap/docs/assets/css/bootstrap.css', rel='stylesheet')
+    link(href='bower_components/bootstrap/docs/assets/css/bootstrap-responsive.css', rel='stylesheet')
+    link(href='bower_components/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    // endbuild 
+  body(styles="margin:5px;")
+    // CHROME EXTENSION POPUP 
+    h3 {{i18n('appName')}}
+    #container(style="width:400px")
+      .container-fluid
+        .row-fluid
+          #msgBox.span12(style="display:none;")
+            .alert
+        .row-fluid
+          .span12
+              ul.nav.nav-list.nav-pills.nav-stacked
+                li
+                  .checkbox
+                    label
+                      input#toggle(type='checkbox')
+                      | {{i18n('Markdownized')}}
+                li
+                  a#saveAutoSetting(href="#")
+                    i.icon-save &nbsp;
+                    | {{i18n('saveAutoSetting')}}
+                li
+                  a#saveIgnoreSetting(href="#")
+                    i.icon-save &nbsp;
+                    | {{i18n('saveIgnoreSetting')}}
+                li.divider
+                li
+                  a#toOptionPageLink(target="_blank")
+                    i.icon-cog &nbsp;
+                    | {{i18n('showOptionPage')}}
+    // build:js scripts/popup.js 
+    script(src='bower_components/jquery/jquery.min.js')
+    script(type="text/javascript", src="bower_components/angular-unstable/angular.min.js")
+    script(src="bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.min.js")
+    script(src="bower_components/angular-sanitize/angular-sanitize.js")
+    script(src='scripts/popup.js')
+    // endbuild 

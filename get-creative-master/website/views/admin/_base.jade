@@ -1,0 +1,15 @@
+extends ../web/_base
+
+block css
+    link(rel="stylesheet", href="/css/admin.css")
+
+block content
+    #content
+        - var challenge = (typeof(current_challenge) != 'undefined') ? current_challenge : undefined
+        !=partial('common/side_nav', {'current_challenge' : challenge})
+        section.main_area
+            block main_area
+
+block extra_javascript
+    script(src="/js/web_only.js")
+    script(src="/js/admin.js")

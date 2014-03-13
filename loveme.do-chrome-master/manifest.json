@@ -1,0 +1,40 @@
+{
+  "name": "loveme.do",
+  "version": "2.0.24",
+  "description": "Provides a sidebar to comment on the page you're on or the text you've selected.",
+  "omnibox": { "keyword" : "lmd" },
+  "background_page": "background.html",
+  "options_page": "fancy-settings/settings.html",
+  "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "notifications",
+    "tabs",
+    "unlimitedStorage"
+  ],
+  "icons" : {
+    "16" : "images/logo-16.png",
+    "19" : "images/logo-19.png",
+    "32" : "images/logo-32.png",
+    "48" : "images/logo-48.png",
+    "64" : "images/logo-64.png",
+    "128" : "images/logo-128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/logo-19.png",
+    "default_title": "loveme.do"
+  },
+  "content_scripts": [
+    {
+      "css": ["sidebar.css"],
+      "js": ["shortcut.js", "jquery-1.7.1.min.js", "global.js", "values.js", "sidebar.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    },
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_end"
+    }
+  ]
+}

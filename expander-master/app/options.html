@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div ng-app="optionsApp">
+            <div ng-controller="OptionsCtrl">
+                <h1>Options</h1>
+                <button  ng-click="Save()">Save</button>
+
+                <h2>Shortcut key</h2>
+                <input  ng-model="options.shortcutKey" type="text" placeholder="shortcut key" />
+                <br>
+                <h2>Expanders</h2>
+                <p ng-repeat="shortcut in options.shortcuts">
+                    Expand <input ng-model="shortcut.key" type="text" placeholder="your key" /> to
+                    <input  ng-model="shortcut.value" type="text" placeholder="your full value">
+                    <a href="#" ng-click="Delete($index)">Delete</a>
+                </p>
+
+                <div id="status"></div>
+                <button  ng-click="AddShortcut()">Add Shortcut</button>
+
+
+                <h2>Advanced Options</h2>
+                <label>Special Selectors</label>
+                <p ng-repeat="selector in options.cssSelectors track by $index">
+                     <input ng-model="selector.value" type="text" placeholder="example: .textbox" />
+                     <a href="#" ng-click="DeleteSelector($index)">Delete</a>
+                </p>
+                <button  ng-click="AddSelector()">Add Shortcut</button>
+
+                <a href="mailto:jsturtevant@gmail.com" target="_top">Send Feedback</a>
+            </div>
+        </div>
+    </body>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="scripts/options.js"></script>
+</html>

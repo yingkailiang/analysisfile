@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Best\u00E4m om du vill ha s\u00E4kerhetskopior i full storlek av dina foton eller om du vill mindre, normalstora \u00F6verf\u00F6rdingar som \u00E4r gratis."
+   },
+   "106279463205193944": {
+      "message": "Personer i det h\u00E4r albumet"
+   },
+   "1078696495414015742": {
+      "message": "Forts\u00E4tt"
+   },
+   "1079312373208696407": {
+      "message": "Klicka h\u00E4r n\u00E4r du har registrerat dig"
+   },
+   "1106976338877989624": {
+      "message": "Om $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Du har inga album. \u00D6verf\u00F6r foton nu!}female{Du har inga album. \u00D6verf\u00F6r foton nu!}other{Du har inga album. \u00D6verf\u00F6r foton nu!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u00D6verf\u00F6ringen har slutf\u00F6rts! {START_BOLD}1{END_BOLD} foto klart att delas.}other{\u00D6verf\u00F6ringen har slutf\u00F6rts! {START_BOLD}{COUNT_2}{END_BOLD} foton klara att delas.}}"
+   },
+   "1131710491735646017": {
+      "message": "Flytta foto"
+   },
+   "1141157641265116263": {
+      "message": "Lagra, organisera och dela alla dina foton och videoklipp med ett par klick."
+   },
+   "1168286392495236500": {
+      "message": "Delas offentligt"
+   },
+   "1168912363261265730": {
+      "message": "Visa bildspel"
+   },
+   "1179156232993544339": {
+      "message": "Ta bort album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lj objekt}female{V\u00E4lj objekt}other{V\u00E4lj objekt}}"
+   },
+   "1199073624563429103": {
+      "message": "Om du tar bort de h\u00E4r fotona tar du \u00E4ven bort alla inl\u00E4gg, kommentarer och +1:or som \u00E4r f\u00F6rknippade med dem."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200B\u00C5teranslut$1\u200B och visa alla foton och album."
+   },
+   "1274379628511980491": {
+      "message": "Skannar foton"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 foto}other{{PHOTO_COUNT_2} foton}}"
+   },
+   "1299278917495979942": {
+      "message": "Tillagt per datum (nytt till gammalt)"
+   },
+   "1299626955070536636": {
+      "message": "Rotera medurs"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Du beh\u00F6ver en internetanslutning n\u00E4r du ska konfigurera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen.}male{Du beh\u00F6ver en internetanslutning n\u00E4r du ska konfigurera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen.}other{Du beh\u00F6ver en internetanslutning n\u00E4r du ska konfigurera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{1 foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{COUNT_2} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}female{{COUNT_1,plural, =0{unused plural form}=1{1 foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{COUNT_2} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}other{{COUNT_1,plural, =0{unused plural form}=1{1 foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{COUNT_2} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}}"
+   },
+   "133632727011673707": {
+      "message": "V\u00E4lja andra importplatser"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}male{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}other{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Importera foton automatiskt fr\u00E5n anslutna kameror och minneskort}male{Importera foton automatiskt fr\u00E5n anslutna kameror och minneskort}other{Importera foton automatiskt fr\u00E5n anslutna kameror och minneskort}}"
+   },
+   "1410409051323941239": {
+      "message": "F\u00F6rs\u00F6ker \u00E5teransluta..."
+   },
+   "1425141239403329190": {
+      "message": "Det \u00E4r nu s\u00E4kert att koppla fr\u00E5n enheten $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Spara"
+   },
+   "1482983300175848685": {
+      "message": "Registrera dig f\u00F6r Google+"
+   },
+   "1494518490116523821": {
+      "message": "Markera alla"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopiera}male{Kopiera}other{Kopiera}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Flytta}male{Flytta}other{Flytta}}"
+   },
+   "1535908424500369256": {
+      "message": "F\u00F6ljande f\u00F6nster st\u00E4ngs:\n"
+   },
+   "1542576779711006198": {
+      "message": "Importera foton fr\u00E5n $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Flytta}female{Flytta}other{Flytta}}"
+   },
+   "1572187844116018239": {
+      "message": "Visa helsk\u00E4rm"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{L\u00E4gg till}male{L\u00E4gg till}other{L\u00E4gg till}}"
+   },
+   "163532554661203916": {
+      "message": "\u00D6ppna $1\u200B och b\u00F6rja importera bilder fr\u00E5n $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Foton ..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B version $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "L\u00E4ser in..."
+   },
+   "1753152144556911377": {
+      "message": "Om $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Nej"
+   },
+   "1760918964936396010": {
+      "message": "Ta bort $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Delas inte}male{Delas inte}other{Delas inte}}"
+   },
+   "1829542073477142210": {
+      "message": "Visas f\u00F6r deltagarna i konversationerna"
+   },
+   "1863533324056146247": {
+      "message": "em"
+   },
+   "1898536270078020135": {
+      "message": "Programmeny"
+   },
+   "1907928780625920048": {
+      "message": "S\u00E4ker lagring"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto redo f\u00F6r delning}other{{COUNT_2} foton redo f\u00F6r delning}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}female{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}other{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}}"
+   },
+   "1938243880078123136": {
+      "message": "Vi omdirigerar dig till Google+ s\u00E5 att du kan titta p\u00E5 videoklippet."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Taggad}male{Taggad}other{Taggad}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Best\u00E4m om du vill ha s\u00E4kerhetskopior i full storlek av dina foton eller om du vill mindre, normalstora \u00F6verf\u00F6rdingar som \u00E4r gratis.}female{Best\u00E4m om du vill ha s\u00E4kerhetskopior i full storlek av dina foton eller om du vill mindre, normalstora \u00F6verf\u00F6rdingar som \u00E4r gratis.}other{Best\u00E4m om du vill ha s\u00E4kerhetskopior i full storlek av dina foton eller om du vill mindre, normalstora \u00F6verf\u00F6rdingar som \u00E4r gratis.}}"
+   },
+   "1995266543727924491": {
+      "message": "Foton fr\u00E5n direkt\u00F6verf\u00F6ring"
+   },
+   "2000146230061979936": {
+      "message": "Profilfoton"
+   },
+   "2029980907058777630": {
+      "message": "Anv\u00E4ndarvillkor"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Med ensamr\u00E4tt."
+   },
+   "2079435202927044386": {
+      "message": "Importerar foton"
+   },
+   "2097731301533028280": {
+      "message": "Alla foton"
+   },
+   "2102825898069375693": {
+      "message": "Meny"
+   },
+   "2127917516759723964": {
+      "message": "Ta bort markerade album?"
+   },
+   "2134605074025092052": {
+      "message": "Ta bort $1\u200B foton"
+   },
+   "2159130950882492111": {
+      "message": "Avbryt"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Klicka och rotera detta foto medurs}female{Klicka och rotera detta foto medurs}other{Klicka och rotera detta foto medurs}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Inte b\u00E4st}male{Inte b\u00E4st}other{Inte b\u00E4st}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Hej! V\u00E4lkommen till {XXX_1}.}female{Hej! V\u00E4lkommen till {XXX_2}.}other{Hej! V\u00E4lkommen till {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Hj\u00E4lp}female{Hj\u00E4lp}other{Hj\u00E4lp}}"
+   },
+   "2256196161103684642": {
+      "message": "Begr\u00E4nsad"
+   },
+   "2267143557027174044": {
+      "message": "Avbryt"
+   },
+   "2299297337048329405": {
+      "message": "Kopiera"
+   },
+   "2354817630223808522": {
+      "message": "Flytta"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}female{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}other{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {APP_NAME} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Flytta {XXX_1} foto till:}other{Flytta {XXX_2} foton till:}}"
+   },
+   "2442822401576040991": {
+      "message": "Foton fr\u00E5n mobilen"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Importera dina foton och kom ig\u00E5ng}female{Importera dina foton och kom ig\u00E5ng}other{Importera dina foton och kom ig\u00E5ng}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 foto}other{{PHOTO_COUNT_2} foton}}"
+   },
+   "2453303348493525919": {
+      "message": "Markerade objekt"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album har valts}other{{COUNT_2} album har valts}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto har redan \u00F6verf\u00F6rts under en tidigare session. }other{{NUM_PHOTOS_2} foton har redan \u00F6verf\u00F6rts under en tidigare session. }}"
+   },
+   "2503049676444223994": {
+      "message": "Per till\u00E4ggningsdatum (gammalt till nytt)"
+   },
+   "251008425196701054": {
+      "message": "Visas f\u00F6r alla p\u00E5 dom\u00E4nen"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}male{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}other{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}}"
+   },
+   "2537804086667442212": {
+      "message": "Om du avbryter importeras inga fler foton. Foton som redan har importerats tas bort."
+   },
+   "2543396005338987129": {
+      "message": "Avbryt importen"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Suddigt}male{Suddigt}other{Suddigt}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto fr\u00E5n $1\u200B har lagts till och \u00E4r klart att dela!}other{# foton fr\u00E5n $1\u200B har lagts till och \u00E4r klara att dela!}}"
+   },
+   "2603085641264767659": {
+      "message": "G\u00E4ster"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{L\u00E5t {XXX} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}male{L\u00E5t {XXX} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}other{L\u00E5t {XXX} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B sek"
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B samlar foton fr\u00E5n dina kameror, telefoner och mappar p\u00E5 ett st\u00E4lle."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto har kopierats fr\u00E5n {FOLDER_NAME}}other{{NUM_PHOTOS_2} foton har kopierats fr\u00E5n {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Full storlek ($1\u200B GB $2\u200B GB kvar)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Det gick inte att logga in dig p\u00E5 {XXX}.}male{Det gick inte att logga in dig p\u00E5 {XXX}.}other{Det gick inte att logga in dig p\u00E5 {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Markera alla}female{Markera alla}other{Markera alla}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sek"
+   },
+   "2710655047330556001": {
+      "message": "Personer p\u00E5 det h\u00E4r fotot"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lkommen till {XXX_1}}female{V\u00E4lkommen till {XXX_2}}other{V\u00E4lkommen till {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Exponering"
+   },
+   "2761269382982007883": {
+      "message": "Vi hj\u00E4lper dig att h\u00E5lla ordning och f\u00F6resl\u00E5r de b\u00E4sta fotona att dela."
+   },
+   "2761326392133498772": {
+      "message": "Dela foto"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Oh noooo!}=1{1 foto}other{{PHOTO_COUNT_2} foton}}"
+   },
+   "2784586982005585140": {
+      "message": "Mer"
+   },
+   "2786233632874013852": {
+      "message": "Fler foton"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Avmarkera alla}female{Avmarkera alla}other{Avmarkera alla}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatur"
+   },
+   "2820098809819439336": {
+      "message": "Ta bort foton"
+   },
+   "2847005022751960352": {
+      "message": "Arbetar fortfarande..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klicka h\u00E4r om du vill visa och dela det h\u00E4r fotot.}other{Klicka h\u00E4r om du vill visa och dela de h\u00E4r fotona.}}"
+   },
+   "287837027263664914": {
+      "message": "Redigera importplatser"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto har valts}other{{COUNT_2} foton har valts}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Klicka h\u00E4r f\u00F6r att ta bort detta foto}female{Klicka h\u00E4r f\u00F6r att ta bort detta foto}other{Klicka h\u00E4r f\u00F6r att ta bort detta foto}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Logga in}female{Logga in}other{Logga in}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{L\u00E4gg till {XXX_1} foto i:}other{L\u00E4gg till {XXX_2} foton i:}}"
+   },
+   "2973731817320915012": {
+      "message": "Per genereringsdatum"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Visa fr\u00E5n b\u00F6rjan}female{Visa fr\u00E5n b\u00F6rjan}other{Visa fr\u00E5n b\u00F6rjan}}"
+   },
+   "2987283829749314385": {
+      "message": "Hej $2\u200B! V\u00E4lkommen till $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Inga valda foton}=1{{COUNT_2} foto redo f\u00F6r delning}other{{COUNT_2} foton redo f\u00F6r delning}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{L\u00E5g kvalitet}male{L\u00E5g kvalitet}other{L\u00E5g kvalitet}}"
+   },
+   "3018671699054071030": {
+      "message": "Foton fr\u00E5n inl\u00E4gg "
+   },
+   "3052031564829371686": {
+      "message": "Upphovsr\u00E4tt &copy; 2012 Google Inc. Med ensamr\u00E4tt."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}male{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}other{V\u00E4lj om du vill lagra s\u00E4kerhetskopior i fullstorlek av foton som du importerar eller om du vill lagra mindre kopior i standardstorlek (2 048 bildpunkter) gratis.}}"
+   },
+   "3062505056927186217": {
+      "message": "Klippboksfoton"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} av {TOTAL}}=1{{COUNT_2} av {TOTAL}}other{{COUNT_2} av {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "L\u00E5g kvalitet"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{N\u00E4r du ska installera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen kr\u00E4vs en internetanslutning}male{N\u00E4r du ska installera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen kr\u00E4vs en internetanslutning}other{N\u00E4r du ska installera {XXX} f\u00F6r f\u00F6rsta g\u00E5ngen kr\u00E4vs en internetanslutning}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}female{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}other{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}}"
+   },
+   "3169583722209452922": {
+      "message": "Korrigera"
+   },
+   "3173944879942241188": {
+      "message": "Suddigt"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}female{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}other{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B g\u00F6r det l\u00E4ttare att organisera och dela dina foton."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}female{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}other{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}}"
+   },
+   "3231427490891919648": {
+      "message": "Ut\u00F6kade cirklar"
+   },
+   "3249513483374643425": {
+      "message": "L\u00E4gg till"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{Med }other{{XXX} blir det l\u00E4ttare att organisera och dela dina foton.}}"
+   },
+   "3266811991857373598": {
+      "message": "Importera dina foton och kom ig\u00E5ng"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto}other{{COUNT_2} foton}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Ta bort album}other{Ta bort album}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sortera}female{Sortera}other{Sortera}}"
+   },
+   "3298990500476723192": {
+      "message": "Ta bort album"
+   },
+   "3304972143698843178": {
+      "message": "Event"
+   },
+   "3316542569449182462": {
+      "message": "Hittar b\u00E4sta foton"
+   },
+   "3319379534575065569": {
+      "message": "Dubblett"
+   },
+   "3335855558019774894": {
+      "message": "St\u00E4ng"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B av $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Ingen har taggats i det h\u00E4r fotot."
+   },
+   "335552911020230570": {
+      "message": "Avbryter..."
+   },
+   "3392114061661490939": {
+      "message": "M\u00E5tt"
+   },
+   "339966167441018467": {
+      "message": "Foton sorterade efter popularitet."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B foton"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{St\u00E4ng helsk\u00E4rm}female{St\u00E4ng helsk\u00E4rm}other{St\u00E4ng helsk\u00E4rm}}"
+   },
+   "3479702069824639097": {
+      "message": "Tryck om du vill j\u00E4mf\u00F6ra med originalet."
+   },
+   "3529907190030543252": {
+      "message": "N\u00E4r du ska installera $1\u200B f\u00F6r f\u00F6rsta g\u00E5ngen kr\u00E4vs en internetanslutning"
+   },
+   "3549990505176341828": {
+      "message": "\u00D6verexponerat"
+   },
+   "3561019065020608408": {
+      "message": "Redo att dela"
+   },
+   "360237722039211543": {
+      "message": "Foton p\u00E5 Drive kan bara kopieras och delas"
+   },
+   "3624887810607887590": {
+      "message": "Rotera \u00E5t v\u00E4nster"
+   },
+   "3627956543961104309": {
+      "message": "Konfigurera $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Fotok\u00E4llor"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Avbryt import (1 foto)}other{Avbryt import ({NUM_PHOTOS_2} foton)}}"
+   },
+   "3687863378890487189": {
+      "message": "R\u00F6relse"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Ta bort markerat foto}other{Ta bort markerade foton}}"
+   },
+   "3714818517297325649": {
+      "message": "Om du avbryter importeras inga fler foton.\nFoton som redan har \u00F6verf\u00F6rts tas inte bort."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Fotoimport"
+   },
+   "3807699453257291879": {
+      "message": "Kommentarer"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klicka h\u00E4r om du vill visa det h\u00E4r fotot.}other{Klicka h\u00E4r om du vill visa de h\u00E4r fotona. att se dessa bilder.}}"
+   },
+   "3818348166201769715": {
+      "message": "Alla dina foton"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} kvar av {TOTAL}}other{{COUNT_2} kvar av {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Visas f\u00F6r: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Rotera motsols"
+   },
+   "3885024486041657280": {
+      "message": "Detta collage har skapats av en serie portr\u00E4ttbilder."
+   },
+   "3888600924819157294": {
+      "message": "Alla foton fr\u00E5n Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Ta bort detta album}other{Ta bort album}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Rotera valt foto \u00E5t v\u00E4nster}other{Rotera valda foton \u00E5t v\u00E4nster}}"
+   },
+   "3973931101896534797": {
+      "message": "Datum"
+   },
+   "4023731095051291021": {
+      "message": "Visa p\u00E5 Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}male{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}other{Meddela mig och importera foton fr\u00E5n anslutna kameror och minneskort}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{\u00C5teruppta}female{\u00C5teruppta}other{\u00C5teruppta}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Du verkar ha startat {XXX} fr\u00E5n en enhet som inte har Chrome OS. F\u00F6r n\u00E4rvarande \u00E4r denna app enbart tillg\u00E4nglig i Chrome OS, men ikonen kan visas i Chrome-webbl\u00E4saren n\u00E4r du anv\u00E4nder en enhet som inte har Chrome OS.}male{Du verkar ha startat {XXX} fr\u00E5n en enhet som inte har Chrome OS. F\u00F6r n\u00E4rvarande \u00E4r denna app enbart tillg\u00E4nglig i Chrome OS, men ikonen kan visas i Chrome-webbl\u00E4saren n\u00E4r du anv\u00E4nder en enhet som inte har Chrome OS.}other{Du verkar ha startat {XXX} fr\u00E5n en enhet som inte har Chrome OS. F\u00F6r n\u00E4rvarande \u00E4r denna app enbart tillg\u00E4nglig i Chrome OS, men ikonen kan visas i Chrome-webbl\u00E4saren n\u00E4r du anv\u00E4nder en enhet som inte har Chrome OS.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Visa det importerade fotot}other{Visa importerade foton}}"
+   },
+   "4187596523158859173": {
+      "message": "Klicka h\u00E4r och visa dessa foton."
+   },
+   "4201300158283262687": {
+      "message": "Klicka h\u00E4r och visa dessa foton."
+   },
+   "4248380204989256605": {
+      "message": "L\u00E4gg till"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Endast du}male{Endast du}other{Endast du}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{L\u00E4gg till i album}female{L\u00E4gg till i album}other{L\u00E4gg till i album}}"
+   },
+   "4293741535116795213": {
+      "message": "Detta foto har skapats med hj\u00E4lp av de b\u00E4sta leendena i en upps\u00E4ttning liknande foton."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Klicka och rotera detta foto medurs}male{Klicka och rotera detta foto medurs}other{Klicka och rotera detta foto medurs}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopiera"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lj de k\u00E4llor fr\u00E5n vilka foton importeras och \u00F6verf\u00F6rs privat till Google+.}female{V\u00E4lj de k\u00E4llor fr\u00E5n vilka foton importeras och \u00F6verf\u00F6rs privat till Google+.}other{V\u00E4lj de k\u00E4llor fr\u00E5n vilka foton importeras och \u00F6verf\u00F6rs privat till Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Visas enbart f\u00F6r dig"
+   },
+   "4367940371467792621": {
+      "message": "Registrera dig f\u00F6r Google+"
+   },
+   "4384754616332866866": {
+      "message": "Visas f\u00F6r dem som du har delat albumet med"
+   },
+   "4397726581488253055": {
+      "message": "Avsluta"
+   },
+   "4451709539238919902": {
+      "message": "Vissa foton har flera kopior som inte kommer att tas bort."
+   },
+   "4458099219143901905": {
+      "message": "\u00D6ppna med Google+ Foton"
+   },
+   "4470533259338698234": {
+      "message": "Flytta"
+   },
+   "4472091515638733183": {
+      "message": "Importen har avbrutits"
+   },
+   "4485837491844366665": {
+      "message": "Klicka h\u00E4r och visa och dela dessa foton."
+   },
+   "4489698681193228521": {
+      "message": "V\u00E4lkommen till $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Importera foton n\u00E4r jag ansluter en kamera eller ett minneskort"
+   },
+   "4504920004530359010": {
+      "message": "Full storlek (upp till 5 GB gratis lagringsutrymme)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Starta}female{Starta}other{Starta}}"
+   },
+   "4535738935335444945": {
+      "message": "Delas inte"
+   },
+   "4550974869121207169": {
+      "message": "ta bort"
+   },
+   "4557902876984952242": {
+      "message": "Redigera"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Om du tar bort detta album tas alla kommentarer, +1:or och taggar som \u00E4r kopplade till albumet bort.}other{ Om du tar bort detta album tas alla kommentarer, +1:or och taggar som \u00E4r kopplade till albumet bort.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatisk korrigering"
+   },
+   "4579986716424813115": {
+      "message": "Spela upp fr\u00E5n b\u00F6rjan"
+   },
+   "460600293345244430": {
+      "message": "V\u00E4lj foton som du vill dela eller l\u00E4gga till i ett album."
+   },
+   "4624285717763544623": {
+      "message": "L\u00E4gg till"
+   },
+   "4630251340863502127": {
+      "message": "\u00D6verf\u00F6r importerade foton"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Du har inga album. \u00D6verf\u00F6r foton nu!}male{Du har inga album. \u00D6verf\u00F6r foton nu!}other{Du har inga album. \u00D6verf\u00F6r foton nu!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har importerats!}other{# foton har importerats!}}"
+   },
+   "466730294804943734": {
+      "message": "Inga kommentarer \u00E4nnu."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B st\u00F6ds inte p\u00E5 denna plattform"
+   },
+   "4678028473996848955": {
+      "message": "Alla dina foton"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Avbryt}female{Avbryt}other{Avbryt}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B av $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B x $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Om du tar bort de h\u00E4r albumen tar du \u00E4ven bort alla inl\u00E4gg, kommentarer och +1:or som \u00E4r f\u00F6rknippade med dem."
+   },
+   "471816275243265264": {
+      "message": "Plats"
+   },
+   "4726999481668064421": {
+      "message": "Detta HDR-foto har skapats med hj\u00E4lp av en upps\u00E4ttning alternativexponeringar."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BDu \u00E4r inloggad som$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hej! V\u00E4lkommen till $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Foton fr\u00E5n Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BDu \u00E4r inloggad som$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Nu \u00E4r det s\u00E4kert att koppla fr\u00E5n enheten."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Klicka h\u00E4r f\u00F6r att markera eller avmarkera detta foto}female{Klicka h\u00E4r f\u00F6r att markera eller avmarkera detta foto}other{Klicka h\u00E4r f\u00F6r att markera eller avmarkera detta foto}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Importera foton n\u00E4r jag ansluter en kamera eller ett minneskort}male{Importera foton n\u00E4r jag ansluter en kamera eller ett minneskort}other{Importera foton n\u00E4r jag ansluter en kamera eller ett minneskort}}"
+   },
+   "484542621830317934": {
+      "message": "Du har inga album. \u00D6verf\u00F6r foton nu!"
+   },
+   "489844404897890427": {
+      "message": "Helsk\u00E4rm"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 foton}=1{1 foto}other{{NUM_2} foton}}"
+   },
+   "4930506384627295710": {
+      "message": "Inst\u00E4llningar"
+   },
+   "495485805564687684": {
+      "message": "Avbryt import"
+   },
+   "4957990634817185638": {
+      "message": "Forts\u00E4tt att importera"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Dela album}=1{Dela markerat foto}other{Dela markerade foton}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Klicka och l\u00E4gg till foton}male{Klicka och l\u00E4gg till foton}other{Klicka och l\u00E4gg till foton}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} dag har valts}other{{COUNT_2} dagar har valts}}"
+   },
+   "5028777105388019087": {
+      "message": "Detaljerad information"
+   },
+   "5043933900720743682": {
+      "message": "Album"
+   },
+   "5045200874122539692": {
+      "message": "Avsluta"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Kom ig\u00E5ng genom att \u00F6verf\u00F6ra n\u00E5gra foton.}male{Kom ig\u00E5ng genom att \u00F6verf\u00F6ra n\u00E5gra foton.}other{Kom ig\u00E5ng genom att \u00F6verf\u00F6ra n\u00E5gra foton.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Din dom\u00E4n"
+   },
+   "5087678602655068553": {
+      "message": "Kamera"
+   },
+   "5094793857629325945": {
+      "message": "F\u00F6rbereder delning..."
+   },
+   "509736707516044180": {
+      "message": "Avbryter ..."
+   },
+   "5114432207766092038": {
+      "message": "Alla foton fr\u00E5n alla inl\u00E4gg."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Om du tar bort detta album tas alla kommentarer, +1:or och taggar som \u00E4r kopplade till albumet bort.}other{ Om du tar bort detta album tas alla kommentarer, +1:or och taggar som \u00E4r kopplade till albumet bort.}}"
+   },
+   "5127852906617233988": {
+      "message": "St\u00E4ng"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Dina cirklar}male{Dina cirklar}other{Dina cirklar}}"
+   },
+   "5143227875710959810": {
+      "message": "Dela album"
+   },
+   "5146398958364876914": {
+      "message": "Sortera"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Fr\u00E5n {FROM_NAME}}male{Fr\u00E5n {FROM_NAME}}other{Fr\u00E5n {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Anv\u00E4nd som albumomslag}female{Anv\u00E4nd som albumomslag}other{Anv\u00E4nd som albumomslag}}"
+   },
+   "5179193375793315549": {
+      "message": "Du kan inte l\u00E4gga till fler \u00E4n $1\u200B foton samtidigt."
+   },
+   "5198477912095887288": {
+      "message": "i original"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Visa foto}other{Visa foton}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}male{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}other{Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton.}}"
+   },
+   "5233843271957333982": {
+      "message": "\u00E5terst\u00E4ll"
+   },
+   "5252008443782667515": {
+      "message": "Ja"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{ Det finns en extra kopia som inte tas bort.}other{ Det finns {NUM_ADDITIONAL_COPIES_2} kopior som inte tas bort.}}"
+   },
+   "5369958865776447504": {
+      "message": "Detta foto \u00E4r i albumet \" $1\u200B . \""
+   },
+   "5376084340764125422": {
+      "message": "Inaktivera helsk\u00E4rm"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Mix"
+   },
+   "5413761544816529267": {
+      "message": "Registrera dig f\u00F6r ett konto p\u00E5 Google+ s\u00E5 att du kan anv\u00E4nda $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "F\u00F6rs\u00F6k igen"
+   },
+   "545081735380424772": {
+      "message": "\u00D6verf\u00F6r och dela foton fr\u00E5n Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Ta bort foton"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Suddigt"
+   },
+   "5522640894890976342": {
+      "message": "Underexpon."
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{\u00D6verexponerat}male{\u00D6verexponerat}other{\u00D6verexponerat}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto har kopierats!}other{{NUM_PHOTOS_2} foton har kopierats!}}"
+   },
+   "5546339789714773759": {
+      "message": "Rotera \u00E5t h\u00F6ger"
+   },
+   "5563891514339188770": {
+      "message": "Ange som framsida p\u00E5 albumet"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Klicka och ta bort detta foto}male{Klicka och ta bort detta foto}other{Klicka och ta bort detta foto}}"
+   },
+   "5613209249634786065": {
+      "message": "Full (upp till 5 GB gratis lagringsutrymme)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Lagra, ordna och dela alla dina foton och videoklipp med ett par klick.}female{Lagra, ordna och dela alla dina foton och videoklipp med ett par klick.}other{Lagra, ordna och dela alla dina foton och videoklipp med ett par klick.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} b\u00E4sta foto har valts av Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} b\u00E4sta foton har valts av Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Visa foto}other{Visa foton}}}female{{COUNT,plural, =0{unused plural form}=1{Visa foto}other{Visa foton}}}other{{COUNT,plural, =0{unused plural form}=1{Visa foto}other{Visa foton}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Ingen har taggats i det h\u00E4r albumet."
+   },
+   "5747301769466451086": {
+      "message": "Full ($1\u200B GB av $2\u200BGB kvar)"
+   },
+   "5750062244377347370": {
+      "message": "Du kan inte dela fler \u00E4n $1\u200B foton samtidigt."
+   },
+   "5750485945694679561": {
+      "message": "Bild"
+   },
+   "5752465522295465624": {
+      "message": "Vad \u00E4r det h\u00E4r?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har importerats!}other{# foton har importerats!}}"
+   },
+   "5782608665556323710": {
+      "message": "Delas med ut\u00F6kade cirklar"
+   },
+   "5792855097053831820": {
+      "message": "V\u00E4lj de k\u00E4llor fr\u00E5n vilka foton importeras och \u00F6verf\u00F6rs privat till Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{ Ta bort detta foto}other{Ta bort foton}}"
+   },
+   "5822534876981710132": {
+      "message": "Direkt\u00F6verf\u00F6ring"
+   },
+   "5849125517299342831": {
+      "message": "Importerar foton..."
+   },
+   "5851872412594366640": {
+      "message": "Flytta alla foton i albumet"
+   },
+   "585220835732140655": {
+      "message": "Delat p\u00E5 $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Full (upp till 5,0 GB gratis lagringsutrymme)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{ 1 foto som redan har importerats kommer att \u00F6verf\u00F6ras.}other{{NUM_PHOTOS_2} foton som redan har importerats kommer att \u00F6verf\u00F6ras.}}"
+   },
+   "591256046515963756": {
+      "message": "Bli aldrig av med ett minne. F\u00E5 tillg\u00E5ng till dina foton n\u00E4r som helst fr\u00E5n vilken enhet som helst."
+   },
+   "5937251202465808296": {
+      "message": "Mer"
+   },
+   "5963865584069399662": {
+      "message": "privat"
+   },
+   "5978216065275630477": {
+      "message": "Vi hade problem med att logga in dig p\u00E5 Google+ Foton."
+   },
+   "5981779462795520309": {
+      "message": "Mottagarna av de ursprungliga inl\u00E4ggen"
+   },
+   "5984859669237993376": {
+      "message": "Klicka och l\u00E4gg till foton"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Ett foto har lagts till och \u00E4r redo f\u00F6r delning!}other{# foton har lagts till och \u00E4r redo f\u00F6r delning!}}"
+   },
+   "6003032126642624287": {
+      "message": "Full storlek (upp till 5,0 GB gratis lagringsutrymme)"
+   },
+   "6021285543212025836": {
+      "message": "Om du tar bort det h\u00E4r fotot tar du \u00E4ven bort alla inl\u00E4gg, kommentarer och +1:or som \u00E4r kopplade till det."
+   },
+   "605360614133602045": {
+      "message": "fm"
+   },
+   "6073020864818444056": {
+      "message": "Klar"
+   },
+   "612521550010808115": {
+      "message": "Visas f\u00F6r alla p\u00E5 webben"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har lagts till och \u00E4r redo f\u00F6r delning!}other{# foton har lagts till och \u00E4r redo f\u00F6r delning!}}"
+   },
+   "6143433948220856193": {
+      "message": "\u00D6verexponerat"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Ta bort foto"
+   },
+   "6261883509320806048": {
+      "message": "Ta bort markerade foton?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B samlar alla foton p\u00E5 din enhet och de du tar med mobilen och kameran p\u00E5 ett st\u00E4lle."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}female{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}other{L\u00E5t {APP_NAME} hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar}}"
+   },
+   "6366245138858985671": {
+      "message": "Album f\u00F6r klippboksfoton."
+   },
+   "636798263636559500": {
+      "message": "Ange albumnamn"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Klicka och rotera detta foto moturs}male{Klicka och rotera detta foto moturs}other{Klicka och rotera detta foto moturs}}"
+   },
+   "6402624319890396199": {
+      "message": "Avbryt"
+   },
+   "6405254665227516714": {
+      "message": "Alla profilfoton."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Du kan inte v\u00E4lja andras foton}male{Du kan inte v\u00E4lja andras foton}other{Du kan inte v\u00E4lja andras foton}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Du \u00E4r inte ansluten till internet.}female{Du \u00E4r inte ansluten till internet.}other{Du \u00E4r inte ansluten till internet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Dessa bilder har \u00F6verf\u00F6rts privat till Google+ och \u00E4r endast synliga f\u00F6r dig."
+   },
+   "6546455868033656709": {
+      "message": "Per fotodatum (nytt till gammalt)"
+   },
+   "6562395422130457272": {
+      "message": "Belysning"
+   },
+   "6569718559670589774": {
+      "message": "Delas privat"
+   },
+   "6578760328281087395": {
+      "message": "Ta bort foto"
+   },
+   "6594379652661172876": {
+      "message": "Den h\u00E4r bilden i fotoautomatstil har skapats av flera portr\u00E4tt."
+   },
+   "6604371182910178125": {
+      "message": "Om du tar bort det h\u00E4r fotot tar du \u00E4ven bort alla inl\u00E4gg, kommentarer och +1:or som \u00E4r kopplade till det."
+   },
+   "6626842519109915669": {
+      "message": "Foton fr\u00E5n Automatisk s\u00E4kerhetskopiering"
+   },
+   "663126026358360455": {
+      "message": "Standard (obegr\u00E4nsad gratis lagring)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto har lagts till och \u00E4r redo f\u00F6r delning!}other{{NUM_PHOTOS_2} foton har lagts till och \u00E4r redo f\u00F6r delning!}}"
+   },
+   "664682826251689034": {
+      "message": "Inga +1:or \u00E4nnu."
+   },
+   "666585356635427967": {
+      "message": "Det h\u00E4r fotot har redigerats automatiskt."
+   },
+   "6698080327673689103": {
+      "message": "Hittar b\u00E4sta fotona..."
+   },
+   "6721868124884562992": {
+      "message": "Samla foton fr\u00E5n alla dina enheter p\u00E5 ett st\u00E4lle."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Korrigera}female{Korrigera}other{Korrigera}}"
+   },
+   "6747166642870870925": {
+      "message": "Avbryter import ..."
+   },
+   "6750134343457912784": {
+      "message": "F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av $1\u200B st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt."
+   },
+   "675159243189607951": {
+      "message": "L\u00E4gg till foto i album"
+   },
+   "6778067484492795152": {
+      "message": "Underexpon."
+   },
+   "6792549611288275870": {
+      "message": "Fokusl\u00E4ngd"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B lagrar dina foton p\u00E5 ett s\u00E4kert s\u00E4tt och du kan visa dem p\u00E5 alla enheter."
+   },
+   "680511502310466916": {
+      "message": "Popul\u00E4ra foton"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{p\u00E5 {NUM_PHOTOS_2} foto}other{p\u00E5 {NUM_PHOTOS_2} foton}}"
+   },
+   "6872320306636644917": {
+      "message": "Det \u00E4r nu s\u00E4kert att koppla fr\u00E5n enheten."
+   },
+   "6872759799605876555": {
+      "message": "F-nummer"
+   },
+   "687281374586801843": {
+      "message": "Starta $1\u200B och importera foton n\u00E4r jag ansluter en kamera eller ett minneskort"
+   },
+   "6882873153932419461": {
+      "message": "Selektiv justering"
+   },
+   "6906406658770551379": {
+      "message": "Denna animering har skapats fr\u00E5n en serie av fem eller fler foton."
+   },
+   "6983200894459150878": {
+      "message": "Detta panorama har skapats av en serie \u00F6verlappande foton."
+   },
+   "7022070615528435141": {
+      "message": "Ta bort"
+   },
+   "7049887240439736400": {
+      "message": "Skriv ut"
+   },
+   "706796434064753890": {
+      "message": "Visa bildspel"
+   },
+   "7102649289752747375": {
+      "message": "Skicka feedback"
+   },
+   "7105497072958063616": {
+      "message": "Ton"
+   },
+   "7182974689040833178": {
+      "message": "\u00C5teruppta"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Din dom\u00E4n}male{Din dom\u00E4n}other{Din dom\u00E4n}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BDu \u00E4r inloggad som$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Importerar foton fr\u00E5n $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Forts\u00E4tt med importen"
+   },
+   "7283005104295613831": {
+      "message": "V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis."
+   },
+   "7288593042347321202": {
+      "message": "Ta bort markerat foto?"
+   },
+   "7329217250595054697": {
+      "message": "Original"
+   },
+   "734934965373819800": {
+      "message": "Tillbaka"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Taggad i: {ALBUM_NAME}}male{Taggad i: {ALBUM_NAME}}other{Taggad i: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "L\u00E4gga till foton"
+   },
+   "7419704019640008953": {
+      "message": "Dela"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{B\u00E4st}male{B\u00E4st}other{B\u00E4st}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E4lkommen till {XXX}}male{V\u00E4lkommen till {XXX}}other{V\u00E4lkommen till {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "\u00C5teranslut och visa alla foton och album."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pausa}female{Pausa}other{Pausa}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Rotera markerat foto \u00E5t h\u00F6ger}other{Rotera markerade foton \u00E5t h\u00F6ger}}"
+   },
+   "7488769419737494778": {
+      "message": "Hej $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "V\u00E4lj sedan \u00F6verf\u00F6ringsstorlek"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har kopierats!}other{# foton har kopierats!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Dela}female{Dela}other{Dela}}"
+   },
+   "7538539390938534172": {
+      "message": "Vitbalans"
+   },
+   "7546970424299309536": {
+      "message": "Ordnas automatiskt och \u00E4r redo f\u00F6r delning"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Inga foton har valts}=1{{COUNT_2} foto har valts}other{{COUNT_2} foton har valts}}"
+   },
+   "7637409896935138087": {
+      "message": "Per fotodatum (gammalt till nytt)"
+   },
+   "7649598852815041947": {
+      "message": "Nytt album"
+   },
+   "765296891797858248": {
+      "message": "Hej!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto fr\u00E5n {FOLDER_NAME} har lagts till och \u00E4r redo f\u00F6r delning!}other{{NUM_PHOTOS_2} foton fr\u00E5n {FOLDER_NAME} har lagts till och \u00E4r redo f\u00F6r delning!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B visningar"
+   },
+   "7718742267235559288": {
+      "message": "St\u00E4ng helsk\u00E4rm"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har kopierats fr\u00E5n $1\u200B!}other{# foton har kopierats fr\u00E5n $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "S\u00E4ker f\u00F6rvaring"
+   },
+   "7736894743522697089": {
+      "message": "Pano"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Flytta markerat foto}other{Flytta markerade foton}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Kom ig\u00E5ng!"
+   },
+   "779808899645033177": {
+      "message": "Senaste import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Endast du"
+   },
+   "7828808805120058354": {
+      "message": "\u00C5terg\u00E5"
+   },
+   "7856636143847093955": {
+      "message": "Sl\u00E5 samman dagar"
+   },
+   "7871095434511949009": {
+      "message": "Bl\u00E4ndare"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E4lj sedan \u00F6verf\u00F6ringsstorlek}female{V\u00E4lj sedan \u00F6verf\u00F6ringsstorlek}other{V\u00E4lj sedan \u00F6verf\u00F6ringsstorlek}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E4lj fr\u00E5n vilka k\u00E4llor foton ska importeras och \u00F6verf\u00F6ras privat till Google+.}male{V\u00E4lj fr\u00E5n vilka k\u00E4llor foton ska importeras och \u00F6verf\u00F6ras privat till Google+.}other{V\u00E4lj fr\u00E5n vilka k\u00E4llor foton ska importeras och \u00F6verf\u00F6ras privat till Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Klicka h\u00E4r och markera eller avmarkera detta foto}male{Klicka h\u00E4r och markera eller avmarkera detta foto}other{Klicka h\u00E4r och markera eller avmarkera detta foto}}"
+   },
+   "7899751896282337632": {
+      "message": "F\u00F6rb\u00E4ttrat"
+   },
+   "7911416166208830577": {
+      "message": "Hj\u00E4lp"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klicka h\u00E4r om du vill visa och dela det h\u00E4r fotot.}other{Klicka h\u00E4r om du vill visa och dela de h\u00E4r fotona.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Ta bort}female{Ta bort}other{Ta bort}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Klicka och rotera detta foto moturs}female{Klicka och rotera detta foto moturs}other{Klicka och rotera detta foto moturs}}"
+   },
+   "8031489364030461560": {
+      "message": "Konfigurera $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Detta foto har redigerats automatiskt.}male{Detta foto har redigerats automatiskt.}other{Detta foto har redigerats automatiskt.}}"
+   },
+   "8112449587476468078": {
+      "message": "Ta bort markerade album?"
+   },
+   "8121983485737306983": {
+      "message": "dubblett"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Foton"
+   },
+   "8160611829089073754": {
+      "message": "Ta bort album"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{L\u00E4gg till markerat foto i albumet}other{L\u00E4gg till markerade foton i albumet}}"
+   },
+   "8179903593042831802": {
+      "message": "L\u00E4gg till foto"
+   },
+   "819996403327805209": {
+      "message": "L\u00E4s mer"
+   },
+   "8209467666747691270": {
+      "message": "B\u00E4st"
+   },
+   "8233995188166153420": {
+      "message": "Logga in p\u00E5 Chrome och b\u00F6rja \u00F6verf\u00F6ra foton."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{S\u00E4mre dubblett}male{S\u00E4mre dubblett}other{S\u00E4mre dubblett}}"
+   },
+   "8257489178421131174": {
+      "message": "Ange albumnamn"
+   },
+   "8262372758945437018": {
+      "message": "Kom ig\u00E5ng"
+   },
+   "8272813937461935720": {
+      "message": "Vi hade problem med att logga in dig p\u00E5 Google+ Foton."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Klicka och l\u00E4gg till foton}female{Klicka och l\u00E4gg till foton}other{Klicka och l\u00E4gg till foton}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dela markerat foto}other{Dela markerade foton}}"
+   },
+   "8317910107005018559": {
+      "message": "Mindre"
+   },
+   "8324963774100913509": {
+      "message": "Begr\u00E4nsad"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{V\u00E4lkommen till {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Ange albumnamn}male{Ange albumnamn}other{Ange albumnamn}}"
+   },
+   "8405309693308875139": {
+      "message": "Foton"
+   },
+   "840692109692540367": {
+      "message": "Logga in"
+   },
+   "8418580476552799567": {
+      "message": "\u00D6verf\u00F6ringsstorlek"
+   },
+   "8446162208830000966": {
+      "message": "Avsluta"
+   },
+   "8461609631969932886": {
+      "message": "D\u00F6lj"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Version $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klicka h\u00E4r om du vill visa det h\u00E4r fotot.}other{Klicka h\u00E4r om du vill visa de h\u00E4r fotona.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Ett foto/flera foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}male{{COUNT_1,plural, =0{Ett foto/flera foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}other{{COUNT_1,plural, =0{Ett foto/flera foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}=1{{START_BOLD}1{END_BOLD} foto v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}other{{START_BOLD}{COUNT_2}{END_BOLD} foton v\u00E4ntar p\u00E5 \u00F6verf\u00F6ring. \u00C5teranslut om du vill \u00F6verf\u00F6ra och dela!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "L\u00E5t $1\u200B hj\u00E4lpa dig v\u00E4lja de b\u00E4sta bilderna bland de foton du importerar"
+   },
+   "8554704680089748768": {
+      "message": "Foton importeras p\u00E5 $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Spela upp"
+   },
+   "8566172133042307539": {
+      "message": "L\u00E4gg till i album"
+   },
+   "8588705294225487286": {
+      "message": "Visas f\u00F6r mottagare av de ursprungliga inl\u00E4ggen"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}male{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}other{V\u00E4lj s\u00E4kerhetskopior i full storlek av dina foton eller mindre standard\u00F6verf\u00F6ringar som \u00E4r gratis.}}"
+   },
+   "8654290347345927684": {
+      "message": "Nu \u00E4r det s\u00E4kert att koppla fr\u00E5n enheten $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Hej! V\u00E4lkommen till {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "V\u00E4lj b\u00E4sta"
+   },
+   "8675112326850410714": {
+      "message": "Minneskort eller lagringsenhet ansluten"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{St\u00E4ng}female{St\u00E4ng}other{St\u00E4ng}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har importerats fr\u00E5n $1\u200B!}other{# foton har importerats fr\u00E5n $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Privata"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Du \u00E4r inte ansluten till internet.}male{Du \u00E4r inte ansluten till internet.}other{Du \u00E4r inte ansluten till internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Spara inst\u00E4llningar"
+   },
+   "8765880467977864647": {
+      "message": "av $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Anv\u00E4ndarmeny"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Helsk\u00E4rm}female{Helsk\u00E4rm}other{Helsk\u00E4rm}}"
+   },
+   "8777952755137547655": {
+      "message": "Detta panoramafoto har skapats av en upps\u00E4ttning foton med angr\u00E4nsande motiv."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u00D6verf\u00F6ringen har slutf\u00F6rts! 1 foto redo f\u00F6r delning.}other{\u00D6verf\u00F6ringen har slutf\u00F6rts! {COUNT_2} foton redo f\u00F6r delning.}}"
+   },
+   "8832933617217959986": {
+      "message": "Avmarkera alla"
+   },
+   "8874739581425612284": {
+      "message": "V\u00E4lj foton som du vill dela eller l\u00E4gga till i ett album"
+   },
+   "8890553633144307762": {
+      "message": "Tillbaka"
+   },
+   "8928816882866356838": {
+      "message": "Offentligt"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Ta bort album}=1{Ta bort markerat foto}other{Ta bort markerade foton}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Skriv ut}female{Skriv ut}other{Skriv ut}}"
+   },
+   "8984549175557747262": {
+      "message": "Videoklippet behandlas..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Underexponerat}male{Underexponerat}other{Underexponerat}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Delas med dom\u00E4n"
+   },
+   "9042260521669277115": {
+      "message": "Pausa"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 visningar}=1{1 visning}other{{VIEW_COUNT_2} visningar}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B v\u00E4ljer automatiskt de b\u00E4sta bilderna fr\u00E5n dina samlingar och g\u00F6r dem redo f\u00F6r delning."
+   },
+   "9137360918780826967": {
+      "message": "L\u00E5g kvalitet"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto har lagts till och \u00E4r redo f\u00F6r delning!}other{# foton har lagts till och \u00E4r redo f\u00F6r delning!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{Med {XXX_1} blir det l\u00E4ttare att ordna och dela dina foton.}female{Med {XXX_2} blir det l\u00E4ttare att ordna och dela dina foton.}other{Med {XXX_3} blir det l\u00E4ttare att ordna och dela dina foton.}}"
+   },
+   "9219694540199049147": {
+      "message": "Mapp ..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto har redan \u00F6verf\u00F6rts under en tidigare session.}other{{NUM_PHOTOS_2} foton har redan \u00F6verf\u00F6rts under en tidigare session.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto har importerats och \u00F6verf\u00F6rts.}other{{START_BOLD}{COUNT_2}{END_BOLD} foton har importerats och \u00F6verf\u00F6rts.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {XXX} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}male{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {XXX} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}other{F\u00F6r att f\u00E5 ut mesta m\u00F6jliga av {XXX} st\u00E4ller du in det s\u00E5 att dina foton importeras automatiskt.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Flytta alla foton i album}=1{Flytta markerat foto}other{Flytta markerade foton}}"
+   },
+   "982577805980296193": {
+      "message": "Klicka h\u00E4r och visa och dela dessa foton."
+   }
+}

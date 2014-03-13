@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "GBL",
+  "description": " 抄币利器 ",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "bit.png"//,
+   // "default_popup":"popup.html"
+  },
+  "content_scripts": [
+        {
+            "matches": ["https://www.btc-gbl.com/*","https://btc-gbl.com/*","https://www.btc-gbl.biz/*"],
+            "js": ["jquery.js","utils.js","socket.io.js","t.js","gbl.js"],
+            "css":["gbl.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "background":{
+       // "page":"popup.html",
+        "persistent":true,
+        "scripts":["socket.io.js","background.js"]
+    },
+
+    "permissions": [
+        "tabs",
+        "notifications",
+        "bookmarks",
+        "unlimitedStorage",
+        "https://*/*"
+    ],
+    "web_accessible_resources": [
+        "bit.png",
+        "*.wav"
+    ]
+
+}

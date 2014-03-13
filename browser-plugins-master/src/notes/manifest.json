@@ -1,0 +1,17 @@
+{
+  "name": "create notes!",
+  "description": "create your note, and sync them online to your gmail account!",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "bookmarks"
+   ],
+  "browser_action": {
+      "default_title": "write a quick note.",
+      "default_icon" : "notes-icon16.png",
+      "popup" : "background.html"
+  },
+  "icons": {
+    "128": "notes-icon128.png"
+  },
+  "options_page" : "options.html"
+}

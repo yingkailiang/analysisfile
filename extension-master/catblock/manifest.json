@@ -1,0 +1,23 @@
+{
+    "name"            :"前端开发者辅助工具",
+    "version"         :"0.1",
+    "description"     :"前端开发常用工具整合",
+    "browser_action": {
+        "default_title": "工具箱",
+        "default_icon": "aicon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions"     :["webRequest", "webRequestBlocking",
+        "*://*/*", "tabs", "storage"],
+    "background"      :{
+        "scripts":["util.js", "background.js"]
+    },
+    "content_scripts" :[
+        {
+            "matches":["*://*/*"],
+            "js"     :["assets/kissy.js","content_scripts.js"]
+        }
+    ],
+    "devtools_page"   :"devpanelsinit.html",
+    "manifest_version":2
+}

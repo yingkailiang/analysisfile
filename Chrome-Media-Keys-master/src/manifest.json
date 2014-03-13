@@ -1,0 +1,47 @@
+{
+  "name": "Sway.fm Unified Music Media Keys",
+  "version": "3.14",
+  "manifest_version": 2,
+  "icons": { "16": "images/icon16.png",
+           "48": "images/icon148.png",
+          "128": "images/icon128.png" },
+  "browser_action": {
+    "default_icon": {
+        "19": "images/browser-action-icon.png",
+        "38": "images/browser-action-icon.png"
+      },
+    "default_popup": "popup/popup.html",
+    "default_title": "Unity Music Media Keys"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "notifications",
+    "unlimitedStorage"
+  ],
+  "description": "Media keys support for online radio and streaming music apps.",
+  "background": {
+    "page":"background/background.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "patterns": ["http://*/*", "https://*/*"],
+      "js": ["content_scripts/shim.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "patterns": ["http://*/*", "https://*/*"],
+      "js": ["content_scripts/content.js", "controllers/BasicController.js"],
+     	"run_at": "document_idle"
+    }
+  ],
+  "plugins" : [
+    {"path": "handler/UnityControlPlugin.plugin"},
+    {"path": "handler/npUnityControlPlugin.dll"}
+  ],
+  "options_page": "options/options.html",
+  "content_security_policy": "script-src 'self' https://ws.audioscrobbler.com https://dc8na2hxrj29i.cloudfront.net; object-src 'self';"
+}

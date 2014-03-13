@@ -1,0 +1,40 @@
+{
+  "name": "My first imo.im extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "It lets us see the big picture.",
+  "background": { "scripts": ["background.js"] },  
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title" : "Your imo.im is modified!"
+  },
+  "content_scripts" : [
+    {
+      "matches" : [
+        "*://imo.im/*"
+      ],
+      "js" : ["js/jquery-1.7.2.min.js","contentscript.js","js/jquery.lightbox.js"],
+	  "css" : ["css/lightbox.css"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ], 
+  "permissions" : [
+    "tabs",
+    "*://imo.im/*",
+    "webRequest",
+	"webRequestBlocking"
+  ],  
+  "icons" : {
+    "32" : "icon32.png",
+	"48" : "icon48.png",
+    "128" : "icon128.png"
+  },
+  "options_page": "options.html",  
+  "web_accessible_resources": [
+	"icon.png",
+	"images/zoom.png",
+	"images/closelabel.gif"
+  ],  
+  "manifest_version": 2
+}

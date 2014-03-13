@@ -1,0 +1,10 @@
+div.sandbox
+    canvas(width="500", height="375").preview
+    canvas(width="500", height="375").final
+div.tools
+    div.opacity
+        label Opacity
+        input(class="opacity", type="range", min="0.001", max="1", value="1", step="0.01")
+    ul.color_list
+        - each color in colors
+            li(data-color="#{color}", style="background:rgb(#{color})")

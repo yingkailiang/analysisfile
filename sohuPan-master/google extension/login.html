@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" /> 
+	<title>欢迎登录搜狐企业网盘</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+	<div id="pan-container">
+		<div id="pan-header">
+			<a href="http://pan.sohu.net/" target="_blank"></a>
+		</div>
+		<div id="pan-body">
+			<div class="pan-msg-box">
+				<!-- 请输入登录邮箱地址
+				请输入密码
+				帐号和密码不匹配
+				请输入正确的邮箱地址
+				-->
+				<p class="msg"></p>
+			</div>
+			<ul class="pan-login-box">
+				<li class="pan-login-line">
+					<label for="userid">帐&nbsp;&nbsp;号：</label><input id="userid" class="kan-ipt" tabindex="1" type="text" placeholder="请输入邮箱地址" autocomplete="off">
+				</li>
+				<li class="pan-login-line">
+					<label for="password">密&nbsp;&nbsp;码：</label><input id="password" class="kan-ipt" tabindex="2" type="password" autocomplete="off">
+				</li>
+				<li class="pan-login-line pan-forget">
+					<label>&nbsp;</label><a href="http://pan.sohu.net/PasswordAction!toSendPage.action" tabindex="4" target="_blank">忘记密码</a>
+				</li>
+				<li class="pan-login-line pan-login-btn-box">
+					<button id="pan-sohu-login" class="login-btn" tabindex="3">登录</button>
+					<button class="login-btn-disabled">登录</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/config.js"></script>
+	<script src="js/base.js"></script>
+	<script src="js/login/loginPan.js"></script>
+	<script src="js/login/loginBox.js"></script>
+</body>
+</html>

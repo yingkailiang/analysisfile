@@ -1,0 +1,126 @@
+@import "compass/css3";
+@import "sass-bootstrap/lib/bootstrap";
+
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tooltip-inner {
+    max-width: 600px;
+}
+
+.partial-index {
+    .menu {
+        h1 {
+            display: inline;
+        }
+
+        button {
+            vertical-align: 25%;
+        }
+    }
+
+    .submenu input {
+        margin-top: 10px;
+    }
+
+    .host {
+        margin-bottom: 10px;
+        padding: 10px 0px;
+        border-radius: 4px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+        &.selected {
+            background-color: #F8F8F8;
+        }
+
+        &:hover {
+            text-decoration: none;
+            background-color: #EEE;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .name {
+            
+        }
+    }
+}
+
+.partial-cards {
+    .menu-container {
+        margin: {
+            top: 10px;
+            bottom: 10px;
+        }
+    }
+    
+    .submenu input {
+        margin-top: 10px;
+    }
+
+    div.bundle {
+        background-color: #F8F0FF;
+        border-radius: 4px;
+    }
+
+    $card-padding-y: 3px;
+    $card-padding-x: 10px;
+
+    ul.cards {
+        padding: {
+            top: $card-padding-y * 2;
+            bottom: $card-padding-y * 2;
+        }
+    }
+
+    li.card {
+        cursor: pointer;
+        color: #555;
+        text-shadow: 0 1px 0 #fff;
+        font-weight: 700;
+
+        &.selected {
+            background-color: rgba(#000, 0.05);
+        }
+
+        &.marked {
+            font-weight: 400;
+        }
+
+        &:hover {
+            background-color: rgba(#000, 0.1);
+        }
+     
+        > div {
+            padding: {
+                top: $card-padding-y;
+                bottom: $card-padding-y;
+                left: $card-padding-x;
+                right: $card-padding-x;
+            }
+     
+            > div {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }        
+        }
+    }
+
+    iframe {
+        height: 100%;
+        position: fixed;
+    }
+}

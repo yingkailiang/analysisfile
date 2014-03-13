@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/popup.css"/>
+  </head>
+
+  <body>
+    <div id="container">
+    
+      <div id="message" class="hidden">
+        <h1>
+          <img class="vcenter" height="30px" src="img/loadinfo.net.gif"/>
+          Creating your recipe...
+        </h1>
+      </div> <!--! end of #message -->
+      
+      <div id="permission_msg" class="center hidden">
+        <h1>gRecipes needs your Permission</h1>
+        
+        <button id="permission_button">Get Permission!</button>
+        
+        <p class="left">
+          gRecipes needs your permission in order to
+          save recipes to your Google Documents.  You can revoke this
+          later in the <a title="Options" id="options_link"
+          href="options.html" target="new">options</a> or in your <a
+          title="Google Account Settings" id="googlesettings_link"
+          href="https://www.google.com/accounts/b/0/IssuedAuthSubTokens" target="new">
+          Google Settings</a>.
+        </p>
+      </div> <!--! end of #oauthbutton -->
+      
+    </div> <!--! end of #container -->
+    
+    <script id="template_openmsg" type="text/x-handlebars-template">
+      <h1>Recipe Saved!</h1>
+      <p>
+        View your new recipe in <a title="Google Documents" 
+        href="https://docs.google.com/" target="new">Google Documents</a> or open it
+        <a title="{{title}}" href="{{url}}" target="new">here</a>.
+      </p>
+    </script>
+    
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/handlebars.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/lib/google_analytics.js"></script><!-- Analytics must be last. -->
+    
+  </body>
+</html>

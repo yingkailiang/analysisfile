@@ -1,0 +1,16 @@
+!!! 5
+html(ng-app="sites.md",ng-csp)
+  body(ng-controller="BackgroundCtrl")
+    // CHROME EXTENSION OPTION 
+    // build:js scripts/background.js 
+    script(type="text/javascript", src="bower_components/angular-unstable/angular.min.js")
+    script(src='scripts/background.js')
+
+    // services
+    script(type="text/javascript", src="scripts/services/storage.js")
+
+    // controllers
+    script(src="scripts/controllers/background.js")
+    // endbuild 
+    if livereload
+      script(src="http://localhost:35729/livereload.js")

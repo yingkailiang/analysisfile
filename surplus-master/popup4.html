@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Surplus</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-width: 440px;
+        min-height: 230px;
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function init(){
+        chrome.browserAction.setPopup({popup:''});
+        chrome.extension.getBackgroundPage().initiate(document);
+      }
+      window.onbeforeunload = window.onunload = function(){
+        chrome.extension.getBackgroundPage().restore(document);
+      }
+      
+      init();
+    </script>
+  </body>
+</html>

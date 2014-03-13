@@ -1,0 +1,25 @@
+package com.fhpt.vsap.syscfg.service.impl;
+
+import java.sql.SQLException;
+
+import com.fhpt.vsap.syscfg.dao.SystemConfigDao;
+import com.fhpt.vsap.syscfg.model.EmailConfig;
+import com.fhpt.vsap.syscfg.service.SystemConfigService;
+
+/**
+ * 系统配置实现类
+ * @author wugang
+ */
+public class SystemConfigServiceImpl implements SystemConfigService {
+
+	@Override
+	public EmailConfig getEmailCfg() throws SQLException {
+		return new SystemConfigDao().getEmailCfg();
+	}
+
+	@Override
+	public void setEmailCfg(EmailConfig cfg) throws SQLException {
+		new SystemConfigDao().setEmailCfg(cfg);
+	}
+
+}

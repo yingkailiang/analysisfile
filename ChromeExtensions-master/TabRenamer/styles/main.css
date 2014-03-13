@@ -1,0 +1,31 @@
+#header {
+    text-align: center;
+}
+
+.tab {
+    opacity: 1;
+    border-radius: 0.3em;
+}
+.tab.hidden {
+    opacity: 0;
+}
+
+.input-group-addon {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.form-control {
+    float: left;
+    width: 40%;
+    margin-right: 3%;
+}
+
+#sixthdiv {
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}

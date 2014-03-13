@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "gulp-util": "~2.2.12",
+    "gulp": "~3.4.0",
+    "gulp-zip": "~0.1.2"
+  }
+}

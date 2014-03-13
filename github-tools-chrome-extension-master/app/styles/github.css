@@ -1,0 +1,22 @@
+.ght-notification-helper .comment-content {
+  overflow: auto;
+  max-height: 200px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px rgb(221, 221, 221) solid;
+}
+
+/*
+.ght-notification-helper {
+  z-index: 5000;
+  position: absolute;
+  top: -1px;
+  left: -30px;
+  right: -1px;
+  background-color: #ffffef;
+  border: 1px rgb(221, 221, 221) solid;
+  border-right: none;
+  overflow: visible !important;
+  border-top-left-radius: 10px;
+}
+*/

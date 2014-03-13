@@ -1,0 +1,1287 @@
+{
+    "lastError": {
+        "type": "ERROR"
+    },
+    "inIncognitoContext": {
+        "type": "boolean"
+    },
+    "bookmarks": {
+        "permission": true,
+        "type": "object",
+        "events": ["changed", "childrenReordered", "created", "importBegan", "importEnded", "moved", "removed"],
+        "children": {
+            "create": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "bookmark",
+                        "type": "object",
+                        "children": {
+                            "parentId ": {
+                                "type": "string"
+                            },
+                            "index": {
+                                "type": "INTEGER",
+                                "required": false
+                            },
+                            "title ": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "url ": {
+                                "type": "string",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "get": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "idOrIdList ",
+                        "type": ["string", "ARRAY"]
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getChildren": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getRecent": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "numberOfItems ",
+                        "type": "INTEGER"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getTree": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "move": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    }, {
+                        "name": "destination ",
+                        "type": "object",
+                        "children": {
+                            "parentId": {
+                                "type": "string"
+                            },
+                            "index": {
+                                "type": "INTEGER",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "remove": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "removeTree": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "search": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "query",
+                        "type": "string"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "update": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    }, {
+                        "name": "changes ",
+                        "type": "object",
+                        "children": {
+                            "title ": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "url": {
+                                "type": "string",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    },
+    "browserAction": {
+        "type": "object",
+        "events": ["clicked"],
+        "children": {
+            "setBadgeBackgroundColor": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "color": {
+                                "type": "COLOR"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setBadgeText": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "text": {
+                                "type": "string"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setIcon": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "imageData": {
+                                "type": "IMAGEDATA",
+                                "required": false
+                            },
+                            "path": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setPopup": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "popup": {
+                                "type": "string"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setTitle": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "contextMenus": {
+        "type": "object",
+        "events": ["clickData"],
+        "children": {
+            "create": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "createProperties",
+                        "type": "object",
+                        "children": {
+                            "type": {
+                                "type": "string",
+                                "required": false,
+                                "default": "normal"
+                            },
+                            "title": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "checked": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "context": {
+                                "type": "ARRAY",
+                                "required": false
+                            },
+                            "onclick": {
+                                "type": "function",
+                                "required": false
+                            },
+                            "parentId": {
+                                "type": "INTEGER",
+                                "required": false
+                            },
+                            "documentUrlPatterns": {
+                                "type": "ARRAY",
+                                "required": false
+                            },
+                            "targetUrlPatterns": {
+                                "type": "ARRAY",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "remove": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "menuItemId",
+                        "type": "INTEGER"
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "removeAll": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "update": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "id",
+                        "type": "INTEGER"
+                    }, {
+                        "name": "updateProperties ",
+                        "type": "object"
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            }
+        }
+    },
+    "cookies": {
+        "type": "object",
+        "events": ["changed"],
+        "children": {
+            "get": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "storeId ": {
+                                "type": "INTEGER",
+                                "required": false,
+                                "default": 0
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getAll": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "name": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "domain": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "path": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "secure": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "session": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "storeId ": {
+                                "type": "INTEGER",
+                                "required": false,
+                                "default": 0
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getAllCookieStores": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "remove": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "storeId ": {
+                                "type": "INTEGER",
+                                "required": false,
+                                "default": 0
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "set": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "value": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "domain": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "path": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "secure": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "httpOnly ": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "expirationDate  ": {
+                                "type": "INTEGER",
+                                "required": false
+                            },
+                            "session": {
+                                "type": "boolean",
+                                "required": false
+                            },
+                            "storeId ": {
+                                "type": "string",
+                                "required": false,
+                                "default": "0"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            }
+        }
+    },
+    "extension": {
+        "type": "object",
+        "events": ["request", "connect", "requestExternal", "connectExternal"],
+        "children": {
+            "getBackgroundPage": {
+                "type": "function",
+                "arguments": []
+            },
+            "connect": {
+                "type": "function"
+            },
+            "getURL": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "url",
+                        "type": "string"
+                    }
+                ]
+            },
+            "getViews": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "required": false,
+                        "children": {
+                            "type": {
+                                "type": ["ARRAY", "string"],
+                                "required": false
+                            },
+                            "windowId": {
+                                "type": "WINDOWID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setUpdateUrlData": {
+                "type": "function"
+            },
+            "sendRequest": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "extension",
+                        "type": "string",
+                        "default": null,
+                        "required": false
+                    }, {
+                        "name": "request",
+                        "type": "ANY"
+                    }, {
+                        "name": "sendResponse",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            }
+        }
+    },
+    "history": {
+        "type": "object",
+        "events": ["visitRemoved", "visited"],
+        "children": {
+            "addUrl": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            },
+            "deleteAll": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "deleteRange": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "deleteUrl": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            },
+            "getVisits": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "details",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "search": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "query",
+                        "type": "object",
+                        "children": {
+                            "text": {
+                                "type": "string"
+                            },
+                            "startTime": {
+                                "type": "number",
+                                "required": false,
+                                "default": 0
+                            },
+                            "endTime ": {
+                                "type": "number",
+                                "required": false,
+                                "default": -1
+                            },
+                            "maxResults ": {
+                                "type": "INTEGER",
+                                "required": false,
+                                "default": 100
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    },
+    "i18n": {
+        "type": "object",
+        "children": {
+            "getMessage": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "text",
+                        "type": "string"
+                    }, {
+                        "name": "placeholder",
+                        "type": ["string", "ARRAY"],
+                        "required": false
+                    }
+                ]
+            },
+            "getAcceptLanguages": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    },
+    "idle": {
+        "permission": true,
+        "type": "object",
+        "events": ["stateChanged"],
+        "children": {
+            "queryState": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "thresholdSeconds",
+                        "type": "INTEGER"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    },
+
+    "management": {
+        "type": "object"
+    },
+    "omnibox": {
+        "type": "object"
+    },
+    "pageAction": {
+        "type": "object",
+        "events": ["clicked"],
+        "children": {
+            "show": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }
+                ]
+            },
+            "hide": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }
+                ]
+            },
+            "setIcon": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "imageData": {
+                                "type": "IMAGEDATA",
+                                "required": false
+                            },
+                            "path": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setPopup": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "popup": {
+                                "type": "string"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "setTitle": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "title": {
+                                "type": "string"
+                            },
+                            "tabId": {
+                                "type": "TABID",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "searchBox": {
+        "type": "object"
+    },
+    "tabs": {
+        "permission": true,
+        "type": "object",
+        "events": ["created", "updated", "removed", "selectionChanged", "moved", "attached", "detached"],
+        "children": {
+            "captureVisibleTab": {
+                "permission": false,
+                "type": "function",
+                "arguments": [
+                    {
+                        "type": "WINDOWID",
+                        "required": false,
+                        "default": null
+                    }, {
+                        "name": "options",
+                        "type": "object",
+                        "required": false,
+                        "children": {
+                            "format": {
+                                "type": "string",
+                                "default": "jpeg",
+                                "required": false
+                            },
+                            "quality": {
+                                "type": "INTEGER",
+                                "default": 10,
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "create": {
+                "permission": false,
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "windowId": {
+                                "type": "WINDOWID",
+                                "required": false
+                            },
+                            "index": {
+                                "type": "INTEGER",
+                                "required": false
+                            },
+
+                            "url": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "selected": {
+                                "type": "boolean",
+                                "default": true,
+                                "required": false
+                            },
+                            "pinned": {
+                                "type": "boolean",
+                                "default": false,
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "remove": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "windowId",
+                        "type": "WINDOWID"
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "update": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }, {
+                        "name": "updateInfo",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "selected": {
+                                "required": false,
+                                "type": "boolean"
+                            },
+                            "pinned": {
+                                "required": false,
+                                "type": "boolean"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "required": false,
+                        "type": "function"
+                    }
+                ]
+            },
+            "getCurrent": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getSelected": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID",
+                        "required": false,
+                        "default": null
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getAllInWindow": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "windowId",
+                        "type": "WINDOWID",
+                        "default": null,
+                        "required": false
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "get": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "insertCSS": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID",
+                        "required": false,
+                        "default": null
+                    }, {
+                        "type": "object",
+                        "children": {
+                            "code": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "file": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "allFrames": {
+                                "type": "boolean",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "executeScript": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID",
+                        "required": false,
+                        "default": null
+                    }, {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "code": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "file": {
+                                "type": "string",
+                                "required": false
+                            },
+                            "allFrames": {
+                                "type": "boolean",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "move": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }, {
+                        "name": "moveInfo",
+                        "type": "object",
+                        "children": {
+                            "windowId": {
+                                "type": "WINDOWID",
+                                "default": null,
+                                "required": false
+                            },
+                            "index": {
+                                "type": "INTEGER"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "sendRequest": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }, {
+                        "name": "request",
+                        "type": "ANY"
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "connect": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "tabId",
+                        "type": "TABID"
+                    }, {
+                        "name": "connectInfo",
+                        "type": "object",
+                        "required": false,
+                        "children": {
+                            "name": {
+                                "type": "string",
+                                "required": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "windows": {
+        "type": "object",
+        "events": ["created", "focusChanged", "removed"],
+        "children": {
+            "create": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "detail",
+                        "type": "object",
+                        "children": {
+                            "url": {
+                                "required": false,
+                                "type": ["string", "array"]
+                            },
+                            "tabId": {
+                                "required": false,
+                                "type": "TABID"
+                            },
+                            "left": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "top": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "width": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "height": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "incognito": {
+                                "required": false,
+                                "type": "boolean"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "remove": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "windowId",
+                        "type": "WINDOWID"
+                    }, {
+                        "name": "callback",
+                        "type": "function",
+                        "required": false
+                    }
+                ]
+            },
+            "get": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "windowId",
+                        "type": "WINDOWID"
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getAll": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "type": "object",
+                        "required": false,
+                        "default": {
+                            "populate": false
+                        },
+                        "children": {
+                            "populate": {
+                                "type": "boolean",
+                                "required": false
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getCurrent": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "getLastFocused": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "callback",
+                        "type": "function"
+                    }
+                ]
+            },
+            "update": {
+                "type": "function",
+                "arguments": [
+                    {
+                        "name": "windowId",
+                        "type": "WINDOWID"
+                    }, {
+                        "type": "object",
+                        "children": {
+                            "left": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "top": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "width": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "height": {
+                                "required": false,
+                                "type": "INTEGER"
+                            },
+                            "focused": {
+                                "required": false,
+                                "type": "boolean"
+                            }
+                        }
+                    }, {
+                        "name": "callback",
+                        "required": false,
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    }
+}
+
+

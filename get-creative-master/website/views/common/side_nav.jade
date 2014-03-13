@@ -1,0 +1,19 @@
+.challenges_bg
+.trim
+.side_nav
+    .logo
+        a(href="/about").js_link
+            span.icon.logo_icon
+            h1 Get Creative
+    .profile_block
+        a(href="/profile").js_link
+            span
+                -if (user.username)
+                    em #{user.username}
+                -else
+                    | Save your progress
+    ul.challenges
+        !=partial('common/challenge_list', { challenge_list : challenges, current_challenge: current_challenge })
+    ul#more_challenges.challenges
+    .load_more
+        a#load_more_challenges Load more challenges...

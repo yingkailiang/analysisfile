@@ -1,0 +1,37 @@
+<h1>Impostazioni</h1>
+<p>Inserisci le informazioni di login per il portale esse3 della tua università.<br>
+I dati si salvano automaticamente. Se hai eseguito l'accesso a Chrome su più dispositivi, le impostazioni che modifichi saranno sincronizzate su automaticamente su tutti.</p>
+
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputUsername">Username</label>
+    <div class="controls">
+      <input type="text" id="inputUsername" placeholder="Username" class="span3" ng-model="credentials.username">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" placeholder="Password" class="span3" ng-model="credentials.password">
+      <span class="help-inline"></span>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPortal">Portale esse3</label>
+    <div class="controls">
+      <input type="text" id="inputPortal" placeholder="Portale esse3" class="span3" ng-model="portal">
+      <span class="help-inline">Il link al portale esse3 della tua università, inserire sempre lo slash "/" finale (ad esempio: https://www.studenti.ict.uniba.it/).</span>
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputStudentId">Matricola</label>
+    <div class="controls">
+      <input type="text" id="inputStudentId" placeholder="Matricola" class="span3" ng-model="studentId">
+      <span class="help-inline">Apri sempre libretto con la matricola specificata.</span>
+    </div>
+  </div>
+
+  <div class="alert alert-info" ng-show="saving > 0">
+    <strong>Salvataggio</strong> in corso.
+  </div>
+</form>

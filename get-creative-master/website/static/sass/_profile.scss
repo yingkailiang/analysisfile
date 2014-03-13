@@ -1,0 +1,90 @@
+.profile {
+    .register,
+    .add_email {
+        margin-bottom:20px;
+        padding:10px;
+        padding-top:0;
+        border:1px solid $attention_color;
+        @include border-radius(4px);
+
+        p {
+            @extend .standard_font;
+            margin:0.5em 0;
+        }
+
+        p.footnote {
+            font-size:1.2em;
+            font-style:italic;
+            text-align:right;
+        }
+
+        button {
+            margin-left:0;
+        }
+    }
+
+    .help_out {
+        padding:20px;
+        border:1px solid $_color_medium_beige;
+        text-align:center;
+        @include border-radius(4px);
+    }
+
+    .empty_profile,
+    .help_out {
+        margin-bottom:20px;
+        
+        p {
+            @extend .standard_font;
+        }
+    }
+
+    ul.profile_responses {
+        li {
+            position:relative;
+            border:1px solid #aaa;
+            margin:20px 0;
+            padding:1px;
+            background:$response_background;
+            box-shadow:inset 1px 1px 3px rgba(0,0,0, 0.3);
+
+            &:first-of-type {
+                margin-top:0;
+            }
+
+            &:before {
+                @extend .response_shadow;
+            }
+
+            &:after {
+                @extend .response_gradient;
+            }
+
+            > a:hover {
+                text-decoration:none;
+            }
+
+            .challenge_info {
+                margin:10px;
+                margin-bottom:0;
+                padding:5px 10px;
+                background:#444;
+
+                .icon {
+                    position:relative;
+                    top:2px;
+                }
+
+                p {
+                    @extend .challenge_font;
+                    color:#ccc;
+                    font-size:2em;
+                }
+            }
+        }
+    }
+
+    .response {
+        position:relative;
+    }
+}

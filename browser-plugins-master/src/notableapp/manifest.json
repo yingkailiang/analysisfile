@@ -1,0 +1,17 @@
+{
+  "name": "Notableapp Extension",
+  "description": "Notableapp extension allows you to capture webpages and post them to your notableapp account.",
+  "version": "1.0",
+  "background_page": "background.html",
+  "permissions": [
+     "tabs"
+   ],
+  "browser_action": {
+      "default_title": "Capture the webpage!",
+      "default_icon" : "icon-32x.png",
+      "popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon-32x.png"
+  }
+}

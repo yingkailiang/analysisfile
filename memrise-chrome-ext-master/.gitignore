@@ -1,0 +1,9 @@
+.DS_Store
+assets/
+build/
+memrise-button/
+memrise-button.zip
+CHANGES.html
+test/*.test.js
+
+node_modules/

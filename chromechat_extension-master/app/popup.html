@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" xmlns:ng="http://angularjs.org" id="ng-app" data-ng-app="chromechatApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Chromechat</title>
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="l-container" ng-view=""></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+
+    <script src="scripts/popup.js"></script>
+    <script src="scripts/directives.js"></script>
+    <script src="scripts/directives/message_box.js"></script>
+    <script src="scripts/directives/messages.js"></script>
+    <script src="scripts/directives/message.js"></script>
+    <script src="scripts/directives/user_list.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/services/websocket_service.js"></script>
+    <script src="scripts/controllers/chat.js"></script>
+  </body>
+</html>

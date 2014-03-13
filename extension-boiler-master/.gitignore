@@ -1,0 +1,6 @@
+*.geany
+*.sublime-project
+*.sublime-workspace
+build
+test/unit/*/*.js
+node_modules

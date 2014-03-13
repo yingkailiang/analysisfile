@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title>tracer</title>
+<script src="jquery.js"></script>
+<script src="socket.io.js"></script>
+<script src="t.js"></script>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+<script>
+	function createSocket(){
+
+    var conn=soki();
+    conn.on('connect',function(){
+        console.log('socket connecting...')
+    });
+    conn.on('error',function(){
+        createSocket();
+    	console.log('socket error!刷新页面再试.. ');
+
+    });
+    conn.on('message', function(){
+    	console.log('message...');
+    });
+}
+createSocket();
+</script>
+</html>

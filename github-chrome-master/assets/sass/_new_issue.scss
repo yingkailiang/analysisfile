@@ -1,0 +1,72 @@
+/**
+ * New Issue Stylez
+ * 
+ * @author Fred Stevens-Smith
+ * @copyright Cldrdr Inc. d/b/a Rainforest, 2013
+ */
+.new-issue {
+
+  @include adjust-font-size-to(14px, 1, 13px);
+
+  form > section {
+    padding: 1em;
+    padding-bottom: 0;
+    @include box-sizing('border-box');
+
+    &.repo-select {
+      padding-bottom: 1em;
+      border-bottom: 1px solid $grey;
+    }
+  }
+
+  select {
+    width: 100%;
+  }
+
+  label {
+    display: block;
+  }
+
+  .message {
+    > span {
+      display: block;
+      background-color: tint($orange, 95);
+      border-bottom: 1px solid $orange;
+      padding: 0.5em;      
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  input, textarea {
+    width: 100%;
+    border: 1px solid $grey;
+    background-color: $llgrey;
+    @include adjust-font-size-to(14px, 1, 14px);
+    padding: 0.5em;
+    @include box-sizing('border-box');
+    font-family: $font-family;
+  }
+
+  textarea {
+    height: 8em;
+  }
+
+  input.submit {
+    @include border-radius(5px);
+    -webkit-font-smoothing: antialiased;
+    background-color: $blue;
+    color: $white;
+    font-weight: bold;
+    border: none;
+    width: auto;
+    padding: 0.25em 1em;
+
+    &:hover {
+      @include box-shadow(0 1px 2px $dgrey);
+      cursor: pointer;
+    }
+  }
+}

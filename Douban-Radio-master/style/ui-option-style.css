@@ -1,0 +1,33 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+li, ol{
+	list-style: none;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+	
+}
+
+ol{
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #23af78;
+	color: #ffffff;
+	font-family: tahoma "微软雅黑";
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+ol:hover{
+	background-color: #000;
+	cursor: pointer;
+}
+
+.choosed{
+	background-color: #9010aa;
+}

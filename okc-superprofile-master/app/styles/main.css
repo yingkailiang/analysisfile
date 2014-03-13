@@ -1,0 +1,26 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+html {
+    /* Defaults css for cssmin process */
+}
+
+#okc_crawler {
+    padding: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 65500;
+    text-align: center;
+}
+
+#okc_crawler button {
+    width: 75%;
+    padding: 10px;
+}
+
+#okc_crawler_crawling, .crawldata {
+    display: none;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html i18n-values="dir:textdirection;">
+  <head>
+    <title>eHistory</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/history.css" type="text/css" />
+    <!-- Chrome has problems with normal icons in page overrides. -->
+    <!-- Source: css/icon_tiny.png -->
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAEJGlDQ1BJQ0MgUHJvZmlsZQAAOBGFVd9v21QUPolvUqQWPyBYR4eKxa9VU1u5GxqtxgZJk6XtShal6dgqJOQ6N4mpGwfb6baqT3uBNwb8AUDZAw9IPCENBmJ72fbAtElThyqqSUh76MQPISbtBVXhu3ZiJ1PEXPX6yznfOec7517bRD1fabWaGVWIlquunc8klZOnFpSeTYrSs9RLA9Sr6U4tkcvNEi7BFffO6+EdigjL7ZHu/k72I796i9zRiSJPwG4VHX0Z+AxRzNRrtksUvwf7+Gm3BtzzHPDTNgQCqwKXfZwSeNHHJz1OIT8JjtAq6xWtCLwGPLzYZi+3YV8DGMiT4VVuG7oiZpGzrZJhcs/hL49xtzH/Dy6bdfTsXYNY+5yluWO4D4neK/ZUvok/17X0HPBLsF+vuUlhfwX4j/rSfAJ4H1H0qZJ9dN7nR19frRTeBt4Fe9FwpwtN+2p1MXscGLHR9SXrmMgjONd1ZxKzpBeA71b4tNhj6JGoyFNp4GHgwUp9qplfmnFW5oTdy7NamcwCI49kv6fN5IAHgD+0rbyoBc3SOjczohbyS1drbq6pQdqumllRC/0ymTtej8gpbbuVwpQfyw66dqEZyxZKxtHpJn+tZnpnEdrYBbueF9qQn93S7HQGGHnYP7w6L+YGHNtd1FJitqPAR+hERCNOFi1i1alKO6RQnjKUxL1GNjwlMsiEhcPLYTEiT9ISbN15OY/jx4SMshe9LaJRpTvHr3C/ybFYP1PZAfwfYrPsMBtnE6SwN9ib7AhLwTrBDgUKcm06FSrTfSj187xPdVQWOk5Q8vxAfSiIUc7Z7xr6zY/+hpqwSyv0I0/QMTRb7RMgBxNodTfSPqdraz/sDjzKBrv4zu2+a2t0/HHzjd2Lbcc2sG7GtsL42K+xLfxtUgI7YHqKlqHK8HbCCXgjHT1cAdMlDetv4FnQ2lLasaOl6vmB0CMmwT/IPszSueHQqv6i/qluqF+oF9TfO2qEGTumJH0qfSv9KH0nfS/9TIp0Wboi/SRdlb6RLgU5u++9nyXYe69fYRPdil1o1WufNSdTTsp75BfllPy8/LI8G7AUuV8ek6fkvfDsCfbNDP0dvRh0CrNqTbV7LfEEGDQPJQadBtfGVMWEq3QWWdufk6ZSNsjG2PQjp3ZcnOWWing6noonSInvi0/Ex+IzAreevPhe+CawpgP1/pMTMDo64G0sTCXIM+KdOnFWRfQKdJvQzV1+Bt8OokmrdtY2yhVX2a+qrykJfMq4Ml3VR4cVzTQVz+UoNne4vcKLoyS+gyKO6EHe+75Fdt0Mbe5bRIf/wjvrVmhbqBN97RD1vxrahvBOfOYzoosH9bq94uejSOQGkVM6sN/7HelL4t10t9F4gPdVzydEOx83Gv+uNxo7XyL/FtFl8z9ZAHF4bBsrEwAAAAlwSFlzAAAXEgAAFxIBZ5/SUgAAAnlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuMS4yIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBJbWFnZVJlYWR5PC94bXA6Q3JlYXRvclRvb2w+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjE1MDAxLzEwMDwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlvbj4KICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+MTUwMDEvMTAwPC90aWZmOlhSZXNvbHV0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KLoN2HgAAAodJREFUOBFFU8tqU1EUXfeVmzZtkyalVotKqYKgWFAo9QlOOtGRDsR/0JGC/ZpAZzpS0IEWpEgFUamI4AdIH1Ztm6Z5mMd9uNZOontw7rnn7L322mvv46RpiqfPXy7y85D7ggMkSB1+gN4KpPrh4jjy5oq0jdQt37tzc9l58uzFYjbMvpZPHMe8duC4LpIksX8Fep4L1/OQJgw1CGBoaBjVysEDn4ePFNxsNlsMDuTQbneQzYYYHcnBJWC98QfVw0OEmQxcgtMnjqIoQ7gln7H5fuaAWb2EWS7MncPszAnkhoeFjVarjY2tbXz++g3dKILveZ5iSK4kgES0lVnBN64tYProlAXWanV0ux0Ui0Wcnp3B5EQJK6vv0OGZ7/uMSVLyYThpifb5s2csWOiySqWCHzs7tidl5PNjmL84R9DItCIFx9WtBFPNp2ZOmrMYyciUmQLbS0TZ8eljKI4XrBSimEam9tjoCJUdMqcBQKQ6CW7GElWm6zoYL+T/dcwYSA2p3U9M/x6DqSOT2KR4jUZjoL5hyVcxMldf9blWb6LVbtuh3TNbGIa4tDCPj5/WrW61UFat1SzGGFl21ldvNrGxuW0OMWkPOpPL5XD1ymUkaa+Un7928Xtv37rAmsScOGxfmAmsz9XqIbx+JqFJ4CDwbYg6nS4+rH/5f8/us4TehIuehmRldQ3fN7ZsJsRiQFuZX715axPZmwEV7zi+Hka/5lgT1ul2sbr23lo1XhgjRddqFm0xC4JA3YgJzL6mdd9z3DIfxnXNtgZI6HKqUfkDzr80kshZCirrtdL1iqUS9nf3yvZA+Zzvp3G6RDYT9OFzZh9JazAPEkuBPNWi4zpvy3dv33r8F7jHUngJ5jUrAAAAAElFTkSuQmCC" type="image/png">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href=""><img src="css/icon_thumb.png"/></a>
+      </div>
+      <form action="#" id="frm-search" />
+        <div class="search-container">
+          <div class="query-wrapper">
+            <input autocomplete=off type="text" class="query" id="query" size="110" />
+            <div class="open-advanced"></div>
+          </div>
+          <button value="search" class="bttn search" type="submit">Search</button>
+        </div>
+        <div class="advanced-search">
+          <fieldset><label>Title</label><input type=text data-settings-item="intitle"></fieldset>
+          <fieldset><label>Text</label><input type=text id="pure-text"></fieldset>
+          <fieldset><label>Site</label><input type=text data-settings-item="site"></fieldset>
+          <fieldset><label>URL</label><input type=text data-settings-item="inurl"></fieldset>
+          <fieldset><label>From</label><input type=date data-settings-item="startTime"></fieldset>
+          <fieldset><label>To</label><input type=date data-settings-item="endTime"></fieldset>
+        </div>
+      </form>
+       <nav class="top-bar">
+        <button class="bttn delete dropdown">
+          <span class="trash"></span><span class="dwn-arrow"></span>
+        </button>
+        <menu class="delete-menu">
+          <button class="selected">Delete Selected</button>
+          <button class="clear" id="btn-clear-history">Clear History</button>
+          <button class="results">Delete Search Results</button>
+        </menu>
+        <div class="page-buttons">
+          <button class="prev-page bttn"><div class="img"></div></button>
+          <span class="page-no">1</span>
+          <button class="next-page bttn"><div class="img"></div></button>
+        </div>
+      </nav>
+    </header>
+    <section class="content">
+      <div id="div-main">
+        <table id="tbl-main">
+          <tbody></tbody>
+        </table>
+        <div id="throbber" class=""></div>
+      </div>
+   </section>
+   <div class="feedback"><a href="mailto:amjad.masad@gmail.com">Send Feedback</a></div>
+
+   <menu class="options-menu">
+    <button class="more">More from this site</button>
+    <button class="delete">Delete visit</button>
+   </menu>
+
+    <script type="x-template" id="tmpl-entry-row">
+       <tr class="entry">
+        <td><input type="checkbox" class="chk-entry"/></td>
+        <td class="time">{{{date}}}</td>
+        <td class="item-content">
+        <a href="{{url}}" style="background-image:url('chrome://favicon/{{url}}')">{{#title}}{{title}}{{/title}}{{^title}}{{url}}{{/title}}</a>
+        <span class="domain">{{domain}}</span>
+          <span class="options"><span class="dwn-arrow"></span></span>
+        </td>
+      </tr>
+    </script>
+
+    <script type="x-template" id="tmpl-day-row">
+      <tr class="hdr-day">
+        <td><input type="checkbox" class="chk-day"/></td>
+        <td class="date" colspan="2">{{date}}</td>
+      </tr>
+    </script>
+
+    <script type="text/javascript" src="vendor/jquery.js"></script>
+    <script type="text/javascript" src="vendor/mustache.js"></script>
+    <script type="text/javascript" src="vendor/spin.js"></script>
+    <script type="text/javascript" src="lib/util.js"></script>
+    <script type="text/javascript" src="lib/visitsbyday.js"></script>
+    <script type="text/javascript" src="lib/ehistory.js"></script>
+    <script type="text/javascript" src="lib/model.js"></script>
+    <script type="text/javascript" src="lib/view.js"></script>
+    <script type="text/javascript" src="lib/query_parser.js"></script>
+    <script type="text/javascript" src="lib/controller.js"></script>
+  </body>
+</html>

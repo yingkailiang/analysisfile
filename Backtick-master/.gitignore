@@ -1,0 +1,17 @@
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+.tmp
+.sass-cache
+.vagrant
+
+node_modules
+app/vendor
+
+auth/*
+!auth/*.sample.*
+
+commands.json
+dist
+bin

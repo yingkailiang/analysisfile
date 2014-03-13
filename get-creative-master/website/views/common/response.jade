@@ -1,0 +1,26 @@
+- var hidden_class = (response.is_hidden) ? "response hidden" : "response"
+div(data-id="#{response._id}", class="#{hidden_class}")
+    - var img_node = response.get_img_node()
+    - if (img_node)
+        != img_node
+    - else
+        div.like_placeholder
+    - var response_text = response.get_text()
+    - if (response_text)
+        for paragraph in response_text.split("\n")
+            p
+                != paragraph
+    - if (is_admin && (typeof(hide_signature) == 'undefined' || hide_signature == false))
+        p.signature
+            a(href="/admin/user/#{response.author_data._id}") #{response.author_data.username || "anon user"}
+    - else if (!response.is_anonymous && (typeof(hide_signature) == 'undefined' || hide_signature == false) && response.author_data.is_registered)
+        p.signature #{response.author_data.username}
+    - if (is_admin && !response.is_hidden)
+        .remove ×
+    - if (response.author_data._id !== user._id)
+        - var like_class = (response.user_can_like(user._id)) ? "like" : "like liked"
+        div(class=like_class)
+    - else if (typeof(show_like_counts) !== 'undefined')
+        div.like.count
+            - var like_count = (response.likes.length > 99) ? "99+" : response.likes.length
+            span #{like_count}

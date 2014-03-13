@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html data-ng-app="leagueUpdateApp" data-ng-csp>
+<head>
+  <meta charset="UTF-8">
+  <title>Getting Started Extension's Popup</title>
+  <!-- build:css styles/popup.css -->
+  <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/popup.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600">
+</head>
+<body data-ng-controller="MainCtrl">
+
+  <div id="channel">
+    <div id="logo">
+      <a id="logoImage" data-ng-click="openInTab('http://na.leagueoflegends.com')" href="http://na.leagueoflegends.com">
+        <img src="images/icon-128.png" width="32" height="32" alt="logo">
+      </a>
+      <span id="logoText">League <span class="italic">News </span>Reader</span>
+    </div>
+    <div class="logoSeparator" id="logoSeparatorTop"></div>
+  </div>
+
+  <ul id="items">
+    <li class="item" data-ng-repeat="item in stories">
+      <div class="itemTitle">
+        <a href="{{ item.link }}" data-ng-click="openInTab(item.link)">{{ item.title }}</a>
+      </div>
+      <div class="pubDate">{{ item.pubDate | fromNow }}</div>
+      <!--<div class="itemDesc">{{ item.description }}</div>-->
+    </li>
+  </ul>
+
+  <div id="footer">
+    <div id="logoSeparatorBottom" class="logoSeparator"></div>
+    <div id="footerMgLink">
+
+      <a class="footerHoverEffect" data-ng-click="openInTab('http://www.madglory.com')" href="http://www.madglory.com" target="_top">
+        <img src="images/mg.png" height="32" alt="logo">
+      </a>
+    </div>
+    <div id="footerPrivacy"><a target="_blank" data-ng-click="openInTab('http://addons-privacy.com/')" class="footerHoverEffect" href="http://addons-privacy.com/">Privacy Policy</a></div>
+  </div>
+
+  <!-- build:js scripts/popup.js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/momentjs/moment.js"></script>
+  <script src="scripts/popup.js"></script>
+  <script src="scripts/ga.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

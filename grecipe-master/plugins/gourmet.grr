@@ -1,0 +1,121 @@
+/***********************************************************************
+ * 
+ *     This file is part of gRecipes.
+ *
+ *     gRecipes is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     gRecipes is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *     You should have received a copy of the GNU General Public License
+ *     along with gRecipes.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ **********************************************************************/
+
+{
+	"name": "Gourmet",
+	"author": "William T. Olson",
+	"version": "1.0",
+	"url": "http*://www.gourmet.com/recipes/*",
+	
+	hasRecipe: function() {
+		return !!$('.recipe').size();
+	},
+  
+	getName: function() {
+		return $('.recipe .header').first().text().reduce();
+	},
+
+  getPhoto: function() {
+    var photo = $('.recipe .captioned-photo img');
+    return (photo.size()) ? {
+      src: photo.get(0).src,
+      alt: photo.get(0).alt,
+      title: photo.get(0).title,
+    } : undefined;
+  },
+
+  getYield: function() {
+    var y = $('.recipe .yield').first().clone();
+    y.children('.label').remove();
+    return (y.size()) ? y.text().reduce() : undefined;
+  },
+
+  getCookTime: function() {
+    var time = $('.recipe .time li').get().filter(function(item) {
+      return ($(item).children('.label').text().reduce() == "Active time:");
+    });
+    time = $(time).first().clone();
+    time.children('.label').remove();
+    return (time.length) ? {
+      "value": time.text().reduce() || undefined
+    } : undefined;
+  },
+
+  getTotalTime: function() {
+    var time = $('.recipe .time li').get().filter(function(item) {
+      return ($(item).children('.label').text().reduce() == "Start to finish:");
+    });
+    time = $(time).first().clone();
+    time.children('.label').remove();
+    return (time.length) ? {
+      "value": time.text().reduce() || undefined
+    } : undefined;
+  },
+  
+	getSummary: function() {
+    var summary = $('.recipe .display-date').next();
+    if (!summary.hasClass('text')) {return undefined;}
+    
+		return summary.html().reduce();
+	},
+  
+	getIngredients: function() {
+    var sections = $('.recipe .ingredients');
+    sections = sections.map(function() {
+      var title = $(this).prevAll().filter('h3');
+      title = title.size() ? title.text().reduce() : undefined;
+
+      var ingredient = $(this).children('li').map(function() {
+        return this.textContent.reduce();
+      }).get().filter(function(item) {return !item.empty();});
+
+      return {title: title, ingredient: ingredient};
+    }).get().filter(function(section) {return !!section.ingredient;});
+		
+		return sections.length ? {section: sections} : undefined;
+	},
+  
+	getInstructions: function() {
+    var sections = $('.prep-steps');
+    sections = sections.map(function() {
+      var title = $(this).children('h3');
+      title = title.size() ? title.text().reduce() : undefined;
+
+      var instruction = $('.step', this).map(function() {
+        return this.textContent.reduce();
+      }).get().filter(function(item) {return !item.empty();});
+
+      return {title: title, instruction: instruction};
+    }).get().filter(function(section) {return !!section.instruction;});
+		
+		return sections ? {section: sections} : undefined;
+	},
+
+  getClosing: function() {
+    var closing = $('.recipe .presentation');
+    if (!closing.size()) { return undefined };
+    
+    return closing.text().reduce() ? undefined : closing.html().reduce();
+  },
+  
+  getAuthor: function() {
+    var author = $('.recipe .contributors');
+    return (author.size()) ? author.map(function() {return this.textContent;}).get().join().reduce() : undefined;
+  }
+}

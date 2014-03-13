@@ -1,0 +1,45 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+    /* Defaults css for cssmin process */
+}
+
+#listing {
+	min-width: 350px;
+	margin-top: 30px;
+	border-spacing: 5px 2px;
+}
+
+#listing th {
+	text-align: left;
+	color: #aaa;
+}
+
+#listing thead {
+	border-bottom: 1px solid #ccc;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#searchHeader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	padding: 5px;
+}
+
+#searchHeader input {
+	font-size:2.1em;
+}
+
+#listing tbody td:first-child, span {
+	font-weight: bold
+}

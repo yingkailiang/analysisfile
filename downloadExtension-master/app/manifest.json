@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Download Master",
+  "description": "Users can a select a folder for a specific link, and the  the downloaded file from that link will automatically be sent to that folder. The 
+				  extension further organizes the downloads in that folder by filetype. The default folder is the Downloads folder.",
+  "version": "1.0",  
+	"background": {
+    "scripts": ["background.js"]    
+  },  
+  "permissions": [
+    "storage",
+	"downloads",
+	"nativeMessaging"
+  ],
+  "browser_action": {    
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,242 @@
+wasavi (VI editor for any web page)
+====================================
+
+wasavi is an extension for Chrome, Opera and Firefox. wasavi transforms TEXTAREA element of any page into a VI editor, so you can edit the text in VI.  wasavi supports almost all VI commands and some ex commands.
+
+wasavi is underdevelopment. Any bug report or feature request is welcomed.
+
+A Quick Walkthrough
+====================
+
+* Here is a native TEXTAREA
+
+  ![native textarea](http://appsweets.net/wasavi/wasavi_native_textarea.jpg)
+
+* Focus the TEXTAREA, and press `Ctrl+Enter` to launch wasavi
+
+  ![wasavi running](http://appsweets.net/wasavi/wasavi.jpg)
+
+Salient Features
+----------------
+
+* wasavi supports some ex commands. This is the output of `:set all`
+
+  ![set all](http://appsweets.net/wasavi/wasavi_set_all.jpg)
+
+* Vim's incremental search
+
+  ![incremental search](http://appsweets.net/wasavi/wasavi_incremental_search.jpg)
+
+* [wasavi online app](http://wasavi.appsweets.net/). Open this link on a browser that has wasavi extension. wasavi will launch automatically. Then you can read and write files at your Dropbox/Google Drive account.
+
+  ![stand alone](http://appsweets.net/wasavi/wasavi_stand_alone.png)
+
+
+How to install
+==============
+
+Currently, wasavi is available for following browsers only. Select your browser and click the link. Standard extension installation procedure of your browser will follow. These extensions are hosted at the addons store of their respective browser.
+
+* [Google Chrome extension](https://chrome.google.com/webstore/detail/dgogifpkoilgiofhhhodbodcfgomelhe)
+
+* [Opera addon](https://addons.opera.com/en/extensions/details/wasavi/)
+
+* [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/wasavi/)
+
+Source code and latest development releases are hosted at [Github](https://github.com/akahuku/wasavi).
+
+### A note for Opera users
+
+Opera does not support DOM3 Composition Event therefore input via IME is not guaranteed.
+
+Frequently Asked Questions
+==========================
+
+## How to launch wasavi
+
+Focus TEXTAREA and press `Ctrl+Enter`.
+
+
+## How to quit wasavi
+
+To quit wasavi press `ZZ` or `:q` or `:wq` or any other VI quit command.
+
+## How to use wasavi with Vimperator on Firefox
+
+Put [wasavi_mediator.js](https://raw.github.com/akahuku/wasavi/master/mediators/vimperator/wasavi_mediator.js) in your Vimperator plugin directory, for example,  `~/.vimperator/plugin` or `%HOME%\vimperator\plugin`.
+
+This plugin will control the pass-through mode of Vimperator according to the state of wasavi.
+
+On [wasavi online app](http://wasavi.appsweets.net/), enter `:ignorekeys add ^http://wasavi\\.appsweets\\.net/` in Vimperator. Then Vimperator will always use pass-through mode for the online app. `ignorekeys` settings is stored automatically therefore you will not have to reenter it.
+
+
+## How to use wasavi as an independent text editor
+
+Install wasavi extension and open the link to [wasavi online app](http://wasavi.appsweets.net/). wasavi will start automatically. You can use ex commands `:read`, `:write`, `:edit` or `:file` to access your Dropbox/Google Drive files. You will have to authorize wasavi via OAuth to access these storages.
+
+## I Have noticed a bug
+
+Please create an issue on [wasavi issue tracker](http://github.com/akahuku/wasavi/issues)
+
+Tips and Tricks
+===============
+
+* to maximize the wasavi: `:set fullscreen` or `:set fs`
+* to restore the wasavi: `:set nofullscreen` or `:set nofs`
+* to change a color theme: `:set theme=blight` or `:set theme=charcoal`
+* to modify initial settings:
+  open preference wasavi extension (or enter `:options` on wasavi), and edit "exrc" textbox.
+* abbreviate syntax is
+	+ `:abbreviate` displays all the abbreviations currently registered.
+	+ `:abbreviate [clear]` clears all the abbreviations.
+	+ `:abbreviate lhs` displays the abbreviation corresponding to lhs.
+	+ `:abbreviate lhs rhs` registers a abbreviation which
+	  expands lhs to rhs.
+* map syntax is
+	+ `:map` displays all the mappings currently registered.
+	+ `:map [clear]` clears all the mappings.
+	+ `:map lhs rhs` registers a rule which translates lhs to rhs. Its translation is recursive.
+	+ `:map [noremap] lhs rhs` also registers, but it is
+	  non-recursive.
+	+ `:map` targets the normal mode mappings. On the other hand,
+	  `:map!` targets the insert mode.
+* j k ^ $ moves cursor by physical row, on the other hand,
+  gj gk g^ g$ moves by wrapped row. To swap the behavior: `:set jkdenotative`
+* f/F/t/T extension for Japanese: these commands recognizes reading (ro-ma ji
+  expression) of hiragana, katakana, and kanji. For example, `fk` will place
+  a cursor on '漢'.
+* use a online storage as file system:
+	+ `:filesystem status` shows all file systems currently available.
+	+ `:filesystem default` shows default file system. You can set default file system
+	  via `:filesystem default dropbox` or `:filesystem default gdrive`.
+	+ `:filesystem reset` discards the access token for online storage.
+	+ You can place the file system name at the head of a file name explicitly:
+	  for instance, `:read dropbox:/hello.txt`.
+
+
+
+Commands implemented
+====================
+
+* [count] _operation_ [count] _motion_
+* [count] _operation_ [count] _range-symbol_
+* [count] _operation-alias_
+* [count] _motion_
+* [count] _scroll-command_
+* [count] _edit-command_
+* [count] `:` _ex-command_
+
+Operations
+----------
+
+`c` `y` `d` `>` `<` `gq`
+
+Operation Aliases
+------------------
+
+`cc` `yy` `dd` `>>` `<<` `C` `Y` `D` `gqq`
+
+Motions
+------
+
+`-` `+` `^` `<home>` `$` `<end>` `%` `|` `,` `;`
+  `_` `/` `?` `'` `` ` `` `(` `)` `{` `}` `[[` `]]` `<enter>` `0`
+  `j` `k` `h` `l` `^N` `^P` `^H`
+  `<down>` `<up>` `<left>` `<right>` `<space>`
+  `w` `W` `b` `B` `e` `E` `gg` `gj` `gk` `g^` `g$` `gi` `G` `H` `M` `L` `f` `F` `t` `T` `n` `N`
+
+Vim text objects (range symbol)
+-------------------------------
+
+* `a"` `a'` `` a` `` `a[` `a]` `a{` `a}` `aB` `a<` `a>` `a(` `a)` `ab` `aw` `aW` `ap` `as`
+* `i"` `i'` `` i` `` `i[` `i]` `i{` `i}` `iB` `i<` `i>` `i(` `i)` `ib` `iw` `iW` `ip` `is`
+
+Scroll commands
+---------------
+
+`^U` `^D` `^Y` `^E` `^B` `^F` `<pageup>` `<pagedown>` `z<enter>` `z.` `zz` `z-`
+
+Edit commands
+-------------
+
+`x` `X` `<delete>` `p` `P` `J` `.` `u` `^R` `~` `^L` `^G` `gv` `m` `@` `q` `r` `R` `a` `A` `i` `I` `o` `O` `&` `s` `S` `v` `V` `ZZ`
+
+ex commands
+-----------
+
+`abbreviate` `cd` `chdir` `copy` `delete` `edit` `file` `filesystem` `global` `join` `k` `map` `mark` `marks` `move` `options` `print` `put` `pwd` `quit` `read` `redo` `s` `&` `~` `set` `registers` `to` `unabbreviate` `undo` `unmap` `version` `v` `write` `wq` `xit` `yank` `>` `<` `@` `*`
+
+ex commands to specify address are fully supported: absolute line number, relative line number, regal expression, and mark referencing. In addition to this, wasavi also accepts offset.
+
+
+Input mode commands
+-------------------
+
+* `^@`: input the most recently input text, and exit input mode. this key stroke is actually `Ctrl+Space`.
+* `^D`: unshift. but if the last input character is `0` or `^`, delete all indent
+* `^H`: delete a character
+* `^R`: paste register's content
+* `^T`: shift
+* `^U`: delete all the characters entered in the current input session
+* `^V`: literal input
+* `^W`: delete a word
+
+Line input mode commands
+------------------------
+
+* `^A`: move cursor to top of line
+* `^B`: back
+* `^E`: move cursor to end of line
+* `^F`: forward
+* `^H`: delete a character
+* `^N`: next history
+* `^P`: previous history
+* `^R`: paste register's content
+* `^U`: delete whole line
+* `^V`: literal input
+* `^W`: delete a word
+* `tab`: complete ex command name, set option name, file name argument of read/edit/write/file
+
+Bound mode commands
+------------------------
+
+Bound mode is similar to vim's visual mode.
+
+* `c`: delete the bound, and switch to insert mode
+* `d`: delete the bound
+* `y`: yank the bound
+* `<`: unshift the bound
+* `>`: shift the bound
+* `C`: delete the line-wise bound, and switch to insert mode
+* `S`: same as `C`
+* `R`: same as `C`
+* `D`: delete the line-wise bound
+* `X`: same as `D`
+* `Y`: yank the line-wise bound
+* `g` prefix commands
+* `a`, `i` prefix range symbols
+* `~`: swap lower case and upper case in the bound
+* `:`: switch to line input mode
+* `J`: join the bound
+* `p`: delete the bound, and paste a register's content
+* `P`: same as `p`
+* `r`: fill the bound up with inputted letter
+* `s`: same as `c`
+* `u`: lower-ize the bound
+* `U`: upper-ize the bound
+* `v`: character wise bound mode
+* `V`: line wise bound mode
+* `x`: same as `d`
+
+Vim features in wasavi
+----------------------
+
+* multiple level undo/redo
+* incremental search
+* range symbols (aka, Vim text objects)
+* register `"`, `:`, `*`, `/` (`*` is used to access system clipboard)
+* auto-reformat in input mode, and reformat operator (gq command) on the
+  state of textwidth > 0
+* bound mode (aka, Vim visual mode)
+* options: `iskeyword`, `incsearch`, `smartcase`, `undolevels`, `quoteescape`,
+  `relativenumber`, `textwidth`, `expandtab`

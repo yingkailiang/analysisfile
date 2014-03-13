@@ -1,0 +1,135 @@
+.ttpHeader {
+    background: url(https://s3.amazonaws.com/static.turntable.fm/images/room/black_playlist_bg.png) repeat-x;
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    color: #fff;
+    line-height: 25px;
+    cursor: move;
+}
+#ttpHearts {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/heart.png) 0% 40% no-repeat;
+    float: right;
+    margin: 0 5px 0 0 !important;
+    padding: 0 5px 0 20px !important;
+}
+#ttpUpvotes {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/uparrow.png) 25% 40% no-repeat;
+    float: right;
+    margin: 0 5px 0 0 !important;
+    padding: 0 5px 0 20px !important;
+}
+#ttpDownvotes {
+    background: url(chrome-extension://__MSG_@@extension_id__/images/downarrow.png) 25% 40% no-repeat;
+    float: right;
+    padding: 0 0 0 20px !important;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+.guest-list-container .guests .guest {
+    z-index: 0;
+}
+.guest .guestName {
+    vertical-align: top;
+    max-width: 140px !important;
+    display: inline-block;
+}
+.guest-list-container .guests .guest .icons .superuser {
+    background-image: url("https://static.turntable.fm.s3.amazonaws.com/images/room/superuser_icon.png");
+    width: 15px;
+}
+.guest-list-container .guests .guest .icons .mod {
+    background-image: url("https://static.turntable.fm.s3.amazonaws.com/images/room/mod_icon.png");
+    width: 14px;
+}
+.guest-list-container .guests .guest .icons .fanned {
+    background-image: url("https://static.turntable.fm.s3.amazonaws.com/images/room/fan_icon.png");
+    width: 17px;
+}
+.guest-list-container .guests .guest .icons .snagged {
+    background-image: url(chrome-extension://__MSG_@@extension_id__/images/heart.png);
+    width: 16px;
+}
+.guest-list-container div.current-dj {
+    background-image: url("https://static.turntable.fm.s3.amazonaws.com/images/room/current_dj_icon.png");
+    position: absolute;
+    left: 0; top: 6px;
+    width: 8px; height: 16px;
+    z-index: -1;
+}
+
+#guest-list .guests .guest.upvoted {
+    background-color: #b6ffc0 !important;
+}
+#guest-list .guests .guest.downvoted {
+    background-color: #ffa1a1 !important;
+}
+#guest-list .guests .guest.upvoted:hover {
+    color: #000;
+    background: -webkit-linear-gradient(top, #b6ffc0 1%, #efefef 70%, #e3e3e3 100%) !important;
+}
+#guest-list .guests .guest.downvoted:hover {
+    background: -webkit-linear-gradient(top, #e3e3e3 0%, #efefef 50%, #f78e56 99%) !important;
+}
+
+#guest-list .guests .idletime {
+    float: right;
+    margin: 0 27px 0 0 !important;
+    color: #282828;
+    font-size: 12px;
+    line-height: 28px;
+}
+#guest-list .guests .guestOptionsContainer span {
+    display: block;
+    color: #444;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 20px;
+}
+
+#ttpUserSearch {
+    text-align: left;
+    width: 100%;
+    height: 37px;
+    background-color: #D4D4D4;
+}
+#ttpUserSearch input {
+    background-color: #fff;
+    width: 85%;
+    height: 24px;
+    margin: 4px 0 0 5px;
+    padding: 0 5px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 4px #333;
+}
+#ttp-allow-custom, #ttp-disable-custom {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+.selected #chat, .selected #playlist, .selected #room-info {
+    top: 61px !important;
+}
+.floating-panel-tabs {
+    -webkit-mask-box-image: none !important;
+}

@@ -1,0 +1,6 @@
+%a{ href: @model.get('html_url'), target: '_blank', title: 'Open this issue on Github' }
+  = @model.get('title')
+
+  .repo-name = @model.get('repository').name
+  %abbr.timeago{ title: @model.get("created_at") }
+    = @model.get("created_at")

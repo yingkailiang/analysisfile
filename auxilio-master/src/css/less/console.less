@@ -1,0 +1,74 @@
+.console {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	.console-output-content {
+		.transition(~"all 400ms ease-out");
+		width: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+		border-radius: 4px;
+		.item {
+			.transition(~"all 300ms ease-out");
+			.opacity(0);
+		}
+		.item-shown {
+			.opacity(1);
+		}
+	}
+	.inputs {
+		.transition(~"all 400ms ease-out");
+		width: 100%;
+		position: fixed;
+		top: -2px;
+		left: 0;
+		input {
+			.transition(~"all 400ms ease-out");
+			display: block;
+			box-sizing: border-box;
+			font-family: @font;
+			padding: 4px 10px 6px 10px;
+			width: 100%;
+			border: none;
+			border-bottom: solid 2px lighten(@color-a, 30%);
+			position: absolute;
+			top: 0;
+			left: 0;
+			&:focus {
+				border: none;
+				border-bottom: solid 2px lighten(@color-a, 10%);
+				outline: 0;
+			}
+		}
+		input[disabled] {
+			background: lighten(@color-a, 20%);
+		}
+	}
+	.suggest {
+		z-index: 2;
+		border: solid 2px #FFF;
+		color: lighten(@color-input, 70%);
+	}
+	.command {
+		color: @color-input;
+		z-index: 3;
+		background: none;
+	}
+	.history-panel {
+		a {
+			color: darken(@color-a, 50%);
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+				color: darken(@color-a, 100%);
+			}
+		}
+	}
+}
+
+
+.shell-on {
+	.inputs {
+		top: 27px;
+	}
+}

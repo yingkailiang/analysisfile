@@ -1,0 +1,39 @@
+div.challenge
+    h1
+        span.icon.challenge_icon
+        | Daily Challenge for #{challenge.get_relative_day()}
+
+    p.challenge_prompt
+        != challenge.get_img_node()
+        - if (is_admin)
+            span(contentEditable="true").select_all
+                | #{challenge.prompt}
+        - else
+            | #{challenge.prompt}
+    - if (is_admin)
+        div.buttons
+            button#js_edit_button(data-id="#{challenge._id}").js_prompt_button Update Prompt
+
+    - if (challenge.type == "collage")
+        !=partial('tools/collager', {collage : challenge.collage})
+    - else if (challenge.type == "drawing")
+        include tools/harmony
+    - else if (challenge.type == "webcam")
+        include tools/webcam
+    - else if (challenge.type == "text")
+        include tools/textarea
+    - else if (challenge.type == "rectangles" && typeof challenge.colors !== "undefined")
+        !=partial('tools/rectangles', {colors : challenge.colors})
+    div.buttons
+        - if (is_admin)
+            button#js_delete_button.js_delete_button Delete Challenge
+        button#js_reply_button(data-id="#{challenge._id}", disabled="true").submit Submit
+- if (responses && responses.length)
+    h1
+        span.icon.list_icon
+        | Most Recent Responses
+    ul.responses
+        each response in responses
+            li
+                !=partial('response', {response : response})
+    include pagination

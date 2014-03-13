@@ -1,0 +1,241 @@
+<!--
+ * Copyright (c) 2009 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+<head>
+<style>
+body {
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+}
+
+body>* {
+  display:-webkit-box;
+	
+}
+
+.mainList > *{
+	margin: 8px;
+}
+
+.optionList > *{
+	margin: 6px;
+	float: left;
+}
+
+#dialogBackground {
+  background-color: rgba(0, 0, 0, .2);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  -webkit-box-orient: vertical;
+  -webkit-user-select:none;
+}
+
+#dialogHBackground {
+  height: 100%;
+  -webkit-box-orient: horizontal;
+}
+
+#dialog {
+  background-color: #5296DE;
+  border: 1px solid #3A75BD;
+  border-radius: 6px 6px;
+  font-size: 12px;
+  width: 355px;
+  -webkit-box-orient: vertical;
+}
+
+#dialogHeader {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-weight: bold;
+  margin: 4px;
+  width: 100%;
+}
+
+#dialogBody {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid #3A75BD;
+  border-bottom-left-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  margin: 0px 2px 2px 2px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  -webkit-box-orient: vertical;
+  width: 340px;
+}
+
+#dialogBackground, #dialogBackground div {
+  display: -webkit-box;
+  -webkit-box-align: center;
+}
+
+#dialog input[type="button"] {
+  font-size: 12px;
+  height: 25px;
+  width: 100px;
+}
+
+#dialog input[type="text"] {
+  width: 220px;
+}
+
+.dialogRow {
+  margin-left: -24px;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: end;
+}
+
+.dialogRow>* {
+  margin: 2px
+}
+
+#dialogContentFooter {
+  margin-bottom: 6px;
+  margin-left: -12px;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.status {
+  background-color: #FFF18A;
+}
+
+</style>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="options.js"></script>
+
+</script>
+<title>Feed preview options</title>
+</head>
+<body>
+
+	<div class='mainList'>
+		<div>
+			<img src="feed-icon-16x16.png" />
+			<strong>Feed preview options</strong>
+			<div class="optionList">
+				<div>Feed icon behavior:</div>
+				<select id='previewSelect'>
+					<option id='defaultPreview' value="default"> Show preview, let me choose a reader </option>
+					<option id='skipPreview' value="No"> Skip preview, use my default reader </option>
+					<option id='onlyPreview' value="Yes"> Preview only (disable subscriptions)</option>
+				</select>
+			</div>
+			<div class="optionList">
+				<div>
+					<div>Available readers:</div>
+					<select id="readerListbox" size="9" style="width:300;"></select>
+				</div>
+				<div>
+					<br>
+					<br>
+					<button style="width:100%;" id="addReader">Add</button><br />
+					<button style="width:100%;" id="editReader">Edit</button><br />
+					<button style="width:100%;" id="removeReader">Remove</button><br />
+					<button style="width:100%;" id="setDefault">Make default</button><br />
+					<button style="width:100%;" id="resetList">Reset list</button><br />
+				</div>
+			</div>
+			<div class="optionList">
+				<div>
+					<div> Preview style: </div>
+					<select id="stylesStub" size="4" disabled="yes" style="width:200;">
+						<option id='default'>Default<option>
+					</select>
+				</div>
+				<div>
+					<div> Preview colors: </div>
+					<select id="colorList" size="4"  style="width:200;">
+						<option id='colorNone' value=''> Original</option>
+						<option id='colorPokerface' value='pokerface.css'> Bluffin' </option>
+						<option id='colorRaRaRoma' value='badromance.css'> Roma </option>
+					</select>
+				</div>
+			</div>
+			<div class="optionList">
+				<div>
+					<input type="checkbox" id='disableEmbed' value='Yes' checked>
+						Remove embedded media from feed preview
+					<br>
+					<input type="checkbox" id='sortFeeds' value='No'>
+						Sort feed items by date
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='mainList'>
+		<div>
+			<strong> Feed update options</strong>
+			<div class='optionList'>
+				<div>
+					Install <a href="https://chrome.google.com/extensions/detail/opnimlbiokbgomihhpobbgnlfolgdada">Shoyu Feed Updates</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div id="dialogBackground">
+    <div id="dialogHBackground">
+      <div id="dialog">
+
+        <div id="dialogHeader">
+          Edit feed reader
+        </div>
+
+        <div id="dialogBody">
+
+          <div class="dialogRow">
+            &nbsp;<div class="status" id="statusMsg"></div>
+          </div>
+
+          <div class="dialogRow">
+            <div>
+              Description:
+            </div>
+            <div>
+              <input type="text" id="descriptionText">
+            </div>
+          </div>
+
+          <div class="dialogRow">
+            <div>
+              URL:
+            </div>
+            <div>
+              <input type="text" id="urlText">
+            </div>
+          </div>
+
+          <div class="dialogRow">
+            <div id="urlAssist"></div>
+          </div>
+
+          <div class="dialogRow" id="dialogContentFooter">
+            <div>
+              <input type="button" id="save" value="Save">
+            </div>
+            <div>
+              <input type="button" id="rss_subscription_close_button" value="Close">
+            </div>
+          </div>
+
+        </div> <!-- /dialogBody -->
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

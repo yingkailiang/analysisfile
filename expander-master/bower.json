@@ -1,0 +1,22 @@
+{
+  "name": "expander",
+  "version": "0.0.0",
+  "dependencies": {
+    "mousetrap": "~1.4.6",
+    "angular": "~1.2.10"
+  },
+  "homepage": "https://github.com/jsturtevant/expander",
+  "authors": [
+    "jsturtevant <jsturtevant@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

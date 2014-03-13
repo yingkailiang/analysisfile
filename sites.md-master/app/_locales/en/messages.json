@@ -1,0 +1,80 @@
+{
+  "appName": {
+    "message": "sites.md"
+  },
+  "appDescription": {
+    "message": "Parsing the page of Google Sites as markdown"
+  },
+  "Markdownized" : {
+    "message" : "Markdown Parse"
+  },
+  "saveAutoSetting": {
+    "message" : "Set this url as auto markdown parse"
+  },
+  "saveIgnoreSetting" :{
+    "message" : "Set this url as non-auto markdown parse"
+  },
+  "showOptionPage" : {
+    "message" : "Show option page"
+  },
+  "AutoMarknized" : {
+    "message" : "Auto Markdown Parse"
+  },
+
+  "AutoMarknizedSettingHeader" : {
+    "message" : "Auto Markdown Parse Setting"
+  },
+  "AutoMarknizedSettingLead" : {
+    "message" : "Managing Auto Markdown Parse setting. If you add new setting, that page is parsed auto as Markdown at showing."
+  },
+  "CreateNewOption" : {
+    "message" : "Create a new auto markdown parse setting"
+  },
+  "AutoMarknizedSettingLegend" : {
+    "message" : "Setting"
+  },
+  "Name" : {
+    "message" : "Name"
+  },
+  "Ignore" : {
+    "message" : "Ignore"
+  },
+  "Type" : {
+    "message" : "Type"
+  },
+  "Contents" : {
+    "message" : "Contents"
+  },
+  "contains" : {
+    "message" : "contains"
+  },
+  "Add" : {
+    "message" : "Add"
+  },
+  "Copy" : {
+    "message" : "Copy"
+  },
+  "Modify" : {
+    "message" : "Modify"
+  },
+  "Delete" : {
+    "message" : "Delete"
+  },
+  "Cancel" : {
+    "message" : "Cancel"
+  },
+  "Expression" : {
+    "message" : "Expression"
+  },
+  "Title": {
+    "message": "Title"
+  },
+  "PageContent" : {
+    "message" : "Page Content"
+  }
+
+
+
+
+
+}

@@ -1,0 +1,59 @@
+﻿gRecipe Change log
+William Olson <wtolson@gmail.com>
+ 
+* 1.0  9/24/2010
+ - Initial Release
+ 
+* 1.1  9/24/2010
+ - Minor bug fixes
+ - Now gets full summary text from epicurious
+ - Added usage statistics
+ 
+* 1.2 9/26/2010
+ - General beautification
+ - Added automatic open and usage statistics options
+ - Added link to document from popup
+
+* 1.3 9/26/2010
+ - Small bug fixes
+
+* 1.4 9/27/2010
+ - Fixed false positives on epicurious
+ - Style tweaking on options page
+ - Made option discriptions clearer
+ - Added support for food.com
+ - Added support for foodandwine.com
+
+* 1.5 10/4/2010
+ - Created common content script
+ - Added support for allrecipes.com
+ - Bug fix for blank summary on foodandwine.com
+
+* 1.6 10/24/2010
+ -Restructured content scripts.
+ -Added support for BBC Food
+ -Added support for Gourmet Magazine
+ -Added support for BBC Good Food
+
+* 1.7 11/07/2010
+ -Created fix for Macs!
+ -Added support for Food Network.
+ -Added support for CHOW.
+
+* 1.8 11/08/2010
+ -Added support for The Pioneering Woman. (Via Joe)
+ -Via link now points to recipe page. (Also via Joe)
+
+* 1.8.1 11/09/2010
+ -Formating update for Food Network.
+
+* 1.9 04/25/2011
+ -New grr format for plugins.
+ -Support for hRecipe format.
+ -Begginings of document templating support.
+
+* 1.9.1 04/25/2011
+ -Bug fixed where old settings arn't parsed before updating.
+
+* 1.9.2 04/26/2011
+ -Fixed bug where grrs are not saved if a new tab isn't opened after update.

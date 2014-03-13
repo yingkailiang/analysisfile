@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+
+    <rule>
+		<from>^/s/([a-zA-Z0-9]+).htm$</from>
+		<to type="forward">/OutLink!toPage.action?id=$1</to>
+	</rule>
+	<rule>
+		<from>^/downloads$</from>
+		<to type="forward">/downloads.jsp</to>
+	</rule>
+	<rule>
+		<from>^/f/([a-zA-Z0-9]+).htm$</from>
+		<to type="forward">/ShareUrlDirAndFile!view.action?id=$1</to>
+	</rule>
+	<rule>
+		<from>^/deviceManage$</from>
+		<to type="forward">/DeviceManage!getList.action</to>
+	</rule>
+	
+	<rule>
+		<from>^/u/([a-zA-Z0-9]+).htm$</from>
+		<to type="forward">/AnonymousUpload!getAnonymousUpload.action?id=$1</to>
+	</rule>
+	<rule>
+		<from>^/user/update$</from>
+		<to type="forward">/User!dpUpdate.action</to>
+	</rule>
+	<rule>
+		<from>^/account/1-2$</from>
+		<to type="forward">/account1-2.jsp</to>
+	</rule>
+	<rule>
+		<from>^/adminset/$</from>
+		<to type="forward">/IpSetting!isSet.action</to>
+	</rule>
+	
+	<rule>
+		<from>^/Group/MemberList$</from>
+		<to type="forward">/Group!toMemberList.action</to>
+	</rule>
+	
+	<rule>
+		<from>^/account/email$</from>
+		<to type="forward">/AccountEmail!email.action</to>
+	</rule>
+	<rule>
+		<from>^/message/([0|1]{0,1})$</from>
+		<to type="forward">/MessageAction!getMsg.action?type=$1</to>
+	</rule>
+	<rule>
+		<from>^/message/([0-9]+)/([0|1]+)$</from>
+		<to type="forward">/MessageAction!getMsgForPage.action?pageNumber=$1&amp;type=$2</to>
+	</rule>
+	<rule>
+		<from>^/account$</from>
+		<to type="forward">/AccountManage!getaccountinfo.action</to>
+	</rule>
+	<rule>
+		<from>^/addUsers([/]{0,1})$</from>
+		<to type="forward">/User!addUsers.action</to>
+	</rule>
+	<rule>
+		<from>^/manual([/]{0,1})$</from>
+		<to type="forward">/GetFile!getManual.action</to>
+	</rule>
+	<rule>
+		<from>^/download/([%A-Z]+)$</from>
+		<to type="forward">/</to>
+	</rule>
+	<rule>
+		<from>^/download([%A-Z]+)$</from>
+		<to type="forward">/</to>
+	</rule>
+	<rule>
+		<from>^/log([/]{0,1})$</from>
+		<to type="forward">/AppLogManage!toPage.action</to>
+	</rule>
+	<rule>
+		<from>^/log/([0-9]+)$</from>
+		<to type="forward">/AppLogManage!setPage.action</to>
+	</rule>
+	<rule>
+		<from>^/home1$</from>
+		<to type="forward">/Login!homePage.action</to>
+	</rule>
+	<rule>
+		<from>^/home$</from>
+		<to type="forward">/login2.jsp</to>
+	</rule>
+<!--	<rule>-->
+<!--		<from>^/index?([*]+)$</from>-->
+<!--		<to type="forward">/index.jsp#!$1</to>-->
+<!--	</rule>-->
+	<rule>
+		<from>^/loginAction([/]{0,1})$</from>
+		<to type="forward">/Login!login.action</to>
+	</rule>
+	<rule>
+		<from>^/login$</from>
+		<to type="forward">/login2.jsp</to>
+	</rule>
+	
+	<rule>
+		<from>^/PanInfo([/]{0,1})$</from>
+		<to type="forward">/PanInfo!get.action</to>
+	</rule>
+	<rule>
+		<from>^/AddressInfo([/]{0,1})$</from>
+		<to type="forward">/AddressInfo!organs.action?type=1</to>
+	</rule>
+	<rule>
+		<from>^/CompanyInfo([/]{0,1})$</from>
+		<to type="forward">/AccountManage!getcompanyinfo.action</to>
+	</rule>
+<!--	<rule>-->
+<!--		<from>^/UserList([/]{0,1})$</from>-->
+<!--		<to type="forward">/User!toPage.action</to>-->
+<!--	</rule>-->
+	<rule>
+		<from>^/UserList([/]{0,1})$</from>
+		<to type="forward">/User!organs.action?type=0</to>
+	</rule>
+	<rule>
+		<from>^/UserList/([0-9]+)$</from>
+		<to type="forward">/User!toPage.action?pageNum=$1</to>
+	</rule>
+	<rule>
+		<from>^/GroupList([/]{0,1})$</from>
+		<to type="forward">/Group!getAll.action</to>
+	</rule>
+	<rule>
+		<from>^/Group/([%A-Z]+)/$</from>
+		<to type="forward">/Group!toMemberList.action?groupName=$1</to>
+	</rule>
+	<rule>
+		<from>^/logout/$</from>
+		<to type="forward">/Login!logout.action</to>
+	</rule>
+	<rule>
+		<from>^/logout([/]{0,1})$</from>
+		<to type="forward">/Login!logout.action</to>
+	</rule>
+	<rule>
+		<from>^/index([/]{0,1})$</from>
+		<to type="forward">/index.jsp</to>
+	</rule>
+	<rule>
+		<from>^/index$</from>
+		<to type="forward">/index.jsp</to>
+	</rule>
+	<rule>
+		<from>^/([a-zA-Z0-9]+)([/]{0,1})$</from>
+		<to type="forward">/$1.jsp</to>
+	</rule>
+
+	<rule>
+		<from>^/$</from>
+		<to type="forward">/Login!home.action</to>
+<!--		Login!index.action-->
+	</rule>
+
+	<!-- PAN-892  -->
+	<rule>
+		<from>^/history/([a-zA-Z0-9-]+)/([a-zA-Z0-9]+)$</from>
+		<to type="forward">/HistoryVersion!getHistory.action?resourceId=$1&amp;versionNumber=$2</to>
+	</rule>
+	
+	<rule>
+		<from>^/getFileOnline/([a-zA-Z0-9-]+)$</from>
+		<to type="forward">/GetFile!getFileOnLineLink.action?resourceId=$1</to>
+	</rule>
+	
+	<rule>
+		<from>^/Group/MemberList/([0-9]+)/([\u4e00-\u9fa5_a-zA-Z0-9]+)$</from>
+		<to type="forward">/Group!toMemberList.action?groupId=$1&amp;groupName=$2</to>
+	</rule>
+	
+	<rule>
+		<from>^/individset1/$</from>
+		<to type="forward">/individset1.jsp</to>
+	</rule>
+	
+	<rule>
+		<from>^/individset2/$</from>
+		<to type="forward">/individset2.jsp</to>
+	</rule>
+	
+	<!-- <rule>
+		<from>^/AdminLog/$</from>
+		<to type="forward">/AdminLog!toPage.action</to>
+	</rule>
+	
+	<rule>
+		<from>^/AdminLog/topage$</from>
+		<to type="forward">/AdminLog!toPage.action</to>
+	</rule> -->
+</urlrewrite>
+

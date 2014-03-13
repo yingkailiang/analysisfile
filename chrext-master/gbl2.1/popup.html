@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <title>tracer</title>
+
+    <script src="js/socket.io.js"></script>
+</head>
+<body>
+<style>
+    div{line-height:2;}
+    b{font-size:1.4em;}
+    label{display:inline-block;width:50px;}
+    #buy{color:#6f0;}
+    #sell{color:#f60;}
+    #high{color:#ff6;font-size:1em;}
+    #low{color:#6ff;font-size:1em;}
+    #tip{color:red;}
+</style>
+<div id="tip"></div>
+<div>
+
+    <label>buy:</label><b id="buy">0</b><br/>
+    <label>sell:</label><b id="sell">0</b><br/>
+    <label>high:</label><b id="high">0</b><br/>
+    <label>low:</label><b id="low">0</b><br/>
+</div>
+</body>
+<script>;
+
+var g=function(id){return document.getElementById(id);},
+        Info={
+            sell:g('sell'),
+            buy:g('buy'),
+            high:g('high'),
+            low:g('low')
+        };
+function tip(s){
+    g('tip').innerHTML=s;
+}
+function showData(data){
+
+    if(data.ticker){
+        data=data.ticker;
+        for(var k in Info){
+            Info[k].innerHTML=data[k].value;
+        }
+
+    }
+}
+/*
+function soki(){
+    var conn = io.connect('http://socketio.mtgox.com/mtgox');
+    conn.on('connect',function(){
+        console.log('connect')
+
+    });
+    conn.on('message', function(data) {
+        // Handle incoming data object.
+        console.log(data);
+        if(data.ticker){
+            data=data.ticker;
+            for(var k in Info){
+                Info[k].innerHTML=data[k].value;
+            }
+
+        }
+    });
+    conn.on('error',function(data){
+        console.log('error')
+
+
+    })
+    conn.on('disconnect',function(data){
+        console.log('disconnect')
+
+
+    })
+}
+
+//soki();
+
+*/
+
+</script>
+<script>
+
+    var port = chrome.runtime.connect({name: "knockknock"});
+   // port.postMessage({joke: "Knock knock"});
+    function postMsg(data){
+        port.postMessage(data)
+    }
+    /*
+    port.onMessage.addListener(function(msg) {
+        if (msg.question == "Who's there?")
+            port.postMessage({answer: "Madame"});
+        else if (msg.question == "Madame who?")
+            port.postMessage({answer: "Madame... Bovary"});
+    });*/
+</script>
+<script>
+
+
+    function createSocketBak(){
+        tip('bak ready!');
+        var ws = io.connect('http://socketio.mtgox.com/mtgox');
+        ws.onopen = function () {
+            tip('socket back opened!');
+        };
+        ws.onmessage = function (evt) {
+            // console.log('mms ')
+            // var received_msg = evt.data;
+            postMsg(evt.data)
+            showData(JSON.parse(evt.data));
+
+        };
+        ws.onclose = function () {
+            tip('socket bak closed!');
+            createSocket();
+
+        }; // websocket is closed.
+        ws.onerror=function(){
+            createSocket();
+            tip('socket error!正尝试重新连接，如不行刷新页面再试.. ');
+        };
+    }
+    function createSocket(){
+
+        var ws = new WebSocket("ws://websocket.mtgox.com/mtgox?Currency=USD");
+        ws.onopen = function () {
+            tip('the fucking socket opened!');
+        };
+        ws.onmessage = function (evt) {
+            // console.log('mms ')
+            // var received_msg = evt.data;
+            postMsg(evt.data)
+            showData(JSON.parse(evt.data));
+
+        };
+        ws.onclose = function () {
+            tip('socket closed! recreating');
+            createSocket();
+        }; // websocket is closed.
+        ws.onerror=function(){
+            createSocket();
+            tip('socket error!正尝试重新连接，如不行刷新页面再试.. ');
+        };
+
+    }
+</script>
+</html>

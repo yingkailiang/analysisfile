@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Auxilio</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById("login").addEventListener("click", function(e) {
+                    document.getElementById("login-form").style.display = "block";
+                });
+            }
+        </script>
+        <style type="text/css">
+            #login-form {
+                margin: 20px 0 0 0;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+        	<h1>Auxilio</h1>
+            <h3>Auxilio is a handy Google Chrome extension.</h3>
+            <nav>
+                <ul>
+                    <li class="menu-link"><a href="a.html">page A</a></li>
+                    <li class="menu-link"><a href="b.html" class="form-page">page B</a></li>
+                    <li class="menu-link"><a href="c.html">page C</a></li>
+                </ul>
+            </nav>
+            <hr />
+            <form method="post" action="search.php">
+                <input type="text" name="s" placeholder="type something for search" id="search-field" />
+            </form>
+            <hr />
+            <a href="http://github.com" id="github"><span>GitHub</span></a> | 
+            <a href="#" id="login"><span>Login</span></a>
+            <div id="login-form">
+                <form action="login.php" method="post">
+                    <input type="text" placeholder="username" name="username"/>
+                    <input type="password" name="password"/>
+                    <input type="submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

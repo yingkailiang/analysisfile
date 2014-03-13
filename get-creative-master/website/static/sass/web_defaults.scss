@@ -1,0 +1,16 @@
+@import "vars", "mixins";
+
+body:after {
+    content:"\00a0";
+    @include fullsize();
+    position:fixed;
+    z-index:-1;
+    background-image:-webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.04) 100%), -webkit-radial-gradient(500px 0, ellipse farthest-corner, #fefefb 0%, #ebeae4 100%);
+}
+
+#content {
+    position:relative;
+    margin:0;
+    padding:0;
+    padding-right:20px;
+}

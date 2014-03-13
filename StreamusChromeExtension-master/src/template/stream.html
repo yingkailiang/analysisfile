@@ -1,0 +1,38 @@
+﻿<div class="big-text-wrapper">
+    <div class="big-text streamEmpty">
+        <div class="big-text-header"><%= streamEmptyMessage %></div>
+        
+        <%= whyNotAddAVideoFromAPlaylistOrMessage %> <span class="showVideoSearch searchLink clickable lowercase"><%= searchForVideosMessage %></span>?
+    </div>
+    
+    <div id="streamItems" class="list droppable-list"></div>
+</div>
+
+<div class="context-buttons">
+    <div class="left-group">
+        <button id="shuffle-button" class="button-icon button-small">
+            <i class="fa fa-random"></i>
+        </button>
+        
+        <button id="repeat-button" class="button-icon button-small">
+        </button>
+
+        <div id="repeatButtonView" class="view-placeholder"></div>
+        
+        <button id="radio-button" class="button-icon button-small">
+            <i class="fa fa-rss"></i>
+        </button>
+
+        <div id="radioButtonView" class="view-placeholder"></div>
+    </div>
+    
+    <div class="right-group">
+        <button id="saveStream" class="button-icon button-small save disabled %>" title="">
+            <i class="fa fa-save"></i>
+        </button>
+
+        <button id="clearStream" class="button-icon button-small clear" title="<%= clearStreamMessage %>" >
+            <i class="fa fa-trash-o"></i>
+        </button>
+    </div>
+</div>

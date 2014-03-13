@@ -1,0 +1,26 @@
+<html>
+<head><title>Options</title></head>
+<script type="text/javascript">
+
+function restore_options() {
+  var checked = localStorage["autoRemove"];
+  document.getElementById("autoRemove").checked = (checked == "true");
+}
+
+function save_options() {
+  var checked = document.getElementById("autoRemove").checked;
+  localStorage["autoRemove"] = checked;
+  window.close();
+}
+
+</script>
+
+<body onload="restore_options()" bgcolor="#dddddd">
+
+<div>
+  <input id="autoRemove" type="checkbox"/>Remove item when it opened.
+</div>
+<br>
+<button onclick="save_options()">Save</button>
+</body>
+</html>

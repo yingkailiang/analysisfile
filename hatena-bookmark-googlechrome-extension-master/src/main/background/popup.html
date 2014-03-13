@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script type="text/javascript" src="../lib/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="../lib/jsdeferred.js"></script>
+<script type="text/javascript" src="../lib/jsdeferred.jquery.js"></script>
+<script type="text/javascript" src="../lib/jsdeferred.googlechrome.js"></script>
+<script type="text/javascript" src="../lib/02-Utils.js"></script>
+<script type="text/javascript" src="../lib/05-Config.js"></script>
+<script type="text/javascript" src="config-setting.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+<script type="text/javascript" src="../lib/50-HatenaStar.js"></script>
+<script type="text/javascript" src="../lib/50-HatenaStar-OVERRIDE.js"></script>
+<script type="text/javascript" src="popup-hatena-star.js"></script>
+<script type="text/javascript" src="../lib/51-HatenaStarLoader.js"></script>
+<script type="text/javascript" src="../lib/60-TagCompleter.js"></script>
+<link rel="stylesheet" href="popup.css" type="text/css" />
+<title>はてなブックマーク Google Chrome 拡張</title>
+</head>
+<body class="data-loading">
+<!-- config.html にも利用規約はあるので、ここを変更するときはそちらも同時に変更すること -->
+<div id="eula">
+  <p>はてなブックマーク GoogleChrome 拡張を利用するには、以下のエンドユーザライセンス契約に同意する必要があります。</p>
+  <blockquote class="eula">
+  <pre class="eula-view">
+ この利用規約（以下「本規約」）は、当社が配布するGoogleChrome拡張（以下「本ソフトウェア」）の使用に関して、ユーザーの皆様（以下「ユーザー」）と株式会社はてな（以下「当社」）との間で合意するものです。ユーザーは、はてな利用規約ならびに本規約に従い本ソフトウェアを利用するものとします。本ソフトウェア画面上に表示される「同意する」ボタンを押した場合、本規約に同意されたものとさせて頂きます。
+
+    * 第1条（本ソフトウェアの使用許諾）
+    * 第2条（使用許諾の内容）
+    * 第3条（プライバシー）
+    * 第4条（バージョンアップ）
+    * 第5条（使用中止）
+    * 第6条（著作権など）
+    * 第7条（免責事項）
+    * 第8条（本規約の変更）
+    * 第9条（準拠法及び管轄）
+
+第1条（本ソフトウェアの使用許諾）
+
+   1. 当社は、本ソフトウェアをダウンロードされたユーザーに対し、はてな利用規約ならびに本規約に定める条件に従い、本ソフトウェアの譲渡不能かつ非独占的な使用権を許諾します。
+   2. ユーザーは、本ソフトウェアを個人的な目的に限り利用できます。
+   3. 本ソフトウェアは、ユーザーがコンピュータにインストールすることにより、無料で利用することができます。但し、当社はユーザーのインターネット環境やコンピュータの設備環境について一切関与せず、これらの準備、操作に関する責任を負いません。
+
+第2条（使用許諾の内容）
+
+   1. 本ソフトウェア運用上、本ソフトウェアの表示レイアウト、表示色、表示文字等（表示レイアウト、表示色、表示文字に限らず本ソフトウェア上表示されるもの）並びに視認できる表示以外の表示に必要とされるプログラムデータ及びこれに関連したドキュメントファイル等は当社が定める日時において予告なく自動的に変更・更新される場合があります。
+   2. 当社は、本ソフトウェアと他のソフトウェアとの互換性について何ら保証いたしません。
+   3. 本ソフトウェアは、ユーザーの使用環境により使用できない場合（一部機能を使用できない場合を含む）があります。
+
+第3条（プライバシー）
+
+   1. 当社は、本サービスを提供するにあたり必要となる最小限の情報をユーザーから取得します。当社は、ユーザーから取得したプライバシー情報の保護に最大限の注意を払います。当社のプライバシーに対する考え方の詳細については、プライバシーポリシーを参照ください。
+
+　 2. 本ソフトウェアは GoogleChrome 内にユーザーの利用しているはてなブックマークのデータをダウンロードします。PCを共有する第三者にはてなブックマークのデータを閲覧される場合がありますが、当社は一切の責任を負いません。
+
+第4条（バージョンアップ）
+
+   1. 本ソフトウェアは、バージョンアップをおこなうことがあります。バージョンアップがおこなわれた本ソフトウェアについても、本規約が適用されるものとします。
+   2. バージョンアップについての告知はユーザーに対し、個別におこなわれるものではありません。
+
+第5条（使用中止）
+
+   1. 本ソフトウェアは、当社側の事情により、機能の一部又は全部の使用を中止させて頂くことがあります。
+   2. ユーザーが、本規約に定める事項の一つにでも違反した場合、当社は、何らの事前の通知を行うことなく、ユーザーに対して本ソフトウェアの使用の中止を求めることができるものとします。
+
+第6条（著作権など）
+
+   1. 本ソフトウェアの権利は、すべて当社に帰属するものとします。但し、ソースコードに別途ライセンス条項が記載されている場合は、そちらが優先されます。
+
+第7条（免責事項）
+
+   1. ユーザーは、自己責任において本ソフトウェアを利用するものとします。当社は、本ソフトウェアの利用から生じるあらゆる損害について、故意又は重大な過失があるときを除き、一切の責任を負いません。本ソフトウェアを使用した結果発生した、あるいは使用できないことによって発生したすべての損害や不利益（利益の逸失およびデータの損壊を含む）に対して、当社は、故意又は重大な過失があるときを除き、一切責任を負いません。
+   2. 当社は、本ソフトウェアの保守、瑕疵修正、バージョンアップをおこないますが、本ソフトウェアの内容、性能、安全性、利用結果についていかなる保証もおこないません。
+
+第8条（本規約の変更）
+
+   1. 本規約は、予告なしに変更されることがあります。ユーザーの皆様に個別通知することは致しかねますので、ご利用の際には、随時、最新の利用規約を参照ください。
+
+第9条（準拠法及び管轄）
+
+   1. 本規約の準拠法は、日本法であり、東京地方裁判所を専属的合意管轄裁判所とします。
+
+    * （2009年11月30日作成）
+  </pre></blockquote>
+  <p class="eula-accept">
+    <input type="button" value="同意する" id="eula-accept-button-ok" />
+    <input type="button" value="同意しない" id="eula-accept-button-ng" />
+  </p>
+</div>
+<div id="main">
+  <div id="header">
+    <div id="header-left">
+      <ul class="tab-ui">
+        <li id="bookmark-tab">ブックマークする</li>
+        <li id="comment-tab">コメント</li>
+        <li class="tab-link">
+        </li>
+      </ul>
+    </div>
+    <div id="header-right">
+      <ul class="tab-ui">
+        <li id="search-tab">
+        <form id="search-form">
+          <input placeholder="マイブックマーク検索" id="search-word" type="text" />
+        </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div id="login-container">
+  <div id="bookmark-login-header">
+    ログインしていません
+  </div>
+  <div id="bookmark-register">
+    <p class="center">
+    はてなブックマークに追加するには、はてなへのユーザ登録(無料)が必要です。<br /><br />
+    <a id="register-link" href="https://www.hatena.ne.jp/register?via=200048&amp;location=http%3A%2F%2Fb.hatena.ne.jp%2Fguide%2Fchrome_register"><img src="/images/register-button.png"></a>
+    <br /><br />
+    すでにユーザー登録がお済みの場合は<a href="http://www.hatena.ne.jp/login?location=http%3A%2F%2Fb.hatena.ne.jp%2Fguide%2Fchrome_logined">こちらからログイン</a>して下さい
+    </p>
+
+    <p id="bookmark-register-intro">
+    <span class="image"><img src="/images/register-title.png" alt="" /></span>
+    はてなブックマークはオンラインでブックマークを保存・管理・共有できる、オンラインブックマークサービスです。自宅のブラウザに保存するだけだったブックマークを、インターネット上に保存して管理・公開することができます。
+    <span class="more"><a href="http://b.hatena.ne.jp/guide?via=200048">もっとくわしく</a></span>
+    </p>
+  </div>
+</div>
+
+<div id="bookmark-container">
+  <div id="bookmark-edit-container">
+    <div id="bookmark-edit-header" class="content-header">
+      <div class="edit-cell"><a href="http://b.hatena.ne.jp" tabindex="-1"><img src="/images/logo-text.png" alt="Hatena::Bookmark" /></a></div>
+      <div class="edit-cell">
+        ようこそ<img width="16" height="16" id="usericon"><a id="username" href="http://b.hatena.ne.jp/my" tabindex="-1"></a>さん
+      </div>
+    </div>
+    <div id="bookmark-message" class="none"></div>
+    <div id="bookmark-canonical" class="none">
+      <div class="table-row">
+         <div class="table-left" id="canonical-tips">このページには別のURLが提示されています。</div><div class="table-right"><input type="button" id="canonical-tips-button" value=" 以下の URL に変更 " /></div>
+      </div>
+      <div class="table-row">
+        <div class="table-left"><a id="link-canonical"></a></div><div class="table-right"><img src="/images/page.gif"> <a id="canonical-users"></a></div>
+      </div>
+    </div>
+    <div id="bookmarked-notice" class="none">
+      <span id="bookmarked-notice-text"></span>
+      <input id="delete-button" type="button" value="削除">
+    </div>
+    <div id="bookmark-error" class="none"></div>
+
+    <div id="image-detect-container" class="none">
+      <div id="image-detect-image-container">
+      <img id="image-detect-container-close-button" src="/images/close.gif">
+      </div>
+      <div id="image-detect-container-list">
+      </div>
+      <div id="image-detect-notice">
+        <p><img src="/images/caution.png"> エントリーの画像は全ユーザー共通です <a href="http://b.hatena.ne.jp/help/guideline_image">ガイドライン</a></p>
+        <p class="none" id="image-detect-notice-user-container"> </p>
+      </div>
+    </div>
+
+    <form id="form">
+    <div id="edit">
+      <div class="entry-info-box">
+        <div class="entry-basic-info-box">
+          <div class="title-container">
+            <div id="title" class="loaded">
+
+              <div style="width: 100%; display: table-cell;">
+                <span id="title-toggle-button">
+                  <img src="/images/edit.png" id="title-editable-toggle" title='タイトルを変更する'>
+                </span>
+
+                <span id="title-text-container">
+                  <img id="favicon" width="16" height="16"><span id="title-text"></span><span id="users-count-container" class="none"><a id='users-count' tabindex="-1"></a></span><img id="comment-show"><span id="favorites"></span>
+                </span>
+
+                <span class="none" id="title-text-edit-container">
+                  <input type="text" id="title-input" name="title" disabled="disabled" />
+                </span>
+
+                <div class="none" id="title-notice">
+                  <p>
+                  <img src="/images/caution.png" /> タイトルは全ユーザー共通です : <a href="http://b.hatena.ne.jp/help/guideline_title">ガイドライン</a>
+                  </p>
+                  <p class="none" id="title-notice-user-container">
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="loading"><img src="/images/loading.gif" width="16" height="16" class="usericon">データをロードしています…</div>
+          </div>
+
+          <div id="url-container">
+            <a href="" id="url" tabindex="-1"></a>
+          </div>
+        </div>
+
+        <div id="image-table-container" class="entry-image-box">
+          <div id="image-container">
+            <div id="image-current-container"><img id="current-image" src="/images/noimages.png" /></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="bookmark-options">
+          <div id="comment-area">
+            <textarea rows="1" id="comment" name="comment" placeholder="コメントを入力してください (省略可能)" tabindex="1"></textarea>
+            <p id="type-counter"><span id="type-count">0</span> / 100</p>
+            <ul id="tag-complete-list" class="shadow"></ul>
+          </div>
+          <input type="hidden" id="input-url" name="url" />
+        </div>
+      </div>
+    </div>
+
+    <div id="tag-container">
+    <dl id="recommend-tags-container">
+      <dt>おすすめタグ <a href="http://b.hatena.ne.jp/help/tag" target="_blank" class="note" tabindex="-1">※タグについて</a></dt>
+      <dd id="recommend-tags">
+      </dd>
+    </dl>
+    <dl id="all-tags-container">
+      <dt>タグ<span id="show-all-tags-toggle"></span></dt>
+      <dd id="all-tags">
+      </dd>
+    </dl>
+    <p id="tag-notice"><a href="http://b.hatena.ne.jp/help/tag" target="_blank" class="note" tabindex="-1">※タグについて</a></p>
+    </div>
+
+    <div id="submit-container">
+
+      <p id="option-help-post-twitter" class="option-help-tooltip shadow" style="display: none;">
+        <img src="/images/icon-twitter.png" alt="" width="16" height="16" />
+        Twitter 連携機能を設定すると、ブックマーク時に Twitter へも投稿することができます。
+        <a href="http://b.hatena.ne.jp/my/config#tabmenu-config_table_twitter"
+          target="_blank">Twitter 連携機能の設定画面へ</a>
+      </p>
+      <p id="option-help-post-facebook" class="option-help-tooltip shadow" style="display: none;">
+        <img src="/images/icon-facebook.png" alt="" width="16" height="16" />
+        Facebook 連携機能を設定すると、ブックマーク時に Facebook へも投稿することができます。
+        <a href="http://b.hatena.ne.jp/my/config#tabmenu-config_table_coop"
+          target="_blank">Facebook 連携機能の設定画面へ</a>
+      </p>
+      <p id="option-help-post-evernote" class="option-help-tooltip shadow" style="display: none;">
+        <img src="/images/icon-evernote.png" alt="" width="16" height="16" />
+        Evernote 連携機能を設定すると、ブックマーク時に Evernote へも投稿することができます。
+        <a href="http://b.hatena.ne.jp/my/config#tabmenu-config_table_coop"
+          target="_blank">Evernote 連携機能の設定画面へ</a>
+      </p>
+      <p id="option-help-post-mixi-check" class="option-help-tooltip shadow" style="display: none;">
+        <img src="/images/icon-mixi.png" alt="" width="16" height="16" />
+        mixi チェック連携機能を設定すると、ブックマーク時に mixi チェックへも投稿することができます。
+        <a href="http://b.hatena.ne.jp/my/config#tabmenu-config_table_coop"
+          target="_blank">mixi チェック連携機能の設定画面へ</a>
+      </p>
+
+      <div id="checkbox-options">
+        <h6>共有:</h6>
+        <div id="checkbox-options-expanded" class="shadow">
+          <ul>
+            <!-- template -->
+            <li id="checkbox-options-expanded-item-template">
+              <label>
+                <input type="checkbox" /><span class="icon-img">icon_img</span
+                ><span class="displayed-name"></span>
+              </label>
+            </li>
+            <!-- template を使わない -->
+            <li id="asin-container">
+              <label for="add-asin" title="Amazon.co.jp の商品をコレクションに追加する場合はチェックを入れてください。">
+                <input value="1" type="checkbox" id="add-asin" name="add_asin"
+                  disabled="disabled" /> コレクション
+              </label>
+              <input value="" type="hidden" id="asin" name="asin" disabled="disabled" />
+            </li>
+          </ul>
+          <div class="bar cf">
+            <button id="checkbox-options-button-to-minimize" type="button" tabindex="13"
+              title="オプションパネルを閉じる"></button>
+          </div>
+        </div>
+        <div id="checkbox-options-minimized">
+          <button id="checkbox-options-button-to-expand" type="button" tabindex="10"
+            title="全てのオプションを表示する"></button>
+          <ul>
+            <!-- template -->
+            <li id="checkbox-options-minimized-item-template">
+              <label>
+                <input type="checkbox" /><span class="icon-img">icon_img</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <script src="/popup/sharing_checkbox_options.js"></script>
+      </div>
+
+      <div id="buttons">
+          <div class="table-row">
+              <div class="edit-cell">
+                <!-- 開始: 非公開オプション用 -->
+                <label title="ブックマークを他のユーザーに公開しない場合はチェックを入れてください。 (閲覧許可ユーザーにも公開されません。) ">
+                  <input id="private-option-view" type="checkbox" tabindex="20" />
+                  <img src="/images/add-private.png" alt="" width="16" height="16" />
+                  <span>非公開</span>
+                </label>
+                <input name="private" id="private" type="hidden" value="" />
+                <input type="hidden" name="with_status_op" value="1" />
+                <!-- 終了: 非公開オプション用 -->
+             </div>
+              <div class="edit-cell">
+                  <input id="edit-submit" type="submit" value="追加" tabindex="21" />
+              </div>
+          </div>
+      </div>
+
+    </div>
+
+    </form>
+  </div>
+</div>
+
+<div id="comment-container">
+  <h3 id="comment-header" class="content-header">
+
+
+    <div id="comment-title-container">
+      <span id="comment-title"></span>
+      <a id="comment-users"></a>
+      <span id="comment-count-detail"></span>
+      <span id="comment-title-star-container"></span>
+      <img src="/images/star_my.gif" alt="はてなスターをロードしています…" title="はてなスターをロードしています…" id="star-loading-icon" />
+    </div>
+
+    <div id="comment-title-right">
+      <div id="comment-infos">
+        <div class="comment-mode-tab active" id="comment-mode-popular" title="人気コメント">人気</div>
+        <div class="comment-mode-tab" id="comment-mode-comment" title="新着コメント">新着</div>
+        <div class="comment-mode-tab" id="comment-mode-nocomment" title="全てのブックマーク">全て</div>
+      </div>
+    </div>
+
+
+  </h3>
+  <div id="comment-message"><img id="comment-loading-icon" src="/images/loading.gif" />コメントをロードしています…</div>
+  <ul class="comment-list" id="comment-list"></ul>
+  <ul class="comment-list" id="popular-comment-list"></ul>
+</div>
+<div id="search-container">
+  <div id="search-header" class="content-header">
+    <div class="edit-cell"><span id="search-word-preview"></span><span id="search-preview-sep">-</span><span id="search-total-count"></span></div>
+    <div class="edit-cell" id="search-header-right">
+      <a id="hatena-websearch" href="http://b.hatena.ne.jp/search?q=" title="はてなブックマーク全体を対象に検索を行います">はてなブックマークで検索</a>
+    </div>
+  </div>
+  <ul id="search-result"></ul>
+</div>
+</div>
+</body>
+</html>

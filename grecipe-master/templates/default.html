@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>{{name}}</title>
+    {{#if summary}}
+      <meta name="description" content="{{summary}}">
+    {{/if}}
+
+    {{#if author}}
+      <meta name="author" content="{{author}}">
+    {{/if}}
+
+  <style type="text/css">
+    body {
+      font-size: 11pt;
+      font-family: Arial;
+      line-height: 115%;
+    }
+    
+    h1, h2, h3{
+      font-weight: bold;
+    }
+    
+    h1 {
+      margin-top: 14px;
+      padding-bottom: 4px;
+      font-size: 24pt;
+    }
+    
+    h2 {
+      padding-top: 14px;
+      padding-bottom: 0;
+      font-size: 18pt;
+    }
+    
+    h3 {
+      padding-top: 0;
+      padding-bottom: -8.0px;
+      font-size: 14pt;
+    }
+    
+    ul {
+      list-style-type: disc;
+      margin-left: 6px;
+    }
+
+    p, li {
+      margin: 5px 0;
+    }
+    
+    img {
+      float:right;
+    }
+    
+    .summary {
+      margin-bottom: 10px;
+    }
+    
+    .closing {
+      margin-top: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="container" class="hrecipe">
+    <h1 class="fn">{{name}}</h1>
+    <h3>
+      {{#if author}}<span class="author">{{author}}</span>{{/if}}
+      (via <a href="{{url}}">{{host}}</a>)
+    </h3>
+
+    {{#photo}}
+      <p><img src="{{src}}" alt="{{alt}}" title="{{title}}" class="photo"></p>
+    {{/photo}}
+    
+    {{#if summary}}
+      <div class="summary">{{{summary}}}</div>
+    {{/if}}
+    
+    {{#prepTime}}
+      <p>Prep Time: <span class="prepTime">{{value}}</span></p>
+    {{/prepTime}}
+
+    {{#cookTime}}
+      <p>Cook Time: <span class="cookTime">{{value}}</span></p>
+    {{/cookTime}}
+
+    {{#totalTime}}
+      <p>Total Time: <span class="prepTime">{{value}}</span></p>
+    {{/totalTime}}
+
+    {{#if yield}}
+      <p>Yield: <span class="yield">{{yield}}</span></p>
+    {{/if}}
+
+    {{#ingredients}}
+      <h2>Ingredients</h2>
+      {{#section}}
+        {{#if title}}<h3>{{title}}</h3>{{/if}}
+        <ul>
+          {{#each ingredient}}
+            <li class="ingredient">{{{this}}}</li>
+          {{/each}}
+        </ul>
+      {{/section}}
+      {{^section}}
+        <div class="ingredient">{{{this}}}</div>
+      {{/section}}
+    {{/ingredients}}
+
+    {{#instructions}}
+      <h2>Instructions</h2>
+      {{#section}}
+        {{#if title}}<h3>{{title}}</h3>{{/if}}
+        <ol class="instructions">
+          {{#each instruction}}
+            <li class="instruction">{{{this}}}</li>
+          {{/each}}
+        </ol>
+      {{/section}}
+      {{^section}}
+        <div class="instructions">{{{this}}}</div>
+      {{/section}}
+    {{/instructions}}
+
+    {{#if closing}}
+      <div class="closing">{{{closing}}}</div>
+    {{/if}}
+    
+  </div> <!-- end of #container -->
+  
+</body>
+</html>

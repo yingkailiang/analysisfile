@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "aolfilter",
+    "description": "AOL Filter highlight words.",
+    "version": "1",
+    
+    "permissions": [ 
+        "storage",
+        "http://reader.aol.com/"
+    ],
+    
+    "icons": {
+        "128": "aolfilter128.png",
+        "16": "aolfilter16.png",
+        "256": "aolfilter256.png",
+        "48": "aolfilter48.png"
+    },
+    
+    "browser_action": {
+        "default_icon": "aolfilter128.png",
+        "default_popup": "popup.html"
+    },
+    
+    "content_scripts": [
+    {
+        "matches": ["http://reader.aol.com/*"],
+        "js": ["jquery-1.10.2.min.js", "normalizer.js", "script.js"],
+        "run_at": "document_end"
+    }
+  ]
+}

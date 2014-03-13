@@ -1,0 +1,32 @@
+{
+    "name": "__MSG_appName__",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "16": "images/feed16.png",
+        "128": "images/feed128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/feed19.png",
+            "38": "images/feed38.png",
+            "128": "images/feed128.png"
+        },
+        "default_title": "Notifeed",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "https://api.github.com/",
+        "http://www.gravatar.com/",
+        "https://github.com/",
+        "storage",
+        "notifications",
+        "background"
+    ]
+}

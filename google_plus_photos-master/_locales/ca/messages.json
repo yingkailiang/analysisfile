@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Decideix si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes."
+   },
+   "106279463205193944": {
+      "message": "Persones d'aquest \u00E0lbum"
+   },
+   "1078696495414015742": {
+      "message": "Continua"
+   },
+   "1079312373208696407": {
+      "message": "Fes clic aqu\u00ED quan t'hagis registrat"
+   },
+   "1106976338877989624": {
+      "message": "Quant a $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{No tens cap \u00E0lbum. Penja fotos ara.}female{No tens cap \u00E0lbum. Penja fotos ara.}other{No tens cap \u00E0lbum. Penja fotos ara.}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{La c\u00E0rrega ha finalitzat. Hi ha {START_BOLD}1{END_BOLD} foto per compartir.}other{La c\u00E0rrega ha finalitzat. Hi ha {START_BOLD}{COUNT_2}{END_BOLD} fotos per compartir.}}"
+   },
+   "1131710491735646017": {
+      "message": "Mou la foto"
+   },
+   "1141157641265116263": {
+      "message": "Emmagatzema, organitza i comparteix totes les teves fotos i els teus v\u00EDdeos amb uns quants clics."
+   },
+   "1168286392495236500": {
+      "message": "S'ha compartit p\u00FAblicament"
+   },
+   "1168912363261265730": {
+      "message": "Reprodueix la presentaci\u00F3 de diapositives"
+   },
+   "1179156232993544339": {
+      "message": "Suprimeix l'\u00E0lbum"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Selecciona elements}female{Selecciona elements}other{Selecciona elements}}"
+   },
+   "1199073624563429103": {
+      "message": "Si suprimeixes aquestes fotos, tamb\u00E9 suprimir\u00E0s totes les publicacions, els comentaris i els +1 que hi estiguin associats."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BTorna a connectar$1\u200B per visualitzar totes les fotos i els \u00E0lbums."
+   },
+   "1274379628511980491": {
+      "message": "S'estan escanejant les fotos"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 foto}other{{PHOTO_COUNT_2} fotos}}"
+   },
+   "1299278917495979942": {
+      "message": "Per data d'addici\u00F3 (de m\u00E9s recents a m\u00E9s antigues)"
+   },
+   "1299626955070536636": {
+      "message": "Gira a la dreta"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada.}male{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada.}other{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Tens 1 foto en espera de c\u00E0rrega. Torna't a connectar per penjar-la i compartir-la.}other{Tens {COUNT_2} fotos en espera de c\u00E0rrega. Torna't a connectar per penjar-les i compartir-les.}}}female{{COUNT_1,plural, =0{unused plural form}=1{Tens 1 foto en espera de c\u00E0rrega. Torna't a connectar per penjar-la i compartir-la.}other{Tens {COUNT_2} fotos en espera de c\u00E0rrega. Torna't a connectar per penjar-les i compartir-les.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Tens 1 foto en espera de c\u00E0rrega. Torna't a connectar per penjar-la i compartir-la.}other{Tens {COUNT_2} fotos en espera de c\u00E0rrega. Torna't a connectar per penjar-les i compartir-les.}}}}"
+   },
+   "133632727011673707": {
+      "message": "Selecciona altres ubicacions d'importaci\u00F3"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Per treure el m\u00E0xim rendiment de l'aplicaci\u00F3 {APP_NAME}, configura-la perqu\u00E8 importi autom\u00E0ticament les teves fotos.}male{Per treure el m\u00E0xim rendiment de l'aplicaci\u00F3 {APP_NAME}, configura-la perqu\u00E8 importi autom\u00E0ticament les teves fotos.}other{Per treure el m\u00E0xim rendiment de l'aplicaci\u00F3 {APP_NAME}, configura-la perqu\u00E8 importi autom\u00E0ticament les teves fotos.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Importa autom\u00E0ticament les fotos de c\u00E0meres i de targetes de mem\u00F2ria connectades}male{Importa autom\u00E0ticament les fotos de c\u00E0meres i de targetes de mem\u00F2ria connectades}other{Importa autom\u00E0ticament les fotos de c\u00E0meres i de targetes de mem\u00F2ria connectades}}"
+   },
+   "1410409051323941239": {
+      "message": "S'est\u00E0 provant de tornar a connectar..."
+   },
+   "1425141239403329190": {
+      "message": "Ja pots desconnectar el dispositiu $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Desa"
+   },
+   "1482983300175848685": {
+      "message": "Registra't a Google+"
+   },
+   "1494518490116523821": {
+      "message": "Selecciona-ho tot"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Copia}male{Copia}other{Copia}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Mou}male{Mou}other{Mou}}"
+   },
+   "1535908424500369256": {
+      "message": "Es tancaran les finestres seg\u00FCents:\n"
+   },
+   "1542576779711006198": {
+      "message": "S'estan important fotos de $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Mou}female{Mou}other{Mou}}"
+   },
+   "1572187844116018239": {
+      "message": "Visualitza en pantalla completa"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Afegeix}male{Afegeix}other{Afegeix}}"
+   },
+   "163532554661203916": {
+      "message": "Obre $1\u200B per comen\u00E7ar a importar fotos de $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Fotos..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B Versi\u00F3 $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "S'est\u00E0 carregant..."
+   },
+   "1753152144556911377": {
+      "message": "Sobre $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "No"
+   },
+   "1760918964936396010": {
+      "message": "Suprimeix $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{No s'ha compartit}male{No s'ha compartit}other{No s'ha compartit}}"
+   },
+   "1829542073477142210": {
+      "message": "Visible per als participants de les converses"
+   },
+   "1863533324056146247": {
+      "message": "p. m."
+   },
+   "1898536270078020135": {
+      "message": "Men\u00FA de l'aplicaci\u00F3"
+   },
+   "1907928780625920048": {
+      "message": "Sempre en lloc segur"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto llesta per compartir}other{{COUNT_2} fotos llestes per compartir}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s menudes en mida est\u00E0ndard (2048 p\u00EDxels)i gratu\u00EFtes.}female{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s menudes en mida est\u00E0ndard (2048 p\u00EDxels)i gratu\u00EFtes.}other{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s menudes en mida est\u00E0ndard (2048 p\u00EDxels)i gratu\u00EFtes.}}"
+   },
+   "1938243880078123136": {
+      "message": "Et redirigirem a Google+ per mirar el v\u00EDdeo."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{S'ha etiquetat}male{S'ha etiquetat}other{S'ha etiquetat}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Decideix si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}female{Decideix si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}other{Decideix si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fotos de Pujada instant\u00E0nia"
+   },
+   "2000146230061979936": {
+      "message": "Fotos de perfil"
+   },
+   "2029980907058777630": {
+      "message": "Condicions del servei"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Tots els drets reservats."
+   },
+   "2079435202927044386": {
+      "message": "S'estan important les fotos"
+   },
+   "2097731301533028280": {
+      "message": "Totes les fotos"
+   },
+   "2102825898069375693": {
+      "message": "Men\u00FA"
+   },
+   "2127917516759723964": {
+      "message": "Vols suprimir els \u00E0lbums seleccionats?"
+   },
+   "2134605074025092052": {
+      "message": "Suprimeix $1\u200B fotos"
+   },
+   "2159130950882492111": {
+      "message": "Cancel\u00B7la"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}female{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}other{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{No \u00E9s la millor opci\u00F3}male{No \u00E9s la millor opci\u00F3}other{No \u00E9s la millor opci\u00F3}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Hola! Benvingut a {XXX_1}.}female{Hola! Benvinguda a {XXX_2}.}other{Hola! Benvingut a {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Ajuda}female{Ajuda}other{Ajuda}}"
+   },
+   "2256196161103684642": {
+      "message": "Amb l\u00EDmits"
+   },
+   "2267143557027174044": {
+      "message": "Cancel\u00B7la"
+   },
+   "2299297337048329405": {
+      "message": "Copia"
+   },
+   "2354817630223808522": {
+      "message": "Mou"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Per treure el m\u00E0xim rendiment de {APP_NAME}, defineix-ne la configuraci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}female{Per treure el m\u00E0xim rendiment de {APP_NAME}, defineix-ne la configuraci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}other{Per treure el m\u00E0xim rendiment de {APP_NAME}, defineix-ne la configuraci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Mou {XXX_1} foto a:}other{Mou {XXX_2} fotos a:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotos del tel\u00E8fon"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Per comen\u00E7ar, importa les teves fotos}female{Per comen\u00E7ar, importa les teves fotos}other{Per comen\u00E7ar, importa les teves fotos}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{forma del plural no utilitzada}=1{1 foto}other{{PHOTO_COUNT_2} fotos}}"
+   },
+   "2453303348493525919": {
+      "message": "Selecciona elements"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} \u00E0lbum seleccionat}other{{COUNT_2} \u00E0lbums seleccionats}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{Ja s'ha penjat una foto en una sessi\u00F3 anterior. }other{Ja s'han penjat {NUM_PHOTOS_2} fotos en una sessi\u00F3 anterior. }}"
+   },
+   "2503049676444223994": {
+      "message": "Per data d'addici\u00F3 (de m\u00E9s antigues a m\u00E9s recents)"
+   },
+   "251008425196701054": {
+      "message": "Visible per a tothom del teu domini"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Permet que l'aplicaci\u00F3 {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}male{Permet que l'aplicaci\u00F3 {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}other{Permet que l'aplicaci\u00F3 {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}}"
+   },
+   "2537804086667442212": {
+      "message": "Si cancel\u00B7les aquest proc\u00E9s, no s'importar\u00E0 cap m\u00E9s foto. Les fotos que ja s'hagin importat se suprimiran."
+   },
+   "2543396005338987129": {
+      "message": "Cancel\u00B7la la importaci\u00F3"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Borrosa}male{Borrosa}other{Borrosa}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha afegit 1 foto de $1\u200B i ja est\u00E0 llesta per compartir.}other{S'han afegit # fotos de $1\u200B i ja estan llestes per compartir.}}"
+   },
+   "2603085641264767659": {
+      "message": "Convidats a l'esdeveniment"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Permet que {XXX} t'ajudi a seleccionar les millors fotos de les teves importacions}male{Permet que {XXX} t'ajudi a seleccionar les millors fotos de les teves importacions}other{Permet que {XXX} t'ajudi a seleccionar les millors fotos de les teves importacions}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B s"
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B col\u00B7loca en un sol lloc les fotos de les teves c\u00E0meres, dels tel\u00E8fons i de les carpetes."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{S'ha copiat una foto de {FOLDER_NAME}.}other{S'han copiat {NUM_PHOTOS_2} fotos de {FOLDER_NAME}.}}"
+   },
+   "2683351316398940532": {
+      "message": "Mida completa (queden $1\u200B de $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Hem tingut problemes en iniciar la teva sessi\u00F3 a {XXX}.}male{Hem tingut problemes en iniciar la teva sessi\u00F3 a {XXX}.}other{Hem tingut problemes en iniciar la teva sessi\u00F3 a {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Selecciona-ho tot}female{Selecciona-ho tot}other{Selecciona-ho tot}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B s"
+   },
+   "2710655047330556001": {
+      "message": "Persones en aquesta foto"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Benvingut a {XXX_1}}female{Benvinguda a {XXX_2}}other{Benvingut a {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Exposici\u00F3"
+   },
+   "2761269382982007883": {
+      "message": "T'ajudarem a organitzar les fotos i et farem suggeriments sobre quines s\u00F3n les millors per compartir."
+   },
+   "2761326392133498772": {
+      "message": "Comparteix la foto"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form Oh noooo!}=1{1 foto}other{{PHOTO_COUNT_2} fotos}}"
+   },
+   "2784586982005585140": {
+      "message": "M\u00E9s"
+   },
+   "2786233632874013852": {
+      "message": "M\u00E9s fotos"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Anul\u00B7la la selecci\u00F3}female{Anul\u00B7la la selecci\u00F3}other{Anul\u00B7la la selecci\u00F3}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatura"
+   },
+   "2820098809819439336": {
+      "message": "Suprimeix les fotos"
+   },
+   "2847005022751960352": {
+      "message": "Encara hi treballem..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fes clic aqu\u00ED per visualitzar i per compartir aquesta foto.}other{Fes clic aqu\u00ED per visualitzar i per compartir aquestes fotos.}}"
+   },
+   "287837027263664914": {
+      "message": "Edita les ubicacions d'importaci\u00F3"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto seleccionada}other{{COUNT_2} fotos seleccionades}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Fes clic per eliminar aquesta foto}female{Fes clic per eliminar aquesta foto}other{Fes clic per eliminar aquesta foto}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Inicia la sessi\u00F3}female{Inicia la sessi\u00F3}other{Inicia la sessi\u00F3}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Afegeix {XXX_1} foto a:}other{Afegeix {XXX_2} fotos a:}}"
+   },
+   "2973731817320915012": {
+      "message": "Per data de creaci\u00F3"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Reprodueix des del comen\u00E7ament}female{Reprodueix des del comen\u00E7ament}other{Reprodueix des del comen\u00E7ament}}"
+   },
+   "2987283829749314385": {
+      "message": "Hola, $2\u200B!  Et donem la benvinguda a $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{No s'ha seleccionat cap foto}=1{{COUNT_2} foto llesta per compartir}other{{COUNT_2} fotos llestes per compartir}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Qualitat baixa}male{Qualitat baixa}other{Qualitat baixa}}"
+   },
+   "3018671699054071030": {
+      "message": "Fotos d'entrades"
+   },
+   "3052031564829371686": {
+      "message": "Copyright \u00A9 2012 Google Inc. Tots els drets reservats."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s petites en mida est\u00E0ndard (2048 px), que s\u00F3n gratu\u00EFtes.}male{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s petites en mida est\u00E0ndard (2048 px), que s\u00F3n gratu\u00EFtes.}other{Tria si vols emmagatzemar c\u00F2pies de seguretat de les fotos que importis en mida completa o b\u00E9 si prefereixes c\u00F2pies m\u00E9s petites en mida est\u00E0ndard (2048 px), que s\u00F3n gratu\u00EFtes.}}"
+   },
+   "3062505056927186217": {
+      "message": "Fotos del mural"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} penjades de {TOTAL}}=1{{COUNT_2} penjada de {TOTAL}}other{{COUNT_2} penjades de {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Qualitat baixa"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada}male{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada}other{Necessites una connexi\u00F3 a Internet per configurar {XXX} per primera vegada}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}female{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}other{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}}"
+   },
+   "3169583722209452922": {
+      "message": "Organitza"
+   },
+   "3173944879942241188": {
+      "message": "Borrosa"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}female{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}other{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B \u00E9s la manera m\u00E9s senzilla d'organitzar i de compartir les teves fotos."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Vull que s'importin les fotos de les c\u00E0meres i de les targetes de mem\u00F2ria connectades i rebre'n una notificaci\u00F3}female{Vull que s'importin les fotos de les c\u00E0meres i de les targetes de mem\u00F2ria connectades i rebre'n una notificaci\u00F3}other{Vull que s'importin les fotos de les c\u00E0meres i de les targetes de mem\u00F2ria connectades i rebre'n una notificaci\u00F3}}"
+   },
+   "3231427490891919648": {
+      "message": "Cercles ampliats"
+   },
+   "3249513483374643425": {
+      "message": "Afegeix"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} \u00E9s la manera m\u00E9s senzilla d'organitzar i de compartir les teves fotos.}}"
+   },
+   "3266811991857373598": {
+      "message": "Primer has d'importar les teves fotos"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto}other{{COUNT_2} fotos}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Suprimeix l'\u00E0lbum}other{Suprimeix els \u00E0lbums}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Ordena}female{Ordena}other{Ordena}}"
+   },
+   "3298990500476723192": {
+      "message": "Suprimeix l'\u00E0lbum"
+   },
+   "3304972143698843178": {
+      "message": "Esdeveniment"
+   },
+   "3316542569449182462": {
+      "message": "S'estan cercant les millors fotos"
+   },
+   "3319379534575065569": {
+      "message": "Duplicat"
+   },
+   "3335855558019774894": {
+      "message": "Tanca"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B de $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "No s'ha etiquetat ning\u00FA en aquesta foto."
+   },
+   "335552911020230570": {
+      "message": "S'est\u00E0 cancel\u00B7lant..."
+   },
+   "3392114061661490939": {
+      "message": "Dimensions"
+   },
+   "339966167441018467": {
+      "message": "Fotos ordenades per popularitat."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B fotos"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Surt de la pantalla completa}female{Surt de la pantalla completa}other{Surt de la pantalla completa}}"
+   },
+   "3479702069824639097": {
+      "message": "Prem per comparar amb l'original."
+   },
+   "3529907190030543252": {
+      "message": "Necessites una connexi\u00F3 a Internet per configurar $1\u200B per primera vegada"
+   },
+   "3549990505176341828": {
+      "message": "Sobreexposada"
+   },
+   "3561019065020608408": {
+      "message": "A punt per compartir"
+   },
+   "360237722039211543": {
+      "message": "Les fotos de Drive nom\u00E9s es poden copiar i compartir"
+   },
+   "3624887810607887590": {
+      "message": "Gira a l'esquerra"
+   },
+   "3627956543961104309": {
+      "message": "Configuraci\u00F3 de $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Origen de les fotos"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Cancel\u00B7la la importaci\u00F3 (1 foto)}other{Cancel\u00B7la la importaci\u00F3 ({NUM_PHOTOS_2} fotos)}}"
+   },
+   "3687863378890487189": {
+      "message": "Moviment"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Suprimeix la foto seleccionada}other{Suprimeix les fotos seleccionades}}"
+   },
+   "3714818517297325649": {
+      "message": "Si cancel\u00B7les aquest proc\u00E9s, no s'importar\u00E0 cap m\u00E9s foto.\nLes fotos que ja s'hagin importat no se suprimiran."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Importaci\u00F3 de fotos"
+   },
+   "3807699453257291879": {
+      "message": "Comentaris"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fes clic aqu\u00ED per visualitzar aquesta foto.}other{Fes clic aqu\u00ED per visualitzar aquestes fotos.}}"
+   },
+   "3818348166201769715": {
+      "message": "Totes les teves fotos"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Queden {COUNT_2} de {TOTAL}}other{Queden {COUNT_2} de {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Visibilitat: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Gira a l'esquerra"
+   },
+   "3885024486041657280": {
+      "message": "Aquest collage s'ha creat a partir d'un conjunt de retrats."
+   },
+   "3888600924819157294": {
+      "message": "Totes les fotos de Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Suprimeix aquest \u00E0lbum}other{Suprimeix els \u00E0lbums}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Gira la foto seleccionada cap a l'esquerra}other{Gira les fotos seleccionades cap a l'esquerra}}"
+   },
+   "3973931101896534797": {
+      "message": "Data"
+   },
+   "4023731095051291021": {
+      "message": "Mostra a Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Notifica'm i importa les fotos de les c\u00E0meres i les mem\u00F2ries connectades}male{Notifica'm i importa les fotos de les c\u00E0meres i les mem\u00F2ries connectades}other{Notifica'm i importa les fotos de les c\u00E0meres i les mem\u00F2ries connectades}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Repr\u00E8n}female{Repr\u00E8n}other{Repr\u00E8n}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Sembla que has iniciat {XXX} des d'un dispositiu que no fa servir Chrome OS. Actualment, aquesta aplicaci\u00F3 nom\u00E9s est\u00E0 disponible amb Chrome OS, per\u00F2 pot ser que vegis la icona al navegador Chrome si utilitzes un dispositiu que no fa servir Chrome OS.}male{Sembla que has iniciat {XXX} des d'un dispositiu que no fa servir Chrome OS. Actualment, aquesta aplicaci\u00F3 nom\u00E9s est\u00E0 disponible amb Chrome OS, per\u00F2 pot ser que vegis la icona al navegador Chrome si utilitzes un dispositiu que no fa servir Chrome OS.}other{Sembla que has iniciat {XXX} des d'un dispositiu que no fa servir Chrome OS. Actualment, aquesta aplicaci\u00F3 nom\u00E9s est\u00E0 disponible amb Chrome OS, per\u00F2 pot ser que vegis la icona al navegador Chrome si utilitzes un dispositiu que no fa servir Chrome OS.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Mostra la foto importada}other{Mostra les fotos importades}}"
+   },
+   "4187596523158859173": {
+      "message": "Fes clic aqu\u00ED per visualitzar les fotos."
+   },
+   "4201300158283262687": {
+      "message": "Fes clic aqu\u00ED per visualitzar aquestes fotos."
+   },
+   "4248380204989256605": {
+      "message": "Afegeix a"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Nom\u00E9s tu}male{Nom\u00E9s tu}other{Nom\u00E9s tu}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Afegeix a l'\u00E0lbum}female{Afegeix a l'\u00E0lbum}other{Afegeix a l'\u00E0lbum}}"
+   },
+   "4293741535116795213": {
+      "message": "Aquesta foto s'ha creat utilitzant els millors somriures d'un conjunt de fotos similars."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}male{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}other{Fes clic per girar aquesta imatge en el sentit de les agulles del rellotge}}"
+   },
+   "4323470180912194028": {
+      "message": "Copia"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Selecciona les fonts des de les quals s'importen i es pengen les fotos a Google+ de manera privada.}female{Selecciona les fonts des de les quals s'importen i es pengen les fotos a Google+ de manera privada.}other{Selecciona les fonts des de les quals s'importen i es pengen les fotos a Google+ de manera privada.}}"
+   },
+   "4350850817528648727": {
+      "message": "Visible nom\u00E9s per a tu"
+   },
+   "4367940371467792621": {
+      "message": "Registra't per obtenir Google+"
+   },
+   "4384754616332866866": {
+      "message": "Visible per a les persones amb qui has compartit aquest \u00E0lbum"
+   },
+   "4397726581488253055": {
+      "message": "Surt"
+   },
+   "4451709539238919902": {
+      "message": "Hi ha fotos que tenen diverses c\u00F2pies que no se suprimiran."
+   },
+   "4458099219143901905": {
+      "message": "Obre amb fotos de Google+"
+   },
+   "4470533259338698234": {
+      "message": "Mou"
+   },
+   "4472091515638733183": {
+      "message": "S'ha aturat la importaci\u00F3"
+   },
+   "4485837491844366665": {
+      "message": "Fes clic aqu\u00ED per visualitzar i per compartir aquestes fotos."
+   },
+   "4489698681193228521": {
+      "message": "Benvingut a $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Importa fotos en connectar una c\u00E0mera o una targeta de mem\u00F2ria"
+   },
+   "4504920004530359010": {
+      "message": "Mida completa (fins a 5 GB d'emmagatzematge gratu\u00EFt)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Reprodueix}female{Reprodueix}other{Reprodueix}}"
+   },
+   "4535738935335444945": {
+      "message": "No s'ha compartit"
+   },
+   "4550974869121207169": {
+      "message": "suprimeix"
+   },
+   "4557902876984952242": {
+      "message": "Edita"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{En suprimir aquest \u00E0lbum se suprimiran tots els comentaris, els +1 i les etiquetes associats.}other{En suprimir aquests \u00E0lbums se suprimiran tots els comentaris, els +1 i les etiquetes associats.}}"
+   },
+   "4575337223720002806": {
+      "message": "Organitzaci\u00F3 autom\u00E0tica"
+   },
+   "4579986716424813115": {
+      "message": "Reprodueix des del comen\u00E7ament"
+   },
+   "460600293345244430": {
+      "message": "Selecciona les fotos que vulguis compartir o que vulguis afegir a un \u00E0lbum."
+   },
+   "4624285717763544623": {
+      "message": "Afegeix"
+   },
+   "4630251340863502127": {
+      "message": "S'estan penjant les fotos importades"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{No tens cap \u00E0lbum. Penja fotos ara.}male{No tens cap \u00E0lbum. Penja fotos ara.}other{No tens cap \u00E0lbum. Penja fotos ara.}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha importat 1 foto.}other{S'han importat # fotos.}}"
+   },
+   "466730294804943734": {
+      "message": "Encara no hi ha comentaris."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B no \u00E9s compatible en aquesta plataforma"
+   },
+   "4678028473996848955": {
+      "message": "Totes les teves fotos"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Cancel\u00B7la}female{Cancel\u00B7la}other{Cancel\u00B7la}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B de $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}female{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Si suprimeixes aquests \u00E0lbums, tamb\u00E9 suprimir\u00E0s totes les publicacions, els comentaris i els +1 que hi estiguin associats."
+   },
+   "471816275243265264": {
+      "message": "Ubicaci\u00F3"
+   },
+   "4726999481668064421": {
+      "message": "Aquesta foto HDR s'ha creat a partir d'un conjunt d'exposicions agrupades."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BHas iniciat la sessi\u00F3 com a $2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hola! Benvingut a $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fotos de Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BHas iniciat la sessi\u00F3 com a$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Ja pots desconnectar el dispositiu de manera segura."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}female{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}other{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Importa fotos en connectar una c\u00E0mera o una targeta de mem\u00F2ria}male{Importa fotos en connectar una c\u00E0mera o una targeta de mem\u00F2ria}other{Importa fotos en connectar una c\u00E0mera o una targeta de mem\u00F2ria}}"
+   },
+   "484542621830317934": {
+      "message": "No tens cap \u00E0lbum. Penja unes quantes fotos ara mateix!"
+   },
+   "489844404897890427": {
+      "message": "Pantalla completa"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 fotos}=1{1 foto}other{{NUM_2} fotos}}"
+   },
+   "4930506384627295710": {
+      "message": "Configuraci\u00F3"
+   },
+   "495485805564687684": {
+      "message": "Atura la importaci\u00F3"
+   },
+   "4957990634817185638": {
+      "message": "Continua amb la importaci\u00F3"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Comparteix l'\u00E0lbum}=1{Comparteix la foto seleccionada}other{Comparteix les fotos seleccionades}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Fes clic per afegir fotos}male{Fes clic per afegir fotos}other{Fes clic per afegir fotos}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} dia seleccionat}other{{COUNT_2} dies seleccionats}}"
+   },
+   "5028777105388019087": {
+      "message": "Detalls"
+   },
+   "5043933900720743682": {
+      "message": "\u00C0lbums"
+   },
+   "5045200874122539692": {
+      "message": "Surt"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Penja algunes fotos per comen\u00E7ar.}male{Penja algunes fotos per comen\u00E7ar.}other{Penja algunes fotos per comen\u00E7ar.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "El teu domini"
+   },
+   "5087678602655068553": {
+      "message": "C\u00E0mera"
+   },
+   "5094793857629325945": {
+      "message": "S'est\u00E0 preparant per compartir..."
+   },
+   "509736707516044180": {
+      "message": "S'est\u00E0 cancel\u00B7lant..."
+   },
+   "5114432207766092038": {
+      "message": "Totes les fotos de totes les publicacions."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{En suprimir aquesta foto se suprimiran tots els comentaris, els +1 i les etiquetes associats.}other{En suprimir aquestes fotos se suprimiran tots els comentaris, els +1 i les etiquetes associats.}}"
+   },
+   "5127852906617233988": {
+      "message": "Tanca"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Els teus cercles}male{Els teus cercles}other{Els teus cercles}}"
+   },
+   "5143227875710959810": {
+      "message": "Comparteix l\u2019\u00E0lbum"
+   },
+   "5146398958364876914": {
+      "message": "Ordena"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{De {FROM_NAME}}male{De {FROM_NAME}}other{De {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Estableix com a portada de l'\u00E0lbum}female{Estableix com a portada de l'\u00E0lbum}other{Estableix com a portada de l'\u00E0lbum}}"
+   },
+   "5179193375793315549": {
+      "message": "No pots afegir m\u00E9s de $1\u200B fotos alhora."
+   },
+   "5198477912095887288": {
+      "message": "original"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Mostra la foto}other{Mostra les fotos}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}male{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}other{Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos.}}"
+   },
+   "5233843271957333982": {
+      "message": "restableix"
+   },
+   "5252008443782667515": {
+      "message": "S\u00ED"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Hi ha 1 c\u00F2pia addicional que no se suprimir\u00E0.}other{Hi ha {NUM_ADDITIONAL_COPIES_2} c\u00F2pies que no se suprimiran.}}"
+   },
+   "5369958865776447504": {
+      "message": "Aquesta foto pertany a l'\u00E0lbum \"$1\u200B\"."
+   },
+   "5376084340764125422": {
+      "message": "Surt de la pantalla completa"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Barreja"
+   },
+   "5413761544816529267": {
+      "message": "Registra't per obtenir un compte de Google+ per utilitzar $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Torna-ho a provar"
+   },
+   "545081735380424772": {
+      "message": "Penja i comparteix fotos de Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Suprimeix les fotos"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}male{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Borrosa"
+   },
+   "5522640894890976342": {
+      "message": "Subexposada"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Sobreexposada}male{Sobreexposada}other{Sobreexposada}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{S'ha copiat una foto.}other{S'han copiat {NUM_PHOTOS_2} fotos.}}"
+   },
+   "5546339789714773759": {
+      "message": "Gira a la dreta"
+   },
+   "5563891514339188770": {
+      "message": "Estableix com a portada de l\u2019\u00E0lbum"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Fes clic per eliminar aquesta foto}male{Fes clic per eliminar aquesta foto}other{Fes clic per eliminar aquesta foto}}"
+   },
+   "5613209249634786065": {
+      "message": "Completa (fins a 5 GB d'emmagatzematge gratu\u00EFt)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Emmagatzema, organitza i comparteix totes les teves fotos i els teus v\u00EDdeos amb uns quants clics.}female{Emmagatzema, organitza i comparteix totes les teves fotos i els teus v\u00EDdeos amb uns quants clics.}other{Emmagatzema, organitza i comparteix totes les teves fotos i els teus v\u00EDdeos amb uns quants clics.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{Google ha seleccionat {START_BOLD}la millor{END_BOLD} foto.}other{Google ha seleccionat les millors {START_BOLD}{PICKED_COUNT_2}{END_BOLD} fotos.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Mostra la foto}other{Mostra les fotos}}}female{{COUNT,plural, =0{unused plural form}=1{Mostra la foto}other{Mostra les fotos}}}other{{COUNT,plural, =0{unused plural form}=1{Mostra la foto}other{Mostra les fotos}}}}"
+   },
+   "5746809345784803206": {
+      "message": "No s'ha etiquetat ning\u00FA en aquest \u00E0lbum."
+   },
+   "5747301769466451086": {
+      "message": "Completa (queden $1\u200B de $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "No pots compartir m\u00E9s de $1\u200B fotos alhora."
+   },
+   "5750485945694679561": {
+      "message": "Foto"
+   },
+   "5752465522295465624": {
+      "message": "Qu\u00E8 \u00E9s aix\u00F2?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha importat 1 foto.}other{S'han importat # fotos.}}"
+   },
+   "5782608665556323710": {
+      "message": "S'ha compartit amb els cercles ampliats"
+   },
+   "5792855097053831820": {
+      "message": "Selecciona les fonts des de les quals s'importen i es pengen les fotos en privat a Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Suprimeix aquesta foto}other{Suprimeix les fotos}}"
+   },
+   "5822534876981710132": {
+      "message": "Pujada instant\u00E0nia"
+   },
+   "5849125517299342831": {
+      "message": "S'estan important fotos..."
+   },
+   "5851872412594366640": {
+      "message": "Mou totes les fotos de l'\u00E0lbum"
+   },
+   "585220835732140655": {
+      "message": "S'ha compartit el dia $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Completa (fins a 5 GB d'emmagatzematge gratu\u00EFt)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Es penjar\u00E0 1 foto que ja s'havia importat.}other{Es penjaran {NUM_PHOTOS_2} fotos que ja s'havien importat.}}"
+   },
+   "591256046515963756": {
+      "message": "No perdis cap record. Accedeix a les teves fotos en qualsevol moment i des de qualsevol dispositiu."
+   },
+   "5937251202465808296": {
+      "message": "M\u00E9s"
+   },
+   "5963865584069399662": {
+      "message": "privat"
+   },
+   "5978216065275630477": {
+      "message": "S'ha produ\u00EFt un error en iniciar la teva sessi\u00F3 a Fotos de Google+."
+   },
+   "5981779462795520309": {
+      "message": "Destinataris de les publicacions originals"
+   },
+   "5984859669237993376": {
+      "message": "Fes clic per afegir fotos"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha afegit una foto i ja est\u00E0 llesta per compartir.}other{S'han afegit # fotos i ja estan llestes per compartir.}}"
+   },
+   "6003032126642624287": {
+      "message": "Mida completa (fins a 5 GB d'emmagatzematge gratu\u00EFt)"
+   },
+   "6021285543212025836": {
+      "message": "Si suprimeixes aquesta foto, tamb\u00E9 suprimir\u00E0s totes les publicacions, els comentaris i els +1 que hi estiguin associats."
+   },
+   "605360614133602045": {
+      "message": "a. m."
+   },
+   "6073020864818444056": {
+      "message": "Fet"
+   },
+   "612521550010808115": {
+      "message": "Visible per a tothom al web"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha afegit 1 foto i ja est\u00E0 llesta per compartir.}other{S'han afegit # fotos i ja estan llestes per compartir.}}"
+   },
+   "6143433948220856193": {
+      "message": "Sobreexposada"
+   },
+   "6250697253024491514": {
+      "message": "D'acord"
+   },
+   "6261406176927621365": {
+      "message": "Suprimeix la foto"
+   },
+   "6261883509320806048": {
+      "message": "Vols suprimir les fotografies seleccionades?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B recopila totes les fotos de la teva unitat i les que fas amb el tel\u00E8fon o amb la c\u00E0mera en un sol lloc."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Permet que {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}female{Permet que {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}other{Permet que {APP_NAME} t'ajudi a seleccionar les millors fotos de les teves importacions}}"
+   },
+   "6366245138858985671": {
+      "message": "\u00C0lbum de les fotos del mural."
+   },
+   "636798263636559500": {
+      "message": "Escriu el nom de l'\u00E0lbum"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Fes clic per girar aquesta foto en el sentit contrari al de les agulles del rellotge}male{Fes clic per girar aquesta foto en el sentit contrari al de les agulles del rellotge}other{Fes clic per girar aquesta foto en el sentit contrari al de les agulles del rellotge}}"
+   },
+   "6402624319890396199": {
+      "message": "Cancel\u00B7la"
+   },
+   "6405254665227516714": {
+      "message": "Totes les fotos del perfil."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{No pots seleccionar fotos d'altres persones}male{No pots seleccionar fotos d'altres persones}other{No pots seleccionar fotos d'altres persones}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{En aquest moment no est\u00E0s connectat a Internet.}female{En aquest moment no est\u00E0s connectada a Internet.}other{En aquest moment no est\u00E0s connectat a Internet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Aquestes fotos s'han penjat de manera privada a Google+ i nom\u00E9s les pots veure tu."
+   },
+   "6546455868033656709": {
+      "message": "Per data de realitzaci\u00F3 (de m\u00E9s recents a m\u00E9s antigues)"
+   },
+   "6562395422130457272": {
+      "message": "Il\u00B7luminaci\u00F3"
+   },
+   "6569718559670589774": {
+      "message": "S'ha compartit en privat"
+   },
+   "6578760328281087395": {
+      "message": "Suprimeix la foto"
+   },
+   "6594379652661172876": {
+      "message": "Aquesta fotografia d'estil fotor\u00E0pid s'ha creat a partir de diversos retrats."
+   },
+   "6604371182910178125": {
+      "message": "Si suprimeixes aquest \u00E0lbum, tamb\u00E9 suprimir\u00E0s totes les publicacions, els comentaris i els +1 que hi estiguin associats."
+   },
+   "6626842519109915669": {
+      "message": "Fotos de la c\u00F2pia de seguretat autom\u00E0tica"
+   },
+   "663126026358360455": {
+      "message": "Est\u00E0ndard (emmagatzematge gratu\u00EFt il\u00B7limitat)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{S'ha afegit una foto i ja est\u00E0 llesta per compartir.}other{S'han afegit {NUM_PHOTOS_2} fotos i ja estan llestes per compartir.}}"
+   },
+   "664682826251689034": {
+      "message": "Encara no hi ha cap +1."
+   },
+   "666585356635427967": {
+      "message": "Aquesta foto s'ha millorat autom\u00E0ticament."
+   },
+   "6698080327673689103": {
+      "message": "S'estan cercant les millors fotos..."
+   },
+   "6721868124884562992": {
+      "message": "Reuneix les fotos de tots els teus dispositius en un sol lloc."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Organitza}female{Organitza}other{Organitza}}"
+   },
+   "6747166642870870925": {
+      "message": "S'est\u00E0 aturant la importaci\u00F3..."
+   },
+   "6750134343457912784": {
+      "message": "Per treure el m\u00E0xim rendiment de $1\u200B, estableix-ne la configuraci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos."
+   },
+   "675159243189607951": {
+      "message": "Afegeix la foto a l'\u00E0lbum"
+   },
+   "6778067484492795152": {
+      "message": "Subexposada"
+   },
+   "6792549611288275870": {
+      "message": "Longitud focal"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B emmagatzema les teves fotos de manera segura i et permet veure-les en qualsevol moment des de qualsevol dispositiu."
+   },
+   "680511502310466916": {
+      "message": "Fotos populars"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{en {NUM_PHOTOS_2} foto}other{en {NUM_PHOTOS_2} fotos}}"
+   },
+   "6872320306636644917": {
+      "message": "Ja pots desconnectar el dispositiu."
+   },
+   "6872759799605876555": {
+      "message": "N\u00FAmero F"
+   },
+   "687281374586801843": {
+      "message": "Inicia $1\u200B i importa les fotos quan connecti una c\u00E0mera o una targeta de mem\u00F2ria"
+   },
+   "6882873153932419461": {
+      "message": "Ajust selectiu"
+   },
+   "6906406658770551379": {
+      "message": "Aquesta animaci\u00F3 s'ha creat a partir d'un conjunt de cinc fotos o m\u00E9s."
+   },
+   "6983200894459150878": {
+      "message": "Aquesta panor\u00E0mica s'ha creat a partir d'un conjunt de fotos superposades."
+   },
+   "7022070615528435141": {
+      "message": "Suprimeix"
+   },
+   "7049887240439736400": {
+      "message": "Imprimeix"
+   },
+   "706796434064753890": {
+      "message": "Reprodueix la presentaci\u00F3 de diapositives"
+   },
+   "7102649289752747375": {
+      "message": "Envia comentaris"
+   },
+   "7105497072958063616": {
+      "message": "Tint"
+   },
+   "7182974689040833178": {
+      "message": "Repr\u00E8n"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{El teu domini}male{El teu domini}other{El teu domini}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BHas iniciat la sessi\u00F3 com a $1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "S'estan important les fotos del dispositiu $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Continua la importaci\u00F3"
+   },
+   "7283005104295613831": {
+      "message": "Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites amb mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes."
+   },
+   "7288593042347321202": {
+      "message": "Vols suprimir la foto seleccionada?"
+   },
+   "7329217250595054697": {
+      "message": "Original"
+   },
+   "734934965373819800": {
+      "message": "Enrere"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Etiquetada a: {ALBUM_NAME}}male{Etiquetat a: {ALBUM_NAME}}other{S'ha etiquetat a: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Afegeix fotos"
+   },
+   "7419704019640008953": {
+      "message": "Comparteix"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{La millor opci\u00F3}male{La millor opci\u00F3}other{La millor opci\u00F3}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Benvinguda a {XXX}}male{Benvingut a {XXX}}other{Benvingut a {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Torna't a connectar per veure totes les fotos i tots els \u00E0lbums."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pausa}female{Pausa}other{Pausa}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Gira la foto seleccionada cap a la dreta}other{Gira les fotos seleccionades cap a la dreta}}"
+   },
+   "7488769419737494778": {
+      "message": "Hola, $1\u200B"
+   },
+   "7496736746864872636": {
+      "message": "A continuaci\u00F3, tria la mida de la c\u00E0rrega"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto copiada.}other{# fotos copiades.}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Comparteix}female{Comparteix}other{Comparteix}}"
+   },
+   "7538539390938534172": {
+      "message": "Balan\u00E7 de blancs"
+   },
+   "7546970424299309536": {
+      "message": "Organitzades autom\u00E0ticament i llestes per compartir"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{No s'ha seleccionat cap foto}=1{{COUNT_2} foto seleccionada}other{{COUNT_2} fotos seleccionades}}"
+   },
+   "7637409896935138087": {
+      "message": "Per data de realitzaci\u00F3 (de m\u00E9s antigues a m\u00E9s recents)"
+   },
+   "7649598852815041947": {
+      "message": "\u00C0lbum nou"
+   },
+   "765296891797858248": {
+      "message": "Hola!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{S'ha afegit una foto de {FOLDER_NAME} i ja est\u00E0 llesta per compartir.}other{S'han afegit {NUM_PHOTOS_2} fotos de {FOLDER_NAME} i ja estan llestes per compartir.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B visualitzacions"
+   },
+   "7718742267235559288": {
+      "message": "Surt de la pantalla completa"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha copiat 1 foto de $1\u200B.}other{S'han copiat # fotos de $1\u200B.}}"
+   },
+   "7736850283853703249": {
+      "message": "Emmagatzematge segur"
+   },
+   "7736894743522697089": {
+      "message": "Panor\u00E0mica"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Mou la foto seleccionada}other{Mou les fotos seleccionades}}"
+   },
+   "7756231341602930532": {
+      "message": "D'acord"
+   },
+   "778874571620222981": {
+      "message": "Comencem!"
+   },
+   "779808899645033177": {
+      "message": "\u00DAltima importaci\u00F3 ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Nom\u00E9s tu"
+   },
+   "7828808805120058354": {
+      "message": "Reverteix"
+   },
+   "7856636143847093955": {
+      "message": "Fusiona els dies"
+   },
+   "7871095434511949009": {
+      "message": "Obertura"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{A continuaci\u00F3, tria la mida de la c\u00E0rrega}female{A continuaci\u00F3, tria la mida de la c\u00E0rrega}other{A continuaci\u00F3, tria la mida de la c\u00E0rrega}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Selecciona les fonts des de les quals s'importen i es pengen les fotos en privat a Google+.}male{Selecciona les fonts des de les quals s'importen i es pengen les fotos en privat a Google+.}other{Selecciona les fonts des de les quals s'importen i es pengen les fotos en privat a Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}male{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}other{Fes clic per seleccionar aquesta foto o per anul\u00B7lar-ne la selecci\u00F3}}"
+   },
+   "7899751896282337632": {
+      "message": "Millorada"
+   },
+   "7911416166208830577": {
+      "message": "Ajuda"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fes clic aqu\u00ED per visualitzar i per compartir aquesta foto.}other{Fes clic aqu\u00ED per visualitzar i per compartir aquestes fotos.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Suprimeix}female{Suprimeix}other{Suprimeix}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Fes clic per girar aquesta foto en sentit contrari de les agulles del rellotge}female{Fes clic per girar aquesta foto en sentit contrari de les agulles del rellotge}other{Fes clic per girar aquesta foto en sentit contrari de les agulles del rellotge}}"
+   },
+   "8031489364030461560": {
+      "message": "Configuraci\u00F3 de $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Aquesta foto s'ha millorat autom\u00E0ticament.}male{Aquesta foto s'ha millorat autom\u00E0ticament.}other{Aquesta foto s'ha millorat autom\u00E0ticament.}}"
+   },
+   "8112449587476468078": {
+      "message": "Vols suprimir l'\u00E0lbum seleccionat?"
+   },
+   "8121983485737306983": {
+      "message": "duplica"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Fotos"
+   },
+   "8160611829089073754": {
+      "message": "Suprimeix els \u00E0lbums"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Afegeix la foto seleccionada a l'\u00E0lbum}other{Afegeix les fotos seleccionades a l'\u00E0lbum}}"
+   },
+   "8179903593042831802": {
+      "message": "Afegeix fotos"
+   },
+   "819996403327805209": {
+      "message": "M\u00E9s informaci\u00F3"
+   },
+   "8209467666747691270": {
+      "message": "La millor"
+   },
+   "8233995188166153420": {
+      "message": "Inicia la sessi\u00F3 a Chrome per comen\u00E7ar a penjar fotos."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Duplicat dolent}male{Duplicat dolent}other{Duplicat dolent}}"
+   },
+   "8257489178421131174": {
+      "message": "Introdueix el nom de l'\u00E0lbum"
+   },
+   "8262372758945437018": {
+      "message": "Comen\u00E7a"
+   },
+   "8272813937461935720": {
+      "message": "S'ha produ\u00EFt un error en iniciar la teva sessi\u00F3 a Fotos de Google+."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Fes clic per afegir fotos}female{Fes clic per afegir fotos}other{Fes clic per afegir fotos}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Comparteix la foto seleccionada}other{Comparteix les fotos seleccionades}}"
+   },
+   "8317910107005018559": {
+      "message": "Menys"
+   },
+   "8324963774100913509": {
+      "message": "Limitat"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Benvingut a {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Escriu el nom de l'\u00E0lbum}male{Escriu el nom de l'\u00E0lbum}other{Escriu el nom de l'\u00E0lbum}}"
+   },
+   "8405309693308875139": {
+      "message": "Fotos"
+   },
+   "840692109692540367": {
+      "message": "Inicia la sessi\u00F3"
+   },
+   "8418580476552799567": {
+      "message": "Mida de la c\u00E0rrega"
+   },
+   "8446162208830000966": {
+      "message": "Surt"
+   },
+   "8461609631969932886": {
+      "message": "Amaga"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Versi\u00F3 $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fes clic aqu\u00ED per visualitzar aquesta foto.}other{Fes clic aqu\u00ED per visualitzar aquestes fotos.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Tens fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}male{{COUNT_1,plural, =0{Tens fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}other{{COUNT_1,plural, =0{Tens fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}=1{Tens {START_BOLD}1{END_BOLD} foto pendent de penjar. Torna't a connectar per penjar-la i per compartir-la.}other{Tens {START_BOLD}{COUNT_2}{END_BOLD} fotos pendents de penjar. Torna't a connectar per penjar-les i per compartir-les.}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Permet que $1\u200B t'ajudi a seleccionar les millors fotos de les teves importacions"
+   },
+   "8554704680089748768": {
+      "message": "Fotos importades el dia $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Reprodueix"
+   },
+   "8566172133042307539": {
+      "message": "Afegeix a l'\u00E0lbum"
+   },
+   "8588705294225487286": {
+      "message": "Visible per als destinataris de les publicacions originals"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites de mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}male{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites de mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}other{Tria si vols c\u00F2pies de seguretat de les teves fotos amb mida completa o b\u00E9 si prefereixes les c\u00E0rregues m\u00E9s petites de mida est\u00E0ndard, que s\u00F3n gratu\u00EFtes.}}"
+   },
+   "8654290347345927684": {
+      "message": "Ja pots desconnectar el dispositiu $1\u200B de manera segura."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Hola! Benvingut a {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Selecciona el millor"
+   },
+   "8675112326850410714": {
+      "message": "Targeta de mem\u00F2ria o dispositiu d'emmagatzematge connectat"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Surt}female{Surt}other{Surt}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha importat 1 foto de $1\u200B.}other{S'han importat # fotos de $1\u200B.}}"
+   },
+   "8704271911477526098": {
+      "message": "Privat"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{En aquest moment no est\u00E0s connectada a Internet.}male{En aquest moment no est\u00E0s connectat a Internet.}other{En aquest moment no est\u00E0s connectat a Internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Desa la configuraci\u00F3"
+   },
+   "8765880467977864647": {
+      "message": "de: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Men\u00FA de l'usuari"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Pantalla completa}female{Pantalla completa}other{Pantalla completa}}"
+   },
+   "8777952755137547655": {
+      "message": "Aquesta foto panor\u00E0mica s'ha creat a partir d'un conjunt de fotos de vistes adjacents."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{La c\u00E0rrega ha finalitzat. Tens 1 foto preparada per compartir.}other{La c\u00E0rrega ha finalitzat. Tens {COUNT_2} fotos preparades per compatir.}}"
+   },
+   "8832933617217959986": {
+      "message": "Anul\u00B7la tota la selecci\u00F3"
+   },
+   "8874739581425612284": {
+      "message": "Selecciona les fotos que vulguis compartir o que vulguis afegir a un \u00E0lbum"
+   },
+   "8890553633144307762": {
+      "message": "Enrere"
+   },
+   "8928816882866356838": {
+      "message": "P\u00FAblic"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Suprimeix l'\u00E0lbum}=1{Suprimeix la foto seleccionada}other{Suprimeix les fotos seleccionades}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Imprimeix}female{Imprimeix}other{Imprimeix}}"
+   },
+   "8984549175557747262": {
+      "message": "Processament del v\u00EDdeo..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Subexposada}male{Subexposada}other{Subexposada}}"
+   },
+   "8998179362936748717": {
+      "message": "D'acord"
+   },
+   "9013643635142116580": {
+      "message": "S'ha compartit amb el domini"
+   },
+   "9042260521669277115": {
+      "message": "Pausa"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{No s'ha vist mai}=1{Vist 1 vegada}other{Vist {VIEW_COUNT_2} vegades en total}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B selecciona autom\u00E0ticament les millors fotos de les teves col\u00B7leccions i les prepara per compartir-les."
+   },
+   "9137360918780826967": {
+      "message": "Qualitat baixa"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{S'ha afegit una foto i ja est\u00E0 llesta per compartir.}other{S'han afegit # fotos i ja estan llestes per compartir.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} \u00E9s la manera m\u00E9s senzilla d'organitzar i de compartir les teves fotos.}female{{XXX_2} \u00E9s la manera m\u00E9s senzilla d'organitzar i de compartir les teves fotos.}other{{XXX_3} \u00E9s la manera m\u00E9s senzilla d'organitzar i de compartir les teves fotos.}}"
+   },
+   "9219694540199049147": {
+      "message": "Carpeta..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{Ja s'ha penjat una foto en una sessi\u00F3 anterior.}other{Ja s'han penjat {NUM_PHOTOS_2} fotos en una sessi\u00F3 anterior.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{S'ha importat i penjat correctament {START_BOLD}1{END_BOLD} foto.}other{S'han importat i penjat correctament {START_BOLD}{COUNT_2}{END_BOLD} fotos.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Per treure el m\u00E0xim profit de {XXX}, configura l'aplicaci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}male{Per treure el m\u00E0xim profit de {XXX}, configura l'aplicaci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}other{Per treure el m\u00E0xim profit de {XXX}, configura l'aplicaci\u00F3 perqu\u00E8 importi autom\u00E0ticament les teves fotos.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Mou totes les fotos de l'\u00E0lbum}=1{Mou la foto seleccionada}other{Mou les fotos seleccionades}}"
+   },
+   "982577805980296193": {
+      "message": "Fes clic aqu\u00ED per veure i per compartir aquestes fotos."
+   }
+}

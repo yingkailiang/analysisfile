@@ -1,0 +1,18 @@
+.title
+  %a{href: @model.get("html_url"), target: '_blank'}
+    = @model.get('full_name')
+%ul.meta
+  %li.issues
+    %a{ href: @model.issuesUrl(), title: "#{@model.get('open_issues')} open issues" , target: '_blank'}
+      %span.octicon.octicon-issue-opened
+      = @model.get('open_issues')
+  %li.prs
+    %a{ href: @model.pullRequestsUrl(), title: 'Pull Requests' , target: '_blank'}
+      %span.octicon.octicon-git-pull-request
+      %span.pull-requests-count ? 
+      PRs
+  %li.updated
+    %a{ href: @model.commitsUrl(), title: 'Last Updated' , target: '_blank'}
+      %span.octicon.octicon-history
+      %abbr.timeago{ title: @model.get("pushed_at") }
+        = @model.get("pushed_at")

@@ -1,0 +1,7 @@
+#harmony {
+    canvas {
+        margin-bottom:0.5em;
+        cursor:crosshair;
+        @include box-shadow(0 0 0 1px #000);
+    }
+}

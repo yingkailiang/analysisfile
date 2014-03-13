@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Magpasya kung nais mo ang buong laki ng mga backup ng iyong mga larawan o kung gusto mo nang mas maliit, standard-sized na libreng mga upload."
+   },
+   "106279463205193944": {
+      "message": "Mga tao sa album na ito"
+   },
+   "1078696495414015742": {
+      "message": "Magpatuloy"
+   },
+   "1079312373208696407": {
+      "message": "Mag-click dito kapag nakapag-sign up ka na"
+   },
+   "1106976338877989624": {
+      "message": "Tungkol sa $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}female{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}other{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Tapos nang mag-upload! {START_BOLD}1{END_BOLD} larawan ang handang ibahagi.}other{Tapos nang mag-upload! {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawan ang handang ibahagi.}}"
+   },
+   "1131710491735646017": {
+      "message": "Ilipat ang larawan"
+   },
+   "1141157641265116263": {
+      "message": "I-store, ayusin at ibahagi lahat ng iyong mga larawan at video sa ilang click lang."
+   },
+   "1168286392495236500": {
+      "message": "Ibinahagi sa publiko"
+   },
+   "1168912363261265730": {
+      "message": "I-play ang slideshow"
+   },
+   "1179156232993544339": {
+      "message": "Tanggalin ang album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Piliin ang mga item}female{Piliin ang mga item}other{Piliin ang mga item}}"
+   },
+   "1199073624563429103": {
+      "message": "Kung tatanggalin mo ang mga larawang ito, tatanggalin mo rin ang lahat ng post, komento, at +1 na nauugnay dito."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BMuling kumonekta$1\u200B para tingnan lahat ng mga larawan at album."
+   },
+   "1274379628511980491": {
+      "message": "Nag-i-scan ng mga larawan"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 larawan}one{{PHOTO_COUNT_2} (na) larawan}other{{PHOTO_COUNT_2} (na) larawan}}"
+   },
+   "1299278917495979942": {
+      "message": "Ayon sa petsa ng pagdagdag (mula bago papaluma)"
+   },
+   "1299626955070536636": {
+      "message": "Pihitin Pakanan"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}male{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}other{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang 1 larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {COUNT_2} (na) mga larawang naghihintay ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang 1 larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {COUNT_2} (na) mga larawang naghihintay ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang 1 larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {COUNT_2} (na) mga larawang naghihintay ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Pumili ng ibang mga lokasyon ng pag-import"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}male{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}other{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Awtomatikong mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}male{Awtomatikong mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}other{Awtomatikong mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}}"
+   },
+   "1410409051323941239": {
+      "message": "Sinusubukang muling kumonekta..."
+   },
+   "1425141239403329190": {
+      "message": "Ligtas nang i-unplug ang iyong device, $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "I-save"
+   },
+   "1482983300175848685": {
+      "message": "Mag-sign up para sa Google+"
+   },
+   "1494518490116523821": {
+      "message": "Piliin lahat"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopyahin}male{Kopyahin}other{Kopyahin}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Ilipat}male{Ilipat}other{Ilipat}}"
+   },
+   "1535908424500369256": {
+      "message": "Magsasara ang mga sumusunod na window:\n"
+   },
+   "1542576779711006198": {
+      "message": "Ini-import ang mga larawan mula sa $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Ilipat}female{Ilipat}other{Ilipat}}"
+   },
+   "1572187844116018239": {
+      "message": "Tingnan nang fullscreen"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Idagdag}male{Idagdag}other{Idagdag}}"
+   },
+   "163532554661203916": {
+      "message": "Buksan ang $1\u200B upang magsimulang mag-import ng mga larawan mula sa $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Mga Larawan..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B Bersyon $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Inilo-load..."
+   },
+   "1753152144556911377": {
+      "message": "Tungkol sa $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Hindi"
+   },
+   "1760918964936396010": {
+      "message": "Tanggalin ang $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Hindi nakabahagi}male{Hindi nakabahagi}other{Hindi nakabahagi}}"
+   },
+   "1829542073477142210": {
+      "message": "Nakikita ng mga kalahok ng mga pag-uusap"
+   },
+   "1863533324056146247": {
+      "message": "pm"
+   },
+   "1898536270078020135": {
+      "message": "Menu ng Application"
+   },
+   "1907928780625920048": {
+      "message": "Ligtas na nai-store"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} larawan ang handang ibahagi}other{{COUNT_2} mga larawan ang handang ibahagi}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}female{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}other{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}}"
+   },
+   "1938243880078123136": {
+      "message": "Papupuntahin ka namin sa Google+ upang panoorin ang video."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Naka-tag}male{Naka-tag}other{Naka-tag}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Magpasya kung nais mo ang buong laki ng mga backup ng iyong mga larawan o kung gusto mo nang mas maliit, standard-sized na libreng mga upload.}female{Magpasya kung nais mo ang buong laki ng mga backup ng iyong mga larawan o kung gusto mo nang mas maliit, standard-sized na libreng mga upload.}other{Magpasya kung nais mo ang buong laki ng mga backup ng iyong mga larawan o kung gusto mo nang mas maliit, standard-sized na libreng mga upload.}}"
+   },
+   "1995266543727924491": {
+      "message": "Mga larawan mula sa Instant na Upload"
+   },
+   "2000146230061979936": {
+      "message": "Mga larawan sa profile"
+   },
+   "2029980907058777630": {
+      "message": "Mga Tuntunin ng Serbisyo"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Nakalaan ang Lahat ng Karapatan."
+   },
+   "2079435202927044386": {
+      "message": "Ini-import ang mga larawan"
+   },
+   "2097731301533028280": {
+      "message": "Lahat ng Larawan"
+   },
+   "2102825898069375693": {
+      "message": "Menu"
+   },
+   "2127917516759723964": {
+      "message": "Tanggalin ang mga piniling album?"
+   },
+   "2134605074025092052": {
+      "message": "Tanggalin ang $1\u200B (na) larawan"
+   },
+   "2159130950882492111": {
+      "message": "Kanselahin"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Mag-click upang i-rotate ang larawang ito nang pa-clockwise}female{Mag-click upang i-rotate ang larawang ito nang pa-clockwise}other{Mag-click upang i-rotate ang larawang ito nang pa-clockwise}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Hindi pinakamahusay}male{Hindi pinakamahusay}other{Hindi pinakamahusay}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Hi! Maligayang pagdating sa {XXX_1}}female{Hi! Maligayang pagdating sa {XXX_2}}other{Hi! Maligayang pagdating sa {XXX_3}}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Tulong}female{Tulong}other{Tulong}}"
+   },
+   "2256196161103684642": {
+      "message": "Limitado"
+   },
+   "2267143557027174044": {
+      "message": "Kanselahin"
+   },
+   "2299297337048329405": {
+      "message": "Kopyahin"
+   },
+   "2354817630223808522": {
+      "message": "Ilipat"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}female{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}other{Upang masulit ang {APP_NAME}, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Ilipat ang {XXX_1} larawan sa:}other{Ilipat ang {XXX_2} (na) mga larawan sa:}}"
+   },
+   "2442822401576040991": {
+      "message": "Mga larawan mula sa telepono"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Upang magsimula, i-import ang mga larawan mo}female{Upang magsimula, i-import ang mga larawan mo}other{Upang magsimula, i-import ang mga larawan mo}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 larawan}other{ ({PHOTO_COUNT_2} (na) mga larawan}}"
+   },
+   "2453303348493525919": {
+      "message": "Pumili ng mga item"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album ang napili}other{{COUNT_2} mga album ang napili}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 larawan ay na-upload na sa nakaraang sesyon. }other{{NUM_PHOTOS_2} (na) larawan ay na-upload na sa nakaraang sesyon. }}"
+   },
+   "2503049676444223994": {
+      "message": "Ayon sa petsa ng pagdagdag (mula luma papabago)"
+   },
+   "251008425196701054": {
+      "message": "Nakikita ng sinuman sa iyong domain"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}male{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}other{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}}"
+   },
+   "2537804086667442212": {
+      "message": "Ihihinto ng pagkansela ang anumang higit pang mga larawan sa pag-import.\nAng mga larawan na na-import na ay aalisin."
+   },
+   "2543396005338987129": {
+      "message": "Ikansela ang pag-import"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Malabo}male{Malabo}other{Malabo}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan mula sa $1\u200B ang naidagdag at handa nang ibahagi!}other{# (na) mga larawan mula sa $1\u200B ang idinagdag at handa nang ibahagi!}}"
+   },
+   "2603085641264767659": {
+      "message": "Mga bisita sa kaganapan"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Hayaan ang {XXX} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}male{Hayaan ang {XXX} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}other{Hayaan ang {XXX} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B (na) min $2\u200B (na) seg"
+   },
+   "2653328820441876128": {
+      "message": "Pinagsasama ang $1\u200B ang mga larawan mula sa iyong mga camera, telepono at mga folder sa isang lugar."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 larawan ang nakopya mula sa {FOLDER_NAME}!}other{{NUM_PHOTOS_2} (na) larawan ay nakopya mula sa {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Buong laki ng ($1\u200BGB ng $2\u200BGB natitira)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Nagkaproblema kami sa pag-sign in sa iyo sa {XXX}.}male{Nagkaproblema kami sa pag-sign in sa iyo sa {XXX}.}other{Nagkaproblema kami sa pag-sign in sa iyo sa {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Piliin lahat}female{Piliin lahat}other{Piliin lahat}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B (na) seg"
+   },
+   "2710655047330556001": {
+      "message": "Mga taong nasa larawang ito"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Maligayang pagdating sa {XXX_1}}female{Maligayang pagdating sa {XXX_2}}other{Maligayang pagdating sa {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Exposure"
+   },
+   "2761269382982007883": {
+      "message": "Tutulungan ka naming manatiling organisado at imumungkahi ang pinakamahusay na mga larawang ibabahagi."
+   },
+   "2761326392133498772": {
+      "message": "Magbahagi ng larawan"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Naku!}=1{1 larawan}other{{PHOTO_COUNT_2} (na) larawan}}"
+   },
+   "2784586982005585140": {
+      "message": "Higit pa"
+   },
+   "2786233632874013852": {
+      "message": "Mas marami pang mga litrato"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Alisin ang pagkapili ng lahat}female{Alisin ang pagkapili ng lahat}other{Alisin ang pagkapili ng lahat}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatura"
+   },
+   "2820098809819439336": {
+      "message": "Tanggalin ang mga larawan"
+   },
+   "2847005022751960352": {
+      "message": "Gumagana pa rin..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Mag-click dito upang tingnan at ibahagi ang larawang ito.}other{Mag-click dito upang tingnan at ibahagi ang mga larawang ito.}}"
+   },
+   "287837027263664914": {
+      "message": "I-edit ang mga lokasyon ng pag-import"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} larawang napili}other{{COUNT_2} (na) mga larawang napili}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{I-click upang alisin ang larawang ito}female{I-click upang alisin ang larawang ito}other{I-click upang alisin ang larawang ito}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Mag-sign In}female{Mag-sign In}other{Mag-sign In}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Idagdag ang {XXX_1} na larawan sa:}other{Idagdag ang {XXX_2} (na) mga larawan sa:}}"
+   },
+   "2973731817320915012": {
+      "message": "Ayon sa petsa ng paglikha"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Patugtugin mula simula}female{Patugtugin mula simula}other{Patugtugin mula simula}}"
+   },
+   "2987283829749314385": {
+      "message": "Hi, $2\u200B! Malugod na pagdating sa $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Walang napiling mga larawan}=1{{COUNT_2} larawan ang handang ibahagi}other{{COUNT_2} (na) mga larawan ang handang ibahagi}}"
+   },
+   "2991916598129901933": {
+      "message": "1 larawan"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Mababang Kalidad}male{Mababang Kalidad}other{Mababang Kalidad}}"
+   },
+   "3018671699054071030": {
+      "message": "Mga larawan mula sa mga post"
+   },
+   "3052031564829371686": {
+      "message": "Copyright \u00A9 2012 Google Inc. Nakalaan ang lahat ng karapatan."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}male{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}other{Piliin kung nais mong mag-store ng mga buong laki ng backup ng mga larawang i-import mo, o kung gusto mo ng mas maliit, karaniwang laki na mga kopya (2048 px) na libre.}}"
+   },
+   "3062505056927186217": {
+      "message": "Mga larawan sa scrapbook"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} ang tapos na sa {TOTAL}}=1{{COUNT_2} ang tapos na sa {TOTAL}}other{{COUNT_2} ang tapos na sa {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Mababang kalidad"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}male{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}other{Kailangan mo ng koneksyon sa Internet upang i-set up ang {XXX} sa unang pagkakataon}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}female{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}other{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}}"
+   },
+   "3169583722209452922": {
+      "message": "Curate"
+   },
+   "3173944879942241188": {
+      "message": "Malabo"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}female{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}other{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}}"
+   },
+   "3183783025590133364": {
+      "message": "Ang $1\u200B ay ang mas madaling paraan upang ayusin at ibahagi ang iyong mga larawan."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}female{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}other{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}}"
+   },
+   "3231427490891919648": {
+      "message": "Mga pinalawak na lupon"
+   },
+   "3249513483374643425": {
+      "message": "Idagdag"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Ang {XXX} ay ang mas madaling paraan upang ayusin at ibahagi ang iyong mga larawan.}}"
+   },
+   "3266811991857373598": {
+      "message": "Upang magsimula, i-import ang mga larawan mo"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} larawan}other{{COUNT_2} (na) mga larawan}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Tanggalin ang album}one{Delete albums}other{Tanggalin ang mga album}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Pag-uri-uriin}female{Pag-uri-uriin}other{Pag-uri-uriin}}"
+   },
+   "3298990500476723192": {
+      "message": "Tanggalin ang album"
+   },
+   "3304972143698843178": {
+      "message": "Kaganapan"
+   },
+   "3316542569449182462": {
+      "message": "Paghahanap ng mga pinakamahusay na larawan"
+   },
+   "3319379534575065569": {
+      "message": "Doble"
+   },
+   "3335855558019774894": {
+      "message": "Isara"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B ng $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Walang naka-tag sa larawang ito."
+   },
+   "335552911020230570": {
+      "message": "Kinakansela..."
+   },
+   "3392114061661490939": {
+      "message": "Mga Dimensyon"
+   },
+   "339966167441018467": {
+      "message": "Mga larawang naka-ayos ayon sa kasikatan."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B (na) larawan"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Lumabas sa Fullscreen}female{Lumabas sa Fullscreen}other{Lumabas sa Fullscreen}}"
+   },
+   "3479702069824639097": {
+      "message": "Pindutin upang ihambing sa orihinal."
+   },
+   "3529907190030543252": {
+      "message": "Kailangan mo ng koneksyon sa Internet upang i-set up ang $1\u200B sa unang pagkakataon"
+   },
+   "3549990505176341828": {
+      "message": "Overexposed"
+   },
+   "3561019065020608408": {
+      "message": "Handa nang magbahagi"
+   },
+   "360237722039211543": {
+      "message": "Maaari lang makopya at maibahagi ang mga larawan sa Drive"
+   },
+   "3624887810607887590": {
+      "message": "I-rotate pakaliwa"
+   },
+   "3627956543961104309": {
+      "message": "Setup $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Mga pinagmulan ng mga larawan"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Kanselahin ang pag-import (1 larawan)}one{Kanselahin ang pag-import ({NUM_PHOTOS_2} (na) larawan)}other{Kanselahin ang pag-import ({NUM_PHOTOS_2} (na) larawan)}}"
+   },
+   "3687863378890487189": {
+      "message": "Paggalaw"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Tanggalin ang napiling larawan}other{Tanggalin ang mga napiling larawan}}"
+   },
+   "3714818517297325649": {
+      "message": "Ihihinto ng pagkansela ang anumang higit pang mga larawan sa pag-import.\nAng mga larawan na na-upload na ay hindi aalisin."
+   },
+   "3756864109602975489": {
+      "message": "Mga +1"
+   },
+   "3759575685100154990": {
+      "message": "Pag-import ng larawan"
+   },
+   "3807699453257291879": {
+      "message": "Mga Komento"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Mag-click dito upang tingnan ang larawang ito.}other{Mag-click dito upang tingnan ang mga larawang ito.}}"
+   },
+   "3818348166201769715": {
+      "message": "Lahat ng iyong mga larawan"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} ang natitira sa {TOTAL}}other{{COUNT_2} ang natitira sa {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Nakikita ng: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Pihitin Pakaliwa"
+   },
+   "3885024486041657280": {
+      "message": "Ang collage na ito ay nilikha mula sa isang burst ng mga portrait na larawan."
+   },
+   "3888600924819157294": {
+      "message": "Lahat ng larawan mula sa Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Tanggalin ang album na ito}one{Delete albums}other{Tanggalin ang mga album}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{I-rotate ang napiling larawan pakaliwa}other{I-rotate ang napiling mga larawan pakaliwa}}"
+   },
+   "3973931101896534797": {
+      "message": "Petsa"
+   },
+   "4023731095051291021": {
+      "message": "Tingnan sa Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}male{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}other{I-notify ako at mag-import ng mga larawan mula sa mga nakakabit na camera at mga memory card}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Ipagpatuloy}female{Ipagpatuloy}other{Ipagpatuloy}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Tila nilunsad mo ang {XXX} mula sa hindi-Chrome OS na device. Sa kasalukuyan, ang app na ito ay available lamang sa Chrome OS, bagama't maaari mong makita ang icon sa iyong browser ng Chrome kapag gumagamit ng isang hindi-Chrome OS na device.}male{Tila nilunsad mo ang {XXX} mula sa hindi-Chrome OS na device. Sa kasalukuyan, ang app na ito ay available lamang sa Chrome OS, bagama't maaari mong makita ang icon sa iyong browser ng Chrome kapag gumagamit ng isang hindi-Chrome OS na device.}other{Tila nilunsad mo ang {XXX} mula sa hindi-Chrome OS na device. Sa kasalukuyan, ang app na ito ay available lamang sa Chrome OS, bagama't maaari mong makita ang icon sa iyong browser ng Chrome kapag gumagamit ng isang hindi-Chrome OS na device.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Tingnan ang in-import na larawan}one{Tingnan ang in-import na mga larawan}other{Tingnan ang in-import na mga larawan}}"
+   },
+   "4187596523158859173": {
+      "message": "Mag-click dito upang tingnan ang mga larawang ito."
+   },
+   "4201300158283262687": {
+      "message": "Mag-click dito upang tingnan ang mga larawang ito."
+   },
+   "4248380204989256605": {
+      "message": "Idagdag sa"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Ikaw lamang}male{Ikaw lamang}other{Ikaw lamang}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Idagdag sa album}female{Idagdag sa album}other{Idagdag sa album}}"
+   },
+   "4293741535116795213": {
+      "message": "Ang larawang ito ay nilikha gamit ang mga pinakamahusay na ngiti sa isang set ng mga katulad na larawan."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{I-click upang i-rotate ang larawang ito nang pa-clockwise}male{I-click upang i-rotate ang larawang ito nang pa-clockwise}other{I-click upang i-rotate ang larawang ito nang pa-clockwise}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopyahin"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}female{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}other{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Ikaw lamang ang nakakakita"
+   },
+   "4367940371467792621": {
+      "message": "Mag-sign up para sa Google+"
+   },
+   "4384754616332866866": {
+      "message": "Nakikita ng mga binabahagian mo ng album na ito"
+   },
+   "4397726581488253055": {
+      "message": "Umalis"
+   },
+   "4451709539238919902": {
+      "message": "Ang ilang larawan ay  mayroong maraming kopya na hindi matatanggal."
+   },
+   "4458099219143901905": {
+      "message": "Buksan gamit ang Google+ Photos"
+   },
+   "4470533259338698234": {
+      "message": "Ilipat"
+   },
+   "4472091515638733183": {
+      "message": "Hininto ang pag-import"
+   },
+   "4485837491844366665": {
+      "message": "Mag-click dito upang tingnan at ibahagi ang mga larawang ito."
+   },
+   "4489698681193228521": {
+      "message": "Maligayang pagdating sa $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "I-import ang mga larawan kapag nagsaksak ako ng camera o memory card"
+   },
+   "4504920004530359010": {
+      "message": "Buong laki (hanggang 5GB libreng storage)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{I-play}female{I-play}other{I-play}}"
+   },
+   "4535738935335444945": {
+      "message": "Hindi nakabahagi"
+   },
+   "4550974869121207169": {
+      "message": "tanggalin"
+   },
+   "4557902876984952242": {
+      "message": "I-edit"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{ Ang pagtanggal sa album na ito ay mag-aalis sa lahat ng komento, +1 at tag na nauugnay sa album.}one{Deleting these albums will remove all comments, +1's, and tags associated with the albums.}other{Ang pagtanggal sa album na ito ay mag-aalis sa lahat ng komento, +1 at tag na nauugnay sa album.}}"
+   },
+   "4575337223720002806": {
+      "message": "Auto curation"
+   },
+   "4579986716424813115": {
+      "message": "Patugtugin mula simula"
+   },
+   "460600293345244430": {
+      "message": "Pumili ng mga larawang ibabahagi o idaragdag sa album."
+   },
+   "4624285717763544623": {
+      "message": "Idagdag"
+   },
+   "4630251340863502127": {
+      "message": "Ina-upload ang mga imported na larawan"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}male{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}other{Wala kang anumang mga album. Mag-upload ng mga larawan ngayon!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang na-import!}other{# (na) larawan ang na-import!}}"
+   },
+   "466730294804943734": {
+      "message": "Wala pang mga komento."
+   },
+   "467305038295675927": {
+      "message": "Ang $1\u200B ay hindi suportado sa platform na ito"
+   },
+   "4678028473996848955": {
+      "message": "Lahat ng iyong mga larawan"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Kanselahin}female{Kanselahin}other{Kanselahin}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B sa $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Kung tatanggalin mo ang mga album na ito, tatanggalin mo rin ang lahat ng post, komento, at +1 na nauugnay dito."
+   },
+   "471816275243265264": {
+      "message": "Lokasyon"
+   },
+   "4726999481668064421": {
+      "message": "Nilikha ang HDR na larawan na ito mula sa isang set ng mga naka-bracket na exposure."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BNaka-sign in ka bilang$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hi! Maligayang pagdating sa $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Mga larawan mula sa Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BNaka-sign in ka bilang si$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Ligtas nang i-unplug ang iyong device."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{I-click upang piliin o alisin sa pagkakapili ang larawang ito}female{I-click upang piliin o alisin sa pagkakapili ang larawang ito}other{I-click upang piliin o alisin sa pagkakapili ang larawang ito}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{I-import ang mga larawan kapag nagsaksak ako ng camera o memory card}male{I-import ang mga larawan kapag nagsaksak ako ng camera o memory card}other{I-import ang mga larawan kapag nagsaksak ako ng camera o memory card}}"
+   },
+   "484542621830317934": {
+      "message": "Wala kang anumang mga album.  Mag-upload ng mga larawan ngayon!"
+   },
+   "489844404897890427": {
+      "message": "Fullscreen"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 mga larawan}=1{1 larawan}other{{NUM_2} mga larawan}}"
+   },
+   "4930506384627295710": {
+      "message": "Mga Setting"
+   },
+   "495485805564687684": {
+      "message": "Ihinto ang pag-import"
+   },
+   "4957990634817185638": {
+      "message": "Ipagpatuloy ang pag-import"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Ibahagi ang album}=1{Ibahagi ang napiling larawan}other{Ibahagi ang mga napiling larawan}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Mag-click upang magdagdag ng mga larawan}male{Mag-click upang magdagdag ng mga larawan}other{Mag-click upang magdagdag ng mga larawan}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} araw ang napili}other{{COUNT_2} mga araw ang napili}}"
+   },
+   "5028777105388019087": {
+      "message": "Mga Detalye"
+   },
+   "5043933900720743682": {
+      "message": "Mga Album"
+   },
+   "5045200874122539692": {
+      "message": "Lumabas"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Mag-upload ng ilang larawan upang makapagsimula.}male{Mag-upload ng ilang larawan upang makapagsimula.}other{Mag-upload ng ilang larawan upang makapagsimula.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200Bmm"
+   },
+   "5082043360618330543": {
+      "message": "Iyong domain"
+   },
+   "5087678602655068553": {
+      "message": "Camera"
+   },
+   "5094793857629325945": {
+      "message": "Inihahandang ibahagi..."
+   },
+   "509736707516044180": {
+      "message": "Kinakansela..."
+   },
+   "5114432207766092038": {
+      "message": "Lahat ng larawan mula sa lahat ng post."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Ang pagtanggal sa album na ito ay mag-aalis sa lahat ng komento, +1 at tag na nauugnay sa album.}one{Deleting these photos will remove all comments, +1's, and tags associated with the photos.}other{Ang pagtanggal sa album na ito ay mag-aalis sa lahat ng komento, +1 at tag na nauugnay sa album.}}"
+   },
+   "5127852906617233988": {
+      "message": "Isara"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Iyong mga lupon}male{Iyong mga lupon}other{Iyong mga lupon}}"
+   },
+   "5143227875710959810": {
+      "message": "Ibahagi ang album"
+   },
+   "5146398958364876914": {
+      "message": "Pag-uri-uriin"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Galing kay {FROM_NAME}}male{Galing kay {FROM_NAME}}other{Galing kay {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Itakda bilang takip ng album}female{Itakda bilang takip ng album}other{Itakda bilang takip ng album}}"
+   },
+   "5179193375793315549": {
+      "message": "Hindi ka maaaring magdagdag ng mahigit sa $1\u200B (na) larawan bawat pagkakataon."
+   },
+   "5198477912095887288": {
+      "message": "kung paano nakunan"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Tingnan ang larawan}other{Tingnan ang mga larawan}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}male{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}other{Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan.}}"
+   },
+   "5233843271957333982": {
+      "message": "i-reset"
+   },
+   "5252008443782667515": {
+      "message": "Oo"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{May 1 karagdagang kopya na hindi matatanggal.}one{There are {NUM_ADDITIONAL_COPIES_2} copies that will not be deleted.}other{May {NUM_ADDITIONAL_COPIES_2} (na) kopya na hindi matatanggal.}}"
+   },
+   "5369958865776447504": {
+      "message": "Nasa album na \"$1\u200B\" ang larawang ito."
+   },
+   "5376084340764125422": {
+      "message": "Lumabas sa fullscreen"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Halo"
+   },
+   "5413761544816529267": {
+      "message": "Mangyaring mag-sign up para sa Google+ account upang gamitin ang $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Subukang muli"
+   },
+   "545081735380424772": {
+      "message": "Mag-upload at magbahagi ng mga larawan mula sa Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Tanggalin ang mga larawan"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) mga larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Malabo"
+   },
+   "5522640894890976342": {
+      "message": "Underexposed"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Overexposed}male{Overexposed}other{Overexposed}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 larawan ang nakopya!}other{{NUM_PHOTOS_2} (na) larawan ay nakopya!}}"
+   },
+   "5546339789714773759": {
+      "message": "I-rotate pakanan"
+   },
+   "5563891514339188770": {
+      "message": "Itakda bilang album cover"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{I-click upang alisin ang larawang ito}male{I-click upang alisin ang larawang ito}other{I-click upang alisin ang larawang ito}}"
+   },
+   "5613209249634786065": {
+      "message": "Ganap (hanggang 5GB ng libreng storage)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{I-store, ayusin at ibahagi lahat ng iyong mga larawan at video sa ilang click lang.}female{I-store, ayusin at ibahagi lahat ng iyong mga larawan at video sa ilang click lang.}other{I-store, ayusin at ibahagi lahat ng iyong mga larawan at video sa ilang click lang.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} pinakamahusay na larawang napili ng Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} pinakamahusay na mga larawang napili ng Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Tingnan ang larawan}other{Tingnan ang mga larawan}}}female{{COUNT,plural, =0{unused plural form}=1{Tingnan ang larawan}other{Tingnan ang mga larawan}}}other{{COUNT,plural, =0{unused plural form}=1{Tingnan ang larawan}other{Tingnan ang mga larawan}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Walang naka-tag sa album na ito."
+   },
+   "5747301769466451086": {
+      "message": "Punong ($1\u200BGB ng $2\u200BGB natitira)"
+   },
+   "5750062244377347370": {
+      "message": "Hindi ka maaaring magbahagi ng mahigit sa $1\u200B (na) larawan bawat pagkakataon."
+   },
+   "5750485945694679561": {
+      "message": "Larawan"
+   },
+   "5752465522295465624": {
+      "message": "Ano ito?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang na-import!}other{# (na) larawan ang na-import!}}"
+   },
+   "5782608665556323710": {
+      "message": "Ibinahagi sa iyong mga extended na grupo"
+   },
+   "5792855097053831820": {
+      "message": "Pumili ng mga pagmumulan kung saan ini-import ang mga larawan ay pribadong ina-upload sa Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Tanggalin ang larawang ito}one{Delete photos}other{Tanggalin ang mga larawan}}"
+   },
+   "5822534876981710132": {
+      "message": "Instant na upload"
+   },
+   "5849125517299342831": {
+      "message": "Ini-import ang mga larawan..."
+   },
+   "5851872412594366640": {
+      "message": "Ilipat ang lahat ng larawan sa album"
+   },
+   "585220835732140655": {
+      "message": "Ibinahagi sa $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Ganap (hanggang 5.0GB ng libreng storage)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Ang 1 larawan na na-import na ay ia-upload pa rin.}one{Ang {NUM_PHOTOS_2} (na) larawan na na-import na ay ia-upload pa rin.}other{Ang {NUM_PHOTOS_2} (na) larawan na na-import na ay ia-upload pa rin.}}"
+   },
+   "591256046515963756": {
+      "message": "Huwag kailanman makalimot. I-access ang iyong mga larawan anumang oras mula sa anumang device."
+   },
+   "5937251202465808296": {
+      "message": "Higit pa"
+   },
+   "5963865584069399662": {
+      "message": "pribado"
+   },
+   "5978216065275630477": {
+      "message": "Nagkaproblema kami sa pag-sign in sa iyo sa Google+ Photos."
+   },
+   "5981779462795520309": {
+      "message": "Mga recipient ng mga orihinal na post"
+   },
+   "5984859669237993376": {
+      "message": "Mag-click upang magdagdag ng larawan"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Isang larawan ang idinagdag at handang ibahagi!}other{# mga larawan ang idinagdag at handang ibahagi!}}"
+   },
+   "6003032126642624287": {
+      "message": "Buong laki (hanggang 5.0GB libreng storage)"
+   },
+   "6021285543212025836": {
+      "message": "Kung tatanggalin mo ang larawang ito, tatanggalin mo rin ang lahat ng post, komento, at +1 na nauugnay dito."
+   },
+   "605360614133602045": {
+      "message": "am"
+   },
+   "6073020864818444056": {
+      "message": "Tapos Na"
+   },
+   "612521550010808115": {
+      "message": "Nakikita ng sinuman sa web"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang idinagdag at handa nang ibahagi!}other{# (na) larawan ang idinagdag at handa nang ibahagi!}}"
+   },
+   "6143433948220856193": {
+      "message": "Overexposed"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Tanggalin ang larawan"
+   },
+   "6261883509320806048": {
+      "message": "Tanggalin ang mga piniling larawan?"
+   },
+   "6328709087873568224": {
+      "message": "Dinadala ng $1\u200B lahat ng mga larawan sa iyong drive at ang mga kinunan mo gamit ang telepono at camera mo sa isang lugar."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}female{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}other{Hayaan ang {APP_NAME} na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo}}"
+   },
+   "6366245138858985671": {
+      "message": "Album para sa mga larawan ng scrapbook."
+   },
+   "636798263636559500": {
+      "message": "Maglagay ng pangalan ng album"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{I-click upang i-rotate ang larawang ito nang pa-counterclockwise}male{I-click upang i-rotate ang larawang ito nang pa-counterclockwise}other{I-click upang i-rotate ang larawang ito nang pa-counterclockwise}}"
+   },
+   "6402624319890396199": {
+      "message": "Kanselahin"
+   },
+   "6405254665227516714": {
+      "message": "Lahat ng larawan ng profile."
+   },
+   "6421460271971606186": {
+      "message": "I-zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Hindi ka maaaring pumili ng mga larawan ng ibang mga tao}male{Hindi ka maaaring pumili ng mga larawan ng ibang mga tao}other{Hindi ka maaaring pumili ng mga larawan ng ibang mga tao}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Kasalukuyan kang hindi konektado sa internet.}female{Kasalukuyan kang hindi konektado sa internet.}other{Kasalukuyan kang hindi konektado sa internet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Pribadong in-upload ang mga larawang ito sa Google+ at ikaw lang ang makakakita."
+   },
+   "6546455868033656709": {
+      "message": "Ayon sa petsa ng pagkuha (mula bago papaluma)"
+   },
+   "6562395422130457272": {
+      "message": "Lighting"
+   },
+   "6569718559670589774": {
+      "message": "Ibinahagi nang pribado"
+   },
+   "6578760328281087395": {
+      "message": "Tanggalin ang larawan"
+   },
+   "6594379652661172876": {
+      "message": "Ang photobooth-style na larawang ito ay nilikha gamit ang maraming larawan."
+   },
+   "6604371182910178125": {
+      "message": "Kung tatanggalin mo ang album na ito, tatanggalin mo rin ang lahat ng post, komento, at +1 na nauugnay dito."
+   },
+   "6626842519109915669": {
+      "message": "Mga larawan mula sa Auto Backup"
+   },
+   "663126026358360455": {
+      "message": "Karaniwan (walang limitasyong libreng storage)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 larawan ang idinagdag at handa nang ibahagi!}other{{NUM_PHOTOS_2} (na) larawan ay idinagdag at handang ibahagi!}}"
+   },
+   "664682826251689034": {
+      "message": "Wala pang mga +1."
+   },
+   "666585356635427967": {
+      "message": "Awtomatikong pinaganda ang larawang ito."
+   },
+   "6698080327673689103": {
+      "message": "Hinahanap ang mga pinakamahusay na shot..."
+   },
+   "6721868124884562992": {
+      "message": "Pagsama-samahin ang mga larawan mula sa lahat ng iyong mga device sa iisang lugar."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Curate}female{Curate}other{Curate}}"
+   },
+   "6747166642870870925": {
+      "message": "Hinihinto ang pag-import..."
+   },
+   "6750134343457912784": {
+      "message": "Upang masulit ang $1\u200B, i-set up ito upang awtomatiko nitong ma-import ang mga larawan mo."
+   },
+   "675159243189607951": {
+      "message": "Idagdag ang larawan sa album"
+   },
+   "6778067484492795152": {
+      "message": "Underexposed"
+   },
+   "6792549611288275870": {
+      "message": "Focal Length"
+   },
+   "6803199913053097740": {
+      "message": "Ligtas na ini-store ng $1\u200B ang mga larawan mo at pinahihintulutan kang makita sila anumang oras mula sa anumang device."
+   },
+   "680511502310466916": {
+      "message": "Mga Sikat na Larawan"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{sa {NUM_PHOTOS_2} larawan}other{sa {NUM_PHOTOS_2} (na) larawan}}"
+   },
+   "6872320306636644917": {
+      "message": "Ligtas nang i-unplug ang iyong device."
+   },
+   "6872759799605876555": {
+      "message": "F Number"
+   },
+   "687281374586801843": {
+      "message": "Ilunsad ang $1\u200B at mag-import ng mga larawan kapag nagkabit ako ng camera o memory card"
+   },
+   "6882873153932419461": {
+      "message": "Piling pagsasaayos"
+   },
+   "6906406658770551379": {
+      "message": "Nilikha ang animation na ito mula sa isang burst ng lima o higit pang mga larawan."
+   },
+   "6983200894459150878": {
+      "message": "Ang panorama na ito ay nilikha gamit ang isang set ng mga larawanng magkakapatong."
+   },
+   "7022070615528435141": {
+      "message": "Tanggalin"
+   },
+   "7049887240439736400": {
+      "message": "I-print"
+   },
+   "706796434064753890": {
+      "message": "I-play ang Slideshow"
+   },
+   "7102649289752747375": {
+      "message": "Magpadala ng feedback"
+   },
+   "7105497072958063616": {
+      "message": "Tint"
+   },
+   "7182974689040833178": {
+      "message": "Ituloy"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Iyong domain}male{Iyong domain}other{Iyong domain}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BNaka-sign in ka bilang$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Ini-import ang mga larawan mula sa $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Ipagpatuloy ang pag-import"
+   },
+   "7283005104295613831": {
+      "message": "Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload."
+   },
+   "7288593042347321202": {
+      "message": "Tanggalin ang piniling larawan?"
+   },
+   "7329217250595054697": {
+      "message": "Orihinal"
+   },
+   "734934965373819800": {
+      "message": "Bumalik"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Naka-tag sa: {ALBUM_NAME}}male{Naka-tag sa: {ALBUM_NAME}}other{Naka-tag sa: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Magdagdag ng mga larawan"
+   },
+   "7419704019640008953": {
+      "message": "Ibahagi"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Pinakamahusay}male{Pinakamahusay}other{Pinakamahusay}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Maligayang pagdating sa {XXX}}male{Maligayang pagdating sa {XXX}}other{Maligayang pagdating sa {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Muling kumonekta para tingnan lahat ng mga larawan at album."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{I-pause}female{I-pause}other{I-pause}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{I-rotate ang napiling larawan pakanan}other{I-rotate ang mga napiling larawan pakanan}}"
+   },
+   "7488769419737494778": {
+      "message": "Kamusta $1\u200B,"
+   },
+   "7496736746864872636": {
+      "message": "Susunod, piliin ang laki ng iyong upload"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang nakopya!}other{# (na) larawan ang nakopya!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Ibahagi}female{Ibahagi}other{Ibahagi}}"
+   },
+   "7538539390938534172": {
+      "message": "White balance"
+   },
+   "7546970424299309536": {
+      "message": "Awtomatikong nakaayos at handang ibahagi"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Walang napiling mga larawan}=1{{COUNT_2} larawang napili}other{{COUNT_2} (na) mga larawang napili}}"
+   },
+   "7637409896935138087": {
+      "message": "Ayon sa petsa ng pagkuha (mula luma papabago)"
+   },
+   "7649598852815041947": {
+      "message": "Bagong album"
+   },
+   "765296891797858248": {
+      "message": "Kamusta!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 larawan mula sa {FOLDER_NAME} ay idinagdag at handang ibahagi!}other{{NUM_PHOTOS_2} (na) larawan mula sa {FOLDER_NAME} ay idinagdag at handang ibahagi!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B (na) mga pagtingin"
+   },
+   "7718742267235559288": {
+      "message": "Lumabas sa Fullscreen"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang nakopya mula sa $1\u200B!}other{# (na) larawan ang nakopya mula sa $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "Ligtas na naka-store"
+   },
+   "7736894743522697089": {
+      "message": "Pano"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Ilipat ang napiling larawan}other{Ilipat ang mga napiling larawan}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Magsimula!"
+   },
+   "779808899645033177": {
+      "message": "Huling Pag-import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Ikaw lamang"
+   },
+   "7828808805120058354": {
+      "message": "I-revert"
+   },
+   "7856636143847093955": {
+      "message": "Pagsamahin ang mga araw"
+   },
+   "7871095434511949009": {
+      "message": "Aperture"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Susunod, piliin ang laki ng iyong upload}female{Susunod, piliin ang laki ng iyong upload}other{Susunod, piliin ang laki ng iyong upload}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}male{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}other{Pumili ng mga pagmumulan kung saan ini-import ang mga larawan at pribadong ina-upload sa Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{I-click upang piliin o alisin sa pagkakapili ang larawang ito}male{I-click upang piliin o alisin sa pagkakapili ang larawang ito}other{I-click upang piliin o alisin sa pagkakapili ang larawang ito}}"
+   },
+   "7899751896282337632": {
+      "message": "Pinahusay"
+   },
+   "7911416166208830577": {
+      "message": "Tulong"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Mag-click dito upang tingnan at ibahagi ang larawang ito.}other{Mag-click dito upang tingnan at ibahagi ang mga larawang ito.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Tanggalin}female{Tanggalin}other{Tanggalin}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Mag-click upang i-rotate ang larawang ito nang pa-counterclockwise}female{Mag-click upang i-rotate ang larawang ito nang pa-counterclockwise}other{Mag-click upang i-rotate ang larawang ito nang pa-counterclockwise}}"
+   },
+   "8031489364030461560": {
+      "message": "I-set Up ang $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Awtomatikong pinaganda ang larawang ito.}male{Awtomatikong pinaganda ang larawang ito.}other{Awtomatikong pinaganda ang larawang ito.}}"
+   },
+   "8112449587476468078": {
+      "message": "Tanggalin ang piniling album?"
+   },
+   "8121983485737306983": {
+      "message": "doble"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Photos"
+   },
+   "8160611829089073754": {
+      "message": "Tanggalin ang mga album"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Idagdag sa album ang napiling larawan}other{Idagdag sa album ang mga napiling larawan}}"
+   },
+   "8179903593042831802": {
+      "message": "Magdagdag ng Mga Larawan"
+   },
+   "819996403327805209": {
+      "message": "Matuto nang higit pa"
+   },
+   "8209467666747691270": {
+      "message": "Pinakamahusay"
+   },
+   "8233995188166153420": {
+      "message": "Mangyaring mag-sign in sa Chrome upang magsimulang mag-upload ng mga larawan."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Pinakamalalang duplicate}male{Pinakamalalang duplicate}other{Pinakamalalang duplicate}}"
+   },
+   "8257489178421131174": {
+      "message": "Maglagay ng pangalan ng album"
+   },
+   "8262372758945437018": {
+      "message": "Magsimula"
+   },
+   "8272813937461935720": {
+      "message": "Nagkaproblema kami sa pag-sign in sa iyo sa Google+ Photos."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Mag-click upang magdagdag ng mga larawan}female{Mag-click upang magdagdag ng mga larawan}other{Mag-click upang magdagdag ng mga larawan}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Ibahagi ang napiling litrato}other{Ibahagi ang mga napiling litrato}}"
+   },
+   "8317910107005018559": {
+      "message": "Mas kaunti"
+   },
+   "8324963774100913509": {
+      "message": "Limitado"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Maligayang pagdating sa {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Ipasok ang pangalan ng album}male{Ipasok ang pangalan ng album}other{Ipasok ang pangalan ng album}}"
+   },
+   "8405309693308875139": {
+      "message": "Mga Larawan"
+   },
+   "840692109692540367": {
+      "message": "Mag-sign In"
+   },
+   "8418580476552799567": {
+      "message": "Laki ng upload"
+   },
+   "8446162208830000966": {
+      "message": "Umalis"
+   },
+   "8461609631969932886": {
+      "message": "Itago"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Bersyon $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Mag-click dito upang tingnan ang larawang ito.}other{Mag-click dito upang tingnan ang mga larawang ito.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Naghihintay ma-upload ang ilang (mga) larawan. Kumonekta muli upang mag-upload at magbahagi!}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}male{{COUNT_1,plural, =0{Naghihintay ma-upload ang ilang (mga) larawan Kumonekta muli upang mag-upload at magbahagi!}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}other{{COUNT_1,plural, =0{Naghihintay ma-upload ang ilang (mga) larawan. Kumonekta muli upang mag-upload at magbahagi!}=1{Mayroon kang {START_BOLD}1{END_BOLD} larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}other{Mayroon kang {START_BOLD}{COUNT_2}{END_BOLD} (na) larawang naghihintay na ma-upload. Kumonekta muli upang mag-upload at magbahagi!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Hayaan ang $1\u200B na tulungan kang piliin ang mga pinakamahusay na kuha mula sa mga larawang in-import mo"
+   },
+   "8554704680089748768": {
+      "message": "Mga larawang na-import noong $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "I-play"
+   },
+   "8566172133042307539": {
+      "message": "Idagdag sa album"
+   },
+   "8588705294225487286": {
+      "message": "Nakikita ng mga recipient ng mga orihinal na post"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}male{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}other{Pumili ng buong laki ng mga backup ng iyong mga larawan o mas maliit na standard-sized na libreng mga upload.}}"
+   },
+   "8654290347345927684": {
+      "message": "Ligtas nang i-unplug ang iyong device, $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Kamusta! Maligayang pagdating sa {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Piliin ang pinakamahusay"
+   },
+   "8675112326850410714": {
+      "message": "Nakakabit ang memory card o storage device"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Umalis}female{Umalis}other{Umalis}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang na-import mula sa $1\u200B!}other{# (na) mga larawan ang na-import mula sa $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Pribado"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Kasalukuyan kang hindi konektado sa internet.}male{Kasalukuyan kang hindi konektado sa internet.}other{Kasalukuyan kang hindi konektado sa internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "I-save ang mga setting"
+   },
+   "8765880467977864647": {
+      "message": "ni $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Menu ng User"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Fullscreen}female{Fullscreen}other{Fullscreen}}"
+   },
+   "8777952755137547655": {
+      "message": "Ang panoramic na larawang ito ay nilikha mula sa isang set ng mga larawan na magkakaharap ang mga tanawin."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Tapos nang mag-upload! 1 larawan ang handang ibahagi.}other{Tapos nang mag-upload! {COUNT_2} (na) mga larawan ang handang ibahagi.}}"
+   },
+   "8832933617217959986": {
+      "message": "Alisin sa pagkakapili ang lahat"
+   },
+   "8874739581425612284": {
+      "message": "Pumili ng mga larawang ibabahagi o idaragdag sa album"
+   },
+   "8890553633144307762": {
+      "message": "Bumalik"
+   },
+   "8928816882866356838": {
+      "message": "Pampubliko"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Tanggalin ang album}=1{Tanggalin ang napiling larawan}other{Tanggalin ang mga napiling larawan}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{I-print}female{I-print}other{I-print}}"
+   },
+   "8984549175557747262": {
+      "message": "Pinoproseso ang video..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Underexposed}male{Underexposed}other{Underexposed}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Ibinahagi sa domain"
+   },
+   "9042260521669277115": {
+      "message": "I-pause"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 mga kabuuang pagtingin}=1{1 kabuuang pagtingin}other{{VIEW_COUNT_2} mga kabuuang pagtingin}}"
+   },
+   "9087479077774045963": {
+      "message": "Awtomatikong pinipili ni $1\u200B ang mga pinakamahusay na kuha mula sa mga koleksyon mo at hinahanda silang ibahagi."
+   },
+   "9137360918780826967": {
+      "message": "Mababang kalidad"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 larawan ang idinagdag at handa nang ibahagi!}other{# (na) larawan ang idinagdag at handa nang ibahagi!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{Ang {XXX_1} ay ang mas madaling paraan upang ayusin at ibahagi ang iyong mga larawan.}female{Ang {XXX_2} ay ang mas madaling paraan upang ayusin at ibahagi ang iyong mga larawan.}other{Ang {XXX_3} ay ang mas madaling paraan upang ayusin at ibahagi ang iyong mga larawan.}}"
+   },
+   "9219694540199049147": {
+      "message": "Folder..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 larawan ay na-upload na sa nakaraang sesyon.}other{{NUM_PHOTOS_2} (na) larawan ay na-upload na sa nakaraang sesyon.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Matagumpay na na-import at in-upload {START_BOLD}1{END_BOLD} na larawan.}other{Matagumpay na na-import at in-upload {START_BOLD}{COUNT_2}{END_BOLD} na mga larawan.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Upang masulit ang {XXX}, i-set up ito nang sa gayon awtomatiko nitong ma-import ang mga larawan mo.}male{Upang masulit ang {XXX}, i-set up ito nang sa gayon awtomatiko nitong ma-import ang mga larawan mo.}other{Upang masulit ang {XXX}, i-set up ito nang sa gayon awtomatiko nitong ma-import ang mga larawan mo.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Ilipat ang lahat ng mga larawan sa album}=1{Ilipat ang napiling larawan}other{Ilipat ang mga napiling larawan}}"
+   },
+   "982577805980296193": {
+      "message": "Mag-click dito upang tingnan at ibahagi ang mga larawang ito."
+   }
+}

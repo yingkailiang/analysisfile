@@ -1,0 +1,67 @@
+.shell-indicator {
+	.transition(~"all 300ms ease-out");
+	position: fixed;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	top: 0;
+	right: 0;
+	margin: 8px 8px 0 0;
+	border: solid 1px lighten(@color-a, 15%);
+	z-index: 300;
+}
+.shell-cwd {
+	.transition(~"all 300ms ease-out");
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	font-size: 12px;
+	padding: 6px 30px 6px 8px;
+	border-bottom: solid 1px @color-a;
+	overflow: hidden;
+	margin-top: -33px;
+	background: lighten(@color-a, 30%);
+	a {
+		text-decoration: none;
+		color: darken(@color-a, 100%);
+		&:hover {
+			background: darken(@color-a, 100%);
+			color: @color-c;
+		}
+	}
+}
+.shell-wrapper {
+	display: none;
+}
+.regular-shell {
+	font-size: 12px;
+	background: lighten(@color-a, 35%);
+	color: darken(@color-a, 100%);
+	padding: 6px;
+	margin: 0 0 4px 0;
+	border-radius: 5px;
+}
+.shell-error {
+	.regular-shell();
+	background: @color-error;
+	color: darken(@color-error, 100%);
+}
+
+.shell-on {
+	.shell-indicator {
+		background: darken(@color-success, 20%);
+	}
+	.shell-cwd {
+		margin-top: 0px;
+	}
+}
+.shell-off {
+	.shell-indicator {
+		background: lighten(@color-a, 25%);
+	}
+	.shell-cwd {
+		margin-top: -40px;
+	}
+}

@@ -1,0 +1,105 @@
+extends _base
+
+block main_area
+    select.challenge_type
+        option(value="text") Text Only Challenge
+        option(value="collage") Collage Challenge
+        option(value="drawing") Drawing Challenge
+        option(value="rectangles") Rectangle Drawing Challenge
+        option(value="webcam") Webcam Challenge
+
+    form(method="POST", action="", enctype="multipart/form-data", onsubmit="return window.new_challenge(this);").new_challenge.text
+        div.challenge
+            h1
+                span.icon.challenge_icon
+                | Create a Text Challenge
+            p.challenge_prompt
+                span(contentEditable="true").select_all Enter Prompt Here
+            p Optional image:
+            input(type="file", name="image", accept="image/*")
+            br
+            input(type="hidden", name="type", value="text")
+            input(type="text", name="prompt", style="display:none;").prompt
+            button Submit Challenge
+
+    form(method="POST", action="", enctype="multipart/form-data", onsubmit="return window.new_challenge(this);").new_challenge.collage
+        div.challenge
+            h1
+                span.icon.challenge_icon
+                | Create a Collage Challenge
+            p.challenge_prompt
+                span(contentEditable="true").select_all Enter Prompt Here
+            input(type="hidden", name="type", value="collage")
+            input(type="text", name="prompt", style="display:none;").prompt
+            div.collage
+                h1 Collage Images
+                input(type="file", name="image_1", accept="image/*")
+                input(type="file", name="image_2", accept="image/*")
+                input(type="file", name="image_3", accept="image/*")
+                input(type="file", name="image_4", accept="image/*")
+                input(type="file", name="image_5", accept="image/*")
+                input(type="file", name="image_6", accept="image/*")
+                input(type="file", name="image_7", accept="image/*")
+            button Submit Challenge
+
+    form(method="POST", action="", enctype="multipart/form-data", onsubmit="return window.new_challenge(this);").new_challenge.drawing
+        div.challenge
+            h1
+                span.icon.challenge_icon
+                | Create a Drawing Challenge
+            p.challenge_prompt
+                span(contentEditable="true").select_all Enter Prompt Here
+            input(type="hidden", name="type", value="drawing")
+            input(type="text", name="prompt", style="display:none;").prompt
+            button Submit Challenge
+
+    form(method="POST", action="", enctype="multipart/form-data", onsubmit="return window.new_challenge(this);").new_challenge.rectangles
+        div.challenge
+            h1
+                span.icon.challenge_icon
+                | Create a Rectangle Drawing Challenge
+            p.challenge_prompt
+                span(contentEditable="true").select_all Enter Prompt Here
+            input(type="hidden", name="type", value="rectangles")
+            input(type="text", name="prompt", style="display:none;").prompt
+            div.rectangle_colors
+                input(type="color", name="color_1")
+                input(type="color", name="color_2")
+                input(type="color", name="color_3")
+                input(type="color", name="color_4")
+                input(type="color", name="color_5")
+                input(type="color", name="color_6")
+                input(type="color", name="color_7")
+                input(type="color", name="color_8")
+                input(type="color", name="color_9")
+                input(type="color", name="color_10")
+                input(type="color", name="color_11")
+                input(type="color", name="color_12")
+            button Submit Challenge
+
+    form(method="POST", action="", enctype="multipart/form-data", onsubmit="return window.new_challenge(this);").new_challenge.webcam
+        div.challenge
+            h1
+                span.icon.challenge_icon
+                | Create a Webcam Challenge
+            p.challenge_prompt
+                span(contentEditable="true").select_all Enter Prompt Here
+            input(type="hidden", name="type", value="webcam")
+            input(type="text", name="prompt", style="display:none;").prompt
+            button Submit Challenge
+
+    hr
+
+    div.hopper
+        h1
+            span.icon.list_icon
+            | Challenge Hopper (Newest to Oldest)
+        ul
+            each challenge in challenge_hopper.slice(0).reverse()
+                li
+                    .remove ×
+                    .drag
+                    a(target="new", href="#{challenge.get_img_url('original')}")
+                        != challenge.get_img_node("square_thumbnail")
+                    span #{challenge.prompt}
+        button#js_force_post.js_post_button Force Force Post of the Last Challenge

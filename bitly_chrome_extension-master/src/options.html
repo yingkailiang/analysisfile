@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="cache-manifest">
+
+<!-- MIME TYPE Guidlines and references: http://hixie.ch/advocacy/xhtml -->
+    <head>
+        <title>Settings | bitly Extension</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="bit.ly" />
+        <link rel="stylesheet" href="css/basic.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="css/options.css" type="text/css" charset="utf-8" />
+    </head>
+    <body>
+        <div id="container">
+             
+             <div id="top">
+                    <div id="logo">
+                        <a href="options.html">
+                            <img src="s/graphics/bitly-logo-blue_165_100.png" alt="" border="0" width="165px" height="100px"  />
+                        </a>
+                    </div>
+                </div> <!-- end #top -->
+            
+            <div id="middle">
+                
+                <div class="ext_opts_page_header_box">
+                    
+                    <h1 id="bitly_options" class="ext_options_header">Extension Options</h1>                    
+                    <div id="signOutButtonContainer">
+                        <span id="signedin_username"></span><a class="signout" href="#">Sign Out</a>
+                    </div>
+                </div>
+                <div id="signedin_info_contents"></div>
+                            
+            </div> <!-- END #middle -->
+            
+            <div id="bottom">
+            
+            </div> <!-- end #bottom -->
+        
+        </div> <!-- end #container -->
+        
+            
+            <!-- <script type="text/javascript" src=""></script> -->
+        <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+        <script type="text/javascript" src="js/libs/fastFrag.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.hovercard.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.OptionMeta.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.ui_banner.js"></script>            
+        <script type="text/javascript" src="js/bExt/bExt.options_page.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            
+            
+            var opts_dom = bExt.options_page.init({
+                box : "#signedin_info_contents"
+            });
+            // setup the dom
+            if(!opts_dom) {
+                console.log("User not logged in.");
+                document.location=chrome.extension.getURL( "signin.html" );
+            } else {
+                
+                bExt.options_page.assemble();
+                bExt.options_page.check_realtime();
+                
+                $(document).bind('click', function(e) {
+
+                    if(e.target.className === "signout") {
+                        e.preventDefault();
+                        chrome.extension.sendRequest({
+                            "action" : "sign_out"
+                        }, function(){})
+                        document.location.reload();
+                    }
+
+                });
+                
+                // draw the top blue banner
+                bExt.ui_banner.init({
+                    box : "#top",
+                    deplay : 20
+                });
+                
+                setInterval(bExt.options_page.check_realtime, 30000);
+            }
+            
+        </script>
+        
+                
+    
+    </body>
+</html>

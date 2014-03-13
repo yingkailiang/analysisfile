@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Beslut dig for, om du \u00F8nsker sikkerhedskopier i fuld st\u00F8rrelse af dine billeder, eller om du \u00F8nsker mindre uploads i standardst\u00F8rrelse, som er gratis."
+   },
+   "106279463205193944": {
+      "message": "Personer i dette album"
+   },
+   "1078696495414015742": {
+      "message": "Forts\u00E6t"
+   },
+   "1079312373208696407": {
+      "message": "Klik her, n\u00E5r du har tilmeldt dig"
+   },
+   "1106976338877989624": {
+      "message": "Om $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Du har ingen album. Upload billeder nu!}female{Du har ingen album. Upload billeder nu!}other{Du har ingen album. Upload billeder nu!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Uploaden er f\u00E6rdig! {START_BOLD}1{END_BOLD} billede er klar til deling.}other{Uploaden er f\u00E6rdig! {START_BOLD}{COUNT_2}{END_BOLD} billeder er klar til deling.}}"
+   },
+   "1131710491735646017": {
+      "message": "Flyt billede"
+   },
+   "1141157641265116263": {
+      "message": "Gem, organiser og del alle dine billeder og videoer med et par klik."
+   },
+   "1168286392495236500": {
+      "message": "Delt offentligt"
+   },
+   "1168912363261265730": {
+      "message": "Afspil diasshow"
+   },
+   "1179156232993544339": {
+      "message": "Slet album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E6lg elementer}female{V\u00E6lg elementer}other{V\u00E6lg elementer}}"
+   },
+   "1199073624563429103": {
+      "message": "Hvis du sletter disse billeder, sletter du ogs\u00E5 alle tilknyttede indl\u00E6g, kommentarer og +1."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BOpret forbindelse igen$1\u200B for at se alle billeder og album."
+   },
+   "1274379628511980491": {
+      "message": "Scanner billeder"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 billede}other{{PHOTO_COUNT_2} billeder}}"
+   },
+   "1299278917495979942": {
+      "message": "Efter dato for tilf\u00F8jelse (nye til gamle)"
+   },
+   "1299626955070536636": {
+      "message": "Roter med uret"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}.}male{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}.}other{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Du har 1 billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {COUNT_2} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Du har 1 billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {COUNT_2} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Du har 1 billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {COUNT_2} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}}"
+   },
+   "133632727011673707": {
+      "message": "V\u00E6lg andre importplaceringer"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}male{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}other{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Import\u00E9r automatisk billeder fra tilsluttede kameraer og hukommelseskort}male{Import\u00E9r automatisk billeder fra tilsluttede kameraer og hukommelseskort}other{Import\u00E9r automatisk billeder fra tilsluttede kameraer og hukommelseskort}}"
+   },
+   "1410409051323941239": {
+      "message": "Fors\u00F8ger at oprette forbindelse igen..."
+   },
+   "1425141239403329190": {
+      "message": "Det er nu sikkert at fjerne enheden $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Gem"
+   },
+   "1482983300175848685": {
+      "message": "Tilmelding til Google+"
+   },
+   "1494518490116523821": {
+      "message": "V\u00E6lg alle"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopi\u00E9r}male{Kopi\u00E9r}other{Kopi\u00E9r}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Flyt}male{Flyt}other{Flyt}}"
+   },
+   "1535908424500369256": {
+      "message": "F\u00F8lgende vinduer lukkes:\n"
+   },
+   "1542576779711006198": {
+      "message": "Importerer billeder fra $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Flyt}female{Flyt}other{Flyt}}"
+   },
+   "1572187844116018239": {
+      "message": "Se i fuld sk\u00E6rm"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Tilf\u00F8j}male{Tilf\u00F8j}other{Tilf\u00F8j}}"
+   },
+   "163532554661203916": {
+      "message": "\u00C5bn $1\u200B for at starte med at importere billeder fra $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Billeder..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B version $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Indl\u00E6ser..."
+   },
+   "1753152144556911377": {
+      "message": "Om $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Nej"
+   },
+   "1760918964936396010": {
+      "message": "Slet $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Ikke delt}male{Ikke delt}other{Ikke delt}}"
+   },
+   "1829542073477142210": {
+      "message": "Kan ses af deltagere i samtalerne"
+   },
+   "1863533324056146247": {
+      "message": "om aftenen"
+   },
+   "1898536270078020135": {
+      "message": "Applikationsmenu"
+   },
+   "1907928780625920048": {
+      "message": "Sikkert gemt"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} billede klar til deling}other{{COUNT_2} billeder klar til deling}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 pixel), som er gratis.}female{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 pixel), som er gratis.}other{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 pixel), som er gratis.}}"
+   },
+   "1938243880078123136": {
+      "message": "Vi omdirigerer dig til Google+, s\u00E5 du kan se videoen."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Tagget}male{Tagget}other{Tagget}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Beslut dig for, om du \u00F8nsker sikkerhedskopier i fuld st\u00F8rrelse af dine billeder, eller om du \u00F8nsker mindre uploads i standardst\u00F8rrelse, som er gratis.}female{Beslut dig for, om du \u00F8nsker sikkerhedskopier i fuld st\u00F8rrelse af dine billeder, eller om du \u00F8nsker mindre uploads i standardst\u00F8rrelse, som er gratis.}other{Beslut dig for, om du \u00F8nsker sikkerhedskopier i fuld st\u00F8rrelse af dine billeder, eller om du \u00F8nsker mindre uploads i standardst\u00F8rrelse, som er gratis.}}"
+   },
+   "1995266543727924491": {
+      "message": "Billeder fra \u00D8jeblikkelig upload"
+   },
+   "2000146230061979936": {
+      "message": "Profilfotos"
+   },
+   "2029980907058777630": {
+      "message": "Servicevilk\u00E5r"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Alle rettigheder forbeholdes."
+   },
+   "2079435202927044386": {
+      "message": "Importerer billeder"
+   },
+   "2097731301533028280": {
+      "message": "Alle billeder"
+   },
+   "2102825898069375693": {
+      "message": "Menu"
+   },
+   "2127917516759723964": {
+      "message": "Slet valgte album?"
+   },
+   "2134605074025092052": {
+      "message": "Slet $1\u200B billeder"
+   },
+   "2159130950882492111": {
+      "message": "Annuller"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Klik for at rotere billedet med uret}female{Klik for at rotere billedet med uret}other{Klik for at rotere billedet med uret}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Ikke optimalt}male{Ikke optimalt}other{Ikke optimalt}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Hej! Velkommen til {XXX_1}.}female{Hej! Velkommen til {XXX_2}.}other{Hej! Velkommen til {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Hj\u00E6lp}female{Hj\u00E6lp}other{Hj\u00E6lp}}"
+   },
+   "2256196161103684642": {
+      "message": "Begr\u00E6nset"
+   },
+   "2267143557027174044": {
+      "message": "Annuller"
+   },
+   "2299297337048329405": {
+      "message": "Kopi\u00E9r"
+   },
+   "2354817630223808522": {
+      "message": "Flyt"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}female{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}other{Konfigurer {APP_NAME}, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Flyt {XXX_1} billede til:}other{Flyt {XXX_2} billeder til:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotos fra telefon"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Import\u00E9r dine billeder for at komme i gang}female{Import\u00E9r dine billeder for at komme i gang}other{Import\u00E9r dine billeder for at komme i gang}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 foto}other{{PHOTO_COUNT_2} fotos}}"
+   },
+   "2453303348493525919": {
+      "message": "Valgte elementer"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album valgt}other{{COUNT_2} album valgt}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 billede er allerede blevet uploadet tidligere. }other{{NUM_PHOTOS_2} billeder er allerede blevet uploadet tidligere. }}"
+   },
+   "2503049676444223994": {
+      "message": "Efter dato for tilf\u00F8jelse (gamle til nye)"
+   },
+   "251008425196701054": {
+      "message": "Kan ses af alle p\u00E5 dit dom\u00E6ne"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}male{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}other{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}}"
+   },
+   "2537804086667442212": {
+      "message": "Hvis du annullerer, bliver der ikke importeret flere billeder. De billeder, som allerede er importeret, bliver fjernet."
+   },
+   "2543396005338987129": {
+      "message": "Annuller import"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Sl\u00F8ret}male{Sl\u00F8ret}other{Sl\u00F8ret}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede fra $1\u200B blev tilf\u00F8jet og er klar til deling!}other{# billeder fra $1\u200B blev tilf\u00F8jet og er klar til deling!}}"
+   },
+   "2603085641264767659": {
+      "message": "Begivenhedsg\u00E6ster"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Lad {XXX} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}male{Lad {XXX} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}other{Lad {XXX} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min. $2\u200B sek."
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B samler billeder fra dine kameraer, telefoner og mapper p\u00E5 \u00E9t sted."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 billede blev kopieret fra {FOLDER_NAME}!}other{{NUM_PHOTOS_2} billeder blev kopieret fra {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Fuld st\u00F8rrelse ($1\u200B GB af $2\u200B GB tilbage)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Vi oplevede problemer med at logge dig ind p\u00E5 {XXX}.}male{Vi oplevede problemer med at logge dig ind p\u00E5 {XXX}.}other{Vi oplevede problemer med at logge dig ind p\u00E5 {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E6lg alle}female{V\u00E6lg alle}other{V\u00E6lg alle}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sek."
+   },
+   "2710655047330556001": {
+      "message": "Personer p\u00E5 dette billede"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Velkommen til {XXX_1}}female{Velkommen til {XXX_2}}other{Velkommen til {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Eksponering"
+   },
+   "2761269382982007883": {
+      "message": "Vi hj\u00E6lper dig med at holde orden i tingene og foresl\u00E5r de bedste billeder til deling."
+   },
+   "2761326392133498772": {
+      "message": "Del billede"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! \u00C5h nej!}=1{1 billede}other{{PHOTO_COUNT_2} billeder}}"
+   },
+   "2784586982005585140": {
+      "message": "Flere"
+   },
+   "2786233632874013852": {
+      "message": "Flere billeder"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Frav\u00E6lg alle}female{Frav\u00E6lg alle}other{Frav\u00E6lg alle}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatur"
+   },
+   "2820098809819439336": {
+      "message": "Slet billeder"
+   },
+   "2847005022751960352": {
+      "message": "Arbejder stadig..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik her for at se og dele dette billede.}other{Klik her for at se og dele disse billeder.}}"
+   },
+   "287837027263664914": {
+      "message": "Rediger importplaceringer"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} billede valgt}other{{COUNT_2} billeder valgt}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Klik for at fjerne dette billede}female{Klik for at fjerne dette billede}other{Klik for at fjerne dette billede}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Log ind}female{Log ind}other{Log ind}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{F\u00F8j {XXX_1} billede til:}other{F\u00F8j {XXX_2} billeder til:}}"
+   },
+   "2973731817320915012": {
+      "message": "Efter dato for oprettelse"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Afspil fra begyndelsen}female{Afspil fra begyndelsen}other{Afspil fra begyndelsen}}"
+   },
+   "2987283829749314385": {
+      "message": "Hej $2\u200B! Velkommen til $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Der er ikke valgt nogen billeder}=1{{COUNT_2} billede klar til deling}other{{COUNT_2} billeder klar til deling}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Lav kvalitet}male{Lav kvalitet}other{Lav kvalitet}}"
+   },
+   "3018671699054071030": {
+      "message": "Billeder fra indl\u00E6g"
+   },
+   "3052031564829371686": {
+      "message": "Copyright &copy; 2012 Google Inc. Alle rettigheder forbeholdes."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 px), som er gratis.}male{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 px), som er gratis.}other{V\u00E6lg, om du \u00F8nsker at gemme sikkerhedskopier i fuld st\u00F8rrelse af de billeder, du importerer, eller om du \u00F8nsker mindre sikkerhedskopier i standardst\u00F8rrelse (2048 px), som er gratis.}}"
+   },
+   "3062505056927186217": {
+      "message": "Scrapbogsfotos"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} af {TOTAL} uploadet}=1{{COUNT_2} af {TOTAL} uploadet}other{{COUNT_2} af {TOTAL} uploadet}}"
+   },
+   "313399915776279357": {
+      "message": "D\u00E5rlig kvalitet"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}}male{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}}other{Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af {XXX}}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}female{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}other{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}}"
+   },
+   "3169583722209452922": {
+      "message": "Organiser"
+   },
+   "3173944879942241188": {
+      "message": "Sl\u00F8ret"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}female{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}other{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B er den nemmeste m\u00E5de at organisere og dele dine billeder p\u00E5."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Underret mig, og import\u00E9r billeder fra tilsluttede kameraer og hukommelseskort.}female{Underret mig, og import\u00E9r billeder fra til sluttede kameraer og hukommelseskort.}other{Underret mig, og import\u00E9r billeder fra tilsluttede kameraer og hukommelseskort.}}"
+   },
+   "3231427490891919648": {
+      "message": "Udvidede cirkler"
+   },
+   "3249513483374643425": {
+      "message": "Tilf\u00F8j"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} er den nemmeste m\u00E5de at organisere og dele dine billeder p\u00E5.}}"
+   },
+   "3266811991857373598": {
+      "message": "Import\u00E9r dine billeder for at komme i gang"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} billede}other{{COUNT_2} billeder}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Slet album}other{Slet album}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sort\u00E9r}female{Sort\u00E9r}other{Sort\u00E9r}}"
+   },
+   "3298990500476723192": {
+      "message": "Slet album"
+   },
+   "3304972143698843178": {
+      "message": "Begivenhed"
+   },
+   "3316542569449182462": {
+      "message": "Finder de bedste billeder"
+   },
+   "3319379534575065569": {
+      "message": "Dobbelt forekomst"
+   },
+   "3335855558019774894": {
+      "message": "Luk"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B af $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Ingen er tagget p\u00E5 dette billede."
+   },
+   "335552911020230570": {
+      "message": "Annullerer..."
+   },
+   "3392114061661490939": {
+      "message": "Dimensioner"
+   },
+   "339966167441018467": {
+      "message": "Billeder sorteret efter popularitet."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B fotos"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Afslut fuld sk\u00E6rm}female{Afslut fuld sk\u00E6rm}other{Afslut fuld sk\u00E6rm}}"
+   },
+   "3479702069824639097": {
+      "message": "Tryk for at sammenligne med originalen."
+   },
+   "3529907190030543252": {
+      "message": "Du skal have internetforbindelse for at udf\u00F8re den f\u00F8rste konfiguration af $1\u200B"
+   },
+   "3549990505176341828": {
+      "message": "Overeksponeret"
+   },
+   "3561019065020608408": {
+      "message": "Klar til deling"
+   },
+   "360237722039211543": {
+      "message": "Du kan kun kopiere og dele billeder fra Drev"
+   },
+   "3624887810607887590": {
+      "message": "Roter til venstre"
+   },
+   "3627956543961104309": {
+      "message": "Konfigurer $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Billedkilder"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Annuller import (1 billede)}other{Annuller import ({NUM_PHOTOS_2} billeder)}}"
+   },
+   "3687863378890487189": {
+      "message": "Bev\u00E6gelse"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Slet det valgte billede}other{Slet de valgte billeder}}"
+   },
+   "3714818517297325649": {
+      "message": "En annullering stopper yderligere billeder i at blive importeret.\nDe billeder, som allerede er uploadet, bliver ikke fjernet."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Billedimport"
+   },
+   "3807699453257291879": {
+      "message": "Kommentarer"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik her for at se dette billede.}other{Klik her for at se disse billeder.}}"
+   },
+   "3818348166201769715": {
+      "message": "Alle dine billeder"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} tilbage af {TOTAL}}other{{COUNT_2} tilbage af {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Kan ses af: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Roter mod uret"
+   },
+   "3885024486041657280": {
+      "message": "Denne collage blev blev lavet ud fra en samling af portr\u00E6tfotos"
+   },
+   "3888600924819157294": {
+      "message": "Alle fotos fra Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Slet dette album}other{Slet album}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Roter det valgte billede til venstre}other{Roter de valgte billeder til venstre}}"
+   },
+   "3973931101896534797": {
+      "message": "Dato"
+   },
+   "4023731095051291021": {
+      "message": "Se p\u00E5 Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Underret mig, og import\u00E9r billeder fra tilsluttede kameraer og hukommelseskort.}male{Underret mig, og import\u00E9r billeder fra tilsluttede kameraer og hukommelseskort.}other{Underret mig, og import\u00E9r billeder fra tilsluttede kameraer og hukommelseskort.}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Genoptag}female{Genoptag}other{Genoptag}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Det lader til, at du har startet {XXX} fra en enhed uden Chrome OS. Denne app er i \u00F8jeblikket kun tilg\u00E6ngelig p\u00E5 Chrome OS, selvom du muligvis kan se ikonet i din Chrome-browser, n\u00E5r du bruger en enhed uden Chrome OS.}male{Det lader til, at du har startet {XXX} fra en enhed uden Chrome OS. Denne app er i \u00F8jeblikket kun tilg\u00E6ngelig p\u00E5 Chrome OS, selvom du muligvis kan se ikonet i din Chrome-browser, n\u00E5r du bruger en enhed uden Chrome OS.}other{Det lader til, at du har startet {XXX} fra en enhed uden Chrome OS. Denne app er i \u00F8jeblikket kun tilg\u00E6ngelig p\u00E5 Chrome OS, selvom du muligvis kan se ikonet i din Chrome-browser, n\u00E5r du bruger en enhed uden Chrome OS.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Se importeret billede}other{Se importerede billeder}}"
+   },
+   "4187596523158859173": {
+      "message": "Klik her for at se disse billeder."
+   },
+   "4201300158283262687": {
+      "message": "Klik her for at se disse billeder."
+   },
+   "4248380204989256605": {
+      "message": "F\u00F8j til"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Kun dig}male{Kun dig}other{Kun dig}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{F\u00F8j til album}female{F\u00F8j til album}other{F\u00F8j til album}}"
+   },
+   "4293741535116795213": {
+      "message": "Dette billede blev lavet ved hj\u00E6lp af de bedste smil fra et s\u00E6t med lignende billeder."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Klik for at rotere billedet med uret}male{Klik for at rotere billedet med uret}other{Klik for at rotere billedet med uret}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopi\u00E9r"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}female{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}other{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Kan kun ses af dig"
+   },
+   "4367940371467792621": {
+      "message": "Tilmeld dig Google+"
+   },
+   "4384754616332866866": {
+      "message": "Kan ses af personer, du har delt dette album med"
+   },
+   "4397726581488253055": {
+      "message": "Afslut"
+   },
+   "4451709539238919902": {
+      "message": "Nogle af billederne har flere kopier, som ikke slettes."
+   },
+   "4458099219143901905": {
+      "message": "\u00C5bn med Google+ Fotos"
+   },
+   "4470533259338698234": {
+      "message": "Flyt"
+   },
+   "4472091515638733183": {
+      "message": "Importen stoppede"
+   },
+   "4485837491844366665": {
+      "message": "Klik her for at se og dele disse billeder"
+   },
+   "4489698681193228521": {
+      "message": "Velkommen til $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Import\u00E9r billeder, n\u00E5r jeg tilslutter et kamera eller et hukommelseskort"
+   },
+   "4504920004530359010": {
+      "message": "Fuld st\u00F8rrelse (op til 5 GB gratis lagerplads)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Afspil}female{Afspil}other{Afspil}}"
+   },
+   "4535738935335444945": {
+      "message": "Ikke delt"
+   },
+   "4550974869121207169": {
+      "message": "slet"
+   },
+   "4557902876984952242": {
+      "message": "Rediger"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Hvis du sletter dette album, fjernes ogs\u00E5 alle tilknyttede kommentarer, +1 og tags.}other{Hvis du sletter disse album, fjernes ogs\u00E5 alle tilknyttede kommentarer, +1 og tags.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatisk organisering"
+   },
+   "4579986716424813115": {
+      "message": "Afspil fra begyndelsen"
+   },
+   "460600293345244430": {
+      "message": "V\u00E6lg de billeder, du vil dele eller f\u00F8je til et album."
+   },
+   "4624285717763544623": {
+      "message": "Tilf\u00F8j"
+   },
+   "4630251340863502127": {
+      "message": "Uploader importerede billeder"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Du har ingen album. Upload billeder nu!}male{Du har ingen album. Upload billeder nu!}other{Du har ingen album. Upload billeder nu!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev importeret!}other{# billeder blev importeret!}}"
+   },
+   "466730294804943734": {
+      "message": "Endnu ingen kommentarer."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B underst\u00F8ttes ikke p\u00E5 denne platform"
+   },
+   "4678028473996848955": {
+      "message": "Alle dine billeder"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Annuller}female{Annuller}other{Annuller}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B af $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Hvis du sletter disse album, sletter du ogs\u00E5 alle tilknyttede indl\u00E6g, kommentarer og +1."
+   },
+   "471816275243265264": {
+      "message": "Placering"
+   },
+   "4726999481668064421": {
+      "message": "Dette HDR-billede blev lavet ud fra et s\u00E6t med eksponeringer i parentes."
+   },
+   "4736210244914788712": {
+      "message": "Drev"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BDu er logget ind som$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hej! Velkommen til $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fotos fra Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BDu er logget ind som$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Det er nu sikkert at fjerne din enhed."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}female{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}other{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Import\u00E9r billeder, n\u00E5r jeg tilslutter et kamera eller et hukommelseskort}male{Import\u00E9r billeder, n\u00E5r jeg tilslutter et kamera eller et hukommelseskort}other{Import\u00E9r billeder, n\u00E5r jeg tilslutter et kamera eller et hukommelseskort}}"
+   },
+   "484542621830317934": {
+      "message": "Du har ingen album. Upload billeder nu!"
+   },
+   "489844404897890427": {
+      "message": "Fuld sk\u00E6rm"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 billeder}=1{1 billede}other{{NUM_2} billeder}}"
+   },
+   "4930506384627295710": {
+      "message": "Indstillinger"
+   },
+   "495485805564687684": {
+      "message": "Stop importen"
+   },
+   "4957990634817185638": {
+      "message": "Forts\u00E6t med at importere"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Del album}=1{Del det valgte billede}other{Del de valgte billeder}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Klik for at tilf\u00F8je billeder}male{Klik for at tilf\u00F8je billeder}other{Klik for at tilf\u00F8je billeder}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} dag valgt}other{{COUNT_2} dage valgt}}"
+   },
+   "5028777105388019087": {
+      "message": "Detaljer"
+   },
+   "5043933900720743682": {
+      "message": "Album"
+   },
+   "5045200874122539692": {
+      "message": "Afslut"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Upload nogle billeder for at komme i gang.}male{Upload nogle billeder for at komme i gang.}other{Upload nogle billeder for at komme i gang.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Dit dom\u00E6ne"
+   },
+   "5087678602655068553": {
+      "message": "Kamera"
+   },
+   "5094793857629325945": {
+      "message": "Forbereder deling..."
+   },
+   "509736707516044180": {
+      "message": "Annullerer..."
+   },
+   "5114432207766092038": {
+      "message": "Alle fotos fra alle indl\u00E6g."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Hvis du sletter dette billede, fjernes ogs\u00E5 alle tilknyttede kommentarer, +1 og tags.}other{Hvis du sletter disse billeder, fjernes ogs\u00E5 alle tilknyttede kommentarer, +1 og tags.}}"
+   },
+   "5127852906617233988": {
+      "message": "Luk"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Dine cirkler}male{Dine cirkler}other{Dine cirkler}}"
+   },
+   "5143227875710959810": {
+      "message": "Del album"
+   },
+   "5146398958364876914": {
+      "message": "Sort\u00E9r"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Fra {FROM_NAME}}male{Fra {FROM_NAME}}other{Fra {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Angiv som albumcover}female{Angiv som albumcover}other{Angiv som albumcover}}"
+   },
+   "5179193375793315549": {
+      "message": "Du kan h\u00F8jst tilf\u00F8je $1\u200B billeder ad gangen."
+   },
+   "5198477912095887288": {
+      "message": "som det blev taget"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se billede}other{Se billeder}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}male{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}other{Log ind p\u00E5 Chrome for at starte med at uploade billeder.}}"
+   },
+   "5233843271957333982": {
+      "message": "nulstil"
+   },
+   "5252008443782667515": {
+      "message": "Ja"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Der er 1 ekstra kopi, som ikke slettes.}other{Der er {NUM_ADDITIONAL_COPIES_2} ekstra kopier, som ikke slettes.}}"
+   },
+   "5369958865776447504": {
+      "message": "Dette billede er i albummet \"$1\u200B.\""
+   },
+   "5376084340764125422": {
+      "message": "Luk fuld sk\u00E6rm"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Blanding"
+   },
+   "5413761544816529267": {
+      "message": "Tilmeld dig en Google+ konto for at bruge $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Pr\u00F8v igen"
+   },
+   "545081735380424772": {
+      "message": "Upload og del billeder fra Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Slet billeder"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Opret forbindelse igen for at uploade og dele!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Sl\u00F8ret"
+   },
+   "5522640894890976342": {
+      "message": "M\u00F8rkt"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Overeksponeret}male{Overeksponeret}other{Overeksponeret}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 billede blev kopieret.}other{{NUM_PHOTOS_2} billeder blev kopieret.}}"
+   },
+   "5546339789714773759": {
+      "message": "Roter til h\u00F8jre"
+   },
+   "5563891514339188770": {
+      "message": "Angiv som albumcover"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Klik for at fjerne dette billede}male{Klik for at fjerne dette billede}other{Klik for at fjerne dette billede}}"
+   },
+   "5613209249634786065": {
+      "message": "Fuld (op til 5 GB gratis lagerplads)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Gem, organiser og del alle dine billeder og videoer med et par klik.}female{Gem, organiser og del alle dine billeder og videoer med et par klik.}other{Gem, organiser og del alle dine billeder og videoer med et par klik.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} godt billede valgt af Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} gode billeder valgt af Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Vis billede}other{Vis billeder}}}female{{COUNT,plural, =0{unused plural form}=1{Vis billede}other{Vis billeder}}}other{{COUNT,plural, =0{unused plural form}=1{Vis billede}other{Vis billeder}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Ingen er tagget i dette album."
+   },
+   "5747301769466451086": {
+      "message": "Fuld ($1\u200B GB af $2\u200B GB tilbage)"
+   },
+   "5750062244377347370": {
+      "message": "Du kan h\u00F8jst dele $1\u200B billeder ad gangen."
+   },
+   "5750485945694679561": {
+      "message": "Foto"
+   },
+   "5752465522295465624": {
+      "message": "Hvad er det?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev importeret!}other{# billeder blev importeret!}}"
+   },
+   "5782608665556323710": {
+      "message": "Delt med udvidede cirkler"
+   },
+   "5792855097053831820": {
+      "message": "V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Slet dette billede}other{Slet billeder}}"
+   },
+   "5822534876981710132": {
+      "message": "\u00D8jeblikkelig upload"
+   },
+   "5849125517299342831": {
+      "message": "Importerer billeder..."
+   },
+   "5851872412594366640": {
+      "message": "Flyt alle billederne i albummet"
+   },
+   "585220835732140655": {
+      "message": "Delt den $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Fuld (op til 5,0 GB gratis lagerplads)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 billede, som allerede var importeret, bliver stadig uploadet.}other{{NUM_PHOTOS_2} billeder, som allerede var importeret, bliver stadig uploadet.}}"
+   },
+   "591256046515963756": {
+      "message": "Mist aldrig et minde. F\u00E5 adgang til dine billeder til enhver tid fra enhver enhed."
+   },
+   "5937251202465808296": {
+      "message": "Flere"
+   },
+   "5963865584069399662": {
+      "message": "privat"
+   },
+   "5978216065275630477": {
+      "message": "Vi oplevede problemer med at logge dig ind p\u00E5 Google+ Fotos."
+   },
+   "5981779462795520309": {
+      "message": "Modtagere af de oprindelige indl\u00E6g"
+   },
+   "5984859669237993376": {
+      "message": "Klik for at tilf\u00F8je billeder"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev tilf\u00F8jet og er klar til deling!}other{# billeder blev tilf\u00F8jet og er klar til deling!}}"
+   },
+   "6003032126642624287": {
+      "message": "Fuld st\u00F8rrelse (op til 5,0 GB gratis lagerplads)"
+   },
+   "6021285543212025836": {
+      "message": "Hvis du sletter dette billede, sletter du ogs\u00E5 alle tilknyttede indl\u00E6g, kommentarer og +1."
+   },
+   "605360614133602045": {
+      "message": "om morgenen"
+   },
+   "6073020864818444056": {
+      "message": "Udf\u00F8rt"
+   },
+   "612521550010808115": {
+      "message": "Kan ses af alle p\u00E5 nettet"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev tilf\u00F8jet og er klar til deling!}other{# billeder blev tilf\u00F8jet og er klar til deling!}}"
+   },
+   "6143433948220856193": {
+      "message": "Overeksponeret"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Slet billede"
+   },
+   "6261883509320806048": {
+      "message": "Slet valgte billeder?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B samler alle billederne p\u00E5 din harddisk og dem, du tager med din telefon og dit kamera, p\u00E5 \u00E9t sted."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}female{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}other{Lad {APP_NAME} hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer}}"
+   },
+   "6366245138858985671": {
+      "message": "Album til scrapbogsfotos."
+   },
+   "636798263636559500": {
+      "message": "Angiv albumnavn"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Klik for at rotere billedet mod uret}male{Klik for at rotere billedet mod uret}other{Klik for at rotere billedet mod uret}}"
+   },
+   "6402624319890396199": {
+      "message": "Annuller"
+   },
+   "6405254665227516714": {
+      "message": "Alle profilfotos."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Du kan ikke v\u00E6lge andres billeder}male{Du kan ikke v\u00E6lge andres billeder}other{Du kan ikke v\u00E6lge andres billeder}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Du har i \u00F8jeblikket ikke forbindelse til internettet.}female{Du har i \u00F8jeblikket ikke forbindelse til internettet.}other{Du har i \u00F8jeblikket ikke forbindelse til internettet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Disse billeder er uploadet privat til Google+ og kan kun ses af dig."
+   },
+   "6546455868033656709": {
+      "message": "Efter dato, hvor de blev taget (nye til gamle)"
+   },
+   "6562395422130457272": {
+      "message": "Lys"
+   },
+   "6569718559670589774": {
+      "message": "Delt privat"
+   },
+   "6578760328281087395": {
+      "message": "Slet billede"
+   },
+   "6594379652661172876": {
+      "message": "Dette billede i fotoautomatstil er skabt ud fra flere portr\u00E6tter."
+   },
+   "6604371182910178125": {
+      "message": "Hvis du sletter dette album, sletter du ogs\u00E5 alle tilknyttede indl\u00E6g, kommentarer og +1."
+   },
+   "6626842519109915669": {
+      "message": "Billeder fra Automatisk fotobackup"
+   },
+   "663126026358360455": {
+      "message": "Standard (ubegr\u00E6nset gratis lagerplads)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 billede blev tilf\u00F8jet og er klar til deling.}other{{NUM_PHOTOS_2} billeder blev tilf\u00F8jet og er klar til deling.}}"
+   },
+   "664682826251689034": {
+      "message": "Endnu ingen +1."
+   },
+   "666585356635427967": {
+      "message": "Dette billede blev automatisk fikset."
+   },
+   "6698080327673689103": {
+      "message": "Finder de bedste billeder..."
+   },
+   "6721868124884562992": {
+      "message": "Saml billeder fra alle dine enheder p\u00E5 \u00E9t sted."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Organiser}female{Organiser}other{Organiser}}"
+   },
+   "6747166642870870925": {
+      "message": "Stopper importen..."
+   },
+   "6750134343457912784": {
+      "message": "Konfigurer $1\u200B, s\u00E5 den automatisk importerer dine billeder, for at f\u00E5 mest muligt ud af den."
+   },
+   "675159243189607951": {
+      "message": "F\u00F8j billede til album"
+   },
+   "6778067484492795152": {
+      "message": "M\u00F8rkt"
+   },
+   "6792549611288275870": {
+      "message": "Br\u00E6ndvidde"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B gemmer sikkert alle dine billeder, og du kan til enhver tid se dem fra en vilk\u00E5rlig enhed."
+   },
+   "680511502310466916": {
+      "message": "Popul\u00E6re billeder"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{i {NUM_PHOTOS_2} billede}other{i {NUM_PHOTOS_2} billeder}}"
+   },
+   "6872320306636644917": {
+      "message": "Det er nu sikkert at fjerne din enhed."
+   },
+   "6872759799605876555": {
+      "message": "F-tal"
+   },
+   "687281374586801843": {
+      "message": "Start $1\u200B, og import\u00E9r billeder, n\u00E5r jeg tilslutter et kamera eller et hukommelseskort"
+   },
+   "6882873153932419461": {
+      "message": "Selektiv justering"
+   },
+   "6906406658770551379": {
+      "message": "Denne animation blev lavet ud fra en samling af fem eller flere billeder."
+   },
+   "6983200894459150878": {
+      "message": "Dette panoramabillede blev skabt ud fra et s\u00E6t af overlappende billeder."
+   },
+   "7022070615528435141": {
+      "message": "Slet"
+   },
+   "7049887240439736400": {
+      "message": "Udskriv"
+   },
+   "706796434064753890": {
+      "message": "Afspil diasshow"
+   },
+   "7102649289752747375": {
+      "message": "Send feedback"
+   },
+   "7105497072958063616": {
+      "message": "Nuance"
+   },
+   "7182974689040833178": {
+      "message": "Genoptag"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Dit dom\u00E6ne}male{Dit dom\u00E6ne}other{Dit dom\u00E6ne}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BDu er logget ind som$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Importerer billeder fra $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Forts\u00E6t import"
+   },
+   "7283005104295613831": {
+      "message": "V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis."
+   },
+   "7288593042347321202": {
+      "message": "Slet det valgte billede?"
+   },
+   "7329217250595054697": {
+      "message": "Original"
+   },
+   "734934965373819800": {
+      "message": "G\u00E5 tilbage"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Tagget i: {ALBUM_NAME}}male{Tagget i: {ALBUM_NAME}}other{Tagget i: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Tilf\u00F8j billeder"
+   },
+   "7419704019640008953": {
+      "message": "Del"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Bedste}male{Bedste}other{Bedste}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Velkommen til {XXX}}male{Velkommen til {XXX}}other{Velkommen til {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Opret forbindelse igen for at se alle billeder og album."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pause}female{Pause}other{Pause}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Roter det valgte billede til h\u00F8jre}other{Roter de valgte billeder til h\u00F8jre}}"
+   },
+   "7488769419737494778": {
+      "message": "Hej $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Dern\u00E6st skal du v\u00E6lge uploadst\u00F8rrelse"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev kopieret.}other{# billeder blev kopieret.}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Del}female{Del}other{Del}}"
+   },
+   "7538539390938534172": {
+      "message": "Hvidbalance"
+   },
+   "7546970424299309536": {
+      "message": "Automatisk organiseret og klar til deling"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Der er ikke valgt nogen billeder}=1{{COUNT_2} billede valgt}other{{COUNT_2} billeder valgt}}"
+   },
+   "7637409896935138087": {
+      "message": "Efter dato, hvor de blev taget (gamle til nye)"
+   },
+   "7649598852815041947": {
+      "message": "Nyt album"
+   },
+   "765296891797858248": {
+      "message": "Hej!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 billede fra {FOLDER_NAME} blev tilf\u00F8jet og er klar til deling.}other{{NUM_PHOTOS_2} billeder fra {FOLDER_NAME} blev tilf\u00F8jet og er klar til deling.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B visninger"
+   },
+   "7718742267235559288": {
+      "message": "Luk fuld sk\u00E6rm"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev kopieret fra $1\u200B}other{# billeder blev kopieret fra $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "Sikker lagring"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Flyt det valgte billede}other{Flyt de valgte billeder}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Kom godt i gang!"
+   },
+   "779808899645033177": {
+      "message": "Sidste import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Kun dig"
+   },
+   "7828808805120058354": {
+      "message": "Annuller"
+   },
+   "7856636143847093955": {
+      "message": "Flet dage"
+   },
+   "7871095434511949009": {
+      "message": "Bl\u00E6nder\u00E5bning"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Dern\u00E6st skal du v\u00E6lge uploadst\u00F8rrelse}female{Dern\u00E6st skal du v\u00E6lge uploadst\u00F8rrelse}other{Dern\u00E6st skal du v\u00E6lge uploadst\u00F8rrelse}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}male{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}other{V\u00E6lg kilder, hvorfra billeder importeres og uploades privat til Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}male{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}other{Klik for at v\u00E6lge eller frav\u00E6lge dette billede}}"
+   },
+   "7899751896282337632": {
+      "message": "Korrigeret"
+   },
+   "7911416166208830577": {
+      "message": "Hj\u00E6lp"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik her for at se og dele dette billede.}other{Klik her for at se og dele disse billeder.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Slet}female{Slet}other{Slet}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Klik for at rotere billedet mod uret}female{Klik for at rotere billedet mod uret}other{Klik for at rotere billedet mod uret}}"
+   },
+   "8031489364030461560": {
+      "message": "Konfigurer $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Dette billede blev automatisk fikset.}male{Dette billede blev automatisk fikset.}other{Dette billede blev automatisk fikset.}}"
+   },
+   "8112449587476468078": {
+      "message": "Slet det valgte album?"
+   },
+   "8121983485737306983": {
+      "message": "dobbelt forekomst"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Fotos"
+   },
+   "8160611829089073754": {
+      "message": "Slet album"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{F\u00F8j det valgte billede til album}other{F\u00F8j de valgte billeder til album}}"
+   },
+   "8179903593042831802": {
+      "message": "Tilf\u00F8j fotos"
+   },
+   "819996403327805209": {
+      "message": "Flere oplysninger"
+   },
+   "8209467666747691270": {
+      "message": "Bedste"
+   },
+   "8233995188166153420": {
+      "message": "Log ind p\u00E5 Chrome for at starte med at uploade billeder."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E6rre kopi}male{V\u00E6rre kopi}other{V\u00E6rre kopi}}"
+   },
+   "8257489178421131174": {
+      "message": "Angiv albumnavn"
+   },
+   "8262372758945437018": {
+      "message": "Kom godt i gang"
+   },
+   "8272813937461935720": {
+      "message": "Vi oplevede problemer med at logge dig ind p\u00E5 Google+ Fotos."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Klik for at tilf\u00F8je billeder}female{Klik for at tilf\u00F8je billeder}other{Klik for at tilf\u00F8je billeder}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Del det valgte billede}other{Del de valgte billeder}}"
+   },
+   "8317910107005018559": {
+      "message": "Mindre"
+   },
+   "8324963774100913509": {
+      "message": "Begr\u00E6nset"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Velkommen til {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Angiv albumnavn}male{Angiv albumnavn}other{Angiv albumnavn}}"
+   },
+   "8405309693308875139": {
+      "message": "Billeder"
+   },
+   "840692109692540367": {
+      "message": "Log ind"
+   },
+   "8418580476552799567": {
+      "message": "Uploadst\u00F8rrelse"
+   },
+   "8446162208830000966": {
+      "message": "Afslut"
+   },
+   "8461609631969932886": {
+      "message": "Skjul"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Version $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik her for at se dette billede.}other{Klik her for at se disse billeder.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Et eller flere billeder venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}}}male{{COUNT_1,plural, =0{Et eller flere billeder venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Genopret forbindelsen  for at uploade og dele!}}}other{{COUNT_1,plural, =0{Et eller flere billeder venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}=1{Du har {START_BOLD}1{END_BOLD} billede, som venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}other{Du har {START_BOLD}{COUNT_2}{END_BOLD} billeder, som venter p\u00E5 at blive uploadet. Genopret forbindelsen for at uploade og dele!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Lad $1\u200B hj\u00E6lpe dig med at v\u00E6lge de bedste af de billeder, du importerer"
+   },
+   "8554704680089748768": {
+      "message": "Billederne blev importeret $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Afspil"
+   },
+   "8566172133042307539": {
+      "message": "F\u00F8j til album"
+   },
+   "8588705294225487286": {
+      "message": "Kan ses af modtagere af de oprindelige indl\u00E6g"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}male{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}other{V\u00E6lg sikkerhedskopier i fuld st\u00F8rrelse af dine billeder eller mindre uploads i standardst\u00F8rrelse, som er gratis.}}"
+   },
+   "8654290347345927684": {
+      "message": "Det er nu sikkert at fjerne enheden $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Hej! Velkommen til {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "V\u00E6lg bedste"
+   },
+   "8675112326850410714": {
+      "message": "Hukommelseskort eller lagerenhed tilsluttet"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Afslut}female{Afslut}other{Afslut}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev importeret fra $1\u200B!}other{# billeder blev importeret fra $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Privat"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Du har i \u00F8jeblikket ikke forbindelse til internettet.}male{Du har i \u00F8jeblikket ikke forbindelse til internettet.}other{Du har i \u00F8jeblikket ikke forbindelse til internettet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Gem indstillinger"
+   },
+   "8765880467977864647": {
+      "message": "af $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Brugermenu"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Fuld sk\u00E6rm}female{Fuld sk\u00E6rm}other{Fuld sk\u00E6rm}}"
+   },
+   "8777952755137547655": {
+      "message": "Dette panoramabillede blev lavet ud fra et s\u00E6t med billeder af adjacente visninger."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Uploaden er f\u00E6rdig! 1 billede er klar til deling.}other{Uploaden er f\u00E6rdig! {COUNT_2} billeder er klar til deling.}}"
+   },
+   "8832933617217959986": {
+      "message": "Frav\u00E6lg alle"
+   },
+   "8874739581425612284": {
+      "message": "V\u00E6lg de billeder, du vil dele eller f\u00F8je til et album"
+   },
+   "8890553633144307762": {
+      "message": "Tilbage"
+   },
+   "8928816882866356838": {
+      "message": "Offentlig"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Slet album}=1{Slet det valgte billede}other{Slet de valgte billeder}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Udskriv}female{Udskriv}other{Udskriv}}"
+   },
+   "8984549175557747262": {
+      "message": "Videoen behandles..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Undereksponeret}male{Undereksponeret}other{Undereksponeret}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Delt med dom\u00E6ne"
+   },
+   "9042260521669277115": {
+      "message": "Pause"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 visninger i alt}=1{1 visning i alt}other{{VIEW_COUNT_2} visninger i alt}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B v\u00E6lger automatisk de bedste billeder fra dine samlinger og g\u00F8r dem klar til deling."
+   },
+   "9137360918780826967": {
+      "message": "D\u00E5rlig kvalitet"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 billede blev tilf\u00F8jet og er klar til deling!}other{# billeder blev tilf\u00F8jet og er klar til deling!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} er den nemmeste m\u00E5de at organisere og dele dine billeder p\u00E5.}female{{XXX_2} er den nemmeste m\u00E5de at organisere og dele dine billeder p\u00E5.}other{{XXX_3} er den nemmeste m\u00E5de at organisere og dele dine billeder p\u00E5.}}"
+   },
+   "9219694540199049147": {
+      "message": "Mappe..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 billede er allerede blevet uploadet tidligere.}other{{NUM_PHOTOS_2} billeder er allerede blevet uploadet tidligere.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} billede blev importeret og uploadet.}other{{START_BOLD}{COUNT_2}{END_BOLD} billeder blev importeret og uploadet.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Konfigurer {XXX}, s\u00E5 dine billeder importeres automatisk, for at f\u00E5 mest muligt ud af den.}male{Konfigurer {XXX}, s\u00E5 dine billeder importeres automatisk, for at f\u00E5 mest muligt ud af den.}other{Konfigurer {XXX}, s\u00E5 dine billeder importeres automatisk, for at f\u00E5 mest muligt ud af den.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Flyt alle billederne i albummet}=1{Flyt det valgte billede}other{Flyt de valgte billeder}}"
+   },
+   "982577805980296193": {
+      "message": "Klik her for at se og dele disse billeder."
+   }
+}

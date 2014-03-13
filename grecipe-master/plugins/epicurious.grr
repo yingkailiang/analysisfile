@@ -1,0 +1,146 @@
+/***********************************************************************
+ * 
+ *     This file is part of gRecipes.
+ *
+ *     gRecipes is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     gRecipes is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *     You should have received a copy of the GNU General Public License
+ *     along with gRecipes.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ **********************************************************************/
+
+{
+	"name": "Epicurious",
+	"author": "William T. Olson",
+	"version": 1.0,
+	"url": "http*://www.epicurious.com/*",
+	
+	hasRecipe: function() {
+		return !!$('.hrecipe').size();
+	},
+  
+	getName: function() {
+		return $('.hrecipe .fn').first().text().reduce();
+	},
+
+  getPhoto: function() {
+    var photo = $('.hrecipe .photo');
+    return (photo.size()) ? {
+      src: photo.get(0).src,
+      alt: photo.get(0).alt,
+      title: photo.get(0).title,
+    } : undefined;
+  },
+
+  getYield: function() {
+    var y = $('.hrecipe .yield').first();
+    return (y.size()) ? y.text().reduce() : undefined;
+  },
+
+  getCookTime: function() {
+    var time = $('.hrecipe .cookTime').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": $(".value-title", time).attr("title")
+    } : undefined;
+  },
+  
+  getPrepTime: function() {
+    var time = $('.hrecipe .prepTime').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": $(".value-title", time).attr("title")
+    } : undefined;
+  },
+  
+  getTotalTime: function() {
+    var time = $('.hrecipe .duration').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": $(".value-title", time).attr("title")
+    } : undefined;
+  },
+  
+	getSummary: function() {
+    var strLiteral = "(\"(?:[^\"\\\\]|\\\\.)*\")";
+    var introText = RegExp("recipeIntroText\\s*=\\s*"+strLiteral).exec(
+      $('#recipeIntroText').children('script').text()
+    );  // Grab recipeIntroText variable without eval.
+
+      
+		if(!introText || introText.length < 2) {
+      return $('#truncatedText').text().reduce() ?
+        $('#truncatedText').html().reduce() : undefined;
+		}
+
+		return (new Function("return " + introText[1]))().reduce();
+	},
+  
+	getIngredients: function() {
+		var ingredients = $('#ingredients');
+    var sections = ingredients.children('.ingredientsList');
+    sections = sections.map(function() {
+      var title = $(this).prevUntil('.ingredientsList').filter('strong');
+      title = title.size() ? title.text().reduce() : undefined;
+
+      var ingredient = $(this).children('.ingredient').map(function() {
+        return this.innerHTML;
+      }).get().filter(function(item) {return !item.empty();});
+
+      return {title: title, ingredient: ingredient};
+    }).get().filter(function(section) {return !!section.ingredient;});
+		
+		return sections ? {section: sections} : undefined;
+	},
+  
+	getInstructions: function() {
+		var instructions = $('#preparation').clone();
+    var sections = [];
+
+    var section = {instruction: []};
+    instructions.children('.instruction').each(function (index) {
+      var title = $(this).children('strong');
+      if (title.size()) {
+        title = title.get(0);
+        if (index) {
+          sections.push(section);
+          section = {instruction: []};
+        }
+        section.title = title.textContent.reduce();
+        $(title).next('br').remove();
+        $(title).remove();
+      }
+      section.instruction.push(this.innerHTML);
+    });
+
+    sections.push(section);
+    return sections ? {section: sections} : undefined;
+	},
+
+  getClosing: function() {
+    var closing = $('#chefNotes').nextUntil('#addnoteLnk').andSelf().clone();
+    if (!closing.size()) { return undefined };
+
+    closing.remove('#addnoteLnk');
+
+    closing = closing.get().filter(function(item) {
+      return !item.textContent.empty();
+    }).map(function(item) {
+      return item.outerHTML.reduce();
+    }).join("\n");
+    return closing.empty() ? undefined : closing;
+  },
+  
+  getAuthor: function() {
+    var author = $('.hrecipe .author').first();
+    return (author.size()) ? author.text().reduce() : undefined;
+  }
+}

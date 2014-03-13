@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Odlu\u010Dite \u017Eelite li sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine."
+   },
+   "106279463205193944": {
+      "message": "Osobe u ovom albumu"
+   },
+   "1078696495414015742": {
+      "message": "Nastavi"
+   },
+   "1079312373208696407": {
+      "message": "Kliknite ovdje kada se prijavite"
+   },
+   "1106976338877989624": {
+      "message": "O zna\u010Dajci $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Nemate nijedan album. Prenesite fotografije sada!}female{Nemate nijedan album. Prenesite fotografije sada!}other{Nemate nijedan album. Prenesite fotografije sada!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Prijenos dovr\u0161en! {START_BOLD}1{END_BOLD} fotografija spremna za razmjenu.}one{Prijenos dovr\u0161en! {START_BOLD}{COUNT_2}{END_BOLD} fotografija spremna za razmjenu.}few{Prijenos dovr\u0161en! {START_BOLD}{COUNT_2}{END_BOLD} fotografije spremne za razmjenu.}many{Prijenos dovr\u0161en! {START_BOLD}{COUNT_2}{END_BOLD} fotografija spremno za razmjenu.}other{Prijenos dovr\u0161en! Sljede\u0107i broj fotografija spreman za razmjenu: {START_BOLD}{COUNT_2}{END_BOLD}.}}"
+   },
+   "1131710491735646017": {
+      "message": "Premjesti fotografiju"
+   },
+   "1141157641265116263": {
+      "message": "Pohranjujte, organizirajte i dijelite sve fotografije i videozapise u samo nekoliko klikova."
+   },
+   "1168286392495236500": {
+      "message": "Javno podijeljeno"
+   },
+   "1168912363261265730": {
+      "message": "Reproduciraj prezentaciju"
+   },
+   "1179156232993544339": {
+      "message": "Izbri\u0161i album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Odabir stavki}female{Odabir stavki}other{Odabir stavki}}"
+   },
+   "1199073624563429103": {
+      "message": "Ako izbri\u0161ete te fotografije, izbrisat \u0107ete i sve postove, komentare i oznake +1 povezane s njima."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BPonovno se pove\u017Eite$1\u200B da biste pregledali sve fotografije i albume."
+   },
+   "1274379628511980491": {
+      "message": "Skeniranje fotografija"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 fotografija}one{{PHOTO_COUNT_2} fotografija}few{{PHOTO_COUNT_2} fotografije}many{{PHOTO_COUNT_2} fotografija}other{{PHOTO_COUNT_2} fotogr.}}"
+   },
+   "1299278917495979942": {
+      "message": "Po datumu dodavanja (od novijih prema starijima)"
+   },
+   "1299626955070536636": {
+      "message": "Zakreni u smjeru kretanja kazaljke na satu"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza.}male{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza.}other{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{1 fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{COUNT_2} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {COUNT_2}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}female{{COUNT_1,plural, =0{unused plural form}=1{1 fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{COUNT_2} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {COUNT_2}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}other{{COUNT_1,plural, =0{unused plural form}=1{1 fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{COUNT_2} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{COUNT_2} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {COUNT_2}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Odabir drugih lokacija za uvoz"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Da biste \u0161to bolje iskoristili {APP_NAME}, postavite automatski uvoz svojih fotografija.}male{Da biste \u0161to bolje iskoristili {APP_NAME}, postavite automatski uvoz svojih fotografija.}other{Da biste \u0161to bolje iskoristili {APP_NAME}, postavite automatski uvoz svojih fotografija.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Automatski uvezi fotografije s povezanih fotoaparata i memorijskih kartica}male{Automatski uvezi fotografije s povezanih fotoaparata i memorijskih kartica}other{Automatski uvezi fotografije s povezanih fotoaparata i memorijskih kartica}}"
+   },
+   "1410409051323941239": {
+      "message": "Poku\u0161aj ponovnog povezivanja..."
+   },
+   "1425141239403329190": {
+      "message": "Sada mo\u017Eete sigurno odspojiti ure\u0111aj $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Spremi"
+   },
+   "1482983300175848685": {
+      "message": "Prijavite se za Google+"
+   },
+   "1494518490116523821": {
+      "message": "Odaberi sve"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopiraj}male{Kopiraj}other{Kopiraj}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Premjesti}male{Premjesti}other{Premjesti}}"
+   },
+   "1535908424500369256": {
+      "message": "Bit \u0107e zatvoreni sljede\u0107i prozori:\n"
+   },
+   "1542576779711006198": {
+      "message": "U tijeku je uvoz fotografija s ure\u0111aja $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Premjesti}female{Premjesti}other{Premjesti}}"
+   },
+   "1572187844116018239": {
+      "message": "Prika\u017Ei na cijelom zaslonu"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Dodaj}male{Dodaj}other{Dodaj}}"
+   },
+   "163532554661203916": {
+      "message": "Otvorite $1\u200B da biste pokrenuli uvoz fotografija s ure\u0111aja $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Fotografije..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B, verzija $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "U\u010Ditavanje..."
+   },
+   "1753152144556911377": {
+      "message": "O aplikaciji $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Ne"
+   },
+   "1760918964936396010": {
+      "message": "Izbri\u0161i fotografiju $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nije podijeljeno}male{Nije podijeljeno}other{Nije podijeljeno}}"
+   },
+   "1829542073477142210": {
+      "message": "Vidljive sudionicima razgovora"
+   },
+   "1863533324056146247": {
+      "message": "poslijepodne"
+   },
+   "1898536270078020135": {
+      "message": "Aplikacijski izbornik"
+   },
+   "1907928780625920048": {
+      "message": "Sigurna pohrana"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotografija spremna je za dijeljenje}one{{COUNT_2} fotografija spremna je za dijeljenje}few{{COUNT_2} fotografije spremne su za dijeljenje}many{{COUNT_2} fotografija spremno je za dijeljenje}other{Fotografija spremno za dijeljenje: {COUNT_2}}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}female{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}other{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}}"
+   },
+   "1938243880078123136": {
+      "message": "Preusmjerit \u0107emo vas na Google+ da biste pogledali videozapis."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Ozna\u010Deni ste}male{Ozna\u010Deni ste}other{Ozna\u010Deni ste}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Odlu\u010Dite \u017Eelite li sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}female{Odlu\u010Dite \u017Eelite li sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}other{Odlu\u010Dite \u017Eelite li sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fotografije iz automatskog slanja"
+   },
+   "2000146230061979936": {
+      "message": "Fotografije profila"
+   },
+   "2029980907058777630": {
+      "message": "Uvjeti pru\u017Eanja usluge"
+   },
+   "2066206612741461379": {
+      "message": "Autorska prava \u00A9 2013 Google Inc. Sva prava pridr\u017Eana."
+   },
+   "2079435202927044386": {
+      "message": "Uvoz fotografija..."
+   },
+   "2097731301533028280": {
+      "message": "Sve fotografije"
+   },
+   "2102825898069375693": {
+      "message": "Izbornik"
+   },
+   "2127917516759723964": {
+      "message": "\u017Delite li izbrisati odabrane albume?"
+   },
+   "2134605074025092052": {
+      "message": "Izbri\u0161i sljede\u0107i broj fotografija: $1\u200B"
+   },
+   "2159130950882492111": {
+      "message": "Odustani"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}female{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}other{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Ne najbolja}male{Ne najbolja}other{Ne najbolja}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Pozdrav! Dobro do\u0161li na {XXX_1}.}female{Pozdrav! Dobro do\u0161li na {XXX_2}.}other{Pozdrav! Dobro do\u0161li na {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Pomo\u0107}female{Pomo\u0107}other{Pomo\u0107}}"
+   },
+   "2256196161103684642": {
+      "message": "Ograni\u010Deno"
+   },
+   "2267143557027174044": {
+      "message": "Odustani"
+   },
+   "2299297337048329405": {
+      "message": "Kopiraj"
+   },
+   "2354817630223808522": {
+      "message": "Premjesti"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Da biste \u0161to bolje iskoristili {APP_NAME}, namjestite automatski uvoz svojih fotografija.}female{Da biste \u0161to bolje iskoristili {APP_NAME}, namjestite automatski uvoz svojih fotografija.}other{Da biste \u0161to bolje iskoristili {APP_NAME}, namjestite automatski uvoz svojih fotografija.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Premjesti {XXX_1} fotografiju u album:}one{Premjesti {XXX_2} fotografiju u album:}few{Premjesti {XXX_2} fotografije u album:}many{Premjesti {XXX_2} fotografija u album:}other{Premjesti {XXX_2} fotograf. u album:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotografije s telefona"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Za po\u010Detak uvezite svoje fotografije}female{Za po\u010Detak uvezite svoje fotografije}other{Za po\u010Detak uvezite svoje fotografije}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 fotografija}one{{PHOTO_COUNT_2} fotografija}few{{PHOTO_COUNT_2} fotografije}many{{PHOTO_COUNT_2} fotografija}other{Broj fotografija: {PHOTO_COUNT_2}}}"
+   },
+   "2453303348493525919": {
+      "message": "Odabir stavki"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Odabran {COUNT_2} album}one{Odabran {COUNT_2} album}few{Odabrana {COUNT_2} albuma}many{Odabrano {COUNT_2} albuma}other{Odabrano albuma: {COUNT_2}}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{U prethodnoj je sesiji ve\u0107 prenijeta jedna fotografija. }one{U prethodnoj je sesiji ve\u0107 prenijeta {NUM_PHOTOS_2} fotografija. }few{U prethodnoj su sesiji ve\u0107 prenijete {NUM_PHOTOS_2} fotografije. }many{U prethodnoj je sesiji ve\u0107 prenijeto {NUM_PHOTOS_2} fotografija. }other{U prethodnoj je sesiji ve\u0107 prenijeto {NUM_PHOTOS_2} fotografija. }}"
+   },
+   "2503049676444223994": {
+      "message": "Po datumu dodavanja (od starijih prema novijima)"
+   },
+   "251008425196701054": {
+      "message": "Vidljiv svima u va\u0161oj domeni"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}male{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}other{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}}"
+   },
+   "2537804086667442212": {
+      "message": "Ako odustanete, zaustavit \u0107ete daljnji uvoz fotografija.Ve\u0107 uvezene fotografije bit \u0107e uklonjene."
+   },
+   "2543396005338987129": {
+      "message": "Odustani od uvoza"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Mutna}male{Mutna}other{Mutna}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna fotografija iz mape $1\u200B dodana je i spremna za dijeljenje!}one{# fotografija iz mape $1\u200B dodana je i spremna za dijeljenje!}few{# fotografije iz mape $1\u200B dodane su i spremne za dijeljenje!}many{# fotografija iz mape $1\u200B dodano je i spremno za dijeljenje!}other{Fotografije (njih #) iz mape $1\u200B dodane su i spremne za dijeljenje!}}"
+   },
+   "2603085641264767659": {
+      "message": "Gosti na doga\u0111aju"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Neka vam {XXX} pomogne u odabiru najboljih snimki od fotografija koje uvezete}male{Neka vam {XXX} pomogne u odabiru najboljih snimki od fotografija koje uvezete}other{Neka vam {XXX} pomogne u odabiru najboljih snimki od fotografija koje uvezete}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B s"
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B prikuplja fotografije s va\u0161ih fotoaparata, telefona i mapa na jedno mjesto."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Iz mape {FOLDER_NAME} kopirana je jedna fotografija!}one{Iz mape {FOLDER_NAME} kopirana je {NUM_PHOTOS_2} fotografija!}few{Iz mape {FOLDER_NAME} kopirane su {NUM_PHOTOS_2} fotografije!}many{Iz mape {FOLDER_NAME} kopirano je {NUM_PHOTOS_2} fotografija!}other{Iz mape {FOLDER_NAME} kopirano je {NUM_PHOTOS_2} fotografija!}}"
+   },
+   "2683351316398940532": {
+      "message": "Puna veli\u010Dina (preostalo $1\u200B GB od $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Nismo vas uspjeli prijaviti u {XXX}.}male{Nismo vas uspjeli prijaviti u {XXX}.}other{Nismo vas uspjeli prijaviti u {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Odaberi sve}female{Odaberi sve}other{Odaberi sve}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B s"
+   },
+   "2710655047330556001": {
+      "message": "Osobe na toj fotografiji"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Dobro do\u0161li u aplikaciju {XXX_1}.}female{Dobro do\u0161li u aplikaciju {XXX_2}.}other{Dobro do\u0161li u aplikaciju {XXX_3}.}}"
+   },
+   "2757591144872178577": {
+      "message": "Ekspozicija"
+   },
+   "2761269382982007883": {
+      "message": "Pomo\u0107i \u0107emo vam da ostanete organizirani i predlagati najbolje fotografije za dijeljenje."
+   },
+   "2761326392133498772": {
+      "message": "Podijeli fotografiju"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form O, ne!}=1{Jedna fotografija}one{{PHOTO_COUNT_2} fotografija}few{{PHOTO_COUNT_2} fotografije}many{{PHOTO_COUNT_2} fotografija}other{Broj fotografija: {PHOTO_COUNT_2}}}"
+   },
+   "2784586982005585140": {
+      "message": "Vi\u0161e"
+   },
+   "2786233632874013852": {
+      "message": "Jo\u0161 fotografija"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Poni\u0161ti sve odabire}female{Poni\u0161ti sve odabire}other{Poni\u0161ti sve odabire}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatura"
+   },
+   "2820098809819439336": {
+      "message": "Brisanje fotografija"
+   },
+   "2847005022751960352": {
+      "message": "Jo\u0161 uvijek radimo..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknite ovdje da biste vidjeli i podijelili tu fotografiju.}one{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}few{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}many{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}other{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}}"
+   },
+   "287837027263664914": {
+      "message": "Ure\u0111ivanje lokacija za uvoz"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Odabrana {COUNT_2} fotografija}one{Odabrana {COUNT_2} fotografija}few{Odabrane {COUNT_2} fotografije}many{Odabrano {COUNT_2} fotografija}other{Odabrano fotografija: {COUNT_2}}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Kliknite da biste uklonili tu fotografiju}female{Kliknite da biste uklonili tu fotografiju}other{Kliknite da biste uklonili tu fotografiju}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Prijava}female{Prijava}other{Prijava}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dodaj {XXX_1} fotografiju u album:}one{Dodaj {XXX_2} fotografiju u album:}few{Dodaj {XXX_2} fotografije u album:}many{Dodaj {XXX_2} fotografiju u album:}other{Dodaj {XXX_2} fotograf. u album:}}"
+   },
+   "2973731817320915012": {
+      "message": "Po datumu nastanka"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Reproduciraj od po\u010Detka}female{Reproduciraj od po\u010Detka}other{Reproduciraj od po\u010Detka}}"
+   },
+   "2987283829749314385": {
+      "message": "Pozdrav, $2\u200B! Dobro do\u0161li u $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nije odabrana nijedna fotografija}=1{{COUNT_2} fotografija spremna je za dijeljenje}one{{COUNT_2} fotografija spremna je za dijeljenje}few{{COUNT_2} fotografije spremne su za dijeljenje}many{{COUNT_2} fotografija spremno je za dijeljenje}other{Fotografija spremno za dijeljenje: {COUNT_2}}}"
+   },
+   "2991916598129901933": {
+      "message": "Jedna fotografija"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Niska kvaliteta}male{Niska kvaliteta}other{Niska kvaliteta}}"
+   },
+   "3018671699054071030": {
+      "message": "Fotografije iz postova"
+   },
+   "3052031564829371686": {
+      "message": "Autorska prava \u00A9 2012 Google Inc. Sva prava pridr\u017Eana."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}male{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}other{Odaberite \u017Eelite li pohranjivati sigurnosne kopije uvezenih fotografija u punoj veli\u010Dini ili \u017Eelite manje kopije standardne veli\u010Dine (2048 piksela) koje su besplatne.}}"
+   },
+   "3062505056927186217": {
+      "message": "Spomenarske fotografije"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{Preneseno {COUNT_2} od {TOTAL}}=1{Prenesena {COUNT_2} od {TOTAL}}one{Prenesena {COUNT_2} od {TOTAL}}few{Prenesene {COUNT_2} od {TOTAL}}many{Preneseno {COUNT_2} od {TOTAL}}other{Preneseno {COUNT_2} od {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Niska kvaliteta"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza}male{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza}other{Za prvo postavljanje aplikacije {XXX} potrebna je internetska veza}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}female{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}other{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}}"
+   },
+   "3169583722209452922": {
+      "message": "Sa\u010Duvaj"
+   },
+   "3173944879942241188": {
+      "message": "Mutno"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}female{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}other{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B pojednostavnjuje organiziranje i dijeljenje fotografija"
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}female{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}other{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}}"
+   },
+   "3231427490891919648": {
+      "message": "Pro\u0161ireni krugovi"
+   },
+   "3249513483374643425": {
+      "message": "Dodaj"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} pojednostavnjuje organiziranje i dijeljenje fotografija.}}"
+   },
+   "3266811991857373598": {
+      "message": "Za po\u010Detak uvezite svoje fotografije"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotografija}one{{COUNT_2} fotografija}few{{COUNT_2} fotografije}many{{COUNT_2} fotografija}other{{COUNT_2} fotog.}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Izbri\u0161i album}one{Izbri\u0161i albume}few{Izbri\u0161i albume}many{Izbri\u0161i albume}other{Izbri\u0161i albume}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Poredaj}female{Poredaj}other{Poredaj}}"
+   },
+   "3298990500476723192": {
+      "message": "Izbri\u0161i album"
+   },
+   "3304972143698843178": {
+      "message": "Doga\u0111aj"
+   },
+   "3316542569449182462": {
+      "message": "Pronala\u017Eenje najboljih fotografija"
+   },
+   "3319379534575065569": {
+      "message": "Duplikat"
+   },
+   "3335855558019774894": {
+      "message": "Zatvori"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B od $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Nitko nije ozna\u010Den na toj fotografiji."
+   },
+   "335552911020230570": {
+      "message": "Poni\u0161tavanje..."
+   },
+   "3392114061661490939": {
+      "message": "Dimenzije"
+   },
+   "339966167441018467": {
+      "message": "Fotografije poredane prema popularnosti."
+   },
+   "3443823355111334897": {
+      "message": "Broj fotografija: $1\u200B"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Izlaz iz punog zaslona}female{Izlaz iz punog zaslona}other{Izlaz iz punog zaslona}}"
+   },
+   "3479702069824639097": {
+      "message": "Pritisnite da biste usporedili s izvornikom."
+   },
+   "3529907190030543252": {
+      "message": "Za prvo postavljanje aplikacije $1\u200B potrebna vam je internetska veza"
+   },
+   "3549990505176341828": {
+      "message": "Preduga ekspozicija"
+   },
+   "3561019065020608408": {
+      "message": "Spremno za dijeljenje"
+   },
+   "360237722039211543": {
+      "message": "Fotografije s Diska mogu\u0107e je samo kopirati i dijeliti"
+   },
+   "3624887810607887590": {
+      "message": "Zakreni ulijevo"
+   },
+   "3627956543961104309": {
+      "message": "Postavljanje aplikacije $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Izvori fotografija"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Odustani od uvoza (jedna fotografija)}one{Odustani od uvoza ({NUM_PHOTOS_2} fotografija)}few{Odustani od uvoza ({NUM_PHOTOS_2} fotografije)}many{Odustani od uvoza ({NUM_PHOTOS_2} fotografija)}other{Odustani od uvoza ({NUM_PHOTOS_2} fotografija)}}"
+   },
+   "3687863378890487189": {
+      "message": "Kretnja"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Izbri\u0161i odabranu fotografiju}one{Izbri\u0161i odabrane fotografije}few{Izbri\u0161i odabrane fotografije}many{Izbri\u0161i odabrane fotografije}other{Izbri\u0161i odabrane fotografije}}"
+   },
+   "3714818517297325649": {
+      "message": "Ako odustanete, bit \u0107e zaustavljen uvoz svih daljnjih fotografija.\nFotografije koje su ve\u0107 prenesene ne\u0107e biti uklonjene."
+   },
+   "3756864109602975489": {
+      "message": "Oznake +1"
+   },
+   "3759575685100154990": {
+      "message": "Uvoz fotografija"
+   },
+   "3807699453257291879": {
+      "message": "Komentari"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknite ovdje da biste vidjeli tu fotografiju.}one{Kliknite ovdje da biste vidjeli te fotografije.}few{Kliknite ovdje da biste vidjeli te fotografije.}many{Kliknite ovdje da biste vidjeli te fotografije.}other{Kliknite ovdje da biste vidjeli te fotografije.}}"
+   },
+   "3818348166201769715": {
+      "message": "Sve va\u0161e fotografije"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Preostalo {COUNT_2} od {TOTAL}}one{Preostalo {COUNT_2} od {TOTAL}}few{Preostalo {COUNT_2} od {TOTAL}}many{Preostalo {COUNT_2} od {TOTAL}}other{Preostalo {COUNT_2} od {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Vidljivo korisnicima: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Zakreni u smjeru suprotnom od kretanja kazaljke na satu"
+   },
+   "3885024486041657280": {
+      "message": "Kola\u017E je izra\u0111en iz slijeda brzo snimljenih portretnih fotografija."
+   },
+   "3888600924819157294": {
+      "message": "Sve fotografije iz Messengera."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Izbri\u0161i taj album}one{Izbri\u0161i albume}few{Izbri\u0161i albume}many{Izbri\u0161i albume}other{Izbri\u0161i albume}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Zakreni odabranu fotografiju ulijevo}one{Zakreni odabrane fotografije ulijevo}few{Zakreni odabrane fotografije ulijevo}many{Zakreni odabrane fotografije ulijevo}other{Zakreni odabrane fotografije ulijevo}}"
+   },
+   "3973931101896534797": {
+      "message": "Datum"
+   },
+   "4023731095051291021": {
+      "message": "Prikaz na usluzi Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}male{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}other{Obavijesti me i uvezi fotografije s povezanih fotoaparata i memorijskih kartica}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Nastavi}female{Nastavi}other{Nastavi}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{\u010Cini se da ste pokrenuli {XXX} s ure\u0111aja koji nema OS Chrome. Trenuta\u010Dno je ta aplikacija dostupna samo za OS Chrome. Mogu\u0107e je da \u0107ete vidjeti ikonu aplikacije u pregledniku Chrome na ure\u0111aju koji nema OS Chrome.}male{\u010Cini se da ste pokrenuli {XXX} s ure\u0111aja koji nema OS Chrome. Trenuta\u010Dno je ta aplikacija dostupna samo za OS Chrome. Mogu\u0107e je da \u0107ete vidjeti ikonu aplikacije u pregledniku Chrome na ure\u0111aju koji nema OS Chrome.}other{\u010Cini se da ste pokrenuli {XXX} s ure\u0111aja koji nema OS Chrome. Trenuta\u010Dno je ta aplikacija dostupna samo za OS Chrome. Mogu\u0107e je da \u0107ete vidjeti ikonu aplikacije u pregledniku Chrome na ure\u0111aju koji nema OS Chrome.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Pogledajte uvezenu fotografiju}one{Pogledajte uvezene fotografije}few{Pogledajte uvezene fotografije}many{Pogledajte uvezene fotografije}other{Pogledajte uvezene fotografije}}"
+   },
+   "4187596523158859173": {
+      "message": "Kliknite ovdje da biste pregledali te fotografije."
+   },
+   "4201300158283262687": {
+      "message": "Kliknite ovdje da biste pregledali te fotografije."
+   },
+   "4248380204989256605": {
+      "message": "Dodaj u"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Samo vi}male{Samo vi}other{Samo vi}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Dodaj u album}female{Dodaj u album}other{Dodaj u album}}"
+   },
+   "4293741535116795213": {
+      "message": "Ova je fotografija izra\u0111ena od najboljih osmijeha u skupu sli\u010Dnih fotografija."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}male{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}other{Kliknite da biste fotografiju zakrenuli u smjeru kretanja kazaljke na satu}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopiraj"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}female{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}other{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Vidljiv samo vama"
+   },
+   "4367940371467792621": {
+      "message": "Prijavite se za Google+"
+   },
+   "4384754616332866866": {
+      "message": "Vidljiv onima s kojima ste podijelili album"
+   },
+   "4397726581488253055": {
+      "message": "Odustani"
+   },
+   "4451709539238919902": {
+      "message": "Neke fotografije imaju ve\u0107i broj kopija koje ne\u0107e biti izbrisane."
+   },
+   "4458099219143901905": {
+      "message": "Otvori pomo\u0107u usluge Google+ fotografije"
+   },
+   "4470533259338698234": {
+      "message": "Premjesti"
+   },
+   "4472091515638733183": {
+      "message": "Uvoz je zaustavljen"
+   },
+   "4485837491844366665": {
+      "message": "Kliknite ovdje da biste pregledali i dijelili te fotografije."
+   },
+   "4489698681193228521": {
+      "message": "Dobro do\u0161li u $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Uvezi fotografije kada priklju\u010Dim fotoaparat ili memorijsku karticu"
+   },
+   "4504920004530359010": {
+      "message": "Puna veli\u010Dina (do 5 GB besplatne pohrane)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Reproduciraj}female{Reproduciraj}other{Reproduciraj}}"
+   },
+   "4535738935335444945": {
+      "message": "Nije dijeljena"
+   },
+   "4550974869121207169": {
+      "message": "izbri\u0161i"
+   },
+   "4557902876984952242": {
+      "message": "Uredite"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Brisanjem tog albuma uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s albumom.}one{Brisanjem tih albuma uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s albumima.}few{Brisanjem tih albuma uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s albumima.}many{Brisanjem tih albuma uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s albumima.}other{Brisanjem tih albuma uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s albumima.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatsko o\u010Duvanje"
+   },
+   "4579986716424813115": {
+      "message": "Reproduciraj od po\u010Detka"
+   },
+   "460600293345244430": {
+      "message": "Odaberite fotografije da biste ih podijelili ili dodali u album."
+   },
+   "4624285717763544623": {
+      "message": "Dodaj"
+   },
+   "4630251340863502127": {
+      "message": "Prijenos uvezenih foografija"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Nemate nijedan album. Prenesite fotografije odmah!}male{Nemate nijedan album. Prenesite fotografije odmah!}other{Nemate nijedan album. Prenesite fotografije odmah!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Uvezena je jedna fotografija!}one{Uvezena je # fotografija!}few{Uvezene su # fotografije!}many{Uvezeno je # fotografija!}other{Uvezen je sljede\u0107i broj fotografija: #!}}"
+   },
+   "466730294804943734": {
+      "message": "Jo\u0161 nema komentara."
+   },
+   "467305038295675927": {
+      "message": "Aplikacija $1\u200B nije podr\u017Eana na toj platformi."
+   },
+   "4678028473996848955": {
+      "message": "Sve va\u0161e fotografije"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Odustani}female{Odustani}other{Odustani}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B od $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste prenijeli i podijelili!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Ako izbri\u0161ete te albume, izbrisat \u0107ete i sve postove, komentare i oznake +1 povezane s njima."
+   },
+   "471816275243265264": {
+      "message": "Lokacija"
+   },
+   "4726999481668064421": {
+      "message": "HDR fotografija izra\u0111ena je od niza fotografija s braketiranim ekspozicijama."
+   },
+   "4736210244914788712": {
+      "message": "Disk"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BPrijavljeni ste kao$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Pozdrav! Dobro do\u0161li u $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fotografije iz programa Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BPrijavljeni ste kao$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Sada mo\u017Eete odspojiti ure\u0111aj."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}female{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}other{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Uvezi fotografije kada priklju\u010Dim fotoaparat ili memorijsku karticu}male{Uvezi fotografije kada priklju\u010Dim fotoaparat ili memorijsku karticu}other{Uvezi fotografije kada priklju\u010Dim fotoaparat ili memorijsku karticu}}"
+   },
+   "484542621830317934": {
+      "message": "Nemate nijedan album. Prenesite fotografije sada!"
+   },
+   "489844404897890427": {
+      "message": "Cijeli zaslon"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 fotografija}=1{1 fotografija}one{{NUM_2} fotografija}few{{NUM_2} fotografije}many{{NUM_2} fotografija}other{Broj fotografija: {NUM_2}}}"
+   },
+   "4930506384627295710": {
+      "message": "Postavke"
+   },
+   "495485805564687684": {
+      "message": "Zaustavi uvoz"
+   },
+   "4957990634817185638": {
+      "message": "Nastavi s uvozom"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Podijeli album}=1{Podijeli odabranu fotografiju}one{Podijeli odabrane fotografije}few{Podijeli odabrane fotografije}many{Podijeli odabrane fotografije}other{Podijeli odabrane fotografije}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Kliknite da biste dodali fotografije}male{Kliknite da biste dodali fotografije}other{Kliknite da biste dodali fotografije}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Odabran {COUNT_2} dan}one{Odabran {COUNT_2} dan}few{Odabrana {COUNT_2} dana}many{Odabrano {COUNT_2} dana}other{Odabrano dana: {COUNT_2}}}"
+   },
+   "5028777105388019087": {
+      "message": "Pojedinosti"
+   },
+   "5043933900720743682": {
+      "message": "Albumi"
+   },
+   "5045200874122539692": {
+      "message": "Izlaz"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Prenesite koju fotografiju da biste zapo\u010Deli.}male{Prenesite koju fotografiju da biste zapo\u010Deli.}other{Prenesite koju fotografiju da biste zapo\u010Deli.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Va\u0161a domena"
+   },
+   "5087678602655068553": {
+      "message": "Fotoaparat"
+   },
+   "5094793857629325945": {
+      "message": "Priprema za dijeljenje..."
+   },
+   "509736707516044180": {
+      "message": "Otkazivanje..."
+   },
+   "5114432207766092038": {
+      "message": "Sve fotografije iz svih postova."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Brisanjem te fotografije uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s fotografijom.}one{Brisanjem tih fotografija uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s fotografijama.}few{Brisanjem tih fotografija uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s fotografijama.}many{Brisanjem tih fotografija uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s fotografijama.}other{Brisanjem tih fotografija uklonit \u0107ete sve komentare, oznake +1 i oznake s imenima povezane s fotografijama.}}"
+   },
+   "5127852906617233988": {
+      "message": "Zatvori"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Va\u0161i krugovi}male{Va\u0161i krugovi}other{Va\u0161i krugovi}}"
+   },
+   "5143227875710959810": {
+      "message": "Podijeli album"
+   },
+   "5146398958364876914": {
+      "message": "Poredaj"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{\u0160alje {FROM_NAME}}male{\u0160alje {FROM_NAME}}other{\u0160alje {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Postavi kao naslovnicu albuma}female{Postavi kao naslovnicu albuma}other{Postavi kao naslovnicu albuma}}"
+   },
+   "5179193375793315549": {
+      "message": "Ne mo\u017Eete odjednom dodati vi\u0161e od sljede\u0107eg broja fotografija: $1\u200B."
+   },
+   "5198477912095887288": {
+      "message": "kako je snimljeno"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pogledajte fotografiju}one{Pogledajte fotografije}few{Pogledajte fotografije}many{Pogledajte fotografije}other{Pogledajte fotografije}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}male{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}other{Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija.}}"
+   },
+   "5233843271957333982": {
+      "message": "poni\u0161ti"
+   },
+   "5252008443782667515": {
+      "message": "Da"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Postoji jo\u0161 jedna dodatna kopija koja ne\u0107e biti izbrisana.}one{Postoji jo\u0161 {NUM_ADDITIONAL_COPIES_2} dodatna kopija koja ne\u0107e biti izbrisana.}few{Postoje jo\u0161 {NUM_ADDITIONAL_COPIES_2} dodatne kopije koje ne\u0107e biti izbrisane.}many{Postoji jo\u0161 {NUM_ADDITIONAL_COPIES_2} dodatnih kopija koje ne\u0107e biti izbrisane.}other{Postoji sljede\u0107i broj dodatnih kopija koje ne\u0107e biti izbrisane: {NUM_ADDITIONAL_COPIES_2}.}}"
+   },
+   "5369958865776447504": {
+      "message": "Ta je fotografija u albumu \"$1\u200B\"."
+   },
+   "5376084340764125422": {
+      "message": "Izlaz iz punog zaslona"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Miks"
+   },
+   "5413761544816529267": {
+      "message": "Prijavite se za Google+ ra\u010Dun da biste upotrebljavali $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B."
+   },
+   "5438842342016861353": {
+      "message": "Poku\u0161ajte ponovo"
+   },
+   "545081735380424772": {
+      "message": "Prijenos i dijeljenje fotografija iz preglednika Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Izbri\u0161i fotografije"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Mutno"
+   },
+   "5522640894890976342": {
+      "message": "Prekr. eksp."
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Preduga ekspozicija}male{Preduga ekspozicija}other{Preduga ekspozicija}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Kopirana je jedna fotografija!}one{Kopirana je {NUM_PHOTOS_2} fotografija!}few{Kopirane su {NUM_PHOTOS_2} fotografije!}many{Kopirano je {NUM_PHOTOS_2} fotografija!}other{Kopirano je {NUM_PHOTOS_2} fotografija!}}"
+   },
+   "5546339789714773759": {
+      "message": "Zakreni udesno"
+   },
+   "5563891514339188770": {
+      "message": "Postavi kao naslovnicu albuma"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Kliknite da biste uklonili tu fotografiju}male{Kliknite da biste uklonili tu fotografiju}other{Kliknite da biste uklonili tu fotografiju}}"
+   },
+   "5613209249634786065": {
+      "message": "Puna veli\u010Dina (do 5 GB besplatne pohrane)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Pohranjujte, organizirajte i dijelite sve fotografije i videozapise u samo nekoliko klikova.}female{Pohranjujte, organizirajte i dijelite sve fotografije i videozapise u samo nekoliko klikova.}other{Pohranjujte, organizirajte i dijelite sve fotografije i videozapise u samo nekoliko klikova.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} najbolja fotografija koju je odabrao Google.}one{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najbolja fotografija koju je odabrao Google.}few{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najbolje fotografije koje je odabrao Google.}many{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najboljih fotografija koje je odabrao Google.}other{Broj najboljih fotografija koje je odabrao Google: {START_BOLD}{PICKED_COUNT_2}{END_BOLD}.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Pogledajte fotografiju}one{Pogledajte fotografije}few{Pogledajte fotografije}many{Pogledajte fotografije}other{Pogledajte fotografije}}}female{{COUNT,plural, =0{unused plural form}=1{Pogledajte fotografiju}one{Pogledajte fotografije}few{Pogledajte fotografije}many{Pogledajte fotografije}other{Pogledajte fotografije}}}other{{COUNT,plural, =0{unused plural form}=1{Pogledajte fotografiju}one{Pogledajte fotografije}few{Pogledajte fotografije}many{Pogledajte fotografije}other{Pogledajte fotografije}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Nitko nije ozna\u010Den u tom albumu."
+   },
+   "5747301769466451086": {
+      "message": "Puna veli\u010Dina (preostalo $1\u200B GB od $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Ne mo\u017Eete odjednom podijeliti vi\u0161e od sljede\u0107eg broja fotografija $1\u200B."
+   },
+   "5750485945694679561": {
+      "message": "Fotografija"
+   },
+   "5752465522295465624": {
+      "message": "\u0160to je ovo?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Uvezena je jedna fotografija!}one{Uvezena je # fotografija!}few{Uvezene su # fotografije!}many{Uvezeno je # fotografija!}other{Uvezen je sljede\u0107i broj fotografija: #.}}"
+   },
+   "5782608665556323710": {
+      "message": "Podijeljeno s pro\u0161irenim krugovima"
+   },
+   "5792855097053831820": {
+      "message": "Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Izbri\u0161i tu fotografiju}one{Izbri\u0161i fotografije}few{Izbri\u0161i fotografije}many{Izbri\u0161i fotografije}other{Izbri\u0161i fotografije}}"
+   },
+   "5822534876981710132": {
+      "message": "Automatsko slanje"
+   },
+   "5849125517299342831": {
+      "message": "Uvoz fotografija..."
+   },
+   "5851872412594366640": {
+      "message": "Premjesti sve fotografije u album"
+   },
+   "585220835732140655": {
+      "message": "Podijeljeno $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Puna veli\u010Dina (do 5,0 GB besplatne pohrane)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 fotografija koja je ve\u0107 uvezena bit \u0107e svejedno prenesena.}one{{NUM_PHOTOS_2} fotografija koja je ve\u0107 uvezena bit \u0107e svejedno prenesena.}few{{NUM_PHOTOS_2} fotografije koje su ve\u0107 uvezene bit \u0107e svejedno prenesene.}many{{NUM_PHOTOS_2} fotografija koje su ve\u0107 uvezene bit \u0107e svejedno prenesene.}other{Sljede\u0107i broj fotografija koje su ve\u0107 uvezene bit \u0107e svejedno prenesene: {NUM_PHOTOS_2}.}}"
+   },
+   "591256046515963756": {
+      "message": "Nemojte izgubiti nijednu uspomenu. Pristupajte svojim fotografijama u bilo koje vrijeme i putem bilo kojeg ure\u0111aja."
+   },
+   "5937251202465808296": {
+      "message": "Vi\u0161e"
+   },
+   "5963865584069399662": {
+      "message": "privatno"
+   },
+   "5978216065275630477": {
+      "message": "Nismo vas uspjeli prijaviti u Google+ fotografije."
+   },
+   "5981779462795520309": {
+      "message": "Primatelji izvornih postova"
+   },
+   "5984859669237993376": {
+      "message": "Kliknite da biste dodali fotografije"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna je fotografija dodana i spremna za dijeljenje!}one{# fotografija dodana je i spremna za dijeljenje!}few{# fotografije dodane su i spremne za dijeljenje!}many{# fotografija dodano je i spremno za dijeljenje!}other{Sljede\u0107i broj fotografija dodan je i spreman za dijeljenje: #}}"
+   },
+   "6003032126642624287": {
+      "message": "Puna veli\u010Dina (do 5,0 GB besplatne pohrane)"
+   },
+   "6021285543212025836": {
+      "message": "Ako izbri\u0161ete tu fotografiju, izbrisat \u0107ete i sve postove, komentare i oznake +1 povezane s njom."
+   },
+   "605360614133602045": {
+      "message": "prijepodne"
+   },
+   "6073020864818444056": {
+      "message": "Gotovo"
+   },
+   "612521550010808115": {
+      "message": "Vidljiv svima na webu"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna je fotografija dodana i spremna za dijeljenje!}one{# fotografija dodana je i spremna za dijeljenje!}few{# fotografije dodane su i spremne za dijeljenje!}many{# fotografija dodano je i spremno za dijeljenje!}other{Sljede\u0107i broj fotografija dodan je i spreman za dijeljenje: #.}}"
+   },
+   "6143433948220856193": {
+      "message": "Preduga ekspozicija"
+   },
+   "6250697253024491514": {
+      "message": "U redu"
+   },
+   "6261406176927621365": {
+      "message": "Izbri\u0161i fotografiju"
+   },
+   "6261883509320806048": {
+      "message": "\u017Delite li izbrisati odabrane fotografije?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B na jednom mjestu prikuplja sve fotografije na va\u0161em disku, kao i one snimljene telefonom i fotaparatom."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}female{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}other{Neka vam {APP_NAME} pomogne u odabiru najboljih snimki od fotografija koje uvezete}}"
+   },
+   "6366245138858985671": {
+      "message": "Album za spomenarske fotografije."
+   },
+   "636798263636559500": {
+      "message": "Unesite naziv albuma"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}male{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}other{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}}"
+   },
+   "6402624319890396199": {
+      "message": "Odustani"
+   },
+   "6405254665227516714": {
+      "message": "Sve fotografije profila."
+   },
+   "6421460271971606186": {
+      "message": "Zumiraj"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Ne mo\u017Eete odabrati fotografije drugih osoba}male{Ne mo\u017Eete odabrati fotografije drugih osoba}other{Ne mo\u017Eete odabrati fotografije drugih osoba}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Trenuta\u010Dno niste povezani s internetom.}female{Trenuta\u010Dno niste povezani s internetom.}other{Trenuta\u010Dno niste povezani s internetom.}}"
+   },
+   "6544829965377284375": {
+      "message": "Te su fotografije prenesene privatno na Google+ i vidljive su samo vama."
+   },
+   "6546455868033656709": {
+      "message": "Po datumu snimanja (od novijih prema starijima)"
+   },
+   "6562395422130457272": {
+      "message": "Osvjetljenje"
+   },
+   "6569718559670589774": {
+      "message": "Privatno podijeljeno"
+   },
+   "6578760328281087395": {
+      "message": "Izbri\u0161i fotografiju"
+   },
+   "6594379652661172876": {
+      "message": "Ta je slika u stilu fotografske kabine izra\u0111ena od ve\u0107eg broja portreta."
+   },
+   "6604371182910178125": {
+      "message": "Ako izbri\u0161ete taj album, izbrisat \u0107ete i sve postove, komentare i oznake +1 povezane s njim."
+   },
+   "6626842519109915669": {
+      "message": "Fotografije iz sigurnosnog kopiranja"
+   },
+   "663126026358360455": {
+      "message": "Standardno (neograni\u010Dena besplatna pohrana)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Jedna je fotografija dodana i spremna za dijeljenje!}one{{NUM_PHOTOS_2} fotografija dodana je i spremna za dijeljenje!}few{{NUM_PHOTOS_2} fotografije dodane su i spremne za dijeljenje!}many{{NUM_PHOTOS_2} fotografija dodano je i spremno za dijeljenje!}other{{NUM_PHOTOS_2} fotografija dodano je i spremno za dijeljenje!}}"
+   },
+   "664682826251689034": {
+      "message": "Jo\u0161 nema nijedne oznake +1."
+   },
+   "666585356635427967": {
+      "message": "Ova je fotografija automatski pobolj\u0161ana."
+   },
+   "6698080327673689103": {
+      "message": "Pronala\u017Eenje najboljih snimki..."
+   },
+   "6721868124884562992": {
+      "message": "Sakupite fotografije sa svih svojih ure\u0111aja na jednom mjestu."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Sa\u010Duvaj}female{Sa\u010Duvaj}other{Sa\u010Duvaj}}"
+   },
+   "6747166642870870925": {
+      "message": "Zaustavljanje uvoza..."
+   },
+   "6750134343457912784": {
+      "message": "Da biste \u0161to bolje iskoristili $1\u200B, podesite automatski uvoz svojih fotografija."
+   },
+   "675159243189607951": {
+      "message": "Dodaj fotografiju u album"
+   },
+   "6778067484492795152": {
+      "message": "Prekr. eksp."
+   },
+   "6792549611288275870": {
+      "message": "Fokusna duljina"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B sigurno pohranjuje va\u0161e fotografije i omogu\u0107uje da ih pregledavate u bilo kojem trenutku i s bilo kojeg ure\u0111aja."
+   },
+   "680511502310466916": {
+      "message": "Popularne fotografije"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{na {NUM_PHOTOS_2} fotografiji}one{na {NUM_PHOTOS_2} fotografiji}few{na {NUM_PHOTOS_2} fotografije}many{na {NUM_PHOTOS_2} fotografija}other{na sljede\u0107em broju fotografija: {NUM_PHOTOS_2}}}"
+   },
+   "6872320306636644917": {
+      "message": "Sada mo\u017Eete odspojiti ure\u0111aj."
+   },
+   "6872759799605876555": {
+      "message": "F broj"
+   },
+   "687281374586801843": {
+      "message": "Pokreni $1\u200B i uvezi fotografije kada priklju\u010Dim fotoaparat ili memorijsku karticu"
+   },
+   "6882873153932419461": {
+      "message": "Selektivna prilagodba"
+   },
+   "6906406658770551379": {
+      "message": "Animacija je izra\u0111ena iz slijeda pet ili vi\u0161e brzo snimljenih fotografija."
+   },
+   "6983200894459150878": {
+      "message": "Ta je panorama izra\u0111ena od skupa fotografija koje se preklapaju."
+   },
+   "7022070615528435141": {
+      "message": "Izbri\u0161i"
+   },
+   "7049887240439736400": {
+      "message": "Ispis"
+   },
+   "706796434064753890": {
+      "message": "Reproduciraj prezentaciju"
+   },
+   "7102649289752747375": {
+      "message": "Slanje povratnih informacija"
+   },
+   "7105497072958063616": {
+      "message": "Nijansa"
+   },
+   "7182974689040833178": {
+      "message": "Nastavi"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Va\u0161a domena}male{Va\u0161a domena}other{Va\u0161a domena}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BPrijavljeni ste kao$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Uvoz fotografija iz ure\u0111aja $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Nastavi s uvozom"
+   },
+   "7283005104295613831": {
+      "message": "Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine."
+   },
+   "7288593042347321202": {
+      "message": "\u017Delite li izbrisati odabrane fotografije?"
+   },
+   "7329217250595054697": {
+      "message": "Izvornik"
+   },
+   "734934965373819800": {
+      "message": "Povratak"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Ozna\u010Dena u albumu: {ALBUM_NAME}}male{Ozna\u010Den u albumu: {ALBUM_NAME}}other{Ozna\u010Den u albumu: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Dodaj fotografije"
+   },
+   "7419704019640008953": {
+      "message": "Dijeli"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Najbolja}male{Najbolja}other{Najbolja}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Dobro do\u0161li u aplikaciju {XXX}}male{Dobro do\u0161li u aplikaciju {XXX}}other{Dobro do\u0161li u aplikaciju {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Ponovno se pove\u017Eite da biste vidjeli sve fotografije i albume."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pauziraj}female{Pauziraj}other{Pauziraj}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Zakreni odabranu fotografiju udesno}one{Zakreni odabrane fotografije udesno}few{Zakreni odabrane fotografije udesno}many{Zakreni odabrane fotografije udesno}other{Zakreni odabrane fotografije udesno}}"
+   },
+   "7488769419737494778": {
+      "message": "Pozdrav, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Potom odaberite veli\u010Dinu za prijenos"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kopirana jedna fotografija!}one{Kopirana # fotografija!}few{Kopirane # fotografije!}many{Kopirano # fotografija!}other{Kopiran sljede\u0107i broj fotografija: #.}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Podijeli}female{Podijeli}other{Podijeli}}"
+   },
+   "7538539390938534172": {
+      "message": "Balans bijele boje"
+   },
+   "7546970424299309536": {
+      "message": "Automatski organizirano i spremno za dijeljenje"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nije odabrana nijedna fotografija}=1{Odabrana {COUNT_2} fotografija}one{Odabrana {COUNT_2} fotografija}few{Odabrane {COUNT_2} fotografije}many{Odabrano {COUNT_2} fotografija}other{Odabrano fotografija: {COUNT_2}}}"
+   },
+   "7637409896935138087": {
+      "message": "Po datumu snimanja (od starijih prema novijima)"
+   },
+   "7649598852815041947": {
+      "message": "Novi album"
+   },
+   "765296891797858248": {
+      "message": "Pozdrav!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Iz mape {FOLDER_NAME} jedna je fotografija dodana i spremna za dijeljenje!}one{Iz mape {FOLDER_NAME} {NUM_PHOTOS_2} fotografija dodana je i spremna za dijeljenje!}few{Iz mape {FOLDER_NAME} {NUM_PHOTOS_2} su fotografije dodane i spremne za dijeljenje!}many{Iz mape {FOLDER_NAME} {NUM_PHOTOS_2} je fotografija dodano i spremno za dijeljenje!}other{Iz mape {FOLDER_NAME} {NUM_PHOTOS_2} je fotografija dodano i spremno za dijeljenje!}}"
+   },
+   "7711373991730004597": {
+      "message": "Prikaza: $1\u200B"
+   },
+   "7718742267235559288": {
+      "message": "Iza\u0111i iz punog zaslona"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna fotografija kopirana je iz mape $1\u200B!}one{# fotografija kopirana je iz mape $1\u200B!}few{# fotografije kopirane su iz mape $1\u200B!}many{# fotografija kopirano je iz mape $1\u200B!}other{Iz mape $1\u200B kopiran je sljede\u0107i broj fotografija: #.}}"
+   },
+   "7736850283853703249": {
+      "message": "Sigurno pohranjeno"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Premjesti odabranu fotografiju}one{Premjesti odabrane fotografije}few{Premjesti odabrane fotografije}many{Premjesti odabrane fotografije}other{Premjesti odabrane fotografije}}"
+   },
+   "7756231341602930532": {
+      "message": "U redu"
+   },
+   "778874571620222981": {
+      "message": "Zapo\u010Dnite s upotrebom!"
+   },
+   "779808899645033177": {
+      "message": "Zadnji uvoz ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Samo vi"
+   },
+   "7828808805120058354": {
+      "message": "Vrati"
+   },
+   "7856636143847093955": {
+      "message": "Spoji dane"
+   },
+   "7871095434511949009": {
+      "message": "Otvor blende"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Potom odaberite veli\u010Dinu za prijenos}female{Potom odaberite veli\u010Dinu za prijenos}other{Potom odaberite veli\u010Dinu za prijenos}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}male{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}other{Odaberite izvore s kojih \u0107e fotografije biti uvezene i prenesene privatno na Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}male{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}other{Kliknite da biste odabrali tu fotografiju ili poni\u0161tili odabir}}"
+   },
+   "7899751896282337632": {
+      "message": "Popravljena fotografija"
+   },
+   "7911416166208830577": {
+      "message": "Pomo\u0107"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknite ovdje da biste vidjeli i podijelili tu fotografiju.}one{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}few{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}many{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}other{Kliknite ovdje da biste vidjeli i podijelili te fotografije.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Izbri\u0161i}female{Izbri\u0161i}other{Izbri\u0161i}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}female{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}other{Kliknite da biste fotografiju zakrenuli u smjeru suprotnom od kretanja kazaljke na satu}}"
+   },
+   "8031489364030461560": {
+      "message": "Postavljanje aplikacije $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Ta je fotografija automatski pobolj\u0161ana.}male{Ta je fotografija automatski pobolj\u0161ana.}other{Ta je fotografija automatski pobolj\u0161ana.}}"
+   },
+   "8112449587476468078": {
+      "message": "\u017Delite li izbrisati odabrani album?"
+   },
+   "8121983485737306983": {
+      "message": "dupliciraj"
+   },
+   "8137181364321684389": {
+      "message": "Google+ fotografije"
+   },
+   "8160611829089073754": {
+      "message": "Brisanje albuma"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dodaj odabranu fotografiju u album}one{Dodaj odabrane fotografije u album}few{Dodaj odabrane fotografije u album}many{Dodaj odabrane fotografije u album}other{Dodaj odabrane fotografije u album}}"
+   },
+   "8179903593042831802": {
+      "message": "Dodaj fotke"
+   },
+   "819996403327805209": {
+      "message": "Saznajte vi\u0161e"
+   },
+   "8209467666747691270": {
+      "message": "Najbolji"
+   },
+   "8233995188166153420": {
+      "message": "Prijavite se u Chrome da biste zapo\u010Deli s prijenosom fotografija."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Najlo\u0161iji duplikat}male{Najlo\u0161iji duplikat}other{Najlo\u0161iji duplikat}}"
+   },
+   "8257489178421131174": {
+      "message": "Unesite naziv albuma"
+   },
+   "8262372758945437018": {
+      "message": "Po\u010Detak rada"
+   },
+   "8272813937461935720": {
+      "message": "Nismo vas uspjeli prijaviti u Google+ fotografije."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Kliknite da biste dodali fotografije}female{Kliknite da biste dodali fotografije}other{Kliknite da biste dodali fotografije}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Podijeli odabranu fotografiju}one{Podijeli odabrane fotografije}few{Podijeli odabrane fotografije}many{Podijeli odabrane fotografije}other{Podijeli odabrane fotografije}}"
+   },
+   "8317910107005018559": {
+      "message": "Manje"
+   },
+   "8324963774100913509": {
+      "message": "Ograni\u010Deno"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Dobro do\u0161li u aplikaciju {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Unesite naziv albuma}male{Unesite naziv albuma}other{Unesite naziv albuma}}"
+   },
+   "8405309693308875139": {
+      "message": "Fotografije"
+   },
+   "840692109692540367": {
+      "message": "Prijava"
+   },
+   "8418580476552799567": {
+      "message": "Veli\u010Dina za prijenos"
+   },
+   "8446162208830000966": {
+      "message": "Izlaz"
+   },
+   "8461609631969932886": {
+      "message": "Sakrij"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B, verzija $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknite ovdje da biste vidjeli tu fotografiju.}one{Kliknite ovdje da biste vidjeli te fotografije.}few{Kliknite ovdje da biste vidjeli te fotografije.}many{Kliknite ovdje da biste vidjeli te fotografije.}other{Kliknite ovdje da biste vidjeli te fotografije.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Neke fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}male{{COUNT_1,plural, =0{Neke fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}other{{COUNT_1,plural, =0{Neke fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}=1{{START_BOLD}1{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste je prenijeli i podijelili!}one{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}few{{START_BOLD}{COUNT_2}{END_BOLD} fotografije \u010Dekaju prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}many{{START_BOLD}{COUNT_2}{END_BOLD} fotografija \u010Deka prijenos. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}other{Sljede\u0107i broj fotografija \u010Deka prijenos: {START_BOLD}{COUNT_2}{END_BOLD}. Ponovno se pove\u017Eite da biste ih prenijeli i podijelili!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Neka vam $1\u200B pomogne u odabiru najboljih snimki od fotografija koje uvezete"
+   },
+   "8554704680089748768": {
+      "message": "Fotografije uvezene dana $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Reproduciraj"
+   },
+   "8566172133042307539": {
+      "message": "Dodaj u album"
+   },
+   "8588705294225487286": {
+      "message": "Vidljive primateljima izvornih postova"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}male{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}other{Odaberite sigurnosne kopije fotografija u punoj veli\u010Dini ili manje, besplatne prijenose standardne veli\u010Dine.}}"
+   },
+   "8654290347345927684": {
+      "message": "Sada mo\u017Eete odvojiti ure\u0111aj $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Pozdrav! Dobro do\u0161li na {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Odaberi najbolje"
+   },
+   "8675112326850410714": {
+      "message": "Priklju\u010Dena je memorijska kartica ili ure\u0111aj za pohranu"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Zatvori}female{Zatvori}other{Zatvori}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna fotografija uvezena je iz mape $1\u200B!}one{# fotografija uvezena je iz mape $1\u200B!}few{# fotografije uvezene su iz mape $1\u200B!}many{# fotografija uvezeno je iz mape $1\u200B!}other{Iz mape $1\u200B uvezen je sljede\u0107i broj fotografija: #.}}"
+   },
+   "8704271911477526098": {
+      "message": "Privatno"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Trenuta\u010Dno niste povezani s internetom.}male{Trenuta\u010Dno niste povezani s internetom.}other{Trenuta\u010Dno niste povezani s internetom.}}"
+   },
+   "8759519761443041119": {
+      "message": "Spremi postavke"
+   },
+   "8765880467977864647": {
+      "message": "prenio: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Korisni\u010Dki izbornik"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Cijeli zaslon}female{Cijeli zaslon}other{Cijeli zaslon}}"
+   },
+   "8777952755137547655": {
+      "message": "Ova panoramska fotografija izra\u0111ena je iz skupa fotografija susjednih pogleda."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Prijenos dovr\u0161en! 1 je fotografija spremna za dijeljenje.}one{Prijenos dovr\u0161en! {COUNT_2} fotografija spremna je za dijeljenje.}few{Prijenos dovr\u0161en! {COUNT_2} fotografije spremne su za dijeljenje.}many{Prijenos dovr\u0161en! {COUNT_2} fotografija spremno je za dijeljenje.}other{Prijenos dovr\u0161en! Sljede\u0107i broj fotografija spreman je za dijeljenje: {COUNT_2}.}}"
+   },
+   "8832933617217959986": {
+      "message": "Poni\u0161ti odabir svega"
+   },
+   "8874739581425612284": {
+      "message": "Odaberite fotografije da biste ih podijelili ili dodali u album"
+   },
+   "8890553633144307762": {
+      "message": "Natrag"
+   },
+   "8928816882866356838": {
+      "message": "Javno"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Izbri\u0161i album}=1{Izbri\u0161i odabranu fotografiju}one{Izbri\u0161i odabrane fotografije}few{Izbri\u0161i odabrane fotografije}many{Izbri\u0161i odabrane fotografije}other{Izbri\u0161i odabrane fotografije}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Ispis}female{Ispis}other{Ispis}}"
+   },
+   "8984549175557747262": {
+      "message": "Obrada videozapisa..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Prekratka ekspozicija}male{Prekratka ekspozicija}other{Prekratka ekspozicija}}"
+   },
+   "8998179362936748717": {
+      "message": "U redu"
+   },
+   "9013643635142116580": {
+      "message": "Podijeljeno s domenom"
+   },
+   "9042260521669277115": {
+      "message": "Pauziraj"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{Ukupno 0 prikaza}=1{Ukupno 1 prikaz}one{Ukupno {VIEW_COUNT_2} prikaz}few{Ukupno {VIEW_COUNT_2} prikaza}many{Ukupno {VIEW_COUNT_2} prikaza}other{Ukupno prikaza: {VIEW_COUNT_2}}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B automatski odabire najbolje snimke iz va\u0161ih zbirki i priprema ih za dijeljenje."
+   },
+   "9137360918780826967": {
+      "message": "Niska kvaliteta"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedna je fotografija dodana i spremna za dijeljenje!}one{# fotografija dodana je i spremna za dijeljenje!}few{# fotografije dodane su i spremne za dijeljenje!}many{# fotografija dodano je i spremno za dijeljenje!}other{Sljede\u0107i broj fotografija dodan je i spreman za dijeljenje: #}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} pojednostavnjuje organiziranje i dijeljenje fotografija.}female{{XXX_2} pojednostavnjuje organiziranje i dijeljenje fotografija.}other{{XXX_3} pojednostavnjuje organiziranje i dijeljenje fotografija.}}"
+   },
+   "9219694540199049147": {
+      "message": "Mapa..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{U prethodnoj je sesiji ve\u0107 prenesena jedna fotografija.}one{U prethodnoj je sesiji ve\u0107 prenesena {NUM_PHOTOS_2} fotografija.}few{U prethodnoj su sesiji ve\u0107 prenesene {NUM_PHOTOS_2} fotografije.}many{U prethodnoj je sesiji ve\u0107 preneseno {NUM_PHOTOS_2} fotografija.}other{U prethodnoj je sesiji ve\u0107 preneseno njih {NUM_PHOTOS_2}.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Uspje\u0161no je uvezena i a\u017Eurirana {START_BOLD}1{END_BOLD} fotografija.}one{Uspje\u0161no je uvezena i a\u017Eurirana {START_BOLD}{COUNT_2}{END_BOLD} fotografija.}few{Uspje\u0161no su uvezene i a\u017Eurirane {START_BOLD}{COUNT_2}{END_BOLD} fotografije.}many{Uspje\u0161no je uvezeno i a\u017Eurirano {START_BOLD}{COUNT_2}{END_BOLD} fotografija.}other{Uspje\u0161no je uvezen i a\u017Euriran sljede\u0107i broj fotografija: {START_BOLD}{COUNT_2}{END_BOLD}.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Da biste \u0161to bolje iskoristili {XXX}, postavite automatski uvoz svojih fotografija.}male{Da biste \u0161to bolje iskoristili {XXX}, postavite automatski uvoz svojih fotografija.}other{Da biste \u0161to bolje iskoristili {XXX}, postavite automatski uvoz svojih fotografija.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Premjesti sve fotografije u albumu}=1{Premjesti odabranu fotografiju}one{Premjesti odabrane fotografije}few{Premjesti odabrane fotografije}many{Premjesti odabrane fotografije}other{Premjesti odabrane fotografije}}"
+   },
+   "982577805980296193": {
+      "message": "Kliknite ovdje da biste pregledali i dijelili te fotografije."
+   }
+}

@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tests</title>
+    <link rel="stylesheet" href="/node_modules/mocha/mocha.css" />
+
+    <script src="/lib/jquery-1.9.1.min.js"></script>
+    <script src="/lib/underscore.min.js"></script>
+    <script src="/lib/backbone.js"></script>
+    <script src="/lib/localstore.js"></script>
+    <script src="/node_modules/chai/chai.js"></script>
+    <script src="/node_modules/mocha/mocha.js"></script>
+    <script src="/node_modules/sinon/pkg/sinon.js"></script>
+    <script src="setup.js"></script>
+
+    <script>
+      var assert = chai.assert;
+
+      mocha.setup({
+        ui: 'tdd'
+      });
+
+      $(function () {
+        if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+        else { mocha.run(); }
+      });
+    </script>
+
+    <script src="/lib/memrise.js"></script>
+    <script src="/options/js/settings.js"></script>
+
+    <script src="settings.test.js"></script>
+    <script src="localstore.test.js"></script>
+    <script src="memrise.test.js"></script>
+  </head>
+
+  <body>
+    <div id="mocha"></div>
+  </body>
+</html>

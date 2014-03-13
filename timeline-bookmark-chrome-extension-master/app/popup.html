@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="bookmarkApp" ng-csp>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower_components/angular-bootstrap-datepicker/example/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/angular-bootstrap-datepicker/example/angular-bootstrap-datepicker.css" />
+
+        <script src="bower_components/angular-bootstrap-datepicker/example/jquery.js"></script>
+        <!--script src="bootstrap/js/bootstrap.js"></script-->
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-bootstrap-datepicker/dist/angular-bootstrap-datepicker.js"></script>
+
+	    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+	    <script src="scripts/app.js"></script>
+	    <script src="scripts/controllers/main.js"></script>
+    	<!-- endbuild -->
+    </head>
+    <body ng-controller="MainCtrl">
+        <!-- CHROME EXTENSION POPUP -->
+        <div>
+        {{title}}
+        </div>
+        <div class="form-inline">
+            <input type="text" ng-datepicker ng-options="datepickerOptions" ng-model="date">
+            <a ng-click="save()" class="btn btn-primary">Save</a>
+            <a ng-click="timeline()" class="btn btn-primary">TimeLine</a>
+        </div>
+    </body>
+</html>

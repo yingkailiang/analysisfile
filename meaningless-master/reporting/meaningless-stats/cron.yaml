@@ -1,0 +1,10 @@
+cron:
+- description: hourly report job
+  url: /global
+  schedule: every 1 hours synchronized
+- description: daily summary job
+  url: /task/daily
+  schedule: every 24 hours
+- description: monthly summary job
+  url: /task/monthly
+  schedule: 1 of month 09:00

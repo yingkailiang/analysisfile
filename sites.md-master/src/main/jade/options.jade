@@ -1,0 +1,90 @@
+!!! 5
+html(ng-app="sites.md",ng-csp)
+  head
+    // build:css({.tmp,app}) styles/app.css
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    link(href='bower_components/bootstrap/docs/assets/css/bootstrap.css', rel='stylesheet')
+    link(href='bower_components/bootstrap/docs/assets/css/bootstrap-responsive.css', res='stylesheet')
+    link(href='styles/options.css', rel='stylesheet')
+    // endbuild
+  body(style="margin-top:40px;")
+    .navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container-fluid
+          a.brand(href='#') {{i18n('appName')}}
+          ul.nav
+            li.active
+              a(href='#') {{i18n('AutoMarknized')}}
+    .container-fluid(ng-controller="OptionsCtrl as main")
+      .row-fluid
+        .span12
+          h2 {{i18n('AutoMarknizedSettingHeader')}}
+          p {{i18n('AutoMarknizedSettingLead')}}
+      .row-fluid
+        .span12
+          select.span12(ng-model="main.setting",
+                        ng-options="setting.name for setting in main.settings",
+                        size=10,
+                        ng-change="main.selectSetting()",
+                        ng-keyup="main.delKey($event)"
+                        )
+            option(value="") -- {{i18n('CreateNewOption')}} --
+      .row-fluid
+        .span12
+          form.form-horizontal(name="settingForm")
+            fieldset
+              legend {{i18n('AutoMarknizedSettingLegend')}}
+              .control-group
+                label.control-label {{i18n('Name')}}
+                .controls
+                  input.span12(type="text",name="name",ng-model="setting.name", placeholder="Set Auto maknized setting name", required)
+              .control-group
+                label.control-label {{i18n('AutoMarknized')}} or <br />
+                  | Does not {{i18n('AutoMarknized')}}
+                .controls
+                  label.radio
+                    input(type="radio",name="auto", placeholder="placeholder", value="on",ng-model="setting.auto", checked)
+                    | {{i18n('AutoMarknized')}}
+                  label.radio
+                    input(type="radio",name="auto", placeholder="placeholder", value="off",ng-model="setting.auto")
+                    | {{i18n('Ignore')}}
+              .control-group
+                label.control-label {{i18n('Type')}}
+                .controls
+                  select(name="type", ng-model="setting.type")
+                    option(value="url") URL
+                    option(value="contents") {{i18n('Contents')}}
+              .control-group
+                label.control-label　{{i18n('Expression')}}
+                .controls(ng-show="setting.type == 'contents'")
+                  select(name="expressionType", ng-model="setting.expressionType", required)
+                    option(value="title") {{i18n('Title')}}
+                    option(value="page_content") {{i18n('PageContent')}}
+                  | {{i18n('contains')}}
+                  input(type="text", placeholder="text", ng-model="setting.expressionText", required)
+                .controls(ng-show="setting.type == 'url'")
+                  | URL {{i18n('contains')}}
+                  input(type="text", placeholder="text", ng-model="setting.expressionText", required)
+              .form-actions
+                button.btn(ng-show="!main.setting", ng-disabled="!settingForm.$valid", ng-click="main.add(setting)") {{i18n('Add')}}
+                button.btn(ng-show="main.setting", ng-disabled="!settingForm.$valid", ng-click="main.add(setting)") {{i18n('Copy')}}
+                button.btn(ng-show="main.setting", ng-disabled="!settingForm.$valid", ng-click="main.modify(setting)") {{i18n('Modify')}}
+                button.btn(type="button", ng-show="main.setting", ng-click="main.del()") {{i18n('Delete')}}
+                button.btn(ng-click="main.reset()") {{i18n('Cancel')}}
+
+    // CHROME EXTENSION OPTION 
+    // build:js scripts/options.js 
+    script(type="text/javascript", src="bower_components/jquery/jquery.min.js")
+    script(type="text/javascript", src="bower_components/angular-unstable/angular.min.js")
+    script(src="bower_components/angular-ui-bootstrap-bower/ui-bootstrap-tpls.min.js")
+    script(src="bower_components/angular-sanitize/angular-sanitize.js")
+    script(src='scripts/options.js')
+
+    // services
+    script(type="text/javascript", src="scripts/services/storage.js")
+
+    // controllers
+    script(src="scripts/controllers/options.js")
+    // endbuild 
+    if livereload
+      script(src="http://localhost:35729/livereload.js")

@@ -1,0 +1,479 @@
+<NotepadPlus>
+    <Project name="Huihui">
+        <Folder name="css">
+            <File name="Huihui\3.4_0\css\deprice-notify.css" />
+            <File name="Huihui\3.4_0\css\notification.css" />
+            <File name="Huihui\3.4_0\css\options.css" />
+            <File name="Huihui\3.4_0\css\orderDetail.css" />
+            <File name="Huihui\3.4_0\css\popup.css" />
+            <File name="Huihui\3.4_0\css\reset.css" />
+        </Folder>
+        <Folder name="images">
+            <File name="Huihui\3.4_0\images\1.png" />
+            <File name="Huihui\3.4_0\images\2.png" />
+            <File name="Huihui\3.4_0\images\3.png" />
+            <File name="Huihui\3.4_0\images\4.png" />
+            <File name="Huihui\3.4_0\images\5.png" />
+            <File name="Huihui\3.4_0\images\6.png" />
+            <File name="Huihui\3.4_0\images\80-80.jpg" />
+            <File name="Huihui\3.4_0\images\discount.png" />
+            <File name="Huihui\3.4_0\images\discount_hover.png" />
+            <File name="Huihui\3.4_0\images\feedback.png" />
+            <File name="Huihui\3.4_0\images\feedback_hover.png" />
+            <File name="Huihui\3.4_0\images\glyphicons-halflings-white.png" />
+            <File name="Huihui\3.4_0\images\help.png" />
+            <File name="Huihui\3.4_0\images\help_hover.png" />
+            <File name="Huihui\3.4_0\images\huihuigwzs_sp.png" />
+            <File name="Huihui\3.4_0\images\icon-128.png" />
+            <File name="Huihui\3.4_0\images\icon-16.png" />
+            <File name="Huihui\3.4_0\images\icon-19.png" />
+            <File name="Huihui\3.4_0\images\icon-32.png" />
+            <File name="Huihui\3.4_0\images\icon-huihui.png" />
+            <File name="Huihui\3.4_0\images\icon.png" />
+            <File name="Huihui\3.4_0\images\logo.png" />
+            <File name="Huihui\3.4_0\images\more_pic.png" />
+            <File name="Huihui\3.4_0\images\notify.mp3" />
+            <File name="Huihui\3.4_0\images\sprite.png" />
+            <File name="Huihui\3.4_0\images\tips_bg.png" />
+        </Folder>
+        <Folder name="js">
+            <Folder name="orderAssistant">
+                <File name="Huihui\3.4_0\js\orderAssistant\logisticsTool.js" />
+                <File name="Huihui\3.4_0\js\orderAssistant\order.js" />
+                <File name="Huihui\3.4_0\js\orderAssistant\orderNotification.js" />
+                <File name="Huihui\3.4_0\js\orderAssistant\orderTool.js" />
+                <File name="Huihui\3.4_0\js\orderAssistant\order_debug.json" />
+                <File name="Huihui\3.4_0\js\orderAssistant\util.js" />
+            </Folder>
+            <File name="Huihui\3.4_0\js\bg.js" />
+            <File name="Huihui\3.4_0\js\deprice-notify.js" />
+            <File name="Huihui\3.4_0\js\loader.js" />
+            <File name="Huihui\3.4_0\js\log.js" />
+            <File name="Huihui\3.4_0\js\notification.js" />
+            <File name="Huihui\3.4_0\js\notifyBtnController.js" />
+            <File name="Huihui\3.4_0\js\options.js" />
+            <File name="Huihui\3.4_0\js\order-notification.js" />
+            <File name="Huihui\3.4_0\js\order.js" />
+            <File name="Huihui\3.4_0\js\orderDetail.js" />
+            <File name="Huihui\3.4_0\js\orderNotifyUtil.js" />
+            <File name="Huihui\3.4_0\js\popup.js" />
+            <File name="Huihui\3.4_0\js\tmpl.js" />
+        </Folder>
+        <Folder name="lib">
+            <File name="Huihui\3.4_0\lib\bootstrap.css" />
+            <File name="Huihui\3.4_0\lib\bootstrap.js" />
+            <File name="Huihui\3.4_0\lib\jquery.js" />
+            <File name="Huihui\3.4_0\lib\require.js" />
+            <File name="Huihui\3.4_0\lib\underscore.js" />
+            <File name="Huihui\3.4_0\lib\zepto.js" />
+        </Folder>
+        <File name="Huihui\3.4_0\bg.html" />
+        <File name="Huihui\3.4_0\config.xml" />
+        <File name="Huihui\3.4_0\deprice-notify.html" />
+        <File name="Huihui\3.4_0\manifest.json" />
+        <File name="Huihui\3.4_0\notification.html" />
+        <File name="Huihui\3.4_0\options.html" />
+        <File name="Huihui\3.4_0\order-notification.html" />
+        <File name="Huihui\3.4_0\order.json" />
+        <File name="Huihui\3.4_0\orderDetail.html" />
+        <File name="Huihui\3.4_0\order_config.json" />
+        <File name="Huihui\3.4_0\popup.html" />
+        <File name="Huihui\3.4_0\test-notify.html" />
+    </Project>
+    <Project name="SocialBa">
+        <Folder name="content">
+            <Folder name="images">
+                <Folder name="buffer-item">
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\clock.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\delete.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\edit.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\post.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-facebook.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-kaixin001.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-linkedin.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-plurk.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-qzone.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-renren.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-tencent.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-twitter.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-vkontakte.png" />
+                    <File name="SocialBa\2.1.78_0\content\images\buffer-item\sns-weibo.png" />
+                </Folder>
+                <Folder name="publish-sync">
+                    <Folder name="icons">
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\128.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\16.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\19.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\19_.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\20.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\48.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\clock.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\close.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\copy.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\facebook.gif" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\hot.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\icons.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\locked.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\locked_.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\page.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\page_.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\icons\question.png" />
+                    </Folder>
+                    <Folder name="menu">
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\menu\l_blue.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\menu\l_blue2.png" />
+                        <File name="SocialBa\2.1.78_0\content\images\publish-sync\menu\l_white.png" />
+                    </Folder>
+                    <File name="SocialBa\2.1.78_0\content\images\publish-sync\btn.png" />
+                </Folder>
+                <File name="SocialBa\2.1.78_0\content\images\noticeIcon.png" />
+            </Folder>
+            <File name="SocialBa\2.1.78_0\content\share-0.png" />
+            <File name="SocialBa\2.1.78_0\content\share-1.png" />
+            <File name="SocialBa\2.1.78_0\content\share.css" />
+        </Folder>
+        <Folder name="pages">
+            <Folder name="css">
+                <File name="SocialBa\2.1.78_0\pages\css\buffer.css" />
+                <File name="SocialBa\2.1.78_0\pages\css\pannel.css" />
+            </Folder>
+            <Folder name="images">
+                <Folder name="icons">
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\20.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\link_e.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\link_u.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\loading.gif" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\login.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\login_.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\new.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\refresh.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\r_loading.gif" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\share.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\smallIcon.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\up.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\up_.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\icons\up__.png" />
+                </Folder>
+                <Folder name="site">
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_facebook.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_google.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_kaixin.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_linkedin.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_plurk.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_qzone.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_renren.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_sina.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_tencent.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_twitter.png" />
+                    <File name="SocialBa\2.1.78_0\pages\images\site\i_vkontakte.png" />
+                </Folder>
+                <File name="SocialBa\2.1.78_0\pages\images\checkmark.png" />
+                <File name="SocialBa\2.1.78_0\pages\images\invite.png" />
+                <File name="SocialBa\2.1.78_0\pages\images\loading.gif" />
+                <File name="SocialBa\2.1.78_0\pages\images\logout.png" />
+                <File name="SocialBa\2.1.78_0\pages\images\menu.png" />
+                <File name="SocialBa\2.1.78_0\pages\images\profile.gif" />
+                <File name="SocialBa\2.1.78_0\pages\images\uiButton.png" />
+                <File name="SocialBa\2.1.78_0\pages\images\writing.png" />
+            </Folder>
+            <Folder name="scripts">
+                <File name="SocialBa\2.1.78_0\pages\scripts\buffer.js" />
+                <File name="SocialBa\2.1.78_0\pages\scripts\buffernotify.js" />
+                <File name="SocialBa\2.1.78_0\pages\scripts\loading.js" />
+                <File name="SocialBa\2.1.78_0\pages\scripts\panel.js" />
+                <File name="SocialBa\2.1.78_0\pages\scripts\share.js" />
+            </Folder>
+            <File name="SocialBa\2.1.78_0\pages\buffer.html" />
+            <File name="SocialBa\2.1.78_0\pages\bufferlist.html" />
+            <File name="SocialBa\2.1.78_0\pages\buffernotify.html" />
+            <File name="SocialBa\2.1.78_0\pages\loading.html" />
+            <File name="SocialBa\2.1.78_0\pages\notify.html" />
+            <File name="SocialBa\2.1.78_0\pages\options.html" />
+            <File name="SocialBa\2.1.78_0\pages\share.html" />
+        </Folder>
+        <Folder name="scripts">
+            <Folder name="publish-sync">
+                <Folder name="background">
+                    <Folder name="social_helpers">
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_helpers\gplusHelper.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_helpers\weibo.iframe.js" />
+                    </Folder>
+                    <Folder name="social_objects">
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\facebook.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\gplus.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\kaixin001.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\linkedin.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\plurk.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\qzone.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\renren.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\tencent.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\twitter.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\vkontakte.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\social_objects\weibo.js" />
+                    </Folder>
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\background.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\buffer.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\oauthbase.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\options.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\background\socialServer.js" />
+                </Folder>
+                <Folder name="foreground">
+                    <Folder name="social_helpers">
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_helpers\client.facebook.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_helpers\client.gplus.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_helpers\site.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_helpers\siteHelper.js" />
+                    </Folder>
+                    <Folder name="social_injection">
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_facebook.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_gplus.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_kaixin001.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_linkedin.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_plurk.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_qzone.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_renren.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_tencent.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_twitter.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_vkontakte.js" />
+                        <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\social_injection\site_weibo.js" />
+                    </Folder>
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\buffer.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\menu.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\session.js" />
+                    <File name="SocialBa\2.1.78_0\scripts\publish-sync\foreground\socialClient.js" />
+                </Folder>
+            </Folder>
+            <Folder name="share">
+                <File name="SocialBa\2.1.78_0\scripts\share\invite.js" />
+                <File name="SocialBa\2.1.78_0\scripts\share\s.facebook.injection.js" />
+                <File name="SocialBa\2.1.78_0\scripts\share\s.gplus.injection.js" />
+                <File name="SocialBa\2.1.78_0\scripts\share\s.twitter.injection.js" />
+                <File name="SocialBa\2.1.78_0\scripts\share\share.js" />
+            </Folder>
+            <Folder name="tools">
+                <File name="SocialBa\2.1.78_0\scripts\tools\urlShorten.js" />
+            </Folder>
+            <File name="SocialBa\2.1.78_0\scripts\browserHelper.js" />
+            <File name="SocialBa\2.1.78_0\scripts\common.js" />
+            <File name="SocialBa\2.1.78_0\scripts\jquery-1.7.2.min.js" />
+            <File name="SocialBa\2.1.78_0\scripts\language.js" />
+        </Folder>
+        <Folder name="_locales">
+            <Folder name="ar">
+                <File name="SocialBa\2.1.78_0\_locales\ar\messages.json" />
+            </Folder>
+            <Folder name="bg">
+                <File name="SocialBa\2.1.78_0\_locales\bg\messages.json" />
+            </Folder>
+            <Folder name="ca">
+                <File name="SocialBa\2.1.78_0\_locales\ca\messages.json" />
+            </Folder>
+            <Folder name="cs">
+                <File name="SocialBa\2.1.78_0\_locales\cs\messages.json" />
+            </Folder>
+            <Folder name="da">
+                <File name="SocialBa\2.1.78_0\_locales\da\messages.json" />
+            </Folder>
+            <Folder name="de">
+                <File name="SocialBa\2.1.78_0\_locales\de\messages.json" />
+            </Folder>
+            <Folder name="el">
+                <File name="SocialBa\2.1.78_0\_locales\el\messages.json" />
+            </Folder>
+            <Folder name="en">
+                <File name="SocialBa\2.1.78_0\_locales\en\messages.json" />
+            </Folder>
+            <Folder name="en_AU">
+                <File name="SocialBa\2.1.78_0\_locales\en_AU\messages.json" />
+            </Folder>
+            <Folder name="en_GB">
+                <File name="SocialBa\2.1.78_0\_locales\en_GB\messages.json" />
+            </Folder>
+            <Folder name="en_US">
+                <File name="SocialBa\2.1.78_0\_locales\en_US\messages.json" />
+            </Folder>
+            <Folder name="es">
+                <File name="SocialBa\2.1.78_0\_locales\es\messages.json" />
+            </Folder>
+            <Folder name="et">
+                <File name="SocialBa\2.1.78_0\_locales\et\messages.json" />
+            </Folder>
+            <Folder name="fi">
+                <File name="SocialBa\2.1.78_0\_locales\fi\messages.json" />
+            </Folder>
+            <Folder name="fil">
+                <File name="SocialBa\2.1.78_0\_locales\fil\messages.json" />
+            </Folder>
+            <Folder name="fr">
+                <File name="SocialBa\2.1.78_0\_locales\fr\messages.json" />
+            </Folder>
+            <Folder name="he">
+                <File name="SocialBa\2.1.78_0\_locales\he\messages.json" />
+            </Folder>
+            <Folder name="hi">
+                <File name="SocialBa\2.1.78_0\_locales\hi\messages.json" />
+            </Folder>
+            <Folder name="hr">
+                <File name="SocialBa\2.1.78_0\_locales\hr\messages.json" />
+            </Folder>
+            <Folder name="hu">
+                <File name="SocialBa\2.1.78_0\_locales\hu\messages.json" />
+            </Folder>
+            <Folder name="id">
+                <File name="SocialBa\2.1.78_0\_locales\id\messages.json" />
+            </Folder>
+            <Folder name="it">
+                <File name="SocialBa\2.1.78_0\_locales\it\messages.json" />
+            </Folder>
+            <Folder name="ja">
+                <File name="SocialBa\2.1.78_0\_locales\ja\messages.json" />
+            </Folder>
+            <Folder name="ko">
+                <File name="SocialBa\2.1.78_0\_locales\ko\messages.json" />
+            </Folder>
+            <Folder name="lt">
+                <File name="SocialBa\2.1.78_0\_locales\lt\messages.json" />
+            </Folder>
+            <Folder name="lv">
+                <File name="SocialBa\2.1.78_0\_locales\lv\messages.json" />
+            </Folder>
+            <Folder name="nl">
+                <File name="SocialBa\2.1.78_0\_locales\nl\messages.json" />
+            </Folder>
+            <Folder name="no">
+                <File name="SocialBa\2.1.78_0\_locales\no\messages.json" />
+            </Folder>
+            <Folder name="pl">
+                <File name="SocialBa\2.1.78_0\_locales\pl\messages.json" />
+            </Folder>
+            <Folder name="pt_BR">
+                <File name="SocialBa\2.1.78_0\_locales\pt_BR\messages.json" />
+            </Folder>
+            <Folder name="pt_PT">
+                <File name="SocialBa\2.1.78_0\_locales\pt_PT\messages.json" />
+            </Folder>
+            <Folder name="ro">
+                <File name="SocialBa\2.1.78_0\_locales\ro\messages.json" />
+            </Folder>
+            <Folder name="ru">
+                <File name="SocialBa\2.1.78_0\_locales\ru\messages.json" />
+            </Folder>
+            <Folder name="sk">
+                <File name="SocialBa\2.1.78_0\_locales\sk\messages.json" />
+            </Folder>
+            <Folder name="sl">
+                <File name="SocialBa\2.1.78_0\_locales\sl\messages.json" />
+            </Folder>
+            <Folder name="sr">
+                <File name="SocialBa\2.1.78_0\_locales\sr\messages.json" />
+            </Folder>
+            <Folder name="sv">
+                <File name="SocialBa\2.1.78_0\_locales\sv\messages.json" />
+            </Folder>
+            <Folder name="th">
+                <File name="SocialBa\2.1.78_0\_locales\th\messages.json" />
+            </Folder>
+            <Folder name="tr">
+                <File name="SocialBa\2.1.78_0\_locales\tr\messages.json" />
+            </Folder>
+            <Folder name="uk">
+                <File name="SocialBa\2.1.78_0\_locales\uk\messages.json" />
+            </Folder>
+            <Folder name="vi">
+                <File name="SocialBa\2.1.78_0\_locales\vi\messages.json" />
+            </Folder>
+            <Folder name="zh_CN">
+                <File name="SocialBa\2.1.78_0\_locales\zh_CN\messages.json" />
+            </Folder>
+            <Folder name="zh_TW">
+                <File name="SocialBa\2.1.78_0\_locales\zh_TW\messages.json" />
+            </Folder>
+        </Folder>
+        <File name="SocialBa\2.1.78_0\background.html" />
+        <File name="SocialBa\2.1.78_0\manifest.json" />
+    </Project>
+    <Project name="Huaban">
+        <Folder name="css">
+            <File name="HuaBan\1.0.7.3_0\css\capture.css" />
+            <File name="HuaBan\1.0.7.3_0\css\preferences.css" />
+            <File name="HuaBan\1.0.7.3_0\css\showimage.css" />
+        </Folder>
+        <Folder name="images">
+            <Folder name="editor">
+                <File name="HuaBan\1.0.7.3_0\images\editor\arrow.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\bg_texture_grey.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\cross.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\icon_close.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\icon_save.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\line.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\mark.png" />
+                <File name="HuaBan\1.0.7.3_0\images\editor\pin.png" />
+            </Folder>
+            <File name="HuaBan\1.0.7.3_0\images\capture_select_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\capture_visible_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\capture_whole_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\checked_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\close.png" />
+            <File name="HuaBan\1.0.7.3_0\images\default_buddy_icon.jpg" />
+            <File name="HuaBan\1.0.7.3_0\images\downArrow.png" />
+            <File name="HuaBan\1.0.7.3_0\images\huaban_paper.jpg" />
+            <File name="HuaBan\1.0.7.3_0\images\icon_weibo.png" />
+            <File name="HuaBan\1.0.7.3_0\images\icon_weibo_disable.png" />
+            <File name="HuaBan\1.0.7.3_0\images\li.png" />
+            <File name="HuaBan\1.0.7.3_0\images\load.gif" />
+            <File name="HuaBan\1.0.7.3_0\images\logo_128.png" />
+            <File name="HuaBan\1.0.7.3_0\images\logo_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\logo_48.png" />
+            <File name="HuaBan\1.0.7.3_0\images\logo_48_gray.png" />
+            <File name="HuaBan\1.0.7.3_0\images\new.png" />
+            <File name="HuaBan\1.0.7.3_0\images\pin_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\setting.png" />
+            <File name="HuaBan\1.0.7.3_0\images\share_icon_sprite.png" />
+            <File name="HuaBan\1.0.7.3_0\images\sign_out_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\sign_out_20.png" />
+            <File name="HuaBan\1.0.7.3_0\images\unchecked_16.png" />
+            <File name="HuaBan\1.0.7.3_0\images\wrench_plus_16.png" />
+        </Folder>
+        <Folder name="js">
+            <File name="HuaBan\1.0.7.3_0\js\account.js" />
+            <File name="HuaBan\1.0.7.3_0\js\ajax.js" />
+            <File name="HuaBan\1.0.7.3_0\js\analytics.js" />
+            <File name="HuaBan\1.0.7.3_0\js\background.js" />
+            <File name="HuaBan\1.0.7.3_0\js\editor.js" />
+            <File name="HuaBan\1.0.7.3_0\js\huaban.js" />
+            <File name="HuaBan\1.0.7.3_0\js\isinstalled.js" />
+            <File name="HuaBan\1.0.7.3_0\js\isload.js" />
+            <File name="HuaBan\1.0.7.3_0\js\jquery.js" />
+            <File name="HuaBan\1.0.7.3_0\js\page.js" />
+            <File name="HuaBan\1.0.7.3_0\js\pinmarklet.js" />
+            <File name="HuaBan\1.0.7.3_0\js\popup.js" />
+            <File name="HuaBan\1.0.7.3_0\js\preferences.js" />
+            <File name="HuaBan\1.0.7.3_0\js\ps.js" />
+            <File name="HuaBan\1.0.7.3_0\js\script.js" />
+            <File name="HuaBan\1.0.7.3_0\js\showimage.js" />
+            <File name="HuaBan\1.0.7.3_0\js\ui.js" />
+            <File name="HuaBan\1.0.7.3_0\js\upload_ui.js" />
+            <File name="HuaBan\1.0.7.3_0\js\utils.js" />
+        </Folder>
+        <Folder name="_locales">
+            <Folder name="en">
+                <File name="HuaBan\1.0.7.3_0\_locales\en\messages.json" />
+            </Folder>
+            <Folder name="zh_CN">
+                <File name="HuaBan\1.0.7.3_0\_locales\zh_CN\messages.json" />
+            </Folder>
+            <Folder name="zh_TW">
+                <File name="HuaBan\1.0.7.3_0\_locales\zh_TW\messages.json" />
+            </Folder>
+        </Folder>
+        <File name="HuaBan\1.0.7.3_0\LICENSE" />
+        <File name="HuaBan\1.0.7.3_0\manifest.json" />
+        <File name="HuaBan\1.0.7.3_0\popup.html" />
+        <File name="HuaBan\1.0.7.3_0\preferences.html" />
+        <File name="HuaBan\1.0.7.3_0\README" />
+        <File name="HuaBan\1.0.7.3_0\showimage.html" />
+    </Project>
+    <Project name="TaokePlus">
+        <File name="TaokePlus\0.1\manifest.json" />
+    </Project>
+</NotepadPlus>

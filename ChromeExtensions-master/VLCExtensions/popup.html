@@ -1,0 +1,206 @@
+<html>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<body onload='init()'>
+
+<style>
+body {
+  width:400px;
+	font-size: small;
+	
+}
+
+</style>
+<script>
+//global variables
+var tracks = 0;
+var playlist;
+var instance;
+var xml;
+var currentSong;
+
+function init()
+{
+  loadXMLDoc('http://thomasw.nl:8081/requests/vlm.xml', handleXML);
+}
+function initPauseButton()
+{
+    if(document.getElementById('pause').value == 'Pause')
+    {
+      document.getElementById('pause').value = 'Play';
+    } else
+    {
+      document.getElementById('pause').value = 'Pause';
+    }
+    loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=control%20stream%20pause");
+}
+function initCmd(cmd)
+{
+  
+  if(cmd != '' && cmd != undefined)
+  {
+        
+
+    loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=" + cmd);
+    
+    
+  } else
+  {
+    cmd = document.getElementById('tCmd').value;
+    loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=" + cmd);
+   
+  }
+ init();
+}
+function initCmdNoRefresh(cmd)
+{
+  if(cmd != '' && cmd != undefined)
+  {
+    loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=" + cmd);
+  } else
+  {
+    cmd = document.getElementById('tCmd').value;
+    loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=" + cmd);
+  }
+}
+function initDelete()
+{
+	loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=del%20stream");
+    init(); 
+}
+function initStop()
+{
+  if(document.getElementById('stop').value == 'Stop')
+    {
+      document.getElementById('stop').value = 'Play';
+      loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=control%20stream%20stop");
+    } else
+    {
+      document.getElementById('stop').value = 'Stop';
+      loadXMLDoc("http://thomasw.nl:8081/requests/vlm_cmd.xml?command=control%20stream%20play");
+    }
+}
+function prev()
+{
+  init();
+  if(currentSong != 1)
+  {
+    if(currentSong == 2)
+    {
+      initStop(); 
+      initStop();
+    } else
+    {
+      initCmdNoRefresh('control stream stop');
+      for(var i = 1; i < currentSong; i++)
+      {
+		initCmdNoRefresh('setup stream inputdeln ' + 1);
+		initCmdNoRefresh("setup stream input '" + playlist.childNodes[1].firstChild.data + "'");
+      }
+    }
+  } else 
+  {
+    currentSong = ((playlist.childNodes.length-1)/2);
+	initCmdNoRefresh('control stream stop');
+	for(var i = 1; i < currentSong; i++)
+	{
+		initCmdNoRefresh('setup stream inputdeln ' + 1);
+		initCmdNoRefresh("setup stream input '" + playlist.childNodes[1].firstChild.data + "'");
+	}
+
+  }
+  initCmd('control stream play');
+}
+function next()
+{
+  init();
+
+  if(currentSong != ((playlist.childNodes.length-1)/2))
+  {
+	initCmd('control stream stop');
+	for(var i = 1; i <= currentSong; i++)
+	{
+		initCmd('setup stream inputdeln ' + 1);
+        initCmd("setup stream input '" + playlist.childNodes[1].firstChild.data + "'");
+	}
+    
+  }
+  initCmd('control stream play');
+}
+
+function handleXML()
+{
+  xml = req.responseXML;
+  
+  var html = "";
+  tracks = 0;
+  document.body.innerHTML = html;
+  if(xml.documentElement.firstElementChild != null)
+  {
+    instance = xml.documentElement.firstElementChild.lastElementChild.firstElementChild;
+    if(instance != null)
+      currentSong = instance.attributes[9].value;
+    
+    playlist = xml.documentElement.firstElementChild.childNodes[3];
+    var song = playlist.firstElementChild;
+    tracks++;    
+    html = "<div id='"+tracks+"'>" + song.firstChild.data + "</div><hr/>";
+    
+    while(song.nextElementSibling != null)
+    {
+      if(song.nextElementSibling.firstChild != null)
+      {
+        tracks++;        
+        html += "<div id='"+tracks+"'>" + song.nextElementSibling.firstChild.data + "</div><hr/>";
+        song = song.nextElementSibling;
+        
+      }
+    }
+  }
+  html += "<input id='pause' type='button' value='Pause' onclick='initPauseButton()'/>";
+  html += "  <input id='stop' type='button' value='Stop' onclick='initStop()'/>";
+  html += "  <input id='delete'type='button' value='Delete' onclick='initDelete()'/>";
+  html += "  <input id='prev'type='button' value='<<' onclick='prev()'/>";
+  html += "  <input id='next'type='button' value='>>' onclick='next()'/>";
+  html += "<br>Custom command:<br> <input id='tCmd' size=50 type='text' onkeypress='if( event.keyCode == 13 ) initCmd()'/>";
+  html += "<br><input type='button' value='Send' onclick='initCmd()'/>";
+
+  document.body.innerHTML = html;
+  if(document.getElementById(currentSong) != null)
+  {  document.getElementById(currentSong).style.backgroundColor = "gray";}
+  else
+  {  document.getElementById('stop').value = "Play";
+     initStop(); 
+  }
+  document.body.style.width = "500px";
+  document.body.style.font =  "12px /24px Arial,sans-serif";
+  chrome.tabs.create({url:chrome.extension.getURL("player.html")});
+}
+
+/* XMLHttpRequest wrapper */
+function loadXMLDoc( url, callback )
+{
+  // branch for native XMLHttpRequest object
+  if ( window.XMLHttpRequest )
+  {
+    req = new XMLHttpRequest();
+    req.open( "GET", url, true );
+    req.onload = callback;
+    req.send();
+  // branch for IE/Windows ActiveX version
+  }
+  else if ( window.ActiveXObject )
+  {
+    req = new ActiveXObject( "Microsoft.XMLHTTP" );
+    if ( req )
+    {
+      req.onload = callback;
+      req.open( "GET", url, true );
+      req.send();
+    }
+  }
+}
+</script>
+
+</body>
+</html>

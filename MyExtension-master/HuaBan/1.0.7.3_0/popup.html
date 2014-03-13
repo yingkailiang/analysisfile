@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="copyright" content="huaban.com"/>
+        <style tyle="text/css">
+            body {
+                font-family: "helvetica neue",arial,sans-serif;
+                -webkit-user-select: none;
+            }
+            a {
+                outline: 0;
+            }
+            #toggleBtn {
+                padding: 0 3px;
+                margin-bottom: 5px;
+            }
+            .separator {
+                height: 1px;
+                background-color: #E6E6E6;
+                margin: 10px 0;
+            }
+            .button {
+                width: auto;
+                height: 22px;
+                font-size: 13px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                border: 1px #EBEBEB solid;
+                padding: 0 10px;
+                margin: 0 0 10px 0;
+                line-height: 22px;
+                text-align: center; cursor: pointer;
+                text-shadow: #EEE 1px 1px 1px;
+                -webkit-transition-duration: 0.2s;
+                background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#F7F7F7));
+            }
+
+            .button img {
+                margin: 0 5px 0 0;
+                top: 2px;
+                position: relative;
+            }
+
+            .button:hover {
+                background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAFAFA), to(#F0F0F0));
+                border-color: #D9D9D9;
+            }
+
+            .button label {
+                display: block;
+                padding-left: 15px;
+                text-indent: -15px;
+            }
+
+            .popup .button {
+                text-align: left;
+                width: auto;
+                padding: 0 3px;
+                margin-bottom: 5px;
+            }
+            .button.disabled, .button.disabled:hover {
+                color: #999;
+                border-color: #EBEBEB;
+                background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#F7F7F7));
+                opacity: 0.8;
+                cursor: default !important;
+            }
+
+            #extName {
+                padding-left: 22px;
+                background: url(/images/logo_16.png) no-repeat left center;
+            }
+
+            #menu {
+                width: 200px;
+            }
+
+            #menu ul {
+                list-style: none;
+                padding-left: 0;
+                font-size: 12px;
+            }
+
+            #menu li {
+                cursor: pointer;
+            }
+            #menu li span, #menu li a {
+                padding-left: 22px;
+                display: block;
+            }
+            #toggleBtn span.checked {
+                background: url(/images/checked_16.png) no-repeat left center;
+            }
+            #toggleBtn span.unchecked {
+                background: url(/images/unchecked_16.png) no-repeat left center;
+            }
+            #pinAll, #menu li.capture {
+            }
+            #pinAll span {
+                background: url(/images/pin_16.png) no-repeat left center;
+            }
+            #menu > ul > li.capture#captureAreaItem span {
+                background: url(/images/capture_select_16.png) no-repeat left center;
+            }
+            #menu > ul > li.capture#captureWindowItem span {
+                background: url(/images/capture_visible_16.png) no-repeat left center;
+            }
+            #menu > ul > li.capture#captureWebpageItem span {
+                background: url(/images/capture_whole_16.png) no-repeat left center;
+            }
+
+            header {
+                position: relative;
+            }
+            #preferences {
+                position: absolute;
+                padding: 3px;
+                width: 16px;
+                height: 16px;
+                right: 0;
+                top: -3px;
+                background: url(/images/setting.png) center center no-repeat, -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#F7F7F7));
+                cursor: pointer;
+            }
+
+            #menu .huaban, #menu .huabanShopping {
+                display: inline-block;
+                padding: 0 2px;
+                color: #444;
+            }
+            #menu #visit {
+                display: inline-block;
+                padding: 0;
+                margin-left: 5px;
+                color: #999;
+            }
+            #menu .huabanShopping {
+                padding-right: 25px;
+                background: url(/images/new.png) right center no-repeat;
+            }
+        </style>
+        <script src="/js/utils.js"></script>
+        <script src="/js/popup.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <div id="extName"></div>
+            <a id="preferences" class="button" href="/preferences.html" target="bobobee_preferences" title="Preferences"></a>
+        </header>
+
+        <div id="menu" class="popup">
+            <ul>
+                <li id="pinAll" class="button disabled">
+                    <span></span>
+                </li>
+                <li id="captureAreaItem" class="button capture disabled">
+                    <span></span>
+                </li>
+                <li id="captureWindowItem" class="button capture disabled">
+                    <span></span>
+                </li>
+                <li id="captureWebpageItem" class="button capture disabled">
+                    <span></span>
+                </li>
+                <li class="separator"></li>
+                <li id="toggleBtn" class="">
+                    <span></span>
+                </li>
+                <li class="separator"></li>
+                <li>
+                    <span id="visit"></span>
+                    <a class="huaban" href="http://huaban.com/?md=chrome_ex">花瓣网</a>
+                    <a class="huabanShopping" href="http://huaban.com/shiji/?md=chrome_ex">花瓣市集</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

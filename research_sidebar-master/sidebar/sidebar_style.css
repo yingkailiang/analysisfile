@@ -1,0 +1,110 @@
+html{
+	background-color:#490A3D;
+	border-left-style:solid;
+	border-left-width:1px;
+	font-family:arial;
+}
+
+/* CSS FOR SIDEBAR */
+#note_section{
+	position:relative;
+	max-height:calc(100% - 45px);
+	overflow-y:auto;
+}
+#add_note_button{
+	font-size:20px;
+	width:30px;
+	height:30px;
+	margin:6px;
+	margin-bottom:12px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:15px;
+	outline:none;
+	position:absolute;
+	bottom:0;
+}
+
+/* CSS FOR ALL WINDOWS */
+.info_button{
+	width:20px;
+	height:20px;
+	margin:3px;
+	margin-left:0px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	outline:none;
+	float:right;
+}
+.close_button{
+	width:20px;
+	height:20px;
+	margin:3px;
+	margin-left:0px;
+	margin-right:5px;
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	outline:none;
+	float:right;
+}
+
+/* CSS FOR NOTES */
+.note{
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	border-radius:4px;
+}
+.note_header{
+	background-color:transparent;
+	resize:none;
+	margin:2px;
+	font-size:15px;
+	border-style:none;
+	overflow:hidden;
+	outline:none;
+}
+.note_break{
+	margin:0px;
+	border-width:2px;
+	border-bottom-style:solid;
+	border-color:lightgrey;
+}
+.note_info{
+	color:white;
+	font-size:12px;
+	background-color:#BD1550;
+	height:40px;
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:lightgrey;
+	padding:4px;
+	display:none;
+}
+.note_body{
+	min-height:50px;
+	background-color:transparent;
+	resize:none;
+	width:calc(100% - 4px);
+	margin:2px;
+	padding:2px;
+	font-family: 'Lucida Grande';
+	font-size:12px;
+	border-style:none;
+	border-style-top:solid;
+	border-width:1px;
+	overflow:hidden;
+	outline:none;
+}
+.note_ghost{
+	min-height:calc(50px - 4px);
+	white-space:pre-wrap;
+	width:calc(100% - 8px);
+	margin:2px;
+	padding:2px;
+	font-family: 'Lucida Grande';
+	font-size:12px;
+	word-wrap:break-word;
+}

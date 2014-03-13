@@ -1,0 +1,15 @@
+# builds
+build
+
+# key file
+src.pem
+bitly_oauth_credentials.js
+src.zip
+bitly_ext*.zip
+src_alter
+tmp
+*.swp
+\#*\#
+bitly_ext_alpha_beta_6_20_2011_key.pem
+bitly_ext_beta_6_28_2011.pem
+*.pyc

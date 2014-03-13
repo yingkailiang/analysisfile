@@ -1,0 +1,396 @@
+li {
+    list-style:none;
+}
+h3,
+h4,
+h5,
+p,
+li,
+ul,
+label,
+button,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after{
+    content:'.';
+    display:block;
+    visibility:hidden;
+    height:0;
+    line-height:0;
+    font-size:0;
+    clear:both;
+}
+.clearfix{zoom:1;}
+
+body {
+    background-color: #f6f6f6;
+}
+#options {
+    margin: 0 auto;
+    max-width: 860px; 
+}
+#options .hd {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#options .hd h3 {
+    background-position: -20px -140px;
+    height: 30px;
+    width: 310px;
+    margin-bottom: 30px;
+    text-indent: -9999px;
+}
+#options .order-setting .hd h3 {
+    background-position: 0 -197px;
+}
+#options .hd .disc {
+    max-width: 700px;
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+}
+#options .bd .title {
+    position: relative;
+}
+#options .bd .title span{
+    position: absolute;
+    background-position: -40px -120px;
+    width: 10px;
+    height: 10px;
+    top: 3px;
+    left: -3px;
+}
+#options .bd .title .tips{
+    color: #fe8713;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: -10px 0 10px 20px;
+}
+
+#options .bd .title h5{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#options .bd h4 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#options .order-setting{
+    border-top: 1px solid #e1e1e1;
+}
+#options .bd .category-list {
+    margin-bottom: 30px;
+    position: relative;
+}
+.bd .category-list .setting-tip{
+    display: none;
+    height: 23px;
+    width: 183px;
+    padding-left: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #8e9b46;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px #b6b6b6;
+    background-image: -webkit-linear-gradient(top, #fefefe, #e6e6e6);
+    vertical-align: top;
+    position: absolute;
+    top: 6px;
+    left: 334px;
+}
+.bd .category-list .setting-tip:before {
+    position: absolute;
+    display: inline-block;
+    background-position: -60px -120px;
+    width: 12px;
+    height: 12px;
+    left: -7px;
+    top: 5px;
+    z-index: 2;
+    content: '';
+}
+.category-list .setting-tip b{
+    color: #b3b3b3;
+    font-size: 18px;
+    cursor: pointer;
+}
+#options .bd .oterh-setting {
+    border-bottom: 1px solid #fff;
+}
+.category-list .channel {
+    max-width: 860px;
+}
+.category-list .category {
+    max-width: 860px;
+}
+.category-list .channel li ,
+.category-list .category li {
+    width: 135px;
+    height: 60px;
+    border: 2px solid #e1e1e1;
+    background-color: #f9f9f9;
+    box-shadow: 1px 2px 3px #e9e9e9;
+    font-size: 12px;
+    padding: 10px;
+    color: #949494;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+
+.category-list li .selectedTip{
+    position: absolute;
+    display: none;
+    width: 17px;
+    height: 17px;
+    bottom: 0;
+    right: 0;
+    background-position: 0 -120px;
+}
+
+.category-list li .newTip{
+    position: absolute;
+    width: 25px;
+    height: 10px;
+    top: 2px;
+    right: 2px;
+    background-position: -360px 0;
+}
+.category-list li:hover {
+    cursor: pointer;
+}
+.category-list li:hover .selectedTip{
+    display: block;
+}
+
+.category-list li.active {
+    border: 2px solid #fe8713;
+}
+
+.category-list li.active .selectedTip {
+    display: block;
+    background-position: -20px -120px;
+}
+
+.category-list .about {
+    max-height: 28px;
+    overflow: hidden;
+}
+.category-list .category-title {
+    color: #fe8713;
+    font-weight: bolder;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 37px;
+}
+.category-list .category-title.class-title {
+    margin-left: 1px;
+}
+
+.category-list .category-title:hover {
+    text-decoration: underline;
+}
+
+.bd .other-setting {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bd .other-setting li {
+    float: left;
+    margin-left: 60px;
+}
+.bd .other-setting li:first-child {
+    margin-left: 0;
+}
+.bd .other-setting li p {
+    color: #949494;
+    margin-bottom: 10px;
+}
+.other-setting .btn-single {
+    margin-top: 10px;
+}
+.category-list .hui-icon {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+    margin-top: -4px;
+}
+.hui-icon-strategy {
+    background-position: -40px -80px;
+}
+.hui-icon-price {
+    background-position: -200px -80px;
+}
+.hui-icon-weekly {
+    background-position: -80px -80px;
+}
+.hui-icon-digit {
+    background-position: -120px -80px;
+}
+.hui-icon-sports {
+    background-position: -160px -80px;
+}
+.hui-icon-baby {
+    background-position: -160px -40px;
+}
+.hui-icon-beauty {
+    background-position: -40px -40px;
+}
+.hui-icon-foods {
+    background-position: 0 -80px;
+}
+.hui-icon-clothes {
+    background-position: 0 -40px;
+}
+.hui-icon-overseas {
+    background-position: -120px -40px;
+}
+.hui-icon-others {
+    background-position: -80px -40px;
+}
+.btn-single button{
+    position: relative;
+    padding-left: 40px;
+    padding-left: 4px;
+}
+.fragement {
+    width: 428px;
+    height: 238px;
+    margin-left: -214px;
+    margin-top: -119px;
+    position: fixed;
+    left: 50%;
+    z-index: 5;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #d4d4d6;
+    border-radius:4px;
+}
+.fragement.fade {
+    -webkit-transition: opacity 3s linear, top .5s ease-out;
+    top: -500px;
+}
+.fade.in {
+    opacity: 1;
+}
+.fragement.fade.in {
+    top: 50%;
+}
+
+#options .fragement .hd {
+    height: 37px;
+    background-color: #fffcb7;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-left: 12px;
+}
+
+.fragement .hd span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+}
+.fragement .hd h4{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    background-position: -405px -160px;
+    margin-top: 10px;
+    text-indent: -9999px;
+}
+.fragement .hd a {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    background-position: -100px -120px;
+    text-indent: -9999px;
+}
+.fragement .bd {
+    padding: 30px 45px 45px;
+    position: relative;
+}
+.fragement .bd h5 {
+    font-weight: bolder;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #333;
+}
+
+.fragement .bd p {
+    margin-bottom: 35px;
+    color: #666;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.fragement .bd .setting {
+    display: block;
+    height: 31px;
+    width: 113px;
+    text-indent: -9999px;
+    background-position: -405px -80px;
+    margin-left: 114px;
+}
+
+.fragement .bd .setting:hover {
+    background-position: -405px -120px;
+}
+.fragement .mascot {
+    position: absolute;
+    height: 110px;
+    width: 70px;
+    left: 0;
+    bottom: 0;
+    background-position: -330px -80px;
+    z-index: -2;
+}
+.masker {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s linear;
+}
+.masker.in {
+    opacity: 0.8;
+}
+.order-setting {
+    display: none;
+}
+
+.fragement .hd h4,
+.fragement .bd .setting ,
+.fragement .mascot,
+.fragement .hd a ,
+.category-list .hui-icon ,
+#options .hd h3 ,
+#options .bd .title span,
+.bd .category-list .setting-tip:before ,
+.category-list .selectedTip {
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+}
+.category-list .newTip {
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Quick Financial Update Extension's Popup</title>
+    <link rel="stylesheet" type="text/css" href="qfu.css">
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+
+    <script src="jquery-1.9.0.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="stockList">
+      <span><input type="text" id="stock1"/><label id="stockVal1"></label></span>
+      <br>
+      <span><input type="text" id="stock2"/><label id="stockVal2"></label></span>
+      <br>
+    </div>
+    <span>
+      <input type="button" id="getQuoteButton" value="Get Quotes">
+    </span>
+    <br>
+  </body>
+</html>

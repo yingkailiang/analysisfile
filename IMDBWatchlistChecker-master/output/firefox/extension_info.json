@@ -1,0 +1,22 @@
+{
+  "kango_version": "1.2.4 744e69cf4136", 
+  "content_scripts": [
+    "content.js"
+  ], 
+  "name": "IMDB Watchlist Checker", 
+  "default_locale": "en", 
+  "creator": "Ricardo Sotolongo", 
+  "package_id": "kango-7a4190e6-1040-4e4c-a4be-47249e455bcc", 
+  "background_scripts": [
+    "main.js", 
+    "jquery-2.0.3.min.js"
+  ], 
+  "homepage_url": "http://imdbwatcher.azurewebsites.net", 
+  "version": "0.2", 
+  "id": "{7A4190E6-1040-4E4C-A4BE-47249E455BCC}", 
+  "locales": [
+    "en", 
+    "es"
+  ], 
+  "description": "IMDB Watchlist Checker"
+}

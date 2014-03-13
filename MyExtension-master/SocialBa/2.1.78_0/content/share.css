@@ -1,0 +1,45 @@
+﻿s-shares { display: inline-block; }
+.__sshare * { font-family: Verdana, Microsoft Yahei; font-size: 12px; color: #5266cc; }
+
+.__sshare ul, .__sshare li { margin: 0; padding: 0; list-style: none; background: transparent; }
+.__sshare li { cursor: pointer; }
+.__sshare i { display: block; margin: 0; padding: 0; border: 0 none; height: 16px; width: 16px; background: url(share-1.png) no-repeat; }
+.__sshare i.fb { background-position: 0 0; }
+.__sshare a:hover i.fb, .__sshare#__spopup i.fb { background-position: -16px 0; }
+.__sshare i.li { background-position: 0 -16px; }
+.__sshare a:hover i.li, .__sshare#__spopup i.li { background-position: -16px -16px; }
+.__sshare i.tw { background-position: 0 -32px; }
+.__sshare a:hover i.tw, .__sshare#__spopup i.tw { background-position: -16px -32px; }
+.__sshare i.dg { background-position: 0 -48px; }
+.__sshare a:hover i.dg, .__sshare#__spopup i.dg { background-position: -16px -48px; }
+.__sshare i.my { background-position: 0 -64px; }
+.__sshare a:hover i.my, .__sshare#__spopup i.my { background-position: -16px -64px; }
+.__sshare i.pk { background-position: 0 -80px; }
+.__sshare a:hover i.pk, .__sshare#__spopup i.pk { background-position: -16px -80px; }
+.__sshare i.wb { background-position: 0 -96px; }
+.__sshare a:hover i.wb, .__sshare#__spopup i.wb { background-position: -16px -96px; }
+.__sshare i.tm { background-position: 0 -112px; }
+.__sshare a:hover i.tm, .__sshare#__spopup i.tm { background-position: -16px -112px; }
+.__sshare i.mr { background-position: 0 -128px; }
+.__sshare a:hover i.mr, .__sshare#__spopup i.mr { background-position: -16px -128px; }
+.__sshare i.ggp { background-position: 0 -176px; }
+.__sshare a:hover i.ggp, .__sshare#__spopup i.ggp { background-position: -16px -176px; }
+
+.__sshare i.ico { background-position: 0 -144px; }
+.__sshare a:hover i.ico { background-position: -16px -144px; }
+.__sshare .__selected i.ico { background-position: 0 -160px; }
+.__sshare .__selected a:hover i.ico { background-position: -16px -160px; }
+
+.__control { position: relative; height: 16px; display: inline-block; }
+.__control > ul { height: 16px; }
+.__control > ul > li { float: left; margin: 0 3px 0 0; }
+
+.__spopup { position: absolute; display: none; left: 0; top: 0; background: #FFF; width: 240px; box-shadow: 1px 1px 3px rgba(0, 0 , 0, .2); z-index: 999999; }
+.__spopup > ul > li { float: left; width: 50%; padding: 2px 0; }
+.__spopup > ul > li a { text-decoration: none; display: block; float: left; height: 16px; padding: 4px 2px; }
+.__spopup > ul > li a.text { width: 95px; }
+.__spopup > ul > li a.text span { display: block; line-height: 16px; float: left; margin: 0 0 0 5px; }
+.__spopup > ul > li a.text:hover { background: #F8F8F8; }
+.__spopup > ul > li i { float: left; }
+
+.__spopup .__info { background: #F8F8F8; height: 25px; line-height: 25px; text-align: right; clear: both; padding: 0 10px; }

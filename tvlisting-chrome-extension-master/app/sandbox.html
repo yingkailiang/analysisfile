@@ -1,0 +1,23 @@
+<script type="text/javascript">
+window.addEventListener('message', function(event) {
+	var source = event.data.source;
+
+	source += "\n return (typeof dvr == 'undefined') ? false : dvr;"
+
+	var dvr = new Function(source)();
+	var message;
+
+	if (dvr && dvr.settings){
+		message = {
+			successful: true,
+			headEndId: dvr.settings.userInfo.headEnd
+		}
+	} else {
+		message = {
+			successful: false
+		}
+	}
+
+	event.source.postMessage(message, event.origin);
+});
+</script>

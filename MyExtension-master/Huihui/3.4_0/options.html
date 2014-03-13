@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>惠惠实时折扣推送订阅设置</title>
+    <link rel="stylesheet" href="css/options.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/bootstrap.css" type="text/css"/>
+</head>
+<body>
+    <div id="options">
+    	<div class="hd">
+            <div class="title">
+                <span></span>
+                <h3>惠惠实时折扣推送订阅设置</h3>
+            </div>
+            <p class="disc">惠惠实时折扣推送功能，将惠惠网达人收集整理的第一手购物资讯、购物攻略，第一时间推送到您面前。</p>
+        </div>
+        <div class="bd">
+            <div class="title">
+                <span></span>
+                <h4>基本设置</h4>
+            </div>
+            <div class="other-setting">
+                <ul class="clearfix">
+                    <li>
+                        <p>是否开启桌面提醒</p>
+                        <div class="btn-group" data-toggle="buttons-radio"
+                            data-default="true" data-type="push.isNotify">
+                            <button class="btn btn-primary" value="true"
+                                log-action="OPTPAGE_FEEDSWITCHER_CLICK" data-toggle="button"
+                                log-value="true">
+                                开启</button>
+                            <button class="btn btn-primary" value="false"
+                                log-action="OPTPAGE_FEEDSWITCHER_CLICK" data-toggle="button"
+                                log-value="false">
+                                关闭</button>
+                        </div>
+                        <button class="btn btn-info try-switcher"
+                            log-action="OPTPAGE_FEEDTEST_CLICK"
+                            data-toggle="button">
+                            <i class="icon-plus icon-white" style="padding-left:3px"></i>
+                            观看弹窗样式
+                        </button>
+                    </li>
+                   <li>
+                    <p>是否开启数字提醒</p>
+                        <div class="btn-group" data-toggle="buttons-radio"
+                            data-default="true" data-type="push.figureRemind">
+                            <button class="btn btn-primary" value="true"
+                                log-action="OPTPAGE_FIGUREREMIND_CLICK" data-toggle="button"
+                                log-value="true">
+                                开启</button>
+                            <button class="btn btn-primary" value="false"
+                                log-action="OPTPAGE_FIGUREREMIND_CLICK" data-toggle="button"
+                                log-value="false">
+                                关闭</button>
+                        </div>
+                    </li>
+                    <li>
+                        <p>桌面提醒停留时间</p>
+                        <div class="btn-group" data-toggle="buttons-radio"
+                            data-default="30" data-type="push.stayTime">
+                            <button class="btn btn-primary" value="10"
+                                log-action="OPTPAGE_FEEDTIME_CLICK" log-value="10">
+                                10秒
+                            </button>
+                            <button class="btn btn-primary" value="30"
+                                log-action="OPTPAGE_FEEDTIME_CLICK" log-value="30">
+                                30秒
+                            </button>
+                            <button class="btn btn-primary" value="60"
+                                log-action="OPTPAGE_FEEDTIME_CLICK" log-value="60">
+                                60秒
+                            </button>
+                            <button class="btn btn-primary" value="120"
+                                log-action="OPTPAGE_FEEDTIME_CLICK" log-value="120">
+                                120秒
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <span></span>
+                <h4>推送分类设置</h4>
+                <p class="tips">新增每日白菜价、晒物园等优质内容，为您强烈推荐！</p>
+            </div>
+            <div class="category-list">
+               <ul class="channel clearfix">
+                    <li data-value="SHARE_BAICAI"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedchn="SHARE_BAICAI">
+                    <a href="#baicai"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedchn="SHARE_BAICAI"
+                        class="category-title class-title">
+                           每日白菜价 
+                        </a>
+                        <div>
+                            <p class="about">超值低价、凑单商品汇总每日一条，12点更新</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                        <span class="newTip"></span>
+                    </li>
+                    <li data-value="SHARE_SHARE"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedchn="SHARE_SHARE">
+                    <a href="#share"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedchn="SHARE_SHARE"
+                        class="category-title class-title">
+                        晒物园
+                        </a>
+                        <div>
+                            <p class="about">惠惠社区达人的经验晒单新、奇、特每日三条</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                        <span class="newTip"></span>
+                    </li>
+                    <li data-value="LOCATE_SIGNIN"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedchn="LOCATE_SIGNIN">
+                    <a href="#signin"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedchn="LOCATE_SIGNIN"
+                        class="category-title class-title">
+                        签到提醒
+                        </a>
+                        <div>
+                            <p class="about">连续签到获额外奖励每日提醒不错过</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                        <span class="newTip"></span>
+                    </li>
+                    <li data-value="PROFESSIONAL"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedchn="PROFESSIONAL">
+                    <a href="http://www.huihui.cn/guide/series?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedchn="PROFESSIONAL"
+                        class="category-title class-title" target="_blank">
+                            购物锦囊
+                        </a>
+                        <div>
+                            <p class="about">专业达人撰写的导购攻略</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <h5>选择你感兴趣的超值购商品分类</h5>
+            </div>
+            <div class="category-list">
+                <div class="setting-tip">
+                    点击可查看该分类详细内容
+                    <b>×</b> 
+                </div>
+                <ul class="category clearfix">
+                    <li data-value="1"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="1">
+                    <a href="http://www.huihui.cn/all/cates/digital?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="1"
+                        class="category-title" target="_blank">数码家电</a>
+                        <div>
+                            <span class="hui-icon hui-icon-digit"></span>
+                            <p>数码家电类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="2"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="2">
+                    <a href="http://www.huihui.cn/all/cates/sport?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="2"
+                        class="category-title" target="_blank">运动健康</a>
+                        <div>
+                            <span class="hui-icon hui-icon-sports"></span>
+                            <p>运动健康类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="4"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="4">
+                    <a href="http://www.huihui.cn/all/cates/dresses?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="4"
+                        class="category-title" target="_blank">服饰鞋包</a>
+                        <div>
+                            <span class="hui-icon hui-icon-clothes"></span>
+                            <p>服饰鞋包类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="8"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="8">
+                    <a href="http://www.huihui.cn/all/cates/cosmetics?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="8"
+                        class="category-title" target="_blank">美妆个护</a>
+                        <div>
+                            <span class="hui-icon hui-icon-beauty"></span>
+                            <p>美妆个护类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="16"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="16">
+                    <a href="http://www.huihui.cn/all/cates/food?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="16"
+                        class="category-title" target="_blank">食品百货</a>
+                        <div>
+                            <span class="hui-icon hui-icon-foods"></span>
+                            <p>食品百货类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="32"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="32">
+                    <a href="http://www.huihui.cn/all/cates/baby?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="32"
+                        class="category-title" target="_blank">母婴玩具</a>
+                        <div>
+                            <span class="hui-icon hui-icon-baby"></span>
+                            <p>母婴玩具类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="64"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="64">
+                    <a href="http://www.huihui.cn/all/cates/abroad?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="64"
+                        class="category-title" target="_blank">海外购</a>
+                        <div>
+                            <span class="hui-icon hui-icon-overseas"></span>
+                            <p>海外购类商品折扣资讯</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                    <li data-value="128"
+                    log-action="OPTPAGE_FEEDITEM_CHECK" log-feedcat="128">
+                    <a href="http://www.huihui.cn/all/cates/other?keyfrom=zhushou_option"
+                        log-action="OPTPAGE_FEEDLINK_CLICK" log-feedcat="128"
+                        class="category-title" target="_blank">其他类别</a>
+                        <div>
+                            <span class="hui-icon hui-icon-others"></span>
+                            <p>其他类别商品折扣资讯和导购攻略</p>
+                        </div>
+                        <span class="selectedTip"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="order-setting">
+            <div class="hd">
+                <div class="title">
+                    <span></span>
+                    <h3>惠惠订单物流提醒设置</h3>
+                </div>
+                <p class="disc">惠惠订单物流提醒功能，将自动跟踪多家商城订单派送信息，第一时间自动提醒您物流状态。</p>
+            </div>
+           <div class="bd">
+                <div class="title">
+                        <span></span>
+                        <h4>基本设置</h4>
+                </div>
+                <div class="other-setting">
+                    <ul class="clearfix">
+                        <li>
+                            <p>是否开启物流提醒</p>
+                            <div class="btn-group" data-toggle="buttons-radio"
+                                data-default="true" data-type="order.isFeeded">
+                                <button class="btn btn-primary" value="true"
+                                    log-action="OPTPAGE_ORDERSWITCHER_CLICK" data-toggle="button"
+                                    log-value="true">
+                                    开启</button>
+                                <button class="btn btn-primary" value="false"
+                                    log-action="OPTPAGE_ORDERSWITCHER_CLICK" data-toggle="button"
+                                    log-value="false">
+                                    关闭</button>
+                            </div>
+                        </li>
+                        <li>
+                            <p>是否隐藏物流详情入口</p>
+                            <div class="btn-group" data-toggle="buttons-radio"
+                                data-default="true" data-type="order.isShowDetail">
+                                <button class="btn btn-primary" value="false"
+                                    log-action="OPTPAGE_ORDERSDETAILWITCHER_CLICK" data-toggle="button"
+                                    log-value="false">
+                                    隐藏</button>
+                                <button class="btn btn-primary" value="true"
+                                    log-action="OPTPAGE_ORDERSDETAILWITCHER_CLICK" data-toggle="button"
+                                    log-value="true">
+                                    不隐藏</button>
+                            </div>
+     
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="ft"></div>
+        <div class="fragement fade">
+            <div class="hd">
+                <h4>惠惠购物助手</h4>
+                <span>升级到2.10</span>
+                <a href="#2" class="close" log-action="CHROME_UPDATE_TIP"
+                    log-type="ARMANI_EXTENSION_POPUP">关闭</a>
+            </div>
+        	<div class="bd">
+        		<h5>2.10新功能：惠惠网优质购物资讯订阅</h5>
+        		<p>小编精选【全网商家超值促销】、购物达人【购物全攻略】等内容，第一时间马上送达！</p>
+                <a href="#5" class="setting" 
+                    log-action="CHROME_UPDATE_TIP" log-type="ARMANI_EXTENSION_POPUP">设置我的订阅</a>
+        	</div>
+            <span class="mascot"></span>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="lib/jquery.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="lib/bootstrap.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="js/options.js"></script>
+    <script type="text/javascript" charset="utf-8" src='js/log.js'></script>
+</body>
+</html>

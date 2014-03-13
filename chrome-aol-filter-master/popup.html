@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AOL Filter</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" href="css/screen.css" media="screen" />
+        <style>
+        body {
+            min-width: 200px;
+            overflow-x: hidden;
+            font: 13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
+        	color: #333;
+        	text-align: left;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            line-height: 125%;
+            font-weight: bold;
+            text-align: center;
+            color: #624f66;
+            margin: 0;
+	    	padding:0;
+        }
+        
+        .message {
+            font-weight: bold;
+            color: #FF8800;
+            padding: 10px;
+            text-align: center;
+        }
+          
+        #form {
+		    /*margin: 1em 0;*/
+		    /*padding-top:10px;*/
+		}
+		
+    	#form fieldset {
+	    	margin:0;
+	    	padding:0;
+	    	border:none;	
+	    	float:left;
+	    	display:inline;
+	    	width:260px;
+	    	margin-left:25px;
+		}
+				
+	    #form legend { display:none; }
+	    #form p { margin:.5em 0; }
+	    #form label { display:block; }	
+	    #form input, #form textarea {		
+	    	width:252px;
+	    	border:1px solid #ddd;
+	    	background:#fff url(form_input.gif) repeat-x;
+	    	padding:3px;
+		}
+				
+	    #form textarea {
+	    	height:125px;
+	    	overflow:auto;
+		}	
+						
+	    #form p.submit {
+	    	clear:both;
+	    	padding:0 25px 20px 25px;
+	    	margin:0;
+	    	text-align:right;
+		}
+        </style>
+
+        <!--
+          - JavaScript and HTML must be in separate files: see our Content Security
+          - Policy documentation[1] for details and explanation.
+          -
+          - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+         -->
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="normalizer.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <h1>AOL Filter</h1>
+        <form id="form">
+            <fieldset>
+                <p class="first">
+					<label for="rowStyle">Row Style</label>
+					<input type="text" name="rowStyle" id="rowStyle" size="20" />
+				</p>
+                <p>
+					<label for="titleStyle">Title Style</label>
+					<input type="text" name="titleStyle" id="titleStyle" size="20" />
+				</p>
+				<p>
+				    <label for="data">Filter list (one for line)</label>
+					<textarea name="data" id="data" cols="20" rows="5"></textarea>
+				</p>
+            </fieldset>
+            <div id="message" class="message"></div>
+            <p class="submit"><input id="button" type="button" value="Save settings"/></p>
+        </form>
+    </body>
+</html>
+

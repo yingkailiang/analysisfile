@@ -1,0 +1,10 @@
+.pan-add-btn{margin-left:15px}
+#pan-file-box{z-index:200000000;position:absolute;top:50px;left:200px;}
+#pan-file-box-inner{position:relative;}
+#pan-file-box-inner .pan-drag-area{position:absolute;left:0;top:0;width:100%;height:45px;}
+#pan-file-box-inner .pan-drag-area .pan-close{cursor:pointer;position:absolute;width:14px;height:14px;right:23px;top:18px;}
+#pan-iframe{width:500px;height:370px;border:none;}
+
+/* ui功能组件 */
+.pan-draggable{position:relative}
+.pan-drag-area{cursor:move}

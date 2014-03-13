@@ -1,0 +1,248 @@
+<div style="width:440px;height:200px;" id="container">
+    <iframe id="frame" frameborder="no" scrolling="no" width="100%" height="100%"></iframe>
+</div>
+<script src="parse.js"></script>
+<script>
+    var container = document.getElementById('container');
+    var frame = document.getElementById('frame');
+    var control_ports = [], inner_ports = [];
+    
+    var current_notifications = 0;
+    function restore(doc){
+        setTimeout(function(){
+            setPopup();
+        }, 762);
+        if(!doc || doc.getElementById('frame'))
+            adopt(document);
+        if(doc.getElementById('frame')){
+            editing(function(val){
+                if(val == false) send_control({action: "hide"});
+            })
+        }
+    }
+    window.onbeforeunload = function(){
+        restore();
+    };
+    function plus(path){
+        return 'https://plus.google.com/u/'+(localStorage.auth_user||0)+'/' + path
+    }
+    function adopt(doc){
+      doc.adoptNode(frame);
+      doc.adoptNode(container);
+      doc.body.appendChild(container);
+      container.appendChild(frame);
+    }
+    
+    function send_control(msg){
+      control_ports.forEach(function(e){
+        e && e.postMessage(msg);
+      })
+    }
+    function send_inner(msg){
+      inner_ports.forEach(function(e){
+        e && e.postMessage(msg);
+      })
+    }
+    
+    function initiate(doc){
+        adopt(doc);
+        
+        editing(function(val){
+            var popups = chrome.extension.getViews();
+            if(popups)
+                for(var i = 0; i < popups.length; i++)
+                    if(/popup4.html/.test(popups[i].location.href) && popups[i].document != doc){
+                        console.log("closing a popup index",i)
+                        popups[i].close();
+                    }
+            if(val == false && control_ports.length && inner_ports.length){
+               if(current_notifications == 0 && localStorage.smartshare != 'no'){
+                    send_control({action: "sharebox"});
+                    chrome.tabs.getSelected(null, function(tab){
+                        send_inner({action: "share", current_url: localStorage.currentpage != "no" && tab.url})
+                    })
+                }else{
+                    send_control({action: "notifications"})
+                }
+            }
+        })
+    }
+    
+    function editing(cb){
+        editing.callback = cb;
+        try{
+            send_inner({action: "editing"});
+        }catch(err){
+            cb(false)
+        }
+    }
+    
+
+ /*
+  * Hi. I did this with VectorEdtor and scratchpad, so I guess I'll try to do the same here with Surplus
+  * If you are reading this code, in the distant future, say, the year 2012 and you are, as any sensible 
+  * human (presuming that you are a human) would, preparing for the Mayan and Timewave Zero-predicted 
+  * impending apocalypse, (or not) it doesn't matter. You should totally email me at antimatter15@gmail.com 
+  * because it's always an interesting feeling to realize that the future.
+  * 
+  * If the world has already ended, there's a good chance that I won't be able to respond, and it's hard to
+  * foresee anyone reading this in a post-apocalyptic world. Nonetheless, if you do manage to read this 
+  * after life on earth has ceased, please document your tale.
+  */
+ 
+    chrome.extension.onConnect.addListener(function(port) {
+        if(port.name == "host"){
+            port.postMessage({
+                action: "config",
+                target_height: 550,
+                target_width: 440,
+                url: plus('_/notifications/frame?surplus=inner&hl=en&origin=http%3A%2F%2Fwww.google.com&jsh=r%3Bgc%2F23980661-3686120e#pid=1&id=gbsf&parent=http%3A%2F%2Fwww.google.com&rpctoken=86208861&_methods=onError%2ConInfo%2ChideNotificationWidget%2CpostSharedMessage%2CsetNotificationWidgetHeight%2CswitchTo%2CnavigateTo%2CsetNotificationText%2ChandlePosted%2C_ready%2C_close%2C_open%2C_resizeMe')
+            });
+            control_ports.push(port);
+        }else if(port.name == "inner"){
+            port.postMessage({action: "accept"});
+            inner_ports.push(port);
+        }
+        port.onMessage.addListener(function(msg){
+            //console.log(msg.action, msg)
+            if(msg.action == "resize"){
+                container.style.width = msg.width + 'px';
+                container.style.height =  msg.height + 'px';
+            }else if(msg.action == "reload"){
+                location.reload(true);
+            }else if(msg.action == "popout"){
+                chrome.windows.create({
+                    url: "popup4.html",
+                    width: 440,
+                    height: 570,
+                    type: 'popup'
+                })
+            }else if(msg.action == "update"){
+                updateCount();
+            }else if(msg.action == "error"){
+                drawIcon("!!");
+                clearInterval(updater);
+            }else if(msg.action == "settings"){
+                //todo: open settings
+                chrome.tabs.create({
+                    url: "options4.html"
+                })
+            }else if(msg.action == "editing"){
+                editing.callback(msg.value)
+            }else send_control(msg);
+            
+        })
+    });
+    function drawIcon(num){
+        num += '';
+        if(localStorage.usebadge == 'yes') { 
+          chrome.browserAction.setBadgeText({ text:num=='0'?'':num });
+          chrome.browserAction.setIcon({path: 'img/classic.png'});
+        }else{
+          chrome.browserAction.setBadgeText({ text:'' });
+          var c = document.createElement('canvas').getContext('2d');
+          var none = (num.replace(/[\s0]/g,'') == '');
+          var img = new Image();
+          img.src = none ? 'img/old.png' : 'img/new.png';
+          img.onload = function(){
+            c.drawImage(img, 0, 0);
+            c.font = "bold 13px arial,sans-serif";
+            c.fillStyle = none ? '#CCC' : '#fff';
+            if(parseInt(num) > 9 || num == '9+'){
+              c.fillText('9+', 3, 14);
+            }else{
+              c.fillText(num+'', 6, 14);
+            }
+            chrome.browserAction.setIcon({imageData: c.getImageData(0,0,19,19)})
+          }
+        }
+    }
+    
+    function updateCount(){
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', plus('_/n/guc'),true);
+        xhr.onload = function(){
+            var count = JSON.parse(xhr.responseText.substr(4))[1];
+            if(current_notifications < count) getNotifications(count);
+            current_notifications = count;
+            drawIcon(count);
+        }
+        xhr.send();
+    }
+    
+    var showqueue = [];
+    
+    function displayNotification(notification){
+        showqueue.push(notification);
+        function render(){
+            var msg = showqueue[0];
+            window.notify_message = msg.html
+            window.notify_image = msg.pic
+            var notification = window.webkitNotifications.createHTMLNotification('notification.html');;
+            notification.show();
+            setTimeout(function() {
+                notification.cancel();
+                showqueue.shift();
+                if(showqueue.length) setTimeout(render, 762);
+            }, 5000);
+        }
+        if(showqueue.length == 1) render();
+    }
+    
+    function getNotifications(count){
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', plus('_/notifications/getnotificationsdata'), true);
+        xhr.onload = function(){
+            var notifications = parseNotifications(eval(xhr.responseText.substr(5)))
+                                .slice(0, count);
+            if(localStorage.celebrity == 'yes' && count == 1 && /added you/.test(notifications[0].html))
+              return updatelastreadtime();
+            
+            if(localStorage.notify == 'yes')
+                notifications.map(displayNotification);
+            if(localStorage.notifyread == 'yes') updatelastreadtime();
+            if(localStorage.notify_sound == 'yes')(new Audio("notify.ogg")).play();
+        }
+        xhr.send();
+    }
+    
+    
+    function updatelastreadtime(callback) {
+      var xhr = new XMLHttpRequest();
+      xhr.open('get', plus('notifications/all'), true);
+      xhr.onload = function() {
+        var code = xhr.responseText.match(/"https:\/\/www\.google\.com\/csi"\,"([A-Za-z0-9\-_:]+)"\,\,\,/)[1];
+        var xhr2 = new XMLHttpRequest();
+        xhr2.onload = function() { if (callback) callback() }
+        xhr2.open('post', plus('_/notifications/updatelastreadtime'), true);
+        xhr2.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
+        xhr2.send('time=' + (1000 * new Date) + '&at=' + code);
+      }
+      xhr.send();
+    }
+    
+    var updater = setInterval(updateCount, 1000 * 10 * Math.PI);
+    
+    var popups = chrome.extension.getViews();
+    if(popups)
+        for(var i = 0; i < popups.length; i++)
+            if(/popup4.html/.test(popups[i].location.href)) popups[i].init();
+    
+    
+    function setPopup(){
+        if(localStorage.mode == "lite"){
+            chrome.browserAction.setPopup({popup:'lite.html'});
+        }else{
+            chrome.browserAction.setPopup({popup:'popup4.html'});
+        }
+    }
+    
+    drawIcon('');
+    
+    setPopup();
+    if(localStorage.mode == "lite"){
+        updateCount();
+    }else{
+        frame.src = "http://www.google.com/404?extension=surplus";
+    }
+</script>

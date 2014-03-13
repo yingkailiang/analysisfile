@@ -1,0 +1,4 @@
+- var challenge = (typeof(current_challenge) != 'undefined') ? current_challenge : undefined
+!=partial('common/side_nav', {'challenges' : challenges, 'current_challenge' : challenge, 'admin' : false})
+section.main_area
+    block main_area

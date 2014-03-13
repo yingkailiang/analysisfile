@@ -1,0 +1,15 @@
+{
+  "name": "history-cards",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2",
+    "sass-bootstrap": "~3.0.0",
+    "angular": "1.2.0-rc.2",
+    "angular-sanitize": "1.2.0-rc.2",
+    "angular-ui-router": "~0.2.0",
+    "angular-ui-bootstrap": "~0.6.0",
+    "angular-ui-bootstrap-bower": "~0.6.0"
+  },
+  "devDependencies": {}
+}

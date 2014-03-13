@@ -1,0 +1,207 @@
+/****************************************************************************
+ * AnchoPassthruAPP.h : Declaration of the CAnchoPassthruAPP
+ * Copyright 2012 Salsita (http://www.salsitasoft.com).
+ * Author: Matthew Gertner <matthew@salsitasoft.com>
+ ****************************************************************************/
+
+#pragma once
+
+#include "ProtocolImpl.h"
+#include "AnchoBrowserEvents.h"
+
+#include "WindowDocumentMap.h"
+
+#include <string>
+typedef std::basic_string<TCHAR> tstring;
+#include <set>
+
+
+/*============================================================================
+ * class CAnchoProtocolSink
+ */
+class CAnchoProtocolSink :
+  public PassthroughAPP::CInternetProtocolSinkWithSP<CAnchoProtocolSink>,
+  public IHttpNegotiate
+{
+  friend class CAnchoStartPolicy;
+  typedef PassthroughAPP::CInternetProtocolSinkWithSP<CAnchoProtocolSink> BaseClass;
+
+public:
+
+  // -------------------------------------------------------------------------
+  // Constructor
+  CAnchoProtocolSink() : m_IsFrame(false), m_bindVerb(-1) {}
+
+  // -------------------------------------------------------------------------
+  // COM interface map
+  BEGIN_COM_MAP(CAnchoProtocolSink)
+    COM_INTERFACE_ENTRY(IHttpNegotiate)
+    COM_INTERFACE_ENTRY_CHAIN(BaseClass)
+  END_COM_MAP()
+
+  BEGIN_SERVICE_MAP(CAnchoProtocolSink)
+    SERVICE_ENTRY(IID_IHttpNegotiate)
+  END_SERVICE_MAP()
+
+  // -------------------------------------------------------------------------
+  // IHttpNegotiate
+  STDMETHOD(BeginningTransaction)(
+    /* [in] */ LPCWSTR szURL,
+    /* [in] */ LPCWSTR szHeaders,
+    /* [in] */ DWORD dwReserved,
+    /* [out] */ LPWSTR *pszAdditionalHeaders);
+
+  STDMETHOD(OnResponse)(
+    /* [in] */ DWORD dwResponseCode,
+    /* [in] */ LPCWSTR szResponseHeaders,
+    /* [in] */ LPCWSTR szRequestHeaders,
+    /* [out] */ LPWSTR *pszAdditionalRequestHeaders);
+
+  STDMETHOD(ReportProgress)(
+    /* [in] */ ULONG ulStatusCode,
+    /* [in] */ LPCWSTR szStatusText);
+
+  STDMETHOD(ReportData)(
+    /* [in] */ DWORD grfBSCF,
+    /* [in] */ ULONG ulProgress,
+    /* [in] */ ULONG ulProgressMax);
+
+  STDMETHOD(ReportResult)(
+    /* [in] */ HRESULT hrResult,
+    /* [in] */ DWORD dwError,
+    /* [in] */ LPCWSTR szResult);
+
+  // IInternetBindInfo
+  STDMETHODIMP GetBindInfoEx(
+    /* [out] */ DWORD *grfBINDF,
+    /* [in, out] */ BINDINFO *pbindinfo,
+    /* [out] */ DWORD *grfBINDF2,
+    /* [in] */ DWORD* pdwReserved);
+
+  // -------------------------------------------------------------------------
+  // Public interface
+  boolean IsFrame() { return m_IsFrame; }
+  // Free the memory associated with the params allocated when calling Switch().
+  void FreeSwitchParams(BSTR* params);
+  DWORD GetBindVerb() { return m_bindVerb; }
+
+  std::wstring getUrl() const { return m_Url; }
+private:
+  // -------------------------------------------------------------------------
+  // Implementation
+  // Allocate the correct parameters for calling Switch().
+  LPVOID InitSwitchParams(const BSTR param1, const BSTR param2 = L"");
+
+  // -------------------------------------------------------------------------
+  // Private members.
+  std::wstring m_Url;
+  boolean m_IsFrame;
+  DWORD m_bindVerb;
+};
+
+class CAnchoPassthruAPP;
+
+/*============================================================================
+ * class CAnchoStartPolicy
+ */
+class CAnchoStartPolicy :
+  public PassthroughAPP::CustomSinkStartPolicy<CAnchoPassthruAPP, CAnchoProtocolSink>
+{
+public:
+  HRESULT OnStart(LPCWSTR szUrl,
+    IInternetProtocolSink *pOIProtSink, IInternetBindInfo *pOIBindInfo,
+    DWORD grfPI, HANDLE_PTR dwReserved,
+    IInternetProtocol* pTargetProtocol);
+
+  HRESULT OnStartEx(IUri* pUri,
+    IInternetProtocolSink *pOIProtSink, IInternetBindInfo *pOIBindInfo,
+    DWORD grfPI, HANDLE_PTR dwReserved,
+    IInternetProtocolEx* pTargetProtocol);
+};
+
+/*============================================================================
+ * class CAnchoPassthruAPP
+ */
+class CAnchoPassthruAPP :
+  public PassthroughAPP::CInternetProtocol<CAnchoStartPolicy>
+{
+private:
+  typedef std::vector<std::pair<std::wstring, std::wstring> > RedirectList;
+
+  // -------------------------------------------------------------------------
+  // DocumentSink class (for sinking HTMLDocumentEvents2)
+  class DocumentSink :
+    public IDispEventImpl<1, DocumentSink, &DIID_HTMLDocumentEvents2, &LIBID_MSHTML, 4, 0>
+  {
+  public:
+    // -------------------------------------------------------------------------
+    // Constructor/destructor
+    DocumentSink(IInternetProtocolRoot* app, IHTMLDocument2 *doc, DAnchoBrowserEvents* events,
+      BSTR bstrUrl, BOOL bIsRefreshingMainFrame) :
+      m_APP(app), m_Doc(doc), m_Events(events), m_Url(bstrUrl), m_IsRefreshingMainFrame(bIsRefreshingMainFrame)
+    {
+    }
+    ~DocumentSink();
+
+    // -------------------------------------------------------------------------
+    // Event map
+    BEGIN_SINK_MAP(DocumentSink)
+      SINK_ENTRY_EX(1, DIID_HTMLDocumentEvents2, DISPID_READYSTATECHANGE, OnReadyStateChange)
+    END_SINK_MAP()
+
+    // -------------------------------------------------------------------------
+    // Methods
+    STDMETHOD_(void, OnReadyStateChange)(IHTMLEventObj* ev);
+
+  private:
+    // -------------------------------------------------------------------------
+    // Data members
+    CComPtr<IHTMLDocument2> m_Doc;
+    CComPtr<DAnchoBrowserEvents> m_Events;
+    // Hold a pointer to the APP so we don't get freed too early.
+    CComPtr<IInternetProtocolRoot> m_APP;
+    CComBSTR m_Url;
+    BOOL m_IsRefreshingMainFrame;
+  };
+
+  // -------------------------------------------------------------------------
+  // IInternetProtocolRoot
+  STDMETHOD(Continue)(PROTOCOLDATA *pProtocolData);
+
+  STDMETHOD(StartEx)(
+    IUri *pUri,
+    IInternetProtocolSink *pOIProtSink,
+    IInternetBindInfo *pOIBindInfo,
+    DWORD grfPI,
+    HANDLE_PTR dwReserved);
+public:
+  // -------------------------------------------------------------------------
+  // Destructor
+  CAnchoPassthruAPP() : m_DocSink(NULL), m_IsRefreshingMainFrame(false), m_ProcessedReportData(false) {}
+  virtual ~CAnchoPassthruAPP();
+
+  STDMETHOD(fireOnBeforeHeaders)(CComPtr<CAnchoProtocolSink> aSink, const CComBSTR &aUrl, CComPtr<IWebRequestReporter> aReporter);
+private:
+
+  STDMETHOD(getWindowFromSink)(CComPtr<CAnchoProtocolSink> aSink, HWND &aWinHWND);
+  STDMETHOD(getEventsFromBrowser)(CComPtr<IWebBrowser2> aBrowser, CComPtr<DAnchoBrowserEvents> &aEvents);
+
+  void tryToFillDocumentRecord(HWND aDocWindow);
+
+  STDMETHOD(tryToNotifyAboutFrameEnd)(CComBSTR aUrl, bool aIsRefreshingMainFrame);
+  // -------------------------------------------------------------------------
+  // Data members
+  CComQIPtr<DAnchoBrowserEvents> m_BrowserEvents;
+  CComPtr<IHTMLDocument2> m_Doc;
+
+  WindowDocumentRecord m_DocumentRecord;
+
+  // It's hellish to figure out if we are refreshing the main frame (e.g. on F5).
+  // So we use the URL to check (see implementation) and remember the state in this variable.
+  bool m_IsRefreshingMainFrame;
+  bool m_ProcessedReportData;
+  CComPtr<IWebBrowser2> m_Browser;
+  std::set<CComPtr<IWebBrowser2> > m_FoundFrames;
+  DocumentSink* m_DocSink;
+  RedirectList m_Redirects;
+};

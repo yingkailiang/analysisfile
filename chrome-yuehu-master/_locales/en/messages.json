@@ -1,0 +1,26 @@
+{
+  "name": {
+    "message": "Yuehu",
+    "description": "Extension name"
+  },
+  "short_name": {
+    "message": "yuehu",
+    "description": "Extension short name"
+  },
+  "description": {
+    "message": "Put a webpage to your reading list.",
+    "description": "Description of the extension"
+  },
+  "invalidurl": {
+    "message": "Yuehu won't parse this URL.",
+    "description": "An error message"
+  },
+  "error": {
+    "message": "Error",
+    "description": "Error category"
+  },
+  "saved": {
+    "message": "Saved",
+    "description": "Success category"
+  }
+}

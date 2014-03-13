@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="script/ui-action-handler.js"></script>
+		<link rel="stylesheet" href="style/ui-style.css">
+	</head>
+	<body>
+
+		<article id="media">
+		
+			<div class="float" id="media-next"></div>
+			<div class="float" id="media-play"></div>
+			<div class="float" id="media-stop"></div>
+		
+			<img src="resource/cover.jpg" alt="" id="media-cover" class="float" height="363px">
+
+			<div id="media-title">
+				<h2 id="media-title-song"></h2>
+				<h6 id="media-title-artist"></h6>
+			</div>
+		</article>
+
+		<section id="buttonbar" style="display: none">
+			<div class="float" id="media-next"></div>
+			<div class="float" id="media-stop"></div>
+			<img src="resource/icon.png" alt="" id="media-cover" class="float" height="100px">
+		</section>
+
+		<section style="display: none"> 
+			<button id="media-play">Play</button>
+			<button id="media-pause">Pause</button>
+			<button id="media-previous">Previous</button>
+		</section>
+
+		<select name="channel" id="radio-channel" style="display: none">			
+			<option value="0" selected="true">华语</option>
+			<option value="1">日语</option>
+		</select>
+
+		
+	</body>
+</html>

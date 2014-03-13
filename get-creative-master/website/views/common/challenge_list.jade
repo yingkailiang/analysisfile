@@ -1,0 +1,12 @@
+-if (challenge_list)
+    for challenge in challenge_list
+        - var li_class = (typeof(current_challenge) != 'undefined' && challenge._id == current_challenge._id) ? "active" : ""
+        - if (challenge.is_completed)
+            - li_class += " completed"
+        li(class=li_class)
+            a.js_link(href="#{challenge.get_url(is_admin)}")
+                p.prompt #{challenge.prompt}
+                p.response_count
+                    strong
+                        #{challenge.responses.length}
+                    | replies

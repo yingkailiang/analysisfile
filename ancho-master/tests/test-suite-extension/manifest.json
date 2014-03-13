@@ -1,0 +1,36 @@
+{
+  "name": "__MSG_extensionName__",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Extension to test Ancho's Chrome API implementations.",
+  "background": {
+    "page": "html/background.html"
+  },
+  "permissions": [
+    "tabs",
+    "cookies",
+    "http://www.myweb.tst/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "js/lib/require.js",
+        "js/lib/jasmine/jasmine.js",
+        "js/lib/jasmine/jasmine-html.js",
+        "js/lib/jquery.js",
+        "js/requireConfig.js",
+        "js/requireContent.js",
+        "js/content.js"
+      ]
+    }
+  ],
+	"browser_action": {
+    "default_icon": "images/testIcon.png",
+    "default_title": "__MSG_browserActionLabel__",
+    "default_popup": "html/popup.html"
+  },
+  "web_accessible_resources": [
+    "/*"
+  ]
+}

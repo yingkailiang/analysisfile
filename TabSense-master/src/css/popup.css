@@ -1,0 +1,95 @@
+body {
+  font-family : Verdana, Sans Serif, Arial;
+  min-width : 400px;
+  overflow : hidden;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    cursor : hand;
+}
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.mtab > * {
+    float : left;
+}
+.mtab > div {
+    overflow : hidden;
+    white-space : nowrap;
+    cursor : pointer;
+}
+.mtab .node {
+    cursor : pointer;
+}
+.mtab .favicon {
+    cursor : pointer;
+}
+.mtab .node {
+    margin-left : 4px;
+    margin-right : 4px;
+}
+.mtab .star,.favicon {
+}
+.mtab .star {
+    float : right;
+    cursor : pointer;
+}
+.mtab {
+    float : top;
+  border-top : 0.1em solid #ddd;
+}
+.mtabodd {
+  background : #fcfcfc;
+}
+.mtabeven {
+  background : #fefefe;
+}
+#allwin {
+    float : top;
+    text-align : center;
+}
+.mwin {
+    background-color : #555;
+    position : absolute;
+    margin-left : 10px;
+    -webkit-border-radius : 15px;
+    -webkit-box-shadow : rgba(20,20,20,1) 1px 1px 5px;
+}
+.mwin .wtitle {
+    color : #fff;
+    -webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    text-align:center;
+}
+.mwin .wtitle .maxicon {
+    float : right;
+    margin-right : 10px;
+    cursor : pointer;
+}
+.mwin .wtitle .text {
+    margin-top : 5px;
+    white-space : nowrap;
+    overflow : hidden;
+    text-align:center;
+    margin-left : 15px;
+}
+.mwin .wtitle div {
+    margin-top : 5px;
+    text-align : center;
+}
+.mwin .wtitle div input {
+    width : 300px;
+    text-align : center;
+    color : #eee;
+    background-color : #777;
+}

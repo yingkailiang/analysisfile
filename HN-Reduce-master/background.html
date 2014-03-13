@@ -1,0 +1,50 @@
+<html>
+<head>
+<script>
+var d = new Date();
+
+// Short lived connection for when user clicks on [remove]
+chrome.extension.onRequest.addListener(
+    function(request, sender, sendResponse) {
+        // get current id for sorting
+        id = localStorage["current_id"];
+        if (id == undefined) {
+            id = 0;
+        } else {
+            id = parseInt(id);
+        }
+        
+        // Save current id for next removal
+        localStorage["current_id"] = id + 1;
+
+        // Zero-pad id to enable correct sort order
+        id = id.toString(10);
+        while (id.length < 8) {
+            id = "0" + id;
+        }
+                
+        date = d.getFullYear() + "-" + (parseInt(d.getMonth())+1) + "-" + d.getDate();         
+        localStorage["_removed_" + id] = id + "," + date + "," + request.remove;
+        localStorage[request.remove] = "1";
+    }
+);
+
+// Check if item was previously removed
+function isRemoved(href) {
+    return localStorage[href] == 1;
+}
+
+// Long lived connection: on startup when all links are checked against localStorage
+chrome.extension.onConnect.addListener(function(port) {
+    console.assert(port.name == "isremoved");
+    port.onMessage.addListener(function(msg) {
+        r = isRemoved(msg.href);
+        if (r) { r = msg.href; } // passing back href to remove from inside content
+        port.postMessage({removed: r});
+    });
+});
+  
+chrome.tabs.executeScript(null, {file: "hnreduce.js"});
+</script>
+</head>
+</html>

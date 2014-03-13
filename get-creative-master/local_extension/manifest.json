@@ -1,0 +1,24 @@
+{
+    "name"              : "Get Creative",
+    "version"           : "0.0.0",
+    "manifest_version"  : 2,
+    "description"       : "Make something creative everyday with daily challenges!",
+    "homepage_url"      : "http://get-creative.us",
+    "background"        : {
+        "scripts"   : ["js/background.js"]
+    },
+    "browser_action"    : {
+        "default_icon"  : "assets/icon.png",
+        "default_title" : "Daily Challenge",
+        "default_popup" : "templates/popup.html"
+    },
+    "permissions"       : [
+        "storage",
+        "notifications",
+        "http://127.0.0.1:7000/*"
+    ],
+    "content_security_policy" : "script-src 'self' https://ssl.google-analytics.com/ga.js; object-src 'self'",
+    "web_accessible_resources" : [
+        "assets/icon.png"
+    ]
+}

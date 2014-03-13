@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Stabile\u015Fte dac\u0103 vrei s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau dac\u0103 dore\u015Fti s\u0103 le \u00EEncarci la dimensiune standard mai mic\u0103, care este gratuit\u0103."
+   },
+   "106279463205193944": {
+      "message": "Persoanele din acest album"
+   },
+   "1078696495414015742": {
+      "message": "Continu\u0103"
+   },
+   "1079312373208696407": {
+      "message": "Clic aici dup\u0103 ce te-ai \u00EEnscris"
+   },
+   "1106976338877989624": {
+      "message": "Despre $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}female{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}other{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u00CEnc\u0103rcarea s-a finalizat! {START_BOLD}O{END_BOLD} fotografie gata pentru a fi ar\u0103tat\u0103.}few{\u00CEnc\u0103rcarea s-a finalizat! {START_BOLD}{COUNT_2}{END_BOLD} fotografii gata pentru a fi ar\u0103tate.}other{\u00CEnc\u0103rcarea s-a finalizat! {START_BOLD}{COUNT_2}{END_BOLD} de fotografii gata pentru a fi ar\u0103tate.}}"
+   },
+   "1131710491735646017": {
+      "message": "Mut\u0103 fotografia"
+   },
+   "1141157641265116263": {
+      "message": "Stocheaz\u0103, organizeaz\u0103 \u015Fi arat\u0103 toate fotografiile \u015Fi videoclipurile tale cu numai c\u00E2teva clicuri."
+   },
+   "1168286392495236500": {
+      "message": "Trimis\u0103 \u00EEn mod public"
+   },
+   "1168912363261265730": {
+      "message": "Red\u0103 slideshow-ul"
+   },
+   "1179156232993544339": {
+      "message": "\u0218terge albumul"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Selecteaz\u0103 elementele}female{Selecteaz\u0103 elementele}other{Selecteaz\u0103 elementele}}"
+   },
+   "1199073624563429103": {
+      "message": "Dac\u0103 \u015Ftergi aceste fotografii, se vor \u015Fterge toate post\u0103rile, comentariile \u015Fi +1urile asociate acestora."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BReconecteaz\u0103-te$1\u200B pentru a vedea toate fotografiile \u0219i albumele."
+   },
+   "1274379628511980491": {
+      "message": "Scanarea fotografiilor"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{O fotografie}few{{PHOTO_COUNT_2} fotografii}other{{PHOTO_COUNT_2} de fotografii}}"
+   },
+   "1299278917495979942": {
+      "message": "Dup\u0103 data ad\u0103ug\u0103rii (de la cele recente la cele vechi)"
+   },
+   "1299626955070536636": {
+      "message": "Rote\u0219te spre dreapta"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Ai nevoie de o conexiune la internet pentru a configura {XXX} pentru prima dat\u0103.}male{Ai nevoie de o conexiune la internet pentru a configura {XXX} pentru prima dat\u0103.}other{Ai nevoie de o conexiune la internet pentru a configura {XXX} pentru prima dat\u0103.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Ai o fotografie \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {COUNT_2} fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {COUNT_2} fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Ai o fotografie \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {COUNT_2} fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {COUNT_2} de fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Ai o fotografie \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {COUNT_2} fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {COUNT_2} de fotografii \u00EEn a\u0219teptare pentru \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Selecteaz\u0103 alte loca\u0163ii pentru importare"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Pentru a beneficia de toate func\u021Biile aplica\u021Biei {APP_NAME}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}male{Pentru a beneficia de toate func\u021Biile aplica\u021Biei {APP_NAME}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}other{Pentru a beneficia de toate func\u021Biile aplica\u021Biei {APP_NAME}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Import\u0103 automat fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}male{Import\u0103 automat fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}other{Import\u0103 automat fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}}"
+   },
+   "1410409051323941239": {
+      "message": "Se \u00EEncearc\u0103 reconectarea..."
+   },
+   "1425141239403329190": {
+      "message": "Po\u0163i s\u0103 deconectezi acum dispozitivul $1\u200B \u00EEn siguran\u0163\u0103."
+   },
+   "1428301074198348755": {
+      "message": "Salveaz\u0103"
+   },
+   "1482983300175848685": {
+      "message": "\u00CEnscrie-te la Google+"
+   },
+   "1494518490116523821": {
+      "message": "Selecteaz\u0103-le pe toate"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Copiaz\u0103}male{Copiaz\u0103}other{Copiaz\u0103}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Mut\u0103}male{Mut\u0103}other{Mut\u0103}}"
+   },
+   "1535908424500369256": {
+      "message": "Urm\u0103toarele ferestre se vor \u00EEnchide:\n"
+   },
+   "1542576779711006198": {
+      "message": "Importarea fotografiilor din $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Mut\u0103}female{Mut\u0103}other{Mut\u0103}}"
+   },
+   "1572187844116018239": {
+      "message": "Vizualizeaz\u0103 pe tot ecranul"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Adaug\u0103}male{Adaug\u0103}other{Adaug\u0103}}"
+   },
+   "163532554661203916": {
+      "message": "Deschide $1\u200B pentru a \u00EEncepe importul fotografiilor de pe $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Fotografii..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B, versiunea $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Se \u00EEncarc\u0103..."
+   },
+   "1753152144556911377": {
+      "message": "Despre $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Nu"
+   },
+   "1760918964936396010": {
+      "message": "\u0218terge $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nu s-a trimis}male{Nu s-a trimis}other{Nu s-a trimis}}"
+   },
+   "1829542073477142210": {
+      "message": "Vizibile pentru participan\u0163ii la conversa\u0163ii"
+   },
+   "1863533324056146247": {
+      "message": "p.m."
+   },
+   "1898536270078020135": {
+      "message": "Meniul aplica\u021Biei"
+   },
+   "1907928780625920048": {
+      "message": "Stocate \u00EEn siguran\u0163\u0103"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotografie gata s\u0103 fie ar\u0103tat\u0103}few{{COUNT_2} fotografii gata s\u0103 fie ar\u0103tate}other{{COUNT_2} de fotografii gata s\u0103 fie ar\u0103tate}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}female{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}other{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}}"
+   },
+   "1938243880078123136": {
+      "message": "Vei fi redirec\u0163ionat(\u0103) c\u0103tre Google pentru a urm\u0103ri videoclipul."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Ai fost etichetat\u0103}male{Ai fost etichetat}other{Ai fost etichetat(\u0103)}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Stabile\u015Fte dac\u0103 vrei s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau dac\u0103 dore\u015Fti s\u0103 le \u00EEncarci la dimensiune standard mai mic\u0103, care este gratuit\u0103.}female{Stabile\u015Fte dac\u0103 vrei s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau dac\u0103 dore\u015Fti s\u0103 le \u00EEncarci la dimensiune standard mai mic\u0103, care este gratuit\u0103.}other{Stabile\u015Fte dac\u0103 vrei s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau dac\u0103 dore\u015Fti s\u0103 le \u00EEncarci la dimensiune standard mai mic\u0103, care este gratuit\u0103.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fotografii din \u00CEnc\u0103rcare instant"
+   },
+   "2000146230061979936": {
+      "message": "Fotografii de profil"
+   },
+   "2029980907058777630": {
+      "message": "Termeni \u015Fi condi\u0163ii"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Toate drepturile rezervate."
+   },
+   "2079435202927044386": {
+      "message": "Se import\u0103 fotografiile"
+   },
+   "2097731301533028280": {
+      "message": "Toate fotografiile"
+   },
+   "2102825898069375693": {
+      "message": "Meniu"
+   },
+   "2127917516759723964": {
+      "message": "\u0218tergi albumele selectate?"
+   },
+   "2134605074025092052": {
+      "message": "\u0218terge $1\u200B (de) fotografii"
+   },
+   "2159130950882492111": {
+      "message": "Anuleaz\u0103"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}female{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}other{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Nu cea mai bun\u0103}male{Nu cea mai bun\u0103}other{Nu cea mai bun\u0103}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Bun\u0103! Bun venit la {XXX_1}.}female{Bun\u0103! Bun venit la {XXX_2}.}other{Bun\u0103! Bun venit la {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Ajutor}female{Ajutor}other{Ajutor}}"
+   },
+   "2256196161103684642": {
+      "message": "Limitat\u0103"
+   },
+   "2267143557027174044": {
+      "message": "Anuleaz\u0103"
+   },
+   "2299297337048329405": {
+      "message": "Copiaz\u0103"
+   },
+   "2354817630223808522": {
+      "message": "Mut\u0103"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Pentru a beneficia de toate func\u0163iile aplica\u0163iei {APP_NAME}, configureaz-o, astfel \u00EEnc\u00E2t s\u0103-\u0163i importe automat fotografiile.}female{Pentru a beneficia de toate func\u0163iile aplica\u0163iei {APP_NAME}, configureaz-o, astfel \u00EEnc\u00E2t s\u0103-\u0163i importe automat fotografiile.}other{Pentru a beneficia de toate func\u0163iile aplica\u0163iei {APP_NAME}, configureaz-o, astfel \u00EEnc\u00E2t s\u0103-\u0163i importe automat fotografiile.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Mut\u0103 {XXX_1} fotografie \u00EEn:}few{Mut\u0103 {XXX_2} fotografii \u00EEn:}other{Mut\u0103 {XXX_2} de fotografii \u00EEn:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotografii de pe telefon"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Pentru a \u00EEncepe, import\u0103-\u0163i fotografiile}female{Pentru a \u00EEncepe, import\u0103-\u0163i fotografiile}other{Pentru a \u00EEncepe, import\u0103-\u0163i fotografiile}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{O fotografie}few{{PHOTO_COUNT_2} fotografii}other{{PHOTO_COUNT_2} de fotografii}}"
+   },
+   "2453303348493525919": {
+      "message": "Selecteaz\u0103 articolele"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album selectat}few{{COUNT_2} albume selectate}other{{COUNT_2} de albume selectate}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{A fost \u00EEnc\u0103rcat\u0103 deja o fotografie \u00EEntr-o sesiune anterioar\u0103. }few{Au fost \u00EEnc\u0103rcate deja {NUM_PHOTOS_2} fotografii \u00EEntr-o sesiune anterioar\u0103. }other{Au fost \u00EEnc\u0103rcate deja {NUM_PHOTOS_2} de fotografii \u00EEntr-o sesiune anterioar\u0103. }}"
+   },
+   "2503049676444223994": {
+      "message": "Dup\u0103 data ad\u0103ug\u0103rii (de la cele vechi la cele recente)"
+   },
+   "251008425196701054": {
+      "message": "Vizibil pentru oricine din domeniul t\u0103u"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}male{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}other{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}}"
+   },
+   "2537804086667442212": {
+      "message": "Dac\u0103 anulezi, nu se vor mai importa fotografii. Fotografiile importate deja vor fi eliminate."
+   },
+   "2543396005338987129": {
+      "message": "Anuleaz\u0103 importul"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Neclar\u0103}male{Neclar\u0103}other{Neclar\u0103}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie din $1\u200B \u0219i este gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate # fotografii din $1\u200B \u0219i sunt gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate # de fotografii din $1\u200B \u0219i sunt gata pentru a fi ar\u0103tate!}}"
+   },
+   "2603085641264767659": {
+      "message": "Invita\u0163i la eveniment"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Aplica\u021Bia {XXX} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}male{Aplica\u021Bia {XXX} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}other{Aplica\u021Bia {XXX} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u021Bi}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min. $2\u200B sec."
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B reune\u0219te fotografiile din camere, de pe telefoane \u0219i din dosare \u00EEntr-un singur loc."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{A fost copiat\u0103 o fotografie din {FOLDER_NAME}}few{Au fost copiate {NUM_PHOTOS_2} fotografii din {FOLDER_NAME}!}other{Au fost copiate {NUM_PHOTOS_2} de fotografii din {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Dimensiune complet\u0103 ($1\u200B GB din $2\u200B GB r\u0103ma\u0219i)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Nu te-ai putut conecta la {XXX}.}male{Nu te-ai putut conecta la {XXX}.}other{Nu te-ai putut conecta la {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Selecteaz\u0103-le pe toate}female{Selecteaz\u0103-le pe toate}other{Selecteaz\u0103-le pe toate}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sec."
+   },
+   "2710655047330556001": {
+      "message": "Persoane din aceast\u0103 fotografie"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Bun venit la {XXX_1}}female{Bun venit la {XXX_2}}other{Bun venit la {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Expunere"
+   },
+   "2761269382982007883": {
+      "message": "Vei primi ajutor pentru organizare \u0219i \u021Bi se vor sugera cele mai bune fotografii pe care s\u0103 le afi\u0219ezi."
+   },
+   "2761326392133498772": {
+      "message": "Arat\u0103 fotografia"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form Oh nu!}=1{O fotografie}few{{PHOTO_COUNT_2} fotografii}other{{PHOTO_COUNT_2} de fotografii}}"
+   },
+   "2784586982005585140": {
+      "message": "Mai multe"
+   },
+   "2786233632874013852": {
+      "message": "Mai multe fotografii"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Deselecteaz\u0103-le pe toate}female{Deselecteaz\u0103-le pe toate}other{Deselecteaz\u0103-le pe toate}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatur\u0103"
+   },
+   "2820098809819439336": {
+      "message": "\u0218terge fotografiile"
+   },
+   "2847005022751960352": {
+      "message": "\u00CEnc\u0103 se lucreaz\u0103..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceast\u0103 fotografie.}few{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceste fotografii.}other{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceste fotografii.}}"
+   },
+   "287837027263664914": {
+      "message": "Editeaz\u0103 loca\u0163iile de importare"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotografie selectat\u0103}few{{COUNT_2} fotografii selectate}other{{COUNT_2} de fotografii selectate}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{D\u0103 clic pentru a elimina aceast\u0103 fotografie}female{D\u0103 clic pentru a elimina aceast\u0103 fotografie}other{D\u0103 clic pentru a elimina aceast\u0103 fotografie}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Conecteaz\u0103-te}female{Conecteaz\u0103-te}other{Conecteaz\u0103-te}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Adaug\u0103 {XXX_1} fotografie \u00EEn:}few{Adaug\u0103 {XXX_2} fotografii \u00EEn:}other{Adaug\u0103 {XXX_2} de fotografii \u00EEn:}}"
+   },
+   "2973731817320915012": {
+      "message": "Dup\u0103 data cre\u0103rii"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Red\u0103 de la \u00EEnceput}female{Red\u0103 de la \u00EEnceput}other{Red\u0103 de la \u00EEnceput}}"
+   },
+   "2987283829749314385": {
+      "message": "Bun\u0103, $2\u200B! Bun venit la $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nicio fotografie selectat\u0103}=1{{COUNT_2} fotografie gata s\u0103 fie ar\u0103tat\u0103}few{{COUNT_2} fotografii gata s\u0103 fie ar\u0103tate}other{{COUNT_2} de fotografii gata s\u0103 fie ar\u0103tate}}"
+   },
+   "2991916598129901933": {
+      "message": "1 fotografie"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Calitate redus\u0103}male{Calitate redus\u0103}other{Calitate redus\u0103}}"
+   },
+   "3018671699054071030": {
+      "message": "Fotografii din post\u0103ri"
+   },
+   "3052031564829371686": {
+      "message": "Drepturi de autor \u00A9 2012 Google Inc. Toate drepturile rezervate."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}male{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}other{Alege dac\u0103 dore\u0219ti s\u0103 stochezi copii de rezerv\u0103 de dimensiune complet\u0103 pentru fotografiile pe care le impor\u021Bi sau dac\u0103 dore\u0219ti copii mai mici, la dimensiune standard (2048 px), care sunt gratuite.}}"
+   },
+   "3062505056927186217": {
+      "message": "Fotografii din albumul de \u00EEnsemn\u0103ri"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} \u00EEnc\u0103rcate din {TOTAL}}=1{{COUNT_2} \u00EEnc\u0103rcat\u0103 din {TOTAL}}few{{COUNT_2} \u00EEnc\u0103rcate din {TOTAL}}other{{COUNT_2} \u00EEnc\u0103rcate din {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Calitate redus\u0103"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Ai nevoie de conexiune la internet pentru configurarea ini\u021Bial\u0103 a aplica\u021Biei {XXX}}male{Ai nevoie de conexiune la internet pentru configurarea ini\u021Bial\u0103 a aplica\u021Biei {XXX}}other{Ai nevoie de conexiune la internet pentru configurarea ini\u021Bial\u0103 a aplica\u021Biei {XXX}}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}female{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}other{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}}"
+   },
+   "3169583722209452922": {
+      "message": "Ajusteaz\u0103"
+   },
+   "3173944879942241188": {
+      "message": "Neclar\u0103"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}female{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}other{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}}"
+   },
+   "3183783025590133364": {
+      "message": "Cu $1\u200B este mai simplu s\u0103 \u00EE\u0163i organizezi \u015Fi s\u0103 ar\u0103\u0163i fotografiile."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}female{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}other{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}}"
+   },
+   "3231427490891919648": {
+      "message": "Cercuri extinse"
+   },
+   "3249513483374643425": {
+      "message": "Adaug\u0103"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Cu {XXX} este mai simplu s\u0103 \u00EE\u0163i organizezi \u015Fi s\u0103 ar\u0103\u0163i fotografiile.}}"
+   },
+   "3266811991857373598": {
+      "message": "Pentru a \u00EEncepe, import\u0103-\u0163i fotografiile"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotografie}few{{COUNT_2} fotografii}other{{COUNT_2} de fotografii}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{\u0218terge albumul}few{\u0218terge albumele}other{\u0218terge albumele}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sorteaz\u0103}female{Sorteaz\u0103}other{Sorteaz\u0103}}"
+   },
+   "3298990500476723192": {
+      "message": "\u0218terge albumul"
+   },
+   "3304972143698843178": {
+      "message": "Eveniment"
+   },
+   "3316542569449182462": {
+      "message": "Se caut\u0103 cele mai bune fotografii"
+   },
+   "3319379534575065569": {
+      "message": "Dublur\u0103"
+   },
+   "3335855558019774894": {
+      "message": "\u00CEnchide"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B din $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Nu este etichetat nimeni \u00EEn aceast\u0103 fotografie."
+   },
+   "335552911020230570": {
+      "message": "Se anuleaz\u0103..."
+   },
+   "3392114061661490939": {
+      "message": "Dimensiuni"
+   },
+   "339966167441018467": {
+      "message": "Fotografiile sunt organizate dup\u0103 popularitate."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B (de) fotografii"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Ie\u0219i din Ecran complet}female{Ie\u0219i din Ecran complet}other{Ie\u0219i din Ecran complet}}"
+   },
+   "3479702069824639097": {
+      "message": "Apas\u0103 pentru a compara cu originalul."
+   },
+   "3529907190030543252": {
+      "message": "Ai nevoie de conexiune la internet pentru configurarea ini\u021Bial\u0103 a aplica\u021Biei $1\u200B"
+   },
+   "3549990505176341828": {
+      "message": "Supraexpus\u0103"
+   },
+   "3561019065020608408": {
+      "message": "Gata de afi\u0219are"
+   },
+   "360237722039211543": {
+      "message": "Fotografiile din Drive pot fi numai copiate \u0219i trimise"
+   },
+   "3624887810607887590": {
+      "message": "Rote\u0219te spre st\u00E2nga"
+   },
+   "3627956543961104309": {
+      "message": "Configureaz\u0103 $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Surse de fotografii"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Anuleaz\u0103 importul (O fotografie)}few{Anuleaz\u0103 importul ({NUM_PHOTOS_2} fotografii)}other{Anuleaz\u0103 importul ({NUM_PHOTOS_2} de fotografii)}}"
+   },
+   "3687863378890487189": {
+      "message": "Mi\u0219care"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{\u0218terge fotografia selectat\u0103}few{\u0218terge fotografiile selectate}other{\u0218terge fotografiile selectate}}"
+   },
+   "3714818517297325649": {
+      "message": "Dac\u0103 anulezi, nu va mai fi importat\u0103 nicio fotografie.\nFotografiile care au fost \u00EEnc\u0103rcate deja nu vor fi eliminate."
+   },
+   "3756864109602975489": {
+      "message": "+1ri"
+   },
+   "3759575685100154990": {
+      "message": "Import de fotografii"
+   },
+   "3807699453257291879": {
+      "message": "Comentarii"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{D\u0103 clic aici pentru a vedea aceast\u0103 fotografie.}few{D\u0103 clic aici pentru a vedea aceste fotografii.}other{D\u0103 clic aici pentru a vedea aceste fotografii.}}"
+   },
+   "3818348166201769715": {
+      "message": "Toate fotografiile tale"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} r\u0103mas\u0103 din {TOTAL}}few{{COUNT_2} r\u0103mase din {TOTAL}}other{{COUNT_2} r\u0103mase din {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Vizibil pentru: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Rote\u0219te spre st\u00E2nga"
+   },
+   "3885024486041657280": {
+      "message": "Acest colaj a fost creat din fotografii de profil realizate \u00EEn rafal\u0103."
+   },
+   "3888600924819157294": {
+      "message": "Toate fotografiile din Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{\u0218terge acest album}few{\u0218terge albumele}other{\u0218terge albumele}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Rote\u0219te fotografia selectat\u0103 spre st\u00E2nga}few{Rote\u0219te fotografiile selectate spre st\u00E2nga}other{Rote\u0219te fotografiile selectate spre st\u00E2nga}}"
+   },
+   "3973931101896534797": {
+      "message": "Dat\u0103"
+   },
+   "4023731095051291021": {
+      "message": "Vizualizeaz\u0103 pe Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}male{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}other{Doresc s\u0103 primesc notific\u0103ri \u0219i s\u0103 import fotografii din camerele ata\u0219ate \u0219i de pe cardurile de memorie}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Reia}female{Reia}other{Reia}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Se pare ca ai lansat {XXX} de pe un dispozitiv cu sistem de operare care nu apar\u021Bine Chrome. \u00CEn prezent, aceast\u0103 aplica\u021Bie este valabil\u0103 numai pe sistemul de operare Chrome, de\u0219i este posibil s\u0103 se afi\u0219eze pictograma \u00EEn browserul Chrome atunci c\u00E2nd utilizezi un dispozitiv cu alt sistem de operare dec\u00E2t Chrome.}male{Se pare ca ai lansat {XXX} de pe un dispozitiv cu sistem de operare care nu apar\u021Bine Chrome. \u00CEn prezent, aceast\u0103 aplica\u021Bie este valabil\u0103 numai pe sistemul de operare Chrome, de\u0219i este posibil s\u0103 se afi\u0219eze pictograma \u00EEn browserul Chrome atunci c\u00E2nd utilizezi un dispozitiv cu alt sistem de operare dec\u00E2t Chrome.}other{Se pare ca ai lansat {XXX} de pe un dispozitiv cu sistem de operare care nu apar\u021Bine Chrome. \u00CEn prezent, aceast\u0103 aplica\u021Bie este valabil\u0103 numai pe sistemul de operare Chrome, de\u0219i este posibil s\u0103 se afi\u0219eze pictograma \u00EEn browserul Chrome atunci c\u00E2nd utilizezi un dispozitiv cu alt sistem de operare dec\u00E2t Chrome.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Vizualizeaz\u0103 fotografia importat\u0103}few{Vizualizeaz\u0103 fotografiile importate}other{Vizualizeaz\u0103 fotografiile importate}}"
+   },
+   "4187596523158859173": {
+      "message": "Clic aici pentru a vedea aceste fotografii."
+   },
+   "4201300158283262687": {
+      "message": "D\u0103 clic aici pentru a vedea aceste fotografii."
+   },
+   "4248380204989256605": {
+      "message": "Adaug\u0103 \u00EEn"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Numai tu}male{Numai tu}other{Numai tu}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Adaug\u0103 \u00EEn album}female{Adaug\u0103 \u00EEn album}other{Adaug\u0103 \u00EEn album}}"
+   },
+   "4293741535116795213": {
+      "message": "Aceast\u0103 fotografie a fost creat\u0103 utiliz\u00E2ndu-se cele mai reu\u0219ite z\u00E2mbete dintr-un set de fotografii similare."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}male{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}other{D\u0103 clic pentru a roti aceast\u0103 fotografie spre dreapta}}"
+   },
+   "4323470180912194028": {
+      "message": "Copiaz\u0103"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}female{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}other{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Vizibil numai pentru tine"
+   },
+   "4367940371467792621": {
+      "message": "\u00CEnscrie-te la Google+"
+   },
+   "4384754616332866866": {
+      "message": "Vizibil pentru cei c\u0103rora le-ai permis accesul la album"
+   },
+   "4397726581488253055": {
+      "message": "Ie\u015Fi"
+   },
+   "4451709539238919902": {
+      "message": "Unele fotografii au mai multe copii care nu vor fi \u0219terse."
+   },
+   "4458099219143901905": {
+      "message": "Deschide cu Google+ Foto"
+   },
+   "4470533259338698234": {
+      "message": "Mut\u0103"
+   },
+   "4472091515638733183": {
+      "message": "Importarea a fost oprit\u0103"
+   },
+   "4485837491844366665": {
+      "message": "D\u0103 clic aici pentru a vedea \u015Fi pentru a ar\u0103ta aceste fotografii."
+   },
+   "4489698681193228521": {
+      "message": "Bun venit la $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Import\u0103 fotografii atunci c\u00E2nd conectez o camer\u0103 foto sau un card de memorie"
+   },
+   "4504920004530359010": {
+      "message": "Dimensiune complet\u0103 (spa\u021Biu de stocare gratuit de p\u00E2n\u0103 la 5 GB)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Red\u0103}female{Red\u0103}other{Red\u0103}}"
+   },
+   "4535738935335444945": {
+      "message": "Netrimis\u0103"
+   },
+   "4550974869121207169": {
+      "message": "\u015Fterge"
+   },
+   "4557902876984952242": {
+      "message": "Editeaz\u0103"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Dac\u0103 \u0219tergi acest album, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate albumului.}few{Dac\u0103 \u0219tergi aceste albume, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate albumelor.}other{Dac\u0103 \u0219tergi aceste albume, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate albumelor.}}"
+   },
+   "4575337223720002806": {
+      "message": "Ajustare automat\u0103"
+   },
+   "4579986716424813115": {
+      "message": "Red\u0103 de la \u00EEnceput"
+   },
+   "460600293345244430": {
+      "message": "Selecteaz\u0103 fotografii pentru a le ar\u0103ta sau pentru a le ad\u0103uga \u00EEntr-un album."
+   },
+   "4624285717763544623": {
+      "message": "Adaug\u0103"
+   },
+   "4630251340863502127": {
+      "message": "Se \u00EEncarc\u0103 fotografiile importate"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}male{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}other{Nu ai niciun album. \u00CEncarc\u0103 fotografii acum!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost importat\u0103 o fotografie!}few{Au fost importate # fotografii!}other{Au fost importate # de fotografii!}}"
+   },
+   "466730294804943734": {
+      "message": "Niciun comentariu \u00EEnc\u0103."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B nu este acceptat pe aceast\u0103 platform\u0103."
+   },
+   "4678028473996848955": {
+      "message": "Toate fotografiile tale"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Anuleaz\u0103}female{Anuleaz\u0103}other{Anuleaz\u0103}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B din $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Dac\u0103 \u015Ftergi aceste albume, se vor \u015Fterge toate post\u0103rile, comentariile \u015Fi +1urile asociate acestora."
+   },
+   "471816275243265264": {
+      "message": "Loca\u0163ie"
+   },
+   "4726999481668064421": {
+      "message": "Aceast\u0103 fotografie HDR a fost creat\u0103 dintr-un set de fotografii cu expuneri diferite."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BTe-ai conectat ca$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Bun\u0103! Bun venit la $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fotografii din Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BTe-ai conectat ca$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Po\u0163i s\u0103 deconectezi acum dispozitivul \u00EEn siguran\u0163\u0103."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}female{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}other{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Import\u0103 fotografii atunci c\u00E2nd conectez o camer\u0103 foto sau un card de memorie}male{Import\u0103 fotografii atunci c\u00E2nd conectez o camer\u0103 foto sau un card de memorie}other{Import\u0103 fotografii atunci c\u00E2nd conectez o camer\u0103 foto sau un card de memorie}}"
+   },
+   "484542621830317934": {
+      "message": "Nu ai niciun album.  \u00CEncarc\u0103 fotografii acum!"
+   },
+   "489844404897890427": {
+      "message": "Ecran complet"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{Nicio fotografie}=1{O fotografie}few{{NUM_2} fotografii}other{{NUM_2} de fotografii}}"
+   },
+   "4930506384627295710": {
+      "message": "Set\u0103ri"
+   },
+   "495485805564687684": {
+      "message": "Opre\u0219te importarea"
+   },
+   "4957990634817185638": {
+      "message": "Continu\u0103 importarea"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Permite accesul la album}=1{Arat\u0103 fotografia selectat\u0103}few{Arat\u0103 fotografiile selectate}other{Arat\u0103 fotografiile selectate}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{D\u0103 clic pentru a ad\u0103uga fotografii}male{D\u0103 clic pentru a ad\u0103uga fotografii}other{D\u0103 clic pentru a ad\u0103uga fotografii}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} zi selectat\u0103}few{{COUNT_2} zile selectate}other{{COUNT_2} de zile selectate}}"
+   },
+   "5028777105388019087": {
+      "message": "Detalii"
+   },
+   "5043933900720743682": {
+      "message": "Albume"
+   },
+   "5045200874122539692": {
+      "message": "Ie\u0219i"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{\u00CEncarc\u0103 ni\u0219te fotografii pentru a \u00EEncepe.}male{\u00CEncarc\u0103 ni\u0219te fotografii pentru a \u00EEncepe.}other{\u00CEncarc\u0103 ni\u0219te fotografii pentru a \u00EEncepe.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Domeniul dvs."
+   },
+   "5087678602655068553": {
+      "message": "Camer\u0103 foto"
+   },
+   "5094793857629325945": {
+      "message": "Se preg\u0103te\u015Fte trimiterea..."
+   },
+   "509736707516044180": {
+      "message": "Se anuleaz\u0103..."
+   },
+   "5114432207766092038": {
+      "message": "Toate fotografiile din toate post\u0103rile."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Dac\u0103 \u0219tergi aceast\u0103 fotografie, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate albumului.}few{Dac\u0103 \u0219tergi aceste fotografii, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate fotografiilor.}other{Dac\u0103 \u0219tergi aceste fotografii, vor fi eliminate toate comentariile, +1rile \u0219i etichetele asociate fotografiilor.}}"
+   },
+   "5127852906617233988": {
+      "message": "\u00CEnchide"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Cercurile tale}male{Cercurile tale}other{Cercurile tale}}"
+   },
+   "5143227875710959810": {
+      "message": "Permite accesul la album"
+   },
+   "5146398958364876914": {
+      "message": "Sorteaz\u0103"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{De la {FROM_NAME}}male{De la {FROM_NAME}}other{De la {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Seteaz\u0103 drept copert\u0103 de album}female{Seteaz\u0103 drept copert\u0103 de album}other{Seteaz\u0103 drept copert\u0103 de album}}"
+   },
+   "5179193375793315549": {
+      "message": "Po\u021Bi ad\u0103uga maximum $1\u200B (de) fotografii o dat\u0103."
+   },
+   "5198477912095887288": {
+      "message": "a\u015Fa cum a fost f\u0103cut\u0103"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Vizualizeaz\u0103 fotografia}few{Vizualizeaz\u0103 fotografiile}other{Vizualizeaz\u0103 fotografiile}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}male{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}other{Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii.}}"
+   },
+   "5233843271957333982": {
+      "message": "reseteaz\u0103"
+   },
+   "5252008443782667515": {
+      "message": "Da"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Exist\u0103 \u00EEnc\u0103 o copie care nu va fi \u0219tears\u0103.}few{Exist\u0103 \u00EEnc\u0103 {NUM_ADDITIONAL_COPIES_2} copii care nu vor fi \u0219terse.}other{Exist\u0103 \u00EEnc\u0103 {NUM_ADDITIONAL_COPIES_2} de copii care nu vor fi \u0219terse.}}"
+   },
+   "5369958865776447504": {
+      "message": "Aceast\u0103 fotografie se afl\u0103 \u00EEn albumul \u201E$1\u200B\u201D."
+   },
+   "5376084340764125422": {
+      "message": "Ie\u015Fi din ecranul complet"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Amestec"
+   },
+   "5413761544816529267": {
+      "message": "Creeaz\u0103-\u0163i un cont Google+ pentru a folosi $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "\u00CEncearc\u0103 din nou"
+   },
+   "545081735380424772": {
+      "message": "\u00CEncarc\u0103 \u015Fi arat\u0103 fotografii din Chrome"
+   },
+   "5467399875821461358": {
+      "message": "\u0218terge fotografiile"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Neclar\u0103"
+   },
+   "5522640894890976342": {
+      "message": "Subexpus\u0103"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Supraexpus\u0103}male{Supraexpus\u0103}other{Supraexpus\u0103}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{A fost copiat\u0103 o fotografie!}few{Au fost copiate {NUM_PHOTOS_2} fotografii!}other{Au fost copiate {NUM_PHOTOS_2} de fotografii!}}"
+   },
+   "5546339789714773759": {
+      "message": "Rote\u0219te spre dreapta"
+   },
+   "5563891514339188770": {
+      "message": "Seteaz\u0103 drept copert\u0103 de album"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{D\u0103 clic pentru a elimina aceast\u0103 fotografie}male{D\u0103 clic pentru a elimina aceast\u0103 fotografie}other{D\u0103 clic pentru a elimina aceast\u0103 fotografie}}"
+   },
+   "5613209249634786065": {
+      "message": "Complet (spa\u0163iu de stocare gratuit de p\u00E2n\u0103 la 5 GB)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Stocheaz\u0103, organizeaz\u0103 \u015Fi arat\u0103 toate fotografiile \u015Fi videoclipurile tale cu numai c\u00E2teva clicuri.}female{Stocheaz\u0103, organizeaz\u0103 \u015Fi arat\u0103 toate fotografiile \u015Fi videoclipurile tale cu numai c\u00E2teva clicuri.}other{Stocheaz\u0103, organizeaz\u0103 \u015Fi arat\u0103 toate fotografiile \u015Fi videoclipurile tale cu numai c\u00E2teva clicuri.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}O{END_BOLD} fotografie foarte bun\u0103 selectat\u0103 de Google.}few{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} fotografii foarte bune selectate de Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} de fotografii foarte bune selectate de Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Vizualizeaz\u0103 fotografia}few{Vizualizeaz\u0103 fotografiile}other{Vizualizeaz\u0103 fotografiile}}}female{{COUNT,plural, =0{unused plural form}=1{Vizualizeaz\u0103 fotografia}few{Vizualizeaz\u0103 fotografiile}other{Vizualizeaz\u0103 fotografiile}}}other{{COUNT,plural, =0{unused plural form}=1{Vizualizeaz\u0103 fotografia}few{Vizualizeaz\u0103 fotografiile}other{Vizualizeaz\u0103 fotografiile}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Nu este etichetat\u0103 nicio persoan\u0103 \u00EEn acest album."
+   },
+   "5747301769466451086": {
+      "message": "Complet (spa\u0163iu r\u0103mas de $1\u200B GB din $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Po\u021Bi s\u0103 permi\u021Bi accesul la maximum $1\u200B (de) fotografii o dat\u0103."
+   },
+   "5750485945694679561": {
+      "message": "Fotografie"
+   },
+   "5752465522295465624": {
+      "message": "Ce este asta?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost importat\u0103 o fotografie!}few{Au fost importate # fotografii!}other{Au fost importate # de fotografii!}}"
+   },
+   "5782608665556323710": {
+      "message": "Trimis\u0103 cercurilor extinse"
+   },
+   "5792855097053831820": {
+      "message": "Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{\u0218terge aceast\u0103 fotografie}few{\u0218terge fotografiile}other{\u0218terge fotografiile}}"
+   },
+   "5822534876981710132": {
+      "message": "\u00CEnc\u0103rcare instant"
+   },
+   "5849125517299342831": {
+      "message": "Se import\u0103 fotografiile..."
+   },
+   "5851872412594366640": {
+      "message": "Mut\u0103 toate fotografiile \u00EEn album"
+   },
+   "585220835732140655": {
+      "message": "Ar\u0103tat pe $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Complet (spa\u0163iu de stocare gratuit de p\u00E2n\u0103 la 5 GB)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{O fotografie deja importat\u0103 va fi totu\u0219i \u00EEnc\u0103rcat\u0103.}few{{NUM_PHOTOS_2} fotografii deja importate vor fi totu\u0219i \u00EEnc\u0103rcate.}other{{NUM_PHOTOS_2} de fotografii deja importate vor fi totu\u0219i \u00EEnc\u0103rcate.}}"
+   },
+   "591256046515963756": {
+      "message": "Nu pierde nicio amintire. Acceseaz\u0103-\u021Bi fotografiile oric\u00E2nd de pe orice dispozitiv."
+   },
+   "5937251202465808296": {
+      "message": "Mai multe"
+   },
+   "5963865584069399662": {
+      "message": "privat"
+   },
+   "5978216065275630477": {
+      "message": "Nu te-ai putut conecta la Google+ Foto."
+   },
+   "5981779462795520309": {
+      "message": "Destinatarii post\u0103rilor ini\u0163iale"
+   },
+   "5984859669237993376": {
+      "message": "Clic pentru a ad\u0103uga fotografii"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie, gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate # fotografii, gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate # de fotografii, gata pentru a fi ar\u0103tate!}}"
+   },
+   "6003032126642624287": {
+      "message": "Dimensiune complet\u0103 (spa\u0163iu de stocare gratuit de p\u00E2n\u0103 la 5 GB)"
+   },
+   "6021285543212025836": {
+      "message": "Dac\u0103 \u015Ftergi aceast\u0103 fotografie, se vor \u015Fterge toate post\u0103rile, comentariile \u015Fi +1urile asociate acesteia."
+   },
+   "605360614133602045": {
+      "message": "a.m."
+   },
+   "6073020864818444056": {
+      "message": "Terminat"
+   },
+   "612521550010808115": {
+      "message": "Vizibil pentru oricine de pe web"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie, gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate # fotografii, gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate # de fotografii, gata pentru a fi ar\u0103tate!}}"
+   },
+   "6143433948220856193": {
+      "message": "Supraexpus\u0103"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "\u0218terge fotografia"
+   },
+   "6261883509320806048": {
+      "message": "\u0218tergi fotografiile selectate?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B reune\u015Fte \u00EEntr-un singur loc toate fotografiile de pe discul t\u0103u \u015Fi pe cele f\u0103cute cu telefonul \u015Fi camera foto."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u0163i}female{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u0163i}other{Aplica\u0163ia {APP_NAME} te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u0163i}}"
+   },
+   "6366245138858985671": {
+      "message": "Album pentru fotografii din albumul de \u00EEnsemn\u0103ri."
+   },
+   "636798263636559500": {
+      "message": "Introdu numele albumului"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}male{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}other{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}}"
+   },
+   "6402624319890396199": {
+      "message": "Anuleaz\u0103"
+   },
+   "6405254665227516714": {
+      "message": "Toate fotografiile de profil."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Nu po\u021Bi selecta fotografiile altor persoane}male{Nu po\u021Bi selecta fotografiile altor persoane}other{Nu po\u021Bi selecta fotografiile altor persoane}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Nu e\u0219ti conectat la internet \u00EEn acest moment.}female{Nu e\u0219ti conectat\u0103 la internet \u00EEn acest moment.}other{Nu e\u0219ti conectat(\u0103) la internet \u00EEn acest moment.}}"
+   },
+   "6544829965377284375": {
+      "message": "Aceste fotografii sunt \u00EEnc\u0103rcate \u00EEn mod privat \u00EEn Google+ \u0219i sunt vizibile numai pentru tine."
+   },
+   "6546455868033656709": {
+      "message": "Dup\u0103 data la care au fost f\u0103cute (de la cele recente la cele vechi)"
+   },
+   "6562395422130457272": {
+      "message": "Iluminare"
+   },
+   "6569718559670589774": {
+      "message": "Trimis\u0103 \u00EEn mod privat"
+   },
+   "6578760328281087395": {
+      "message": "\u0218terge fotografia"
+   },
+   "6594379652661172876": {
+      "message": "Aceast\u0103 fotografie \u00EEn stil Photobooth a fost creat\u0103 din mai multe portrete."
+   },
+   "6604371182910178125": {
+      "message": "Dac\u0103 \u0219tergi acest album, se vor \u0219terge toate post\u0103rile, comentariile \u0219i +1urile asociate acestuia."
+   },
+   "6626842519109915669": {
+      "message": "Fotografii din Backup automat"
+   },
+   "663126026358360455": {
+      "message": "Standard (spa\u0163iu de stocare gratuit nelimitat)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie, gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate {NUM_PHOTOS_2} fotografii, gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate {NUM_PHOTOS_2} de fotografii, gata pentru a fi ar\u0103tate!}}"
+   },
+   "664682826251689034": {
+      "message": "Niciun +1 \u00EEnc\u0103."
+   },
+   "666585356635427967": {
+      "message": "Aceast\u0103 fotografie a fost ajustat\u0103 automat."
+   },
+   "6698080327673689103": {
+      "message": "Se caut\u0103 cele mai bune fotografii..."
+   },
+   "6721868124884562992": {
+      "message": "Adun\u0103 fotografiile de pe toate dispozitivele tale \u00EEntr-un singur loc."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Prelucreaz\u0103}female{Prelucreaz\u0103}other{Prelucreaz\u0103}}"
+   },
+   "6747166642870870925": {
+      "message": "Se opre\u0219te importarea..."
+   },
+   "6750134343457912784": {
+      "message": "Pentru a beneficia de toate func\u0163iile aplica\u0163iei $1\u200B, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u0163i importe automat fotografiile."
+   },
+   "675159243189607951": {
+      "message": "Adaug\u0103 fotografia \u00EEn album"
+   },
+   "6778067484492795152": {
+      "message": "Subexpus\u0103"
+   },
+   "6792549611288275870": {
+      "message": "Distan\u0163a focal\u0103"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B \u00EE\u0163i stocheaz\u0103 fotografiile \u00EEn siguran\u0163\u0103 \u015Fi le po\u0163i vedea oric\u00E2nd de pe orice dispozitiv."
+   },
+   "680511502310466916": {
+      "message": "Fotografii populare"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{\u00EEn {NUM_PHOTOS_2} fotografie}few{\u00EEn {NUM_PHOTOS_2} fotografii}other{\u00EEn {NUM_PHOTOS_2} de fotografii}}"
+   },
+   "6872320306636644917": {
+      "message": "Po\u0163i s\u0103 deconectezi acum dispozitivul \u00EEn siguran\u0163\u0103."
+   },
+   "6872759799605876555": {
+      "message": "Deschidere (num\u0103r f)"
+   },
+   "687281374586801843": {
+      "message": "Lanseaz\u0103 $1\u200B \u015Fi import\u0103 fotografiile atunci c\u00E2nd ata\u015Fez o camer\u0103 foto sau un card de memorie"
+   },
+   "6882873153932419461": {
+      "message": "Reglare selectiv\u0103"
+   },
+   "6906406658770551379": {
+      "message": "Aceast\u0103 anima\u021Bie a fost creat\u0103 din cel pu\u021Bin cinci fotografii \u00EEn rafal\u0103."
+   },
+   "6983200894459150878": {
+      "message": "Aceast\u0103 fotografie panoramic\u0103 a fost creat\u0103 dintr-un set de fotografii suprapuse."
+   },
+   "7022070615528435141": {
+      "message": "\u0218terge"
+   },
+   "7049887240439736400": {
+      "message": "Imprim\u0103"
+   },
+   "706796434064753890": {
+      "message": "Red\u0103 slideshow-ul"
+   },
+   "7102649289752747375": {
+      "message": "Trimite feedback"
+   },
+   "7105497072958063616": {
+      "message": "Nuan\u0163\u0103"
+   },
+   "7182974689040833178": {
+      "message": "Reia"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Domeniul t\u0103u}male{Domeniul t\u0103u}other{Domeniul t\u0103u}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BTe-ai conectat ca$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Se import\u0103 fotografii din $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Continu\u0103 importul"
+   },
+   "7283005104295613831": {
+      "message": "Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103."
+   },
+   "7288593042347321202": {
+      "message": "\u0218tergi fotografia selectat\u0103?"
+   },
+   "7329217250595054697": {
+      "message": "Original"
+   },
+   "734934965373819800": {
+      "message": "\u00CEnapoi"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Etichetat\u0103 \u00EEn: {ALBUM_NAME}}male{Etichetat \u00EEn: {ALBUM_NAME}}other{Etichetat(\u0103) \u00EEn: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Adaug\u0103 fotografii"
+   },
+   "7419704019640008953": {
+      "message": "Distribuie"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Cea mai bun\u0103}male{Cea mai bun\u0103}other{Cea mai bun\u0103}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Bun venit la {XXX}}male{Bun venit la {XXX}}other{Bun venit la {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Reconecteaz\u0103-te pentru a vedea toate fotografiile \u0219i albumele."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{\u00CEntrerupe}female{\u00CEntrerupe}other{\u00CEntrerupe}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Rote\u0219te fotografia selectat\u0103 spre dreapta}few{Rote\u0219te fotografiile selectate spre dreapta}other{Rote\u0219te fotografiile selectate spre dreapta}}"
+   },
+   "7488769419737494778": {
+      "message": "Bun\u0103, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "\u00CEn continuare, alege dimensiunea de \u00EEnc\u0103rcare"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost copiat\u0103 o fotografie!}few{Au fost copiate # fotografii!}other{Au fost copiate # de fotografii!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Distribuie}female{Distribuie}other{Distribuie}}"
+   },
+   "7538539390938534172": {
+      "message": "Balans de alb"
+   },
+   "7546970424299309536": {
+      "message": "Organizate \u015Fi preg\u0103tite automat pentru a fi ar\u0103tate"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nicio fotografie selectat\u0103}=1{{COUNT_2} fotografie selectat\u0103}few{{COUNT_2} fotografii selectate}other{{COUNT_2} de fotografii selectate}}"
+   },
+   "7637409896935138087": {
+      "message": "Dup\u0103 data la care au fost f\u0103cute (de la cele mai vechi la cele mai noi)"
+   },
+   "7649598852815041947": {
+      "message": "Album nou"
+   },
+   "765296891797858248": {
+      "message": "Bun\u0103!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie din {FOLDER_NAME}, gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate {NUM_PHOTOS_2} fotografii din {FOLDER_NAME}, gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate {NUM_PHOTOS_2} de fotografii din {FOLDER_NAME}, gata pentru a fi ar\u0103tate!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B afi\u015F\u0103ri"
+   },
+   "7718742267235559288": {
+      "message": "Ie\u015Fi din ecranul complet"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost copiat\u0103 o fotografie din $1\u200B!}few{Au fost copiate # fotografii din $1\u200B!}other{Au fost copiate # de fotografii din $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "Stocate \u00EEn siguran\u021B\u0103"
+   },
+   "7736894743522697089": {
+      "message": "Panoram\u0103"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Mut\u0103 fotografia selectat\u0103}few{Mut\u0103 fotografiile selectate}other{Mut\u0103 fotografiile selectate}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "\u00CEncepe!"
+   },
+   "779808899645033177": {
+      "message": "Ultimul import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Numai tu"
+   },
+   "7828808805120058354": {
+      "message": "Revenire"
+   },
+   "7856636143847093955": {
+      "message": "\u00CEmbin\u0103 zilele"
+   },
+   "7871095434511949009": {
+      "message": "Diafragm\u0103"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{\u00CEn continuare, alege dimensiunea pentru \u00EEnc\u0103rcare}female{\u00CEn continuare, alege dimensiunea pentru \u00EEnc\u0103rcare}other{\u00CEn continuare, alege dimensiunea pentru \u00EEnc\u0103rcare}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}male{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}other{Selecteaz\u0103 sursele din care sunt importate fotografiile \u015Fi \u00EEnc\u0103rcate \u00EEn mod privat pe Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}male{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}other{D\u0103 clic pentru a selecta sau a deselecta aceast\u0103 fotografie}}"
+   },
+   "7899751896282337632": {
+      "message": "\u00CEmbun\u0103t\u0103\u021Bit\u0103"
+   },
+   "7911416166208830577": {
+      "message": "Ajutor"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceast\u0103 fotografie.}few{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceste fotografii.}other{D\u0103 clic aici pentru a vedea \u0219i pentru a ar\u0103ta aceste fotografii.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{\u0218terge}female{\u0218terge}other{\u0218terge}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}female{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}other{D\u0103 clic pentru a roti aceast\u0103 fotografie spre st\u00E2nga}}"
+   },
+   "8031489364030461560": {
+      "message": "Configureaz\u0103 $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Aceast\u0103 fotografie a fost ajustat\u0103 automat.}male{Aceast\u0103 fotografie a fost ajustat\u0103 automat.}other{Aceast\u0103 fotografie a fost ajustat\u0103 automat.}}"
+   },
+   "8112449587476468078": {
+      "message": "\u0218tergi albumul selectat?"
+   },
+   "8121983485737306983": {
+      "message": "dublur\u0103"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Foto"
+   },
+   "8160611829089073754": {
+      "message": "\u0218terge albumele"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Adaug\u0103 fotografia selectat\u0103 \u00EEn album}few{Adaug\u0103 fotografiile selectate \u00EEn album}other{Adaug\u0103 fotografiile selectate \u00EEn album}}"
+   },
+   "8179903593042831802": {
+      "message": "Adaug\u0103 fotografii"
+   },
+   "819996403327805209": {
+      "message": "Afl\u0103 mai multe"
+   },
+   "8209467666747691270": {
+      "message": "Cea mai bun\u0103"
+   },
+   "8233995188166153420": {
+      "message": "Conecteaz\u0103-te la Chrome pentru a \u00EEncepe s\u0103 \u00EEncarci fotografii."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Dublur\u0103 cu calitate redus\u0103}male{Dublur\u0103 cu calitate redus\u0103}other{Dublur\u0103 cu calitate redus\u0103}}"
+   },
+   "8257489178421131174": {
+      "message": "Introdu numele albumului"
+   },
+   "8262372758945437018": {
+      "message": "\u00CEncepe"
+   },
+   "8272813937461935720": {
+      "message": "Nu te-ai putut conecta la Google+ Foto."
+   },
+   "8274541876455385064": {
+      "message": "Z\u00E2mbet"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Clic pentru a ad\u0103uga fotografii}female{Clic pentru a ad\u0103uga fotografii}other{Clic pentru a ad\u0103uga fotografii}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Arat\u0103 fotografia selectat\u0103}few{Arat\u0103 fotografiile selectate}other{Arat\u0103 fotografiile selectate}}"
+   },
+   "8317910107005018559": {
+      "message": "Mai pu\u021Bin"
+   },
+   "8324963774100913509": {
+      "message": "Limitat"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Bun venit la {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Introdu numele albumului}male{Introdu numele albumului}other{Introdu numele albumului}}"
+   },
+   "8405309693308875139": {
+      "message": "Fotografii"
+   },
+   "840692109692540367": {
+      "message": "Conecteaz\u0103-te"
+   },
+   "8418580476552799567": {
+      "message": "Dimensiunea de \u00EEnc\u0103rcare"
+   },
+   "8446162208830000966": {
+      "message": "Ie\u015Fi"
+   },
+   "8461609631969932886": {
+      "message": "Ascunde"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Versiunea $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{D\u0103 clic aici pentru a vedea aceast\u0103 fotografie.}few{D\u0103 clic aici pentru a vedea aceste fotografii.}other{D\u0103 clic aici pentru a vedea aceste fotografii.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Unele fotografii sunt \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}male{{COUNT_1,plural, =0{Unele fotografii sunt \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}other{{COUNT_1,plural, =0{Unele fotografii sunt \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}=1{Ai {START_BOLD}o{END_BOLD} fotografie \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}few{Ai {START_BOLD}{COUNT_2}{END_BOLD} fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}other{Ai {START_BOLD}{COUNT_2}{END_BOLD} de fotografii \u00EEn curs de \u00EEnc\u0103rcare. Conecteaz\u0103-te din nou ca s\u0103 \u00EEncarci \u0219i s\u0103 postezi!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Aplica\u0163ia $1\u200B te ajut\u0103 s\u0103 selectezi cele mai bune fotografii dintre cele pe care le impor\u0163i"
+   },
+   "8554704680089748768": {
+      "message": "Fotografii importate pe $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Red\u0103"
+   },
+   "8566172133042307539": {
+      "message": "Adaug\u0103 \u00EEn album"
+   },
+   "8588705294225487286": {
+      "message": "Vizibile pentru destinatarii post\u0103rilor ini\u0163iale"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}male{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}other{Alege s\u0103 faci copii de rezerv\u0103 la dimensiune complet\u0103 ale fotografiilor sau s\u0103 \u00EEncarci fotografiile la dimensiune standard mai mic\u0103, care este gratuit\u0103.}}"
+   },
+   "8654290347345927684": {
+      "message": "Acum po\u021Bi s\u0103 deconectezi dispozivitul $1\u200B \u00EEn siguran\u021B\u0103."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Bun\u0103! Bun venit la {XXX}}}"
+   },
+   "8667344331777400219": {
+      "message": "Selecteaz-o pe cea mai bun\u0103"
+   },
+   "8675112326850410714": {
+      "message": "S-a ata\u015Fat un card de memorie sau un dispozitiv de stocare"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Renun\u021B\u0103}female{Renun\u021B\u0103}other{Renun\u021B\u0103}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost importat\u0103 o fotografie din $1\u200B!}few{Au fost importate # fotografii din $1\u200B!}other{Au fost importate # de fotografii din $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Privat"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Nu e\u0219ti conectat\u0103 la internet \u00EEn acest moment.}male{Nu e\u0219ti conectat la internet \u00EEn acest moment.}other{Nu e\u0219ti conectat(\u0103) la internet \u00EEn acest moment.}}"
+   },
+   "8759519761443041119": {
+      "message": "Salveaz\u0103 set\u0103rile"
+   },
+   "8765880467977864647": {
+      "message": "de la $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Meniul utilizatorului"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Ecran complet}female{Ecran complet}other{Ecran complet}}"
+   },
+   "8777952755137547655": {
+      "message": "Aceast\u0103 fotografie panoramic\u0103 a fost creat\u0103 dintr-un set de fotografii cu perspective al\u0103turate."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u00CEnc\u0103rcarea s-a finalizat! O fotografie gata pentru a fi ar\u0103tat\u0103.}few{\u00CEnc\u0103rcarea s-a finalizat! {COUNT_2} fotografii gata s\u0103 fie ar\u0103tate.}other{\u00CEnc\u0103rcarea s-a finalizat! {COUNT_2} de fotografii gata s\u0103 fie ar\u0103tate.}}"
+   },
+   "8832933617217959986": {
+      "message": "Deselecteaz\u0103-le pe toate"
+   },
+   "8874739581425612284": {
+      "message": "Selecteaz\u0103 fotografii pentru a le afi\u0219a sau pentru a le ad\u0103uga \u00EEntr-un album"
+   },
+   "8890553633144307762": {
+      "message": "\u00CEnapoi"
+   },
+   "8928816882866356838": {
+      "message": "Public"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{\u0218terge albumul}=1{\u0218terge fotografia selectat\u0103}few{\u0218terge fotografiile selectate}other{\u0218terge fotografiile selectate}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Imprim\u0103}female{Imprim\u0103}other{Imprim\u0103}}"
+   },
+   "8984549175557747262": {
+      "message": "Se proceseaz\u0103 videoclipul..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Subexpus\u0103}male{Subexpus\u0103}other{Subexpus\u0103}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Trimis\u0103 \u00EEn domeniu"
+   },
+   "9042260521669277115": {
+      "message": "\u00CEntrerupe"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{Nicio afi\u015Fare}=1{O afi\u015Fare \u00EEn total}few{{VIEW_COUNT_2} afi\u015F\u0103ri \u00EEn total}other{{VIEW_COUNT_2} de afi\u015F\u0103ri \u00EEn total}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B selecteaz\u0103 automat cele mai bune fotografii din colec\u0163ia ta \u015Fi le preg\u0103te\u015Fte pentru a fi ar\u0103tate."
+   },
+   "9137360918780826967": {
+      "message": "Calitate redus\u0103"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{A fost ad\u0103ugat\u0103 o fotografie, gata pentru a fi ar\u0103tat\u0103!}few{Au fost ad\u0103ugate # fotografii, gata pentru a fi ar\u0103tate!}other{Au fost ad\u0103ugate # de fotografii, gata pentru a fi ar\u0103tate!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{Cu {XXX_1} este mai simplu s\u0103 \u00EE\u0163i organizezi \u015Fi s\u0103 ar\u0103\u0163i fotografiile.}female{Cu {XXX_2} este mai simplu s\u0103 \u00EE\u0163i organizezi \u015Fi s\u0103 ar\u0103\u0163i fotografiile.}other{Cu {XXX_3} este mai simplu s\u0103 \u00EE\u0163i organizezi \u015Fi s\u0103 ar\u0103\u0163i fotografiile.}}"
+   },
+   "9219694540199049147": {
+      "message": "Dosarul..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{A fost \u00EEnc\u0103rcat\u0103 deja o fotografie \u00EEntr-o sesiune anterioar\u0103.}few{Au fost \u00EEnc\u0103rcate deja {NUM_PHOTOS_2} fotografii \u00EEntr-o sesiune anterioar\u0103.}other{Au fost \u00EEnc\u0103rcate deja {NUM_PHOTOS_2} de fotografii \u00EEntr-o sesiune anterioar\u0103.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{A fost importat\u0103 \u0219i \u00EEnc\u0103rcat\u0103 {START_BOLD}o{END_BOLD} fotografie.}few{Au fost importate \u0219i \u00EEnc\u0103rcate {START_BOLD}{COUNT_2}{END_BOLD} fotografii.}other{Au fost importate \u0219i \u00EEnc\u0103rcate {START_BOLD}{COUNT_2}{END_BOLD} de fotografii.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Pentru a beneficia de toate op\u021Biunile din {XXX}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}male{Pentru a beneficia de toate op\u021Biunile din {XXX}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}other{Pentru a beneficia de toate op\u021Biunile din {XXX}, configureaz-o astfel \u00EEnc\u00E2t s\u0103-\u021Bi importe automat fotografiile.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Mut\u0103 toate fotografiile \u00EEn album}=1{Mut\u0103 fotografia selectat\u0103}few{Mut\u0103 fotografiile selectate}other{Mut\u0103 fotografiile selectate}}"
+   },
+   "982577805980296193": {
+      "message": "Clic aici pentru a vedea \u015Fi pentru a ar\u0103ta aceste fotografii."
+   }
+}

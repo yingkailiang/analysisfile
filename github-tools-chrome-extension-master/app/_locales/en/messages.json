@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "GitHub Tools",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "GitHub Tools",
+    "description": "The description of the extension"
+  },
+  "browser_action_title": {
+    "message": "GitHub Tools",
+    "description": "The default title of prowser action"
+  }
+}

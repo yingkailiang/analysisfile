@@ -1,0 +1,15 @@
+{
+  "name": "Image Downloader",
+  "description": "What else, downloads images.",
+  "version": "0.1",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs", "http://*.imgur.com/"
+   ],
+  "browser_action": {
+      "default_title": "Img Dwn!"
+  },
+  "icons": {
+    "128": "icon_128x128.png"
+  }
+}

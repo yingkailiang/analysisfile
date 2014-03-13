@@ -1,0 +1,13 @@
+// This file contains the CSS for the QSU extension
+
+body {
+	min-width: 100px;
+	overflow-x: hidden;
+}
+
+#stockList input {
+	width: 60px;
+}
+#stockList label {
+	margin: 5px;
+}

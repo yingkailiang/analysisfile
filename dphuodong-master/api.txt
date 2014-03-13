@@ -1,0 +1,21 @@
+
+------new invitation------
+post - http://uhz001946.chinaw3.com/resource/invitation 
+body - the fully fledged invitaion object that must contain all fields it might need later
+
+-----load an invitaiton-----
+get - http://uhz001946.chinaw3.com/resource/invitation/:id
+
+-----load open invitations-----
+get - http://uhz001946.chinaw3.com/resource/invitation/open/weiboId/:weiboId/page/:page
+
+-----load closed invitations-----
+get - http://uhz001946.chinaw3.com/resource/invitation/closed/weiboId/:weiboId/page/:page
+
+-----change status-----
+post - http://uhz001946.chinaw3.com/resource/invitation/:id/status
+body- {weiboId:"",status:""};
+
+-----reply-----
+post - http://uhz001946.chinaw3.com/resource/invitation/:id/reply
+body - {content:"",date:new Date(),user:{weiboId:"",weiboName:""...}}

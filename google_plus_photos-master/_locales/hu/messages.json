@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "D\u00F6ntsd el, hogy teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket szeretn\u00E9l a fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket szeretn\u00E9l."
+   },
+   "106279463205193944": {
+      "message": "Szem\u00E9lyek ebben az albumban"
+   },
+   "1078696495414015742": {
+      "message": "Folytat\u00E1s"
+   },
+   "1079312373208696407": {
+      "message": "Kattints ide, miut\u00E1n regisztr\u00E1lt\u00E1l"
+   },
+   "1106976338877989624": {
+      "message": "A(z) $1\u200B n\u00E9vjegye"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{ Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}female{ Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}other{ Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{A felt\u00F6lt\u00E9s befejez\u0151d\u00F6tt. {START_BOLD}1{END_BOLD} fot\u00F3 k\u00E9szen \u00E1ll a megoszt\u00E1sra.}other{A felt\u00F6lt\u00E9s befejez\u0151d\u00F6tt. {START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3 k\u00E9szen \u00E1ll a megoszt\u00E1sra.}}"
+   },
+   "1131710491735646017": {
+      "message": "Fot\u00F3 \u00E1thelyez\u00E9se"
+   },
+   "1141157641265116263": {
+      "message": "T\u00E1rold, rendezd \u00E9s oszd meg a fot\u00F3idat \u00E9s vide\u00F3idat p\u00E1r kattint\u00E1ssal."
+   },
+   "1168286392495236500": {
+      "message": "Nyilv\u00E1nosan megosztva"
+   },
+   "1168912363261265730": {
+      "message": "Diavet\u00EDt\u00E9s lej\u00E1tsz\u00E1sa"
+   },
+   "1179156232993544339": {
+      "message": "Album t\u00F6rl\u00E9se"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Elemek kiv\u00E1laszt\u00E1sa}female{Elemek kiv\u00E1laszt\u00E1sa}other{Elemek kiv\u00E1laszt\u00E1sa}}"
+   },
+   "1199073624563429103": {
+      "message": "Ha t\u00F6rl\u00F6d ezeket a fot\u00F3kat, a vel\u00FCk t\u00E1rs\u00EDtott \u00F6sszes bejegyz\u00E9st, megjegyz\u00E9st \u00E9s +1-et is t\u00F6rl\u00F6d."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BCsatlakozz \u00FAjra$1\u200B az \u00F6sszes fot\u00F3 \u00E9s album megtekint\u00E9s\u00E9hez."
+   },
+   "1274379628511980491": {
+      "message": "Fot\u00F3k beolvas\u00E1sa"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 fot\u00F3}other{{PHOTO_COUNT_2} fot\u00F3}}"
+   },
+   "1299278917495979942": {
+      "message": "Hozz\u00E1ad\u00E1s d\u00E1tuma szerint (\u00FAjt\u00F3l a r\u00E9giig)"
+   },
+   "1299626955070536636": {
+      "message": "Forgat\u00E1s jobbra"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}male{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}other{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{1 fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}other{{COUNT_2} fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}}}female{{COUNT_1,plural, =0{unused plural form}=1{1 fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}other{{COUNT_2} fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}}}other{{COUNT_1,plural, =0{unused plural form}=1{1 fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}other{{COUNT_2} fot\u00F3 v\u00E1rakozik felt\u00F6lt\u00E9sre. Csatlakozz \u00FAjra, hogy felt\u00F6ltsd \u00E9s megoszd.}}}}"
+   },
+   "133632727011673707": {
+      "message": "V\u00E1lassz m\u00E1sik import\u00E1l\u00E1si helyeket"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}male{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}other{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Fot\u00F3k automatikus import\u00E1l\u00E1sa a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pekr\u0151l \u00E9s mem\u00F3riak\u00E1rty\u00E1kr\u00F3l}male{Fot\u00F3k automatikus import\u00E1l\u00E1sa a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pekr\u0151l \u00E9s mem\u00F3riak\u00E1rty\u00E1kr\u00F3l}other{Fot\u00F3k automatikus import\u00E1l\u00E1sa a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pekr\u0151l \u00E9s mem\u00F3riak\u00E1rty\u00E1kr\u00F3l}}"
+   },
+   "1410409051323941239": {
+      "message": "\u00DAjracsatlakoz\u00E1si k\u00EDs\u00E9rlet..."
+   },
+   "1425141239403329190": {
+      "message": "Most m\u00E1r biztons\u00E1gosan elt\u00E1vol\u00EDthatod az eszk\u00F6z\u00F6det ($1\u200B)."
+   },
+   "1428301074198348755": {
+      "message": "Ment\u00E9s"
+   },
+   "1482983300175848685": {
+      "message": "Regisztr\u00E1lj a Google+ szolg\u00E1ltat\u00E1sra!"
+   },
+   "1494518490116523821": {
+      "message": "\u00D6sszes kijel\u00F6l\u00E9se"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{M\u00E1sol\u00E1s}male{M\u00E1sol\u00E1s}other{M\u00E1sol\u00E1s}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{\u00C1thelyez\u00E9s}male{\u00C1thelyez\u00E9s}other{\u00C1thelyez\u00E9s}}"
+   },
+   "1535908424500369256": {
+      "message": "A k\u00F6vetkez\u0151 ablakok bez\u00E1r\u00F3dnak:\n"
+   },
+   "1542576779711006198": {
+      "message": "Fot\u00F3k import\u00E1l\u00E1sa innen: $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{\u00C1thelyez\u00E9s}female{\u00C1thelyez\u00E9s}other{\u00C1thelyez\u00E9s}}"
+   },
+   "1572187844116018239": {
+      "message": "Teljes k\u00E9perny\u0151s n\u00E9zet"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Hozz\u00E1ad\u00E1s}male{Hozz\u00E1ad\u00E1s}other{Hozz\u00E1ad\u00E1s}}"
+   },
+   "163532554661203916": {
+      "message": "Nyisd meg a $1\u200B alkalmaz\u00E1st, hogy $2\u200B eszk\u00F6zr\u0151l megkezdhesd a fot\u00F3k import\u00E1l\u00E1s\u00E1t."
+   },
+   "1678206439013319257": {
+      "message": "Fot\u00F3k..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B, verzi\u00F3: $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Bet\u00F6lt\u00E9s..."
+   },
+   "1753152144556911377": {
+      "message": "$1\u200B n\u00E9vjegye"
+   },
+   "1754857127237380562": {
+      "message": "Nem"
+   },
+   "1760918964936396010": {
+      "message": "A(z) \u201E$1\u200B\u201D t\u00F6rl\u00E9se"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nincs megosztva}male{Nincs megosztva}other{Nincs megosztva}}"
+   },
+   "1829542073477142210": {
+      "message": "A besz\u00E9lget\u00E9sek r\u00E9sztvev\u0151inek l\u00E1that\u00F3"
+   },
+   "1863533324056146247": {
+      "message": "du."
+   },
+   "1898536270078020135": {
+      "message": "Alkalmaz\u00E1s men\u00FC"
+   },
+   "1907928780625920048": {
+      "message": "Biztons\u00E1gos t\u00E1rol\u00E1s"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll}other{{COUNT_2} fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}female{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}other{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}}"
+   },
+   "1938243880078123136": {
+      "message": "A vide\u00F3 megtekint\u00E9s\u00E9hez \u00E1tir\u00E1ny\u00EDtunk a Google+ szolg\u00E1ltat\u00E1sra."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Megc\u00EDmk\u00E9ztek}male{Megc\u00EDmk\u00E9ztek}other{Megc\u00EDmk\u00E9ztek}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{D\u00F6ntsd el, hogy teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket szeretn\u00E9l a fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket szeretn\u00E9l.}female{D\u00F6ntsd el, hogy teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket szeretn\u00E9l a fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket szeretn\u00E9l.}other{D\u00F6ntsd el, hogy teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket szeretn\u00E9l a fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket szeretn\u00E9l.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fot\u00F3k az Azonnali felt\u00F6lt\u00E9s funkci\u00F3b\u00F3l"
+   },
+   "2000146230061979936": {
+      "message": "Profilfot\u00F3k"
+   },
+   "2029980907058777630": {
+      "message": "\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9telek"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Minden jog fenntartva."
+   },
+   "2079435202927044386": {
+      "message": "Fot\u00F3k import\u00E1l\u00E1sa"
+   },
+   "2097731301533028280": {
+      "message": "Az \u00F6sszes fot\u00F3"
+   },
+   "2102825898069375693": {
+      "message": "Men\u00FC"
+   },
+   "2127917516759723964": {
+      "message": "T\u00F6rl\u00F6d a kijel\u00F6lt albumokat?"
+   },
+   "2134605074025092052": {
+      "message": "$1\u200B fot\u00F3 t\u00F6rl\u00E9se"
+   },
+   "2159130950882492111": {
+      "message": "M\u00E9gse"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}female{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Nem a legjobb}male{Nem a legjobb}other{Nem a legjobb}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Szia! \u00DCdv\u00F6z\u00F6l a {XXX_1}!}female{Szia! \u00DCdv\u00F6z\u00F6l a {XXX_2}!}other{Szia! \u00DCdv\u00F6z\u00F6l a {XXX_3}!}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{S\u00FAg\u00F3}female{S\u00FAg\u00F3}other{S\u00FAg\u00F3}}"
+   },
+   "2256196161103684642": {
+      "message": "Korl\u00E1tozott"
+   },
+   "2267143557027174044": {
+      "message": "M\u00E9gse"
+   },
+   "2299297337048329405": {
+      "message": "M\u00E1sol\u00E1s"
+   },
+   "2354817630223808522": {
+      "message": "\u00C1thelyez\u00E9s"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}female{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}other{A(z) {APP_NAME} el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} fot\u00F3 \u00E1thelyez\u00E9se ide:}other{{XXX_2} fot\u00F3 \u00E1thelyez\u00E9se ide:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fot\u00F3k a telefonr\u00F3l"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Els\u0151 l\u00E9p\u00E9sk\u00E9nt import\u00E1ld a fot\u00F3kat}female{Els\u0151 l\u00E9p\u00E9sk\u00E9nt import\u00E1ld a fot\u00F3kat}other{Els\u0151 l\u00E9p\u00E9sk\u00E9nt import\u00E1ld a fot\u00F3kat}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 fot\u00F3}other{{PHOTO_COUNT_2} fot\u00F3}}"
+   },
+   "2453303348493525919": {
+      "message": "Elemek kiv\u00E1laszt\u00E1sa"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album kiv\u00E1lasztva}other{{COUNT_2} album kiv\u00E1lasztva}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 fot\u00F3 felt\u00F6lt\u00E9se az egyik el\u0151z\u0151 munkamenetben m\u00E1r siker\u00FClt. }other{{NUM_PHOTOS_2} fot\u00F3 felt\u00F6lt\u00E9se az egyik el\u0151z\u0151 munkamenetben m\u00E1r siker\u00FClt. }}"
+   },
+   "2503049676444223994": {
+      "message": "Hozz\u00E1ad\u00E1s d\u00E1tuma szerint (\u00FAjt\u00F3l a r\u00E9giig)"
+   },
+   "251008425196701054": {
+      "message": "B\u00E1rki sz\u00E1m\u00E1ra l\u00E1that\u00F3 a domainben"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}male{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}other{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}}"
+   },
+   "2537804086667442212": {
+      "message": "Ha le\u00E1ll\u00EDtod az import\u00E1l\u00E1st, a t\u00F6bbi fot\u00F3t nem import\u00E1lja a rendszer. A m\u00E1r felt\u00F6lt\u00F6tt fot\u00F3kat is elt\u00E1vol\u00EDtja."
+   },
+   "2543396005338987129": {
+      "message": "Import\u00E1l\u00E1s le\u00E1ll\u00EDt\u00E1sa"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Hom\u00E1lyos}male{Hom\u00E1lyos}other{Hom\u00E1lyos}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{$1\u200B mappa egy fot\u00F3ja hozz\u00E1adva, \u00E9s megoszt\u00E1sra k\u00E9sz}other{$1\u200B mappa # fot\u00F3ja hozz\u00E1adva, \u00E9s megoszt\u00E1sra k\u00E9sz}}"
+   },
+   "2603085641264767659": {
+      "message": "Az esem\u00E9nyre megh\u00EDvott vend\u00E9gek"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{A(z) {XXX} seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}male{A(z) {XXX} seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}other{A(z) {XXX} seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B perc, $2\u200B m\u00E1sodperc"
+   },
+   "2653328820441876128": {
+      "message": "A(z) $1\u200B egy helyen t\u00E1rolja a f\u00E9nyk\u00E9pez\u0151g\u00E9pek, telefonok \u00E9s mapp\u00E1k fot\u00F3it."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 fot\u00F3 m\u00E1solva a(z) {FOLDER_NAME} mapp\u00E1b\u00F3l.}other{{NUM_PHOTOS_2} fot\u00F3 m\u00E1solva a(z) {FOLDER_NAME} mapp\u00E1b\u00F3l.}}"
+   },
+   "2683351316398940532": {
+      "message": "Teljes m\u00E9ret ($2\u200B/$1\u200B GB szabad)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Hiba t\u00F6rt\u00E9nt a(z) {XXX} szolg\u00E1ltat\u00E1s\u00E1ba val\u00F3 bejelentkeztet\u00E9sed sor\u00E1n.}male{Hiba t\u00F6rt\u00E9nt a(z) {XXX} szolg\u00E1ltat\u00E1s\u00E1ba val\u00F3 bejelentkeztet\u00E9sed sor\u00E1n.}other{Hiba t\u00F6rt\u00E9nt a(z) {XXX} szolg\u00E1ltat\u00E1s\u00E1ba val\u00F3 bejelentkeztet\u00E9sed sor\u00E1n.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{\u00D6sszes kijel\u00F6l\u00E9se}female{\u00D6sszes kijel\u00F6l\u00E9se}other{\u00D6sszes kijel\u00F6l\u00E9se}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B mp"
+   },
+   "2710655047330556001": {
+      "message": "A fot\u00F3n szerepl\u0151 szem\u00E9lyek"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{\u00DCdv\u00F6z\u00F6l a {XXX_1}}female{\u00DCdv\u00F6z\u00F6l a {XXX_2}}other{\u00DCdv\u00F6z\u00F6l a {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Megvil\u00E1g\u00EDt\u00E1s"
+   },
+   "2761269382982007883": {
+      "message": "Seg\u00EDt\u00FCnk a rendszerez\u00E9sben, \u00E9s javaslatot tesz\u00FCnk a megoszt\u00E1sra legalkalmasabb fot\u00F3kra."
+   },
+   "2761326392133498772": {
+      "message": "Fot\u00F3 megoszt\u00E1sa"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Jaj, neeee!}=1{1 fot\u00F3}other{{PHOTO_COUNT_2} fot\u00F3}}"
+   },
+   "2784586982005585140": {
+      "message": "Tov\u00E1bb"
+   },
+   "2786233632874013852": {
+      "message": "Tov\u00E1bbi fot\u00F3k"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Az \u00F6sszes kijel\u00F6l\u00E9s megsz\u00FCntet\u00E9se}female{Az \u00F6sszes kijel\u00F6l\u00E9s megsz\u00FCntet\u00E9se}other{Az \u00F6sszes kijel\u00F6l\u00E9s megsz\u00FCntet\u00E9se}}"
+   },
+   "2798901106014707869": {
+      "message": "H\u0151m\u00E9rs\u00E9klet"
+   },
+   "2820098809819439336": {
+      "message": "Fot\u00F3k t\u00F6rl\u00E9se"
+   },
+   "2847005022751960352": {
+      "message": "M\u00E9g dolgozunk..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kattints ide a fot\u00F3 megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz.}other{Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz.}}"
+   },
+   "287837027263664914": {
+      "message": "Import\u00E1l\u00E1si helyek szerkeszt\u00E9se"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fot\u00F3 kiv\u00E1lasztva}other{{COUNT_2} fot\u00F3 kiv\u00E1lasztva}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}female{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Bejelentkez\u00E9s}female{Bejelentkez\u00E9s}other{Bejelentkez\u00E9s}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} fot\u00F3 hozz\u00E1ad\u00E1sa ehhez:}other{{XXX_2} fot\u00F3 hozz\u00E1ad\u00E1sa ehhez:}}"
+   },
+   "2973731817320915012": {
+      "message": "L\u00E9trehoz\u00E1s d\u00E1tuma szerint"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Lej\u00E1tsz\u00E1s az elej\u00E9t\u0151l}female{Lej\u00E1tsz\u00E1s az elej\u00E9t\u0151l}other{Lej\u00E1tsz\u00E1s az elej\u00E9t\u0151l}}"
+   },
+   "2987283829749314385": {
+      "message": "Kedves $2\u200B! \u00DCdv\u00F6z\u00F6l a $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nincsenek kiv\u00E1lasztott fot\u00F3k}=1{{COUNT_2} fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll}other{{COUNT_2} fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll}}"
+   },
+   "2991916598129901933": {
+      "message": "1 fot\u00F3"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Gyenge min\u0151s\u00E9g\u0171}male{Gyenge min\u0151s\u00E9g\u0171}other{Gyenge min\u0151s\u00E9g\u0171}}"
+   },
+   "3018671699054071030": {
+      "message": "Bejegyz\u00E9sekb\u0151l sz\u00E1rmaz\u00F3 f\u00E9nyk\u00E9pek"
+   },
+   "3052031564829371686": {
+      "message": "Copyright \u00A9 2012 Google Inc. Minden jog fenntartva."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}male{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}other{D\u00F6ntsd el, hogy az import\u00E1lt f\u00E1jlok biztons\u00E1gi m\u00E1solat\u00E1t teljes m\u00E9retben, vagy ingyenesen, norm\u00E1l m\u00E9retben (2048 k\u00E9ppont) k\u00EDv\u00E1nod-e t\u00E1rolni.}}"
+   },
+   "3062505056927186217": {
+      "message": "F\u00E9nyk\u00E9palbum fot\u00F3i"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{TOTAL}/{COUNT_2} k\u00E9sz}=1{{TOTAL}/{COUNT_2} k\u00E9sz}other{{TOTAL}/{COUNT_2} k\u00E9sz}}"
+   },
+   "313399915776279357": {
+      "message": "Alacsony min\u0151s\u00E9g"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}male{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}other{Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) {XXX} alkalmaz\u00E1st}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}female{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}other{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}}"
+   },
+   "3169583722209452922": {
+      "message": "V\u00E1logat\u00E1s"
+   },
+   "3173944879942241188": {
+      "message": "Hom\u00E1lyos"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}female{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}other{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B megk\u00F6nny\u00EDti a fot\u00F3id rendez\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}female{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}other{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}}"
+   },
+   "3231427490891919648": {
+      "message": "T\u00E1gabb k\u00F6r\u00F6k"
+   },
+   "3249513483374643425": {
+      "message": "Hozz\u00E1ad\u00E1s"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} megk\u00F6nny\u00EDti a fot\u00F3id rendez\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t.}}"
+   },
+   "3266811991857373598": {
+      "message": "Els\u0151 l\u00E9p\u00E9sk\u00E9nt import\u00E1ld a fot\u00F3kat"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fot\u00F3}other{{COUNT_2} fot\u00F3}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Album t\u00F6rl\u00E9se}other{Albumok t\u00F6rl\u00E9se}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Rendez\u00E9s}female{Rendez\u00E9s}other{Rendez\u00E9s}}"
+   },
+   "3298990500476723192": {
+      "message": "Album t\u00F6rl\u00E9se"
+   },
+   "3304972143698843178": {
+      "message": "Esem\u00E9ny"
+   },
+   "3316542569449182462": {
+      "message": "A legjobb fot\u00F3k keres\u00E9se"
+   },
+   "3319379534575065569": {
+      "message": "Ism\u00E9tl\u0151d\u00E9s"
+   },
+   "3335855558019774894": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "3339828869616330675": {
+      "message": "$2\u200B/$1\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Senki sincs megc\u00EDmk\u00E9zve ezen a fot\u00F3n."
+   },
+   "335552911020230570": {
+      "message": "Le\u00E1ll\u00EDt\u00E1s..."
+   },
+   "3392114061661490939": {
+      "message": "M\u00E9ret"
+   },
+   "339966167441018467": {
+      "message": "Fot\u00F3k n\u00E9pszer\u0171s\u00E9g szerint rendezve."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B fot\u00F3"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Kil\u00E9p\u00E9s a teljes k\u00E9perny\u0151s n\u00E9zetb\u0151l}female{Kil\u00E9p\u00E9s a teljes k\u00E9perny\u0151s n\u00E9zetb\u0151l}other{Kil\u00E9p\u00E9s a teljes k\u00E9perny\u0151s n\u00E9zetb\u0151l}}"
+   },
+   "3479702069824639097": {
+      "message": "Kattints az eredetivel val\u00F3 \u00F6sszehasonl\u00EDt\u00E1shoz."
+   },
+   "3529907190030543252": {
+      "message": "Internetkapcsolatra van sz\u00FCks\u00E9ged, amikor els\u0151 alkalommal \u00E1ll\u00EDtod be a(z) $1\u200B alkalmaz\u00E1st"
+   },
+   "3549990505176341828": {
+      "message": "T\u00FAlexpon\u00E1lt"
+   },
+   "3561019065020608408": {
+      "message": "Megoszt\u00E1sra k\u00E9sz"
+   },
+   "360237722039211543": {
+      "message": "A Google Drive mapp\u00E1iban t\u00E1rolt fot\u00F3k csak m\u00E1solhat\u00F3k \u00E9s megoszthat\u00F3k"
+   },
+   "3624887810607887590": {
+      "message": "Forgat\u00E1s balra"
+   },
+   "3627956543961104309": {
+      "message": "A $1\u200B be\u00E1ll\u00EDt\u00E1sa"
+   },
+   "3630679964489180566": {
+      "message": "Fot\u00F3k forr\u00E1sai"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Import\u00E1l\u00E1s le\u00E1ll\u00EDt\u00E1sa (1 fot\u00F3)}other{Import\u00E1l\u00E1s le\u00E1ll\u00EDt\u00E1sa ({NUM_PHOTOS_2} fot\u00F3)}}"
+   },
+   "3687863378890487189": {
+      "message": "Mozg\u00F3"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 t\u00F6rl\u00E9se}other{Kijel\u00F6lt fot\u00F3k t\u00F6rl\u00E9se}}"
+   },
+   "3714818517297325649": {
+      "message": "Ha le\u00E1ll\u00EDtod az import\u00E1l\u00E1st, a t\u00F6bbi fot\u00F3t nem import\u00E1lja a rendszer.\nA m\u00E1r felt\u00F6lt\u00F6tt fot\u00F3kat ez nem \u00E9rinti."
+   },
+   "3756864109602975489": {
+      "message": "+1-ek"
+   },
+   "3759575685100154990": {
+      "message": "Fot\u00F3import\u00E1l\u00E1s"
+   },
+   "3807699453257291879": {
+      "message": "Megjegyz\u00E9sek"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kattints ide a fot\u00F3 megtekint\u00E9s\u00E9hez.}other{Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez.}}"
+   },
+   "3818348166201769715": {
+      "message": "Az \u00F6sszes fot\u00F3d"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{TOTAL}/{COUNT_2}  van h\u00E1tra}other{{TOTAL}/{COUNT_2}  van h\u00E1tra}}"
+   },
+   "3859702527670019826": {
+      "message": "Ki l\u00E1thatja: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Forgat\u00E1s balra"
+   },
+   "3885024486041657280": {
+      "message": "A koll\u00E1zs egy portr\u00E9k\u00E9psorozatb\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "3888600924819157294": {
+      "message": "Az \u00F6sszes fot\u00F3 az \u00DCzenetk\u00FCld\u0151b\u0151l."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Az album t\u00F6rl\u00E9se}other{Albumok t\u00F6rl\u00E9se}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 forgat\u00E1sa balra}other{Kijel\u00F6lt fot\u00F3k forgat\u00E1sa balra}}"
+   },
+   "3973931101896534797": {
+      "message": "D\u00E1tum"
+   },
+   "4023731095051291021": {
+      "message": "Megtekint\u00E9s a Google+ szolg\u00E1ltat\u00E1sban"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}male{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}other{\u00C9rtes\u00EDt\u00E9st k\u00E9rek, \u00E9s import\u00E1lja a csatlakoztatott f\u00E9nyk\u00E9pez\u0151g\u00E9pek \u00E9s mem\u00F3riak\u00E1rty\u00E1k fot\u00F3it}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Folytat\u00E1s}female{Folytat\u00E1s}other{Folytat\u00E1s}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{\u00DAgy t\u0171nik, hogy a(z) {XXX} alkalmaz\u00E1st egy nem Chrome oper\u00E1ci\u00F3s rendszerrel m\u0171k\u00F6d\u0151 eszk\u00F6zr\u0151l ind\u00EDtottad. Az alkalmaz\u00E1s jelenleg csak Chrome oper\u00E1ci\u00F3s rendszeren fut, hab\u00E1r az ikon l\u00E1that\u00F3 a Chrome b\u00F6ng\u00E9sz\u0151j\u00E9ben, amikor egy nem Chrome oper\u00E1ci\u00F3s rendszer\u0171 eszk\u00F6zt haszn\u00E1lsz.}male{\u00DAgy t\u0171nik, hogy a(z) {XXX} alkalmaz\u00E1st egy nem Chrome oper\u00E1ci\u00F3s rendszerrel m\u0171k\u00F6d\u0151 eszk\u00F6zr\u0151l ind\u00EDtottad. Az alkalmaz\u00E1s jelenleg csak Chrome oper\u00E1ci\u00F3s rendszeren fut, hab\u00E1r az ikon l\u00E1that\u00F3 a Chrome b\u00F6ng\u00E9sz\u0151j\u00E9ben, amikor egy nem Chrome oper\u00E1ci\u00F3s rendszer\u0171 eszk\u00F6zt haszn\u00E1lsz.}other{\u00DAgy t\u0171nik, hogy a(z) {XXX} alkalmaz\u00E1st egy nem Chrome oper\u00E1ci\u00F3s rendszerrel m\u0171k\u00F6d\u0151 eszk\u00F6zr\u0151l ind\u00EDtottad. Az alkalmaz\u00E1s jelenleg csak Chrome oper\u00E1ci\u00F3s rendszeren fut, hab\u00E1r az ikon l\u00E1that\u00F3 a Chrome b\u00F6ng\u00E9sz\u0151j\u00E9ben, amikor egy nem Chrome oper\u00E1ci\u00F3s rendszer\u0171 eszk\u00F6zt haszn\u00E1lsz.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Import\u00E1lt fot\u00F3 megtekint\u00E9se}other{Import\u00E1lt fot\u00F3k megtekint\u00E9se}}"
+   },
+   "4187596523158859173": {
+      "message": "Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez."
+   },
+   "4201300158283262687": {
+      "message": "Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez."
+   },
+   "4248380204989256605": {
+      "message": "Hozz\u00E1ad\u00E1s ehhez:"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Only you}male{Only you}other{Csak te}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Hozz\u00E1ad\u00E1s albumhoz}female{Hozz\u00E1ad\u00E1s albumhoz}other{Hozz\u00E1ad\u00E1s albumhoz}}"
+   },
+   "4293741535116795213": {
+      "message": "Ezt a fot\u00F3t a szolg\u00E1ltat\u00E1s egy sor hasonl\u00F3 fot\u00F3 k\u00F6z\u00FCl v\u00E1lasztotta ki a legszebb mosolyok alapj\u00E1n."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}male{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 jobbra forgat\u00E1s\u00E1hoz}}"
+   },
+   "4323470180912194028": {
+      "message": "M\u00E1sol\u00E1s"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}female{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}other{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}}"
+   },
+   "4350850817528648727": {
+      "message": "Csak neked l\u00E1that\u00F3"
+   },
+   "4367940371467792621": {
+      "message": "Regisztr\u00E1lj a Google+ szolg\u00E1ltat\u00E1sra!"
+   },
+   "4384754616332866866": {
+      "message": "Azok sz\u00E1m\u00E1ra l\u00E1that\u00F3, akikkel megosztottad ezt az albumot"
+   },
+   "4397726581488253055": {
+      "message": "Kil\u00E9p\u00E9s"
+   },
+   "4451709539238919902": {
+      "message": "N\u00E9h\u00E1ny fot\u00F3nak t\u00F6bb p\u00E9ld\u00E1nya is van, ezeket a rendszer nem t\u00F6rli."
+   },
+   "4458099219143901905": {
+      "message": "Megnyit\u00E1s a Google+ Fot\u00F3kkal"
+   },
+   "4470533259338698234": {
+      "message": "\u00C1thelyez\u00E9s"
+   },
+   "4472091515638733183": {
+      "message": "Az import\u00E1l\u00E1s le\u00E1llt"
+   },
+   "4485837491844366665": {
+      "message": "Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz."
+   },
+   "4489698681193228521": {
+      "message": "\u00DCdv\u00F6z\u00F6l a $1\u200B!"
+   },
+   "4502210240956101520": {
+      "message": "Import\u00E1lja a fot\u00F3kat, amikor csatlakoztatom a kamer\u00E1t vagy a mem\u00F3riak\u00E1rty\u00E1t"
+   },
+   "4504920004530359010": {
+      "message": "Teljes m\u00E9ret (ak\u00E1r 5 GB ingyenes t\u00E1rhely)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Lej\u00E1tsz\u00E1s}female{Lej\u00E1tsz\u00E1s}other{Lej\u00E1tsz\u00E1s}}"
+   },
+   "4535738935335444945": {
+      "message": "Nincs megosztva"
+   },
+   "4550974869121207169": {
+      "message": "t\u00F6rl\u00E9s"
+   },
+   "4557902876984952242": {
+      "message": "Szerkeszt\u00E9s"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Az album t\u00F6rl\u00E9se a vele kapcsolatos \u00F6sszes megjegyz\u00E9st, +1-et \u00E9s c\u00EDmk\u00E9t is t\u00F6rli.}other{Az albumok t\u00F6rl\u00E9se a vel\u00FCk kapcsolatos \u00F6sszes megjegyz\u00E9st, +1-et \u00E9s c\u00EDmk\u00E9t is t\u00F6rli.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatikus v\u00E1logat\u00E1s"
+   },
+   "4579986716424813115": {
+      "message": "Lej\u00E1tsz\u00E1s az elej\u00E9t\u0151l"
+   },
+   "460600293345244430": {
+      "message": "V\u00E1laszd ki a megosztani vagy albumba felvenni k\u00EDv\u00E1nt fot\u00F3kat."
+   },
+   "4624285717763544623": {
+      "message": "Hozz\u00E1ad\u00E1s"
+   },
+   "4630251340863502127": {
+      "message": "Import\u00E1lt fot\u00F3k felt\u00F6lt\u00E9se"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}male{Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}other{Nincs albumod. T\u00F6lts fel fot\u00F3kat most.}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 import\u00E1lva}other{# fot\u00F3 import\u00E1lva}}"
+   },
+   "466730294804943734": {
+      "message": "M\u00E9g nincsenek megjegyz\u00E9sek."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B nem t\u00E1mogatott ezen a platformon."
+   },
+   "4678028473996848955": {
+      "message": "Az \u00F6sszes fot\u00F3d"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{M\u00E9gse}female{M\u00E9gse}other{M\u00E9gse}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B/$1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjracsatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Ha t\u00F6rl\u00F6d ezeket az albumokat, a vel\u00FCk t\u00E1rs\u00EDtott \u00F6sszes bejegyz\u00E9st, megjegyz\u00E9st \u00E9s +1-et is t\u00F6rl\u00F6d."
+   },
+   "471816275243265264": {
+      "message": "Hely"
+   },
+   "4726999481668064421": {
+      "message": "Ez a HDR-fot\u00F3 egy expoz\u00EDci\u00F3sorozatb\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BA k\u00F6vetkez\u0151k\u00E9nt vagy bejelentkezve:$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "\u00DCdv\u00F6z\u00F6l a $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fot\u00F3k az \u00DCzenetk\u00FCld\u0151b\u0151l"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BA k\u00F6vetkez\u0151k\u00E9nt vagy bejelentkezve: $2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Most m\u00E1r biztons\u00E1gosan elt\u00E1vol\u00EDthatod a k\u00E9sz\u00FCl\u00E9kedet."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}female{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}other{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Import\u00E1lja a fot\u00F3kat, amikor csatlakoztatom a kamer\u00E1t vagy a mem\u00F3riak\u00E1rty\u00E1t}male{Import\u00E1lja a fot\u00F3kat, amikor csatlakoztatom a kamer\u00E1t vagy a mem\u00F3riak\u00E1rty\u00E1t}other{Import\u00E1lja a fot\u00F3kat, amikor csatlakoztatom a kamer\u00E1t vagy a mem\u00F3riak\u00E1rty\u00E1t}}"
+   },
+   "484542621830317934": {
+      "message": "Egy albumod sincs. T\u00F6lts fel fot\u00F3kat most!"
+   },
+   "489844404897890427": {
+      "message": "Teljes k\u00E9perny\u0151"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 fot\u00F3}=1{1 fot\u00F3}other{{NUM_2} fot\u00F3}}"
+   },
+   "4930506384627295710": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "495485805564687684": {
+      "message": "Import\u00E1l\u00E1s le\u00E1ll\u00EDt\u00E1sa"
+   },
+   "4957990634817185638": {
+      "message": "Import\u00E1l\u00E1s folytat\u00E1sa"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Album megoszt\u00E1sa}=1{Kijel\u00F6lt fot\u00F3 megoszt\u00E1sa}other{Kijel\u00F6lt fot\u00F3k megoszt\u00E1sa}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}male{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}other{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} nap kiv\u00E1lasztva}other{{COUNT_2} nap kiv\u00E1lasztva}}"
+   },
+   "5028777105388019087": {
+      "message": "R\u00E9szletek"
+   },
+   "5043933900720743682": {
+      "message": "Albumok"
+   },
+   "5045200874122539692": {
+      "message": "Kil\u00E9p\u00E9s"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Kezd\u00E9sk\u00E9nt t\u00F6lts fel n\u00E9h\u00E1ny fot\u00F3t.}male{Kezd\u00E9sk\u00E9nt t\u00F6lts fel n\u00E9h\u00E1ny fot\u00F3t.}other{Kezd\u00E9sk\u00E9nt t\u00F6lts fel n\u00E9h\u00E1ny fot\u00F3t.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Saj\u00E1t domain"
+   },
+   "5087678602655068553": {
+      "message": "Kamera"
+   },
+   "5094793857629325945": {
+      "message": "Felk\u00E9sz\u00FCl\u00E9s a megoszt\u00E1sra..."
+   },
+   "509736707516044180": {
+      "message": "Le\u00E1ll\u00EDt\u00E1s..."
+   },
+   "5114432207766092038": {
+      "message": "Az \u00F6sszes bejegyz\u00E9sb\u0151l sz\u00E1rmaz\u00F3 \u00F6sszes fot\u00F3"
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{A fot\u00F3 t\u00F6rl\u00E9sekor a vele kapcsolatos \u00F6sszes megjegyz\u00E9st, +1 \u00E9rt\u00E9kel\u00E9st \u00E9s c\u00EDmk\u00E9t is t\u00F6rli.}other{A fot\u00F3k t\u00F6rl\u00E9sekor a vel\u00FCk kapcsolatos \u00F6sszes megjegyz\u00E9st, +1 \u00E9rt\u00E9kel\u00E9st \u00E9s c\u00EDmk\u00E9t is t\u00F6rli.}}"
+   },
+   "5127852906617233988": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Your circles}male{Your circles}other{K\u00F6reid}}"
+   },
+   "5143227875710959810": {
+      "message": "Album megoszt\u00E1sa"
+   },
+   "5146398958364876914": {
+      "message": "Rendez\u00E9s"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{K\u00FCldte: {FROM_NAME}}male{K\u00FCldte: {FROM_NAME}}other{K\u00FCldte: {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{K\u00E9p be\u00E1ll\u00EDt\u00E1sa albumbor\u00EDt\u00F3k\u00E9nt}female{K\u00E9p be\u00E1ll\u00EDt\u00E1sa albumbor\u00EDt\u00F3k\u00E9nt}other{K\u00E9p be\u00E1ll\u00EDt\u00E1sa albumbor\u00EDt\u00F3k\u00E9nt}}"
+   },
+   "5179193375793315549": {
+      "message": "Egyszerre legfeljebb $1\u200B fot\u00F3t vehetsz fel."
+   },
+   "5198477912095887288": {
+      "message": "k\u00E9sz\u00EDt\u00E9skori"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Fot\u00F3 megtekint\u00E9se}other{Fot\u00F3k megtekint\u00E9se}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}male{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}other{Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Chrome-ba.}}"
+   },
+   "5233843271957333982": {
+      "message": "vissza\u00E1ll\u00EDt"
+   },
+   "5252008443782667515": {
+      "message": "Igen"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{1 tov\u00E1bbi m\u00E1solat l\u00E9tezik, amelyet a rendszer nem t\u00F6r\u00F6l.}other{{NUM_ADDITIONAL_COPIES_2} tov\u00E1bbi m\u00E1solat l\u00E9tezik, amelyet a rendszer nem t\u00F6r\u00F6l.}}"
+   },
+   "5369958865776447504": {
+      "message": "A fot\u00F3 a(z) \u201E$1\u200B\u201D albumban tal\u00E1lhat\u00F3."
+   },
+   "5376084340764125422": {
+      "message": "Teljes k\u00E9perny\u0151 \u2013 ki"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Vegyes"
+   },
+   "5413761544816529267": {
+      "message": "$1\u200B haszn\u00E1lat\u00E1hoz regisztr\u00E1lj egy Google+-fi\u00F3kot."
+   },
+   "5429439352984579915": {
+      "message": "$2\u200B. $1\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Pr\u00F3b\u00E1lkozz \u00FAjra"
+   },
+   "545081735380424772": {
+      "message": "Fot\u00F3kat t\u00F6lthetsz fel \u00E9s oszthatsz meg a Google Chrome b\u00F6ng\u00E9sz\u0151b\u0151l"
+   },
+   "5467399875821461358": {
+      "message": "Fot\u00F3k t\u00F6rl\u00E9se"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Hom\u00E1lyos"
+   },
+   "5522640894890976342": {
+      "message": "Alulexpon\u00E1lt"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{T\u00FAlexpon\u00E1lt}male{T\u00FAlexpon\u00E1lt}other{T\u00FAlexpon\u00E1lt}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 fot\u00F3 m\u00E1solva.}other{{NUM_PHOTOS_2} fot\u00F3 m\u00E1solva.}}"
+   },
+   "5546339789714773759": {
+      "message": "Forgat\u00E1s jobbra"
+   },
+   "5563891514339188770": {
+      "message": "K\u00E9p be\u00E1ll\u00EDt\u00E1sa albumbor\u00EDt\u00F3k\u00E9nt"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}male{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 elt\u00E1vol\u00EDt\u00E1s\u00E1hoz}}"
+   },
+   "5613209249634786065": {
+      "message": "Teljes (ak\u00E1r 5 GB ingyenes t\u00E1rhely)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{T\u00E1rold, rendezd \u00E9s oszd meg a fot\u00F3idat \u00E9s vide\u00F3idat p\u00E1r kattint\u00E1ssal.}female{T\u00E1rold, rendezd \u00E9s oszd meg a fot\u00F3idat \u00E9s vide\u00F3idat p\u00E1r kattint\u00E1ssal.}other{T\u00E1rold, rendezd \u00E9s oszd meg a fot\u00F3idat \u00E9s vide\u00F3idat p\u00E1r kattint\u00E1ssal.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{A Google \u00E1ltal kiv\u00E1lasztott {START_BOLD}1{END_BOLD} legjobb fot\u00F3.}other{A Google \u00E1ltal kiv\u00E1lasztott {START_BOLD}{PICKED_COUNT_2}{END_BOLD} legjobb fot\u00F3.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Fot\u00F3 megtekint\u00E9se}other{Fot\u00F3k megtekint\u00E9se}}}female{{COUNT,plural, =0{unused plural form}=1{Fot\u00F3 megtekint\u00E9se}other{Fot\u00F3k megtekint\u00E9se}}}other{{COUNT,plural, =0{unused plural form}=1{Fot\u00F3 megtekint\u00E9se}other{Fot\u00F3k megtekint\u00E9se}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Senki sincs megc\u00EDmk\u00E9zve ebben az albumban."
+   },
+   "5747301769466451086": {
+      "message": "Teljes ($2\u200B GB-b\u00F3l $1\u200B GB szabad)"
+   },
+   "5750062244377347370": {
+      "message": "Egyszerre legfeljebb $1\u200B fot\u00F3t oszthatsz meg."
+   },
+   "5750485945694679561": {
+      "message": "F\u00E9nyk\u00E9p"
+   },
+   "5752465522295465624": {
+      "message": "Ez mi?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 import\u00E1lva}other{# fot\u00F3 import\u00E1lva}}"
+   },
+   "5782608665556323710": {
+      "message": "Megosztva t\u00E1gabb k\u00F6r\u00F6kkel"
+   },
+   "5792855097053831820": {
+      "message": "V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Fot\u00F3 t\u00F6rl\u00E9se}other{Fot\u00F3k t\u00F6rl\u00E9se}}"
+   },
+   "5822534876981710132": {
+      "message": "Azonnali felt\u00F6lt\u00E9s"
+   },
+   "5849125517299342831": {
+      "message": "Fot\u00F3k import\u00E1l\u00E1sa..."
+   },
+   "5851872412594366640": {
+      "message": "Minden fot\u00F3 \u00E1thelyez\u00E9se albumba"
+   },
+   "585220835732140655": {
+      "message": "Megosztva: $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Teljes (ak\u00E1r 5 GB ingyenes t\u00E1rhely)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{M\u00E9g h\u00E1tra van 1 import\u00E1lt fot\u00F3 felt\u00F6lt\u00E9se.}other{M\u00E9g h\u00E1tra van {NUM_PHOTOS_2} import\u00E1lt fot\u00F3 felt\u00F6lt\u00E9se.}}"
+   },
+   "591256046515963756": {
+      "message": "Minden eml\u00E9kedet meg\u0151rizheted. Fot\u00F3idat b\u00E1rmikor, b\u00E1rmilyen k\u00E9sz\u00FCl\u00E9kr\u0151l el\u00E9rheted."
+   },
+   "5937251202465808296": {
+      "message": "Tov\u00E1bbi"
+   },
+   "5963865584069399662": {
+      "message": "priv\u00E1t"
+   },
+   "5978216065275630477": {
+      "message": "Hiba t\u00F6rt\u00E9nt a Google+ Fot\u00F3k szolg\u00E1ltat\u00E1s\u00E1ba val\u00F3 bejelentkeztet\u00E9sed sor\u00E1n."
+   },
+   "5981779462795520309": {
+      "message": "Az eredeti bejegyz\u00E9sek c\u00EDmzettjei"
+   },
+   "5984859669237993376": {
+      "message": "Ide kattintva fot\u00F3kat adhatsz hozz\u00E1"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Egy fot\u00F3 hozz\u00E1adva, megoszt\u00E1sra k\u00E9szen.}other{# fot\u00F3 hozz\u00E1adva, megoszt\u00E1sra k\u00E9szen.}}"
+   },
+   "6003032126642624287": {
+      "message": "Teljes m\u00E9ret (ak\u00E1r 5 GB ingyenes t\u00E1rhely)"
+   },
+   "6021285543212025836": {
+      "message": "Ha t\u00F6rl\u00F6d ezt a fot\u00F3t, a vele t\u00E1rs\u00EDtott \u00F6sszes bejegyz\u00E9st, megjegyz\u00E9st \u00E9s +1-et is t\u00F6rl\u00F6d."
+   },
+   "605360614133602045": {
+      "message": "de."
+   },
+   "6073020864818444056": {
+      "message": "K\u00E9sz"
+   },
+   "612521550010808115": {
+      "message": "B\u00E1rki l\u00E1thatja az interneten"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 hozz\u00E1adva, \u00E9s megoszt\u00E1sra k\u00E9sz}other{# fot\u00F3 hozz\u00E1adva, \u00E9s megoszt\u00E1sra k\u00E9sz}}"
+   },
+   "6143433948220856193": {
+      "message": "T\u00FAlexpon\u00E1lt"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Fot\u00F3 t\u00F6rl\u00E9se"
+   },
+   "6261883509320806048": {
+      "message": "T\u00F6rl\u00F6d a kijel\u00F6lt fot\u00F3kat?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B alkalmaz\u00E1ssal egyetlen helyen \u00E9rheted el meghajt\u00F3don l\u00E9v\u0151 \u00E9s a telefonoddal vagy kamer\u00E1ddal k\u00E9sz\u00EDtett fot\u00F3idat."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}female{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}other{Engedd meg, hogy a(z) {APP_NAME} alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl}}"
+   },
+   "6366245138858985671": {
+      "message": "Fot\u00F3k t\u00E1rol\u00E1s\u00E1ra szolg\u00E1l\u00F3 album"
+   },
+   "636798263636559500": {
+      "message": "Album nev\u00E9nek megad\u00E1sa"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}male{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}}"
+   },
+   "6402624319890396199": {
+      "message": "M\u00E9gse"
+   },
+   "6405254665227516714": {
+      "message": "Az \u00F6sszes profilfot\u00F3"
+   },
+   "6421460271971606186": {
+      "message": "Nagy\u00EDt\u00E1s"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Nem jel\u00F6lheted ki m\u00E1sok fot\u00F3it}male{Nem jel\u00F6lheted ki m\u00E1sok fot\u00F3it}other{Nem jel\u00F6lheted ki m\u00E1sok fot\u00F3it}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Jelenleg nincs internetkapcsolatod.}female{Jelenleg nincs internetkapcsolatod.}other{Jelenleg nincs internetkapcsolatod.}}"
+   },
+   "6544829965377284375": {
+      "message": "Ezek a fot\u00F3k priv\u00E1t m\u00F3don lettek felt\u00F6ltve a Google+-ba, \u00E9s csak te l\u00E1thatod \u0151ket."
+   },
+   "6546455868033656709": {
+      "message": "K\u00E9sz\u00EDt\u00E9s d\u00E1tuma szerint (\u00FAjt\u00F3l a r\u00E9giig)"
+   },
+   "6562395422130457272": {
+      "message": "Vil\u00E1g\u00EDt\u00E1s"
+   },
+   "6569718559670589774": {
+      "message": "Priv\u00E1t m\u00F3don megosztva"
+   },
+   "6578760328281087395": {
+      "message": "Fot\u00F3 t\u00F6rl\u00E9se"
+   },
+   "6594379652661172876": {
+      "message": "Ez a fot\u00F3f\u00FClke t\u00EDpus\u00FA k\u00E9p t\u00F6bb portr\u00E9b\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "6604371182910178125": {
+      "message": "Ha t\u00F6rl\u00F6d ezt az albumot, a vele t\u00E1rs\u00EDtott \u00F6sszes bejegyz\u00E9st, megjegyz\u00E9st \u00E9s +1-et is t\u00F6rl\u00F6d."
+   },
+   "6626842519109915669": {
+      "message": "Az Automatikus ment\u00E9s fot\u00F3i"
+   },
+   "663126026358360455": {
+      "message": "Alap\u00E9rtelmezett (korl\u00E1tlan, ingyenes t\u00E1rhely)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 fot\u00F3 felv\u00E9ve \u00E9s megoszt\u00E1sra k\u00E9sz.}other{{NUM_PHOTOS_2} fot\u00F3 felv\u00E9ve \u00E9s megoszt\u00E1sra k\u00E9sz.}}"
+   },
+   "664682826251689034": {
+      "message": "M\u00E9g nincsenek +1-ek."
+   },
+   "666585356635427967": {
+      "message": "A rendszer automatikusan jav\u00EDtotta a fot\u00F3t."
+   },
+   "6698080327673689103": {
+      "message": "Legjobb fot\u00F3k keres\u00E9se..."
+   },
+   "6721868124884562992": {
+      "message": "Gy\u0171jtsd egy helyre az \u00F6sszes fot\u00F3t az eszk\u00F6zeidr\u0151l."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{V\u00E1logat\u00E1s}female{V\u00E1logat\u00E1s}other{V\u00E1logat\u00E1s}}"
+   },
+   "6747166642870870925": {
+      "message": "Import\u00E1l\u00E1s le\u00E1ll\u00EDt\u00E1sa..."
+   },
+   "6750134343457912784": {
+      "message": "A $1\u200B el\u0151nyeinek kihaszn\u00E1l\u00E1s\u00E1hoz \u00FAgy \u00E1ll\u00EDtsd be, hogy a fot\u00F3kat automatikusan import\u00E1lja."
+   },
+   "675159243189607951": {
+      "message": "Fot\u00F3 hozz\u00E1ad\u00E1sa albumhoz"
+   },
+   "6778067484492795152": {
+      "message": "Alulexpon\u00E1lt"
+   },
+   "6792549611288275870": {
+      "message": "F\u00F3kuszt\u00E1vols\u00E1g"
+   },
+   "6803199913053097740": {
+      "message": "A $1\u200B biztons\u00E1gban t\u00E1rolja a fot\u00F3idat, \u00E9s lehet\u0151v\u00E9 teszi, hogy azokat b\u00E1rmikor, b\u00E1rmilyen eszk\u00F6zr\u0151l megtekintsd."
+   },
+   "680511502310466916": {
+      "message": "N\u00E9pszer\u0171 fot\u00F3k"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{{NUM_PHOTOS_2} fot\u00F3n}other{{NUM_PHOTOS_2} fot\u00F3n}}"
+   },
+   "6872320306636644917": {
+      "message": "Most m\u00E1r biztons\u00E1gosan elt\u00E1vol\u00EDthatod a k\u00E9sz\u00FCl\u00E9kedet."
+   },
+   "6872759799605876555": {
+      "message": "F-\u00E9rt\u00E9k"
+   },
+   "687281374586801843": {
+      "message": "Induljon el a $1\u200B alkalmaz\u00E1s, \u00E9s a rendszer import\u00E1lja a fot\u00F3kat, amikor kamer\u00E1t vagy mem\u00F3riak\u00E1rty\u00E1t csatlakoztatok"
+   },
+   "6882873153932419461": {
+      "message": "Szelekt\u00EDv be\u00E1ll\u00EDt\u00E1s"
+   },
+   "6906406658770551379": {
+      "message": "Ez az anim\u00E1ci\u00F3 egy \u00F6t vagy t\u00F6bb fot\u00F3b\u00F3l \u00E1ll\u00F3 sorozatb\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "6983200894459150878": {
+      "message": "Ez a panor\u00E1mak\u00E9p t\u00F6bb egym\u00E1ssal \u00E1tfed\u00E9sben l\u00E9v\u0151 fot\u00F3b\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "7022070615528435141": {
+      "message": "T\u00F6rl\u00E9s"
+   },
+   "7049887240439736400": {
+      "message": "Nyomtat\u00E1s"
+   },
+   "706796434064753890": {
+      "message": "Diavet\u00EDt\u00E9s lej\u00E1tsz\u00E1sa"
+   },
+   "7102649289752747375": {
+      "message": "Visszajelz\u00E9s k\u00FCld\u00E9se"
+   },
+   "7105497072958063616": {
+      "message": "Sz\u00EDn\u00E1rnyalat"
+   },
+   "7182974689040833178": {
+      "message": "Folytat\u00E1s"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Your domain}male{Your domain}other{Domained}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BA k\u00F6vetkez\u0151k\u00E9nt vagy bejelentkezve:$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Fot\u00F3k import\u00E1l\u00E1sa innen: $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Import\u00E1l\u00E1s folytat\u00E1sa"
+   },
+   "7283005104295613831": {
+      "message": "V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket."
+   },
+   "7288593042347321202": {
+      "message": "T\u00F6rl\u00F6d a kijel\u00F6lt fot\u00F3t?"
+   },
+   "7329217250595054697": {
+      "message": "Eredeti"
+   },
+   "734934965373819800": {
+      "message": "Vissza"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Megc\u00EDmk\u00E9zve itt: {ALBUM_NAME}}male{Megc\u00EDmk\u00E9zve itt: {ALBUM_NAME}}other{Megc\u00EDmk\u00E9zve itt: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Fot\u00F3k hozz\u00E1ad\u00E1sa"
+   },
+   "7419704019640008953": {
+      "message": "Megoszt\u00E1s"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{A legjobb}male{A legjobb}other{A legjobb}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{\u00DCdv\u00F6z\u00F6l a {XXX}!}male{\u00DCdv\u00F6z\u00F6l a {XXX}!}other{\u00DCdv\u00F6z\u00F6l a {XXX}!}}"
+   },
+   "7439652323253850025": {
+      "message": "Csatlakozz \u00FAjra az \u00F6sszes fot\u00F3 \u00E9s album megtekint\u00E9s\u00E9hez."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Sz\u00FCnet}female{Sz\u00FCnet}other{Sz\u00FCnet}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 forgat\u00E1sa jobbra}other{Kijel\u00F6lt fot\u00F3k forgat\u00E1sa jobbra}}"
+   },
+   "7488769419737494778": {
+      "message": "Kedves $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "K\u00F6vetkez\u0151 l\u00E9p\u00E9sk\u00E9nt v\u00E1laszd ki a felt\u00F6lt\u00E9s m\u00E9ret\u00E9t"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 m\u00E1solva}other{# fot\u00F3 m\u00E1solva}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Megoszt\u00E1s}female{Megoszt\u00E1s}other{Megoszt\u00E1s}}"
+   },
+   "7538539390938534172": {
+      "message": "Feh\u00E9regyens\u00FAly"
+   },
+   "7546970424299309536": {
+      "message": "Automatikusan rendezett \u00E9s megoszt\u00E1sra k\u00E9sz"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nincs kiv\u00E1lasztva fot\u00F3}=1{{COUNT_2} fot\u00F3 kiv\u00E1lasztva}other{{COUNT_2} fot\u00F3 kiv\u00E1lasztva}}"
+   },
+   "7637409896935138087": {
+      "message": "K\u00E9sz\u00EDt\u00E9s d\u00E1tuma szerint (\u00FAjt\u00F3l a r\u00E9giig)"
+   },
+   "7649598852815041947": {
+      "message": "\u00DAj album"
+   },
+   "765296891797858248": {
+      "message": "Szia!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 fot\u00F3 a(z) {FOLDER_NAME} mapp\u00E1b\u00F3l felv\u00E9ve \u00E9s megoszt\u00E1sra k\u00E9sz.}other{{NUM_PHOTOS_2} fot\u00F3 a(z) {FOLDER_NAME} mapp\u00E1b\u00F3l felv\u00E9ve \u00E9s megoszt\u00E1sra k\u00E9sz.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B megtekint\u00E9s"
+   },
+   "7718742267235559288": {
+      "message": "Teljes k\u00E9perny\u0151: kil\u00E9p\u00E9s"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 m\u00E1solva a(z) $1\u200B mapp\u00E1b\u00F3l}other{# fot\u00F3 m\u00E1solva a(z) $1\u200B mapp\u00E1b\u00F3l}}"
+   },
+   "7736850283853703249": {
+      "message": "Biztons\u00E1gos t\u00E1rol\u00E1s"
+   },
+   "7736894743522697089": {
+      "message": "Panor\u00E1ma"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 \u00E1thelyez\u00E9se}other{Kijel\u00F6lt fot\u00F3k \u00E1thelyez\u00E9se}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Els\u0151 l\u00E9p\u00E9sek"
+   },
+   "779808899645033177": {
+      "message": "Legutolj\u00E1ra import\u00E1ltak ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Csak te"
+   },
+   "7828808805120058354": {
+      "message": "Visszavon\u00E1s"
+   },
+   "7856636143847093955": {
+      "message": "Napok \u00F6sszevon\u00E1sa"
+   },
+   "7871095434511949009": {
+      "message": "Rekesz"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{K\u00F6vetkez\u0151 l\u00E9p\u00E9sk\u00E9nt v\u00E1laszd ki a felt\u00F6lt\u00E9s m\u00E9ret\u00E9t}female{K\u00F6vetkez\u0151 l\u00E9p\u00E9sk\u00E9nt v\u00E1laszd ki a felt\u00F6lt\u00E9s m\u00E9ret\u00E9t}other{K\u00F6vetkez\u0151 l\u00E9p\u00E9sk\u00E9nt v\u00E1laszd ki a felt\u00F6lt\u00E9s m\u00E9ret\u00E9t}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}male{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}other{V\u00E1laszd ki, hogy a rendszer honnan import\u00E1lja a fot\u00F3kat, majd t\u00F6ltsd fel priv\u00E1t m\u00F3don a Google+ szolg\u00E1ltat\u00E1sra.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}male{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}other{Kattints a fot\u00F3 kijel\u00F6l\u00E9s\u00E9hez vagy kijel\u00F6l\u00E9s\u00E9nek t\u00F6rl\u00E9s\u00E9hez}}"
+   },
+   "7899751896282337632": {
+      "message": "Jav\u00EDtott"
+   },
+   "7911416166208830577": {
+      "message": "S\u00FAg\u00F3"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kattints ide a fot\u00F3 megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz.}other{Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{T\u00F6rl\u00E9s}female{T\u00F6rl\u00E9s}other{T\u00F6rl\u00E9s}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}female{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}other{Kattints a fot\u00F3 balra forgat\u00E1s\u00E1hoz}}"
+   },
+   "8031489364030461560": {
+      "message": "$1\u200B be\u00E1ll\u00EDt\u00E1sa"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{A rendszer automatikusan jav\u00EDtotta a fot\u00F3t.}male{A rendszer automatikusan jav\u00EDtotta a fot\u00F3t.}other{A rendszer automatikusan jav\u00EDtotta a fot\u00F3t.}}"
+   },
+   "8112449587476468078": {
+      "message": "T\u00F6rl\u00F6d a kijel\u00F6lt albumot?"
+   },
+   "8121983485737306983": {
+      "message": "ism\u00E9tl\u0151d\u00E9s"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Fot\u00F3k"
+   },
+   "8160611829089073754": {
+      "message": "Albumok t\u00F6rl\u00E9se"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 \u00E1thelyez\u00E9se albumba}other{Kijel\u00F6lt fot\u00F3k \u00E1thelyez\u00E9se albumba}}"
+   },
+   "8179903593042831802": {
+      "message": "Fot\u00F3k hozz\u00E1ad\u00E1sa"
+   },
+   "819996403327805209": {
+      "message": "Tov\u00E1bbi inform\u00E1ci\u00F3"
+   },
+   "8209467666747691270": {
+      "message": "Legjobb"
+   },
+   "8233995188166153420": {
+      "message": "Fot\u00F3k felt\u00F6lt\u00E9s\u00E9nek megkezd\u00E9s\u00E9hez jelentkezz be a Google Chrome-ba."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Rosszabb m\u00E1solat}male{Rosszabb m\u00E1solat}other{Rosszabb m\u00E1solat}}"
+   },
+   "8257489178421131174": {
+      "message": "Album nev\u00E9nek megad\u00E1sa"
+   },
+   "8262372758945437018": {
+      "message": "Els\u0151 l\u00E9p\u00E9sek"
+   },
+   "8272813937461935720": {
+      "message": "Hiba t\u00F6rt\u00E9nt a Google+ Fot\u00F3k szolg\u00E1ltat\u00E1s\u00E1ba val\u00F3 bejelentkeztet\u00E9sed sor\u00E1n."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}female{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}other{Ide kattintva fot\u00F3kat adhatsz hozz\u00E1}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kijel\u00F6lt fot\u00F3 megoszt\u00E1sa}other{Kijel\u00F6lt fot\u00F3k megoszt\u00E1sa}}"
+   },
+   "8317910107005018559": {
+      "message": "R\u00F6videbben"
+   },
+   "8324963774100913509": {
+      "message": "Korl\u00E1tozott"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{\u00DCdv\u00F6z\u00F6l a {XXX}!}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Album nev\u00E9nek megad\u00E1sa}male{Album nev\u00E9nek megad\u00E1sa}other{Album nev\u00E9nek megad\u00E1sa}}"
+   },
+   "8405309693308875139": {
+      "message": "Fot\u00F3k"
+   },
+   "840692109692540367": {
+      "message": "Bejelentkez\u00E9s"
+   },
+   "8418580476552799567": {
+      "message": "Felt\u00F6lt\u00E9s m\u00E9rete"
+   },
+   "8446162208830000966": {
+      "message": "Kil\u00E9p\u00E9s"
+   },
+   "8461609631969932886": {
+      "message": "Elrejt\u00E9s"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Verzi\u00F3: $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kattints ide a fot\u00F3 megtekint\u00E9s\u00E9hez.}other{Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{N\u00E9h\u00E1ny fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}male{{COUNT_1,plural, =0{N\u00E9h\u00E1ny fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}other{{COUNT_1,plural, =0{N\u00E9h\u00E1ny fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}=1{{START_BOLD}1{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3d felt\u00F6lt\u00E9sre v\u00E1r. Ha \u00FAjra csatlakozol, felt\u00F6ltheted \u00E9s megoszthatod \u0151ket.}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Engedd meg, hogy a $1\u200B alkalmaz\u00E1s seg\u00EDtsen kiv\u00E1lasztani a legjobbakat az import\u00E1lt fot\u00F3k k\u00F6z\u00FCl"
+   },
+   "8554704680089748768": {
+      "message": "Ekkor import\u00E1lt fot\u00F3k: $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Lej\u00E1tsz\u00E1s"
+   },
+   "8566172133042307539": {
+      "message": "Hozz\u00E1ad\u00E1s az albumhoz"
+   },
+   "8588705294225487286": {
+      "message": "Az eredeti bejegyz\u00E9s c\u00EDmzettjei sz\u00E1m\u00E1ra l\u00E1that\u00F3"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}male{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}other{V\u00E1lassz teljes m\u00E9ret\u0171 biztons\u00E1gi ment\u00E9seket fot\u00F3idr\u00F3l, vagy kisebb, norm\u00E1l m\u00E9ret\u0171, ingyenes felt\u00F6lt\u00E9seket.}}"
+   },
+   "8654290347345927684": {
+      "message": "Most m\u00E1r biztons\u00E1gosan elt\u00E1vol\u00EDthatod az eszk\u00F6z\u00F6det ($1\u200B)."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Szia! \u00DCdv\u00F6z\u00F6l a {XXX}!}}"
+   },
+   "8667344331777400219": {
+      "message": "A legjobb kiv\u00E1laszt\u00E1sa"
+   },
+   "8675112326850410714": {
+      "message": "Mem\u00F3riak\u00E1rtya vagy h\u00E1tt\u00E9rt\u00E1r csatlakoztatva"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Kil\u00E9p\u00E9s}female{Kil\u00E9p\u00E9s}other{Kil\u00E9p\u00E9s}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 import\u00E1lva a(z) $1\u200B mapp\u00E1b\u00F3l}other{# fot\u00F3 import\u00E1lva a(z) $1\u200B mapp\u00E1b\u00F3l}}"
+   },
+   "8704271911477526098": {
+      "message": "Priv\u00E1t"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Jelenleg nem csatlakozol az internethez.}male{Jelenleg nem csatlakozol az internethez.}other{Jelenleg nem csatlakozol az internethez.}}"
+   },
+   "8759519761443041119": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok ment\u00E9se"
+   },
+   "8765880467977864647": {
+      "message": "felt\u00F6lt\u00F6tte: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Felhaszn\u00E1l\u00F3i men\u00FC"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Teljes k\u00E9perny\u0151}female{Teljes k\u00E9perny\u0151}other{Teljes k\u00E9perny\u0151}}"
+   },
+   "8777952755137547655": {
+      "message": "Ez a panor\u00E1mak\u00E9p kapcsol\u00F3d\u00F3 fot\u00F3k sorozat\u00E1b\u00F3l j\u00F6tt l\u00E9tre."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{A felt\u00F6lt\u00E9s befejez\u0151d\u00F6tt. 1 fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll.}other{A felt\u00F6lt\u00E9s befejez\u0151d\u00F6tt. {COUNT_2} fot\u00F3 megoszt\u00E1sra k\u00E9szen \u00E1ll.}}"
+   },
+   "8832933617217959986": {
+      "message": "\u00D6sszes kijel\u00F6l\u00E9s megsz\u00FCntet\u00E9se"
+   },
+   "8874739581425612284": {
+      "message": "V\u00E1laszd ki a megosztani vagy albumba felvenni k\u00EDv\u00E1nt fot\u00F3kat"
+   },
+   "8890553633144307762": {
+      "message": "Vissza"
+   },
+   "8928816882866356838": {
+      "message": "Nyilv\u00E1nos"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Album t\u00F6rl\u00E9se}=1{Kijel\u00F6lt fot\u00F3 t\u00F6rl\u00E9se}other{Kijel\u00F6lt fot\u00F3k t\u00F6rl\u00E9se}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Nyomtat\u00E1s}female{Nyomtat\u00E1s}other{Nyomtat\u00E1s}}"
+   },
+   "8984549175557747262": {
+      "message": "Vide\u00F3 feldolgoz\u00E1sa..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Alulexpon\u00E1lt}male{Alulexpon\u00E1lt}other{Alulexpon\u00E1lt}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Megosztva domainnel"
+   },
+   "9042260521669277115": {
+      "message": "Felf\u00FCggeszt\u00E9s"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 megtekint\u00E9s \u00F6sszesen}=1{1 megtekint\u00E9s \u00F6sszesen}other{{VIEW_COUNT_2} megtekint\u00E9s \u00F6sszesen}}"
+   },
+   "9087479077774045963": {
+      "message": "A $1\u200B automatikusan kiv\u00E1lasztja a legjobb k\u00E9peidet a gy\u0171jtem\u00E9nyeidb\u0151l, \u00E9s azokat el\u0151k\u00E9sz\u00EDti megoszt\u00E1sra."
+   },
+   "9137360918780826967": {
+      "message": "Alacsony min\u0151s\u00E9g\u0171"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fot\u00F3 hozz\u00E1adva, megoszt\u00E1sra k\u00E9szen.}other{# fot\u00F3 hozz\u00E1adva, megoszt\u00E1sra k\u00E9szen.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} megk\u00F6nny\u00EDti a fot\u00F3id rendez\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t.}female{{XXX_2} megk\u00F6nny\u00EDti a fot\u00F3id rendez\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t.}other{{XXX_3} megk\u00F6nny\u00EDti a fot\u00F3id rendez\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t.}}"
+   },
+   "9219694540199049147": {
+      "message": "Mappa..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 fot\u00F3 felt\u00F6lt\u00E9se az egyik el\u0151z\u0151 munkamenetben m\u00E1r siker\u00FClt.}other{{NUM_PHOTOS_2} fot\u00F3 felt\u00F6lt\u00E9se az egyik el\u0151z\u0151 munkamenetben m\u00E1r siker\u00FClt.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fot\u00F3 import\u00E1l\u00E1sa \u00E9s felt\u00F6lt\u00E9se sikeresen befejez\u0151d\u00F6tt.}other{{START_BOLD}{COUNT_2}{END_BOLD} fot\u00F3 import\u00E1l\u00E1sa \u00E9s felt\u00F6lt\u00E9se sikeresen befejez\u0151d\u00F6tt.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{A(z) {XXX} el\u0151nyeit jobban kihaszn\u00E1lhatod, ha be\u00E1ll\u00EDtod a fot\u00F3id automatikus import\u00E1l\u00E1s\u00E1t.}male{A(z) {XXX} el\u0151nyeit jobban kihaszn\u00E1lhatod, ha be\u00E1ll\u00EDtod a fot\u00F3id automatikus import\u00E1l\u00E1s\u00E1t.}other{A(z) {XXX} el\u0151nyeit jobban kihaszn\u00E1lhatod, ha be\u00E1ll\u00EDtod a fot\u00F3id automatikus import\u00E1l\u00E1s\u00E1t.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Az \u00F6sszes fot\u00F3 \u00E1thelyez\u00E9se az albumb\u00F3l}=1{Kijel\u00F6lt fot\u00F3 \u00E1thelyez\u00E9se}other{Kijel\u00F6lt fot\u00F3k \u00E1thelyez\u00E9se}}"
+   },
+   "982577805980296193": {
+      "message": "Kattints ide a fot\u00F3k megtekint\u00E9s\u00E9hez \u00E9s megoszt\u00E1s\u00E1hoz."
+   }
+}

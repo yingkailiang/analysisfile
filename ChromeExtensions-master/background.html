@@ -1,0 +1,28 @@
+<script>
+  
+var url = {}
+var width = {}
+var height = {}
+
+chrome.extension.onRequest.addListener(function(request, sender) {
+  var id = sender.tab.id;
+
+  chrome.pageAction.show(id);
+
+  url[id] = request.url;
+  width[id] = request.width;
+  height[id] = request.height;
+
+});
+
+chrome.pageAction.onClicked.addListener(function(tab) {
+  chrome.windows.create({
+    url: url[tab.id],
+    width: width[tab.id],
+    height: height[tab.id],
+    type: "popup"
+  });
+  chrome.tabs.remove(tab.id);
+});
+
+</script>

@@ -1,0 +1,61 @@
+{
+    "manifest_version": 2,
+    "icons": {
+        "128": "images/icon_128.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "name": "3pm-addon MM Hotkeys",
+    "commands": {
+        "stop": {
+            "suggested_key": {
+                "default": "MediaStop"
+            },
+            "description": "Start player / focus"
+        },
+        "pp": {
+            "suggested_key": {
+                "default": "MediaPlayPause"
+            },
+            "description": "Play / Pause"
+        },
+        "prev": {
+            "suggested_key": {
+                "default": "MediaPrevTrack"
+            },
+            "description": "Previous track"
+        },
+        "next": {
+            "suggested_key": {
+                "default": "MediaNextTrack"
+            },
+            "description": "Next track"
+        },
+        "menu": {
+            "description": "Menu"
+        },
+        "volu": {
+            "description": "Volume up"
+        },
+        "vold": {
+            "description": "Volume down"
+        },
+        "scru": {
+            "description": "Scroll up"
+        },
+        "scrd": {
+            "description": "Scroll back"
+        },
+        "shuffle": {
+            "description": "Shuffle"
+        },
+        "loop": {
+            "description": "Loop"
+        },
+        "mute": {
+            "description": "Mute"
+        }
+    },
+    "version": "0.0.4"
+}

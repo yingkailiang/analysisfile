@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <base href="extensions://engine/content/">
+        <meta charset="utf-8">
+        <title i18n-content="title"></title>
+        <script src="lib/utils.js" type="application/javascript">
+        </script>
+        <script src="lib/jsevalcontext.js" type="application/javascript">
+        </script>
+        <script src="lib/jstemplate.js" type="application/javascript">
+        </script>
+        <script src="apps.js" type="application/javascript">
+        </script>
+        <link href="../skin/base.css" type="text/css" rel="stylesheet">
+        <link href="../skin/apps.css" type="text/css" rel="stylesheet">
+    </head>
+    <body class="loading">
+        <div id="main">
+            <div class="sections">
+                <div id="widgets" class="section">
+                    <h2>
+                        <div class="back">
+                        </div>
+                        <span i18n-content="widgets">WIDGETS</span></h2>
+                    <div  class="section disabled visible" section="APPS">                    
+                        <span jsselect="widget" class="widget">
+                        	<div class="widgetbar"></div>
+                        	<iframe  jsvalues=".extension:$this;title:description;src:widgetUrl;" _style="display:none;" onload="this.style.display=''"></iframe></span>
+                    </div>
+                </div>
+                <div id="apps" class="section">
+                    <h2>
+                        <div class="back">
+                        </div>
+                        <span i18n-content="apps">APPS</span></h2>
+                    <div id="apps-content" class="section disabled visible" section="APPS">
+                        <span class="app"><a name="name" target="_blank" class="icon-extension-factory" href="http://gallery.extensionfactory.com">Extension Factory</a></span>
+                        <span jsselect="app" class="app"><a name="name" jsvalues=".extension:$this;title:description;href:appLaunchUrl;style:'background-image:url('+findBestIcon(icons,96)+')'" jscontent="name" target="_blank" onclick="onAppClick(event)">APP_NAME</a></span>
+                    </div>
+                </div>
+                <div id="most-visited" class="section" section="THUMB">
+                    <h2>
+                        <div class="back">
+                        </div>
+                        <span i18n-content="mostvisited">MOST_VISITED</span></h2>
+                    <div class="miniview">
+                        <span jsselect="history"><a jsvalues=".innerHTML:title||url.replace(/^[^\/:]+:\/*/,'');title:title||url;href:url;style:'background-image:url(extensions://favicon/'+url+')'" class="item"></a></span>
+                    </div>
+                </div>
+                <div id="recently-closed" class="section collapsed" section="RECENT" noexpand="true" style="top: 191px; ">
+                    <h2>
+                        <div class="back">
+                        </div>
+                        <span i18n-content="recentlyclosed">Récemment fermés</span></h2>
+                    <div class="miniview opaque">
+                        <span jsselect="tab"><a class="item" dir="ltr" jsvalues=".innerHTML:title||url.replace(/^[^\/:]+:\/*/,'');title:title||url;href:url;style:'background-image:url(extensions://favicon/'+url+')'"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

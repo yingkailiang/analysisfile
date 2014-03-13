@@ -1,0 +1,73 @@
+@font: 'Open Sans', sans-serif;
+@color-a: #999;
+@color-b: #3F3F3F;
+@color-c: #FFF;
+@color-input: #000;
+@color-error: #F5A3A3;
+@color-warning: #FDF293;
+@color-success: #A7DD95;
+@color-info: #BFEBEC;
+@color-tree: #D2DEE6;
+@color-alert: #F00;
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-family: @font;
+	color: @color-b;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+h1 .icon-emo-thumbsup {
+	font-size: 20px;
+}
+pre {
+	font-family: @font;
+	padding: 6px;
+	margin: 3px 0 3px 0;
+	border: solid 1px darken(@color-c, 30%);
+	border-radius: 4px;
+	font-size: 10px;
+	line-height: 12px;
+	color: darken(@color-a, 20%);
+	background: @color-c;
+}
+hr {
+	border-top: none;
+	border-bottom: solid 1px @color-a;
+	margin: 10px 0 10px 0;
+}
+pre {
+	white-space: pre-wrap;
+}
+.main-title {
+	font-size: 100px;
+	color: lighten(@color-a, 35%);
+	text-align: center;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;	
+}
+.box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bordered {
+	border: solid 1px @color-a;
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script src="lib/jquery.min.js"></script>
+
+        <script src="lib/ba-linkify.js"></script>
+
+        <script src="lib/bootstrap.js"></script>
+
+        <script src="lib/crypto.js"></script>
+        <script src="lib/identicon.js"></script>
+
+        <script src="js/safechat.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/safechat.css"></link>
+    </head>
+    <body>
+        <div id="new" style="display: none" class="trust">
+            <img class="icon circle" src="img/exclamation-circle.png"></img>
+            <span class="fingerprint">Identity new and unverified.</span>
+            <button class="verify">Verify...</button>
+        </div>
+        <div id="unseen" style="display: none" class="trust">
+            <img class="icon" src="img/exclamation-triangle.png"></img>
+            <span class="fingerprint">Identity changed, unknown!</span>
+            <button class="verify">Verify...</button>
+        </div>
+        <div id="seen" style="display: none" class="trust">
+            <img class="icon circle" src="img/exclamation-circle.png"></img>
+            <span class="fingerprint">Identity known but not verified.</span>
+            <button class="verify">Verify...</button>
+        </div>
+        <div id="trusted" style="display: none" class="trust">
+            <img class="icon" src="img/check-circle.png"></img>
+            <span class="fingerprint">Verified identity.</span>
+        </div>
+        <div id="messages"></div>
+        <textarea id="entry"></textarea>
+        <canvas width="20" height="20" id="entry-token"></canvas>
+        <div id="initial" style="display: none" class="overlay loading">
+            <p>Sending request for encryption...</p>
+        </div>
+        <div id="sentQuery" style="display: none" class="overlay loading">
+            <p>Sent request for encryption. Waiting for response...</p>
+        </div>
+        <div id="akeInit" style="display: none" class="overlay loading">
+            <p>Negotiating encryption details...</p>
+        </div>
+        <div id="timeout" style="display: none" class="overlay">
+            <p>Operation timed out.</p>
+            <!-- <p><button id="close">End encryption</button></p> -->
+        </div>
+    </body>
+</html>

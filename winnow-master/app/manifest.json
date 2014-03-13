@@ -1,0 +1,48 @@
+{
+    "name": "Winnow",
+    "description": "Send one or more tabs to other windows",
+    "version": "0.0.71",
+    "manifest_version": 2,
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "128": "images/icon-128.png"
+        },
+        "default_title": "Winnow",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.google.com/*"
+            ],
+            "css": [
+                "styles/main.css",
+                "styles/bootstrap.min.css"
+            ],
+            "js": [
+                "scripts/jquery.min.js",
+                "scripts/background.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "bookmarks",
+        "history",
+        "tabs",
+        "geolocation",
+        "storage"
+    ]
+}

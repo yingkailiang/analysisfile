@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/chrome-bootstrap.css"></link>
+        <script src="lib/jquery.min.js"></script>
+        <script src="js/shared.js"></script>
+        <script src="js/options.js"></script>
+
+        <title>OTRon Options</title>
+
+        <style>
+            #page-token {
+                margin-left: 24px;
+                width: 64px;
+                height: 64px;
+            }
+            .fingerprint-view > dl {
+                margin-top: -0.5em;
+            }
+            .fingerprint-name {
+                font-weight: bold;
+            }
+            #key-list:empty:after {
+                color: #aaa;
+                content: "You haven't used OTR with anyone yet.";
+            }
+        </style>
+    </head>
+
+    <body class="chrome-bootstrap">
+        <div class="frame">
+            <div class="navigation">
+                <h1><a href="#">OTRon</a></h1>
+
+                <ul class="menu">
+                    <!-- <li class="selected"><a href="#chat">Chat</a></li> -->
+                    <li class="selected"><a href="#keys">Keys</a></li>
+                    <li><a href="#security">Security</a></li>
+                </ul>
+
+                <img id="page-token"></img>
+            </div>
+            <div class="mainview view">
+                <!-- <div id="chat" class="selected"> -->
+                <!--     <header> -->
+                <!--         <h1>Chat</h1> -->
+                <!--     </header> -->
+                <!--     <div class="content"> -->
+                <!--         <section> -->
+                <!--             <h3>Whitespace tagging</h3> -->
+                <!--             By default, OTRon tags some messages you send to your friends with a pattern of spaces, letting them know that you're ready to encrypt. This pattern is usually invisible. -->
+                <!--             <p> -->
+                <!--                 <label> -->
+                <!--                     <input type="checkbox"> -->
+                <!--                     <span>Enable whitespace tagging</span> -->
+                <!--                 </label> -->
+                <!--             </p> -->
+                <!--         </section> -->
+                <!--     </div> -->
+                <!-- </div> -->
+                <div id="keys" class="selected">
+                    <header>
+                        <h1>Keys</h1>
+                    </header>
+                    <div class="content">
+                        <h2>Your key pair</h2>
+                        <p>All messages you send and receive with OTR are encrypted using a randomly generated <em>key pair</em>, which includes a <em>public</em> and a <em>private</em> key. Your private key isn't viewable here, but it's stored on your computer. If your computer is attacked or stolen, you should change your keys and notify your friends; otherwise, the attacker could impersonate you in the future.</p>
+                        <section id="own-public-key">
+                            <h3>Public key</h3>
+                            <p>This is your public key fingerprint. Share it with your friends so they can be sure they're chatting with you. (See the Friends' keys section.)</p>
+                        </section>
+                        <section>
+                            <h3>Regenerate</h3>
+                            <p>You can regenerate your public/private key pair if you think it's been compromised. Make sure you let your friends know that you've changed your keys!</p>
+                            <button id="regenerate-keys">Regenerate</button>
+                        </section>
+
+                        <h2>Friends' keys</h2>
+                        <p>The public key fingerprints of friends with whom you've used OTR are listed here.<p>
+                        <p>When you speak with a friend some other way, especially in person, you can compare the fingerprint in their OTRon options with the one listed here. If they don't match, either your friend has changed keys, or someone has been impersonating them.</p>
+
+                        <div id="key-list"></div>
+                    </div>
+                    <div class="fingerprint-view controls fingerprint-view-template" style="display: none">
+                        <dl>
+                            <dt class="fingerprint-name">Alice</dt>
+                            <dd class="fingerprint">foo bar baz qux</dd>
+                        </dl>
+                        <div class="spacer"></div>
+                        <button class="auth-key">Verify</button>
+                        <button class="remove-key">Forget</button>
+                    </div>
+                </div>
+                <div id="security">
+                    <header>
+                        <h1>Security</h1>
+                    </header>
+                    <div class="content">
+                        <section>
+                            <h3>Security token</h3>
+                            <p>This security token watermark sits underneath all messages OTRon decrypts. If you don't see this token underneath a chat bubble, it may have been tampered with.</p>
+                            <img id="security-token-image"></img>
+                        </section>
+                        <section>
+                            <h3>Secure input verification</h3>
+                            <p>A small symbol should update on the side as you type in an encrypted message. It will have this color:&nbsp;<span id="security-token-color">security color</span>. If the symbol isn't updating while you compose your message, or if it has the wrong color, your message is being intercepted while you type, possibly by an attacker.</p>
+                        </section>
+                        <section>
+                            <h3>Regenerate</h3>
+                            <p>If someone sees your token, they might copy it down and try to fool you into typing or reading somewhere unsafe.</p>
+                            <button id="regenerate-token">Regenerate</button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+﻿<div class="topic">
+    <%= generalMessage %>
+</div>
+<div class="category">
+
+    <ul>
+        <li>
+            <label id="suggestedQualitySelectLabel" for="suggestedQualitySelect">
+                <%= videoQualityMessage %>
+            </label>
+            
+            <select id="suggestedQualitySelect" name="suggestedQualitySelect">
+            
+                <option value="highres" <%= suggestedQuality === 'highres' ? 'selected' : '' %>>
+                    <%= highestMessage %>
+                </option>
+
+                <option value="default" <%= suggestedQuality === 'default' ? 'selected' : '' %>>
+                    <%= autoMessage %>
+                </option>
+
+                <option value="small" <%= suggestedQuality === 'small' ? 'selected' : '' %>>
+                    <%= lowestMessage %>
+                </option>
+
+            </select>
+        </li>
+        <li>
+            <input type="checkbox" id="showTooltips" <%= showTooltips ? 'checked' : '' %>>
+            <label for="showTooltips">
+                <%= showTooltipsMessage %>
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="alwaysOpenToSearch" <%= alwaysOpenToSearch ? 'checked' : '' %> >
+            <label for="alwaysOpenToSearch">
+                <%= alwaysOpenToSearchMessage %>
+            </label>
+        </li>
+    </ul>
+
+</div>
+
+<div class="remindersLabel topic">
+    <%= remindersMessage %>
+</div>
+<div class="category">
+    <ul>
+        <li>
+            <input type="checkbox" id="remindClearStream" <%= remindClearStream ? 'checked' : '' %>>
+            <label for="remindClearStream">
+                <%= remindClearStreamMessage %>
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="remindDeletePlaylist" <%= remindDeletePlaylist ? 'checked' : '' %>>
+            <label for="remindDeletePlaylist">
+                <%= remindDeletePlaylistMessage %>
+            </label>
+        </li>
+    </ul>
+</div>

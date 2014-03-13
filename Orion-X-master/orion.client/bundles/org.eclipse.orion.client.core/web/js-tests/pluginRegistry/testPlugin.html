@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="../../requirejs/require.js"></script>
+	<script>
+		/*global require orion window*/
+		require({
+		  baseUrl: '../..',
+		  paths: {
+			  domReady: 'requirejs/domReady'
+		  }
+		});
+		require(["orion/Deferred", "orion/EventTarget", "orion/plugin", "domReady!"], function(Deferred, EventTarget, PluginProvider) {
+			var provider = new PluginProvider();
+			var impl = {
+				test: function(echo) {
+					return echo;
+				},
+				testPromise: function(echo) {
+					var d = new Deferred();
+					window.setTimeout(function() {
+						d.progress("progress");
+						d.resolve(echo);
+					},0);
+					return d;
+				},
+				testEvent: function(name) {
+					this.dispatchEvent(name, name + "test");
+				}
+			};
+			EventTarget.attach(impl);
+			provider.registerService("test", impl, {name : "echotest"});
+			provider.connect();
+		});
+	</script>
+</head>
+<body>
+</body>
+</html>

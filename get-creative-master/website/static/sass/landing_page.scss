@@ -1,0 +1,78 @@
+@import "mixins", "vars", "extendables", "fonts", "defaults", "web_defaults";
+
+.landing_page {
+    .fixed_width_wrapper {
+        position:relative;
+        width:1000px;
+        margin:0 auto;
+        padding:20px;
+
+        hr {
+            margin:1em 0;
+            border:0;
+            border-bottom:1px solid $hr_color;
+        }
+
+        .gallery {
+            float:right;
+            margin-left:30px;
+            @include box-shadow(0 0 1px 1px rgba(#000, 0.3));
+
+            img {
+                display:block;
+                width:500px;
+            }
+        }
+
+        > header {
+            img {
+                float:left;
+                margin-right:10px;
+            }
+
+            h1 {
+                font-size:4em;
+                margin:0;
+                line-height:0.7em;
+            }
+        }
+
+        p {
+            @extend .standard_font;
+            margin:1em 0;
+
+            &:first-of-type {
+                margin-top:0;
+            }
+        }
+
+        a.install_link {
+            position:relative;
+            display:inline-block;
+            padding:0.5em 1em 0.5em 2.5em;
+            background:$_color_blue;
+            color:#fff;
+            font-size:1.8em;
+            @include border-radius(7px);
+
+            &:before {
+                position:absolute;
+                left:8px;
+                top:6px;
+                content:url(/img/web/chrome_logo.png);
+            }
+
+            &:hover {
+                background:$_color_blue*1.1;
+                text-decoration:none;
+            }
+        }
+
+        footer {
+            clear:both;
+            margin-top:5em;
+            text-align:center;
+            font-style:italic;
+        }
+    }
+}

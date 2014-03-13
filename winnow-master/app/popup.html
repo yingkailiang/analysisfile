@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    Background Page
+  </title>
+
+  <style type="text/css">
+    button.active {
+      border: 1px solid red;
+    }
+  </style>
+
+   <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/background.js"></script>
+</head>
+
+<body>
+
+<div class="row-fluid" style="width: 295px; background-color: yellow;">
+  <div class="span12">
+
+    <div id="id" class="btn input-xlarge">
+      Window ID
+    </div>
+
+    <div id="name" class="btn input-xlarge">
+      Window Name
+    </div>
+
+    <div id="active-tab-id" class="btn input-xlarge">
+      Tab Name
+    </div>
+
+    <div id="originally-a-popup" class="btn input-xlarge hide">
+      This Chrome window was originally a Popup and cannot be moved:
+      http://developer.chrome.com/extensions/tabs.html#method-move
+    </div>
+
+    <div class="row-fluid">
+      <div id="process" class="span6 btn" style="width: 144px;">
+        1
+      </div>
+      <div id="all" class="span6 btn" style="display: inline; width: 144px;">
+        All
+      </div>
+    </div>
+
+    <div id="window-button" class="template hide btn input-xlarge">
+      Window-button
+    </div>
+
+    <div id="window-buttons" class="list">
+      <!-- Window buttons render here -->
+    </div>
+
+    <div id="do" class="btn input-xlarge">
+      Do
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

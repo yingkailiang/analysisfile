@@ -1,0 +1,65 @@
+<!--
+ * Copyright (c) 2013 Breakfast Kings. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+<head>
+<style>
+  body {
+		font-size: small;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+	
+	#header{
+		font-weight: bold;
+	}
+	
+	#icon {
+		width: 16px;
+		height: 16px;
+	}
+	
+	#options > *{
+		margin: 10px;
+	}
+	
+	#viewChoice > *{
+		margin: 5px;
+	}
+	
+</style>
+<script type="text/javascript" src="viewselect.js"></script>
+<script type="text/javascript" src="options.js"></script><title> Feed Update Options </title>
+</head>
+<body>
+	<div id='header'>
+		<img id='icon' src="shoyu-icon-128x128.png">
+		Feed update options
+	</div>
+	<div id='options'>
+		<form id="viewChoice" name="viewChoice"><i>Feed viewer selection:</i><br>
+			<input type="radio" name="defaultView" value="default" checked> Automatically detect a supported feed viewer<br>
+			<input type="radio" name="defaultView" value="browser"> Browser default feed action<br>
+			<input type="radio" name="defaultView" value="shoyu">
+				Always use<a href="https://chrome.google.com/extensions/detail/ilicaedjojicckapfpfdoakbehjpfkah">Shoyu Feed Preview</a><br>
+			<input type="radio" name="defaultView" value="google">
+				Always use<a href="https://chrome.google.com/extensions/detail/nlbjncdgjeocebhnmkbbbdekmmmcbfjd">Google RSS Subscription Extension</a><br>
+			<input type="radio" name="defaultView" value="custom">
+				Custom URL: <input id='customURL' type="text" size="80" value="chrome-extension://hcpolobogakkgmldkcipdafnkbbakenf/">
+		</form>
+		<div>
+			<i>Feed browsing behavior:</i><br>
+			<input type="checkbox" id='openInCurrentTab' value='No'>
+				Open feed in the current tab
+			<br>
+		</div>
+		<div>
+			<i>Bookmark options:</i><br>
+			<input type="checkbox" id='updateBookmarks' value='No'>
+				Automatically clean up bookmark URLs
+			<br>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/***********************************************************************
+ * 
+ *     This file is part of gRecipes.
+ *
+ *     gRecipes is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     gRecipes is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *     You should have received a copy of the GNU General Public License
+ *     along with gRecipes.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ **********************************************************************/
+
+{
+	"name": "Food and Wine",
+	"author": "William T. Olson",
+	"version": "1.0",
+	"url": "http*://www.foodandwine.com/recipes/*",
+	
+	hasRecipe: function() {
+		return !!$('#recipe1').size();
+	},
+  
+	getName: function() {
+		return $('#recipe1 .recipe-info h2').first().text().reduce();
+	},
+  
+  getAuthor: function() {
+    return $('#recipe1 .recipe-info').children('ul').children('li').children('a').first().text().reduce() || undefined;
+  },
+  
+  getPhoto: function() {
+    var photo = $('#featured_image');
+    return (photo.size()) ? {
+      src: photo.get(0).src,
+      alt: photo.get(0).alt,
+      title: photo.get(0).title,
+    } : undefined;
+  },
+  
+  getSummary: function() {
+    var summary = [];
+    var temp = $('#teaser-border').text().reduce();
+    if (temp) {
+      summary.push('<p>');
+      summary.push(temp);
+      summary.push('</p>');
+    }
+
+    temp = $('#recipeWines p').text().reduce();
+    if (temp) {
+      summary.push('<p><strong>Pairing Suggestion:</strong> ');
+      summary.push(temp);
+      summary.push('</p>');
+    }
+    return summary.join(" ") || undefined;
+  },
+  
+  getYield: function() { // yeild is a reserved word!!! Using y instead.
+    var y = $('#time-servings strong').first();
+    return y.text().reduce() || undefined;
+  },
+  
+	getIngredients: function() {
+		var ingredients = $('#ingredients');
+    var sections = ingredients.children('ol');
+    sections = sections.map(function() {
+      var title = $(this).prevUntil('ol').filter('h2');
+      title = title.size() ? title.text().reduce() : undefined;
+
+      var ingredient = $(this).children('li').map(function() {
+        return this.innerHTML;
+      }).get().filter(function(item) {return !item.empty();});
+
+      return {title: title, ingredient: ingredient};
+    }).get().filter(function(section) {return !!section.ingredient;});
+		
+		return sections ? {section: sections} : undefined;
+	},
+  
+  getInstructions: function() {
+    
+    var instructions = $('#directions li');
+    if (!instructions.size()) {return undefined;};
+    
+    instructions = instructions.map(function() {
+      return this.textContent.reduce();
+    }).get().filter(function(item) {
+      return !item.empty();
+    });
+
+    return {section: {instruction: instructions}};
+  }
+}

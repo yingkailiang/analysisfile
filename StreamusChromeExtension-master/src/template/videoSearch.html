@@ -1,0 +1,51 @@
+﻿<div class="left-top-bar">
+    <div class="searchBar">
+        <input placeholder="<%= searchMessage %>..." type="text" value="<%= searchQuery %>">
+        <div class="underline"></div>
+    </div>
+    
+    <button class="button-icon remove" id="hideVideoSearch" title="<%= hideVideoSearchMessage %>">
+        <i class="fa fa-times"></i>
+    </button>
+</div>
+
+<div class="left-top-divider"></div>
+
+<div class="big-text-wrapper">
+    
+    <div class="big-text instructions">
+        <div class="big-text-header"><%= startTypingMessage %></div>
+        <%= resultsWillAppearAsYouSearchMessage %>.
+    </div>
+
+    <div class="big-text searching hidden">
+        <div class="big-text-header"><%= searchingMessage %>...</div>
+        <div class="spinner spinner-medium"></div>
+    </div>
+
+    <div class="big-text noResults hidden">
+        <div class="big-text-header"><%= noResultsFoundMessage %></div>
+        <%= sorryAboutThatMessage %>. <%= trySearchingForSomethingElseMessage %>.
+    </div>
+    
+    <div id="videoSearchResults" class="list"></div>
+</div>
+
+<div class="left-bottom-menubar">
+    <div class="playlist-actions">
+        <button id="playSelected" class="button-label" title="<%= playSelectedMessage %>">
+            <i class="fa fa-play"></i>
+            <%= playSelectedMessage %>
+        </button>
+        
+        <button id="addSelected" class="button-label" title="<%= addSelectedMessage %>">
+            <i class="fa fa-plus"></i>
+            <%= addSelectedMessage %>
+        </button>
+
+        <button id="saveSelected" class="button-label" title="<%= saveSelectedMessage %>">
+            <i class="fa fa-save"></i>
+            <%= saveSelectedMessage %>
+        </button>
+    </div>
+</div>

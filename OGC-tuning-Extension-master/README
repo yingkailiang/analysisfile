@@ -1,0 +1,34 @@
+﻿Az OGC Játékos oldalaihoz készülő Chrome bővítmény.
+
+Funkciók:
+	  -Smiley gombok (hozzászólásoknál, privát üzeneteknél és csevegőnél egyaránt)
+	  -Szövegformázási lehetőség (WYSIWYG!)
+		-Félkövér
+		-Dőlt
+		-aláhúzott
+		-Kép beszúrása
+		-Videó beszúrása (embed kód!)
+		-Hivatkozás
+	  -A neked érkezett válaszokat kiemeli
+	  -Új üzenetekkel rendelkező cikkek kiemelése a főoldalon - Oldalsávon a lapozóban is !
+
+A következő OGC-s oldalakhoz használható:
+	  -http://www.teamfortress.hu/
+	  -http://www.battlefield.hu/
+	  -http://www.trackmania.hu/
+	  -http://www.counter-strike.hu/
+	  -http://www.half-life.hu/
+	  -http://aoe.rts.hu/
+	  -http://sc.rts.hu/
+	  -http://w3.rts.hu/
+	  -http://dota.rts.hu/
+	  -http://lol.rts.hu/
+	  -http://www.cod.hu/
+	  -http://www.nfs.hu/
+	  -http://www.steampowered.hu/
+	  -http://www.cod.hu/
+	  -http://www.fifaonline.hu/
+	  
+Készítők:
+	JimmMorrison723
+	Kezdőlökést (segítséget és innovációt) adta dzsani (ezer köszönet)

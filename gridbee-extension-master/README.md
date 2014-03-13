@@ -1,0 +1,15 @@
+About
+=====
+
+In this github repository you can see source code of our Google Chrome extension. It is a graphical user interface to the Gridbee framework into your browser. You can easily participate in your preferred BOINC project by our extension while you are surfing the Internet.
+
+Content
+=======
+
+Extension directory: Google Chrome extension source code
+Game directory: a very simple game to demonstrate how can you get credit information from extension
+
+Demo project access
+===================
+
+We provide you a demo project to you can try it. After you installed the extension you have to go to configuration tab. Demo project url: http://bvp6.hpc.iit.bme.hu/w2g/

@@ -1,0 +1,19 @@
+<script language="javascript" type="text/javascript">
+
+function setChildTextNode(elementId, text) {
+  document.getElementById(elementId).innerText = text;
+}
+
+// Tests the roundtrip time of sendRequest().
+function testRequest(value) {
+	chrome.tabs.getSelected(null, function(tab) {
+		chrome.tabs.sendRequest(tab.id, {qs: value}, function(response) {
+			document.getElementById('resultsRequest').innerHTML="符合选择器的元素一共有<strong style='color:red'>"+ response.length+"</strong>个元素。";
+			document.getElementById('msg').style.display = "block";
+		});
+	});
+}
+testRequest('fuck')
+
+</script>
+

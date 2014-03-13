@@ -1,0 +1,49 @@
+!!!5
+html(ng-app, ng-csp)
+  head
+    title GitHub Tools Options
+    script(src='../components/angular/angular.js')
+    //-script(src='../scripts/githubapi.js')
+    script(src='options.js')
+    link(rel='stylesheet', href="../components/bootstrap/bootstrap/css/bootstrap.min.css")
+
+  body(ng-controller='OptionsController')
+    .container
+      .row
+        .span12
+          form.form-horizontal
+            fieldset
+              legend GitHub Tools Options
+              .control-group
+                label.control-label(for='login_field') GitHub login:
+                .controls
+                  input#login_field.input-xlarge(type='text', ng-model='storage.ghLogin', name='login')
+              .control-group
+                label.control-label(for='password') GitHub password:
+                .controls
+                  input#password.input-xlarge(type='password', ng-model='password', name='password')
+                  p Password will not be stored and will be forgotten after acquiring access token
+              .control-group
+                .controls
+                  button.btn.btn-primary(ng-click='acquireToken()', ng-disabled='pending > 0') Acquire access and save
+
+            fieldset
+              legend Other actions
+              p
+                a.btn.btn-inverse(href='https://github.com/settings/applications', target='_blank') Manage GitHub Applications
+                |  
+                a.btn.btn-inverse(href='https://github.com/langpavel/github-tools-chrome-extension/issues', target='_blank') Report Issue
+
+            fieldset
+              legend Extension internals
+              p
+                b OAuth token: 
+                span {{storage.ghOAuthToken}}
+
+              p Extension currently using total of: <br/>
+                b {{localBytesInUse | number}} bytes 
+                | local and<br/>
+                b {{syncedBytesInUse | number}} bytes 
+                | synced via Google Account<br/>
+                b {{localBytesInUse + syncedBytesInUse | number}} bytes total 
+                | of storage.

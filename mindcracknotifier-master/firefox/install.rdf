@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:name>Mindcrack Notifier</em:name>
+    <em:unpack>true</em:unpack>
+    <em:bootstrap>true</em:bootstrap>
+    <em:optionsURL>resource://kgjbkelplacidapnkbclfmfkenldaihp/extension/data/options.html</em:optionsURL>
+    <em:optionsType>3</em:optionsType>
+    <em:version>1.8.0</em:version>
+    <em:targetApplication>
+      <Description>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>99.*</em:maxVersion>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+      </Description>
+    </em:targetApplication>
+    <em:updateURL>https://gallery.extensionfactory.com/labs/conversion/update/kgjbkelplacidapnkbclfmfkenldaihp/</em:updateURL>
+    <em:type>2</em:type>
+    <em:id>kgjbkelplacidapnkbclfmfkenldaihp@slicefactory.com</em:id>
+    <em:description>This extension is for instant notification of mindcracker uploads.</em:description>
+  </Description>
+</RDF>

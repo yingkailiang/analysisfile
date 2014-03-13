@@ -1,0 +1,29 @@
+!!!5
+html
+  head
+    style(type='text/css')
+      * { font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 14px; color: #000; text-decoration: none; }
+      h1 { font-size: 16px; }
+      body { width: 260px}
+      span.count { float: right; font-weight: bolder; }
+      ul, li { margin: 0; padding: 0; }
+      ul { list-style: none; }
+      li { clear: both; border-radius: 3px; display: block; }
+      li:hover, li:hover * { background: rgb(65, 131, 196); color: #fff; border-radius: 3px; }
+      .rule { clear: both; height: 1px; margin: 1px 0 2px 0; overflow: hidden; border-bottom: 1px solid #aaa; }
+      ul .filter-item { display: block; padding: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      #user a { display: block; font-size: 18px; padding: 5px; margin: 0; }
+      #user a img { vertical-align: bottom; }
+
+  body
+    //-h1 GitHub
+    ul
+      li
+        #user
+    .rule
+    #details
+    .rule
+    ul
+      li: a.filter-item(href='https://github.com/settings/profile', target='_blank') Your GitHub Profile
+      li: a.filter-item(href='options.html') GitHub Tools for Chrome Settings
+    script(src='popup.js')

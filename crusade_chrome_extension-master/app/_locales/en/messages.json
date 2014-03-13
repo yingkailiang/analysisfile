@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Google Cloud Messaging test",
+    "description": "small extension to test the Google Could Messaging service"
+  },
+  "appDescription": {
+    "message": "Testing Google Could Messaging",
+    "description": "small extension to test the Google Could Messaging service"
+  }
+}

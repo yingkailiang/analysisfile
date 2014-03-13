@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>gRecipes Options</title>
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+  </head>
+  
+  <body>
+    <div id="content">
+      <img id="logo" src="img/grecipe-128.png">
+      <h1>gRecipes Options</h1>
+      
+      <h3>Google Docs Permissions</h3>
+      <p><button id="revoke_button">Revoke Permissions</button></p>
+      <p>Clicking this button will revoke gRecipes access to your Google
+      Docs.  This can also be done from your <a title="Google Settings"
+      href="https://www.google.com/accounts/b/0/IssuedAuthSubTokens?hl=en">
+      Google Settings</a> page.  You will be unable to save recipes
+      until you grant gRecipes access again.</p>
+      
+      <h3>Automatic Open</h3>
+      <p><input id="opt_openonsave" type="checkbox">
+      <label for="opt_openonsave">Automatically open a new recipe when created.</label></p>
+      
+      <h3>Usage Statistics</h3>
+      <p><input id="opt_sendanalytics" type="checkbox">
+      <label for="opt_sendanalytics">Send Anonymous Usage Statistics.</label></p>
+
+      <button id="reset_defaults">Reset Defaults</button>
+      
+      <hr>
+      
+      <h3>Credits and License</h3>
+      
+      <h4>Author</h4>
+      <div class="clearfix">
+        <p class="floatleft">William Trevor Olson <br>
+        <a title="Hey Trevor" href="http://heytrevor.com/">heytrevor.com</a> <br>
+        <a title="My Twitter" href="http://twitter.com/ZombieFeynman">@ZombieFeynman</a></p>
+        
+        <div class="floatleft">
+          <a class="FlattrButton" style="display:none;" href="http://code.google.com/p/grecipes/"></a>
+          <noscript><a href="http://flattr.com/thing/173381/gRecipes" target="_blank">
+          <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+        </div> 
+      </div>
+
+      
+      
+      <h4>License</h4>
+      <div class="clearfix">
+        <p class="floatleft">gRecipes is open source <br>
+        under the <a title="GPLv3" href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a></p>
+        
+        <a title="GPLv3" href="http://www.gnu.org/licenses/gpl-3.0.html"><img class="floatleft" src="http://www.gnu.org/graphics/gplv3-88x31.png"></a>
+      </div>
+    </div> <!--! end of #container -->
+    
+    <script src="js/lib/jquery.js"></script>
+    <script src="http://api.flattr.com/js/0.6/load.js?mode=auto"></script>
+    <script src="js/options.js"></script>
+    <script src="js/lib/google_analytics.js"></script><!-- Analytics must be last. -->
+  </body>
+</html>

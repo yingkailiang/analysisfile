@@ -1,0 +1,13 @@
+node_modules
+temp
+.tmp
+dist
+.sass-cache
+app/bower_components
+app/images/icon-128.psd
+app/images/icon-38.psd
+app/images/montre.jpg
+test/bower_components
+package
+app.pem
+app.crx

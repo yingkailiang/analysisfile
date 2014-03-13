@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title id="title">Memrise Button</title>
+
+    <link id="favicon" rel="icon" href="/icons/icon16-t.png">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/options.css" media="screen">
+
+<!--(if target dev)><!-->
+    <script src="/lib/memrise.js"></script>
+    <script src="/lib/localstore.js"></script>
+    <script src='/lib/mixpanel.js'></script>
+    <script src="/lib/jquery-1.9.1.min.js"></script>
+    <script src="/lib/underscore.min.js"></script>
+    <script src="/lib/q.min.js"></script>
+
+    <script src="/lib/jquery.peity.js"></script>
+    <script src="/lib/jquery.easing.min.js"></script>
+    <script src="/lib/jquery.scrolltext.js"></script>
+    <script src="/lib/backbone.js"></script>
+    <script src="/lib/backbone.marionette.js"></script>
+    <script src="/lib/rivets.min.js"></script>
+    <script src="js/rivets.cfg.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/topics.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/changes.view.js"></script>
+    <script src="js/settings.view.js"></script>
+    <script src="js/navigation.view.js"></script>
+    <script src="js/app.js"></script>
+<!--<!(endif)-->
+
+<!--(if target dist)>
+    <script src="../lib/common.min.js"></script>
+    <script src="js/options.min.js"></script>
+<!(endif)-->
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <h1>
+          Memrise Button
+          <span class="version">v%VERSION%</span>
+        </h1>
+
+        <ul class="nav nav-tabs">
+          <li><a href="/settings">Settings</a></li>
+          <li><a href="/changes">What's New</a></li>
+          <li id="links">
+            <span class="github">
+              <a href="http://github.com/raneksi/memrise-chrome-ext">Project on GitHub</a>
+            </span>
+            <span class="sep"></span>
+            <span class="store">
+              <a href="https://chrome.google.com/webstore/detail/memrise-button/mahhgdkliaknjffpmocpaglcoljnhodn">Chrome Store</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div id="content"></div>
+    </div>
+
+    <script type="text/template" id="topic-item" class="template">
+      <li>
+        <label>
+          <input class="topic-checkbox" type="checkbox" data-checked="topic.enabled">
+          <span data-text="topic.name" />
+        </label>
+        <ul class="courses">
+          <li data-each-course="topic.courses">
+            <label>
+              <input data-enabled="topic.enabled" type="checkbox" data-checked="course.enabled">
+              <span data-text="course.name" />
+            </label>
+          </li>
+        </ul>
+      </li>
+    </script>
+
+    <script type="text/template" id="hotkeys-tmpl" class="template">
+      <table class="hotkeys">
+        <% _.each(hotkeys, function(hotkey) { %>
+          <tr>
+            <td class="key"><span class="hotkey"><%= hotkey.shortcut %></span></td>
+            <td class="desc"><%= hotkey.description %></td>
+          </tr>
+        <% }); %>
+      </table>
+    </script>
+
+    <script type="text/template" id="settings-tmpl" class="template">
+      <div class="displaytable">
+        <section>
+          <h3>Threshold</h3>
+          <div>
+            <div class="text">
+              <label>
+                <input type="text" class="wilting-threshold" data-value="settings.wilting-threshold | number">
+                <span>Number of plants that must be wilting until blue badge is shown</span>
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section id="topics">
+          <h3>Topics</h3>
+          <div>
+            <div>Select the topics to be tracked by the extension</div>
+            <div class="loading">Loading topics...</div>
+            <div class="not-logged-in">
+              <a href="http://www.memrise.com/login/" target="_blank">Log in to Memrise</a>
+            </div>
+            <div class="checkboxes"></div>
+            <div class="note" data-show-if-any-disabled="topics">
+              <b>Note:</b> Only completely planted courses will be tracked
+              if some courses are unchecked.
+            </div>
+          </div>
+        </section>
+
+        <section id="hotkey">
+          <h3>Shortcuts</h3>
+          <div>
+            <div class="text">
+              <p>The shortcuts can be changed at the bottom of the <a class="go-to-ext">Extensions</a> page</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="notifications">
+          <h3>Notifications</h3>
+          <div>
+              <p class="description" data-notification-description="settings.notifications">Notifications are shown when plants are ready to water</p>
+              <p class="description-enabled">
+                Notifications will be shown when <span data-html="settings.wilting-threshold | plants"></span> ready to water
+              </p>
+            <label>
+              <input type="checkbox" data-checked="settings.notifications" />
+              <span>Enable notifications</span>
+            </label>
+            <p>
+              <button id="test-notification" class="btn btn-small">Test notification</button>
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <button id="refresh" class="btn btn-small">Manual refresh</button>
+          <button id="reset" class="btn btn-small">Reset to defaults</button>
+        </section>
+
+        <section id="stats">
+          <h3>Statistics</h3>
+          <div class="content">
+          </div>
+        </section>
+
+        <section id="feedback">
+          <h3>Feedback</h3>
+          <div>
+            <p>
+            If you're having trouble, got a suggestion or just want to say hi,
+            try one of these:
+            </p>
+
+            <ul>
+              <li><a href="http://www.memrise.com/thread/1292545">Thread on Memrise Forums</a></li>
+              <li><a href="mailto:raine.virta@gmail.com?subject=Memrise%20Chrome%20Extension">raine.virta@gmail.com</a></li>
+              <li><a href="http://twitter.com/rane">@rane on Twitter</a></li>
+            </ul>
+            <div class="text">
+              <label>
+                <input type="checkbox" data-checked="settings.track-usage">
+                <span>Send anonymous usage statistics</span>
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
+    </script>
+  </body>
+</html>

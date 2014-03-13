@@ -1,0 +1,30 @@
+body{
+	font-size:13px;
+	white-space:nowrap;
+	max-width:300px;
+}
+
+body>*{
+	display:inline-block;
+	vertical-align:top;
+	white-space:normal;
+}
+
+#icon {
+	width:48px;
+	height:48px;
+}
+
+#icon:not([src]){
+	display:none;
+}
+
+
+
+#title,#text{
+	
+}
+
+#title{
+	font-weight:bold;
+}

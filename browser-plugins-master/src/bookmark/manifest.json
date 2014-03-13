@@ -1,0 +1,16 @@
+{
+  "name": "bookmark all tabs",
+  "description": "This extension bookmarks all the tabs in the current window.",
+  "version": "0.1",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs", "bookmarks"
+   ],
+  "browser_action": {
+      "default_title": ""
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "options_page" : "options.html"
+}

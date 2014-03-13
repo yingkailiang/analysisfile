@@ -1,0 +1,10 @@
+{
+ "name": "IMDB Watchlist Checker",
+ "version": "0.2",
+ "description": "IMDB Watchlist Checker",
+ "creator": "Ricardo Sotolongo",
+ "homepage_url": "http://imdbwatcher.azurewebsites.net",
+ "background_scripts": ["main.js", "jquery-2.0.3.min.js"],
+ "content_scripts": ["content.js"],
+ "default_locale": "en"
+}

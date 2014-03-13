@@ -1,0 +1,72 @@
+<!doctype html>
+<html ng-app ng-csp>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  </style>
+</head>
+<body ng-controller="OptionsController">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">点评约约</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="#myModal" role="button" data-toggle="modal">Options</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div class="container hero-unit" >
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <img src="{{user.weiboIcon}}" class="img-circle"/>       
+        </div>
+        <div class="span10">
+          <h2>{{user.weiboName}}</h2>
+          <button class="btn-large btn-primary" type="button" ng-click="auth()">
+            <span ng-hide="user.weiboToken">授权帐号</span>
+            <span ng-show="user.weiboToken">切换帐号</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel">偏好设置</h3>
+    </div>
+    <div class="modal-body">
+      <p>
+        同步发送到微博： <input type="checkbox" ng-model="isSync" >
+      </p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+      <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true" ng-click="savePreference()">保存设置</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script type="text/javascript" src="angular.js"></script>
+  <script type="text/javascript" src="settings.js"></script>
+  <script type="text/javascript" src="options.js"></script>
+
+</body>
+</html>

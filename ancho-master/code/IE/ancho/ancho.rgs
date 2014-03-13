@@ -1,0 +1,25 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'ancho'
+		'ancho.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+
+HKLM
+{
+  NoRemove SOFTWARE
+  {
+	  ForceRemove Salsita
+	  {
+	    ForceRemove AnchoAddonService
+	    {
+		    val 'install' =  s '%MODULEPATH%'
+	    }
+	  }
+  }
+}

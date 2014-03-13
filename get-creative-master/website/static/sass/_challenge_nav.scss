@@ -1,0 +1,125 @@
+.challenges_bg {
+    position:fixed;
+    left:0;
+    top:0;
+    width:200px;
+    height:100%;
+    background:#444;
+}
+
+.trim {
+    position:absolute;
+    left:200px;
+    top:0;
+    width:25px;
+    height:100%;
+    background:url(../img/trim.png);
+}
+
+.side_nav {
+    float:left;
+    width:200px;
+    z-index:1;
+}
+
+.logo,
+.profile_block,
+.load_more {
+    position:relative;
+    border-top:1px solid #575757;
+    border-bottom:1px solid #231f20;
+
+    a {
+        display:block;
+        padding:0.5em 1em;
+        text-decoration:none;
+    }
+}
+
+.logo {
+    h1 {
+        display:inline;
+        color:#F1F2F2;
+        font-size:2.4em;
+    }
+}
+
+.extend_font {
+    color:#F1F2F2;
+    font-family:'Source Sans Pro', Arial, sans-serif;
+    font-weight:400;
+}
+
+.load_more,
+.profile_block {
+    a {
+        @extend .extend_font;
+        font-size:1.4em;
+    }
+}
+
+.load_more {
+    a {
+        background:#444;
+        background-image:-webkit-linear-gradient(top, #444 0%,#312f30 100%);
+    }
+}
+
+ul.challenges {
+    position:relative;
+    background:#dfe8eb;
+    z-index:1;
+
+    li {
+        position:relative;
+        border-top:1px solid #575757;
+        border-bottom:1px solid #231f20;
+        background:#444;
+        background-image:-webkit-linear-gradient(top, #444 0%,#312f30 100%);
+
+        &.completed:before {
+            content:url(../img/completed-badge.png);
+            position:absolute;
+            left:10px;
+            bottom:3px;
+        }
+
+        &.active:after {
+            content:"\00a0";
+            position:absolute;
+            top:0;
+            right:1px;
+            width:4px;
+            height:100%;
+            background-image:-webkit-linear-gradient(top, #d5ae53 0%,#c59531 10%, #e2c981 40%, #fffbcb 65%, #fbc927 100%);
+        }
+
+        a {
+            display:block;
+            padding:1em;
+            padding-right:1.5em;
+            text-decoration:none;
+
+            p {
+                @extend .extend_font;
+                text-shadow:0 -1px solid #000;
+            }
+        }
+    }
+
+    p.prompt {
+        font-size:1.4em;
+    }
+
+    p.response_count {
+        font-size:1.2em;
+        text-align:right;
+        margin-top:1em;
+
+        strong {
+            font-family:Arial;
+            font-size:1.2em;
+            letter-spacing:0;
+        }
+    }
+}

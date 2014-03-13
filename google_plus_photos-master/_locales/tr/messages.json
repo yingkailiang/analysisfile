@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu y\u00FCklenmi\u015F hallerini mi istedi\u011Finizi belirleyin."
+   },
+   "106279463205193944": {
+      "message": "Bu alb\u00FCmdeki kullan\u0131c\u0131lar"
+   },
+   "1078696495414015742": {
+      "message": "Devam"
+   },
+   "1079312373208696407": {
+      "message": "Kaydoldu\u011Funuzda buray\u0131 t\u0131klay\u0131n"
+   },
+   "1106976338877989624": {
+      "message": "$1\u200B hakk\u0131nda"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. Hemen foto\u011Fraf y\u00FCkleyin!}female{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. Hemen foto\u011Fraf y\u00FCkleyin!}other{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. Hemen foto\u011Fraf y\u00FCkleyin!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCkleme tamamland\u0131! {START_BOLD}1{END_BOLD} foto\u011Fraf payla\u015F\u0131ma haz\u0131r.}other{Y\u00FCkleme tamamland\u0131! {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf payla\u015F\u0131ma haz\u0131r.}}"
+   },
+   "1131710491735646017": {
+      "message": "Foto\u011Fraf\u0131 ta\u015F\u0131"
+   },
+   "1141157641265116263": {
+      "message": "Birka\u00E7 t\u0131klama ile t\u00FCm foto\u011Fraflar\u0131n\u0131z\u0131 ve videolar\u0131n\u0131z\u0131 depolay\u0131n, d\u00FCzenleyin ve payla\u015F\u0131n."
+   },
+   "1168286392495236500": {
+      "message": "Herkese a\u00E7\u0131k olarak payla\u015F\u0131ld\u0131"
+   },
+   "1168912363261265730": {
+      "message": "Slayt g\u00F6sterisini oynat"
+   },
+   "1179156232993544339": {
+      "message": "Alb\u00FCm\u00FC sil"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{\u00D6\u011Fe se\u00E7}female{\u00D6\u011Fe se\u00E7}other{\u00D6\u011Fe se\u00E7}}"
+   },
+   "1199073624563429103": {
+      "message": "Bu foto\u011Fraflar\u0131 silerseniz, onlarla ili\u015Fkili t\u00FCm yay\u0131nlar\u0131, yorumlar\u0131 ve +1'leri de silmi\u015F olursunuz."
+   },
+   "1273084338234215688": {
+      "message": "T\u00FCm foto\u011Fraflar\u0131 ve videolar\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in $2\u200Byeniden ba\u011Flan\u0131n$1\u200B."
+   },
+   "1274379628511980491": {
+      "message": "Foto\u011Fraflar taran\u0131yor"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 foto\u011Fraf}other{{PHOTO_COUNT_2} foto\u011Fraf}}"
+   },
+   "1299278917495979942": {
+      "message": "Ekleme tarihine g\u00F6re (yeniden eskiye)"
+   },
+   "1299626955070536636": {
+      "message": "Saat Y\u00F6n\u00FCnde D\u00F6nd\u00FCr"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r.}male{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r.}other{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen 1 foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {COUNT_2} foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen 1 foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {COUNT_2} foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen 1 foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {COUNT_2} foto\u011Fraf\u0131n\u0131z var. Y\u00FCkleme yapmak ve payla\u015F\u0131mda bulunmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Di\u011Fer i\u00E7e aktarma konumlar\u0131n\u0131 se\u00E7in"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in, bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}male{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in, bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}other{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in, bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Tak\u0131lan foto\u011Fraf makinelerindeki ve bellek kartlar\u0131ndaki foto\u011Fraflar\u0131 otomatik olarak i\u00E7e aktar}male{Tak\u0131lan foto\u011Fraf makinelerindeki ve bellek kartlar\u0131ndaki foto\u011Fraflar\u0131 otomatik olarak i\u00E7e aktar}other{Tak\u0131lan foto\u011Fraf makinelerindeki ve bellek kartlar\u0131ndaki foto\u011Fraflar\u0131 otomatik olarak i\u00E7e aktar}}"
+   },
+   "1410409051323941239": {
+      "message": "Yeniden ba\u011Flanmaya \u00E7al\u0131\u015F\u0131l\u0131yor..."
+   },
+   "1425141239403329190": {
+      "message": "Art\u0131k $1\u200B cihaz\u0131n\u0131z\u0131 g\u00FCvenli bir \u015Fekilde \u00E7\u0131karabilirsiniz."
+   },
+   "1428301074198348755": {
+      "message": "Kaydet"
+   },
+   "1482983300175848685": {
+      "message": "Google+'ya kaydolun"
+   },
+   "1494518490116523821": {
+      "message": "T\u00FCm\u00FCn\u00FC se\u00E7"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopyala}male{Kopyala}other{Kopyala}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Ta\u015F\u0131}male{Ta\u015F\u0131}other{Ta\u015F\u0131}}"
+   },
+   "1535908424500369256": {
+      "message": "\u015Eu pencereler kapat\u0131lacak:\n"
+   },
+   "1542576779711006198": {
+      "message": "$3\u200B$2\u200B$1\u200B cihaz\u0131ndaki foto\u011Fraflar i\u00E7e aktar\u0131l\u0131yor"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Ta\u015F\u0131}female{Ta\u015F\u0131}other{Ta\u015F\u0131}}"
+   },
+   "1572187844116018239": {
+      "message": "Tam ekran g\u00F6r\u00FCnt\u00FCle"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Ekle}male{Ekle}other{Ekle}}"
+   },
+   "163532554661203916": {
+      "message": "$2\u200B cihaz\u0131ndaki foto\u011Fraflar\u0131 i\u00E7e aktarmaya ba\u015Flamak i\u00E7in $1\u200B uygulamas\u0131n\u0131 a\u00E7\u0131n."
+   },
+   "1678206439013319257": {
+      "message": "Foto\u011Fraflar..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B S\u00FCr\u00FCm $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Y\u00FCkleniyor..."
+   },
+   "1753152144556911377": {
+      "message": "$1\u200B hakk\u0131nda"
+   },
+   "1754857127237380562": {
+      "message": "Hay\u0131r"
+   },
+   "1760918964936396010": {
+      "message": "$1\u200B foto\u011Fraf\u0131n\u0131 sil"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Payla\u015F\u0131lm\u0131yor}male{Payla\u015F\u0131lm\u0131yor}other{Payla\u015F\u0131lm\u0131yor}}"
+   },
+   "1829542073477142210": {
+      "message": "Sohbetlerin kat\u0131l\u0131mc\u0131lar\u0131na g\u00F6r\u00FCn\u00FCr"
+   },
+   "1863533324056146247": {
+      "message": "\u00F6s"
+   },
+   "1898536270078020135": {
+      "message": "Uygulama Men\u00FCs\u00FC"
+   },
+   "1907928780625920048": {
+      "message": "G\u00FCvenli bir \u015Fekilde depoland\u0131"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto\u011Fraf payla\u015F\u0131ma haz\u0131r}other{{COUNT_2} foto\u011Fraf payla\u015F\u0131ma haz\u0131r}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini depolamak istiyorsan\u0131z se\u00E7in veya foto\u011Fraflar\u0131n daha k\u00FC\u00E7\u00FCk olmas\u0131n\u0131 istiyorsan\u0131z \u00FCcretsiz standart boyutlu kopyalar\u0131 (2048 piksel) tercih edin.}female{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini depolamak istiyorsan\u0131z se\u00E7in veya foto\u011Fraflar\u0131n daha k\u00FC\u00E7\u00FCk olmas\u0131n\u0131 istiyorsan\u0131z \u00FCcretsiz standart boyutlu kopyalar\u0131 (2048 piksel) tercih edin.}other{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini depolamak istiyorsan\u0131z se\u00E7in veya foto\u011Fraflar\u0131n daha k\u00FC\u00E7\u00FCk olmas\u0131n\u0131 istiyorsan\u0131z \u00FCcretsiz standart boyutlu kopyalar\u0131 (2048 piksel) tercih edin.}}"
+   },
+   "1938243880078123136": {
+      "message": "Videoyu izleyebilmeniz i\u00E7in sizi Google+'ya y\u00F6nlendirece\u011Fiz."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Etiketlendi}male{Etiketlendi}other{Etiketlendi}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu y\u00FCklenmi\u015F hallerini mi istedi\u011Finize karar verin.}female{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu y\u00FCklenmi\u015F hallerini mi istedi\u011Finize karar verin.}other{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu y\u00FCklenmi\u015F hallerini mi istedi\u011Finize karar verin.}}"
+   },
+   "1995266543727924491": {
+      "message": "H\u0131zl\u0131 Y\u00FCkleme'den foto\u011Fraflar"
+   },
+   "2000146230061979936": {
+      "message": "Profil foto\u011Fraflar\u0131"
+   },
+   "2029980907058777630": {
+      "message": "Hizmet \u015Eartlar\u0131"
+   },
+   "2066206612741461379": {
+      "message": "Telif Hakk\u0131 \u00A9 2013 Google Inc. T\u00FCm Haklar\u0131 Sakl\u0131d\u0131r."
+   },
+   "2079435202927044386": {
+      "message": "Foto\u011Fraflar i\u00E7e aktar\u0131l\u0131yor"
+   },
+   "2097731301533028280": {
+      "message": "T\u00FCm Foto\u011Fraflar"
+   },
+   "2102825898069375693": {
+      "message": "Men\u00FC"
+   },
+   "2127917516759723964": {
+      "message": "Se\u00E7ilen alb\u00FCmler silinsin mi?"
+   },
+   "2134605074025092052": {
+      "message": "$1\u200B foto\u011Fraf\u0131 sil"
+   },
+   "2159130950882492111": {
+      "message": "\u0130ptal"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}female{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{En iyisi de\u011Fil}male{En iyisi de\u011Fil}other{En iyisi de\u011Fil}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Merhaba! {XXX_1} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz.}female{Merhaba! {XXX_2} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz.}other{Merhaba! {XXX_3} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Yard\u0131m}female{Yard\u0131m}other{Yard\u0131m}}"
+   },
+   "2256196161103684642": {
+      "message": "S\u0131n\u0131rl\u0131"
+   },
+   "2267143557027174044": {
+      "message": "\u0130ptal"
+   },
+   "2299297337048329405": {
+      "message": "Kopyala"
+   },
+   "2354817630223808522": {
+      "message": "Ta\u015F\u0131"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}female{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}other{{APP_NAME} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} foto\u011Fraf\u0131 \u015Furaya ta\u015F\u0131:}other{{XXX_2} foto\u011Fraf\u0131 \u015Furaya ta\u015F\u0131:}}"
+   },
+   "2442822401576040991": {
+      "message": "Telefondaki foto\u011Fraflar"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Ba\u015Flamak i\u00E7in foto\u011Fraflar\u0131n\u0131z\u0131 i\u00E7e aktar\u0131n}female{Ba\u015Flamak i\u00E7in foto\u011Fraflar\u0131n\u0131z\u0131 i\u00E7e aktar\u0131n}other{Ba\u015Flamak i\u00E7in foto\u011Fraflar\u0131n\u0131z\u0131 i\u00E7e aktar\u0131n}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 foto\u011Fraf}other{{PHOTO_COUNT_2} foto\u011Fraf}}"
+   },
+   "2453303348493525919": {
+      "message": "\u00D6\u011Fe se\u00E7in"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} alb\u00FCm se\u00E7ildi}other{{COUNT_2} alb\u00FCm se\u00E7ildi}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto\u011Fraf \u00F6nceki bir oturumda zaten y\u00FCklendi. }other{{NUM_PHOTOS_2} foto\u011Fraf \u00F6nceki bir oturumda zaten y\u00FCklendi. }}"
+   },
+   "2503049676444223994": {
+      "message": "Ekleme tarihine g\u00F6re (eskiden yeniye)"
+   },
+   "251008425196701054": {
+      "message": "Alan ad\u0131n\u0131zdaki herkese g\u00F6r\u00FCn\u00FCr"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{{APP_NAME}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}male{{APP_NAME}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}other{{APP_NAME}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}}"
+   },
+   "2537804086667442212": {
+      "message": "\u0130ptal etme i\u015Flemi, daha fazla foto\u011Fraf\u0131n i\u00E7e aktar\u0131lmas\u0131n\u0131 durdurur. Zaten i\u00E7e aktar\u0131lm\u0131\u015F foto\u011Fraflar kald\u0131r\u0131l\u0131r."
+   },
+   "2543396005338987129": {
+      "message": "\u0130\u00E7e aktarmay\u0131 iptal et"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Bulan\u0131k}male{Bulan\u0131k}other{Bulan\u0131k}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{$1\u200B klas\u00F6r\u00FCnden 1 foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}other{$1\u200B klas\u00F6r\u00FCnden # foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}}"
+   },
+   "2603085641264767659": {
+      "message": "Etkinlik misafirleri"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{{XXX}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyi olanlar\u0131 se\u00E7menize yard\u0131mc\u0131 olsun}male{{XXX}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyi olanlar\u0131 se\u00E7menize yard\u0131mc\u0131 olsun}other{{XXX}, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyi olanlar\u0131 se\u00E7menize yard\u0131mc\u0131 olsun}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B dk. $2\u200B sn."
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B, kameran\u0131zdaki, telefonlar\u0131n\u0131zdaki ve klas\u00F6rlerinizdeki foto\u011Fraflar\u0131 tek bir yerde bir araya getirir."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{{FOLDER_NAME} klas\u00F6r\u00FCnden 1 foto\u011Fraf kopyaland\u0131!}other{{FOLDER_NAME} klas\u00F6r\u00FCnden {NUM_PHOTOS_2} foto\u011Fraf kopyaland\u0131!}}"
+   },
+   "2683351316398940532": {
+      "message": "Tam boyut (kalan: $1\u200B GB / $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} uygulamas\u0131nda oturumunuzu a\u00E7amad\u0131k.}male{{XXX} uygulamas\u0131nda oturumunuzu a\u00E7amad\u0131k.}other{{XXX} uygulamas\u0131nda oturumunuzu a\u00E7amad\u0131k.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{T\u00FCm\u00FCn\u00FC se\u00E7}female{T\u00FCm\u00FCn\u00FC se\u00E7}other{T\u00FCm\u00FCn\u00FC se\u00E7}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sn."
+   },
+   "2710655047330556001": {
+      "message": "Bu foto\u011Fraftaki kullan\u0131c\u0131lar"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}female{{XXX_2} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}other{{XXX_3} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}}"
+   },
+   "2757591144872178577": {
+      "message": "Pozlama"
+   },
+   "2761269382982007883": {
+      "message": "Foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenli tutman\u0131za yard\u0131mc\u0131 olur ve payla\u015F\u0131m i\u00E7in en iyi foto\u011Fraflar\u0131 \u00F6neririz."
+   },
+   "2761326392133498772": {
+      "message": "Foto\u011Fraf\u0131 payla\u015F"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form Olamaz!}=1{1 foto\u011Fraf}other{{PHOTO_COUNT_2} foto\u011Fraf}}"
+   },
+   "2784586982005585140": {
+      "message": "Di\u011Fer"
+   },
+   "2786233632874013852": {
+      "message": "Di\u011Fer foto\u011Fraflar"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{T\u00FCm se\u00E7imleri kald\u0131r}female{T\u00FCm se\u00E7imleri kald\u0131r}other{T\u00FCm se\u00E7imleri kald\u0131r}}"
+   },
+   "2798901106014707869": {
+      "message": "S\u0131cakl\u0131k"
+   },
+   "2820098809819439336": {
+      "message": "Foto\u011Fraflar\u0131 silme"
+   },
+   "2847005022751960352": {
+      "message": "H\u00E2l\u00E2 devam ediyor..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Bu foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n.}other{Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n.}}"
+   },
+   "287837027263664914": {
+      "message": "\u0130\u00E7e aktarma konumlar\u0131n\u0131 d\u00FCzenleme"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto\u011Fraf se\u00E7ildi}other{{COUNT_2} foto\u011Fraf se\u00E7ildi}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}female{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Oturum A\u00E7\u0131n}female{Oturum A\u00E7\u0131n}other{Oturum A\u00E7\u0131n}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} foto\u011Fraf\u0131 \u015Furaya ekle:}other{{XXX_2} foto\u011Fraf\u0131 \u015Furaya ekle:}}"
+   },
+   "2973731817320915012": {
+      "message": "Olu\u015Fturma tarihine g\u00F6re"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Ba\u015Ftan oynat}female{Ba\u015Ftan oynat}other{Ba\u015Ftan oynat}}"
+   },
+   "2987283829749314385": {
+      "message": "Merhaba $2\u200B! $1\u200B uygulamas\u0131na ho\u015F geldiniz."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Foto\u011Fraf se\u00E7ilmedi}=1{{COUNT_2} foto\u011Fraf payla\u015F\u0131ma haz\u0131r}other{{COUNT_2} foto\u011Fraf payla\u015F\u0131ma haz\u0131r}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto\u011Fraf"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{D\u00FC\u015F\u00FCk kalite}male{D\u00FC\u015F\u00FCk kalite}other{D\u00FC\u015F\u00FCk kalite}}"
+   },
+   "3018671699054071030": {
+      "message": "Yay\u0131nlardaki foto\u011Fraflar"
+   },
+   "3052031564829371686": {
+      "message": "Telif Hakk\u0131 \u00A9 2012 Google Inc. T\u00FCm Haklar\u0131 Sakl\u0131d\u0131r."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu kopyalar\u0131n\u0131 (2048 piksel) m\u0131 depolamak istedi\u011Finizi se\u00E7in.}male{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu kopyalar\u0131n\u0131 (2048 piksel) m\u0131 depolamak istedi\u011Finizi se\u00E7in.}other{\u0130\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflar\u0131n tam boyutlu yedeklerini mi yoksa \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu kopyalar\u0131n\u0131 (2048 piksel) m\u0131 depolamak istedi\u011Finizi se\u00E7in.}}"
+   },
+   "3062505056927186217": {
+      "message": "Alb\u00FCm foto\u011Fraflar\u0131"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2}/{TOTAL} tamamland\u0131}=1{{COUNT_2}/{TOTAL} tamamland\u0131}other{{COUNT_2}/{TOTAL} tamamland\u0131}}"
+   },
+   "313399915776279357": {
+      "message": "D\u00FC\u015F\u00FCk kalite"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r}male{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r}other{{XXX} uygulamas\u0131n\u0131n ilk kurulumu i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z olmal\u0131d\u0131r}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in l\u00FCtfen Chrome'da oturum a\u00E7\u0131n.}female{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in l\u00FCtfen Chrome'da oturum a\u00E7\u0131n.}other{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in l\u00FCtfen Chrome'da oturum a\u00E7\u0131n.}}"
+   },
+   "3169583722209452922": {
+      "message": "\u0130yile\u015Ftir"
+   },
+   "3173944879942241188": {
+      "message": "Bulan\u0131k"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}female{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}other{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B, foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenlemenin ve payla\u015Fman\u0131n daha kolay yoludur."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Bana bildirim g\u00F6nder ve eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}female{Bana bildirim g\u00F6nder ve eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}other{Bana bildirim g\u00F6nder ve eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}}"
+   },
+   "3231427490891919648": {
+      "message": "Geni\u015Fletilmi\u015F \u00E7evreler"
+   },
+   "3249513483374643425": {
+      "message": "Ekle"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX}, foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenlemenin ve payla\u015Fman\u0131n daha kolay yoludur.}}"
+   },
+   "3266811991857373598": {
+      "message": "Ba\u015Flamak i\u00E7in foto\u011Fraflar\u0131n\u0131z\u0131 i\u00E7e aktar\u0131n"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto\u011Fraf}other{{COUNT_2} foto\u011Fraf}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Alb\u00FCm\u00FC sil}other{Alb\u00FCmleri sil}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{S\u0131rala}female{S\u0131rala}other{S\u0131rala}}"
+   },
+   "3298990500476723192": {
+      "message": "Alb\u00FCm\u00FC sil"
+   },
+   "3304972143698843178": {
+      "message": "Etkinlik"
+   },
+   "3316542569449182462": {
+      "message": "En iyi foto\u011Fraflar bulunuyor"
+   },
+   "3319379534575065569": {
+      "message": "Yinele"
+   },
+   "3335855558019774894": {
+      "message": "Kapat"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B/$2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Bu foto\u011Frafta hi\u00E7 kimse etiketlenmedi."
+   },
+   "335552911020230570": {
+      "message": "\u0130ptal ediliyor..."
+   },
+   "3392114061661490939": {
+      "message": "Boyutlar"
+   },
+   "339966167441018467": {
+      "message": "Pop\u00FClerli\u011Fe g\u00F6re s\u0131ralanan foto\u011Fraflar."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B foto\u011Fraf"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Tam Ekrandan \u00C7\u0131k}female{Tam Ekrandan \u00C7\u0131k}other{Tam Ekrandan \u00C7\u0131k}}"
+   },
+   "3479702069824639097": {
+      "message": "Orijinaliyle kar\u015F\u0131la\u015Ft\u0131rmak i\u00E7in bas\u0131n."
+   },
+   "3529907190030543252": {
+      "message": "$1\u200B uygulamas\u0131n\u0131 ilk kez kurmak i\u00E7in \u0130nternet ba\u011Flant\u0131n\u0131z\u0131n bulunmas\u0131 gerekir"
+   },
+   "3549990505176341828": {
+      "message": "A\u015F\u0131r\u0131 \u0131\u015F\u0131kl\u0131"
+   },
+   "3561019065020608408": {
+      "message": "Payla\u015F\u0131ma haz\u0131r"
+   },
+   "360237722039211543": {
+      "message": "Google Drive foto\u011Fraflar\u0131 yaln\u0131zca kopyalanabilir ve payla\u015F\u0131labilir"
+   },
+   "3624887810607887590": {
+      "message": "Sola d\u00F6nd\u00FCr"
+   },
+   "3627956543961104309": {
+      "message": "$1\u200B Ayarlar\u0131"
+   },
+   "3630679964489180566": {
+      "message": "Foto\u011Fraf kaynaklar\u0131"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{\u0130\u00E7e aktarmay\u0131 iptal et (1 foto\u011Fraf)}other{\u0130\u00E7e aktarmay\u0131 iptal et ({NUM_PHOTOS_2} foto\u011Fraf)}}"
+   },
+   "3687863378890487189": {
+      "message": "Hareket"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 sil}other{Se\u00E7ilen foto\u011Fraflar\u0131 sil}}"
+   },
+   "3714818517297325649": {
+      "message": "\u0130ptal etme i\u015Flemi, daha fazla foto\u011Fraf\u0131n i\u00E7e aktar\u0131lmas\u0131n\u0131 durdurur.\nZaten y\u00FCklenmi\u015F foto\u011Fraflar kald\u0131r\u0131lmaz."
+   },
+   "3756864109602975489": {
+      "message": "+1'ler"
+   },
+   "3759575685100154990": {
+      "message": "Foto\u011Fraf i\u00E7e aktarma"
+   },
+   "3807699453257291879": {
+      "message": "Yorumlar"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Bu foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n.}other{Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n.}}"
+   },
+   "3818348166201769715": {
+      "message": "T\u00FCm foto\u011Fraflar\u0131n\u0131z"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} / {TOTAL}}other{{COUNT_2} / {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "\u015Eu kullan\u0131c\u0131lara g\u00F6r\u00FCn\u00FCr: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Saat Y\u00F6n\u00FCn\u00FCn Tersine D\u00F6nd\u00FCr"
+   },
+   "3885024486041657280": {
+      "message": "Bu kolaj art arda \u00E7ekilmi\u015F portre foto\u011Fraflar\u0131ndan olu\u015Fturuldu."
+   },
+   "3888600924819157294": {
+      "message": "T\u00FCm Messenger foto\u011Fraflar\u0131."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Bu alb\u00FCm\u00FC sil}other{Alb\u00FCmleri sil}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 sola d\u00F6nd\u00FCr}other{Se\u00E7ilen foto\u011Fraflar\u0131 sola d\u00F6nd\u00FCr}}"
+   },
+   "3973931101896534797": {
+      "message": "Tarih"
+   },
+   "4023731095051291021": {
+      "message": "Google+'da g\u00F6r\u00FCnt\u00FCleyin"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Bana bildirim g\u00F6nder, eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}male{Bana bildirim g\u00F6nder, eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}other{Bana bildirim g\u00F6nder, eklenen kameralara ve bellek kartlar\u0131na ait foto\u011Fraflar\u0131 i\u00E7e aktar}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Devam ettir}female{Devam ettir}other{Devam ettir}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} uygulamas\u0131n\u0131 Chrome OS olmayan bir cihazdan ba\u015Flatt\u0131\u011F\u0131n\u0131z g\u00F6r\u00FCl\u00FCyor. \u015Eu an i\u00E7in bu uygulama yaln\u0131zca Chrome OS'de kullan\u0131labilir ancak Chrome OS olmayan bir cihaz\u0131 kullan\u0131rken Chrome taray\u0131c\u0131n\u0131zda simgeyi g\u00F6rebilirsiniz.}male{{XXX} uygulamas\u0131n\u0131 Chrome OS olmayan bir cihazdan ba\u015Flatt\u0131\u011F\u0131n\u0131z g\u00F6r\u00FCl\u00FCyor. \u015Eu an i\u00E7in bu uygulama yaln\u0131zca Chrome OS'de kullan\u0131labilir ancak Chrome OS olmayan bir cihaz\u0131 kullan\u0131rken Chrome taray\u0131c\u0131n\u0131zda simgeyi g\u00F6rebilirsiniz.}other{{XXX} uygulamas\u0131n\u0131 Chrome OS olmayan bir cihazdan ba\u015Flatt\u0131\u011F\u0131n\u0131z g\u00F6r\u00FCl\u00FCyor. \u015Eu an i\u00E7in bu uygulama yaln\u0131zca Chrome OS'de kullan\u0131labilir ancak Chrome OS olmayan bir cihaz\u0131 kullan\u0131rken Chrome taray\u0131c\u0131n\u0131zda simgeyi g\u00F6rebilirsiniz.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{\u0130\u00E7e aktar\u0131lan foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FCle}other{\u0130\u00E7e aktar\u0131lan foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FCle}}"
+   },
+   "4187596523158859173": {
+      "message": "Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n."
+   },
+   "4201300158283262687": {
+      "message": "Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n."
+   },
+   "4248380204989256605": {
+      "message": "\u015Euraya ekle:"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Yaln\u0131zca siz}male{Yaln\u0131zca siz}other{Yaln\u0131zca siz}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Alb\u00FCme ekle}female{Alb\u00FCme ekle}other{Alb\u00FCme ekle}}"
+   },
+   "4293741535116795213": {
+      "message": "Bu foto\u011Fraf, benzer foto\u011Fraflar aras\u0131ndaki en iyi g\u00FCl\u00FCmsemeler kullan\u0131larak olu\u015Fturuldu."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}male{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCnde d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopyala"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}female{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}other{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}}"
+   },
+   "4350850817528648727": {
+      "message": "Yaln\u0131zca size g\u00F6r\u00FCn\u00FCr"
+   },
+   "4367940371467792621": {
+      "message": "Google+'ya kaydol"
+   },
+   "4384754616332866866": {
+      "message": "Bu alb\u00FCm\u00FC payla\u015Ft\u0131\u011F\u0131n\u0131z kullan\u0131c\u0131lara g\u00F6r\u00FCn\u00FCr"
+   },
+   "4397726581488253055": {
+      "message": "\u00C7\u0131k"
+   },
+   "4451709539238919902": {
+      "message": "Baz\u0131 foto\u011Fraflar\u0131n birden fazla kopyas\u0131 var ve bunlar silinmeyecek."
+   },
+   "4458099219143901905": {
+      "message": "Google+ Foto\u011Fraflar ile a\u00E7"
+   },
+   "4470533259338698234": {
+      "message": "Ta\u015F\u0131"
+   },
+   "4472091515638733183": {
+      "message": "\u0130\u00E7e aktarma durduruldu"
+   },
+   "4485837491844366665": {
+      "message": "Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n."
+   },
+   "4489698681193228521": {
+      "message": "$1\u200B uygulamas\u0131na ho\u015F geldiniz"
+   },
+   "4502210240956101520": {
+      "message": "Bir foto\u011Fraf makinesi veya bellek kart\u0131 takt\u0131\u011F\u0131mda foto\u011Fraflar\u0131 i\u00E7e aktar"
+   },
+   "4504920004530359010": {
+      "message": "Tam boyut (5 GB'ye kadar \u00FCcretsiz depolama alan\u0131)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Oynat}female{Oynat}other{Oynat}}"
+   },
+   "4535738935335444945": {
+      "message": "Payla\u015F\u0131lm\u0131yor"
+   },
+   "4550974869121207169": {
+      "message": "sil"
+   },
+   "4557902876984952242": {
+      "message": "D\u00FCzenle"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Bu alb\u00FCm\u00FCn silinmesi alb\u00FCmle ili\u015Fkili t\u00FCm yorumlar\u0131n, +1'lerin ve etiketlerin kald\u0131r\u0131lmas\u0131na neden olur.}other{Bu alb\u00FCmlerin silinmesi alb\u00FCmlerle ili\u015Fkili t\u00FCm yorumlar\u0131n, +1'lerin ve etiketlerin kald\u0131r\u0131lmas\u0131na neden olur.}}"
+   },
+   "4575337223720002806": {
+      "message": "Otomatik iyile\u015Ftirme"
+   },
+   "4579986716424813115": {
+      "message": "Ba\u015Ftan oynat"
+   },
+   "460600293345244430": {
+      "message": "Payla\u015Fmak veya alb\u00FCme eklemek istedi\u011Finiz foto\u011Fraflar\u0131 se\u00E7in."
+   },
+   "4624285717763544623": {
+      "message": "Ekle"
+   },
+   "4630251340863502127": {
+      "message": "\u0130\u00E7e aktar\u0131lan foto\u011Fraflar y\u00FCkleniyor"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. \u015Eimdi foto\u011Fraf y\u00FCkleyin!}male{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. \u015Eimdi foto\u011Fraf y\u00FCkleyin!}other{Hi\u00E7 alb\u00FCm\u00FCn\u00FCz yok. \u015Eimdi foto\u011Fraf y\u00FCkleyin!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}other{# foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}}"
+   },
+   "466730294804943734": {
+      "message": "Hen\u00FCz yorum yok."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B bu platformda desteklenmiyor"
+   },
+   "4678028473996848955": {
+      "message": "T\u00FCm foto\u011Fraflar\u0131n\u0131z"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{\u0130ptal}female{\u0130ptal}other{\u0130ptal}}"
+   },
+   "4688117850199233895": {
+      "message": "$1\u200B \u00FCyeli grubun $2\u200B. \u00F6\u011Fesi"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Bu alb\u00FCmleri silerseniz, onlarla ili\u015Fkili t\u00FCm yay\u0131nlar\u0131, yorumlar\u0131 ve +1'leri de silmi\u015F olursunuz."
+   },
+   "471816275243265264": {
+      "message": "Konum"
+   },
+   "4726999481668064421": {
+      "message": "Bu HDR foto\u011Fraf\u0131, farkl\u0131 de\u011Ferlerde pozlanm\u0131\u015F foto\u011Fraflardan olu\u015Fturuldu."
+   },
+   "4736210244914788712": {
+      "message": "Google Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200B$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B) olarak oturum a\u00E7t\u0131n\u0131z$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Merhaba! $1\u200B uygulamas\u0131na ho\u015F geldiniz."
+   },
+   "480004418428835822": {
+      "message": "Messenger foto\u011Fraflar\u0131"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200B$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B) olarak oturum a\u00E7t\u0131n\u0131z$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Art\u0131k cihaz\u0131n\u0131z\u0131 g\u00FCvenli bir \u015Fekilde \u00E7\u0131karabilirsiniz."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}female{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Bir foto\u011Fraf makinesi veya bellek kart\u0131 takt\u0131\u011F\u0131mda foto\u011Fraflar\u0131 i\u00E7e aktar}male{Bir foto\u011Fraf makinesi veya bellek kart\u0131 takt\u0131\u011F\u0131mda foto\u011Fraflar\u0131 i\u00E7e aktar}other{Bir foto\u011Fraf makinesi veya bellek kart\u0131 takt\u0131\u011F\u0131mda foto\u011Fraflar\u0131 i\u00E7e aktar}}"
+   },
+   "484542621830317934": {
+      "message": "Alb\u00FCm\u00FCn\u00FCz yok.  \u015Eimdi foto\u011Fraf y\u00FCkleyin!"
+   },
+   "489844404897890427": {
+      "message": "Tam ekran"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 foto\u011Fraf}=1{1 foto\u011Fraf}other{{NUM_2} foto\u011Fraf}}"
+   },
+   "4930506384627295710": {
+      "message": "Ayarlar"
+   },
+   "495485805564687684": {
+      "message": "\u0130\u00E7e aktarmay\u0131 durdur"
+   },
+   "4957990634817185638": {
+      "message": "\u0130\u00E7e aktarmaya devam et"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Alb\u00FCm\u00FC payla\u015F}=1{Se\u00E7ilen foto\u011Fraf\u0131 payla\u015F}other{Se\u00E7ilen foto\u011Fraflar\u0131 payla\u015F}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}male{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}other{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} g\u00FCn se\u00E7ildi}other{{COUNT_2} g\u00FCn se\u00E7ildi}}"
+   },
+   "5028777105388019087": {
+      "message": "Ayr\u0131nt\u0131lar"
+   },
+   "5043933900720743682": {
+      "message": "Alb\u00FCmler"
+   },
+   "5045200874122539692": {
+      "message": "\u00C7\u0131k"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Ba\u015Flamak i\u00E7in birka\u00E7 foto\u011Fraf y\u00FCkleyin.}male{Ba\u015Flamak i\u00E7in birka\u00E7 foto\u011Fraf y\u00FCkleyin.}other{Ba\u015Flamak i\u00E7in birka\u00E7 foto\u011Fraf y\u00FCkleyin.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Alan\u0131n\u0131z"
+   },
+   "5087678602655068553": {
+      "message": "Foto\u011Fraf makinesi"
+   },
+   "5094793857629325945": {
+      "message": "Payla\u015Fmaya haz\u0131rlan\u0131yor..."
+   },
+   "509736707516044180": {
+      "message": "\u0130ptal ediliyor..."
+   },
+   "5114432207766092038": {
+      "message": "T\u00FCm yay\u0131nlardaki foto\u011Fraflar."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Bu foto\u011Fraf\u0131n silinmesi foto\u011Frafla ili\u015Fkili t\u00FCm yorumlar\u0131n, +1'lerin ve etiketlerin kald\u0131r\u0131lmas\u0131na neden olur.}other{Bu foto\u011Fraflar\u0131n silinmesi foto\u011Fraflarla ili\u015Fkili t\u00FCm yorumlar\u0131n, +1'lerin ve etiketlerin kald\u0131r\u0131lmas\u0131na neden olur.}}"
+   },
+   "5127852906617233988": {
+      "message": "Kapat"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{\u00C7evreleriniz}male{\u00C7evreleriniz}other{\u00C7evreleriniz}}"
+   },
+   "5143227875710959810": {
+      "message": "Alb\u00FCm\u00FC payla\u015F"
+   },
+   "5146398958364876914": {
+      "message": "S\u0131rala"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{{FROM_NAME} adl\u0131 kullan\u0131c\u0131dan}male{{FROM_NAME} adl\u0131 kullan\u0131c\u0131dan}other{{FROM_NAME} adl\u0131 kullan\u0131c\u0131dan}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Alb\u00FCm kapa\u011F\u0131 olarak ayarla}female{Alb\u00FCm kapa\u011F\u0131 olarak ayarla}other{Alb\u00FCm kapa\u011F\u0131 olarak ayarla}}"
+   },
+   "5179193375793315549": {
+      "message": "Tek seferde en fazla $1\u200B foto\u011Fraf ekleyebilirsiniz."
+   },
+   "5198477912095887288": {
+      "message": "\u00E7ekildi\u011Fi \u015Fekilde"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FCle}other{Foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FCle}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in Chrome'da oturum a\u00E7\u0131n.}male{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in Chrome'da oturum a\u00E7\u0131n.}other{Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in Chrome'da oturum a\u00E7\u0131n.}}"
+   },
+   "5233843271957333982": {
+      "message": "S\u0131f\u0131rla"
+   },
+   "5252008443782667515": {
+      "message": "Evet"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Silinmeyecek 1 ek kopya var.}other{Silinmeyecek {NUM_ADDITIONAL_COPIES_2} kopya var.}}"
+   },
+   "5369958865776447504": {
+      "message": "Bu foto\u011Fraf \"$1\u200B\" alb\u00FCm\u00FCndedir."
+   },
+   "5376084340764125422": {
+      "message": "Tam ekrandan \u00E7\u0131k"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Kar\u0131\u015F\u0131k"
+   },
+   "5413761544816529267": {
+      "message": "$1\u200B uygulamas\u0131n\u0131 kullanabilmek i\u00E7in l\u00FCtfen bir Google+ hesab\u0131na kaydolun."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Tekrar deneyin"
+   },
+   "545081735380424772": {
+      "message": "Chrome'dan foto\u011Fraf y\u00FCkleyin ve payla\u015F\u0131n"
+   },
+   "5467399875821461358": {
+      "message": "Foto\u011Fraf silme"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Bulan\u0131k"
+   },
+   "5522640894890976342": {
+      "message": "D\u00FC\u015F\u00FCk \u0131\u015F\u0131kl\u0131"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{A\u015F\u0131r\u0131 \u0131\u015F\u0131kl\u0131}male{A\u015F\u0131r\u0131 \u0131\u015F\u0131kl\u0131}other{A\u015F\u0131r\u0131 \u0131\u015F\u0131kl\u0131}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto\u011Fraf kopyaland\u0131!}other{{NUM_PHOTOS_2} foto\u011Fraf kopyaland\u0131!}}"
+   },
+   "5546339789714773759": {
+      "message": "Sa\u011Fa d\u00F6nd\u00FCr"
+   },
+   "5563891514339188770": {
+      "message": "Alb\u00FCm kapa\u011F\u0131 yap"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}male{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 kald\u0131rmak i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "5613209249634786065": {
+      "message": "Tam (5 GB'a kadar \u00FCcretsiz depolama alan\u0131)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Birka\u00E7 t\u0131klama ile t\u00FCm foto\u011Fraflar\u0131n\u0131z\u0131 ve videolar\u0131n\u0131z\u0131 depolay\u0131n, d\u00FCzenleyin ve payla\u015F\u0131n.}female{Birka\u00E7 t\u0131klama ile t\u00FCm foto\u011Fraflar\u0131n\u0131z\u0131 ve videolar\u0131n\u0131z\u0131 depolay\u0131n, d\u00FCzenleyin ve payla\u015F\u0131n.}other{Birka\u00E7 t\u0131klama ile t\u00FCm foto\u011Fraflar\u0131n\u0131z\u0131 ve videolar\u0131n\u0131z\u0131 depolay\u0131n, d\u00FCzenleyin ve payla\u015F\u0131n.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{Google taraf\u0131ndan se\u00E7ilen en iyi {START_BOLD}1{END_BOLD} foto\u011Fraf.}other{Google taraf\u0131ndan se\u00E7ilen en iyi {START_BOLD}{PICKED_COUNT_2}{END_BOLD} foto\u011Fraf.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FCle}other{Foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FCle}}}female{{COUNT,plural, =0{unused plural form}=1{Foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FCle}other{Foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FCle}}}other{{COUNT,plural, =0{unused plural form}=1{Foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FCle}other{Foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FCle}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Bu alb\u00FCmde hi\u00E7 kimse etiketlenmedi."
+   },
+   "5747301769466451086": {
+      "message": "Tam (Kalan: $1\u200BGB/$2\u200BGB)"
+   },
+   "5750062244377347370": {
+      "message": "Tek seferde en fazla $1\u200B foto\u011Fraf payla\u015Fabilirsiniz."
+   },
+   "5750485945694679561": {
+      "message": "Foto\u011Fraf"
+   },
+   "5752465522295465624": {
+      "message": "Bu nedir?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}other{# foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}}"
+   },
+   "5782608665556323710": {
+      "message": "Geni\u015Fletilmi\u015F \u00E7evrelerle payla\u015F\u0131ld\u0131"
+   },
+   "5792855097053831820": {
+      "message": "Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Bu foto\u011Fraf\u0131 sil}other{Foto\u011Fraflar\u0131 sil}}"
+   },
+   "5822534876981710132": {
+      "message": "H\u0131zl\u0131 y\u00FCkleme"
+   },
+   "5849125517299342831": {
+      "message": "Foto\u011Fraflar i\u00E7e aktar\u0131l\u0131yor..."
+   },
+   "5851872412594366640": {
+      "message": "Alb\u00FCmdeki t\u00FCm foto\u011Fraflar\u0131 ta\u015F\u0131"
+   },
+   "585220835732140655": {
+      "message": "$1\u200B tarihinde payla\u015F\u0131ld\u0131"
+   },
+   "5887135910403798952": {
+      "message": "Tam (5,0 GB'a kadar \u00FCcretsiz depolama alan\u0131)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Zaten i\u00E7e aktar\u0131lm\u0131\u015F 1 foto\u011Fraf y\u00FCklenecek.}other{Zaten i\u00E7e akar\u0131lm\u0131\u015F {NUM_PHOTOS_2} foto\u011Fraf y\u00FCklenecek.}}"
+   },
+   "591256046515963756": {
+      "message": "Hi\u00E7bir an\u0131n\u0131z\u0131 kaybetmeyin. Herhangi bir cihazdan herhangi bir zamanda foto\u011Fraflar\u0131n\u0131za eri\u015Fin."
+   },
+   "5937251202465808296": {
+      "message": "Di\u011Fer"
+   },
+   "5963865584069399662": {
+      "message": "gizli"
+   },
+   "5978216065275630477": {
+      "message": "Google+ Foto\u011Fraflar oturumunuz a\u00E7\u0131l\u0131rken hata olu\u015Ftu."
+   },
+   "5981779462795520309": {
+      "message": "Orijinal yay\u0131n\u0131n al\u0131c\u0131lar\u0131"
+   },
+   "5984859669237993376": {
+      "message": "Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Bir foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}other{# foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}}"
+   },
+   "6003032126642624287": {
+      "message": "Tam boyut (5,0 GB'ye kadar \u00FCcretsiz depolama alan\u0131)"
+   },
+   "6021285543212025836": {
+      "message": "Bu foto\u011Fraf\u0131 silerseniz, bu foto\u011Frafla ili\u015Fkili t\u00FCm yay\u0131nlar\u0131, yorumlar\u0131 ve +1'leri de silmi\u015F olursunuz."
+   },
+   "605360614133602045": {
+      "message": "\u00F6\u00F6"
+   },
+   "6073020864818444056": {
+      "message": "Tamam"
+   },
+   "612521550010808115": {
+      "message": "Web \u00FCzerindeki herkese g\u00F6r\u00FCn\u00FCr"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}other{# foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}}"
+   },
+   "6143433948220856193": {
+      "message": "A\u015F\u0131r\u0131 pozlama"
+   },
+   "6250697253024491514": {
+      "message": "Tamam"
+   },
+   "6261406176927621365": {
+      "message": "Foto\u011Fraf\u0131 sil"
+   },
+   "6261883509320806048": {
+      "message": "Se\u00E7ilen foto\u011Fraflar silinsin mi?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B, s\u00FCr\u00FCc\u00FCn\u00FCzdeki t\u00FCm foto\u011Fraflarla, telefonunuzla ve foto\u011Fraf makinenizle \u00E7ekti\u011Finiz foto\u011Fraflar\u0131 bir araya getirir."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{{APP_NAME} i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}female{{APP_NAME} i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}other{{APP_NAME} i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun}}"
+   },
+   "6366245138858985671": {
+      "message": "Alb\u00FCm foto\u011Fraflar\u0131 alb\u00FCm\u00FC."
+   },
+   "636798263636559500": {
+      "message": "Alb\u00FCm ad\u0131 girin"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}male{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "6402624319890396199": {
+      "message": "\u0130ptal"
+   },
+   "6405254665227516714": {
+      "message": "T\u00FCm profil foto\u011Fraflar\u0131."
+   },
+   "6421460271971606186": {
+      "message": "Yak\u0131nla\u015Ft\u0131r"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Di\u011Fer kullan\u0131c\u0131lar\u0131n foto\u011Fraflar\u0131n\u0131 se\u00E7emezsiniz}male{Di\u011Fer kullan\u0131c\u0131lar\u0131n foto\u011Fraflar\u0131n\u0131 se\u00E7emezsiniz}other{Di\u011Fer kullan\u0131c\u0131lar\u0131n foto\u011Fraflar\u0131n\u0131 se\u00E7emezsiniz}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}female{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}other{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}}"
+   },
+   "6544829965377284375": {
+      "message": "Bu foto\u011Fraflar Google+'ya gizli olarak y\u00FCklendi ve yaln\u0131zca size g\u00F6r\u00FCn\u00FCr."
+   },
+   "6546455868033656709": {
+      "message": "\u00C7ekilme tarihine g\u00F6re (yeniden eskiye)"
+   },
+   "6562395422130457272": {
+      "message": "I\u015F\u0131kland\u0131rma"
+   },
+   "6569718559670589774": {
+      "message": "Gizli olarak payla\u015F\u0131ld\u0131"
+   },
+   "6578760328281087395": {
+      "message": "Foto\u011Fraf\u0131 sil"
+   },
+   "6594379652661172876": {
+      "message": "Foto\u011Fraf kabini stilindeki bu resim birden fazla portreden olu\u015Fturuldu."
+   },
+   "6604371182910178125": {
+      "message": "Bu alb\u00FCm\u00FC silerseniz, bu alb\u00FCmle ili\u015Fkili t\u00FCm yay\u0131nlar\u0131, yorumlar\u0131 ve +1'leri de silmi\u015F olursunuz."
+   },
+   "6626842519109915669": {
+      "message": "Otomatik Yedekleme \u00F6zelli\u011Finden foto\u011Fraflar"
+   },
+   "663126026358360455": {
+      "message": "Standart (s\u0131n\u0131rs\u0131z \u00FCcretsiz depolama alan\u0131)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto\u011Fraf eklendi ve payla\u015F\u0131m i\u00E7in haz\u0131r!}other{{NUM_PHOTOS_2} foto\u011Fraf eklendi ve payla\u015F\u0131m i\u00E7in haz\u0131r!}}"
+   },
+   "664682826251689034": {
+      "message": "Hen\u00FCz +1 yok."
+   },
+   "666585356635427967": {
+      "message": "Bu foto\u011Fraf otomatik olarak iyile\u015Ftirildi."
+   },
+   "6698080327673689103": {
+      "message": "En iyi kareler bulunuyor..."
+   },
+   "6721868124884562992": {
+      "message": "T\u00FCm cihazlar\u0131n\u0131zdaki foto\u011Fraflar\u0131 tek bir yerde toplay\u0131n."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{\u0130yile\u015Ftir}female{\u0130yile\u015Ftir}other{\u0130yile\u015Ftir}}"
+   },
+   "6747166642870870925": {
+      "message": "\u0130\u00E7e aktarma durduruluyor..."
+   },
+   "6750134343457912784": {
+      "message": "$1\u200B uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in bu uygulamay\u0131 foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n."
+   },
+   "675159243189607951": {
+      "message": "Alb\u00FCme foto\u011Fraf ekle"
+   },
+   "6778067484492795152": {
+      "message": "Alt pozlama"
+   },
+   "6792549611288275870": {
+      "message": "Odak Uzakl\u0131\u011F\u0131"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B, foto\u011Fraflar\u0131n\u0131z\u0131 g\u00FCvenli bir \u015Fekilde depolar ve herhangi bir cihazdan diledi\u011Finiz zaman g\u00F6r\u00FCnt\u00FClemenize olanak tan\u0131r."
+   },
+   "680511502310466916": {
+      "message": "Pop\u00FCler Foto\u011Fraflar"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{{NUM_PHOTOS_2} foto\u011Frafta}other{{NUM_PHOTOS_2} foto\u011Frafta}}"
+   },
+   "6872320306636644917": {
+      "message": "Art\u0131k cihaz\u0131n\u0131z\u0131 g\u00FCvenli bir \u015Fekilde \u00E7\u0131karabilirsiniz."
+   },
+   "6872759799605876555": {
+      "message": "F Numaras\u0131"
+   },
+   "687281374586801843": {
+      "message": "$1\u200B uygulamas\u0131n\u0131 ba\u015Flat ve bir foto\u011Fraf makinesi veya bellek kart\u0131 takt\u0131\u011F\u0131mda foto\u011Fraflar\u0131 i\u00E7e aktar"
+   },
+   "6882873153932419461": {
+      "message": "Se\u00E7erek ayarlama"
+   },
+   "6906406658770551379": {
+      "message": "Bu animasyon art arda \u00E7ekilmi\u015F be\u015F veya daha fazla foto\u011Fraftan olu\u015Fturuldu."
+   },
+   "6983200894459150878": {
+      "message": "Bu panorama, birbiriyle \u00F6rt\u00FC\u015Fen bir dizi foto\u011Fraftan olu\u015Fturuldu."
+   },
+   "7022070615528435141": {
+      "message": "Sil"
+   },
+   "7049887240439736400": {
+      "message": "Yazd\u0131r"
+   },
+   "706796434064753890": {
+      "message": "Slayt G\u00F6sterisini Oynat"
+   },
+   "7102649289752747375": {
+      "message": "Geri bildirim g\u00F6nder"
+   },
+   "7105497072958063616": {
+      "message": "Renk Tonu"
+   },
+   "7182974689040833178": {
+      "message": "Devam Ettir"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Alan ad\u0131n\u0131z}male{Alan ad\u0131n\u0131z}other{Alan ad\u0131n\u0131z}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200B$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B olarak oturum a\u00E7t\u0131n\u0131z"
+   },
+   "7271877329627611301": {
+      "message": "$1\u200B cihaz\u0131ndaki foto\u011Fraflar i\u00E7e aktar\u0131l\u0131yor"
+   },
+   "7279199723116672737": {
+      "message": "\u0130\u00E7e aktarmaya devam et"
+   },
+   "7283005104295613831": {
+      "message": "Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu y\u00FCklenmi\u015F hallerini se\u00E7in."
+   },
+   "7288593042347321202": {
+      "message": "Se\u00E7ilen foto\u011Fraf silinsin mi?"
+   },
+   "7329217250595054697": {
+      "message": "Orijinal"
+   },
+   "734934965373819800": {
+      "message": "Geri d\u00F6n"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{\u015Eu alb\u00FCmde etiketlendi: {ALBUM_NAME}}male{\u015Eu alb\u00FCmde etiketlendi: {ALBUM_NAME}}other{\u015Eu alb\u00FCmde etiketlendi: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Foto\u011Fraf ekle"
+   },
+   "7419704019640008953": {
+      "message": "Payla\u015F"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{En iyisi}male{En iyisi}other{En iyisi}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}male{{XXX} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}other{{XXX} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz}}"
+   },
+   "7439652323253850025": {
+      "message": "T\u00FCm foto\u011Fraflar\u0131 ve alb\u00FCmleri g\u00F6r\u00FCnt\u00FClemek i\u00E7in yeniden ba\u011Flan\u0131n."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Duraklat}female{Duraklat}other{Duraklat}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 sa\u011Fa d\u00F6nd\u00FCr}other{Se\u00E7ilen foto\u011Fraflar\u0131 sa\u011Fa d\u00F6nd\u00FCr}}"
+   },
+   "7488769419737494778": {
+      "message": "Merhaba $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Ard\u0131ndan y\u00FCkleme boyutunuzu se\u00E7in"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto\u011Fraf kopyaland\u0131!}other{# foto\u011Fraf kopyaland\u0131!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Payla\u015F}female{Payla\u015F}other{Payla\u015F}}"
+   },
+   "7538539390938534172": {
+      "message": "Beyaz dengesi"
+   },
+   "7546970424299309536": {
+      "message": "Otomatik olarak d\u00FCzenlendi ve payla\u015F\u0131ma haz\u0131r"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Foto\u011Fraf se\u00E7ilmedi}=1{{COUNT_2} foto\u011Fraf se\u00E7ildi}other{{COUNT_2} foto\u011Fraf se\u00E7ildi}}"
+   },
+   "7637409896935138087": {
+      "message": "\u00C7ekilme tarihine g\u00F6re (eskiden yeniye)"
+   },
+   "7649598852815041947": {
+      "message": "Yeni alb\u00FCm"
+   },
+   "765296891797858248": {
+      "message": "Merhaba!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{{FOLDER_NAME} klas\u00F6r\u00FCnden 1 foto\u011Fraf eklendi ve payla\u015F\u0131m i\u00E7in haz\u0131r!}other{{FOLDER_NAME} klas\u00F6r\u00FCnden {NUM_PHOTOS_2} foto\u011Fraf eklendi ve payla\u015F\u0131m i\u00E7in haz\u0131r!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B g\u00F6r\u00FCnt\u00FCleme"
+   },
+   "7718742267235559288": {
+      "message": "Tam Ekran modundan \u00E7\u0131k"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{$1\u200B klas\u00F6r\u00FCnden 1 foto\u011Fraf kopyaland\u0131!}other{$1\u200B klas\u00F6r\u00FCnden # foto\u011Fraf kopyaland\u0131!}}"
+   },
+   "7736850283853703249": {
+      "message": "G\u00FCvenli bir \u015Fekilde depolan\u0131r"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 ta\u015F\u0131}other{Se\u00E7ilen foto\u011Fraflar\u0131 ta\u015F\u0131}}"
+   },
+   "7756231341602930532": {
+      "message": "Tamam"
+   },
+   "778874571620222981": {
+      "message": "Ba\u015Flay\u0131n!"
+   },
+   "779808899645033177": {
+      "message": "Son \u0130\u00E7e Aktarma ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Yaln\u0131zca siz"
+   },
+   "7828808805120058354": {
+      "message": "Geri D\u00F6n"
+   },
+   "7856636143847093955": {
+      "message": "G\u00FCnleri birle\u015Ftir"
+   },
+   "7871095434511949009": {
+      "message": "Diyafram A\u00E7\u0131kl\u0131\u011F\u0131"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Ard\u0131ndan y\u00FCkleme boyutunuzu se\u00E7in}female{Ard\u0131ndan y\u00FCkleme boyutunuzu se\u00E7in}other{Ard\u0131ndan y\u00FCkleme boyutunuzu se\u00E7in}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}male{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}other{Foto\u011Fraflar\u0131n i\u00E7e aktar\u0131ld\u0131\u011F\u0131 ve Google+'ya gizli olarak y\u00FCklendi\u011Fi kaynaklar\u0131 se\u00E7in.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}male{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 se\u00E7mek veya foto\u011Fraf\u0131n se\u00E7imini kald\u0131rmak i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "7899751896282337632": {
+      "message": "\u0130yile\u015Ftirilmi\u015F"
+   },
+   "7911416166208830577": {
+      "message": "Yard\u0131m"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Bu foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n.}other{Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Sil}female{Sil}other{Sil}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}female{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}other{Bu foto\u011Fraf\u0131 saat y\u00F6n\u00FCn\u00FCn tersine d\u00F6nd\u00FCrmek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "8031489364030461560": {
+      "message": "$1\u200B Ayarlar\u0131"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Bu foto\u011Fraf otomatik olarak iyile\u015Ftirildi.}male{Bu foto\u011Fraf otomatik olarak iyile\u015Ftirildi.}other{Bu foto\u011Fraf otomatik olarak iyile\u015Ftirildi.}}"
+   },
+   "8112449587476468078": {
+      "message": "Se\u00E7ilen alb\u00FCm silinsin mi?"
+   },
+   "8121983485737306983": {
+      "message": "yinele"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Foto\u011Fraflar"
+   },
+   "8160611829089073754": {
+      "message": "Alb\u00FCmleri silme"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 alb\u00FCme ekle}other{Se\u00E7ilen foto\u011Fraflar\u0131 alb\u00FCme ekle}}"
+   },
+   "8179903593042831802": {
+      "message": "Foto\u011Fraf Ekle"
+   },
+   "819996403327805209": {
+      "message": "Daha fazla bilgi"
+   },
+   "8209467666747691270": {
+      "message": "En iyi"
+   },
+   "8233995188166153420": {
+      "message": "Foto\u011Fraf y\u00FCklemeye ba\u015Flamak i\u00E7in l\u00FCtfen Chrome'da oturum a\u00E7\u0131n."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Daha k\u00F6t\u00FC yineleme}male{Daha k\u00F6t\u00FC yineleme}other{Daha k\u00F6t\u00FC yineleme}}"
+   },
+   "8257489178421131174": {
+      "message": "Alb\u00FCm ad\u0131 girin"
+   },
+   "8262372758945437018": {
+      "message": "Ba\u015Flay\u0131n"
+   },
+   "8272813937461935720": {
+      "message": "Google+ Foto\u011Fraflar oturumunuz a\u00E7\u0131l\u0131rken hata olu\u015Ftu."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}female{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}other{Foto\u011Fraf eklemek i\u00E7in t\u0131klay\u0131n}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Se\u00E7ilen foto\u011Fraf\u0131 payla\u015F}other{Se\u00E7ilen foto\u011Fraflar\u0131 payla\u015F}}"
+   },
+   "8317910107005018559": {
+      "message": "Daha az"
+   },
+   "8324963774100913509": {
+      "message": "S\u0131n\u0131rl\u0131"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Ho\u015F geldiniz - {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Alb\u00FCm ad\u0131 girin}male{Alb\u00FCm ad\u0131 girin}other{Alb\u00FCm ad\u0131 girin}}"
+   },
+   "8405309693308875139": {
+      "message": "Foto\u011Fraflar"
+   },
+   "840692109692540367": {
+      "message": "Oturum A\u00E7\u0131n"
+   },
+   "8418580476552799567": {
+      "message": "Y\u00FCkleme boyutu"
+   },
+   "8446162208830000966": {
+      "message": "\u00C7\u0131k"
+   },
+   "8461609631969932886": {
+      "message": "Gizle"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B S\u00FCr\u00FCm $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Bu foto\u011Fraf\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n.}other{Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek i\u00E7in buray\u0131 t\u0131klay\u0131n.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Baz\u0131 foto\u011Fraflar y\u00FCklenmeyi bekliyor. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}male{{COUNT_1,plural, =0{Baz\u0131 foto\u011Fraflar y\u00FCklenmeyi bekliyor. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}other{{COUNT_1,plural, =0{Baz\u0131 foto\u011Fraflar y\u00FCklenmeyi bekliyor. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}=1{Y\u00FCklenmeyi bekleyen {START_BOLD}1{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}other{Y\u00FCklenmeyi bekleyen {START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf\u0131n\u0131z var. Y\u00FCklemek ve payla\u015Fmak i\u00E7in yeniden ba\u011Flan\u0131n!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "$1\u200B, i\u00E7e aktard\u0131\u011F\u0131n\u0131z foto\u011Fraflardan en iyilerini se\u00E7menize yard\u0131mc\u0131 olsun"
+   },
+   "8554704680089748768": {
+      "message": "$1\u200B tarihinde i\u00E7e aktar\u0131lan foto\u011Fraflar"
+   },
+   "8564202903947049539": {
+      "message": "Oynat"
+   },
+   "8566172133042307539": {
+      "message": "Alb\u00FCme ekle"
+   },
+   "8588705294225487286": {
+      "message": "Orijinal yay\u0131nlar\u0131n al\u0131c\u0131lar\u0131na g\u00F6r\u00FCn\u00FCr"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}male{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}other{Foto\u011Fraflar\u0131n\u0131z\u0131n tam boyutlu yedeklerini veya \u00FCcretsiz olarak daha k\u00FC\u00E7\u00FCk, standart boyutlu hallerini y\u00FCklemeyi se\u00E7in.}}"
+   },
+   "8654290347345927684": {
+      "message": "Art\u0131k $1\u200B cihaz\u0131n\u0131z\u0131 g\u00FCvenli bir \u015Fekilde \u00E7\u0131karabilirsiniz."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Merhaba! {XXX} \u00FCr\u00FCn\u00FCne ho\u015F geldiniz.}}"
+   },
+   "8667344331777400219": {
+      "message": "En iyisini se\u00E7"
+   },
+   "8675112326850410714": {
+      "message": "Bellek kart\u0131 veya depolama cihaz\u0131 tak\u0131ld\u0131"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{\u00C7\u0131k}female{\u00C7\u0131k}other{\u00C7\u0131k}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{$1\u200B klas\u00F6r\u00FCnden 1 foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}other{$1\u200B klas\u00F6r\u00FCnden # foto\u011Fraf i\u00E7e aktar\u0131ld\u0131!}}"
+   },
+   "8704271911477526098": {
+      "message": "Gizli"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}male{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}other{\u015Eu anda \u0130nternet'e ba\u011Fl\u0131 de\u011Filsiniz.}}"
+   },
+   "8759519761443041119": {
+      "message": "Ayarlar\u0131 kaydet"
+   },
+   "8765880467977864647": {
+      "message": "Y\u00FCkleyen: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Kullan\u0131c\u0131 Men\u00FCs\u00FC"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Tam Ekran}female{Tam Ekran}other{Tam Ekran}}"
+   },
+   "8777952755137547655": {
+      "message": "Bu panoramik foto\u011Fraf, yak\u0131n g\u00F6r\u00FCnt\u00FClere ait foto\u011Fraflar\u0131n bir grubundan olu\u015Fturuldu."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Y\u00FCkleme tamamland\u0131! 1 foto\u011Fraf payla\u015F\u0131ma haz\u0131r.}other{Y\u00FCkleme tamamland\u0131! {COUNT_2} foto\u011Fraf payla\u015F\u0131ma haz\u0131r.}}"
+   },
+   "8832933617217959986": {
+      "message": "T\u00FCm\u00FCn\u00FCn se\u00E7imini kald\u0131r"
+   },
+   "8874739581425612284": {
+      "message": "Payla\u015Fmak veya alb\u00FCme eklemek istedi\u011Finiz foto\u011Fraflar\u0131 se\u00E7in"
+   },
+   "8890553633144307762": {
+      "message": "Geri"
+   },
+   "8928816882866356838": {
+      "message": "Herkese a\u00E7\u0131k"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Alb\u00FCm\u00FC sil}=1{Se\u00E7ilen foto\u011Fraf\u0131 sil}other{Se\u00E7ilen foto\u011Fraflar\u0131 sil}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Yazd\u0131r}female{Yazd\u0131r}other{Yazd\u0131r}}"
+   },
+   "8984549175557747262": {
+      "message": "Video i\u015Fleniyor..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{D\u00FC\u015F\u00FCk \u0131\u015F\u0131kl\u0131}male{D\u00FC\u015F\u00FCk \u0131\u015F\u0131kl\u0131}other{D\u00FC\u015F\u00FCk \u0131\u015F\u0131kl\u0131}}"
+   },
+   "8998179362936748717": {
+      "message": "Tamam"
+   },
+   "9013643635142116580": {
+      "message": "Alan ad\u0131yla payla\u015F\u0131ld\u0131"
+   },
+   "9042260521669277115": {
+      "message": "Duraklat"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 g\u00F6r\u00FCnt\u00FCleme (toplam)}=1{1 g\u00F6r\u00FCnt\u00FCleme (toplam)}other{{VIEW_COUNT_2} g\u00F6r\u00FCnt\u00FCleme (toplam)}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B, koleksiyonlar\u0131n\u0131zdaki en iyi foto\u011Fraflar\u0131 otomatik olarak se\u00E7er ve payla\u015F\u0131ma haz\u0131r hale getirir."
+   },
+   "9137360918780826967": {
+      "message": "D\u00FC\u015F\u00FCk kalite"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}other{# foto\u011Fraf eklendi ve payla\u015F\u0131ma haz\u0131r!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1}, foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenlemenin ve payla\u015Fman\u0131n daha kolay yoludur.}female{{XXX_2}, foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenlemenin ve payla\u015Fman\u0131n daha kolay yoludur.}other{{XXX_3}, foto\u011Fraflar\u0131n\u0131z\u0131 d\u00FCzenlemenin ve payla\u015Fman\u0131n daha kolay yoludur.}}"
+   },
+   "9219694540199049147": {
+      "message": "Klas\u00F6r..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto\u011Fraf zaten \u00F6nceki bir oturumda y\u00FCklendi.}other{{NUM_PHOTOS_2} foto\u011Fraf zaten \u00F6nceki bir oturumda y\u00FCklendi.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto\u011Fraf ba\u015Far\u0131yla i\u00E7e aktar\u0131ld\u0131 ve y\u00FCklendi.}other{{START_BOLD}{COUNT_2}{END_BOLD} foto\u011Fraf ba\u015Far\u0131yla i\u00E7e aktar\u0131ld\u0131 ve y\u00FCklendi.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in uygulamay\u0131, foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}male{{XXX} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in uygulamay\u0131, foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}other{{XXX} uygulamas\u0131ndan en iyi \u015Fekilde yararlanmak i\u00E7in uygulamay\u0131, foto\u011Fraflar\u0131n\u0131z\u0131 otomatik olarak i\u00E7e aktaracak \u015Fekilde ayarlay\u0131n.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Alb\u00FCmdeki t\u00FCm foto\u011Fraflar\u0131 ta\u015F\u0131}=1{Se\u00E7ilen foto\u011Fraf\u0131 ta\u015F\u0131}other{Se\u00E7ilen foto\u011Fraflar\u0131 ta\u015F\u0131}}"
+   },
+   "982577805980296193": {
+      "message": "Bu foto\u011Fraflar\u0131 g\u00F6r\u00FCnt\u00FClemek ve payla\u015Fmak i\u00E7in buray\u0131 t\u0131klay\u0131n."
+   }
+}

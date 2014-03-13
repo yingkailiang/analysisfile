@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+
+<!--
+    http://unlicense.org/
+    author: gregory tomlinson
+-->
+
+<!-- MIME TYPE Guidlines and references: http://hixie.ch/advocacy/xhtml -->
+    <head>
+        <title>bitly api</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="awesome" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="qunit/qunit.css" type="text/css" />
+        <script type="text/javascript" src="qunit/qunit.js"></script>
+        <script type="text/javascript" src="../src/js/bitly_oauth_credentials.js"></script>
+        <script type="text/javascript" src="../src/js/bitlyapi-v3.0.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            /*
+                TEST
+                    -- bExt.hovercard  
+            
+            */
+            var api, user_creds={ 
+                "x_login":"gtdev",
+                "x_apiKey":"R_d3aea0669127aad90dfc711955da6d00",
+                "access_token":"91c9e6336e3081da5ca00b78f2c1cfd94594b7f0"
+            };
+            
+            test('start api and db instance', function() {
+                // setup for tests
+                ok(api=bitlyAPI( bitly_oauth_credentials.client_id, bitly_oauth_credentials.client_signature ), "create bit api reference" );
+            });
+            
+            asyncTest('authenticate bitly via CORS', function() {
+                
+                api.auth("exttestaccount", "whatever", function(jo) {
+                    console.log("jo")
+                    ok(jo, "signed in success")
+                });
+                
+                setTimeout(function() {
+                    start();
+                }, 2000);
+                
+            });
+            
+            
+            /*
+            
+                Set User Credentials
+            */
+            
+            test('set user data', function() {
+                ok(api.set_credentials( user_creds.x_login, user_creds.x_apiKey, user_creds.access_token), "Apply usercredentials");
+                ok(api.is_authenticated(), "user is logged in");
+
+            });
+            
+            
+            asyncTest('Methods, Shorten Expand (single and multiple), Expand and meta', function() {
+                
+                var short_list=["http://gt-co.de/i9nx8s", "http://gt-co.de/i4Ca2I"];
+                 
+                api.shorten("http://google.com/1234", function(jo) {
+                    ok(jo.long_url=="http://google.com/1234", "shortened");
+                    ok(jo.url && jo.url!=="", "non empty shorten");
+                });
+                
+                api.expand("http://bit.ly/gXtGLq", function(jo) {
+                    var meta;
+                    ok(jo.expand.length === 1, "expanded single url");
+                    ok(meta=jo.expand.shift(), "set meta for link");
+                    ok(meta.short_url=="http://bit.ly/gXtGLq");
+                });
+                
+                api.expand(short_list, function(jo) {
+                    ok(jo.expand.length==2, "expand two links");
+                });
+                
+                api.clicks(short_list, function(jo) {
+                    var clicks=jo.clicks;
+                    for(var i=0; i<clicks.length; i++) {
+                        if( short_list.indexOf( clicks[i].short_url ) > -1 ) {
+                            ok(true, "links match")
+                        } else {
+                            ok(false, "didn't match link");
+                        }
+                    }
+                });
+                
+                api.expand_and_meta(short_list, function(jo) {
+                    console.log("expand and meta", jo)
+                    ok(jo.list_results.length == short_list.length, "expand and meta same lengths");
+                });
+                
+                
+                setTimeout(function(){
+                    start();
+                }, 2000)
+            });
+            
+            
+            asyncTest('Info, Lookup, Realtime, bitly md5 domains', function() {
+                
+                var short_list=["http://gt-co.de/i9nx8s", "http://gt-co.de/i4Ca2I"];
+                                
+                api.info(short_list, function(jo) {
+                    console.log("JO clicks by URL", jo);
+                    var clicks=jo.info;
+                    for(var i=0; i<clicks.length; i++) {
+                        if( short_list.indexOf( clicks[i].short_url ) > -1 ) {
+                            ok(true, "links match")
+                        } else {
+                            ok(false, "didn't match link");
+                        }
+                    }                    
+                });
+                
+                
+                api.lookup("http://nytimes.com", function(jo) {
+                    
+                    console.log(jo);
+                    var meta;
+                    ok(jo.lookup.length > 0, "have data")
+                    ok(meta=jo.lookup.pop(), "set meta for lookup");
+                    ok(meta.url=="http://nytimes.com", "valid response")
+                });
+                
+                api.realtime(function(jo) {
+                    console.log(jo, "realtime");
+                });
+                
+                
+                // bitly md5 domains list
+                api.bitly_domains(function(jo) {
+                    ok(jo.length > 10, "bitly md5 domains");
+                });
+                
+
+                api.share_accounts(function(jo) {
+                    console.log("share accounts", jo)
+                    ok(jo.share_accounts.length == 4, "the number of share accoutns of this user is 4")
+                })
+                
+                
+                
+                setTimeout(function() {
+                    start();
+                    
+                }, 2000);
+            });
+            
+            test("Set the API domain", function() {
+                // the api domain
+                ok( api.set_domain("j.mp"), "set to j.mp" );
+                ok(api.get_domain()=="j.mp", "the api domain");
+                ok( api.set_domain("bit.ly"), "set back to bitly" );                
+            })
+            
+
+        </script>
+    </head>
+    <body>
+        <h1 id="qunit-header">bitly Chrome Ext | QUnit Test Suite</h1>
+        <h2 id="qunit-banner"></h2>
+        <div id="qunit-testrunner-toolbar"></div>
+        <h2 id="qunit-userAgent"></h2>
+        <ol id="qunit-tests"></ol>
+    </body>
+</html>

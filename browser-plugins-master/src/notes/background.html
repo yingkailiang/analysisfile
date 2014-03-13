@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./styles.css"/>
+        <script type="text/javascript" src="./main.js"></script>
+    </head>
+    <body onload="init();">
+        <div id="container">
+            <div class="toppanel">
+                <div class="panel" id="status_panel">
+                    <div id="syncbtn">sync</div>
+                    <div id="savedbtn">save</div>
+                    <div id="settingsbtn">settings</div>
+                </div>
+                <div class="panel" id="options_panel">
+                    <div id="bizkul_todo">bizkul</div>
+                    <div id="learn_todo">learn</div>
+                    <div id="projects_todo">projects</div>
+                    <div id="personal_todo">personal</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <textarea class="notes_area" id="notes_area" onkeypress="save_notes();"></textarea>
+        </div>
+        <div id="settings">
+            <div class="toppanel">
+                <div class="panel" id="status_panel">
+                    <div id="backbtn">back</div>
+                </div>
+                <div class="panel" id="options_panel">
+                    <div id="save_settings">save settings</div>
+                    <div id="default_settings">default settings</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+			<fieldset>
+				<legend>create a new note</legend>
+				<input type="text" value="new note" id="notename"/>
+				<input type="submit" value="create note" onclick="createnote();"/>
+				
+			</fieldset>
+			<fieldset id="notescontainer">
+				<legend>select the notes to display</legend>
+				<div class="note">
+					<input type="checkbox" name="bizkul" id="bizkul"/> 
+					<label for="bizkul">bikul <label/>
+				</div>
+			</fieldset>
+        </div>
+    </body>
+</html>

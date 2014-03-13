@@ -1,0 +1,6 @@
+{
+  "name": "notifeed",
+  "version": "0.0.0",
+  "dependencies": {"jquery": "latest"},
+  "devDependencies": {}
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<!-- 	<constant name="struts.devMode" value="true"></constant> -->
+	<package name="sbox" extends="struts-default" namespace="/">
+		 <interceptors>
+	        <interceptor name="authority" class="com.sbox.tools.AuthorityInterceptor"/>
+	        <interceptor-stack name="myStack">
+	            <interceptor-ref name="defaultStack"/>
+	            <interceptor-ref name="authority"/>
+	        </interceptor-stack>
+	    </interceptors>
+	    <default-interceptor-ref name="myStack"></default-interceptor-ref>
+		<global-results>
+		    <result name="filterlogin">
+		    	/login2.jsp
+		    </result>
+		    <result name="ajaxLoginPage">
+		    	/login/loginjs.jsp
+		    </result>
+		    <result name="flashLoginPage">
+		    	/login/loginfalsh.jsp
+		    </result>
+		    <result name="ajaxLogin" type="redirect">
+		    	LoginPage!to.action
+			</result>
+			<result name="flashLogin" type="redirect">
+				LoginPage!falsh.action 
+			</result>
+			<result name="no_acl">/noAcl.jsp</result>
+		     <result name="filterindex">/index.jsp</result>
+		     <result name="filterreg">/reg2.jsp</result>
+		     <result name="login">/login2.jsp</result>
+<!--		 <result name="login" type="redirect-action">/login2.jsp?errorMessage=${errorMessage}</result>-->
+		     <result name="filtererror" type="redirectAction">
+				<param name="actionName">File!info.action</param>
+			</result>
+		</global-results>
+		<action name="LoginPage" class="com.sbox.action.LoginPage">
+		</action>
+		<action name="PanInfo" class="com.sbox.action.PanInfo">
+			<result name="panInfo">/panInfo.jsp</result>
+		</action>
+		<action name="Login" class="com.sbox.action.Login">
+<!--			<result name="index" type="redirect">/File!file.action</result>-->
+			<result name="index" type="redirect">
+				/index.jsp
+			</result>
+			<result name="logout" type="redirect">
+				/login2.jsp
+			</result>
+			<result name="reURL" type="redirect">
+				${rurl}
+			</result>
+<!--			<result name="index">-->
+<!--				/index.jsp-->
+<!--			</result>-->
+			<result name="relogin">/login2.jsp</result>
+			<result name="register">/reg2.jsp</result>
+		</action>
+		<action name="File" class="com.sbox.action.Transfer">
+			<result name="index">/index.jsp</result>
+			<result name="info">/info.jsp</result>
+			<result name="login">/login2.jsp</result>
+		</action>
+		<action name="GetCode" class="com.sbox.action.GetCode">
+		</action>
+		<action name="ShareManager" class="com.sbox.action.ShareManager">
+		</action>
+		<action name="GetService" class="com.sbox.action.GetService">
+		</action>
+		<action name="GetNodeList" class="com.sbox.action.GetNodeList">
+		</action>
+		<action name="CreateDir" class="com.sbox.action.CreateDir">
+		</action>
+		<action name="GetVersionList" class="com.sbox.action.GetVersionList">
+		</action>
+		<action name="UploadInitialization" class="com.sbox.action.UploadInitialization">
+		</action>
+		<action name="GetUploadInfo" class="com.sbox.action.GetUploadInfo">
+		</action>
+		<action name="DeleteVersion" class="com.sbox.action.DeleteVersion">
+		</action>
+		<action name="CopyDir" class="com.sbox.action.CopyDir">
+		</action>
+		<action name="DeleteUser" class="com.sbox.action.DeleteUser">
+		</action>
+		<action name="User" class="com.sbox.action.UserAction">
+			<result name="userList">/user.jsp</result>
+			<result name="importReturn">/import/return.jsp</result>
+			<result name="dpUpdate">/deletepassword/setdpassword.jsp</result>
+		</action>
+		<action name="RenameResource" class="com.sbox.action.RenameResource">
+		</action>
+		
+		<action name="MoveResource" class="com.sbox.action.MoveResource">
+		</action>
+		
+		<action name="MoveRestoreResource" class="com.sbox.action.MoveRestoreResource">
+		</action>
+		
+		<action name="CopyResource" class="com.sbox.action.CopyResource">
+		</action>
+		<action name="UpdateResource" class="com.sbox.action.UpdateResource">
+		</action>
+		<action name="FileVersion" class="com.sbox.action.FileVersion">
+		</action>
+		<action name="Group" class="com.sbox.action.Group">
+			<result name="groupList">/group/group1.jsp</result>
+			<result name="userList">/group/group2.jsp</result>
+		</action>
+		<action name="Register" class="com.sbox.action.Register">
+				<result name="register1">/reg.jsp</result>
+				<result name="register2">/reg2.jsp</result>
+				<result name="register3">/reg3.jsp</result>
+				<result name="index">/index.jsp</result>
+				<result name="relogin">/login2.jsp</result>
+		</action>
+		<action name="DeleteObject" class="com.sbox.action.DeleteObject">
+		</action>
+		<action name="PasswordAction" class="com.sbox.action.PasswordAction">
+				<result name="sendPage">/resetpassword/reset1.jsp</result>
+				<result name="sendSuccess">/resetpassword/reset2.jsp</result>
+				<result name="resetPage">/resetpassword/reset3.jsp</result>
+				<result name="resetSuccess">/resetpassword/reset4.jsp</result>
+				<result name="resetpasswordError">/resetpassword/reset5.jsp</result>
+		</action>
+		<action name="GetShareUserList" class="com.sbox.action.GetShareUserList">
+		</action>
+		<action name="MessageAction" class="com.sbox.action.MessageAction">
+			<result name="msgl">message.jsp</result>
+		</action>
+		
+		<action name="GetUserList" class="com.sbox.action.GetUserList">
+		</action>
+		<action name="ShareDir" class="com.sbox.action.ShareDir">
+		</action>
+		<action name="LockFile" class="com.sbox.action.LockFile">
+		</action>
+		<action name="UnLockFile" class="com.sbox.action.UnLockFile">
+		</action>
+		<action name="GetFile" class="com.sbox.action.GetFile">
+			<result name="resource_deleted">/404.jsp</result>
+			<result name="onLineView">/preview/review.jsp</result>
+		</action>
+		<action name="GetShareDir" class="com.sbox.action.GetShareDir">
+		</action>
+		<action name="GetFileVersion" class="com.sbox.action.GetFileVersion">
+		</action>
+		<action name="OutLink" class="com.sbox.action.OutLink">
+			<result name="down">/download.jsp</result>
+		    <result name="online" >GetFile!getFileOnLineLinkForOutLink.action?resourceId=${fileId}
+		    </result>
+			<result name="invalid">/invalid.jsp</result>
+		</action>
+		
+		<action name="OutLinkForMail" class="com.sbox.action.OutLinkForMail">
+			<result name="down">/downloadEmail.jsp</result>
+			<result name="404">/404.html</result>
+		</action>
+		
+		<action name="SendEmail" class="com.sbox.action.SendEmail">
+		</action>
+		<action name="Trash" class="com.sbox.action.Trash">
+		</action>
+		<action name="UploadRange" class="com.sbox.action.Upload">
+			<result name="index">/index.jsp</result>
+			<result name="uploadLogoReturn">/import/uploadLogoReturn.jsp</result>
+		</action>
+		<action name="AccountManage" class="com.sbox.action.AccountManage">
+			<result name="index">/index.jsp</result>
+			<result name="account1">/account1-1.jsp</result>
+			<result name="account2">/account1-2.jsp</result>
+			<result name="successaccount" type="redirectAction">
+				<param name="actionName">AccountManage!getaccountinfo.action</param>
+			</result>
+			<result name="company2">/account2.jsp</result>
+			<result name="successcompany" type="redirectAction">
+				<param name="actionName">AccountManage!getcompanyinfo.action</param>
+			</result>
+		</action>
+		<action name="LogManage" class="com.sbox.action.LogManage">
+			<result name="index">/index.jsp</result>
+			<result name="allLog">/log.jsp</result>
+			<result name="successallLog" type="redirectAction">
+				<param name="actionName">LogManage!getAllLog.action</param>
+			</result>
+		</action>
+		<action name="ExcelAction" class="com.sbox.action.ExcelAction">
+			<result name="excel" type="stream">
+				<param name="contentType">
+					application/vnd.ms-excel
+				</param>
+				<param name="inputName">excelStream</param>
+				<param name="contentDisposition">
+					filename="export.xls"
+				</param>
+				<param name="bufferSize">1024</param>
+			</result>
+			<result name="index">/login2.jsp</result>
+		</action>
+		<action name="HistoryVersion" class="com.sbox.action.HistoryVersion">
+			<result name="index">/index.jsp</result>
+			<result name="history">/history.jsp</result>
+		</action>
+		<action name="FeedBack" class="com.sbox.action.FeedBack">
+			<result name="success">/feedBack.jsp</result>
+			<result name="404">/404.jsp</result>
+		</action>
+		
+		<action name="GetFiles" class="com.sbox.action.BatchDownLoad">
+			<result name="404">/404.jsp</result>
+		</action>
+		
+		<action name="GetDirAndFile" class="com.sbox.action.GetDirAndFile">
+		</action>
+		
+		<action name="ShareUrlDirAndFile" class="com.sbox.action.ShareUrlDirAndFile">
+		     <result name="success">/shareDir.jsp</result>
+			 <result name="invalid">/invalid.jsp</result>
+		</action>
+		
+		<action name="GetDirFiles" class="com.sbox.action.ShareDirBatchDownLoad">
+		</action>
+		
+		<action name="CheckShareDirPassword" class="com.sbox.action.CheckShareDirPassword">
+		</action>
+		
+		<action name="ShareEmailSet" class="com.sbox.action.ShareEmailSet">
+		      <result name="success">/AccountEmail!email.action</result>
+			  <result name="404">/invalid.jsp</result>
+		</action>
+		
+		<action name="AccountEmail" class="com.sbox.action.AccountEmail">
+		<result name="success">/accountShareSet.jsp</result>
+			  <result name="404">/invalid.jsp</result>
+		</action>
+		
+		<action name="GetPublicNodeList" class="com.sbox.action.GetPublicNodeList">
+		</action>
+		
+		<action name="AppLogManage" class="com.sbox.action.AppLogManage">
+			<result name="index">/index.jsp</result>
+			<result name="allLog">/applog.jsp</result>
+		</action>
+      </package>
+</struts>

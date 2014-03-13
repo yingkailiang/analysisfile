@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <title>popup title</title>
+        <script type="text/javascript" src="notableapp.js"></script>
+        <style type="text/css">
+            body {
+                width: 400px;
+                max-height: 800px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                font-size: 13px normal helvetica;
+            }
+            .btns .addbtn, .btns .removebtn {
+        margin: 3px;
+        border: none;
+                display: block;
+                -webkit-border-radius: 10px;
+            }
+            .thumbnail {
+        cursor: pointer;
+        -webkit-border-radius: 3px;
+            }
+            .details, .thumbnail, .btns {
+                float: left;
+                width: 75px;
+                height: 75px;
+                margin: 3px;
+            }
+            .details {
+                width: 195px;
+            }
+            .clear {
+                clear: both;
+            }
+            .visible {
+                display: block;
+            }
+            .screenshot {
+                display: none;
+            }
+            .visible:hover {
+                opacity: 1;
+                background: #000000;
+                -webkit-border-radius: 3px;
+            }
+            @-webkit-keyframes wobble {
+                from {
+                        -webkit-transform: rotateZ(3deg);
+                        opacity: 0.75;
+                } 50% {-webkit-transform:
+                        rotateZ(-3deg);
+                        opacity:
+                        1.0;
+                } to {
+                    -webkit-transform: rotateZ(3deg);
+                    opacity: 0.75;
+                }
+            }
+            .visible:hover img {
+                -webkit-animation-name: wobble;
+                -webkit-animation-duration: 0.5s;
+                -webkit-animation-iteration-count: 10;
+            }
+            .visible:hover imga {
+                -webkit-transition: all 1s ease-in-out;
+                -webkit-border-radius: 3px;
+                -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+                -webkit-transform: rotateZ(10deg) scale(1.1);
+            }
+        </style>
+    </head>
+    <body onload="captureNew()">
+        <div class="head">
+            <span class="scrshotscount lt"></span>
+            <span class="popuptitle lt">Captures Awaiting Notes...</span>
+            <span class="close rt"></span>
+            <span class="cleanall rt">cleanall</span>
+        </div>
+        <div class="screenshot">
+            <img class="thumbnail" height="75" width="75" src="">
+            <div class="details">
+                <a class="title" href="#"></a>
+            </div>
+            <div class="btns">
+                <input class="addbtn" type="button" value="add notes"/>
+                <input class="removebtn" type="button" value="remove"/>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </body>
+</html>

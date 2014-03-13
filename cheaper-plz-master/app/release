@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# create zip file for the Chrome Web Store
+rm -f cheaper-release.zip
+zip -r cheaper-release.zip _locales directives icons img scripts styles manifest.json popup.html tab.html
+echo "done"
+echo "upload to: https://chrome.google.com/webstore/developer/dashboard"
+open "https://chrome.google.com/webstore/developer/dashboard"

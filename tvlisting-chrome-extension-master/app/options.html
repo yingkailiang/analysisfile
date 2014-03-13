@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+
+   <!-- build:css styles/options.css -->
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
+    <!-- endbuild -->
+    </head>
+    <body>
+    <div class="container">
+
+    <div class="page-header">
+	    <h1>Channel Lookup <small>Set your viewing area</small></h1>
+    </div>
+  <div class="panel panel-default">
+	  <div class="panel-body">
+
+<div class="alert alert-danger error">
+	  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  <strong>Small Problem:</strong> <span class="msg"></span>
+</div>
+	    <div class="form-inline">
+	    	<div class="form-group">
+		    	<label class="sr-only" for="zipCode">Viewing Area Zip Code</label>
+			   <input type="text" autofocus="autofocus" maxlength="5" id="zipCode" placeholder="Zip Code" class="form-control" pattern="\d*">
+	    	</div>
+		   <button id="searchBtn" data-loading-text="Searching..." data-complete-text="Lineup Set" class="btn btn-primary">Search</button>
+		    <button class="btn btn-danger" id="clearCache" title="Clear cache">Clear Channel List</button>
+	    </div>
+
+	    <div>
+	    </div>
+	  </div>
+  </div>
+
+    </div>
+    <iframe id="theFrame" src="sandbox.html" style="display: none"></iframe>
+   <!-- build:js scripts/options.js -->
+    <script src="components/jquery/jquery.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="scripts/options.js"></script>
+    <!-- endbuild -->
+    </body>
+</html>

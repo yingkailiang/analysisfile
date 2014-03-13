@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Share SocialBa! to friends.</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: 'lucida grande' ,tahoma,verdana,arial,sans-serif; font-size: 12px; }
+        .header { background: #6d84b4; height: 33px; color: White; font-weight: bold; }
+        .header img { margin: 6px 6px 6px 10px; float: left; }
+        .header span { margin: 0 6px 0 0; float: left; line-height: 33px; }
+        .container .innerWrap { margin: 5px; }
+        ._b-- { border: 1px solid #bdc7d8; }
+        .textInput { background-color: transparent; border: 0; -webkit-box-sizing: border-box; outline: 0; width: 100%; line-height: 1.28; background: transparent; zoom: 1; font-size: 14px; padding: 5px; overflow: hidden; resize: none; }
+        .uiButtonLarge, .uiButtonLarge .uiButtonText, .uiButtonLarge input { font-size: 14px; line-height: 16px; }
+        .uiButtonLarge { height: 19px; }
+        .uiButton, .uiButtonSuppressed:active, .uiButtonSuppressed:focus, .uiButtonSuppressed:hover { background-image: url(images/uiButton.png); background-repeat: repeat-x; background-size: auto; background-position: 0 0; background-color: #eee; border: 1px solid #999; border-bottom-color: #888; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1); }
+        .uiButton { cursor: pointer; display: inline-block; font-size: 12px; font-weight: bold; line-height: 13px; padding: 2px 6px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; }
+        .uiButtonConfirm { background-image: url(images/uiButton.png); background-repeat: repeat-x; background-size: auto; background-position: 0 -49px; background-color: #5b74a8; border-color: #29447e #29447e #1a356e; }
+        button { background: none; color: #333; border: 0; cursor: pointer; display: inline-block; font-family: 'lucida grande' ,tahoma,verdana,arial,sans-serif; font-size: 12px; line-height: 16px; font-weight: bold; margin: 0; padding: 1px 0 2px; white-space: nowrap; }
+        .uiButtonConfirm button { color: White; }
+    </style>
+    <script type="text/javascript" src="../scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../scripts/publish-sync/foreground/socialClient.js"></script>
+    <script type="text/javascript" src="scripts/share.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="../content/images/publish-sync/menu/l_white.png" />
+        <span hl="title"></span>
+    </div>
+    <div class="container">
+        <p style="margin-left: 5px;">
+            <b hl="caption"></b>
+        </p>
+        <div class="innerWrap _b--">
+            <textarea class="input mentionsTextarea textInput" name="message_text" autocomplete="off" style="height: 70px;"></textarea>
+        </div>
+    </div>
+    <div style="margin: 0 5px;" class="pam sharerButtonContainer clearfix uiBoxGray topborder">
+        <div id="link" style="float: left;">
+            <label>
+                <input id="sharedLink" type="checkbox" checked="checked" />
+                <span hl="withLink"></span>
+            </label>
+        </div>
+        <div id="sharerDialogButtons" style="float: right;">
+            <label class="uiButton uiButtonConfirm uiButtonLarge" for="btnShare">
+                <button id="btnShare" hl="shareToSns">
+                </button>
+            </label>
+            <label class="uiButton uiButtonLarge" for="btnClose">
+                <button id="btnClose" hl="close">
+                </button>
+            </label>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<link rel="stylesheet" href="/css/jquery.checkbox.css" />
+<style>
+body {width:200px; font-size:13px;}
+.switch {margin-top:5px; margin-bottom:5px; font-size:14px;}
+table {table-layout:fixed;}
+td {height: 25px; text-overflow: ellipsis;} 
+</style>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.checkbox.min.js"></script>
+<script type="text/javascript" src="/js/popup.js"></script>
+<body>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<col align="left" />
+  	<col align="right" width="65" />
+		<tr> 	
+			<td>屏蔽优酷广告：</td>
+			<td><input name="youku_switch" type="checkbox" id="youku_switch" checked></td>
+		</tr>
+		<tr> 	
+			<td>屏蔽土豆广告：</td>
+			<td><input name="tudou_switch" type="checkbox" id="tudou_switch" disabled></td>
+		</tr>
+	</table>
+	<div>
+		<p>本插件会帮您屏蔽掉“优酷网”视频里又长又烦的广告。</p>
+	
+	</div>
+	<div id="notice" style="border:#CCCCCC 1px solid; height:100px">
+	</div>
+</body>

@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Ur\u010Dete, zda chcete z\u00E1lohovat sv\u00E9 fotky v pln\u00E9 velikosti, nebo v\u00E1m posta\u010D\u00ED men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma."
+   },
+   "106279463205193944": {
+      "message": "Lid\u00E9 v tomto albu"
+   },
+   "1078696495414015742": {
+      "message": "Pokra\u010Dovat"
+   },
+   "1079312373208696407": {
+      "message": "Jakmile se zaregistrujete, klikn\u011Bte sem."
+   },
+   "1106976338877989624": {
+      "message": "O $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}female{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}other{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. {START_BOLD}1{END_BOLD} fotka je p\u0159ipraven\u00E1 ke sd\u00EDlen\u00ED.}few{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. {START_BOLD}{COUNT_2}{END_BOLD} fotky jsou p\u0159ipraven\u00E9 ke sd\u00EDlen\u00ED.}other{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. {START_BOLD}{COUNT_2}{END_BOLD} fotek je p\u0159ipraveno ke sd\u00EDlen\u00ED.}}"
+   },
+   "1131710491735646017": {
+      "message": "P\u0159esunout fotku"
+   },
+   "1141157641265116263": {
+      "message": "V\u0161echny sv\u00E9 fotky a videa m\u016F\u017Eete ulo\u017Eit, uspo\u0159\u00E1dat a sd\u00EDlet pomoc\u00ED n\u011Bkolika kliknut\u00ED."
+   },
+   "1168286392495236500": {
+      "message": "Sd\u00EDleno ve\u0159ejn\u011B"
+   },
+   "1168912363261265730": {
+      "message": "P\u0159ehr\u00E1t prezentaci"
+   },
+   "1179156232993544339": {
+      "message": "Smazat album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Vybrat polo\u017Eky}female{Vybrat polo\u017Eky}other{Vybrat polo\u017Eky}}"
+   },
+   "1199073624563429103": {
+      "message": "Pokud tyto fotky sma\u017Eete, budou smaz\u00E1ny i v\u0161echny souvisej\u00EDc\u00ED p\u0159\u00EDsp\u011Bvky, koment\u00E1\u0159e a +1."
+   },
+   "1273084338234215688": {
+      "message": "Chcete-li zobrazit v\u0161echny fotky a alba, $2\u200Bznovu se p\u0159ipojte$1\u200B."
+   },
+   "1274379628511980491": {
+      "message": "Skenov\u00E1n\u00ED fotek"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 fotka}few{{PHOTO_COUNT_2} fotky}other{{PHOTO_COUNT_2} fotek}}"
+   },
+   "1299278917495979942": {
+      "message": "Podle data p\u0159id\u00E1n\u00ED (od nejnov\u011Bj\u0161\u00EDch)"
+   },
+   "1299626955070536636": {
+      "message": "Oto\u010Dit ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu.}male{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu.}other{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{1 va\u0161e fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{COUNT_2} va\u0161e fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{COUNT_2} va\u0161ich fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}female{{COUNT_1,plural, =0{unused plural form}=1{1 va\u0161e fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{COUNT_2} va\u0161e fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{COUNT_2} va\u0161ich fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}other{{COUNT_1,plural, =0{unused plural form}=1{1 va\u0161e fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{COUNT_2} va\u0161e fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{COUNT_2} va\u0161ich fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}}"
+   },
+   "133632727011673707": {
+      "message": "Vybrat dal\u0161\u00ED um\u00EDst\u011Bn\u00ED pro import"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}male{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}other{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Automaticky importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}male{Automaticky importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}other{Automaticky importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}}"
+   },
+   "1410409051323941239": {
+      "message": "Prob\u00EDh\u00E1 pokus o op\u011Btovn\u00E9 p\u0159ipojen\u00ED..."
+   },
+   "1425141239403329190": {
+      "message": "Nyn\u00ED m\u016F\u017Eete za\u0159\u00EDzen\u00ED $1\u200B bezpe\u010Dn\u011B odpojit."
+   },
+   "1428301074198348755": {
+      "message": "Ulo\u017Eit"
+   },
+   "1482983300175848685": {
+      "message": "Registrace do slu\u017Eby Google+"
+   },
+   "1494518490116523821": {
+      "message": "Vybrat v\u0161e"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kop\u00EDrovat}male{Kop\u00EDrovat}other{Kop\u00EDrovat}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{P\u0159esunout}male{P\u0159esunout}other{P\u0159esunout}}"
+   },
+   "1535908424500369256": {
+      "message": "Tato okna budou zav\u0159ena:\n"
+   },
+   "1542576779711006198": {
+      "message": "Prob\u00EDh\u00E1 import fotek ze za\u0159\u00EDzen\u00ED $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{P\u0159esunout}female{P\u0159esunout}other{P\u0159esunout}}"
+   },
+   "1572187844116018239": {
+      "message": "Zobrazit na cel\u00E9 obrazovce"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{P\u0159idat}male{P\u0159idat}other{P\u0159idat}}"
+   },
+   "163532554661203916": {
+      "message": "Chcete-li za\u010D\u00EDt importovat fotky ze za\u0159\u00EDzen\u00ED $2\u200B, spus\u0165te aplikaci $1\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Fotky..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B verze $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED..."
+   },
+   "1753152144556911377": {
+      "message": "O aplikaci $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Ne"
+   },
+   "1760918964936396010": {
+      "message": "Smazat $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nesd\u00EDleno}male{Nesd\u00EDleno}other{Nesd\u00EDleno}}"
+   },
+   "1829542073477142210": {
+      "message": "Viditeln\u00E9 pro \u00FA\u010Dastn\u00EDky konverzac\u00ED"
+   },
+   "1863533324056146247": {
+      "message": "odp."
+   },
+   "1898536270078020135": {
+      "message": "Nab\u00EDdka aplikace"
+   },
+   "1907928780625920048": {
+      "message": "Na bezpe\u010Dn\u00E9m m\u00EDst\u011B"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotka je p\u0159ipravena ke sd\u00EDlen\u00ED}few{{COUNT_2} fotky jsou p\u0159ipraveny ke sd\u00EDlen\u00ED}other{{COUNT_2} fotek je p\u0159ipraveno ke sd\u00EDlen\u00ED}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}female{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}other{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}}"
+   },
+   "1938243880078123136": {
+      "message": "Nyn\u00ED v\u00E1s p\u0159esm\u011Brujeme na Google+, kde se m\u016F\u017Eete na video pod\u00EDvat."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Ozna\u010Dena}male{Ozna\u010Den}other{Ozna\u010Den(a)}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Ur\u010Dete, zda chcete z\u00E1lohovat sv\u00E9 fotky v pln\u00E9 velikosti, nebo v\u00E1m posta\u010D\u00ED men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}female{Ur\u010Dete, zda chcete z\u00E1lohovat sv\u00E9 fotky v pln\u00E9 velikosti, nebo v\u00E1m posta\u010D\u00ED men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}other{Ur\u010Dete, zda chcete z\u00E1lohovat sv\u00E9 fotky v pln\u00E9 velikosti, nebo v\u00E1m posta\u010D\u00ED men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fotky z Okam\u017Eit\u00E9ho nahr\u00E1v\u00E1n\u00ED"
+   },
+   "2000146230061979936": {
+      "message": "Profilov\u00E9 fotky"
+   },
+   "2029980907058777630": {
+      "message": "Smluvn\u00ED podm\u00EDnky"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. V\u0161echna pr\u00E1va vyhrazena."
+   },
+   "2079435202927044386": {
+      "message": "Import fotek"
+   },
+   "2097731301533028280": {
+      "message": "V\u0161echny fotky"
+   },
+   "2102825898069375693": {
+      "message": "Nab\u00EDdka"
+   },
+   "2127917516759723964": {
+      "message": "Chcete vybran\u00E1 alba smazat?"
+   },
+   "2134605074025092052": {
+      "message": "Smazat fotky (po\u010Det: $1\u200B)"
+   },
+   "2159130950882492111": {
+      "message": "Zru\u0161it"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}female{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}other{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Nepat\u0159\u00ED k nejlep\u0161\u00EDm}male{Nepat\u0159\u00ED k nejlep\u0161\u00EDm}other{Nepat\u0159\u00ED k nejlep\u0161\u00EDm}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Dobr\u00FD den! V\u00EDt\u00E1 v\u00E1s slu\u017Eba {XXX_1}.}female{Dobr\u00FD den! V\u00EDt\u00E1 v\u00E1s slu\u017Eba {XXX_2}.}other{Dobr\u00FD den! V\u00EDt\u00E1 v\u00E1s slu\u017Eba {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{N\u00E1pov\u011Bda}female{N\u00E1pov\u011Bda}other{N\u00E1pov\u011Bda}}"
+   },
+   "2256196161103684642": {
+      "message": "Jen n\u011Bkdo"
+   },
+   "2267143557027174044": {
+      "message": "Zru\u0161it"
+   },
+   "2299297337048329405": {
+      "message": "Kop\u00EDrovat"
+   },
+   "2354817630223808522": {
+      "message": "P\u0159esunout"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}female{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}other{Chcete-li aplikaci {APP_NAME} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0159esunout {XXX_1} fotku do alba:}few{P\u0159esunout {XXX_2} fotky do alba:}other{P\u0159esunout {XXX_2} fotek do alba:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotky z telefonu"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Za\u010Dn\u011Bte t\u00EDm, \u017Ee importujete sv\u00E9 fotky}female{Za\u010Dn\u011Bte t\u00EDm, \u017Ee importujete sv\u00E9 fotky}other{Za\u010Dn\u011Bte t\u00EDm, \u017Ee importujete sv\u00E9 fotky}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 fotka}few{ {PHOTO_COUNT_2} fotky}other{ {PHOTO_COUNT_2} fotek}}"
+   },
+   "2453303348493525919": {
+      "message": "Vybrat polo\u017Eky"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Vybr\u00E1no {COUNT_2} album}few{Vybr\u00E1na {COUNT_2} alba}other{Vybr\u00E1no {COUNT_2} alb}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 fotka ji\u017E byla nahr\u00E1na v p\u0159edchoz\u00ED relaci. }few{{NUM_PHOTOS_2} fotky ji\u017E byly nahr\u00E1ny v p\u0159edchoz\u00ED relaci. }other{{NUM_PHOTOS_2} fotek ji\u017E bylo nahr\u00E1no v p\u0159edchoz\u00ED relaci. }}"
+   },
+   "2503049676444223994": {
+      "message": "Podle data p\u0159id\u00E1n\u00ED (od nejstar\u0161\u00EDch)"
+   },
+   "251008425196701054": {
+      "message": "Viditeln\u00E9 pro v\u0161echny u\u017Eivatele ve va\u0161\u00ED dom\u00E9n\u011B"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Umo\u017Enit aplikaci {APP_NAME}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}male{Umo\u017Enit aplikaci {APP_NAME}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}other{Umo\u017Enit aplikaci {APP_NAME}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}}"
+   },
+   "2537804086667442212": {
+      "message": "Zru\u0161en\u00EDm se zastav\u00ED import dal\u0161\u00EDch fotek. Fotky, kter\u00E9 se ji\u017E nahr\u00E1ly, budou smaz\u00E1ny."
+   },
+   "2543396005338987129": {
+      "message": "Zru\u0161it import"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Rozmazan\u00E1}male{Rozmazan\u00E1}other{Rozmazan\u00E1}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka ze slo\u017Eky $1\u200B, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny # fotky ze slo\u017Eky $1\u200B, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no # fotek ze slo\u017Eky $1\u200B, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "2603085641264767659": {
+      "message": "\u00DA\u010Dastn\u00EDci ud\u00E1losti"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Umo\u017Enit aplikaci {XXX}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}male{Umo\u017Enit aplikaci {XXX}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}other{Umo\u017Enit aplikaci {XXX}, aby mi pomohla vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B s"
+   },
+   "2653328820441876128": {
+      "message": "Aplikace $1\u200B shroma\u017E\u010Fuje fotky z va\u0161ich fotoapar\u00E1t\u016F, mobil\u016F a slo\u017Eek na jednom m\u00EDst\u011B."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Byla zkop\u00EDrov\u00E1na 1 fotka ze slo\u017Eky {FOLDER_NAME}.}few{Byly zkop\u00EDrov\u00E1ny {NUM_PHOTOS_2} fotky ze slo\u017Eky {FOLDER_NAME}.}other{Bylo zkop\u00EDrov\u00E1no {NUM_PHOTOS_2} fotek ze slo\u017Eky {FOLDER_NAME}.}}"
+   },
+   "2683351316398940532": {
+      "message": "Pln\u00E1 velikost (zb\u00FDv\u00E1 $1\u200B GB z $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{P\u0159i va\u0161em p\u0159ihla\u0161ov\u00E1n\u00ED do aplikace {XXX} do\u0161lo k pot\u00ED\u017E\u00EDm.}male{P\u0159i va\u0161em p\u0159ihla\u0161ov\u00E1n\u00ED do aplikace {XXX} do\u0161lo k pot\u00ED\u017E\u00EDm.}other{P\u0159i va\u0161em p\u0159ihla\u0161ov\u00E1n\u00ED do aplikace {XXX} do\u0161lo k pot\u00ED\u017E\u00EDm.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Vybrat v\u0161e}female{Vybrat v\u0161e}other{Vybrat v\u0161e}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B s"
+   },
+   "2710655047330556001": {
+      "message": "Lid\u00E9 na t\u00E9to fotce"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{V\u00EDt\u00E1 v\u00E1s aplikace {XXX_1}}female{V\u00EDt\u00E1 v\u00E1s aplikace {XXX_2}}other{V\u00EDt\u00E1 v\u00E1s aplikace {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Expozice"
+   },
+   "2761269382982007883": {
+      "message": "D\u00EDky n\u00E1m budete m\u00EDt ve fotk\u00E1ch po\u0159\u00E1dek a nav\u00EDc v\u00E1m porad\u00EDme, kter\u00E9 z nich se hod\u00ED ke sd\u00EDlen\u00ED."
+   },
+   "2761326392133498772": {
+      "message": "Sd\u00EDlet fotku"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Oh noooo!}=1{1 fotka}few{{PHOTO_COUNT_2} fotky}other{{PHOTO_COUNT_2} fotek}}"
+   },
+   "2784586982005585140": {
+      "message": "V\u00EDce"
+   },
+   "2786233632874013852": {
+      "message": "Dal\u0161\u00ED fotky"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Zru\u0161it v\u00FDb\u011Br v\u0161ech polo\u017Eek}female{Zru\u0161it v\u00FDb\u011Br v\u0161ech polo\u017Eek}other{Zru\u0161it v\u00FDb\u011Br v\u0161ech polo\u017Eek}}"
+   },
+   "2798901106014707869": {
+      "message": "Teplota"
+   },
+   "2820098809819439336": {
+      "message": "Smazat fotky"
+   },
+   "2847005022751960352": {
+      "message": "St\u00E1le prob\u00EDh\u00E1 zpracov\u00E1n\u00ED..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknut\u00EDm sem m\u016F\u017Eete tuto fotku zobrazit a sd\u00EDlet.}few{Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit a sd\u00EDlet.}other{Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit a sd\u00EDlet.}}"
+   },
+   "287837027263664914": {
+      "message": "Upravit um\u00EDst\u011Bn\u00ED pro import"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Vybr\u00E1na {COUNT_2} fotka}few{Vybr\u00E1ny {COUNT_2} fotky}other{Vybr\u00E1no {COUNT_2} fotek}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Kliknut\u00EDm tuto fotku odeberete}female{Kliknut\u00EDm tuto fotku odeberete}other{Kliknut\u00EDm tuto fotku odeberete}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{P\u0159ihl\u00E1sit se}female{P\u0159ihl\u00E1sit se}other{P\u0159ihl\u00E1sit se}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0159idat {XXX_1} fotku do alba:}few{P\u0159idat {XXX_2} fotky do alba:}other{P\u0159idat {XXX_2} fotek do alba:}}"
+   },
+   "2973731817320915012": {
+      "message": "Podle data vytvo\u0159en\u00ED"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{P\u0159ehr\u00E1t od za\u010D\u00E1tku}female{P\u0159ehr\u00E1t od za\u010D\u00E1tku}other{P\u0159ehr\u00E1t od za\u010D\u00E1tku}}"
+   },
+   "2987283829749314385": {
+      "message": "Dobr\u00FD den, $2\u200B, v\u00EDt\u00E1 v\u00E1s aplikace $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nejsou vybr\u00E1ny \u017E\u00E1dn\u00E9 fotky}=1{{COUNT_2} fotka je p\u0159ipravena ke sd\u00EDlen\u00ED}few{{COUNT_2} fotky jsou p\u0159ipraveny ke sd\u00EDlen\u00ED}other{{COUNT_2} fotek je p\u0159ipraveno ke sd\u00EDlen\u00ED}}"
+   },
+   "2991916598129901933": {
+      "message": "Fotky: 1"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{N\u00EDzk\u00E1\u00A0kvalita}male{N\u00EDzk\u00E1\u00A0kvalita}other{N\u00EDzk\u00E1\u00A0kvalita}}"
+   },
+   "3018671699054071030": {
+      "message": "Fotky z p\u0159\u00EDsp\u011Bvk\u016F"
+   },
+   "3052031564829371686": {
+      "message": "Copyright &copy; 2012 Google Inc. V\u0161echna pr\u00E1va vyhrazena."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}male{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}other{Vyberte, zda chcete ulo\u017Eit z\u00E1lohu importovan\u00FDch fotek v pln\u00E9 velikosti, nebo chcete kopie v men\u0161\u00ED, standardn\u00ED velikosti (2048 px), kter\u00E9 jsou uchov\u00E1ny zdarma.}}"
+   },
+   "3062505056927186217": {
+      "message": "Fotky na n\u00E1st\u011Bnce"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{Dokon\u010Deno: {COUNT_2} z {TOTAL}}=1{Dokon\u010Deno: {COUNT_2} z {TOTAL}}few{Dokon\u010Deno: {COUNT_2} z {TOTAL}}other{Dokon\u010Deno: {COUNT_2} z {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "N\u00EDzk\u00E1 kvalita"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu}male{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu}other{K \u00FAvodn\u00EDmu nastaven\u00ED aplikace {XXX} pot\u0159ebujete p\u0159ipojen\u00ED k internetu}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}female{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}other{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}}"
+   },
+   "3169583722209452922": {
+      "message": "Uspo\u0159\u00E1dat v\u00FDb\u011Br"
+   },
+   "3173944879942241188": {
+      "message": "Rozost\u0159en\u00E1"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}female{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}other{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B nab\u00EDz\u00ED jednodu\u0161\u0161\u00ED zp\u016Fsob, jak uspo\u0159\u00E1dat a sd\u00EDlet fotky."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}female{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}other{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}}"
+   },
+   "3231427490891919648": {
+      "message": "Roz\u0161\u00ED\u0159en\u00E9 kruhy"
+   },
+   "3249513483374643425": {
+      "message": "P\u0159idat"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} nab\u00EDz\u00ED jednodu\u0161\u0161\u00ED zp\u016Fsob, jak uspo\u0159\u00E1dat a sd\u00EDlet fotky.}}"
+   },
+   "3266811991857373598": {
+      "message": "Za\u010Dn\u011Bte t\u00EDm, \u017Ee importujete sv\u00E9 fotky"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotka}few{{COUNT_2} fotky}other{{COUNT_2} fotek}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Smazat album}few{Smazat alba}other{Smazat alba}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Se\u0159adit}female{Se\u0159adit}other{Se\u0159adit}}"
+   },
+   "3298990500476723192": {
+      "message": "Smazat album"
+   },
+   "3304972143698843178": {
+      "message": "Ud\u00E1lost"
+   },
+   "3316542569449182462": {
+      "message": "Hled\u00E1n\u00ED nejlep\u0161\u00EDch fotek"
+   },
+   "3319379534575065569": {
+      "message": "Duplicitn\u00ED"
+   },
+   "3335855558019774894": {
+      "message": "Zav\u0159\u00EDt"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B z $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Na t\u00E9to fotce nen\u00ED nikdo ozna\u010Den."
+   },
+   "335552911020230570": {
+      "message": "Ru\u0161en\u00ED..."
+   },
+   "3392114061661490939": {
+      "message": "Rozm\u011Bry"
+   },
+   "339966167441018467": {
+      "message": "Fotky se\u0159azen\u00E9 podle obl\u00EDbenosti."
+   },
+   "3443823355111334897": {
+      "message": "Fotky: $1\u200B"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Ukon\u010Dit re\u017Eim cel\u00E9 obrazovky}female{Ukon\u010Dit re\u017Eim cel\u00E9 obrazovky}other{Ukon\u010Dit re\u017Eim cel\u00E9 obrazovky}}"
+   },
+   "3479702069824639097": {
+      "message": "Stisknut\u00EDm zobraz\u00EDte p\u016Fvodn\u00ED fotku."
+   },
+   "3529907190030543252": {
+      "message": "K \u00FAvodn\u00EDmu nastaven\u00ED aplikace $1\u200B pot\u0159ebujete p\u0159ipojen\u00ED k internetu"
+   },
+   "3549990505176341828": {
+      "message": "P\u0159eexponovan\u00E1"
+   },
+   "3561019065020608408": {
+      "message": "P\u0159ipraveno ke sd\u00EDlen\u00ED"
+   },
+   "360237722039211543": {
+      "message": "Fotky na Disku lze pouze kop\u00EDrovat a sd\u00EDlet"
+   },
+   "3624887810607887590": {
+      "message": "Oto\u010Dit doleva"
+   },
+   "3627956543961104309": {
+      "message": "Nastaven\u00ED $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Zdroje fotek"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Zru\u0161it import (1 fotka)}few{Zru\u0161it import ({NUM_PHOTOS_2} fotky)}other{Zru\u0161it import ({NUM_PHOTOS_2} fotek)}}"
+   },
+   "3687863378890487189": {
+      "message": "Pohyb"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Smazat vybranou fotku}few{Smazat vybran\u00E9 fotky}other{Smazat vybran\u00E9 fotky}}"
+   },
+   "3714818517297325649": {
+      "message": "Zru\u0161en\u00EDm se zastav\u00ED import dal\u0161\u00EDch fotek.\nFotky, kter\u00E9 se ji\u017E nahr\u00E1ly, nebudou smaz\u00E1ny."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Import fotek"
+   },
+   "3807699453257291879": {
+      "message": "Koment\u00E1\u0159e"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fotku zobraz\u00EDte kliknut\u00EDm sem.}few{Fotky zobraz\u00EDte kliknut\u00EDm sem.}other{Fotky zobraz\u00EDte kliknut\u00EDm sem.}}"
+   },
+   "3818348166201769715": {
+      "message": "V\u0161echny va\u0161e fotky"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Zb\u00FDv\u00E1: {COUNT_2} z {TOTAL}}few{Zb\u00FDv\u00E1: {COUNT_2} z {TOTAL}}other{Zb\u00FDv\u00E1: {COUNT_2} z {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Viditeln\u00E9 pro: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Oto\u010Dit proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek"
+   },
+   "3885024486041657280": {
+      "message": "Tato kol\u00E1\u017E byla vytvo\u0159ena ze s\u00E9rie portr\u00E9tov\u00FDch fotek."
+   },
+   "3888600924819157294": {
+      "message": "V\u0161echny fotky z Pokecu."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Smazat toto album}few{Smazat alba}other{Smazat alba}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Vybranou fotku oto\u010Dit doleva}few{Vybran\u00E9 fotky oto\u010Dit doleva}other{Vybran\u00E9 fotky oto\u010Dit doleva}}"
+   },
+   "3973931101896534797": {
+      "message": "Datum"
+   },
+   "4023731095051291021": {
+      "message": "Zobrazit na Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}male{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}other{Upozornit m\u011B a importovat fotky z p\u0159ipojen\u00FDch fotoapar\u00E1t\u016F a pam\u011B\u0165ov\u00FDch karet}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Spustit znovu}female{Spustit znovu}other{Spustit znovu}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Zd\u00E1 se, \u017Ee jste aplikaci {XXX} spustila na za\u0159\u00EDzen\u00ED, kter\u00E9 nepou\u017E\u00EDv\u00E1 opera\u010Dn\u00ED syst\u00E9m Chrome. Tato aplikace je moment\u00E1ln\u011B dostupn\u00E1 pouze pro Chrome OS. I p\u0159esto se v\u0161ak jej\u00ED ikona m\u016F\u017Ee zobrazovat v prohl\u00ED\u017Ee\u010Di Chrome na za\u0159\u00EDzen\u00EDch, kter\u00E1 Chrome OS nepou\u017E\u00EDvaj\u00ED.}male{Zd\u00E1 se, \u017Ee jste aplikaci {XXX} spustil na za\u0159\u00EDzen\u00ED, kter\u00E9 nepou\u017E\u00EDv\u00E1 opera\u010Dn\u00ED syst\u00E9m Chrome. Tato aplikace je moment\u00E1ln\u011B dostupn\u00E1 pouze pro Chrome OS. I p\u0159esto se v\u0161ak jej\u00ED ikona m\u016F\u017Ee zobrazovat v prohl\u00ED\u017Ee\u010Di Chrome na za\u0159\u00EDzen\u00EDch, kter\u00E1 Chrome OS nepou\u017E\u00EDvaj\u00ED.}other{Zd\u00E1 se, \u017Ee jste aplikaci {XXX} spustili na za\u0159\u00EDzen\u00ED, kter\u00E9 nepou\u017E\u00EDv\u00E1 opera\u010Dn\u00ED syst\u00E9m Chrome. Tato aplikace je moment\u00E1ln\u011B dostupn\u00E1 pouze pro Chrome OS. I p\u0159esto se v\u0161ak jej\u00ED ikona m\u016F\u017Ee zobrazovat v prohl\u00ED\u017Ee\u010Di Chrome na za\u0159\u00EDzen\u00EDch, kter\u00E1 Chrome OS nepou\u017E\u00EDvaj\u00ED.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Zobrazit importovanou fotku}few{Zobrazit importovan\u00E9 fotky}other{Zobrazit importovan\u00E9 fotky}}"
+   },
+   "4187596523158859173": {
+      "message": "Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit."
+   },
+   "4201300158283262687": {
+      "message": "Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit."
+   },
+   "4248380204989256605": {
+      "message": "P\u0159idat do"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Pouze vy}male{Pouze vy}other{Pouze vy}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{P\u0159idat do alba}female{P\u0159idat do alba}other{P\u0159idat do alba}}"
+   },
+   "4293741535116795213": {
+      "message": "Tato fotka byla vytvo\u0159ena z nejhez\u010D\u00EDch \u00FAsm\u011Bv\u016F, kter\u00E9 jsme na\u0161li v s\u00E9rii podobn\u00FDch fotek."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}male{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}other{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku ve sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}}"
+   },
+   "4323470180912194028": {
+      "message": "Kop\u00EDrovat"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}female{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}other{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Viditeln\u00E9 pouze pro v\u00E1s"
+   },
+   "4367940371467792621": {
+      "message": "Zaregistrujte se na Google+"
+   },
+   "4384754616332866866": {
+      "message": "Viditeln\u00E9 pro ty, s nimi\u017E toto album sd\u00EDl\u00EDte"
+   },
+   "4397726581488253055": {
+      "message": "Ukon\u010Dit"
+   },
+   "4451709539238919902": {
+      "message": "N\u011Bkter\u00E9 fotky maj\u00ED v\u00EDce kopi\u00ED, kter\u00E9 nebudou smaz\u00E1ny."
+   },
+   "4458099219143901905": {
+      "message": "Otev\u0159\u00EDt ve slu\u017Eb\u011B Fotky Google+"
+   },
+   "4470533259338698234": {
+      "message": "P\u0159esunout"
+   },
+   "4472091515638733183": {
+      "message": "Import byl zastaven"
+   },
+   "4485837491844366665": {
+      "message": "Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit a sd\u00EDlet."
+   },
+   "4489698681193228521": {
+      "message": "V\u00EDt\u00E1 v\u00E1s aplikace $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Importovat fotky p\u0159i p\u0159ipojen\u00ED fotoapar\u00E1tu nebo pam\u011B\u0165ov\u00E9 karty"
+   },
+   "4504920004530359010": {
+      "message": "Pln\u00E1 velikost (bezplatn\u00E9 \u00FAlo\u017Ei\u0161t\u011B a\u017E 5 GB)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{P\u0159ehr\u00E1t}female{P\u0159ehr\u00E1t}other{P\u0159ehr\u00E1t}}"
+   },
+   "4535738935335444945": {
+      "message": "Nesd\u00EDleno"
+   },
+   "4550974869121207169": {
+      "message": "smazat"
+   },
+   "4557902876984952242": {
+      "message": "Upravit"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Smaz\u00E1n\u00EDm tohoto alba budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k tomuto albu.}few{Smaz\u00E1n\u00EDm t\u011Bchto alb budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k t\u011Bmto alb\u016Fm.}other{Smaz\u00E1n\u00EDm t\u011Bchto alb budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k t\u011Bmto alb\u016Fm.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatick\u00FD v\u00FDb\u011Br"
+   },
+   "4579986716424813115": {
+      "message": "P\u0159ehr\u00E1t od za\u010D\u00E1tku"
+   },
+   "460600293345244430": {
+      "message": "Vyberte fotky, kter\u00E9 chcete sd\u00EDlet nebo p\u0159idat do alba."
+   },
+   "4624285717763544623": {
+      "message": "P\u0159idat"
+   },
+   "4630251340863502127": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED importovan\u00FDch fotek"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}male{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}other{Nem\u00E1te \u017E\u00E1dn\u00E1 alba. Nahrajte fotky.}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla importov\u00E1na jedna fotka.}few{Byly importov\u00E1ny # fotky.}other{Bylo importov\u00E1no # fotek.}}"
+   },
+   "466730294804943734": {
+      "message": "Zat\u00EDm \u017E\u00E1dn\u00E9 koment\u00E1\u0159e."
+   },
+   "467305038295675927": {
+      "message": "Aplikace $1\u200B na t\u00E9to platform\u011B nen\u00ED podporov\u00E1na"
+   },
+   "4678028473996848955": {
+      "message": "V\u0161echny va\u0161e fotky"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Zru\u0161it}female{Zru\u0161it}other{Zru\u0161it}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B z $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Pokud tato alba sma\u017Eete, budou smaz\u00E1ny i v\u0161echny souvisej\u00EDc\u00ED p\u0159\u00EDsp\u011Bvky, koment\u00E1\u0159e a +1."
+   },
+   "471816275243265264": {
+      "message": "Um\u00EDst\u011Bn\u00ED"
+   },
+   "4726999481668064421": {
+      "message": "Tato HDR fotka byla vytvo\u0159ena ze s\u00E9rie fotek s odstup\u0148ovanou expozic\u00ED (bracketingem)."
+   },
+   "4736210244914788712": {
+      "message": "Disk"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BJste p\u0159ihl\u00E1\u0161eni jako$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Dobr\u00FD den, v\u00EDt\u00E1 v\u00E1s aplikace $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Fotky z Pokecu"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BJste p\u0159ihl\u00E1\u0161eni jako$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Nyn\u00ED m\u016F\u017Eete za\u0159\u00EDzen\u00ED bezpe\u010Dn\u011B odpojit."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}female{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}other{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Importovat fotky p\u0159i p\u0159ipojen\u00ED fotoapar\u00E1tu nebo pam\u011B\u0165ov\u00E9 karty}male{Importovat fotky p\u0159i p\u0159ipojen\u00ED fotoapar\u00E1tu nebo pam\u011B\u0165ov\u00E9 karty}other{Importovat fotky p\u0159i p\u0159ipojen\u00ED fotoapar\u00E1tu nebo pam\u011B\u0165ov\u00E9 karty}}"
+   },
+   "484542621830317934": {
+      "message": "Nem\u00E1te \u017E\u00E1dn\u00E9 album. Nahrajte n\u011Bjak\u00E9 fotky."
+   },
+   "489844404897890427": {
+      "message": "Cel\u00E1 obrazovka"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 fotek}=1{1 fotka}few{{NUM_2} fotky}other{{NUM_2} fotek}}"
+   },
+   "4930506384627295710": {
+      "message": "Nastaven\u00ED"
+   },
+   "495485805564687684": {
+      "message": "Zastavit import"
+   },
+   "4957990634817185638": {
+      "message": "Pokra\u010Dovat v importov\u00E1n\u00ED"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Sd\u00EDlet album}=1{Sd\u00EDlet vybranou fotku}few{Sd\u00EDlet vybran\u00E9 fotky}other{Sd\u00EDlet vybran\u00E9 fotky}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Kliknut\u00EDm p\u0159idejte fotky}male{Kliknut\u00EDm p\u0159idejte fotky}other{Kliknut\u00EDm p\u0159idejte fotky}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Vybr\u00E1n {COUNT_2} den}few{Vybr\u00E1ny {COUNT_2} dny}other{Vybr\u00E1no {COUNT_2} dn\u016F}}"
+   },
+   "5028777105388019087": {
+      "message": "Podrobnosti"
+   },
+   "5043933900720743682": {
+      "message": "Alba"
+   },
+   "5045200874122539692": {
+      "message": "Ukon\u010Dit"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Za\u010Dn\u011Bte t\u00EDm, \u017Ee nahrajete n\u011Bjak\u00E9 fotky.}male{Za\u010Dn\u011Bte t\u00EDm, \u017Ee nahrajete n\u011Bjak\u00E9 fotky.}other{Za\u010Dn\u011Bte t\u00EDm, \u017Ee nahrajete n\u011Bjak\u00E9 fotky.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Va\u0161e dom\u00E9na"
+   },
+   "5087678602655068553": {
+      "message": "Fotoapar\u00E1t"
+   },
+   "5094793857629325945": {
+      "message": "Prob\u00EDh\u00E1 p\u0159\u00EDprava sd\u00EDlen\u00ED..."
+   },
+   "509736707516044180": {
+      "message": "Ru\u0161en\u00ED..."
+   },
+   "5114432207766092038": {
+      "message": "V\u0161echny fotky ze v\u0161ech p\u0159\u00EDsp\u011Bvk\u016F."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Smaz\u00E1n\u00EDm t\u00E9to fotky budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k t\u00E9to fotce.}few{Smaz\u00E1n\u00EDm t\u011Bchto fotek budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k t\u011Bmto fotk\u00E1m.}other{Smaz\u00E1n\u00EDm t\u011Bchto fotek budou odstran\u011Bny v\u0161echny koment\u00E1\u0159e, +1 a jmenovky p\u0159idru\u017Een\u00E9 k t\u011Bmto fotk\u00E1m.}}"
+   },
+   "5127852906617233988": {
+      "message": "Zav\u0159\u00EDt"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Va\u0161e kruhy}male{Va\u0161e kruhy}other{Va\u0161e kruhy}}"
+   },
+   "5143227875710959810": {
+      "message": "Sd\u00EDlet album"
+   },
+   "5146398958364876914": {
+      "message": "\u0158adit"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Od u\u017Eivatelky {FROM_NAME}}male{Od u\u017Eivatele {FROM_NAME}}other{Od u\u017Eivatele {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Nastavit jako obal alba}female{Nastavit jako obal alba}other{Nastavit jako obal alba}}"
+   },
+   "5179193375793315549": {
+      "message": "Nelze p\u0159idat v\u00EDce ne\u017E $1\u200B fotek najednou."
+   },
+   "5198477912095887288": {
+      "message": "bez \u00FAprav"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Zobrazit fotku}few{Zobrazit fotky}other{Zobrazit fotky}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}male{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}other{Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome.}}"
+   },
+   "5233843271957333982": {
+      "message": "resetovat"
+   },
+   "5252008443782667515": {
+      "message": "Ano"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Existuje je\u0161t\u011B 1 kopie, kter\u00E1 nebude smaz\u00E1na.}few{Existuj\u00ED {NUM_ADDITIONAL_COPIES_2} kopie, kter\u00E9 nebudou smaz\u00E1ny.}other{Existuje {NUM_ADDITIONAL_COPIES_2} kopi\u00ED, kter\u00E9 nebudou smaz\u00E1ny.}}"
+   },
+   "5369958865776447504": {
+      "message": "Tato fotka se nach\u00E1z\u00ED v albu $1\u200B."
+   },
+   "5376084340764125422": {
+      "message": "Ukon\u010Dit re\u017Eim cel\u00E9 obrazovky"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Mix"
+   },
+   "5413761544816529267": {
+      "message": "Chcete-li pou\u017E\u00EDvat aplikaci $1\u200B, zaregistrujte si \u00FA\u010Det Google+."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Opakovat akci"
+   },
+   "545081735380424772": {
+      "message": "Nahr\u00E1vejte a sd\u00EDlejte fotky z prohl\u00ED\u017Ee\u010De Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Maz\u00E1n\u00ED fotek"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Rozost\u0159en\u00E1"
+   },
+   "5522640894890976342": {
+      "message": "Tmav\u00E1"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{P\u0159eexponovan\u00E1}male{P\u0159eexponovan\u00E1}other{P\u0159eexponovan\u00E1}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Byla zkop\u00EDrov\u00E1na 1 fotka.}few{Byly zkop\u00EDrov\u00E1ny {NUM_PHOTOS_2} fotky.}other{Bylo zkop\u00EDrov\u00E1no {NUM_PHOTOS_2} fotek.}}"
+   },
+   "5546339789714773759": {
+      "message": "Oto\u010Dit doprava"
+   },
+   "5563891514339188770": {
+      "message": "Nastavit jako obal alba"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Kliknut\u00EDm tuto fotku odeberete}male{Kliknut\u00EDm tuto fotku odeberete}other{Kliknut\u00EDm tuto fotku odeberete}}"
+   },
+   "5613209249634786065": {
+      "message": "Pln\u00E1 (bezplatn\u00E9 \u00FAlo\u017Ei\u0161t\u011B a\u017E 5 GB)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{V\u0161echny sv\u00E9 fotky a videa m\u016F\u017Eete ulo\u017Eit, uspo\u0159\u00E1dat a sd\u00EDlet pomoc\u00ED n\u011Bkolika kliknut\u00ED.}female{V\u0161echny sv\u00E9 fotky a videa m\u016F\u017Eete ulo\u017Eit, uspo\u0159\u00E1dat a sd\u00EDlet pomoc\u00ED n\u011Bkolika kliknut\u00ED.}other{V\u0161echny sv\u00E9 fotky a videa m\u016F\u017Eete ulo\u017Eit, uspo\u0159\u00E1dat a sd\u00EDlet pomoc\u00ED n\u011Bkolika kliknut\u00ED.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka, kterou Google vybral jako nejlep\u0161\u00ED.}few{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} fotky, kter\u00E9 Google vybral jako nejlep\u0161\u00ED.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} fotek, kter\u00E9 Google vybral jako nejlep\u0161\u00ED.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Zobrazit fotku}few{Zobrazit fotky}other{Zobrazit fotky}}}female{{COUNT,plural, =0{unused plural form}=1{Zobrazit fotku}few{Zobrazit fotky}other{Zobrazit fotky}}}other{{COUNT,plural, =0{unused plural form}=1{Zobrazit fotku}few{Zobrazit fotky}other{Zobrazit fotky}}}}"
+   },
+   "5746809345784803206": {
+      "message": "V tomto albu nen\u00ED nikdo ozna\u010Den."
+   },
+   "5747301769466451086": {
+      "message": "Pln\u00E1 (zb\u00FDv\u00E1 $1\u200B z $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Nelze sd\u00EDlet v\u00EDce ne\u017E $1\u200B fotek najednou."
+   },
+   "5750485945694679561": {
+      "message": "Fotka"
+   },
+   "5752465522295465624": {
+      "message": "Co je to?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla importov\u00E1na jedna fotka.}few{Byly importov\u00E1ny # fotky.}other{Bylo importov\u00E1no # fotek.}}"
+   },
+   "5782608665556323710": {
+      "message": "Sd\u00EDleno s roz\u0161\u00ED\u0159en\u00FDmi kruhy"
+   },
+   "5792855097053831820": {
+      "message": "Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Smazat tuto fotku}few{Smazat fotky}other{Smazat fotky}}"
+   },
+   "5822534876981710132": {
+      "message": "Okam\u017Eit\u00E9 nahr\u00E1v\u00E1n\u00ED"
+   },
+   "5849125517299342831": {
+      "message": "Import fotek..."
+   },
+   "5851872412594366640": {
+      "message": "P\u0159esunout v\u0161echny fotky v albu"
+   },
+   "585220835732140655": {
+      "message": "Sd\u00EDleno $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Pln\u00E1 (bezplatn\u00E9 \u00FAlo\u017Ei\u0161t\u011B a\u017E 5 GB)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 fotka, kterou jste ji\u017E importovali, bude je\u0161t\u011B nahr\u00E1na.}few{{NUM_PHOTOS_2} fotky, kter\u00E9 jste ji\u017E importovali, budou je\u0161t\u011B nahr\u00E1ny.}other{{NUM_PHOTOS_2} fotek, kter\u00E9 jste ji\u017E importovali, bude je\u0161t\u011B nahr\u00E1no.}}"
+   },
+   "591256046515963756": {
+      "message": "Nep\u0159ijdete o \u017E\u00E1dnou vzpom\u00EDnku. Ke sv\u00FDm fotk\u00E1m budete m\u00EDt p\u0159\u00EDstup z libovoln\u00E9ho za\u0159\u00EDzen\u00ED."
+   },
+   "5937251202465808296": {
+      "message": "Dal\u0161\u00ED"
+   },
+   "5963865584069399662": {
+      "message": "soukrom\u00E9"
+   },
+   "5978216065275630477": {
+      "message": "P\u0159i va\u0161em p\u0159ihla\u0161ov\u00E1n\u00ED do slu\u017Eby Fotky Google+ do\u0161lo k pot\u00ED\u017E\u00EDm."
+   },
+   "5981779462795520309": {
+      "message": "P\u0159\u00EDjemci p\u016Fvodn\u00EDch p\u0159\u00EDsp\u011Bvk\u016F"
+   },
+   "5984859669237993376": {
+      "message": "Kliknut\u00EDm p\u0159idejte fotky"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny # fotky, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no # fotek, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "6003032126642624287": {
+      "message": "Pln\u00E1 velikost (bezplatn\u00E9 \u00FAlo\u017Ei\u0161t\u011B a\u017E 5,0 GB)"
+   },
+   "6021285543212025836": {
+      "message": "Pokud tuto fotku sma\u017Eete, budou smaz\u00E1ny i v\u0161echny souvisej\u00EDc\u00ED p\u0159\u00EDsp\u011Bvky, koment\u00E1\u0159e a hodnocen\u00ED +1."
+   },
+   "605360614133602045": {
+      "message": "dop."
+   },
+   "6073020864818444056": {
+      "message": "Hotovo"
+   },
+   "612521550010808115": {
+      "message": "Viditeln\u00E9 pro ka\u017Ed\u00E9ho na webu"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny # fotky, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no # fotek, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "6143433948220856193": {
+      "message": "P\u0159eexponovan\u00E1"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Smazat fotku"
+   },
+   "6261883509320806048": {
+      "message": "Chcete vybran\u00E9 fotky smazat?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B v\u00E1m umo\u017En\u00ED ulo\u017Eit v\u0161echny fotky, kter\u00E9 m\u00E1te na disku, a fotky, kter\u00E9 po\u0159\u00EDd\u00EDte pomoc\u00ED telefonu a fotoapar\u00E1tu, na jednom m\u00EDst\u011B."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{{APP_NAME} v\u00E1m pom\u016F\u017Ee vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}female{{APP_NAME} v\u00E1m pom\u016F\u017Ee vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}other{{APP_NAME} v\u00E1m pom\u016F\u017Ee vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry}}"
+   },
+   "6366245138858985671": {
+      "message": "Album fotek z n\u00E1st\u011Bnky."
+   },
+   "636798263636559500": {
+      "message": "Zadejte n\u00E1zev alba"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}male{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}other{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}}"
+   },
+   "6402624319890396199": {
+      "message": "Zru\u0161it"
+   },
+   "6405254665227516714": {
+      "message": "V\u0161echny profilov\u00E9 fotky."
+   },
+   "6421460271971606186": {
+      "message": "Lupa"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Nem\u016F\u017Eete vybrat fotky, kter\u00E9 vlastn\u00ED n\u011Bkdo jin\u00FD}male{Nem\u016F\u017Eete vybrat fotky, kter\u00E9 vlastn\u00ED n\u011Bkdo jin\u00FD}other{Nem\u016F\u017Eete vybrat fotky, kter\u00E9 vlastn\u00ED n\u011Bkdo jin\u00FD}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Nejste p\u0159ipojen k internetu.}female{Nejste p\u0159ipojena k internetu.}other{Nejste p\u0159ipojeni k internetu.}}"
+   },
+   "6544829965377284375": {
+      "message": "Tyto fotky jsou na Google+ nahr\u00E1ny soukrom\u011B a nikdo krom\u011B v\u00E1s je neuvid\u00ED."
+   },
+   "6546455868033656709": {
+      "message": "Podle data po\u0159\u00EDzen\u00ED (od nejnov\u011Bj\u0161\u00EDch)"
+   },
+   "6562395422130457272": {
+      "message": "Osv\u011Btlen\u00ED"
+   },
+   "6569718559670589774": {
+      "message": "Sd\u00EDleno soukrom\u011B"
+   },
+   "6578760328281087395": {
+      "message": "Smazat fotku"
+   },
+   "6594379652661172876": {
+      "message": "Tento obr\u00E1zek ve stylu fotky z automatu byl vytvo\u0159en z v\u00EDce portr\u00E9t\u016F."
+   },
+   "6604371182910178125": {
+      "message": "Pokud toto album sma\u017Eete, budou smaz\u00E1ny i v\u0161echny souvisej\u00EDc\u00ED p\u0159\u00EDsp\u011Bvky, koment\u00E1\u0159e a hodnocen\u00ED +1."
+   },
+   "6626842519109915669": {
+      "message": "Fotky z alba Automatick\u00E9 z\u00E1lohov\u00E1n\u00ED"
+   },
+   "663126026358360455": {
+      "message": "Standardn\u00ED (neomezen\u00E9 bezplatn\u00E9 \u00FAlo\u017Ei\u0161t\u011B)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny {NUM_PHOTOS_2} fotky, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no {NUM_PHOTOS_2} fotek, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "664682826251689034": {
+      "message": "Zat\u00EDm \u017E\u00E1dn\u00E1 hodnocen\u00ED +1."
+   },
+   "666585356635427967": {
+      "message": "Tato fotka byla automaticky vylep\u0161ena."
+   },
+   "6698080327673689103": {
+      "message": "Hled\u00E1n\u00ED nejlep\u0161\u00EDch z\u00E1b\u011Br\u016F..."
+   },
+   "6721868124884562992": {
+      "message": "M\u011Bjte fotky ze v\u0161ech za\u0159\u00EDzen\u00ED hezky pohromad\u011B."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Spravovat}female{Spravovat}other{Spravovat}}"
+   },
+   "6747166642870870925": {
+      "message": "Zastavov\u00E1n\u00ED importu..."
+   },
+   "6750134343457912784": {
+      "message": "Chcete-li aplikaci $1\u200B vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala."
+   },
+   "675159243189607951": {
+      "message": "P\u0159idat fotky do alba"
+   },
+   "6778067484492795152": {
+      "message": "Tmav\u00E1"
+   },
+   "6792549611288275870": {
+      "message": "Ohniskov\u00E1 vzd\u00E1lenost"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B bezpe\u010Dn\u011B ukl\u00E1d\u00E1 va\u0161e fotky a umo\u017E\u0148uje v\u00E1m je zobrazovat z\u00A0libovoln\u00E9ho za\u0159\u00EDzen\u00ED prakticky kdykoliv."
+   },
+   "680511502310466916": {
+      "message": "Obl\u00EDben\u00E9 fotky"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{na {NUM_PHOTOS_2} fotce}few{na {NUM_PHOTOS_2} fotk\u00E1ch}other{na {NUM_PHOTOS_2} fotk\u00E1ch}}"
+   },
+   "6872320306636644917": {
+      "message": "Nyn\u00ED m\u016F\u017Eete za\u0159\u00EDzen\u00ED bezpe\u010Dn\u011B odpojit."
+   },
+   "6872759799605876555": {
+      "message": "Clonov\u00E9 \u010D\u00EDslo"
+   },
+   "687281374586801843": {
+      "message": "Po p\u0159ipojen\u00ED fotoapar\u00E1tu nebo pam\u011B\u0165ov\u00E9 karty spustit aplikaci $1\u200B a importovat fotky"
+   },
+   "6882873153932419461": {
+      "message": "V\u00FDb\u011Brov\u00E9 \u00FApravy"
+   },
+   "6906406658770551379": {
+      "message": "Tato animace byla vytvo\u0159ena ze s\u00E9rie p\u011Bti nebo v\u00EDce fotek."
+   },
+   "6983200894459150878": {
+      "message": "Tato panoramatick\u00E1 fotka byla vytvo\u0159ena ze s\u00E9rie p\u0159ekr\u00FDvaj\u00EDc\u00EDch se fotek."
+   },
+   "7022070615528435141": {
+      "message": "Smazat"
+   },
+   "7049887240439736400": {
+      "message": "Tisk"
+   },
+   "706796434064753890": {
+      "message": "P\u0159ehr\u00E1t prezentaci"
+   },
+   "7102649289752747375": {
+      "message": "Odeslat n\u00E1zor"
+   },
+   "7105497072958063616": {
+      "message": "T\u00F3nov\u00E1n\u00ED"
+   },
+   "7182974689040833178": {
+      "message": "Obnovit"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Va\u0161e dom\u00E9na}male{Va\u0161e dom\u00E9na}other{Va\u0161e dom\u00E9na}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BJste p\u0159ihl\u00E1\u0161eni jako$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Import fotek ze za\u0159\u00EDzen\u00ED $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Pokra\u010Dovat v importu"
+   },
+   "7283005104295613831": {
+      "message": "Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma."
+   },
+   "7288593042347321202": {
+      "message": "Chcete vybranou fotku smazat?"
+   },
+   "7329217250595054697": {
+      "message": "P\u016Fvodn\u00ED"
+   },
+   "734934965373819800": {
+      "message": "P\u0159ej\u00EDt zp\u011Bt"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Ozna\u010Dena v: {ALBUM_NAME}}male{Ozna\u010Den v: {ALBUM_NAME}}other{Ozna\u010Den(a) v: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "P\u0159idat fotky"
+   },
+   "7419704019640008953": {
+      "message": "Sd\u00EDlet"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Nejlep\u0161\u00ED}male{Nejlep\u0161\u00ED}other{Nejlep\u0161\u00ED}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{V\u00EDt\u00E1 v\u00E1s aplikace {XXX}}male{V\u00EDt\u00E1 v\u00E1s aplikace {XXX}}other{V\u00EDt\u00E1 v\u00E1s aplikace {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Chcete-li zobrazit v\u0161echny fotky a alba, znovu se p\u0159ipojte."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pozastavit}female{Pozastavit}other{Pozastavit}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Oto\u010Dit vybranou fotku doprava}few{Oto\u010Dit vybran\u00E9 fotky doprava}other{Oto\u010Dit vybran\u00E9 fotky doprava}}"
+   },
+   "7488769419737494778": {
+      "message": "Dobr\u00FD den, $1\u200B"
+   },
+   "7496736746864872636": {
+      "message": "Te\u010F vyberte velikost nahr\u00E1van\u00FDch soubor\u016F"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla zkop\u00EDrov\u00E1na 1 fotka.}few{Byly zkop\u00EDrov\u00E1ny # fotky.}other{Bylo zkop\u00EDrov\u00E1no # fotek.}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Sd\u00EDlet}female{Sd\u00EDlet}other{Sd\u00EDlet}}"
+   },
+   "7538539390938534172": {
+      "message": "Vyv\u00E1\u017Een\u00ED b\u00EDl\u00E9"
+   },
+   "7546970424299309536": {
+      "message": "Automaticky uspo\u0159\u00E1d\u00E1ny a p\u0159ipraveny ke sd\u00EDlen\u00ED"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nejsou vybr\u00E1ny \u017E\u00E1dn\u00E9 fotky}=1{Vybr\u00E1na {COUNT_2} fotka}few{Vybr\u00E1ny {COUNT_2} fotky}other{Vybr\u00E1no {COUNT_2} fotek}}"
+   },
+   "7637409896935138087": {
+      "message": "Podle data po\u0159\u00EDzen\u00ED (od nejstar\u0161\u00EDch)"
+   },
+   "7649598852815041947": {
+      "message": "Nov\u00E9 album"
+   },
+   "765296891797858248": {
+      "message": "Dobr\u00FD den!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka ze slo\u017Eky {FOLDER_NAME}, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny {NUM_PHOTOS_2} fotky ze slo\u017Eky {FOLDER_NAME}, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no {NUM_PHOTOS_2} fotek ze slo\u017Eky {FOLDER_NAME}, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B zobrazen\u00ED"
+   },
+   "7718742267235559288": {
+      "message": "Ukon\u010Dit re\u017Eim cel\u00E9 obrazovky"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla zkop\u00EDrov\u00E1na jedna fotka ze slo\u017Eky $1\u200B.}few{Byly zkop\u00EDrov\u00E1ny # fotky ze slo\u017Eky $1\u200B.}other{Bylo zkop\u00EDrov\u00E1no # fotek ze slo\u017Eky $1\u200B.}}"
+   },
+   "7736850283853703249": {
+      "message": "Bezpe\u010Dn\u011B ulo\u017Een\u00E9"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0159esunout vybranou fotku}few{P\u0159esunout vybran\u00E9 fotky}other{P\u0159esunout vybran\u00E9 fotky}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Za\u010D\u00EDn\u00E1me"
+   },
+   "779808899645033177": {
+      "message": "Posledn\u00ED import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Pouze vy"
+   },
+   "7828808805120058354": {
+      "message": "Vr\u00E1tit"
+   },
+   "7856636143847093955": {
+      "message": "Slou\u010Dit dny"
+   },
+   "7871095434511949009": {
+      "message": "Clona"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Te\u010F vyberte velikost nahr\u00E1van\u00FDch soubor\u016F}female{Te\u010F vyberte velikost nahr\u00E1van\u00FDch soubor\u016F}other{Te\u010F vyberte velikost nahr\u00E1van\u00FDch soubor\u016F}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}male{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}other{Vyberte zdroje, z kter\u00FDch se budou importovat fotky, je\u017E se nahraj\u00ED jako soukrom\u00E9 na Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}male{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}other{Kliknut\u00EDm vyberete nebo zru\u0161\u00EDte v\u00FDb\u011Br t\u00E9to fotky}}"
+   },
+   "7899751896282337632": {
+      "message": "Vylep\u0161eno"
+   },
+   "7911416166208830577": {
+      "message": "N\u00E1pov\u011Bda"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknut\u00EDm sem m\u016F\u017Eete tuto fotku zobrazit a sd\u00EDlet.}few{Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit a sd\u00EDlet.}other{Kliknut\u00EDm sem m\u016F\u017Eete tyto fotky zobrazit a sd\u00EDlet.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Smazat}female{Smazat}other{Smazat}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}female{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}other{Kliknut\u00EDm oto\u010D\u00EDte tuto fotku proti sm\u011Bru hodinov\u00FDch ru\u010Di\u010Dek}}"
+   },
+   "8031489364030461560": {
+      "message": "Nastaven\u00ED $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Tato fotka byla automaticky vylep\u0161ena.}male{Tato fotka byla automaticky vylep\u0161ena.}other{Tato fotka byla automaticky vylep\u0161ena.}}"
+   },
+   "8112449587476468078": {
+      "message": "Chcete vybran\u00E9 album smazat?"
+   },
+   "8121983485737306983": {
+      "message": "duplikovat"
+   },
+   "8137181364321684389": {
+      "message": "Fotky Google+"
+   },
+   "8160611829089073754": {
+      "message": "Smazat alba"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0159idat vybranou fotku do alba}few{P\u0159idat vybran\u00E9 fotky do alba}other{P\u0159idat vybran\u00E9 fotky do alba}}"
+   },
+   "8179903593042831802": {
+      "message": "P\u0159idat fotky"
+   },
+   "819996403327805209": {
+      "message": "Dal\u0161\u00ED informace"
+   },
+   "8209467666747691270": {
+      "message": "Nejlep\u0161\u00ED"
+   },
+   "8233995188166153420": {
+      "message": "Chcete-li za\u010D\u00EDt nahr\u00E1vat fotky, p\u0159ihlaste se do prohl\u00ED\u017Ee\u010De Chrome."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Hor\u0161\u00ED kopie}male{Hor\u0161\u00ED kopie}other{Hor\u0161\u00ED kopie}}"
+   },
+   "8257489178421131174": {
+      "message": "Zadejte n\u00E1zev alba"
+   },
+   "8262372758945437018": {
+      "message": "Za\u010D\u00EDn\u00E1me"
+   },
+   "8272813937461935720": {
+      "message": "P\u0159i va\u0161em p\u0159ihla\u0161ov\u00E1n\u00ED do slu\u017Eby Fotky Google+ do\u0161lo k pot\u00ED\u017E\u00EDm."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Kliknut\u00EDm p\u0159idejte fotky}female{Kliknut\u00EDm p\u0159idejte fotky}other{Kliknut\u00EDm p\u0159idejte fotky}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Sd\u00EDlet vybranou fotku}few{Sd\u00EDlet vybran\u00E9 fotky}other{Sd\u00EDlet vybran\u00E9 fotky}}"
+   },
+   "8317910107005018559": {
+      "message": "M\u00E9n\u011B"
+   },
+   "8324963774100913509": {
+      "message": "Jen n\u011Bkdo"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{V\u00EDt\u00E1 v\u00E1s aplikace {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Zadejte n\u00E1zev alba}male{Zadejte n\u00E1zev alba}other{Zadejte n\u00E1zev alba}}"
+   },
+   "8405309693308875139": {
+      "message": "Fotky"
+   },
+   "840692109692540367": {
+      "message": "P\u0159ihl\u00E1sit se"
+   },
+   "8418580476552799567": {
+      "message": "Velikost nahr\u00E1van\u00FDch soubor\u016F"
+   },
+   "8446162208830000966": {
+      "message": "Ukon\u010Dit"
+   },
+   "8461609631969932886": {
+      "message": "Skr\u00FDt"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B (verze $1\u200B)"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Fotku zobraz\u00EDte kliknut\u00EDm sem.}few{Fotky zobraz\u00EDte kliknut\u00EDm sem.}other{Fotky zobraz\u00EDte kliknut\u00EDm sem.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{N\u011Bjak\u00E9 fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}male{{COUNT_1,plural, =0{N\u011Bjak\u00E9 fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}other{{COUNT_1,plural, =0{N\u011Bjak\u00E9 fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}=1{{START_BOLD}1{END_BOLD} fotka \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud ji chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky \u010Dekaj\u00ED na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek \u010Dek\u00E1 na nahr\u00E1n\u00ED. Pokud je chcete nahr\u00E1t a sd\u00EDlet, znovu se p\u0159ipojte.}}}}"
+   },
+   "8523058396622240712": {
+      "message": "$1\u200B v\u00E1m pom\u016F\u017Ee vybrat z importovan\u00FDch fotek ty nejlep\u0161\u00ED z\u00E1b\u011Bry"
+   },
+   "8554704680089748768": {
+      "message": "Fotky importovan\u00E9 $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "P\u0159ehr\u00E1t"
+   },
+   "8566172133042307539": {
+      "message": "P\u0159idat do alba"
+   },
+   "8588705294225487286": {
+      "message": "Viditeln\u00E9 pro p\u0159\u00EDjemce p\u016Fvodn\u00EDch p\u0159\u00EDsp\u011Bvk\u016F"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}male{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}other{Zvolte z\u00E1lohy fotek v pln\u00E9 velikosti, nebo men\u0161\u00ED soubory standardn\u00ED velikosti, kter\u00E9 jsou zdarma.}}"
+   },
+   "8654290347345927684": {
+      "message": "Nyn\u00ED m\u016F\u017Eete za\u0159\u00EDzen\u00ED $1\u200B bezpe\u010Dn\u011B odpojit."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Dobr\u00FD den! V\u00EDt\u00E1 v\u00E1s slu\u017Eba {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Vybrat nejlep\u0161\u00ED"
+   },
+   "8675112326850410714": {
+      "message": "P\u0159ipojena pam\u011B\u0165ov\u00E1 karta nebo \u00FAlo\u017En\u00E9 za\u0159\u00EDzen\u00ED"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Ukon\u010Dit}female{Ukon\u010Dit}other{Ukon\u010Dit}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla importov\u00E1na jedna fotka ze slo\u017Eky $1\u200B.}few{Byly importov\u00E1ny # fotky ze slo\u017Eky $1\u200B.}other{Bylo importov\u00E1no # fotek ze slo\u017Eky $1\u200B.}}"
+   },
+   "8704271911477526098": {
+      "message": "Soukrom\u00E9"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Nejste p\u0159ipojena k internetu.}male{Nejste p\u0159ipojen k internetu.}other{Nejste p\u0159ipojeni k internetu.}}"
+   },
+   "8759519761443041119": {
+      "message": "Ulo\u017Eit nastaven\u00ED"
+   },
+   "8765880467977864647": {
+      "message": "autor: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "U\u017Eivatelsk\u00E1 nab\u00EDdka"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Cel\u00E1 obrazovka}female{Cel\u00E1 obrazovka}other{Cel\u00E1 obrazovka}}"
+   },
+   "8777952755137547655": {
+      "message": "Tato panoramatick\u00E1 fotka byla vytvo\u0159ena ze s\u00E9rie fotek, je\u017E zobrazovaly soused\u00EDc\u00ED z\u00E1b\u011Bry."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. 1 fotka je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. {COUNT_2} fotky jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Nahr\u00E1v\u00E1n\u00ED bylo dokon\u010Deno. {COUNT_2} fotek je p\u0159ipraveno ke sd\u00EDlen\u00ED.}}"
+   },
+   "8832933617217959986": {
+      "message": "Zru\u0161it v\u00FDb\u011Br v\u0161ech"
+   },
+   "8874739581425612284": {
+      "message": "Vyberte fotky, kter\u00E9 chcete sd\u00EDlet nebo p\u0159idat do alba"
+   },
+   "8890553633144307762": {
+      "message": "Zp\u011Bt"
+   },
+   "8928816882866356838": {
+      "message": "Ve\u0159ejn\u00E9"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Smazat album}=1{Smazat vybranou fotku}few{Smazat vybran\u00E9 fotky}other{Smazat vybran\u00E9 fotky}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Tisk}female{Tisk}other{Tisk}}"
+   },
+   "8984549175557747262": {
+      "message": "Zpracov\u00E1n\u00ED videa..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Podexponovan\u00E1}male{Podexponovan\u00E1}other{Podexponovan\u00E1}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Sd\u00EDleno s dom\u00E9nou"
+   },
+   "9042260521669277115": {
+      "message": "Pozastavit"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{Celkem 0 zobrazen\u00ED}=1{Celkem 1 zobrazen\u00ED}few{Celkem {VIEW_COUNT_2} zobrazen\u00ED}other{Celkem {VIEW_COUNT_2} zobrazen\u00ED}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B automaticky vybere z va\u0161ich kolekc\u00ED ty nejlep\u0161\u00ED sn\u00EDmky a p\u0159iprav\u00ED je ke sd\u00EDlen\u00ED."
+   },
+   "9137360918780826967": {
+      "message": "N\u00EDzk\u00E1 kvalita"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Byla p\u0159id\u00E1na jedna fotka, kter\u00E1 je p\u0159ipravena ke sd\u00EDlen\u00ED.}few{Byly p\u0159id\u00E1ny # fotky, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}other{Bylo p\u0159id\u00E1no # fotek, kter\u00E9 jsou p\u0159ipraveny ke sd\u00EDlen\u00ED.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} nab\u00EDz\u00ED jednodu\u0161\u0161\u00ED zp\u016Fsob, jak uspo\u0159\u00E1dat a sd\u00EDlet fotky.}female{{XXX_2} nab\u00EDz\u00ED jednodu\u0161\u0161\u00ED zp\u016Fsob, jak uspo\u0159\u00E1dat a sd\u00EDlet fotky.}other{{XXX_3} nab\u00EDz\u00ED jednodu\u0161\u0161\u00ED zp\u016Fsob, jak uspo\u0159\u00E1dat a sd\u00EDlet fotky.}}"
+   },
+   "9219694540199049147": {
+      "message": "Slo\u017Eka..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 fotka ji\u017E byla nahr\u00E1na v p\u0159edchoz\u00ED relaci.}few{{NUM_PHOTOS_2} fotky ji\u017E byly nahr\u00E1ny v p\u0159edchoz\u00ED relaci.}other{{NUM_PHOTOS_2} fotek ji\u017E bylo nahr\u00E1no v p\u0159edchoz\u00ED relaci.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotka byla \u00FAsp\u011B\u0161n\u011B importov\u00E1na a nahr\u00E1na.}few{{START_BOLD}{COUNT_2}{END_BOLD} fotky byly \u00FAsp\u011B\u0161n\u011B importov\u00E1ny a nahr\u00E1ny.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotek bylo \u00FAsp\u011B\u0161n\u011B importov\u00E1no a nahr\u00E1no.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Chcete-li aplikaci {XXX} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}male{Chcete-li aplikaci {XXX} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}other{Chcete-li aplikaci {XXX} vyu\u017E\u00EDt naplno, nastavte ji tak, aby va\u0161e fotky automaticky importovala.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{P\u0159esunout v\u0161echny fotky v albu}=1{P\u0159esunout vybranou fotku}few{P\u0159esunout vybran\u00E9 fotky}other{P\u0159esunout vybran\u00E9 fotky}}"
+   },
+   "982577805980296193": {
+      "message": "Kliknut\u00EDm sem m\u016F\u017Eete zobrazit a sd\u00EDlet tyto fotky."
+   }
+}

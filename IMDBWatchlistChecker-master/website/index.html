@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>IMDB Watchlist Checker</title>
+  <meta name="description" content="IMDB Watchlist Checker is an extension able to add an small checkmark image at the left of any movie that is part of the user Watchlist on IMDB portal when an actor page is being visited."/>
+  <meta name="keywords" content="IMDB, watchlist, checker"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+   ga('create', 'UA-4387301-5', 'azurewebsites.net');
+   ga('send', 'pageview');
+  </script>
+ </head>
+ <body>
+  <header id="headerPanel">
+   <img id="headerImage" src="images/checkmark.png" alt="Checkmark image." title="Checkmark image." data-text="headerImage"/>
+   <h1 class="inline">IMDB Watchlist Checker</h1>
+  </header>
+  <label id="languageLabel" for="languageSelect" data-text="languageLabel">Language:</label>
+  <select id="languageSelect">
+   <option value="English">English</option>
+   <option value="Spanish">Espa&ntilde;ol</option>
+  </select>
+  <p>
+   <span data-text="p1s1">IMDB Watchlist Checker is an extension for</span>&nbsp;<a href="http://google.com/chrome">Google Chrome</a>&nbsp;<span data-text="p1s2">and</span>&nbsp;<a href="http://mozilla.org/firefox">Mozilla Firefox</a>.
+   <span data-text="p1s3">It adds a checkbox on the left of any movie that are in the watchlist of an IMDB user when he/she visit the page of an actor/actress. Following images demostrate by them self the utility of this extension. Is good to clarify that IMBD provide this feature in their mobile applications but not in the website.</span>
+  </p>
+  <div>
+   <div class="inline"><img src="./images/without.png" alt="Mockup image without extension installed." title="Mockup image without extension installed." class="mockupImage" data-text="withoutImage"/></div>
+   <div id="arrowPanel"><img id="arrowImage" src=""/></div>
+   <div class="inline"><img src="./images/with.png" alt="Mockup image with extension installed." title="Mockup image with extension installed." class="mockupImage" data-text="withImage"/></div>
+  </div>
+  <p>
+   <span data-text="p2s1">You can install it from</span>&nbsp;<a href="http://chrome.google.com/webstore/detail/imdb-watchlist-checker/pdgciibalfalgknmjdmpebegeacjjpmn">Google Play</a>&nbsp;<span data-text="p2s2">for Google Chrome or from</span>&nbsp;<a href="http://addons.mozilla.org/en-US/firefox/addon/imdb-watchlist-checker/">Firefox Add-ons</a>&nbsp;<span id="p2s3">for Mozilla Firefox.</span>
+   <span data-text="p2s4">Also you can download the source code from</span>&nbsp;<a href="http://github.com/rsotolongo/IMDBWatchlistChecker">GitHub</a>.
+  </p>
+  <footer>
+   <div><a href="http://ricardosotolongo.com">Ricardo Sotolongo</a></div>
+   <div><a href="mailto:rsotolongo@ricardosotolongo.com">rsotolongo@ricardosotolongo.com</a></div>
+  </footer>
+  <script type="text/javascript" src="./scripts/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="./scripts/prefixfree.js"></script>
+  <script type="text/javascript" src="./scripts/jquery.i18n.js"></script>
+  <script type="text/javascript">
+   $.i18n.English = {};
+   $.i18n.English.strings = {
+    "headerImage": "Checkmark image.",
+    "languageLabel": "Language:",
+    "p1s1": "IMDB Watchlist Checker is an extension for",
+    "p1s2": "and",
+    "p1s3": "It adds a checkbox on the left of any movie that are in the watchlist of an IMDB user when he/she visits the page of an actor/actress. Following images demostrate by them self the utility of this extension. Is good to clarify that IMBD provide this feature in their mobile applications but not in the website.",
+    "withoutImage": "Mockup image without extension installed.",
+    "withImage": "Mockup image with extension installed.",
+    "p2s1": "You can download it from",
+    "p2s2": "for Google Chrome or from",
+    "p2s3": "for Mozilla Firefox.",
+    "p2s4": "Also you can download the source code from"
+   };
+   $.i18n.Spanish = {};
+   $.i18n.Spanish.strings = {
+    "headerImage": "Imagen de marca de chequeo.",
+    "languageLabel": "Idioma:",
+    "p1s1": "IMDB Watchlist Checker es una extensión para",
+    "p1s2": "y",
+    "p1s3": "Esta extensión adiciona una marca pequeña a la izquierda de cualquier película que sea parte de la Watchlist (lista de observación) del usuario en IMDB cuando esté visitando la página de algún actor/actriz. Las siguientes imágenes demuestran por sí solas la utilidad de esta extensión. Es bueno aclarar que IMBD provee esta funcionalidad en sus aplicaciones móviles pero no en su sitio web.",
+    "withoutImage": "Imagen sin la extensión instalada.",
+    "withImage": "Imagen con la extensión instalada.",
+    "p2s1": "Usted puede descargarla desde",
+    "p2s2": "para Google Chrome o desde",
+    "p2s3": "para Mozilla Firefox.",
+    "p2s4": "Además puede descargar el código fuente desde"
+   };
+   $(document).bind("ready", function(){
+    var consts = {
+     languageSelectID: "languageSelect",
+     textAttribute: "data-text",
+     imageTag: "img",
+     stringVariable: "string",
+     altAttribute: "alt",
+     titleAttribute: "title"
+    };
+    var helpers = {
+     isString: function(value){ 
+                return (value instanceof String) || (typeof value == consts.stringVariable); 
+               }
+    };
+    $("#" + consts.languageSelectID).change(function(){
+     $.i18n.setLocale($(this).val());
+     $("[" + consts.textAttribute + "]").each(function(index, element){ 
+      var string = $.i18n(element.attributes[consts.textAttribute].nodeValue); 
+      if (helpers.isString(string) && (!$(element).is(consts.imageTag) || ($(element).text().length > 0))){ 
+       $(element).text(string); 
+      }; 
+      if ($(element).is(consts.imageTag)){ 
+       $(element).attr(consts.altAttribute, $.i18n(string)); 
+       $(element).attr(consts.titleAttribute, $.i18n(string)); 
+      }; 
+     });
+    });
+   });
+  </script>
+ </body>
+</html>

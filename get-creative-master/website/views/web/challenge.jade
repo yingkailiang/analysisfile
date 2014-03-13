@@ -1,0 +1,25 @@
+extends _base
+
+block body
+    #bg
+        .logo
+            a(href="/about")
+                span.icon.logo_icon
+                h1 Get Creative
+    #content
+        h1
+            span.icon.challenge_icon
+            | Daily Challenge for #{challenge.get_relative_day()}
+        p.challenge_prompt
+            != challenge.get_img_node()
+            br
+            | #{challenge.prompt}
+        - if (challenge && challenge.responses && challenge.responses.length)
+            h1
+                span.icon.list_icon
+                | Most Recent Responses
+            ul.responses
+                each response in challenge.responses.slice(0).reverse()
+                    li
+                        for paragraph in response.text.split("\n")
+                            p #{paragraph}

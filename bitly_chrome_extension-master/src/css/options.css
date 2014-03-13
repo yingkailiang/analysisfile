@@ -1,0 +1,336 @@
+
+
+/*
+
+    Options Page Powered via JS
+    
+*/
+
+.field_type_checkbox input[type=checkbox]  {
+    margin-right:5px;
+}
+
+
+
+#bento_options_display {
+ 
+}
+
+.optionsDataContainer {
+    padding:10px 0;
+    border-top:1px solid #ccc;
+}
+.optionsDataContainer:first-child {
+    border-top:4px solid #ccc;
+}
+
+.optionsDataContainer h2 {
+    font-size:22px;
+    color:#666;
+    font-weight:normal;
+    padding-bottom:8px;    
+}
+
+
+
+.api_type_selector {
+
+
+}
+.options_container {
+    margin-top:10px;
+    border-top:1px solid #ccc;    
+    padding:10px 10px 10px 0;
+    font-size:13px;
+    line-height:1.4em;    
+}
+.options_container p {
+    padding:0 200px 8px 0;
+}
+
+.options_container_inner {
+    margin:10px 10px 5px;
+}
+.options_container_inner input[type=checkbox] {
+    margin-right:5px;
+}
+.options_container_inner .desc_txt {
+    margin-top:5px;
+}
+.desc_txt {
+    color:#999;
+}
+
+.bentoOptions {
+    padding:5px 0 5px;
+/*    background:-webkit-gradient(linear, left top, left bottom, 
+                                 from(#ccc), to(#dddddd), 
+                                 color-stop(0.3, #d0d0d0), color-stop(0.6, #d9d9d9));    */
+
+    display:block;  
+
+/*    -webkit-box-shadow:2px ;*/
+}
+.bentoOptions:first-child {
+/*    border-top:none;    
+    todo:
+    solve this with css3
+
+*/
+}
+.bentoOptions input[type=radio] {
+    margin-right:5px;
+}
+
+
+.notesFormBttn {
+    padding:6px 14px;
+}
+
+/*sign in  */
+
+
+/* sign up form */ 
+
+.inputContainer, .smallInputContainer {
+    margin-bottom:10px;
+}
+.smallInputContainer label {
+    display:block;
+    font-size:15px;
+    margin-bottom:3px;
+    color:#666;
+}
+.inputContainer label { 
+    display:block;
+    font-size:15px;
+    color:#666;
+    margin-bottom:3px;
+}
+.smallInputContainer input[type=text] {
+    margin-right:5px;
+    border-radius:6px;
+    padding:5px 8px;
+    border:1px solid #ccc;        
+    font-size:15px; 
+    width:150px; 
+    color:#454545;    
+}
+.notificationInnerContainer {
+    padding:10px 0 0 16px;
+}
+.inputContainer input[type=text], .inputContainer input[type=password], .mediumSizeInputField { 
+    width:220px;
+    font-size:15px;
+    color:#454545;
+    border:1px solid #ccc;
+    margin-right:5px;
+    border-radius:6px;
+    padding:5px 8px;
+/*    background:#FEFFEC;    */
+/*    -webkit-box-shadow:1px 1px 6px #ddd;   */                                   
+/*    , inset -2px -2px 6px #feffd7*/
+}
+
+
+
+#bitly_user_data_container .bitly_user_data_item .largeSizeInput_apiKey {
+    width:400px;
+}
+
+
+.wideSizeButton {
+    padding:6px 30px;
+}
+
+
+/* sharing  */
+
+#signOutButtonContainer {
+    position:absolute;
+    right:0;
+    top:25px;
+}
+
+
+.linkedAccountsList h3 {
+    font-size:14px;
+    font-weight:normal;
+    color:#333;
+    padding-bottom:8px;
+}
+.linkedAccountsList {
+    
+}
+
+
+
+
+/*options page header*/
+.ext_opts_page_header_box {
+    position:relative;
+}
+.ext_options_header {
+    font-size:26px;
+    color:#999;
+    border-bottom:1px solid #ccc;
+    padding:12px 0 7px;
+    margin:0 0 13px;
+}
+
+.meta_graph {
+    padding-top:15px;
+}
+#share_accounts {
+    
+}
+#share_accounts ul {
+    
+}
+#share_accounts h3, .options_container h3 {
+    font-size:15px;
+    font-weight:normal;
+    color:#555;
+    padding-bottom:5px;
+}
+#share_accounts p {
+    padding-bottom:5px;
+}
+
+
+#share_accounts li {
+    padding-bottom:5px;
+    font-size:13px;
+}
+.account_icon {
+    vertical-align:bottom;
+    padding-right:5px;
+}
+.account_name {
+    padding-right:5px;
+}
+
+
+.log_message {
+    
+}
+.log_date {
+    display:block;
+    width:140px;
+    float:left;
+}
+.log_item_list li {
+    padding-bottom:5px;
+    clear:both;
+    float:none;
+    
+}
+.no_expand_check {
+    margin-right:5px;
+
+}
+.no_expand_domains_list li {
+    padding-bottom:8px;
+}
+.no_expand_domains_list li label {
+
+    font-size:13px;
+}
+
+#no_expand_domains_box {
+    padding:5px 0 0 16px;
+}
+#no_expand_domains_box h4, #watching_links_box h4 {
+    font-size:13px;
+    font-weight:normal;
+    color:#555;
+    padding:0 0 5px;
+}
+#new_no_expand_domain {
+    padding:0 0 5px;
+}
+#add_new_no_expand_domain {
+    padding:4px 14px;
+}
+#no_expand_domain_new_domain {
+    color:#454545;
+    border:1px solid #ccc;
+    margin-right:5px;
+    border-radius:6px;  
+    padding:3px;     
+    font-size:13px; 
+}
+.no_domains_note {
+    font-size:11px;
+    color:#999;
+}
+.domains_host_container {
+    padding-bottom:5px;
+}
+
+#signInContainer {
+    position:relative;
+    width:72px;    
+    height:35px;
+}
+#signInButtonContainer {
+    position:absolute;
+    top:0;
+    left:0;
+}
+#sign_in_loader {
+    position:absolute;
+    top:0;
+    left:0;
+    width:72px; 
+    text-align:center;
+    height:30px;   
+}
+
+#watching_links_box {
+    padding:0px 0 0 16px;    
+}
+#watching_links_box label {
+    margin:0 5px;
+}
+#watching_links_box input[type=checkbox] {
+    margin-right:5px;
+}
+#watching_links_box input[type=text] {
+    border:1px solid #ccc;
+    padding:2px 4px;
+    width:50px;
+    margin-right:5px;
+    border-radius:4px;
+}
+#watching_links_box input[type=submit] {
+    padding:2px 4px;
+}
+#watching_links_box li {
+    padding-bottom:12px;
+}
+.watch_controls_box {
+    padding-top:6px;
+}
+
+
+/*
+    realtime
+*/
+
+#realtime_trending_box {
+    width:780px;
+    text-indent:25px;
+    margin:15px auto 0;
+    background:#ffffcb url(../s/graphics/trend-icon.png) 12px 9px no-repeat;
+    padding:10px;
+    display:block;
+    height:auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #cccc99;
+}
+
+/* EOF */

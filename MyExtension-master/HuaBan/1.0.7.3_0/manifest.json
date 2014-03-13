@@ -1,0 +1,50 @@
+{
+	"background": {
+		"scripts": ["js/utils.js", "js/huaban.js", "js/account.js", "js/background.js", "js/analytics.js", "js/ajax.js"]
+	},
+	"browser_action": {
+		"default_icon": "images/logo_48.png",
+		"default_popup": "popup.html",
+		"default_title": "__MSG_extName__"
+	},
+	"content_scripts": [{
+		"all_frames": true,
+		"exclude_globs": ["http://huaban.com*", "http://*.huaban.com*", "http://localhost*", "http://local*", "http://127.0.0.1*"],
+		"include_globs": ["*"],
+		"js": ["js/pinmarklet.js", "js/script.js"],
+		"matches": ["http://*/*", "https://*/*"],
+		"run_at": "document_idle"
+	},
+	{
+		"js": ["js/page.js"],
+		"matches": ["http://*/*", "https://*/*"],
+		"run_at": "document_end"
+	},
+	{
+		"js": ["js/isload.js"],
+		"matches": ["http://*/*", "https://*/*"],
+		"run_at": "document_start"
+	},
+	{
+		"js": ["js/isinstalled.js"],
+		"matches": ["http://huaban.com/*"],
+		"run_at": "document_start"
+	}],
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	"default_locale": "zh_CN",
+	"description": "__MSG_extDescription__",
+	"icons": {
+		"128": "images/logo_128.png",
+		"16": "images/logo_16.png",
+		"48": "images/logo_48.png"
+	},
+	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs+kF7e3A5/W138GfVnebAdpMVbm+2h26bAVMoYXXpbanuvin1GwevNUVievX28jaO2rvHag6MBRrmx25OAlC6zq02PhJoVdvBMfUEHBdZys1jF6MdM82WPVT2ilt4Kp2H/3f7RNcqywFEtcEPSA3teMYeKGQb9o4f8EtubiduNQIDAQAB",
+	"manifest_version": 2,
+	"minimum_chrome_version": "22",
+	"name": "__MSG_extName__",
+	"options_page": "preferences.html",
+	"permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"version": "1.0.7.3",
+	"web_accessible_resources": ["css/capture.css", "css/showimage.css", "js/utils.js", "js/editor.js", "js/account.js", "js/huaban.js", "js/ui.js", "js/upload_ui.js", "js/ajax.js", "js/preferences.js"]
+}

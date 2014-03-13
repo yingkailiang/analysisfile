@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Notification Demo</title>
+<link rel="stylesheet" href="assets/reset.css">
+<style type="text/css">
+    .fem_mask{
+        position: absolute;
+        height: 400px;
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        z-index: -1;
+    }
+    #fem_devtools{
+        position: relative;
+        z-index: 100;
+        color: white;
+        padding: 10px;
+    }
+
+    .fem_title{
+        color: #DDDD00;
+    }
+
+    .fem_item{
+        margin-bottom: 20px;
+    }
+    .fem_item label{
+        padding: 0 6px;
+    }
+</style>
+<script type="text/javascript" src="assets/kissy.js"></script>
+<script src="options.js"></script>
+</head>
+<body>
+
+<div class="fem_mask"></div>
+<div id="fem_devtools">
+    <h3 style="padding: 10px 0;">开发者工具增强，补全一些工作中常用的工具集</h3>
+    <div class="fem_nav">
+        <!--<ul>-->
+            <!--<li>tools</li>-->
+            <!--<li>performance</li>-->
+        <!--</ul>-->
+    </div>
+    <div class="fem_panels">
+        <div class="fem_panel">
+            <div class="fem_item">
+                <div><input type="checkbox" id="fem_J_SlowSpeed"> <label class="fem_title" for="fem_J_SlowSpeed">模拟低速网络</label></div>
+                <div><label for="fem_J_NetSpeed">设置延迟</label><input type="text" id="fem_J_NetSpeed" /><label>毫秒(建议0-500毫秒之间，切记设置过大)</label></div>
+            </div>
+
+            <div class="fem_item">
+                <div><input type="checkbox" id="fem_J_Debug"> <label  class="fem_title" for="fem_J_Debug">开启debug模式</label></div>
+            </div>
+
+            <div class="fem_item">
+                <div><input type="checkbox" id="fem_J_TImageCapture"> <label  class="fem_title" for="fem_ImageCap">开启图片信息捕获</label></div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<script>
+
+var spoj = {
+	url:"http://www.spoj.pl",
+	account:"http://www.spoj.pl/users/phoenix24/"
+};
+function loadrank() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", spoj.account, false);
+  xhr.onreadystatechange = function(evt) {
+    if (xhr.readyState == 4) {
+      if (xhr.status == 200) {
+	var page = xhr.responseText;
+	page = page.split('rank: <a href="/ranks/users/start=')[1].split('</a></b><br><br>\n');
+	rank = page[0].split('#')[1];
+	points = page[1].split('</p>')[0].match("[0-9].[0-9]")[0] + "";
+        console.log("spoj rank :: " + rank + ", points :: " + points);
+	chrome.browserAction.setBadgeText({ text: points });
+      } else {
+         console.log("error occured");
+      }
+    }
+  };
+  xhr.send(null);
+  return xhr;
+}
+loadrank();
+</script>
+
+</head>
+<body>
+</body>
+</html>

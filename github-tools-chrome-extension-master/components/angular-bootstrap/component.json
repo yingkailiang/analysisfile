@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "https://github.com/angular-ui/bootstrap/graphs/contributors"
+  },
+  "name": "angular-bootstrap",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "node-markdown": "*",
+    "grunt": "~0.3.17"
+  },
+  "gitHead": "3a350d09474ecbbca61dac342adf61c68a1601f5",
+  "readme": "# bootstrap - [AngularJS](http://angularjs.org/) directives specific to [twitter bootstrap](http://twitter.github.com/bootstrap/)\n\n***\n\n[![Build Status](https://secure.travis-ci.org/angular-ui/bootstrap.png)](http://travis-ci.org/angular-ui/bootstrap)\n\n## Project philosophy\n\n### Native, lightweight directives\n\nWe are aiming at providing a set of AngularJS directives based on Twitter Bootstrap's markup and CSS. The goal is to provide **native AngularJS directives** without any dependency on jQuery or Bootstrap's JavaScript.\nIt is often better to rewrite an existing JavaScript code and create a new, pure AngularJS directive. Most of the time the resulting directive is smaller as compared to the orginal JavaScript code size and better integrated into the AngularJS ecosystem.\n\n### Customizability\n\nAll the directives in this repository should have their markup externalized as templates (loaded via `templateUrl`). In practice it means that you can **customize directive's markup at will**. One could even imagine providing a non-Boostrap version of the templates!\n\n### Take what you need and not more\n\nEach directive has its own AngularJS module without any dependencies on other modules or third-pary JavaScript code. In practice it means that you can **just grab the code for the directives you need** and you are not obliged to drag the whole repository.\n\n### Quality and stability\n\nDirectives should work. All the time and in all browsers. This is why all the directives have a comprehensive suite of unit tests. All the automated tests are executed on each checkin in several browsers: Chrome, ChromeCanary, Firefox, Opera, Safari, IE9.\nIn fact we are fortunate enough to **benefit from the same testing infrastructure as AngularJS**!\n\n## Contributing to the project\n\nWe are always looking for the quality contributions! Please check the [CONTRIBUTING.md](bootstrap/blob/master/CONTRIBUTING.md) for the contribution guidelines.\n\n### Development\n#### Prepare your environment\n* Install [Node.js](http://nodejs.org/) and NPM (should come with)\n* Install global dev dependencies: `npm install -g grunt testacular`\n* Instal local dev dependencies: `npm install` while current directory is bootstrap repo\n\n#### Run unit tests\n* Start testacular server: `grunt server`\n* Run test: `grunt test-run`\n\n#### Before commit\n* Build the whole project: `grunt` - this will run `lint`, `test`, and `concat` targets\n\n### Release\n* Bump up version number in `package.json`\n* Commit the version change with the following message: `chore(release): [versio number]`\n* tag\n* push changes with a tag: `git push --tags`\n* switch to the `gh-pages` branch: `git checkout gh-pages`\n* copy content of the dist folder to the main folder\n* Commit the version change with the following message: `chore(release): [versio number]`\n* tag\n* push changes with a tag: `git push --tags`\n\nWell done! (If you don't like repeating yourself open a PR with a grunt task taking care of the above!)\n",
+  "readmeFilename": "README.md",
+  "_id": "angular-ui-bootstrap@0.1.0",
+  "description": "***",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angular-ui/bootstrap"
+  }
+}

@@ -1,0 +1,447 @@
+/****************************************************************************
+ * AnchoBgSrv.idl : IDL source for Ancho background service
+ * Copyright 2012 Salsita software (http://www.salsitasoft.com).
+ * Author: Arne Seib <kontakt@seiberspace.de>
+ ****************************************************************************/
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+// forwards
+interface IAnchoAddonBackground;
+interface IAnchoRuntime;
+interface IAnchoServiceApi;
+interface IAnchoTabManagerInternal;
+
+/*==========================================================================*/
+[
+	object,
+	uuid(DA08F068-BA41-431A-94BB-5EB3C46767A2),
+	oleautomation,
+	nonextensible,
+	helpstring("IAnchoAddonService Interface"),
+	pointer_default(unique)
+]
+interface IAnchoAddonService : IUnknown
+{
+  HRESULT GetCreateAddonBackground([in] BSTR bsID, [out, retval] IAnchoAddonBackground ** ppRet);
+  HRESULT GetModulePath([out, retval] BSTR * pbsPath);
+
+  HRESULT invokeEventObjectInAllExtensions([in] BSTR aEventName, [in] LPDISPATCH aArgs, [out] VARIANT* aRet);
+
+  HRESULT webBrowserReady();
+
+  HRESULT getInternalProtocolParameters([out] BSTR * aServiceHost, [out] BSTR * aServicePath);
+  HRESULT registerBrowserActionToolbar([in] OLE_HANDLE aFrameTab, [out] BSTR * aUrl, [out] INT*aTabId);
+  HRESULT unregisterBrowserActionToolbar([in] INT aTabId);
+  HRESULT getDispatchObject([out, retval] IDispatch **aRet);
+
+  HRESULT initPageActions([in] OLE_HANDLE aHwndBrowser, [in] INT aTabId);
+  HRESULT releasePageActions([in] INT aTabId);
+  HRESULT advicePageActionBar([in] OLE_HANDLE hwndBrowser, [in] IDispatch * aDispatch);
+  HRESULT unadvicePageActionBar([in] OLE_HANDLE hwndBrowser);
+  HRESULT onTabNavigate([in] INT aTabId);
+  HRESULT onTabActivate([in] INT aNewTabId);
+};
+
+
+/*==========================================================================*/
+[
+  object,
+  uuid(921C5C5B-3353-42d1-B9D3-BE7FFA912F2A),
+  oleautomation,
+  nonextensible,
+  helpstring("IAnchoAddonBackground Interface"),
+  pointer_default(unique)
+]
+interface IAnchoAddonBackground : IUnknown
+{
+  HRESULT AdviseInstance([out, retval] ULONG * pInstanceID);
+  HRESULT UnadviseInstance([in] ULONG ulInstanceID);
+  HRESULT GetContentInfo([in] ULONG ulInstanceID, [in] BSTR bstrUrl, [out, retval] LPDISPATCH* ppDisp);
+  HRESULT ReleaseContentInfo([in] ULONG ulInstanceID);
+//  HRESULT GetManifest([out, retval] LPDISPATCH* ppDisp);
+
+  HRESULT invokeExternalEventObject([in] BSTR aEventName, [in] LPDISPATCH aArgs, [out, retval] VARIANT* aRet);
+};
+
+/*==========================================================================*/
+[
+	uuid(E010DD54-F388-4292-9BAE-C962B22F17BD),
+	version(1.0),
+	helpstring("AnchoBgSrv 1.0 Type Library")
+]
+library AnchoBgSrvLib
+{
+  [
+    object,
+    uuid("14293D7A-EEED-4DBE-A84C-BDBBFEA2882F"),
+    dual,
+    pointer_default(unique)
+  ]
+  interface IWebBrowserEventHandler : IDispatch
+  {
+    [id(DISPID_VALUE)]
+    HRESULT onFire();
+  };
+
+	importlib("stdole2.tlb");
+  [
+	  object,
+	  uuid(06550FFB-49D7-4428-A5FF-2CC688A8001F),
+	  oleautomation,
+	  nonextensible,
+	  helpstring("IAnchoRuntime Interface"),
+	  pointer_default(unique)
+  ]
+  interface IAnchoRuntime : IUnknown
+  {
+    [propget, id(1)]
+    HRESULT cookieManager([out, retval] LPDISPATCH* ppRet);
+
+    HRESULT reloadTab();
+    HRESULT closeTab();
+    HRESULT executeScript([in] BSTR aExtensionId, [in] BSTR aCode, [in] INT aFileSpecified);
+    HRESULT updateTab([in] LPDISPATCH aProperties);
+    HRESULT fillTabInfo([in] VARIANT* aInfo);
+    HRESULT showBrowserActionBar([in] INT aShow);
+  };
+
+  /*==========================================================================*/
+  [
+    object,
+    uuid(3442CFB9-7E99-4509-B9E1-854CCD317562),
+    dual,
+    oleautomation,
+    nonextensible,
+    helpstring("IAnchoServiceApi Interface"),
+    pointer_default(unique)
+  ]
+  interface IAnchoServiceApi : IDispatch
+  {
+    [propget, id(1)]
+    HRESULT cookieManager([out, retval] LPDISPATCH* ppRet);
+
+    [propget, id(2)]
+    HRESULT tabManager([out, retval] LPDISPATCH* ppRet);
+
+    [propget, id(3)]
+    HRESULT windowManager([out, retval] LPDISPATCH* ppRet);
+
+    HRESULT registerJSConstructors([in] LPDISPATCH aObjectConstructor, [in] LPDISPATCH aArrayConstructor, [in] BSTR aExtensionId, [in] INT aApiId);
+    HRESULT removeJSConstructors([in] BSTR aExtensionId, [in] INT aApiId);
+    HRESULT createJSObject([in] BSTR aExtensionId, [in] INT aApiId, [out, retval] LPDISPATCH *aObject);
+    HRESULT createJSArray([in] BSTR aExtensionId, [in] INT aApiId, [out, retval] LPDISPATCH *aArray);
+
+    //HRESULT executeScript([in] BSTR aExtensionId, [in] INT aTabID, [in] BSTR aCode, [in] BOOL aFileSpecified, [in] BOOL aInAllFrames);
+    HRESULT invokeExternalEventObject([in] BSTR aExtensionId, [in] BSTR aEventName, [in] LPDISPATCH aArgs, [out, retval] VARIANT* aRet);
+
+    HRESULT getBrowserActions([out, retval] VARIANT* aBrowserActionsArray);
+    HRESULT addBrowserActionInfo([in] LPDISPATCH aBrowserActionInfo);
+    HRESULT setBrowserActionUpdateCallback([in] INT aTabId, [in] LPDISPATCH aBrowserActionUpdateCallback);
+    HRESULT browserActionNotification();
+    HRESULT isImageData([in] LPDISPATCH aObject, [out, retval] VARIANT_BOOL * aRetVal);
+    HRESULT pageActionToolbar([in] INT aTabId, [out, retval] VARIANT * pVal);
+
+    HRESULT testFunction([in] BSTR aData);
+  };
+
+  /*==========================================================================*/
+  [
+	  object,
+	  uuid(573B05F5-DE12-49C0-89BA-395B88D87DF8),
+	  dual,
+	  nonextensible,
+	  helpstring("ITabManager Interface"),
+	  pointer_default(unique)
+  ]
+  interface ITabManager : IDispatch
+  {
+    [id(1), helpstring("createTab - asynchronous call")]
+    HRESULT createTab([in] LPDISPATCH aProperties, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(2), helpstring("reloadTab - asynchronous call")]
+    HRESULT reloadTab([in] INT aTabId, [in] LPDISPATCH aReloadProperties, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(3), helpstring("queryTabs - asynchronous call")]
+    HRESULT queryTabs([in] LPDISPATCH aProperties, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(4), helpstring("updateTab - asynchronous call")]
+    HRESULT updateTab([in] INT aTabId, [in] LPDISPATCH aUpdateProperties, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(5), helpstring("removeTabs - asynchronous call")]
+    HRESULT removeTabs([in] LPDISPATCH aTabs, [in] VARIANT aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+
+    HRESULT getTabInfo([in] INT aTabId, [in] BSTR aExtensionId, [in] INT aApiId, [out, retval] VARIANT* aRet);
+  };
+
+  /*==========================================================================*/
+  [
+	  object,
+	  uuid(080226F2-41BE-4745-AABE-E7763AB5435F),
+	  oleautomation,
+	  nonextensible,
+	  helpstring("IAnchoTabManagerInternal Interface"),
+	  pointer_default(unique)
+  ]
+  interface IAnchoTabManagerInternal : IUnknown
+  {
+    HRESULT registerRuntime([in] OLE_HANDLE aFrameTab, [in] IAnchoRuntime * aRuntime, [in] ULONG aHeartBeat);
+    HRESULT unregisterRuntime([in] INT aTabID);
+
+    HRESULT createTabNotification([in] INT aTabId, [in] ULONG aRequestID);
+  };
+
+  /*==========================================================================*/
+  [
+	  object,
+	  uuid(2B045C5D-EADB-4749-9A84-B75BC19E6BB7),
+	  dual,
+	  nonextensible,
+	  helpstring("IWindowManager Interface"),
+	  pointer_default(unique)
+  ]
+  interface IWindowManager : IDispatch
+  {
+    [id(1), helpstring("createWindow - asynchronous call")]
+    HRESULT createWindow([in] LPDISPATCH aCreateData, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(2), helpstring("getAllWindows - asynchronous call")]
+    HRESULT getAllWindows([in] LPDISPATCH aGetInfo, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(3), helpstring("getWindow - asynchronous call")]
+    HRESULT getWindow([in] LONG windowId, [in] LPDISPATCH aGetInfo, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(4), helpstring("updateWindow - asynchronous call")]
+    HRESULT updateWindow([in] LONG windowId, [in] LPDISPATCH aUpdateInfo, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(5), helpstring("removeWindow - asynchronous call")]
+    HRESULT removeWindow([in] LONG windowId, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+    [id(6), helpstring("getCurrentWindowId - synchronous call")]
+    HRESULT getCurrentWindowId([out, retval] LONG *aWindowId);
+
+    HRESULT createPopupWindow([in] BSTR aUrl, INT aX, INT aY, [in] LPDISPATCH aInjectedData, [in] LPDISPATCH aCloseCallback);
+
+    /*[id(5), helpstring("captureVisibleTab - asynchronous call")]
+    HRESULT captureVisibleTab([in] LONG windowId, [in] LPDISPATCH aOptions, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);*/
+
+  };
+
+  /*==========================================================================*/
+  [
+	  object,
+	  uuid(B59F412A-A1E9-4DED-91BE-D69C3A114235),
+	  dual,
+	  nonextensible,
+	  helpstring("IWindowManager Interface"),
+	  pointer_default(unique)
+  ]
+  interface IAnchoWindowManagerInternal : IUnknown
+  {
+    [id(1), helpstring("getWindowIdFromHWND - synchronous call")]
+    HRESULT getWindowIdFromHWND([in] OLE_HANDLE aHWND, [out, retval] LONG *aWindowId);
+  };
+
+  /*==========================================================================*/
+  [
+	  object,
+	  uuid(BD729A5F-9F8D-4CC8-8AD4-AAD68903C73C),
+	  oleautomation,
+	  nonextensible,
+	  helpstring("IAnchoPageActionToolbar Interface"),
+	  pointer_default(unique)
+  ]
+  interface IAnchoPageActionToolbar : IDispatch
+  {
+    [id(1)] HRESULT registerAction([in] BSTR aAddonID, [in] INT aTabId, [in] VARIANT aIcon, [in] BSTR aTitle, [in] LPDISPATCH aOnClickHandler);
+    [id(2)] HRESULT unregisterAction([in] BSTR aAddonID, [in] INT aTabId);
+    [id(3)] HRESULT show([in] BSTR addonID, [in] INT aTabId);
+    [id(4)] HRESULT hide([in] BSTR addonID, [in] INT aTabId);
+    [id(5)] HRESULT setIcon([in] BSTR addonID, [in] INT aTabId, [in] VARIANT aIcon);
+
+    [id(100), restricted] HRESULT onTabNavigate([in] INT aTabId);
+    [id(101), restricted] HRESULT onTabActivate([in] INT aNewTabId);
+  };
+
+  /*==========================================================================*/
+  [
+    object,
+    uuid(0F317CA8-BB88-4141-906F-257DA0603639),
+    dual,
+    nonextensible,
+    pointer_default(unique)
+  ]
+  interface IIECookie : IDispatch{
+    [id(1), propget, helpstring("property name")]
+    HRESULT name([out, retval] BSTR * pbsRet);
+
+    [id(2), propget, helpstring("property value")]
+    HRESULT value([out, retval] BSTR * pbsRet);
+
+    [id(3), propget, helpstring("property domain")]
+    HRESULT domain([out, retval] BSTR * pbsRet);
+
+    [id(4), propget, helpstring("property path")]
+    HRESULT path([out, retval] BSTR * pbsRet);
+
+    [id(5), propget, helpstring("property expirationDate")]
+    HRESULT expirationDate([out, retval] VARIANT * aRet);
+  };
+
+  [
+    object,
+    uuid(5DB362D1-77BF-49CA-AA1C-9AAA5AA6320F),
+    dual,
+    nonextensible,
+    pointer_default(unique)
+  ]
+  interface IIECookieManager : IDispatch{
+    [id(1), helpstring("enumCookies")]
+    HRESULT enumCookies([in] LPDISPATCH pCallback);
+
+    [id(2), helpstring("removeCookie")]
+    HRESULT removeCookie([in] BSTR aUrl, [in] BSTR aName);
+
+    [id(3), helpstring("setCookie")]
+    HRESULT setCookie([in] BSTR aUrl, [in] BSTR aName, [in] BSTR aData);
+
+    [id(4), helpstring("getCookie")]
+    HRESULT getCookie([in] BSTR aUrl, [in] BSTR aName, [out, retval] VARIANT * aRet);
+  };
+
+  [
+	  object,
+	  uuid(8FC6A0B1-2669-407C-853B-265E140382D7),
+    dual,
+    nonextensible,
+    pointer_default(unique)
+  ]
+  interface IIECookieAccessor : IDispatch
+  {
+    [id(1), helpstring("getAllCookies")]
+    HRESULT getAllCookies([in] LPDISPATCH aDetails, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+
+    [id(2), helpstring("removeCookie")]
+    HRESULT removeCookie([in] LPDISPATCH aDetails, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+
+    [id(3), helpstring("setCookie")]
+    HRESULT setCookie([in] LPDISPATCH aDetails, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+
+    [id(4), helpstring("getCookie")]
+    HRESULT getCookie([in] LPDISPATCH aDetails, [in] LPDISPATCH aCallback, [in] BSTR aExtensionId, [in] INT aApiId);
+  };
+/*==========================================================================*/
+  [
+	  object,
+	  uuid(C501AEAC-8839-4EB5-956A-1826EE6B2FF7),
+	  dual,
+	  nonextensible,
+	  helpstring("IAnchoBackgroundAPI Interface"),
+	  pointer_default(unique)
+  ]
+  interface IAnchoBackgroundAPI : IDispatch
+  {
+    [propget, id(1), helpstring(
+      "Property id. The addon's ID."
+    )]
+    HRESULT id([out, retval] BSTR * pVal);
+
+    [propget, id(2), helpstring(
+      "Property guid. The addon's GUID."
+    )]
+    HRESULT guid([out, retval] BSTR * pVal);
+
+    [propget, id(3), helpstring(
+      "Property path. The addon's file system full path."
+    )]
+    HRESULT path([out, retval] BSTR * pVal);
+
+    [id(100), helpstring(
+      "Method startBackgroundWindow. Loads the background window and"
+      "runs scripts inside"
+    )]
+    HRESULT startBackgroundWindow([in] BSTR bsPartialURL);
+
+    HRESULT addEventObject([in]BSTR aEventName, [in] INT aInstanceId, [in] LPDISPATCH aListener);
+    HRESULT removeEventObject([in]BSTR aEventName, [in] INT aInstanceId);
+
+    HRESULT invokeEventObject([in] BSTR aEventName, [in] INT aSelectedInstance, [in] BOOL aSkipInstance, [in] LPDISPATCH aArgs, [out, retval] VARIANT* aRet);
+    HRESULT invokeEventWithIDispatchArgument([in] BSTR aEventName, [in] LPDISPATCH aArg);
+    HRESULT setIDispatchEventInvocationHandler([in] LPDISPATCH aFunction);
+    HRESULT callFunction([in] LPDISPATCH aFunction, [in] LPDISPATCH aArgs, [out, retval] VARIANT* aRet);
+
+    HRESULT storageGet([in] BSTR aStorageType, [in] BSTR aKey, [out, retval] VARIANT* aValue);
+    HRESULT storageSet([in] BSTR aStorageType, [in] BSTR aKey, [in] BSTR aValue);
+    HRESULT storageRemove([in] BSTR aStorageType, [in] BSTR aKey);
+    HRESULT storageClear([in] BSTR aStorageType);
+  };
+
+/*==========================================================================*/
+  [
+	  helpstring(
+      "IAnchoBackgroundConsole interface"
+    ),
+	  object,
+	  uuid(5FF52F47-7CEC-45a9-979F-2F214ACAED1B),
+    oleautomation,
+    nonextensible,
+	  pointer_default(unique)
+  ]
+  interface IAnchoBackgroundConsole : IUnknown
+  {
+    [id(1), helpstring(
+      "Method log"
+    )]
+    HRESULT log([in] BSTR bsSource, [in] BSTR bsModuleID, [in] SAFEARRAY(VARIANT) pVals);
+
+    [id(2), helpstring(
+      "Method debug"
+    )]
+    HRESULT debug([in] BSTR bsSource, [in] BSTR bsModuleID, [in] SAFEARRAY(VARIANT) pVals);
+
+    [id(3), helpstring(
+      "Method info"
+    )]
+    HRESULT info([in] BSTR bsSource, [in] BSTR bsModuleID, [in] SAFEARRAY(VARIANT) pVals);
+
+    [id(4), helpstring(
+      "Method warn"
+    )]
+    HRESULT warn([in] BSTR bsSource, [in] BSTR bsModuleID, [in] SAFEARRAY(VARIANT) pVals);
+
+    [id(5), helpstring(
+      "Method error"
+    )]
+    HRESULT error([in] BSTR bsSource, [in] BSTR bsModuleID, [in] SAFEARRAY(VARIANT) pVals);
+  };
+
+/*==========================================================================*/
+  [
+		uuid(2620B92E-09AC-4C35-8164-0BDF33951278),
+		helpstring("AnchoAddonService Class")
+	]
+	coclass AnchoAddonService
+	{
+		[default] interface IAnchoAddonService;
+	};
+
+/*==========================================================================*/
+  [
+		uuid(EAFE9780-A951-4282-9C8A-39672B406357),
+		helpstring("AnchoAddonBackground Class")
+	]
+	coclass AnchoAddonBackground
+	{
+		[default] interface IAnchoAddonBackground;
+	};
+
+  [
+    uuid(91B40A1B-C72A-4887-8C63-036D0649CDDA)
+  ]
+  coclass IECookie
+  {
+    [default] interface IIECookie;
+  };
+
+  [
+    uuid(DE9A7F77-BBCC-4B18-BF38-F9C90262BB6F)
+  ]
+  coclass IECookieManager
+  {
+    [default] interface IIECookieManager;
+  };
+
+};

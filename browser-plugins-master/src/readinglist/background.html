@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      var bookmarksRootID = "1";
+      var readingListFolder = "reading-list";
+
+      function openTabs ( tabID ) {
+        //open all the nodes marked under "reading-list"
+        console.log("reading-list-id : " + tabID);
+
+        chrome.bookmarks.getChildren(tabID, function (list) {
+          for (i=0; i < list.length; i++) {
+            tab = list[i];
+            console.log("reading-list : " + tab.id + ", " + tab.title + ", " + tab.url +", " + typeof(tab.url));
+            chrome.tabs.create({url: tab.url});
+          }
+        });
+      }
+
+      function openReadingList() {
+        //fetch all the bookmarks and search for the node labeled "reading-list"
+        chrome.bookmarks.getChildren(bookmarksRootID, function(bnds) {
+          for (i = 0; i < bnds.length; i++) {
+            if (bnds[i].title === readingListFolder) {
+              openTabs ( bnds[i].id );
+            }
+          }
+        });
+      }
+
+      // Called when the user clicks on the browser action.
+      chrome.browserAction.onClicked.addListener(function(tab) {
+        console.log("opening the reading list.");
+        openReadingList();
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

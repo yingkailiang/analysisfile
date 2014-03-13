@@ -1,0 +1,54 @@
+{
+  "name": "cheaper plz",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "description": "Get notified when a price changes. Save $$$",
+  "icons": {
+    "16": "icons/chick-16.png",
+    "128": "icons/chick-128.png"
+  },
+  "default_locale": "en",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/chick-19.png",
+      "38": "icons/chick-38.png"
+    },
+    "default_title": "cheaper plz",
+    "default_popup": "popup.html"
+  },
+  
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content/scrapeDefinitions.js",
+        "scripts/content/scrapeCurrentPage.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "scripts/vendor/jquery-1.9.0.min.js",
+
+      "scripts/background/clearBadge.js",
+
+      "scripts/background/dataChange.js",
+      "scripts/background/storage.js",
+      "scripts/background/state.js",
+
+      "scripts/background/messages.js",
+
+      "scripts/background/remoteScrape.js",
+      "scripts/background/refresh.js",
+      "scripts/background/autoRefresh.js"
+    ]
+  },
+
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "storage"
+  ]
+}

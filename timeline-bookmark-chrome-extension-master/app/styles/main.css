@@ -1,0 +1,10 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+html {
+    /* Defaults css for cssmin process */
+}
+
+body {
+    min-width:400px;
+    min-height:290px;
+}

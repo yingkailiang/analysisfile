@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="bookmarkApp" ng-csp>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower_components/angular-bootstrap-datepicker/example/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/angular-bootstrap-datepicker/example/angular-bootstrap-datepicker.css" />
+
+        <script src="bower_components/angular-bootstrap-datepicker/example/jquery.js"></script>
+        <script type="text/javascript" src="lib/timelinejs/js/storyjs-embed.js"></script>
+        <!--script src="bootstrap/js/bootstrap.js"></script-->
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-bootstrap-datepicker/dist/angular-bootstrap-datepicker.js"></script>
+
+      <!-- build:js({.tmp,app}) scripts/scripts.js -->
+      <script src="scripts/app.js"></script>
+        <script src="scripts/directives/timelinejs.js"></script>
+	    <script src="scripts/controllers/main.js"></script>
+    	<!-- endbuild -->
+
+    </head>
+    <body ng-controller="MainCtrl">
+        <!-- CHROME EXTENSION POPUP -->
+        <!--div id="my-timeline"></div-->
+        <div id="my-timeline" timeline-js></div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Titre</th>
+              <th>Date</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="site in bookmark track by $index">
+              <td><a ng-href="{{site.url}}">{{site.headline}}</a></td>
+              <td>{{site.startDate}}</td>
+              <td><a ng-click="remove(site)"><i class="icon-remove"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+    </body>
+</html>

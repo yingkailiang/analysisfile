@@ -1,0 +1,25 @@
+body{background:#EDEDED url("chrome-extension://__MSG_@@extension_id__/images/login/loginBg.png") repeat-x;height:auto;}
+/* 最外面包裹层 */
+#pan-container{width:399px;}
+/* 登录框头部 */
+#pan-header{height:58px;/*border-bottom:1px solid #CACACA;*/}
+#pan-header a{display:block;margin:12px 0 0 14px;width:211px;height:44px;background:url("chrome-extension://__MSG_@@extension_id__/images/login/logo.jpg") no-repeat;}
+/* 登录框主体部分 */
+#pan-body{/*border-top:1px solid #fff;*/}
+	/* 提示信息 */
+.pan-msg-box{height:35px;}
+.pan-msg-box .msg{height:35px;line-height:35px;padding-left:116px;color:#4285c9}
+	/* 输入用户名密码 */
+.pan-login-line{margin-bottom:13px;font-size:14px;}
+.pan-login-line label{display:inline-block;width:110px;padding-right:6px;color:#686868;text-align:right;}
+.pan-login-line input[type="text"],.pan-login-line input[type="password"]{text-indent:10px;border:1px solid #BCBCBC;width:214px;height:28px;line-height:28px;}
+	/* 忘记密码 */
+.pan-forget {margin-top:-4px;margin-bottom:16px;}
+.pan-forget a{color:#787878;text-decoration:underline;}
+	/* 登录按钮 */
+.pan-login-btn-box{position:relative;margin-left:116px;padding-bottom:20px;margin-bottom:0;}
+.login-btn,.login-btn-disabled{cursor:pointer;border:none;text-indent:-9999px;width:117px;height:39px;background:url("chrome-extension://__MSG_@@extension_id__/images/login/loginBtn.jpg") no-repeat;}
+.login-btn:hover{background:url("chrome-extension://__MSG_@@extension_id__/images/login/loginBtnHover.jpg") no-repeat;}
+.login-btn:active{background:url("chrome-extension://__MSG_@@extension_id__/images/login/loginBtnActive.jpg") no-repeat;}
+
+.login-btn-disabled{display:none;position:absolute;left:0;top:0;background:url("chrome-extension://__MSG_@@extension_id__/images/login/loginBtnHoverDisable.jpg") no-repeat;}

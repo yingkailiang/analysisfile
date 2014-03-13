@@ -1,0 +1,8 @@
+#pan-pop{background-color:#F0F0F0;width:179px;/*padding:8px 0 11px;*/}
+.pan-link-item{/*background:url("../images/popup/itemBg.jpg") repeat-x left bottom;*/border-top:1px solid #FCFCFC;border-bottom:1px solid #DCDCDC;}
+.pan-link-item:first-child{border-top:none;}
+.pan-link-item:last-child{border-bottom:none;}
+.pan-link-item:hover{background:url("../images/popup/linkHover.jpg") repeat-x;}
+.pan-link{display:block;height:34px;line-height:34px;color:#494949;padding-left:36px;background:url("../images/popup/link.png") no-repeat 13px 9px;}
+.pan-link-help{background-image:url("../images/popup/help.png");}
+.pan-link-logout{background-image:url("../images/popup/logout.png");}

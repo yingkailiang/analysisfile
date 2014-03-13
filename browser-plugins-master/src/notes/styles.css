@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+input, input[type="checkbox"] {
+  border : 2px #e0e0e0 solid;
+  margin : 5px 0 5px 0;
+}
+
+fieldset {
+  border : 2px #e0e0e0 solid;
+  margin : 0 0 25px 0;
+}
+
+.notes_area {
+  margin: 0px;
+  padding: 0px;
+  min-width: 400px;
+  min-height: 500px;
+  border: 2px #e0e0e0 solid;
+}
+
+.panel {
+  -webkit-border-radius : 3px;  
+}
+
+.panel:hover {
+  background: #eeeeee;
+}
+
+.panel div {
+  float: left;
+  margin: 3px;
+  padding: 3px;
+  background: #e0e0e0;
+  -webkit-border-radius : 3px;
+}
+
+.panel div:hover {
+  background: #BDBDBD;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#status_panel {
+  float: left;
+}
+
+#options_panel {
+  float: right;
+}
+
+.toppanel {
+  margin: 2px;
+}
+
+.clear {
+  clear: both;
+}
+
+#container, #settings {
+  width: 405px;
+  margin: 1px;
+  padding: 1px;
+}
+
+#settings {
+  display:none;
+}

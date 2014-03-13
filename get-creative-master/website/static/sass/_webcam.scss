@@ -1,0 +1,32 @@
+#webcam {
+    .wrapper {
+        position:relative;
+        width:500px;
+        height:375px;
+
+        .flash,
+        .canvas {
+            position:absolute;
+            left:0;
+            top:0;
+            z-index:1;
+        }
+
+        .canvas {
+            pointer-events:none;
+
+            canvas {
+                width:500px;
+                height:375px;
+            }
+        }
+    }
+
+    button {
+        position:absolute;
+
+        &.clear {
+            display:none;
+        }
+    }
+}

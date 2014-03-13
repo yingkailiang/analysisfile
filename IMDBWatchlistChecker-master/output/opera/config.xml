@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><widget id="http://kangoextensions.com/extensions/imdbwatchlistchecker/" version="0.2" xmlns="http://www.w3.org/ns/widgets">
+	<name>IMDB Watchlist Checker</name>
+	<description>IMDB Watchlist Checker</description>
+	<author href="http://imdbwatcher.azurewebsites.net">Ricardo Sotolongo</author>
+	<update-description href=""/>
+	<icon src="icons/icon100.png"/>
+	<content src="background.html"/>
+	<access origin="*"/>
+	<feature name="opera:share-cookies"/>
+    <feature name="opera:contextmenus"/>
+</widget>

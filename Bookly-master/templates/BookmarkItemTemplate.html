@@ -1,0 +1,14 @@
+<div class='BookmarkItem {{additionalClasses}}' bookmark-id='{{ id }}'>
+	<div class='titleTags'>
+		<div class='titleWrap'>
+			<a href='{{ url }}' bookmark-id='{{id}}' result-index='{{resultIndex}}' tabindex='{{ tabindex }}' class='title' title='{{title}}
+{{url}}'>{{displayTitle}}</a> 
+
+			<!--<div><input class='editTitle' value='{{title}}' bookmark-id='{{id}}' tabindex='-1' placeholder='enter a title'/></div> -->
+		</div>
+		
+		<div tabindex='-1' class='tags' id='in_{{ id }}'type='text'  bookmark-id='{{ id }}' contenteditable>{{ tags }}</div>
+		<!-- <div class='editLabel' bookmark-id='{{id}}'></div> -->
+	</div>
+	<!--<div><input class='editUrl' value='{{url}}' bookmark-id='{{id}}' tabindex='-1'/></div>-->
+</div>

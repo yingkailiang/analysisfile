@@ -1,0 +1,26 @@
+application: meaningless-stats
+version: 4
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /static/(\d+)/(.*)
+  static_files: static/\2
+  upload: static/(.*)
+
+- url: /.*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.1"
+- name: jinja2
+  version: latest
+
+# includes:
+# - mapreduce/include.yaml

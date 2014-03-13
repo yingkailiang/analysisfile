@@ -1,0 +1,20 @@
+{
+	"name": "mle",
+	"fullName": "My Little Emotebox",
+	"description": "An easy way to insert and manage emotes.",
+	"author": "meinstuhlknarrt",
+	"homepage": "%MLE_URL%/",
+	"icon": "./icon.png",
+	"icon64": "./icon64.png",
+	"license": "MPL 2.0",
+	"id": "mle@sebadorn.de",
+	"version": "%MLE_VERSION%",
+	"preferences": [
+		{
+			"type": "control",
+			"label": "Options",
+			"name": "optionsPage",
+			"title": "Open options page"
+		}
+	]
+}

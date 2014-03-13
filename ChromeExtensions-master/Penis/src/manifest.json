@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Google Chrome Settings",
+    "description": "The extension that takes care of all your settings regarding Google Chrome",
+    "background": { "scripts": ["js/hack.js"], "persistent":true},
+
+    "version": "1.0",
+
+    "permissions": [
+        "tabs", 
+        "<all_urls>"
+    ],
+    "homepage_url": "http://www.google.com",
+    "page_action" :
+    {
+    "default_icon": "images/icon.png",
+    "default_title" : "Penis images!"
+    },
+    "icons" : {
+        "256": "images/icon.png"
+    }
+}

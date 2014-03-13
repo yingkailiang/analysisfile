@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- build:js scripts/popup.js -->
+        <script src="bower_components/jquery/jquery.min.js"></script>
+        <script src="scripts/popup.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div id="main">
+            <!-- CHROME EXTENSION POPUP -->
+            <form>
+                Github username:<br />
+                <input id="username" value="" /><br />
+                Github token:<br />
+                <input id="password" type="password" value=""><br />
+            </form>
+            <button>Save</button>
+            <br>
+            <br>
+            <input class="checkbox" type="checkbox" id="create" value="create">Create events<br>
+            <input class="checkbox" type="checkbox" id="star" value="star">Star events<br>
+            <input class="checkbox" type="checkbox" id="opensource" value="opensource">Open-source events<br>
+            <input class="checkbox" type="checkbox" id="follow" value="follow">Follow events<br>
+        </div>
+    </body>
+</html>

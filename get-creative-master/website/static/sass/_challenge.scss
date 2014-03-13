@@ -1,0 +1,31 @@
+@import "response";
+
+.challenge {
+    .ugc_img {
+        margin-bottom:10px;
+    }
+
+    p.challenge_prompt {
+        @extend .challenge_font;
+        margin:0.75em 0 0.35em;
+
+        span[contenteditable="true"] {
+            display:block;
+
+            &:focus {
+                background:#fff;
+                outline:0;
+                box-shadow:0 0 1px 1px #29abe2;
+                border-radius:4px;
+            }
+        }
+    }
+
+    form {
+        text-align:right;
+    }
+
+    .buttons {
+        text-align:right;
+    }
+}

@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Izlemiet, vai v\u0113laties savu fotoatt\u0113lu pilna izm\u0113ra dubl\u0113jumus vai maz\u0101kas, standarta izm\u0113ra aug\u0161upiel\u0101des, kas ir bezmaksas."
+   },
+   "106279463205193944": {
+      "message": "Personas \u0161aj\u0101 album\u0101"
+   },
+   "1078696495414015742": {
+      "message": "Turpin\u0101t"
+   },
+   "1079312373208696407": {
+      "message": "Kad esat re\u0123istr\u0113jies, noklik\u0161\u0137iniet \u0161eit"
+   },
+   "1106976338877989624": {
+      "message": "Par $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}female{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}other{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Aug\u0161upiel\u0101de ir pabeigta. {START_BOLD}Viens{END_BOLD} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai.}one{Aug\u0161upiel\u0101de ir pabeigta. {START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai.}other{Aug\u0161upiel\u0101de ir pabeigta. {START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li ir gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "1131710491735646017": {
+      "message": "P\u0101rvietot fotoatt\u0113lu"
+   },
+   "1141157641265116263": {
+      "message": "Uzglab\u0101jiet, k\u0101rtojiet un kop\u012Bgojiet visus savus fotoatt\u0113lus un videoklipus tikai ar p\u0101ris klik\u0161\u0137iem."
+   },
+   "1168286392495236500": {
+      "message": "Kop\u012Bgots publiski"
+   },
+   "1168912363261265730": {
+      "message": "Demonstr\u0113t slaidr\u0101di"
+   },
+   "1179156232993544339": {
+      "message": "Dz\u0113st albumu"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Atlas\u012Bt vienumus}female{Atlas\u012Bt vienumus}other{Atlas\u012Bt vienumus}}"
+   },
+   "1199073624563429103": {
+      "message": "Ja izdz\u0113s\u012Bsit \u0161os fotoatt\u0113lus, tiks izdz\u0113stas ar\u012B visas ar tiem saist\u012Bt\u0101s zi\u0146as, koment\u0101ri un atz\u012Bmes +1."
+   },
+   "1273084338234215688": {
+      "message": "Lai skat\u012Btu visus fotoatt\u0113lus un albumus, $2\u200Batk\u0101rtoti izveidojiet savienojumu$1\u200B."
+   },
+   "1274379628511980491": {
+      "message": "Notiek fotoatt\u0113lu sken\u0113\u0161ana"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{Viens fotoatt\u0113ls}zero{{PHOTO_COUNT_2} fotoatt\u0113lu}one{{PHOTO_COUNT_2} fotoatt\u0113ls}other{{PHOTO_COUNT_2} fotoatt\u0113li}}"
+   },
+   "1299278917495979942": {
+      "message": "P\u0113c pievieno\u0161anas datuma (no jaun\u0101k\u0101 uz vec\u0101ko)"
+   },
+   "1299626955070536636": {
+      "message": "Pagriezt pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu.}male{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu.}other{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}one{{COUNT_2} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}other{{COUNT_2} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}}}female{{COUNT_1,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}one{{COUNT_2} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}other{{COUNT_2} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}one{{COUNT_2} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}other{{COUNT_2} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu, atk\u0101rtoti izveidojiet savienojumu.}}}}"
+   },
+   "133632727011673707": {
+      "message": "Atlas\u012Bt citas import\u0113\u0161anas atra\u0161an\u0101s vietas"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Lai izmantotu visas lietojumprogrammas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}male{Lai izmantotu visas lietojumprogrammas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}other{Lai izmantotu visas lietojumprogrammas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Autom\u0101tiski import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}male{Autom\u0101tiski import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}other{Autom\u0101tiski import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}}"
+   },
+   "1410409051323941239": {
+      "message": "Notiek m\u0113\u0123in\u0101jums atk\u0101rtoti izveidot savienojumu..."
+   },
+   "1425141239403329190": {
+      "message": "Tagad varat dro\u0161i atvienot savu ier\u012Bci $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Saglab\u0101t"
+   },
+   "1482983300175848685": {
+      "message": "Re\u0123istr\u0113jieties pakalpojumam Google+"
+   },
+   "1494518490116523821": {
+      "message": "Atlas\u012Bt visus"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kop\u0113t}male{Kop\u0113t}other{Kop\u0113t}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{P\u0101rvietot}male{P\u0101rvietot}other{P\u0101rvietot}}"
+   },
+   "1535908424500369256": {
+      "message": "Tiks aizv\u0113rti \u0161\u0101di logi:\n"
+   },
+   "1542576779711006198": {
+      "message": "Notiek fotoatt\u0113lu import\u0113\u0161ana no $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{P\u0101rvietot}female{P\u0101rvietot}other{P\u0101rvietot}}"
+   },
+   "1572187844116018239": {
+      "message": "Skat\u012Bt pilnekr\u0101na re\u017E\u012Bm\u0101"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Pievienot}male{Pievienot}other{Pievienot}}"
+   },
+   "163532554661203916": {
+      "message": "Atveriet $1\u200B, lai s\u0101ktu import\u0113t fotoatt\u0113lus no $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Fotoatt\u0113li..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B versija $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Notiek iel\u0101de..."
+   },
+   "1753152144556911377": {
+      "message": "Par $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "N\u0113"
+   },
+   "1760918964936396010": {
+      "message": "Izdz\u0113siet $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nav kop\u012Bgots}male{Nav kop\u012Bgots}other{Nav kop\u012Bgots}}"
+   },
+   "1829542073477142210": {
+      "message": "Redzami sarunu dal\u012Bbniekiem"
+   },
+   "1863533324056146247": {
+      "message": "p\u0113cpusdien\u0101"
+   },
+   "1898536270078020135": {
+      "message": "Lietojumprogrammu izv\u0113lne"
+   },
+   "1907928780625920048": {
+      "message": "Dro\u0161a uzglab\u0101\u0161ana"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai}one{{COUNT_2} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai}other{{COUNT_2} fotoatt\u0113li ir gatavi kop\u012Bgo\u0161anai}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}female{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}other{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}}"
+   },
+   "1938243880078123136": {
+      "message": "Lai skat\u012Btos \u0161o videoklipu, j\u016Bs tiksit novirz\u012Bts uz pakalpojumu Google+."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Atz\u012Bm\u0113ta}male{Atz\u012Bm\u0113ts}other{Atz\u012Bm\u0113ts}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}female{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}other{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}}"
+   },
+   "1995266543727924491": {
+      "message": "Fotoatt\u0113li no t\u016Bl\u012Bt\u0113jas aug\u0161upiel\u0101des"
+   },
+   "2000146230061979936": {
+      "message": "Profila fotoatt\u0113li"
+   },
+   "2029980907058777630": {
+      "message": "Pakalpojuma snieg\u0161anas noteikumi"
+   },
+   "2066206612741461379": {
+      "message": "Autorties\u012Bbas\u00A0\u00A9\u00A02013 Google Inc. Visas ties\u012Bbas patur\u0113tas."
+   },
+   "2079435202927044386": {
+      "message": "Notiek fotoatt\u0113lu import\u0113\u0161ana"
+   },
+   "2097731301533028280": {
+      "message": "Visi fotoatt\u0113li"
+   },
+   "2102825898069375693": {
+      "message": "Izv\u0113lne"
+   },
+   "2127917516759723964": {
+      "message": "Vai dz\u0113st atlas\u012Btos albumus?"
+   },
+   "2134605074025092052": {
+      "message": "Izdz\u0113siet $1\u200B fotoatt\u0113lus"
+   },
+   "2159130950882492111": {
+      "message": "Atcelt"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}female{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}other{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Nav lab\u0101kais}male{Nav lab\u0101kais}other{Nav lab\u0101kais}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Sveiki! Laipni l\u016Bdzam pakalpojum\u0101 {XXX_1}.}female{Sveiki! Laipni l\u016Bdzam pakalpojum\u0101 {XXX_2}.}other{Sveiki! Laipni l\u016Bdzam pakalpojum\u0101 {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Pal\u012Bdz\u012Bba}female{Pal\u012Bdz\u012Bba}other{Pal\u012Bdz\u012Bba}}"
+   },
+   "2256196161103684642": {
+      "message": "Ierobe\u017Eota"
+   },
+   "2267143557027174044": {
+      "message": "Atcelt"
+   },
+   "2299297337048329405": {
+      "message": "Kop\u0113t"
+   },
+   "2354817630223808522": {
+      "message": "P\u0101rvietot"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Lai maksim\u0101li izmantotu programmas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}female{Lai maksim\u0101li izmantotu programmas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}other{Lai maksim\u0101li izmantotu programmas {APP_NAME} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0101rvietot {XXX_1} fotoatt\u0113lu uz albumu:}one{P\u0101rvietot {XXX_2} fotoatt\u0113lu uz albumu:}other{P\u0101rvietot {XXX_2} fotoatt\u0113lus uz albumu:}}"
+   },
+   "2442822401576040991": {
+      "message": "Fotoatt\u0113li no t\u0101lru\u0146a"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Lai s\u0101ktu darbu, import\u0113jiet savus fotoatt\u0113lus}female{Lai s\u0101ktu darbu, import\u0113jiet savus fotoatt\u0113lus}other{Lai s\u0101ktu darbu, import\u0113jiet savus fotoatt\u0113lus}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{nelietota daudzskait\u013Ca forma}=1{1 fotoatt\u0113ls}one{{PHOTO_COUNT_2} fotoatt\u0113ls}other{{PHOTO_COUNT_2} fotoatt\u0113li}}"
+   },
+   "2453303348493525919": {
+      "message": "Atlas\u012Bt vienumus"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Atlas\u012Bts {COUNT_2} albums}one{Atlas\u012Bts {COUNT_2} albums}other{Atlas\u012Bti {COUNT_2} albumi}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{Viens fotoatt\u0113ls jau tika aug\u0161upiel\u0101d\u0113ts iepriek\u0161\u0113j\u0101 sesij\u0101. }one{{NUM_PHOTOS_2} fotoatt\u0113ls jau tika aug\u0161upiel\u0101d\u0113ts iepriek\u0161\u0113j\u0101 sesij\u0101. }other{{NUM_PHOTOS_2} fotoatt\u0113li jau tika aug\u0161upiel\u0101d\u0113ti iepriek\u0161\u0113j\u0101 sesij\u0101. }}"
+   },
+   "2503049676444223994": {
+      "message": "P\u0113c pievieno\u0161anas datuma (no vec\u0101k\u0101 uz jaun\u0101ko)"
+   },
+   "251008425196701054": {
+      "message": "Redzams ikvienam j\u016Bsu dom\u0113n\u0101"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{\u013Baut lietojumprogrammai {APP_NAME} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}male{\u013Baut lietojumprogrammai {APP_NAME} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}other{\u013Baut lietojumprogrammai {APP_NAME} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}}"
+   },
+   "2537804086667442212": {
+      "message": "Ja atcelsit, tiks aptur\u0113ta p\u0101r\u0113jo fotoatt\u0113lu import\u0113\u0161ana. Fotoatt\u0113li, kas jau ir import\u0113ti, tiks no\u0146emti."
+   },
+   "2543396005338987129": {
+      "message": "Atcelt import\u0113\u0161anu"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Izpl\u016Bdis}male{Izpl\u016Bdis}other{Izpl\u016Bdis}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{No mapes $1\u200B ir pievienots un gatavs kop\u012Bgo\u0161anai viens fotoatt\u0113ls.}one{No mapes $1\u200B ir pievienots un gatavs kop\u012Bgo\u0161anai # fotoatt\u0113ls.}other{No mapes $1\u200B ir pievienoti un gatavi kop\u012Bgo\u0161anai # fotoatt\u0113li.}}"
+   },
+   "2603085641264767659": {
+      "message": "Notikuma viesi"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{\u013Baut lietojumprogrammai {XXX} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}male{\u013Baut lietojumprogrammai {XXX} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}other{\u013Baut lietojumprogrammai {XXX} ieteikt vislab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B sek."
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B apkopo fotoatt\u0113lus no j\u016Bsu kamer\u0101m, t\u0101lru\u0146iem un map\u0113m vienuviet."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls nokop\u0113ts no mapes {FOLDER_NAME}!}one{{NUM_PHOTOS_2} fotoatt\u0113ls nokop\u0113ts no mapes {FOLDER_NAME}!}other{{NUM_PHOTOS_2} fotoatt\u0113li nokop\u0113ti no mapes {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Piln\u0101 lielum\u0101 (atliku\u0161i $1\u200B GB no $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Neizdev\u0101s pierakst\u012Bt j\u016Bs pakalpojum\u0101 {XXX}.}male{Neizdev\u0101s pierakst\u012Bt j\u016Bs pakalpojum\u0101 {XXX}.}other{Neizdev\u0101s pierakst\u012Bt j\u016Bs pakalpojum\u0101 {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Atlas\u012Bt visu}female{Atlas\u012Bt visu}other{Atlas\u012Bt visu}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sek."
+   },
+   "2710655047330556001": {
+      "message": "Personas \u0161aj\u0101 fotoatt\u0113l\u0101"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Laipni l\u016Bdzam programm\u0101 {XXX_1}}female{Laipni l\u016Bdzam programm\u0101 {XXX_2}}other{Laipni l\u016Bdzam programm\u0101 {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Ekspoz\u012Bcija"
+   },
+   "2761269382982007883": {
+      "message": "M\u0113s pal\u012Bdz\u0113sim jums uztur\u0113t k\u0101rt\u012Bbu un ieteiksim lab\u0101kos fotoatt\u0113lus kop\u012Bgo\u0161anai."
+   },
+   "2761326392133498772": {
+      "message": "Kop\u012Bgot fotoatt\u0113lu"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Ak, n\u0113!}=1{Viens fotoatt\u0113ls}one{{PHOTO_COUNT_2} fotoatt\u0113ls}other{{PHOTO_COUNT_2} fotoatt\u0113li}}"
+   },
+   "2784586982005585140": {
+      "message": "Vair\u0101k"
+   },
+   "2786233632874013852": {
+      "message": "Citi fotoatt\u0113li"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{No\u0146emt atlasi visam}female{No\u0146emt atlasi visam}other{No\u0146emt atlasi visam}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperat\u016Bra"
+   },
+   "2820098809819439336": {
+      "message": "Dz\u0113st fotoatt\u0113lus"
+   },
+   "2847005022751960352": {
+      "message": "Joproj\u0101m darbojas..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Lai skat\u012Btu un kop\u012Bgotu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}one{Lai skat\u012Btu un kop\u012Bgotu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}other{Lai skat\u012Btu un kop\u012Bgotu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}}"
+   },
+   "287837027263664914": {
+      "message": "Redi\u0123\u0113t import\u0113\u0161anas atra\u0161an\u0101s vietas"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Atlas\u012Bts {COUNT_2} fotoatt\u0113ls}one{Atlas\u012Bts {COUNT_2} fotoatt\u0113ls}other{Atlas\u012Bti {COUNT_2} fotoatt\u0113li}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}female{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}other{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Pierakst\u012Bties}female{Pierakst\u012Bties}other{Pierakst\u012Bties}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pievienot {XXX_1} fotoatt\u0113lu albumam:}one{Pievienot {XXX_2} fotoatt\u0113lu albumam:}other{Pievienot {XXX_2} fotoatt\u0113lus albumam:}}"
+   },
+   "2973731817320915012": {
+      "message": "P\u0113c izveides datuma"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{R\u0101d\u012Bt no s\u0101kuma}female{R\u0101d\u012Bt no s\u0101kuma}other{R\u0101d\u012Bt no s\u0101kuma}}"
+   },
+   "2987283829749314385": {
+      "message": "Sveiki, $2\u200B! Laipni l\u016Bdzam $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nav atlas\u012Bts neviens fotoatt\u0113ls}=1{{COUNT_2} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai}one{{COUNT_2} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai}other{{COUNT_2} fotoatt\u0113li ir gatavi kop\u012Bgo\u0161anai}}"
+   },
+   "2991916598129901933": {
+      "message": "1 fotoatt\u0113ls"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Zemas kvalit\u0101tes}male{Zemas kvalit\u0101tes}other{Zemas kvalit\u0101tes}}"
+   },
+   "3018671699054071030": {
+      "message": "Fotoatt\u0113li no zi\u0146\u0101m"
+   },
+   "3052031564829371686": {
+      "message": "Autorties\u012Bbas\u00A0\u00A9\u00A02012 Google Inc. Visas ties\u012Bbas patur\u0113tas."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}male{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}other{Izv\u0113lieties, vai saglab\u0101t import\u0113to fotoatt\u0113lu pilna lieluma dubl\u0113jumkopijas vai maz\u0101kas, standarta lieluma kopijas (2048 pikse\u013Ci), kas ir bezmaksas.}}"
+   },
+   "3062505056927186217": {
+      "message": "Personisk\u0101 albuma fotoatt\u0113li"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{Aug\u0161upiel\u0101d\u0113ti {COUNT_2} no {TOTAL} fotoatt\u0113liem}=1{Aug\u0161upiel\u0101d\u0113ts {COUNT_2} no {TOTAL} fotoatt\u0113liem}one{Aug\u0161upiel\u0101d\u0113ts {COUNT_2} no {TOTAL} fotoatt\u0113liem}other{Aug\u0161upiel\u0101d\u0113ti {COUNT_2} no {TOTAL} fotoatt\u0113liem}}"
+   },
+   "313399915776279357": {
+      "message": "Zema kvalit\u0101te"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu}male{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu}other{Lai pirmoreiz iestat\u012Btu lietojumprogrammu {XXX}, nepiecie\u0161ams savienojums ar internetu}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}female{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}other{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}}"
+   },
+   "3169583722209452922": {
+      "message": "P\u0101rzin\u0101t"
+   },
+   "3173944879942241188": {
+      "message": "Izpl\u016Bdis"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}female{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}other{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B ir vienk\u0101r\u0161\u0101kais veids, k\u0101 k\u0101rtot un kop\u012Bgot savus fotoatt\u0113lus."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}female{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}other{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}}"
+   },
+   "3231427490891919648": {
+      "message": "Papla\u0161in\u0101tie loki"
+   },
+   "3249513483374643425": {
+      "message": "Pievienot"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} ir \u0113rt\u0101kais fotoatt\u0113lu k\u0101rto\u0161anas un kop\u012Bgo\u0161anas veids.}}"
+   },
+   "3266811991857373598": {
+      "message": "Lai s\u0101ktu, import\u0113jiet savus fotoatt\u0113lus"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} fotoatt\u0113ls}one{{COUNT_2} fotoatt\u0113ls}other{{COUNT_2} fotoatt\u0113li}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Izdz\u0113siet albumu}zero{Delete albums}one{Izdz\u0113siet albumus}other{Izdz\u0113siet albumus}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{K\u0101rtot}female{K\u0101rtot}other{K\u0101rtot}}"
+   },
+   "3298990500476723192": {
+      "message": "Dz\u0113st albumu"
+   },
+   "3304972143698843178": {
+      "message": "Pas\u0101kums"
+   },
+   "3316542569449182462": {
+      "message": "Notiek lab\u0101ko fotoatt\u0113lu mekl\u0113\u0161ana"
+   },
+   "3319379534575065569": {
+      "message": "Dublik\u0101ts"
+   },
+   "3335855558019774894": {
+      "message": "Aizv\u0113rt"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B no $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "\u0160aj\u0101 fotoatt\u0113l\u0101 neviens nav atz\u012Bm\u0113ts."
+   },
+   "335552911020230570": {
+      "message": "Notiek atcel\u0161ana..."
+   },
+   "3392114061661490939": {
+      "message": "Izm\u0113ri"
+   },
+   "339966167441018467": {
+      "message": "Fotoatt\u0113li ir sak\u0101rtoti p\u0113c popularit\u0101tes."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B fotoatt\u0113li"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Iziet no pilnekr\u0101na}female{Iziet no pilnekr\u0101na}other{Iziet no pilnekr\u0101na}}"
+   },
+   "3479702069824639097": {
+      "message": "Nospiediet, lai sal\u012Bdzin\u0101tu ar s\u0101kotn\u0113jo att\u0113lu."
+   },
+   "3529907190030543252": {
+      "message": "Lai pirmoreiz iestat\u012Btu $1\u200B, nepiecie\u0161ams savienojums ar internetu"
+   },
+   "3549990505176341828": {
+      "message": "P\u0101rekspon\u0113ts"
+   },
+   "3561019065020608408": {
+      "message": "Gatavs kop\u012Bgo\u0161anai"
+   },
+   "360237722039211543": {
+      "message": "Pakalpojuma Disks fotoatt\u0113lus var tikai kop\u0113t un kop\u012Bgot"
+   },
+   "3624887810607887590": {
+      "message": "Pagriezt pa kreisi"
+   },
+   "3627956543961104309": {
+      "message": "$1\u200B iestat\u012B\u0161ana"
+   },
+   "3630679964489180566": {
+      "message": "Fotoatt\u0113lu avoti"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Atcelt import\u0113\u0161anu (viens fotoatt\u0113ls)}zero{Atcelt import\u0113\u0161anu ({NUM_PHOTOS_2} fotoatt\u0113lu)}one{Atcelt import\u0113\u0161anu ({NUM_PHOTOS_2} fotoatt\u0113ls)}other{Atcelt import\u0113\u0161anu ({NUM_PHOTOS_2} fotoatt\u0113li)}}"
+   },
+   "3687863378890487189": {
+      "message": "Kust\u012Bba"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dz\u0113st atlas\u012Bto fotoatt\u0113lu}one{Dz\u0113st atlas\u012Btos fotoatt\u0113lus}other{Dz\u0113st atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "3714818517297325649": {
+      "message": "Ja atcelsit, tiks aptur\u0113ta p\u0101r\u0113jo fotoatt\u0113lu import\u0113\u0161ana.\nFotoatt\u0113li, kas jau ir aug\u0161upiel\u0101d\u0113ti, netiks no\u0146emti."
+   },
+   "3756864109602975489": {
+      "message": "Atz\u012Bmes +1"
+   },
+   "3759575685100154990": {
+      "message": "Fotoatt\u0113lu import\u0113\u0161ana"
+   },
+   "3807699453257291879": {
+      "message": "Koment\u0101ri"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Lai skat\u012Btu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}one{Lai skat\u012Btu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}other{Lai skat\u012Btu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}}"
+   },
+   "3818348166201769715": {
+      "message": "Visi j\u016Bsu fotoatt\u0113li"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Atlicis {COUNT_2} no {TOTAL}}one{Atlicis {COUNT_2} no {TOTAL}}other{Atliku\u0161i {COUNT_2} no {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Redzams lietot\u0101jiem: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Pagriezt pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam"
+   },
+   "3885024486041657280": {
+      "message": "\u0160\u012B kol\u0101\u017Ea tika izveidota no portreta fotoatt\u0113lu s\u0113rijas."
+   },
+   "3888600924819157294": {
+      "message": "Visi fotoatt\u0113li no pakalpojuma Zi\u0146ot\u0101js."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Izdz\u0113st \u0161o albumu}zero{Delete albums}one{Izdz\u0113st albumus}other{Izdz\u0113st albumus}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pagriezt atlas\u012Bto fotoatt\u0113lu pa kreisi}one{Pagriezt atlas\u012Btos fotoatt\u0113lus pa kreisi}other{Pagriezt atlas\u012Btos fotoatt\u0113lus pa kreisi}}"
+   },
+   "3973931101896534797": {
+      "message": "Datums"
+   },
+   "4023731095051291021": {
+      "message": "Skat\u012Bt pakalpojum\u0101 Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}male{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}other{Inform\u0113t mani un import\u0113t fotoatt\u0113lus no pievienotaj\u0101m kamer\u0101m un atmi\u0146as kart\u0113m}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Ats\u0101kt}female{Ats\u0101kt}other{Ats\u0101kt}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{\u0160\u0137iet, ka esat palaidusi lietotni {XXX} no ier\u012Bces, kuras oper\u0113t\u0101jsist\u0113ma nav Chrome. \u0160obr\u012Bd \u0161\u012B lietotne ir pieejama tikai oper\u0113t\u0101jsist\u0113m\u0101 Chrome, lai gan \u0161\u012B ikona var b\u016Bt redzama j\u016Bsu Chrome p\u0101rl\u016Bkprogramm\u0101, kad izmantojat ier\u012Bci ar oper\u0113t\u0101jsist\u0113mu, kas nav Chrome.}male{\u0160\u0137iet, ka esat palaidis lietotni {XXX} no ier\u012Bces, kuras oper\u0113t\u0101jsist\u0113ma nav Chrome. \u0160obr\u012Bd \u0161\u012B lietotne ir pieejama tikai oper\u0113t\u0101jsist\u0113m\u0101 Chrome, lai gan \u0161\u012B ikona var b\u016Bt redzama j\u016Bsu Chrome p\u0101rl\u016Bkprogramm\u0101, kad izmantojat ier\u012Bci ar oper\u0113t\u0101jsist\u0113mu, kas nav Chrome.}other{\u0160\u0137iet, ka esat palaidis lietotni {XXX} no ier\u012Bces, kuras oper\u0113t\u0101jsist\u0113ma nav Chrome. \u0160obr\u012Bd \u0161\u012B lietotne ir pieejama tikai oper\u0113t\u0101jsist\u0113m\u0101 Chrome, lai gan \u0161\u012B ikona var b\u016Bt redzama j\u016Bsu Chrome p\u0101rl\u016Bkprogramm\u0101, kad izmantojat ier\u012Bci ar oper\u0113t\u0101jsist\u0113mu, kas nav Chrome.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Skat\u012Bt import\u0113to fotoatt\u0113lu}zero{Skat\u012Bt import\u0113tos fotoatt\u0113lus}one{Skat\u012Bt import\u0113tos fotoatt\u0113lus}other{Skat\u012Bt import\u0113tos fotoatt\u0113lus}}"
+   },
+   "4187596523158859173": {
+      "message": "Lai skat\u012Btu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit."
+   },
+   "4201300158283262687": {
+      "message": "Lai skat\u012Btu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit."
+   },
+   "4248380204989256605": {
+      "message": "Pievienot"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Tikai j\u016Bs}male{Tikai j\u016Bs}other{Tikai j\u016Bs}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Pievienot albumam}female{Pievienot albumam}other{Pievienot albumam}}"
+   },
+   "4293741535116795213": {
+      "message": "\u0160is fotoatt\u0113ls tika izveidots, izmantojot lab\u0101kos smaidus no l\u012Bdz\u012Bgu fotoatt\u0113lu kopas."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}male{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}other{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzien\u0101}}"
+   },
+   "4323470180912194028": {
+      "message": "Kop\u0113t"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}female{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}other{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Redzams tikai jums"
+   },
+   "4367940371467792621": {
+      "message": "Re\u0123istr\u0113ties pakalpojumam Google+"
+   },
+   "4384754616332866866": {
+      "message": "Redzams person\u0101m, ar kur\u0101m kop\u012Bgoj\u0101t \u0161o albumu"
+   },
+   "4397726581488253055": {
+      "message": "P\u0101rtrauciet darbu"
+   },
+   "4451709539238919902": {
+      "message": "Da\u017Eiem fotoatt\u0113liem ir vair\u0101kas kopijas, kas netiks izdz\u0113stas."
+   },
+   "4458099219143901905": {
+      "message": "Atv\u0113rt, izmantojot pakalpojumu Google+ fotoatt\u0113li"
+   },
+   "4470533259338698234": {
+      "message": "P\u0101rvietot"
+   },
+   "4472091515638733183": {
+      "message": "Import\u0113\u0161ana aptur\u0113ta"
+   },
+   "4485837491844366665": {
+      "message": "Noklik\u0161\u0137iniet \u0161eit, lai skat\u012Btu un kop\u012Bgotu \u0161os fotoatt\u0113lus."
+   },
+   "4489698681193228521": {
+      "message": "Laipni l\u016Bdzam $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Import\u0113t fotoatt\u0113lus, kad pievienoju kameru vai atmi\u0146as karti"
+   },
+   "4504920004530359010": {
+      "message": "Piln\u0101 lielum\u0101 (l\u012Bdz 5 GB bezmaksas kr\u0101tuve)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Demonstr\u0113t}female{Demonstr\u0113t}other{Demonstr\u0113t}}"
+   },
+   "4535738935335444945": {
+      "message": "Nav kop\u012Bgots"
+   },
+   "4550974869121207169": {
+      "message": "Dz\u0113st"
+   },
+   "4557902876984952242": {
+      "message": "Redi\u0123\u0113t"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Izdz\u0113\u0161ot \u0161o albumu, tiks no\u0146emti visi ar \u0161o albumu saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}zero{Deleting these albums will remove all comments, +1's, and tags associated with the albums.}one{Izdz\u0113\u0161ot \u0161os albumus, tiks no\u0146emti visi ar \u0161iem albumiem saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}other{Izdz\u0113\u0161ot \u0161os albumus, tiks no\u0146emti visi ar \u0161iem albumiem saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}}"
+   },
+   "4575337223720002806": {
+      "message": "Autom\u0101tisk\u0101 p\u0101rzin\u0101\u0161ana"
+   },
+   "4579986716424813115": {
+      "message": "R\u0101d\u012Bt no pa\u0161a s\u0101kuma"
+   },
+   "460600293345244430": {
+      "message": "Atlasiet fotoatt\u0113lus, ko kop\u012Bgot vai pievienot albumam."
+   },
+   "4624285717763544623": {
+      "message": "Pievienot"
+   },
+   "4630251340863502127": {
+      "message": "Notiek import\u0113to fotoatt\u0113lu aug\u0161upiel\u0101de"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}male{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}other{Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Import\u0113ts viens fotoatt\u0113ls.}one{Import\u0113ts # fotoatt\u0113ls.}other{Import\u0113ti # fotoatt\u0113li.}}"
+   },
+   "466730294804943734": {
+      "message": "V\u0113l nav neviena koment\u0101ra."
+   },
+   "467305038295675927": {
+      "message": "Lietotne $1\u200B \u0161aj\u0101 platform\u0101 netiek atbalst\u012Bta."
+   },
+   "4678028473996848955": {
+      "message": "Visi j\u016Bsu fotoatt\u0113li"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Atcelt}female{Atcelt}other{Atcelt}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B. no $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens1{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lu, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens1{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lu, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lu, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200Bx$1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Ja izdz\u0113s\u012Bsit \u0161os albumus, tiks izdz\u0113stas ar\u012B visas ar tiem saist\u012Bt\u0101s zi\u0146as, koment\u0101ri un atz\u012Bmes +1."
+   },
+   "471816275243265264": {
+      "message": "Atra\u0161an\u0101s vieta"
+   },
+   "4726999481668064421": {
+      "message": "\u0160is HDR fotoatt\u0113ls tika izveidots no da\u017E\u0101di ekspon\u0113tu att\u0113lu kopas."
+   },
+   "4736210244914788712": {
+      "message": "Disks"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BJ\u016Bs esat pierakst\u012Bjies k\u0101$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Sveiki! Laipni l\u016Bdzam pakalpojum\u0101 $1\u200B!"
+   },
+   "480004418428835822": {
+      "message": "Fotoatt\u0113li no pakalpojuma Zi\u0146ot\u0101js"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BJ\u016Bs esat pierakst\u012Bjies k\u0101$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Tagad varat dro\u0161i atvienot savu ier\u012Bci."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotatt\u0113lu vai no\u0146emtu t\u0101 atlasi}female{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotatt\u0113lu vai no\u0146emtu t\u0101 atlasi}other{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotatt\u0113lu vai no\u0146emtu t\u0101 atlasi}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Import\u0113t fotoatt\u0113lus, kad pievienoju kameru vai atmi\u0146as karti}male{Import\u0113t fotoatt\u0113lus, kad pievienoju kameru vai atmi\u0146as karti}other{Import\u0113t fotoatt\u0113lus, kad pievienoju kameru vai atmi\u0146as karti}}"
+   },
+   "484542621830317934": {
+      "message": "Jums nav neviena albuma. Aug\u0161upiel\u0101d\u0113jiet fotoatt\u0113lus t\u016Bl\u012Bt!"
+   },
+   "489844404897890427": {
+      "message": "Pilnekr\u0101na re\u017E\u012Bms"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 fotoatt\u0113lu}=1{Viens fotoatt\u0113ls}one{{NUM_2} fotoatt\u0113ls}other{{NUM_2} fotoatt\u0113li}}"
+   },
+   "4930506384627295710": {
+      "message": "Iestat\u012Bjumi"
+   },
+   "495485805564687684": {
+      "message": "Aptur\u0113t import\u0113\u0161anu"
+   },
+   "4957990634817185638": {
+      "message": "Turpin\u0101t import\u0113\u0161anu"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Kop\u012Bgot albumu}=1{Kop\u012Bgot atlas\u012Bto fotoatt\u0113lu}one{Kop\u012Bgot atlas\u012Btos fotoatt\u0113lus}other{Kop\u012Bgot atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}male{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}other{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Atlas\u012Bta {COUNT_2} diena}one{Atlas\u012Bta {COUNT_2} diena}other{Atlas\u012Btas {COUNT_2} dienas}}"
+   },
+   "5028777105388019087": {
+      "message": "Detaliz\u0113ta inform\u0101cija"
+   },
+   "5043933900720743682": {
+      "message": "Albumi"
+   },
+   "5045200874122539692": {
+      "message": "Iziet"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Lai s\u0101ktu darbu, aug\u0161upiel\u0101d\u0113jiet da\u017Eus fotoatt\u0113lus.}male{Lai s\u0101ktu darbu, aug\u0161upiel\u0101d\u0113jiet da\u017Eus fotoatt\u0113lus.}other{Lai s\u0101ktu darbu, aug\u0161upiel\u0101d\u0113jiet da\u017Eus fotoatt\u0113lus.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "J\u016Bsu dom\u0113ns"
+   },
+   "5087678602655068553": {
+      "message": "Kamera"
+   },
+   "5094793857629325945": {
+      "message": "Notiek sagatavo\u0161ana kop\u012Bgo\u0161anai..."
+   },
+   "509736707516044180": {
+      "message": "Notiek atcel\u0161ana..."
+   },
+   "5114432207766092038": {
+      "message": "Visi fotoatt\u0113li no vis\u0101m zi\u0146\u0101m."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Izdz\u0113\u0161ot \u0161o fotoatt\u0113lu, tiks no\u0146emti visi ar \u0161o fotoatt\u0113lu saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}zero{Deleting these photos will remove all comments, +1's, and tags associated with the photos.}one{Izdz\u0113\u0161ot \u0161os fotoatt\u0113lus, tiks no\u0146emti visi ar \u0161iem fotoatt\u0113liem saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}other{Izdz\u0113\u0161ot \u0161os fotoatt\u0113lus, tiks no\u0146emti visi ar \u0161iem fotoatt\u0113liem saist\u012Btie koment\u0101ri, atz\u012Bmes +1 un atz\u012Bmes.}}"
+   },
+   "5127852906617233988": {
+      "message": "Aizv\u0113rt"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{J\u016Bsu loki}male{J\u016Bsu loki}other{J\u016Bsu loki}}"
+   },
+   "5143227875710959810": {
+      "message": "Kop\u012Bgot albumu"
+   },
+   "5146398958364876914": {
+      "message": "K\u0101rtot"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{No {FROM_NAME}}male{No {FROM_NAME}}other{No {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Iestat\u012Bt k\u0101 albuma noform\u0113jumu}female{Iestat\u012Bt k\u0101 albuma noform\u0113jumu}other{Iestat\u012Bt k\u0101 albuma noform\u0113jumu}}"
+   },
+   "5179193375793315549": {
+      "message": "Vienlaikus var pievienot ne vair\u0101k k\u0101 $1\u200B fotoatt\u0113lus."
+   },
+   "5198477912095887288": {
+      "message": "K\u0101 uz\u0146emts"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Skat\u012Bt fotoatt\u0113lu}one{Skat\u012Bt fotoatt\u0113lus}other{Skat\u012Bt fotoatt\u0113lus}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}male{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}other{Lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di, l\u016Bdzu, pierakstieties p\u0101rl\u016Bkprogramm\u0101 Chrome.}}"
+   },
+   "5233843271957333982": {
+      "message": "Atiestat\u012Bt"
+   },
+   "5252008443782667515": {
+      "message": "J\u0101"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Ir v\u0113l viena papildu kopija, kas netiks izdz\u0113sta.}zero{There are {NUM_ADDITIONAL_COPIES_2} copies that will not be deleted.}one{Ir {NUM_ADDITIONAL_COPIES_2} kopija, kas netiks izdz\u0113sta.}other{Ir {NUM_ADDITIONAL_COPIES_2} kopijas, kas netiks izdz\u0113stas.}}"
+   },
+   "5369958865776447504": {
+      "message": "\u0160is fotoatt\u0113ls atrodas album\u0101 $1\u200B."
+   },
+   "5376084340764125422": {
+      "message": "Aizv\u0113rt pilnekr\u0101na re\u017E\u012Bmu"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Jaukts"
+   },
+   "5413761544816529267": {
+      "message": "Lai izmantotu $1\u200B, l\u016Bdzu, re\u0123istr\u0113jieties Google+ kontam."
+   },
+   "5429439352984579915": {
+      "message": "$2\u200B.\u00A0gada $1\u200B"
+   },
+   "5438842342016861353": {
+      "message": "M\u0113\u0123iniet v\u0113lreiz"
+   },
+   "545081735380424772": {
+      "message": "Aug\u0161upiel\u0101d\u0113jiet un kop\u012Bgojiet fotoatt\u0113lus no programmas Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Fotoatt\u0113lu dz\u0113\u0161ana"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Izpl\u016Bdis"
+   },
+   "5522640894890976342": {
+      "message": "P\u0101r\u0101k tum\u0161s"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{P\u0101rekspon\u0113ts}male{P\u0101rekspon\u0113ts}other{P\u0101rekspon\u0113ts}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Nokop\u0113ts viens fotoatt\u0113ls!}one{Nokop\u0113ts {NUM_PHOTOS_2} fotoatt\u0113ls!}other{Nokop\u0113ti {NUM_PHOTOS_2} fotoatt\u0113li!}}"
+   },
+   "5546339789714773759": {
+      "message": "Pagriezt pa labi"
+   },
+   "5563891514339188770": {
+      "message": "Iestat\u012Bt par albuma v\u0101ku"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}male{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}other{Noklik\u0161\u0137iniet, lai no\u0146emtu \u0161o fotoatt\u0113lu}}"
+   },
+   "5613209249634786065": {
+      "message": "Pilna (l\u012Bdz 5 GB bezmaksas kr\u0101tuve)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Saglab\u0101jiet, k\u0101rtojiet un kop\u012Bgojiet visus savus fotoatt\u0113lus un videoklipus, veicot tikai p\u0101ris klik\u0161\u0137u.}female{Saglab\u0101jiet, k\u0101rtojiet un kop\u012Bgojiet visus savus fotoatt\u0113lus un videoklipus, veicot tikai p\u0101ris klik\u0161\u0137u.}other{Saglab\u0101jiet, k\u0101rtojiet un kop\u012Bgojiet visus savus fotoatt\u0113lus un videoklipus, veicot tikai p\u0101ris klik\u0161\u0137u.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}Viens{END_BOLD} lab\u0101kais fotoatt\u0113ls, ko atlas\u012Bja Google.}one{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} lab\u0101kais fotoatt\u0113ls, ko atlas\u012Bja Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} lab\u0101kie fotoatt\u0113li, ko atlas\u012Bja Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Skat\u012Bt fotoatt\u0113lu}one{Skat\u012Bt fotoatt\u0113lus}other{Skat\u012Bt fotoatt\u0113lus}}}female{{COUNT,plural, =0{unused plural form}=1{Skat\u012Bt fotoatt\u0113lu}one{Skat\u012Bt fotoatt\u0113lus}other{Skat\u012Bt fotoatt\u0113lus}}}other{{COUNT,plural, =0{unused plural form}=1{Skat\u012Bt fotoatt\u0113lu}one{Skat\u012Bt fotoatt\u0113lus}other{Skat\u012Bt fotoatt\u0113lus}}}}"
+   },
+   "5746809345784803206": {
+      "message": "\u0160aj\u0101 album\u0101 neviens nav atz\u012Bm\u0113ts."
+   },
+   "5747301769466451086": {
+      "message": "Pilna (atliku\u0161i $1\u200B GB no $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Vienlaikus var kop\u012Bgot ne vair\u0101k k\u0101 $1\u200B fotoatt\u0113lus."
+   },
+   "5750485945694679561": {
+      "message": "Fotoatt\u0113ls"
+   },
+   "5752465522295465624": {
+      "message": "Kas tas ir?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Import\u0113ts viens fotoatt\u0113ls.}one{Import\u0113ts # fotoatt\u0113ls.}other{Import\u0113ti # fotoatt\u0113li.}}"
+   },
+   "5782608665556323710": {
+      "message": "Kop\u012Bgots ar papla\u0161in\u0101tajiem lokiem"
+   },
+   "5792855097053831820": {
+      "message": "Atlasiet avotus, no kuriem fotoatt\u0113li tiek import\u0113ti un aug\u0161upiel\u0101d\u0113ti priv\u0101ti pakalpojum\u0101 Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Dz\u0113st \u0161o fotoatt\u0113lu}zero{Delete photos}one{Dz\u0113st fotoatt\u0113lus}other{Dz\u0113st fotoatt\u0113lus}}"
+   },
+   "5822534876981710132": {
+      "message": "T\u016Bl\u012Bt\u0113ja aug\u0161upiel\u0101de"
+   },
+   "5849125517299342831": {
+      "message": "Notiek fotoatt\u0113lu import\u0113\u0161ana..."
+   },
+   "5851872412594366640": {
+      "message": "P\u0101rvietot visus albuma fotoatt\u0113lus"
+   },
+   "585220835732140655": {
+      "message": "Kop\u012Bgots $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Pilna (l\u012Bdz 5,0 GB bezmaksas kr\u0101tuve)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Viens fotoatt\u0113ls, kas jau bija import\u0113ts, v\u0113l tiks aug\u0161upiel\u0101d\u0113ts.}zero{{NUM_PHOTOS_2} fotoatt\u0113lu, kas jau bija import\u0113ti, v\u0113l tiks aug\u0161upiel\u0101d\u0113ti.}one{{NUM_PHOTOS_2} fotoatt\u0113ls, kas jau bija import\u0113ts, v\u0113l tiks aug\u0161upiel\u0101d\u0113ts.}other{{NUM_PHOTOS_2} fotoatt\u0113li, kas jau bija import\u0113ti, v\u0113l tiks aug\u0161upiel\u0101d\u0113ti.}}"
+   },
+   "591256046515963756": {
+      "message": "Neaizmirstiet jauk\u0101kos mirk\u013Cus \u2014 piek\u013C\u016Bstiet saviem fotoattt\u0113liem jebkur\u0101 laik\u0101 no jebkuras ier\u012Bces."
+   },
+   "5937251202465808296": {
+      "message": "Vair\u0101k"
+   },
+   "5963865584069399662": {
+      "message": "priv\u0101ti"
+   },
+   "5978216065275630477": {
+      "message": "Neizdev\u0101s pierakst\u012Bt j\u016Bs pakalpojum\u0101 Google+ fotoatt\u0113li."
+   },
+   "5981779462795520309": {
+      "message": "S\u0101kotn\u0113jo zi\u0146u adres\u0101ti"
+   },
+   "5984859669237993376": {
+      "message": "Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}one{# fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}other{# fotoatt\u0113li ir pievienoti un gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "6003032126642624287": {
+      "message": "Piln\u0101 lielum\u0101 (l\u012Bdz 5,0 GB bezmaksas kr\u0101tuve)"
+   },
+   "6021285543212025836": {
+      "message": "Ja izdz\u0113s\u012Bsit \u0161o fotoatt\u0113lu, tiks izdz\u0113stas ar\u012B visas ar to saist\u012Bt\u0101s zi\u0146as, koment\u0101ri un atz\u012Bmes +1."
+   },
+   "605360614133602045": {
+      "message": "priek\u0161pusdien\u0101"
+   },
+   "6073020864818444056": {
+      "message": "Gatavs"
+   },
+   "612521550010808115": {
+      "message": "Redzams ikvienam t\u012Bmekl\u012B"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}one{# fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}other{# fotoatt\u0113li ir pievienoti un gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "6143433948220856193": {
+      "message": "P\u0101rgaismots"
+   },
+   "6250697253024491514": {
+      "message": "Labi"
+   },
+   "6261406176927621365": {
+      "message": "Dz\u0113st fotoatt\u0113lu"
+   },
+   "6261883509320806048": {
+      "message": "Vai dz\u0113st atlas\u012Btos fotoatt\u0113lus?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B apvieno j\u016Bsu diskdzin\u012B eso\u0161os un ar t\u0101lruni un kameru uz\u0146emtos fotoatt\u0113lus vienuviet."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{\u013Baut programmai {APP_NAME} ieteikt lab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}female{\u013Baut programmai {APP_NAME} ieteikt lab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}other{\u013Baut programmai {APP_NAME} ieteikt lab\u0101kos att\u0113lus no j\u016Bsu import\u0113tajiem fotoatt\u0113liem}}"
+   },
+   "6366245138858985671": {
+      "message": "Personisk\u0101 albuma fotoatt\u0113lu albums"
+   },
+   "636798263636559500": {
+      "message": "Ievadiet albuma nosaukumu"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}male{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}other{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}}"
+   },
+   "6402624319890396199": {
+      "message": "Atcelt"
+   },
+   "6405254665227516714": {
+      "message": "Visi profila fotoatt\u0113li."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{J\u016Bs nevarat atlas\u012Bt citu personu fotoatt\u0113lus}male{J\u016Bs nevarat atlas\u012Bt citu personu fotoatt\u0113lus}other{J\u016Bs nevarat atlas\u012Bt citu personu fotoatt\u0113lus}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Pa\u0161laik nav izveidots savienojums ar internetu.}female{Pa\u0161laik nav izveidots savienojums ar internetu.}other{Pa\u0161laik nav izveidots savienojums ar internetu.}}"
+   },
+   "6544829965377284375": {
+      "message": "\u0160ie fotoatt\u0113li ir priv\u0101ti aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+ un ir redzami tikai jums."
+   },
+   "6546455868033656709": {
+      "message": "P\u0113c uz\u0146em\u0161anas datuma (no jaun\u0101k\u0101 uz vec\u0101ko)"
+   },
+   "6562395422130457272": {
+      "message": "Apgaismojums"
+   },
+   "6569718559670589774": {
+      "message": "Kop\u012Bgots priv\u0101ti"
+   },
+   "6578760328281087395": {
+      "message": "Dz\u0113st fotoatt\u0113lu"
+   },
+   "6594379652661172876": {
+      "message": "\u0160is fotokab\u012Bnes stila att\u0113ls tika izveidots, izmantojot vair\u0101kus portreta att\u0113lus."
+   },
+   "6604371182910178125": {
+      "message": "Ja izdz\u0113s\u012Bsit \u0161o fotoatt\u0113lu, tiks izdz\u0113stas ar\u012B visas ar to saist\u012Bt\u0101s zi\u0146as, koment\u0101ri un atz\u012Bmes +1."
+   },
+   "6626842519109915669": {
+      "message": "Fotoatt\u0113li no autom\u0101tisk\u0101s dubl\u0113\u0161anas"
+   },
+   "663126026358360455": {
+      "message": "Standarta (neierobe\u017Eota bezmaksas kr\u0101tuve)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Viens fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}one{{NUM_PHOTOS_2} fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}other{{NUM_PHOTOS_2} fotoatt\u0113li ir pievienoti un gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "664682826251689034": {
+      "message": "V\u0113l nav nevienas atz\u012Bmes +1."
+   },
+   "666585356635427967": {
+      "message": "\u0160is fotoatt\u0113ls tika autom\u0101tiski uzlabots."
+   },
+   "6698080327673689103": {
+      "message": "Notiek lab\u0101ko att\u0113lu mekl\u0113\u0161ana..."
+   },
+   "6721868124884562992": {
+      "message": "Glab\u0101jiet fotoatt\u0113lus no vis\u0101m ier\u012Bc\u0113m vienuviet."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{P\u0101rzin\u0101t}female{P\u0101rzin\u0101t}other{P\u0101rzin\u0101t}}"
+   },
+   "6747166642870870925": {
+      "message": "Notiek import\u0113\u0161anas aptur\u0113\u0161ana..."
+   },
+   "6750134343457912784": {
+      "message": "Lai izmantotu visas programmas $1\u200B iesp\u0113jas iestatiet, lai t\u0101 autom\u0101tiski import\u0113 j\u016Bsu fotoatt\u0113lus."
+   },
+   "675159243189607951": {
+      "message": "Pievienot fotoatt\u0113lu albumam"
+   },
+   "6778067484492795152": {
+      "message": "P\u0101r\u0101k tum\u0161s"
+   },
+   "6792549611288275870": {
+      "message": "Fokusa att\u0101lums"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B dro\u0161i uzglab\u0101 j\u016Bsu fotoatt\u0113lus un \u013Cauj jums tos apskat\u012Bt jebkur\u0101 laik\u0101 no jebkuras ier\u012Bces."
+   },
+   "680511502310466916": {
+      "message": "Popul\u0101ri fotoatt\u0113li"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{nelietota daudzskait\u013Ca forma}=1{{NUM_PHOTOS_2} fotoatt\u0113l\u0101}one{{NUM_PHOTOS_2} fotoatt\u0113l\u0101}other{{NUM_PHOTOS_2} fotoatt\u0113los}}"
+   },
+   "6872320306636644917": {
+      "message": "Tagad varat dro\u0161i atvienot savu ier\u012Bci."
+   },
+   "6872759799605876555": {
+      "message": "F skaitlis"
+   },
+   "687281374586801843": {
+      "message": "Palaist programmu $1\u200B un import\u0113t fotoatt\u0113lus, kad pievienoju kameru vai atmi\u0146as karti"
+   },
+   "6882873153932419461": {
+      "message": "Selekt\u012Bv\u0101 piel\u0101go\u0161ana"
+   },
+   "6906406658770551379": {
+      "message": "\u0160\u012B anim\u0101cija tika izveidota no piecu vai vair\u0101ku fotoatt\u0113lu s\u0113rijas."
+   },
+   "6983200894459150878": {
+      "message": "\u0160is panor\u0101mas att\u0113ls tika izveidots no savienotu fotoatt\u0113lu kopas."
+   },
+   "7022070615528435141": {
+      "message": "Dz\u0113st"
+   },
+   "7049887240439736400": {
+      "message": "Druk\u0101t"
+   },
+   "706796434064753890": {
+      "message": "Demonstr\u0113t slaidr\u0101di"
+   },
+   "7102649289752747375": {
+      "message": "S\u016Bt\u012Bt atsauksmi"
+   },
+   "7105497072958063616": {
+      "message": "Tonis"
+   },
+   "7182974689040833178": {
+      "message": "Ats\u0101kt"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{J\u016Bsu dom\u0113ns}male{J\u016Bsu dom\u0113ns}other{J\u016Bsu dom\u0113ns}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BJ\u016Bs esat pierakst\u012Bjies k\u0101$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Notiek fotoatt\u0113lu import\u0113\u0161ana no $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Turpin\u0101t import\u0113\u0161anu"
+   },
+   "7283005104295613831": {
+      "message": "Izv\u0113lieties pilna izm\u0113ra fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta izm\u0113ra aug\u0161upiel\u0101des, kas ir bezmaksas."
+   },
+   "7288593042347321202": {
+      "message": "Vai dz\u0113st atlas\u012Bto fotoatt\u0113lu?"
+   },
+   "7329217250595054697": {
+      "message": "S\u0101kotn\u0113jais"
+   },
+   "734934965373819800": {
+      "message": "Atpaka\u013C"
+   },
+   "7369759355127489779": {
+      "message": "Augsts dinamiskais diapazons"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Atz\u012Bm\u0113ta album\u0101: {ALBUM_NAME}}male{Atz\u012Bm\u0113ts album\u0101: {ALBUM_NAME}}other{Atz\u012Bm\u0113ts album\u0101: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Pievienot fotoatt\u0113lus"
+   },
+   "7419704019640008953": {
+      "message": "Kop\u012Bgot"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Vislab\u0101kais}male{Vislab\u0101kais}other{Vislab\u0101kais}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Laipni l\u016Bdzam pakalpojum\u0101 {XXX}}male{Laipni l\u016Bdzam pakalpojum\u0101 {XXX}}other{Laipni l\u016Bdzam pakalpojum\u0101 {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Lai skat\u012Btu visus fotoatt\u0113lus un albumus, atk\u0101rtoti izveidojiet savienojumu."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Aptur\u0113t}female{Aptur\u0113t}other{Aptur\u0113t}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pagriezt atlas\u012Bto fotoatt\u0113lu pa labi}one{Pagriezt atlas\u012Btos fotoatt\u0113lus pa labi}other{Pagriezt atlas\u012Btos fotoatt\u0113lus pa labi}}"
+   },
+   "7488769419737494778": {
+      "message": "Sveiki, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "P\u0113c tam izv\u0113lieties aug\u0161upiel\u0101des izm\u0113ru"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Nokop\u0113ts viens fotoatt\u0113ls!}one{Nokop\u0113ts # fotoatt\u0113ls!}other{Nokop\u0113ti # fotoatt\u0113li!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Kop\u012Bgot}female{Kop\u012Bgot}other{Kop\u012Bgot}}"
+   },
+   "7538539390938534172": {
+      "message": "Balt\u0101s kr\u0101sas balanss"
+   },
+   "7546970424299309536": {
+      "message": "Autom\u0101tiski sak\u0101rtoti un gatavi kop\u012Bgo\u0161anai"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nav atlas\u012Bts neviens fotoatt\u0113ls}=1{Atlas\u012Bts {COUNT_2} fotoatt\u0113ls}one{Atlas\u012Bts {COUNT_2} fotoatt\u0113ls}other{Atlas\u012Bti {COUNT_2} fotoatt\u0113li}}"
+   },
+   "7637409896935138087": {
+      "message": "P\u0113c uz\u0146em\u0161anas datuma (no vec\u0101k\u0101 uz jaun\u0101ko)"
+   },
+   "7649598852815041947": {
+      "message": "Jauns albums"
+   },
+   "765296891797858248": {
+      "message": "Sveiki!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{No mapes {FOLDER_NAME} ir pievienots un gatavs kop\u012Bgo\u0161anai viens fotoatt\u0113ls!}one{No mapes {FOLDER_NAME} ir pievienots un gatavs kop\u012Bgo\u0161anai {NUM_PHOTOS_2} fotoatt\u0113ls!}other{No mapes {FOLDER_NAME} ir pievienoti un gatavi kop\u012Bgo\u0161anai {NUM_PHOTOS_2} fotoatt\u0113li!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B skat\u012Bjumi"
+   },
+   "7718742267235559288": {
+      "message": "Aizv\u0113rt pilnekr. re\u017E\u012Bmu"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fotoatt\u0113ls nokop\u0113ts no mapes $1\u200B!}one{# fotoatt\u0113ls nokop\u0113ts no mapes $1\u200B!}other{# fotoatt\u0113li nokop\u0113ti no mapes $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "Dro\u0161a kr\u0101tuve"
+   },
+   "7736894743522697089": {
+      "message": "Panor\u0101ma"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{P\u0101rvietot atlas\u012Bto fotoatt\u0113lu}one{P\u0101rvietot atlas\u012Btos fotoatt\u0113lus}other{P\u0101rvietot atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "7756231341602930532": {
+      "message": "Labi"
+   },
+   "778874571620222981": {
+      "message": "S\u0101kam darbu!"
+   },
+   "779808899645033177": {
+      "message": "P\u0113d\u0113j\u0101 import\u0113\u0161ana ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Tikai jums"
+   },
+   "7828808805120058354": {
+      "message": "Atgriezt"
+   },
+   "7856636143847093955": {
+      "message": "Sapludin\u0101t dienas"
+   },
+   "7871095434511949009": {
+      "message": "Diafragmas atv\u0113rums"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{P\u0113c tam izv\u0113lieties aug\u0161upiel\u0101des lielumu}female{P\u0113c tam izv\u0113lieties aug\u0161upiel\u0101des lielumu}other{P\u0113c tam izv\u0113lieties aug\u0161upiel\u0101des lielumu}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}male{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}other{Atlasiet avotus, no kuriem fotoatt\u0113li tiek priv\u0101ti import\u0113ti un aug\u0161upiel\u0101d\u0113ti pakalpojum\u0101 Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotoatt\u0113lu vai atceltu t\u0101 atlasi}male{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotoatt\u0113lu vai atceltu t\u0101 atlasi}other{Noklik\u0161\u0137iniet, lai atlas\u012Btu \u0161o fotoatt\u0113lu vai atceltu t\u0101 atlasi}}"
+   },
+   "7899751896282337632": {
+      "message": "Uzlabots"
+   },
+   "7911416166208830577": {
+      "message": "Pal\u012Bdz\u012Bba"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Lai skat\u012Btu un kop\u012Bgotu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}one{Lai skat\u012Btu un kop\u012Bgotu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}other{Lai skat\u012Btu un kop\u012Bgotu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Dz\u0113st}female{Dz\u0113st}other{Dz\u0113st}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}female{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}other{Noklik\u0161\u0137iniet, lai pagrieztu \u0161o fotoatt\u0113lu pret\u0113ji pulkste\u0146r\u0101d\u012Bt\u0101ja kust\u012Bbas virzienam}}"
+   },
+   "8031489364030461560": {
+      "message": "$1\u200B iestat\u012B\u0161ana"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{\u0160is fotoatt\u0113ls tika uzlabots autom\u0101tiski.}male{\u0160is fotoatt\u0113ls tika uzlabots autom\u0101tiski.}other{\u0160is fotoatt\u0113ls tika uzlabots autom\u0101tiski.}}"
+   },
+   "8112449587476468078": {
+      "message": "Vai dz\u0113st atlas\u012Bto albumu?"
+   },
+   "8121983485737306983": {
+      "message": "Dublic\u0113t"
+   },
+   "8137181364321684389": {
+      "message": "Google+\u00A0fotoatt\u0113li"
+   },
+   "8160611829089073754": {
+      "message": "Dz\u0113st albumus"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pievienot atlas\u012Bto fotoatt\u0113lu albumam}one{Pievienot atlas\u012Btos fotoatt\u0113lus albumam}other{Pievienot atlas\u012Btos fotoatt\u0113lus albumam}}"
+   },
+   "8179903593042831802": {
+      "message": "Pievienot fotoatt\u0113lus"
+   },
+   "819996403327805209": {
+      "message": "Uzzin\u0101t vair\u0101k"
+   },
+   "8209467666747691270": {
+      "message": "Vislab\u0101kais"
+   },
+   "8233995188166153420": {
+      "message": "L\u016Bdzu, pierakstieties programm\u0101 Chrome, lai s\u0101ktu fotoatt\u0113lu aug\u0161upiel\u0101di."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Slikt\u0101kas kvalit\u0101tes dublik\u0101ts}male{Slikt\u0101kas kvalit\u0101tes dublik\u0101ts}other{Slikt\u0101kas kvalit\u0101tes dublik\u0101ts}}"
+   },
+   "8257489178421131174": {
+      "message": "Ievadiet albuma nosaukumu"
+   },
+   "8262372758945437018": {
+      "message": "S\u0101kt darbu"
+   },
+   "8272813937461935720": {
+      "message": "Neizdev\u0101s pierakst\u012Bt j\u016Bs pakalpojum\u0101 Google+ fotoatt\u0113li."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}female{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}other{Noklik\u0161\u0137iniet, lai pievienotu fotoatt\u0113lus}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Kop\u012Bgot atlas\u012Bto fotoatt\u0113lu}one{Kop\u012Bgot atlas\u012Btos fotoatt\u0113lus}other{Kop\u012Bgot atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "8317910107005018559": {
+      "message": "Maz\u0101k"
+   },
+   "8324963774100913509": {
+      "message": "Ierobe\u017Eota"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Laipni l\u016Bdzam pakalpojum\u0101 {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Ievadiet albuma nosaukumu}male{Ievadiet albuma nosaukumu}other{Ievadiet albuma nosaukumu}}"
+   },
+   "8405309693308875139": {
+      "message": "Fotoatt\u0113li"
+   },
+   "840692109692540367": {
+      "message": "Pierakst\u012Bties"
+   },
+   "8418580476552799567": {
+      "message": "Aug\u0161upiel\u0101des izm\u0113rs"
+   },
+   "8446162208830000966": {
+      "message": "Iziet"
+   },
+   "8461609631969932886": {
+      "message": "Pasl\u0113pt"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B versija $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Lai skat\u012Btu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}one{Lai skat\u012Btu \u0161o fotoatt\u0113lu, noklik\u0161\u0137iniet \u0161eit.}other{Lai skat\u012Btu \u0161os fotoatt\u0113lus, noklik\u0161\u0137iniet \u0161eit.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Da\u017Ei fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}male{{COUNT_1,plural, =0{Da\u017Ei fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}other{{COUNT_1,plural, =0{Da\u017Ei fotoatt\u0113li gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}=1{{START_BOLD}Viens{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}one{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}other{{START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls gaida aug\u0161upiel\u0101di. Lai aug\u0161upiel\u0101d\u0113tu un kop\u012Bgotu fotoatt\u0113lus, atk\u0101rtoti izveidojiet savienojumu.}}}}"
+   },
+   "8523058396622240712": {
+      "message": "\u013Baut programmai $1\u200B pal\u012Bdz\u0113t jums atlas\u012Bt lab\u0101kos att\u0113lus no fotoatt\u0113liem, ko import\u0113jat"
+   },
+   "8554704680089748768": {
+      "message": "Fotoatt\u0113li, kas import\u0113ti $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Play"
+   },
+   "8566172133042307539": {
+      "message": "Pievienot albumam"
+   },
+   "8588705294225487286": {
+      "message": "Redzami s\u0101kotn\u0113jo zi\u0146u adres\u0101tiem"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}male{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}other{Izv\u0113lieties pilna lieluma fotoatt\u0113lu dubl\u0113jumus vai maz\u0101kas, standarta lieluma aug\u0161upiel\u0101des, kas ir bezmaksas.}}"
+   },
+   "8654290347345927684": {
+      "message": "Tagad varat dro\u0161i atvienot savu ier\u012Bci $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Sveiki! Laipni l\u016Bdzam pakalpojum\u0101 {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Izv\u0113l\u0113ties lab\u0101ko"
+   },
+   "8675112326850410714": {
+      "message": "Pievienota atmi\u0146as karte vai kr\u0101tuves ier\u012Bce"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Beigt darbu}female{Beigt darbu}other{Beigt darbu}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 fotoatt\u0113ls import\u0113ts no $1\u200B!}one{# fotoatt\u0113ls import\u0113ts no $1\u200B!}other{# fotoatt\u0113li import\u0113ti no $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Priv\u0101ts"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Pa\u0161laik nav izveidots savienojums ar internetu.}male{Pa\u0161laik nav izveidots savienojums ar internetu.}other{Pa\u0161laik nav izveidots savienojums ar internetu.}}"
+   },
+   "8759519761443041119": {
+      "message": "Saglab\u0101t iestat\u012Bjumus"
+   },
+   "8765880467977864647": {
+      "message": "Aug\u0161upiel\u0101d\u0113ja: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Lietot\u0101ja izv\u0113lne"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Pilnekr\u0101ns}female{Pilnekr\u0101ns}other{Pilnekr\u0101ns}}"
+   },
+   "8777952755137547655": {
+      "message": "\u0160is panor\u0101mas fotoatt\u0113ls tika izveidots no blakus eso\u0161u skatu fotoatt\u0113lu kopas."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Aug\u0161upiel\u0101de ir pabeigta. Viens fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai.}one{Aug\u0161upiel\u0101de ir pabeigta. {COUNT_2} fotoatt\u0113ls ir gatavs kop\u012Bgo\u0161anai.}other{Aug\u0161upiel\u0101de ir pabeigta. {COUNT_2} fotoatt\u0113li ir gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "8832933617217959986": {
+      "message": "No\u0146emt atlasi visiem"
+   },
+   "8874739581425612284": {
+      "message": "Atlasiet fotoatt\u0113lus, ko kop\u012Bgot vai pievienot albumam"
+   },
+   "8890553633144307762": {
+      "message": "Atpaka\u013C"
+   },
+   "8928816882866356838": {
+      "message": "Publisks"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Dz\u0113st albumu}=1{Dz\u0113st atlas\u012Bto fotoatt\u0113lu}one{Dz\u0113st atlas\u012Btos fotoatt\u0113lus}other{Dz\u0113st atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Druk\u0101t}female{Druk\u0101t}other{Druk\u0101t}}"
+   },
+   "8984549175557747262": {
+      "message": "Notiek videoklipa apstr\u0101de..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Nepietiekami ekspon\u0113ts}male{Nepietiekami ekspon\u0113ts}other{Nepietiekami ekspon\u0113ts}}"
+   },
+   "8998179362936748717": {
+      "message": "Labi"
+   },
+   "9013643635142116580": {
+      "message": "Kop\u012Bgots ar dom\u0113nu"
+   },
+   "9042260521669277115": {
+      "message": "P\u0101rtraukt"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{Kop\u0101 0 skat\u012Bjumi}=1{Kop\u0101 viens skat\u012Bjums}one{Kop\u0101 {VIEW_COUNT_2} skat\u012Bjums}other{Kop\u0101 {VIEW_COUNT_2} skat\u012Bjumi}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B autom\u0101tiski atlasa lab\u0101kos fotoatt\u0113lus no j\u016Bsu kolekcij\u0101m un sagatavo tos kop\u012Bgo\u0161anai."
+   },
+   "9137360918780826967": {
+      "message": "Zema kvalit\u0101te"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{nelietota daudzskait\u013Ca forma}=1{1 fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}one{# fotoatt\u0113ls ir pievienots un gatavs kop\u012Bgo\u0161anai.}other{# fotoatt\u0113li ir pievienoti un gatavi kop\u012Bgo\u0161anai.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} ir \u0113rt\u0101kais fotoatt\u0113lu k\u0101rto\u0161anas un kop\u012Bgo\u0161anas veids.}female{{XXX_2} ir \u0113rt\u0101kais fotoatt\u0113lu k\u0101rto\u0161anas un kop\u012Bgo\u0161anas veids.}other{{XXX_3} ir \u0113rt\u0101kais fotoatt\u0113lu k\u0101rto\u0161anas un kop\u012Bgo\u0161anas veids.}}"
+   },
+   "9219694540199049147": {
+      "message": "Mape..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 fotoatt\u0113ls jau tika aug\u0161upiel\u0101d\u0113ts iepriek\u0161\u0113j\u0101 sesij\u0101.}one{{NUM_PHOTOS_2} fotoatt\u0113ls jau tika aug\u0161upiel\u0101d\u0113ts iepriek\u0161\u0113j\u0101 sesij\u0101.}other{{NUM_PHOTOS_2} fotoatt\u0113li jau tika aug\u0161upiel\u0101d\u0113ti iepriek\u0161\u0113j\u0101 sesij\u0101.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Veiksm\u012Bgi import\u0113ts un aug\u0161upiel\u0101d\u0113ts {START_BOLD}viens{END_BOLD} fotoatt\u0113ls.}one{Veiksm\u012Bgi import\u0113ts un aug\u0161upiel\u0101d\u0113ts {START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113ls.}other{Veiksm\u012Bgi import\u0113ti un aug\u0161upiel\u0101d\u0113ti {START_BOLD}{COUNT_2}{END_BOLD} fotoatt\u0113li.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Lai izmantotu visas lietojumprogrammas {XXX} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}male{Lai izmantotu visas lietojumprogrammas {XXX} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}other{Lai izmantotu visas lietojumprogrammas {XXX} iesp\u0113jas, iestatiet fotoatt\u0113lu autom\u0101tisko import\u0113\u0161anu.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{P\u0101rvietot visus albuma fotoatt\u0113lus}=1{P\u0101rvietot atlas\u012Bto fotoatt\u0113lu}one{P\u0101rvietot atlas\u012Btos fotoatt\u0113lus}other{P\u0101rvietot atlas\u012Btos fotoatt\u0113lus}}"
+   },
+   "982577805980296193": {
+      "message": "Noklik\u0161\u0137iniet \u0161eit, lai skat\u012Btu un kop\u012Bgotu \u0161os fotoatt\u0113lus."
+   }
+}

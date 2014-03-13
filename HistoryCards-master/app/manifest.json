@@ -1,0 +1,28 @@
+{
+    "name": "__MSG_appName__",
+    "version": "0.0.4",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "bower_components/underscore/underscore.js",
+            "scripts/background.js"
+        ],
+        "persistent": true
+    },
+  "options_page": "options.html",
+  "permissions": [
+    "chrome://favicon/",
+    "tabs",
+    "history",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

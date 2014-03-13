@@ -1,0 +1,27 @@
+﻿<% if( instant ) { %>
+    <img class="item-thumb" src="http://img.youtube.com/vi/<%= video.get('id') %>/default.jpg" />
+<% } else { %>
+    <img class="item-thumb" data-original="http://img.youtube.com/vi/<%= video.get('id') %>/default.jpg" />
+<% } %>
+
+<span class="item-title title" title="<%= title %>">
+    <%= title %>
+</span>
+
+<span class="item-details">
+    <% if( video.get('highDefinition') ) { %>
+        <%= hdMessage %> · 
+    <% } %>
+    <span class="item-duration">
+        <%= video.get('prettyDuration') %>
+    </span>
+</span>
+
+<span class="hover-actions">
+    <button class="button-icon playInStream" title="<%= playMessage %>">
+        <i class="fa fa-play"></i>
+    </button>
+    
+    <span class="save-to-playlist-region"></span>
+    <span class="delete-region"></span>
+</span>

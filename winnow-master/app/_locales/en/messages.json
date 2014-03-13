@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "winnow",
+    "description": "Winnow - Chrome Extension"
+  },
+  "appDescription": {
+    "message": "move one or all tabs easily between Chrome Windows",
+    "description": "The description of the application"
+  }
+}

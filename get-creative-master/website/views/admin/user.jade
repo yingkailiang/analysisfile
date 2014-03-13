@@ -1,0 +1,35 @@
+extends _base
+
+block main_area
+    - if (typeof other_user === "undefined")
+        p User does not exist
+    - else
+        .user_admin
+            h1
+                span.icon.attention_icon
+                | User Admin
+            p
+                strong User ID
+                | #{other_user._id}
+            - if (other_user.username)
+                p
+                    strong Username
+                    | #{other_user.username}
+            - if (other_user.email)
+                p
+                    strong Email
+                    | #{other_user.email}
+            p 
+                strong IP Addresses
+                each ip_address in other_user.ip_addresses
+                    | #{ip_address},
+            - if (other_user.is_banned)
+                button.unban_user(data-id="#{other_user._id}") UNBAN USER
+            - else
+                button.ban_user(data-id="#{other_user._id}") BAN USER
+        h1
+            span.icon.list_icon
+            | Posts by #{other_user.username || "this user"}
+        div.profile
+            !=partial('common/profile_responses')
+            include ../common/pagination

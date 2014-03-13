@@ -1,0 +1,220 @@
+<head>
+<style>
+body {
+  overflow: hidden;
+  margin: 5px 3px 0px 3px;
+  padding: 0px;
+  background: #ffffff;
+}
+
+a.deleteImg {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+a.deleteButton {
+  cursor: pointer;
+  float: left;
+  margin: 0px 3px 0px 0px;
+}
+
+a.link {
+  width: 209px;
+  padding: 1px 0px 0px 2px;
+  text-decoration: none;;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.link {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  padding: 1px 0px 0px 0px;
+}
+div.link:hover {
+  background: #e6e6fa;
+}
+
+#sortable-list {
+  list-style-type: none;
+  margin: 0;    
+  padding: 0;
+}
+#sortable-list li {
+  font-size: 15px;
+  font-weight: bold;
+  cursor: move;
+  width: 250px;
+  height: 20px;
+}
+
+div.clear {
+  width: 50px;
+  clear: left;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+div.clear:hover {
+  background: #ff6347
+}
+
+</style>
+
+<!-- divクリックとD&D並べ替えのためjqueryを使用 -->
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery-ui.custom.min.js"></script>
+<script>
+
+//リストクリア
+function clearList() {
+    localStorage.removeItem("list");  // ローカルストレージクリア
+    chrome.browserAction.setBadgeText({text:""}); // バッジクリア
+    window.close(); // popup閉じ
+}
+
+//アイテムクリア
+function clearItem(id) {
+
+    // ローカルストレージから削除
+    var list = JSON.parse(localStorage.getItem("list"));
+    for (var i = 0; i < list.length; i++) {
+        if (id == list[i].id) {
+            list.splice(i, 1);
+            console.log("delete item is ...\n" + list[i] +  "]");
+            break;
+        }
+    }
+    localStorage.setItem("list", JSON.stringify(list));
+
+    // バッジ更新
+    var text = "";
+    console.log("list.length = " + list.length);
+    if (0 < list.length) {
+      text = String(list.length);
+    }
+    chrome.browserAction.setBadgeText({text:text});
+
+    // POPUP内から削除
+    var deleteItem = document.getElementById(id);
+    console.log(deleteItem);
+    document.getElementById("sortable-list").removeChild(deleteItem);
+}
+
+// リンクリストを作成する
+function makeList() {
+    var list = JSON.parse(localStorage.getItem("list"));
+    if (list == null || list.length == 0) {
+        // リストが空なら何も表示しない
+        document.write("No item");
+        return;
+    }
+
+    // リスト
+    for (var i = 0; i < list.length; i++) {
+        var item = list[i];
+
+        // 削除ボタン
+        var deleteImgTag = document.createElement("img");
+        deleteImgTag.src = "delete.png";
+        deleteImgTag.className = "deleteImg"
+        var xTag = document.createElement("a");
+        xTag.className = "deleteButton";
+        xTag.appendChild(deleteImgTag);
+        //xTag.appendChild(document.createTextNode("x"));
+        xTag.setAttribute("onclick", "clearItem(" + item.id + ")");
+
+        // Favicon
+        var faviconImgTag = document.createElement("img");
+        faviconImgTag.src = "chrome://favicon/" + item.url;
+
+        // リンク
+        var aTag = document.createElement("a");
+        aTag.className = "link";
+        console.log(JSON.stringify(item) + "\n");
+        aTag.href = item.url;
+        if (localStorage["autoRemove"] == "true") {
+           // リンククリックで自動削除
+            aTag.setAttribute("onclick", "clearItem(" + item.id + ")");
+        }
+        aTag.appendChild(document.createTextNode(item.title));
+
+        // Favicon+リンク div
+        var linkDivTag = document.createElement("div");
+        linkDivTag.className = "link";
+        linkDivTag.title = item.title + "\n" + item.url; // ポップアップでタイトルとURをL表示
+        linkDivTag.appendChild(faviconImgTag);
+        linkDivTag.appendChild(aTag);
+
+        // 削除ボタン ＋ (Favicon ＋ リンク div)
+        var rowDivTag = document.createElement("div");
+        if (true) { // TODO オプション
+            rowDivTag.appendChild(xTag);
+        }
+        rowDivTag.appendChild(linkDivTag);
+
+        // li
+        var liTag = document.createElement("li");
+        liTag.id = item.id; // clearItem()にて使用する
+        liTag.className = "ui-state-default";
+        liTag.appendChild(rowDivTag);
+        document.getElementById("sortable-list").appendChild(liTag);
+    }
+
+    // ｊQuery：この関数内に書くことで上記で動的生成されたdivタグにjQueryイベントを設定できる
+    $(function(){
+    	// マウス押下座標
+    	var mousedownX;
+    	var mousedownY;
+
+        // divマウスダウンハンドラ。座標を記録しておく。
+    	$("div.link").mousedown(function(e){
+        	mousedownX = e.clientX;
+        	mousedownY = e.clientY;
+            return true;
+        });
+
+        // divクリックハンドラ。マウス押下時と同じ座標のみをクリックとみなしリンクへ飛ばす。
+        $("div.link").click(function(e){
+            if (mousedownX == e.clientX && mousedownY == e.clientY) {
+                var url = $(this).find("a").attr("href");
+                window.open(url, "_blank");
+                return false;
+            } else {
+            	return true; //D&Dによる並び替えはこっち
+            }
+        });
+
+        // D&Dによる並べ替え
+        $('#sortable-list').sortable();
+        $('#sortable-list').disableSelection();
+
+        // 削除ボタンのホバーで行の色を切り替える
+        $("a.deleteButton").hover(
+            function(){
+                var liTag = $(this).parent().get(0);
+                liTag.style.background = "#ff3333";
+            },
+            function(){
+                var liTag = $(this).parent().get(0);
+                liTag.style.background = "#ffffff";
+            }
+        );
+    });
+}
+
+</script>
+</head>
+
+<body onload="makeList()">
+    <!-- リスト  -->
+    <ul id="sortable-list"></ul>
+    <!-- クリアボタン  -->
+    <!--
+    <div id="buttonClear" class="clear" onclick="clearList()">CLEAR</div>
+    -->
+</body>

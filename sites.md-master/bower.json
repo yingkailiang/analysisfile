@@ -1,0 +1,17 @@
+{
+  "name": "sites-as-markdown",
+  "version": "0.0.0",
+  "dependencies": {
+    "marked": "~0.2.9",
+    "jquery": "~1.10.2",
+    "highlightjs": "~7.3.0",
+    "shortcut.js": "http://www.openjs.com/scripts/events/keyboard_shortcuts/shortcut.js",
+    "bootstrap": "2.3.2",
+    "angular-ui-bootstrap": "~0.6.0",
+    "angular-unstable": "~1.1.5",
+    "angular-ui-bootstrap-bower": "~0.6.0",
+    "angular-sanitize": "~1.0.8",
+    "font-awesome": "~3.2.1"
+  },
+  "devDependencies": {}
+}

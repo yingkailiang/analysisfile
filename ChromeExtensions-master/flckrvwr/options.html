@@ -1,0 +1,65 @@
+<html>
+<head><title>flckrvwr Options</title></head>
+<script type="text/javascript">
+
+// Saves options to localStorage.
+function save_options() {
+  var tagname = document.getElementById("tagname").value;
+  localStorage["tagname"] = tagname;
+
+  var select_perpage = document.getElementById("select_perpage");
+  var perpage = select_perpage.children[select_perpage.selectedIndex].value;
+  localStorage["perpage"] = perpage;
+
+  window.close();
+
+  // Update status to let user know options were saved.
+  var status = document.getElementById("status");
+  status.innerHTML = "Options Saved.";
+  setTimeout(function() {
+    status.innerHTML = "";
+  }, 750);
+}
+
+// Restores select box state to saved value from localStorage.
+function restore_options() {
+  var tagname = localStorage["tagname"];
+  if (!tagname) {
+    return;
+  }
+  document.getElementById("tagname").value = tagname;
+
+  var perpage = localStorage["perpage"];
+  if (!perpage) {
+    perpage = 4;
+  }
+  var select_perpage = document.getElementById("select_perpage");
+  for (var i = 0; i < select_perpage.children.length; i++) {
+    var child = select_perpage.children[i];
+    if (child.value == perpage) {
+      child.selected = "true";
+      break;
+    }
+  }
+}
+
+</script>
+
+<body onload="restore_options()" bgcolor="#dddddd">
+
+<div>
+Tag Name :
+<input id="tagname"/>
+</div>
+<div>
+Per page :
+<select id="select_perpage">
+ <option value="4">4</option>
+ <option value="8">8</option>
+ <option value="12">12</option>
+</select>
+</div>
+<br>
+<button onclick="save_options()">Save</button>
+</body>
+</html>

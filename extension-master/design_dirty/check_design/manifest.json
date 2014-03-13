@@ -1,0 +1,26 @@
+{
+    "name"            :"装修污染处理工具集",
+    "version"         :"0.1",
+    "manifest_version":2,
+    "description"     :"检测卖家或者设计师是否存在装修污染情况并且做",
+    "icons"           :{
+        "128":"icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://item.taobao.com/*","http://itempre.taobao.com/*","http://item.beta.taobao.com/*","http://item.daily.taobao.net/*"],
+            "js": ["ki.js","check.js"]
+        }
+    ],
+    "browser_action"  :{
+        "default_title":"装修污染检测",
+        "default_icon" :"action.png",
+        "default_popup"        :"popup.html"
+    },
+    "permissions"     :[
+        "webRequest",
+        "*://*/*",
+        "storage",
+        "tabs"
+    ]
+}

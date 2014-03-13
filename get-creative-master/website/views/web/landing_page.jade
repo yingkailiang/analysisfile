@@ -1,0 +1,38 @@
+extends _base
+
+block extra_meta
+    link(rel="chrome-webstore-item", href="https://chrome.google.com/webstore/detail/adlpjklkhpppgbjnjbpnbakhjiobkfgp")
+
+block css
+    link(rel="stylesheet", href="/css/landing_page.css")
+
+block extra_javascript
+    script(src="/js/page_specific/landing_page.js")
+
+block content
+    div.landing_page
+        div.fixed_width_wrapper
+            div.gallery
+                img(src="/img/web/screenshot.jpg")
+            header
+                img(src="/img/web/icon_logo.png")
+                h1 Get Creative
+            hr
+            p
+                strong Make something creative everyday with daily challenges!
+            p
+                | Get creative is a
+                a(href="http://www.chrome.com") Google Chrome
+                |  browser extension that helps promote habitual creativity
+                | by promoting writing, drawing, and other activities each
+                | and every day.
+            p
+                | You can also get inspired by seeing what others have done and
+                | show encouragement by liking their creations. No registration
+                | is required and you can start completing challenges as soon as
+                | you install the extension.
+            a.install_link
+                | Install the Extension
+            footer
+                p For any questions or concerns, please contact 
+                    a(href="mailto:support@get-creative.us") support@get-creative.us

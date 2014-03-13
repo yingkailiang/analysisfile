@@ -1,0 +1,25 @@
+!!! 5
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+        block title
+            title
+                ?! Get Creative 
+        block extra_meta
+        block css
+            include local_css
+        block extra_css
+
+    body
+        block body
+            block content
+                #content
+            include ../common/modal
+        script
+            if (document.location.hostname === "127.0.0.1") {
+                window.IS_LOCAL = true;
+            }
+        block javascript
+            include local_js
+        block extra_javascript

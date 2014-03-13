@@ -1,0 +1,25 @@
+{
+    "name"            :"前端开发者辅助工具",
+    "version"         :"0.1",
+    "manifest_version":2,
+    "description"     :"前端开发者辅助工具，目前针对淘宝旺铺前端同学使用",
+    "icons"           :{
+        "128":"icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["sdf.js"]
+        }
+    ],
+    "browser_action"  :{
+        "default_title":"前端开发工具",
+        "default_icon" :"action.png",
+        "popup"        :"popup.html"
+    },
+    "permissions"     :[
+        "webRequest",
+        "*://*/*",
+        "storage"
+    ]
+}

@@ -1,0 +1,117 @@
+.clearfix:after{content: ".";display: block;height: 0;clear:both;visibility: hidden;}
+
+#pan-file-container{position:relative;background-color:#fff;margin:5px;width:484px;height:348px;padding:1px;border:1px solid #BFBFBF;border-radius:5px;box-shadow:0 0 7px rgba(0,0,0,0.34)}
+.pan-loading{display:none;position:absolute;opacity:0.7;left:0;top:0;width:100%;height:100%;background:#fff url("/images/pan/loading.gif") no-repeat center center;}
+.pan-close-btn{cursor:pointer;position:absolute;top:13px;right:17px;width:12px;height:12px;background:url("/images/pan/close.png") no-repeat;}
+.pan-file-head{background-color:#F0F0F0;border-radius:5px 5px 0 0;}
+.pan-file-head h1{color:#696969;height:40px;line-height:40px;margin-left:13px;font-size:16px;font-weight:normal;}
+/* 主体部分 */
+.pan-file-list-box,.pan-selected-list-box{height:263px;overflow-y:scroll;}
+.kan-list-loading{background:url("/images/pan/loading.gif") no-repeat center center;}
+/* 文件列表 */
+.pan-file-list-box::-webkit-scrollbar,.pan-selected-list-box::-webkit-scrollbar{width:16px;background-color:#F3F3F3}
+.pan-file-list-box::-webkit-scrollbar-thumb,.pan-selected-list-box::-webkit-scrollbar-thumb{background:#ECECEC;border: 1px solid #CFCFCF;}
+.pan-file-list-box::-webkit-scrollbar-thumb:active,.pan-selected-list-box::-webkit-scrollbar-thumb:active{background-color: #cfcfcf;}
+.pan-file-list-box::-webkit-scrollbar-button,.pan-selected-list-box::-webkit-scrollbar-button{background-color:#ECECEC;border: 1px solid #CFCFCF;}
+.pan-file-list-box::-webkit-scrollbar-button:start,.pan-selected-list-box::-webkit-scrollbar-button:start{background:url("/images/pan/scrollBarButtonStart.png") no-repeat center center;}
+.pan-file-list-box::-webkit-scrollbar-button:end,.pan-selected-list-box::-webkit-scrollbar-button:end{background:url("/images/pan/scrollBarButtonEnd.png") no-repeat center center;}
+.pan-file-list-box::-webkit-scrollbar-button:active,.pan-selected-list-box::-webkit-scrollbar-button:active{background-color: #cfcfcf;}
+.pan-file-list-box{float:left;width:288px;padding-left:7px;padding-top:4px;}
+.pan-file-list{margin-left:7px;}
+.pan-dire-item .pan-file-content{margin-top:8px;word-break:break-all;word-wrap:break-word;}
+.pan-file-item .pan-file-content{margin-top:8px;word-break:break-all;word-wrap:break-word;}
+.pan-tri,.pan-checkbox{cursor:pointer;float:left;width:16px;height:16px;background:url("/images/pan/triangle.png") no-repeat center center;}
+.pan-checkbox{background:url("/images/pan/checkbox.png") no-repeat center center;}
+.pan-info{cursor:default;}
+.pan-file-name{color:#535353;margin-left:6px;}
+	/* 选中状态 */
+.pan-checkbox.selected {background-image:url("/images/pan/checkboxSelected.png");}
+	/* 展开状态 */
+.expand .pan-tri{background-image:url("/images/pan/triangleSelected.png");}
+.expand .pan-type-dire{background-image:url("/images/pan/direSelected.png");}
+	/* 目录无文件 */
+.no-child .pan-tri{background:none;cursor:default}
+	/* 文件类型 */
+.pan-type-dire{display:inline-block;margin-left:3px;width:16px;height:16px;background:url("/images/pan/dire.png") no-repeat;}
+.pan-type{display:inline-block;margin-left:3px;width:16px;height:16px;background:url("/images/pan/doc/document.png") no-repeat;}
+/*excel*/
+.type-xls .pan-type,
+.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+/*word*/
+.type-doc .pan-type,
+.type-docx .pan-type{background-image:url("/images/pan/doc/document-word.png");}
+/*ppt*/
+.type-ppt .pan-type,
+.type-pptx .pan-type{background-image:url("/images/pan/doc/document-ppt.png");}
+/*txt*/
+.type-txt .pan-type{background-image:url("/images/pan/doc/document-text.png");}
+/*pdf*/
+.type-pdf .pan-type{background-image:url("/images/pan/doc/document-pdf.png");}
+/*flash*/
+.type-swf .pan-type{background-image:url("/images/pan/doc/document-flash.png");}
+/*ps*/
+.type-ps .pan-type{background-image:url("/images/pan/doc/document-ps.png");}
+/*ai*/
+.type-ai .pan-type{background-image:url("/images/pan/doc/document-illustrator.png");}
+/*zip,rar*/
+.type-rar .pan-type,
+.type-zip .pan-type{background-image:url("/images/pan/doc/document-zip-rar.png");}
+/*video .mpeg,.mpg,.dat,.avi,.rm,.rmvb,.mov,.wmv,.asf,.mp4,.flv,.mfv,.fla*/
+.type-mpeg .pan-type,
+.type-mpg .pan-type,
+.type-dat .pan-type,
+.type-avi .pan-type,
+.type-rm .pan-type,
+.type-rmvb .pan-type,
+.type-mov .pan-type,
+.type-wmv .pan-type,
+.type-mp4 .pan-type,
+.type-flv .pan-type,
+.type-mfv .pan-type,
+.type-fla .pan-type{background-image:url("/images/pan/doc/document-film.png");}
+/*audio .ogg,.wma,.wav,.ape,.acc,.mid,.ra,.mp3,.flac,.cue*/
+.type-audio .pan-type,
+.type-ogg .pan-type,
+.type-wma .pan-type,
+.type-wav .pan-type,
+.type-ape .pan-type,
+.type-acc .pan-type,
+.type-mid .pan-type,
+.type-ra .pan-type,
+.type-mp3 .pan-type,
+.type-flac .pan-type,
+.type-cue .pan-type{background-image:url("/images/pan/doc/document-music.png");}
+/*img .bmp,.jpg,.gif,.png,.jpeg,.tif,.raw,.ai*/
+.type-bmp .pan-type,
+.type-jpg .pan-type,
+.type-gif .pan-type,
+.type-png .pan-type,
+.type-jpeg .pan-type,
+.type-tif .pan-type,
+.type-raw .pan-type{background-image:url("/images/pan/doc/document-image.png");}
+
+
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+.type-xls .pan-type,.type-xlsx .pan-type{background-image:url("/images/pan/doc/document-excel.png");}
+	/* 文件夹加载中 */
+.loading .pan-type-dire{background:url("/images/pan/loading.gif") no-repeat center center;}
+
+/* 已选文件 */
+.pan-selected-list-box{float:right;width:189px;}
+.pan-selected-list-title{color:#696969;margin:0 1px;height:30px;line-height:30px;padding-left:18px;font-size:12px;font-weight:normal;background:url("/images/pan/selectedTitle.png") repeat-x;}
+.pan-selected-list-box .pan-checkbox{display:none;}
+
+/* 底部按钮 */
+.pan-file-footer{padding-right:3px;background-color:#F0F0F0;height:40px;line-height:40px;text-align:right;}
+.pan-ok-btn,.pan-cancel-btn{cursor:pointer;vertical-align:middle;margin-right:12px;border:none;width:68px;height:28px;background:url("/images/pan/okBtn.png") no-repeat;}
+.pan-ok-btn:hover{background-image:url("/images/pan/okBtnHover.png")}
+.pan-ok-btn:active{background-image:url("/images/pan/okBtnActive.png")}
+.pan-cancel-btn{background-image:url("/images/pan/cancelBtn.png")}
+.pan-cancel-btn:hover{background-image:url("/images/pan/cancelBtnHover.png")}
+.pan-cancel-btn:active{background-image:url("/images/pan/cancelBtnActive.png")}

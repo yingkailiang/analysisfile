@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+
+<!--
+    http://unlicense.org/
+    author: gregory tomlinson
+-->
+
+<!-- MIME TYPE Guidlines and references: http://hixie.ch/advocacy/xhtml -->
+    <head>
+        <title>Sign In | bitly Extension Settings</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="awesome" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="css/basic.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8">        
+        <link rel="stylesheet" href="css/options.css" type="text/css" charset="utf-8">                
+    </head>
+    <body>
+        <div id="container">
+
+            <div id="top">
+                   
+                   <div id="blueBanner"></div>
+                   
+                   <div id="logo">
+                       <a href="options.html"><img src="s/graphics/bitly-logo-blue_165_100.png" alt="" border="0" width="165px" height="100px"  /></a>
+                   </div>
+                   <!-- <div id="ext_top_nav">
+                       <div id="ext_top_nav_inner">
+                       
+                       </div>
+                       <div class="hr"><hr /></div>
+                   </div> -->
+               
+               </div> <!-- end #top -->
+            
+            <div id="middle">
+
+                <div class="ext_opts_page_header_box">
+                    
+                    <h1 id="bitly_options" class="ext_options_header">Sign in via bitly</h1>
+                </div>
+
+
+                <div id="signedout_info_contents">
+                    <form id="signin_form" action="#" method="get" accept-charset="utf-8">
+                        
+                        <div id="errors_box" class="chrome_page_errors_box" style="display:none;"></div>
+                        
+                        <div class="inputContainer">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" value="" id="username">
+                        </div>
+
+
+                        
+                        <div class="inputContainer">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" value="" id="password">
+                        </div>
+                        
+                        <div id="signInContainer">
+                            <div id="signInButtonContainer">
+                                <input type="submit" class="activeButtons mediumSizeButton" name="some_name" value="Sign In" id="some_name">
+                            </div>
+                            <div style="display:none;" id="sign_in_loader">
+                                <img src="s/graphics/loader_signin_30_30.gif" height="30" width="30" border="0" alt="" />
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="meta_graph">
+                            <p>Not a bit.ly or j.mp user? <a href="http://bit.ly/a/sign_up">Get an account</a></p>
+                        </div>
+                    
+                    </form>
+                </div>
+
+            </div> <!-- END #middle -->
+        
+            <div id="bottom">
+
+            </div> <!-- end #bottom -->
+            
+        </div> <!-- end #container -->
+    
+            <script type="text/javascript" charset="utf-8"
+                src="js/jquery-1.6.4.js"></script>
+            <script type="text/javascript" charset="utf-8" src="js/libs/fastFrag.js"></script>
+            <script type="text/javascript" charset="utf-8" src="js/bExt/bExt.js"></script>
+            <script type="text/javascript" src="js/bExt/bExt.ui_banner.js"></script>     
+            <script type="text/javascript">
+            
+            
+            var bg = chrome.extension.getBackgroundPage(),
+                login_attempt_count=0;
+            
+            console.log("party");
+            
+            
+            function signin_form_event( e ){
+                console.log("start")
+                e.preventDefault();
+                login_attempt_count+=1;
+                // validate form
+                var username = $("#username"),
+                    pass = $("#password"),
+                    error_message_text = "Sorry, your username and password don't match";
+                if(username.value === "" ||  pass.value === "") {
+                    console.log("all fields required")
+                    errors_box_elem.html("All fields required"); 
+                    errors_box_elem.css("display", "block");
+                    return;
+                }
+
+                var sign_in_loader_elem = $("#sign_in_loader"),
+                    errors_box_elem = $("#errors_box"),
+                    signInButtonContainer_elem = $("#signInButtonContainer");
+
+                sign_in_loader_elem.css("display", "block");
+                signInButtonContainer_elem.css("display", "none");
+                errors_box_elem.css("display", "none");
+                bg.bExt.sign_in( username.val(), pass.val(), function(jo) {                        
+                    //console.log(jo)
+                    if(jo && !jo.error) {
+                        console.log("worked!")
+                        document.location=chrome.extension.getURL( "options.html" );
+                        
+                        // document.location.reload();
+                        return;
+                    } else if(jo && jo.status_code === 401) {
+                        // set diff default text here
+                    } else {
+                        error_message_text = "An error occurred trying to sign in"
+                    }
+                    
+                    if(login_attempt_count > 5) {
+                        alert("It looks like you found some type of bug, please email us at support@bit.ly with your username.");
+                        document.location.reload();                            
+                    } else if(login_attempt_count > 3) {
+                        alert("Please contact us at support@bit.ly, there appears to be a problem");
+                    }
+                    
+                    
+                    sign_in_loader_elem.css("display", "none");
+                    signInButtonContainer_elem.css("display", "block");
+                    errors_box_elem.html( error_message_text );
+                    errors_box_elem.css("display", "block");
+                    console.log("Failed sign in")
+                    // bg.logger("Failed sign in attempt: " + JSON.stringify( jo ) );
+                
+                });
+            
+            }            
+            
+            $("#signin_form").bind('submit', signin_form_event);
+            
+            // draw the top blue banner
+            bExt.ui_banner.init({
+                box : "#top",
+                deplay : 20
+            });            
+            
+            </script>
+      
+    </body>
+</html>

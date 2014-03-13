@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title id="pulsar-app-title"></title>
+  <!-- href of this link tag is set in pre_base.js based on bidi direction. -->
+  <link rel="stylesheet" type="text/css" id="compiled_css"/>
+  <base target="_blank">
+</head>
+<body>
+    <!-- These must come before the Javascript since they are referenced in the
+     startup sequence of the app. -->
+    <input type="text" name="hist_state" id="hist_state" style="display:none;">
+    <iframe id="hist_frame" name="hist_frame" style="display:none;"
+        tabindex="-1"></iframe>
+  <script type="text/javascript" src="pre_base.js"></script>
+  <script type="text/javascript" src="hosts.js"></script>
+  <script type="text/javascript" src="i18n/load_symbols.js"></script>
+  <script type="text/javascript" src="i18n/load_ui.js"></script>
+</body>
+</html>

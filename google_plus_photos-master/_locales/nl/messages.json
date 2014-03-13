@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Bepaal of je back-ups van je foto's op volledig formaat wilt of dat je kleinere uploads met standaardgrootte wilt die gratis zijn."
+   },
+   "106279463205193944": {
+      "message": "Mensen in dit album"
+   },
+   "1078696495414015742": {
+      "message": "Doorgaan"
+   },
+   "1079312373208696407": {
+      "message": "Klik hier als je je hebt geregistreerd"
+   },
+   "1106976338877989624": {
+      "message": "Over $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Je hebt geen albums. Upload nu foto's!}female{Je hebt geen albums. Upload nu foto's!}other{Je hebt geen albums. Upload nu foto's!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Uploaden voltooid. {START_BOLD}1{END_BOLD} foto klaar om te delen.}other{Uploaden voltooid. {START_BOLD}{COUNT_2}{END_BOLD} foto's klaar om te delen.}}"
+   },
+   "1131710491735646017": {
+      "message": "Foto verplaatsen"
+   },
+   "1141157641265116263": {
+      "message": "Je kunt met enkele klikken al je foto's en video's opslaan, organiseren en delen."
+   },
+   "1168286392495236500": {
+      "message": "Openbaar gedeeld"
+   },
+   "1168912363261265730": {
+      "message": "Diavoorstelling afspelen"
+   },
+   "1179156232993544339": {
+      "message": "Album verwijderen"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Items selecteren}female{Items selecteren}other{Items selecteren}}"
+   },
+   "1199073624563429103": {
+      "message": "Als je deze foto's verwijdert, worden ook alle bijbehorende posts, opmerkingen en +1's verwijderd."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BMaak opnieuw verbinding$1\u200B om alle foto's en albums te bekijken."
+   },
+   "1274379628511980491": {
+      "message": "Foto's scannen"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 foto}other{{PHOTO_COUNT_2} foto's}}"
+   },
+   "1299278917495979942": {
+      "message": "Op toevoegingsdatum (nieuw naar oud)"
+   },
+   "1299626955070536636": {
+      "message": "Rechtsom draaien"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren.}male{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren.}other{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Je hebt 1 foto die wacht op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {COUNT_2} foto's die wachten op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Je hebt 1 foto die wacht op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {COUNT_2} foto's die wachten op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Je hebt 1 foto die wacht op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {COUNT_2} foto's die wachten op uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Andere importlocaties selecteren"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Om het maximale uit {APP_NAME} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}male{Om het maximale uit {APP_NAME} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}other{Om het maximale uit {APP_NAME} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Foto's van gekoppelde camera's en geheugenkaarten automatisch importeren}male{Foto's van gekoppelde camera's en geheugenkaarten automatisch importeren}other{Foto's van gekoppelde camera's en geheugenkaarten automatisch importeren}}"
+   },
+   "1410409051323941239": {
+      "message": "Bezig met opnieuw verbinding maken..."
+   },
+   "1425141239403329190": {
+      "message": "Je kunt je apparaat $1\u200B nu veilig loskoppelen."
+   },
+   "1428301074198348755": {
+      "message": "Opslaan"
+   },
+   "1482983300175848685": {
+      "message": "Aanmelden bij Google+"
+   },
+   "1494518490116523821": {
+      "message": "Alles selecteren"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopi\u00EBren}male{Kopi\u00EBren}other{Kopi\u00EBren}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Verplaatsen}male{Verplaatsen}other{Verplaatsen}}"
+   },
+   "1535908424500369256": {
+      "message": "De volgende vensters worden gesloten:\n"
+   },
+   "1542576779711006198": {
+      "message": "Foto's importeren van $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Verplaatsen}female{Verplaatsen}other{Verplaatsen}}"
+   },
+   "1572187844116018239": {
+      "message": "Weergeven op volledig scherm"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Toevoegen}male{Toevoegen}other{Toevoegen}}"
+   },
+   "163532554661203916": {
+      "message": "Open $1\u200B om foto's te importeren van $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Foto's..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B Versie $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Wordt geladen..."
+   },
+   "1753152144556911377": {
+      "message": "Over $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Nee"
+   },
+   "1760918964936396010": {
+      "message": "$1\u200B verwijderen"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Niet gedeeld}male{Niet gedeeld}other{Niet gedeeld}}"
+   },
+   "1829542073477142210": {
+      "message": "Zichtbaar voor de deelnemers aan de conversaties"
+   },
+   "1863533324056146247": {
+      "message": "pm"
+   },
+   "1898536270078020135": {
+      "message": "App-menu"
+   },
+   "1907928780625920048": {
+      "message": "Veilig opgeslagen"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto klaar om te delen}other{{COUNT_2} foto's klaar om te delen}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Kies of je back-ups op volledig formaat wilt opslaan van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}female{Kies of je back-ups op volledig formaat wilt opslaan van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}other{Kies of je back-ups op volledig formaat wilt opslaan van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}}"
+   },
+   "1938243880078123136": {
+      "message": "We leiden je om naar Google+ om de video te bekijken."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Getagd}male{Getagd}other{Getagd}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Bepaal of je back-ups van je foto's op volledig formaat wilt of dat je kleinere uploads met standaardgrootte wilt die gratis zijn.}female{Bepaal of je back-ups van je foto's op volledig formaat wilt of dat je kleinere uploads met standaardgrootte wilt die gratis zijn.}other{Bepaal of je back-ups van je foto's op volledig formaat wilt of dat je kleinere uploads met standaardgrootte wilt die gratis zijn.}}"
+   },
+   "1995266543727924491": {
+      "message": "Foto's van 'Automatisch uploaden'"
+   },
+   "2000146230061979936": {
+      "message": "Profielfoto's"
+   },
+   "2029980907058777630": {
+      "message": "Servicevoorwaarden"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Alle rechten voorbehouden."
+   },
+   "2079435202927044386": {
+      "message": "Foto's importeren"
+   },
+   "2097731301533028280": {
+      "message": "Alle foto's"
+   },
+   "2102825898069375693": {
+      "message": "Menu"
+   },
+   "2127917516759723964": {
+      "message": "Geselecteerde albums verwijderen?"
+   },
+   "2134605074025092052": {
+      "message": "$1\u200B foto's verwijderen"
+   },
+   "2159130950882492111": {
+      "message": "Annuleren"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Klik om deze foto rechtsom te draaien}female{Klik om deze foto rechtsom te draaien}other{Klik om deze foto rechtsom te draaien}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Niet beste}male{Niet beste}other{Niet beste}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Hallo! Welkom bij {XXX_1}.}female{Hallo! Welkom bij {XXX_2}.}other{Hallo! Welkom bij {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Help}female{Help}other{Help}}"
+   },
+   "2256196161103684642": {
+      "message": "Beperkt"
+   },
+   "2267143557027174044": {
+      "message": "Annuleren"
+   },
+   "2299297337048329405": {
+      "message": "Kopi\u00EBren"
+   },
+   "2354817630223808522": {
+      "message": "Verplaatsen"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Haal het meeste uit {APP_NAME} door in te stellen dat je foto's automatisch worden ge\u00EFmporteerd.}female{Haal het meeste uit {APP_NAME} door in te stellen dat je foto's automatisch worden ge\u00EFmporteerd }other{Haal het meeste uit {APP_NAME} door in te stellen dat je foto's automatisch worden ge\u00EFmporteerd.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} foto verplaatsen naar:}other{{XXX_2} foto's verplaatsen naar:}}"
+   },
+   "2442822401576040991": {
+      "message": "Foto's van telefoon"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Importeer je foto's om te beginnen}female{Importeer je foto's om te beginnen}other{Importeer je foto's om te beginnen}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 foto}other{{PHOTO_COUNT_2} foto's}}"
+   },
+   "2453303348493525919": {
+      "message": "Items selecteren"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album geselecteerd}other{{COUNT_2} albums geselecteerd}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto is al ge\u00FCpload in een eerdere sessie. }other{{NUM_PHOTOS_2} foto's zijn al ge\u00FCpload in een eerdere sessie. }}"
+   },
+   "2503049676444223994": {
+      "message": "Op toevoegingsdatum (oud naar nieuw)"
+   },
+   "251008425196701054": {
+      "message": "Zichtbaar voor iedereen in jouw domein"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}male{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}other{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}}"
+   },
+   "2537804086667442212": {
+      "message": "Als je het importeren annuleert, worden er niet meer foto's ge\u00EFmporteerd. Foto's die al zijn ge\u00EFmporteerd, worden niet verwijderd."
+   },
+   "2543396005338987129": {
+      "message": "Importeren annuleren"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Wazig}male{Wazig}other{Wazig}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto toegevoegd uit $1\u200B en klaar om te delen.}other{# foto's toegevoegd uit $1\u200B en klaar om te delen.}}"
+   },
+   "2603085641264767659": {
+      "message": "Gasten van het evenement"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Laat {XXX} je helpen de beste opnamen te kiezen uit de foto's die je importeert}male{Laat {XXX} je helpen de beste opnamen te kiezen uit de foto's die je importeert}other{Laat {XXX} je helpen de beste opnamen te kiezen uit de foto's die je importeert}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min., $2\u200B sec."
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B verzamelt de foto's van je camera's, telefoons en mappen op \u00E9\u00E9n plaats."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto gekopieerd uit {FOLDER_NAME}.}other{{NUM_PHOTOS_2} foto's gekopieerd uit {FOLDER_NAME}.}}"
+   },
+   "2683351316398940532": {
+      "message": "Volledige grootte ($1\u200B GB van $2\u200B GB resterend)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Er is een fout opgetreden toen je probeerde in te loggen op {XXX}.}male{Er is een fout opgetreden toen je probeerde in te loggen op {XXX}.}other{Er is een fout opgetreden toen je probeerde in te loggen op {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Alles selecteren}female{Alles selecteren}other{Alles selecteren}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sec."
+   },
+   "2710655047330556001": {
+      "message": "Mensen op deze foto"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Welkom bij {XXX_1}}female{Welkom bij {XXX_2}}other{Welkom bij {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Belichting"
+   },
+   "2761269382982007883": {
+      "message": "We helpen je bij het organiseren van je foto's en stellen de beste voor om te delen."
+   },
+   "2761326392133498772": {
+      "message": "Foto delen"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Oh noooo!}=1{1 foto}other{{PHOTO_COUNT_2} foto's}}"
+   },
+   "2784586982005585140": {
+      "message": "Meer"
+   },
+   "2786233632874013852": {
+      "message": "Meer foto's"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Alle selecties opheffen}female{Alle selecties opheffen}other{Alle selecties opheffen}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatuur"
+   },
+   "2820098809819439336": {
+      "message": "Foto's verwijderen"
+   },
+   "2847005022751960352": {
+      "message": "Nog steeds bezig..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik hier om deze foto te bekijken en te delen.}other{Klik hier om deze foto's te bekijken en te delen.}}"
+   },
+   "287837027263664914": {
+      "message": "Importlocaties bewerken"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto geselecteerd}other{{COUNT_2} foto's geselecteerd}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Klik om deze foto te verwijderen}female{Klik om deze foto te verwijderen}other{Klik om deze foto te verwijderen}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Inloggen}female{Inloggen}other{Inloggen}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{{XXX_1} foto toevoegen aan:}other{{XXX_2} foto's toevoegen aan:}}"
+   },
+   "2973731817320915012": {
+      "message": "Op aanmaakdatum"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Afspelen vanaf het begin}female{Afspelen vanaf het begin}other{Afspelen vanaf het begin}}"
+   },
+   "2987283829749314385": {
+      "message": "Hallo, $2\u200B! Welkom bij $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Geen foto's geselecteerd}=1{{COUNT_2} foto klaar om te delen}other{{COUNT_2} foto's klaar om te delen}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Lage kwaliteit}male{Lage kwaliteit}other{Lage kwaliteit}}"
+   },
+   "3018671699054071030": {
+      "message": "Foto's uit berichten"
+   },
+   "3052031564829371686": {
+      "message": "Copyright &copy; 2012 Google Inc. Alle rechten voorbehouden."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Kies of je back-ups wilt opslaan op volledig formaat van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}male{Kies of je back-ups wilt opslaan op volledig formaat van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}other{Kies of je back-ups wilt opslaan op volledig formaat van de foto's die je importeert, of dat je gratis kleinere versies op standaardformaat (2048 pixels) wilt opslaan.}}"
+   },
+   "3062505056927186217": {
+      "message": "Plakboekfoto's"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} van {TOTAL} ge\u00FCpload}=1{{COUNT_2} van {TOTAL} ge\u00FCpload}other{{COUNT_2} van {TOTAL} ge\u00FCpload}}"
+   },
+   "313399915776279357": {
+      "message": "Lage kwaliteit"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren}male{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren}other{Je moet verbinding hebben met internet om {XXX} de eerste keer te configureren}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Log in bij Chrome om foto's te uploaden.}female{Log in bij Chrome om foto's te uploaden.}other{Log in bij Chrome om foto's te uploaden.}}"
+   },
+   "3169583722209452922": {
+      "message": "Beheren"
+   },
+   "3173944879942241188": {
+      "message": "Wazig"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}female{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}other{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B is de gemakkelijke manier om je foto's te organiseren en te delen."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}female{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}other{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}}"
+   },
+   "3231427490891919648": {
+      "message": "Uitgebreide kringen"
+   },
+   "3249513483374643425": {
+      "message": "Toevoegen"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} is de gemakkelijke manier om je foto's te organiseren en te delen.}}"
+   },
+   "3266811991857373598": {
+      "message": "Importeer je foto's om te beginnen"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto}other{{COUNT_2} foto's}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Album verwijderen}other{Albums verwijderen}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sorteren}female{Sorteren}other{Sorteren}}"
+   },
+   "3298990500476723192": {
+      "message": "Album verwijderen"
+   },
+   "3304972143698843178": {
+      "message": "Evenement"
+   },
+   "3316542569449182462": {
+      "message": "De beste foto's vinden"
+   },
+   "3319379534575065569": {
+      "message": "Duplicaat"
+   },
+   "3335855558019774894": {
+      "message": "Sluiten"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B van $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Niemand is getagd in deze foto."
+   },
+   "335552911020230570": {
+      "message": "Bezig met annuleren..."
+   },
+   "3392114061661490939": {
+      "message": "Afmetingen"
+   },
+   "339966167441018467": {
+      "message": "Foto's gerangschikt op populariteit."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B foto's"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Volledig scherm afsluiten}female{Volledig scherm afsluiten}other{Volledig scherm afsluiten}}"
+   },
+   "3479702069824639097": {
+      "message": "Druk hierop om de foto te vergelijken met het origineel."
+   },
+   "3529907190030543252": {
+      "message": "Je moet verbinding hebben met het internet om $1\u200B voor de eerste keer te configureren"
+   },
+   "3549990505176341828": {
+      "message": "Overbelicht"
+   },
+   "3561019065020608408": {
+      "message": "Klaar om te delen"
+   },
+   "360237722039211543": {
+      "message": "Foto's op Google Drive kunnen alleen worden gekopieerd en gedeeld"
+   },
+   "3624887810607887590": {
+      "message": "Linksom draaien"
+   },
+   "3627956543961104309": {
+      "message": "$1\u200B instellen"
+   },
+   "3630679964489180566": {
+      "message": "Fotobronnen"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Importeren annuleren (1 foto)}other{Importeren annuleren ({NUM_PHOTOS_2} foto's)}}"
+   },
+   "3687863378890487189": {
+      "message": "Beweging"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto verwijderen}other{Geselecteerde foto's verwijderen}}"
+   },
+   "3714818517297325649": {
+      "message": "Als je het importeren annuleert, worden er niet meer foto's ge\u00EFmporteerd.\nFoto's die al zijn ge\u00FCpload, worden niet verwijderd."
+   },
+   "3756864109602975489": {
+      "message": "+1's"
+   },
+   "3759575685100154990": {
+      "message": "Foto's importeren"
+   },
+   "3807699453257291879": {
+      "message": "Opmerkingen"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik hier om deze foto te bekijken.}other{Klik hier om deze foto's te bekijken.}}"
+   },
+   "3818348166201769715": {
+      "message": "Al je foto's"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Nog {COUNT_2} van {TOTAL}}other{Nog {COUNT_2} van {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Zichtbaar voor: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Linksom draaien"
+   },
+   "3885024486041657280": {
+      "message": "Deze collage is gemaakt op basis van een reeks portretfoto's."
+   },
+   "3888600924819157294": {
+      "message": "Alle foto's van Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Dit album verwijderen}other{Albums verwijderen}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto linksom draaien}other{Geselecteerde foto's linksom draaien}}"
+   },
+   "3973931101896534797": {
+      "message": "Datum"
+   },
+   "4023731095051291021": {
+      "message": "Bekijken op Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}male{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}other{Geef een melding weer en importeer foto's van gekoppelde camera's en geheugenkaarten}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Hervatten}female{Hervatten}other{Hervatten}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Het lijkt erop dat je {XXX} hebt geopend vanaf een apparaat waarop Chrome OS niet wordt uitgevoerd. Deze app is momenteel alleen beschikbaar voor Chrome OS, hoewel je misschien het pictogram in je Chrome-browser ziet staan wanneer je een apparaat gebruikt waarop Chrome OS niet wordt uitgevoerd.}male{Het lijkt erop dat je {XXX} hebt geopend vanaf een apparaat waarop Chrome OS niet wordt uitgevoerd. Deze app is momenteel alleen beschikbaar voor Chrome OS, hoewel je misschien het pictogram in je Chrome-browser ziet staan wanneer je een apparaat gebruikt waarop Chrome OS niet wordt uitgevoerd.}other{Het lijkt erop dat je {XXX} hebt geopend vanaf een apparaat waarop Chrome OS niet wordt uitgevoerd. Deze app is momenteel alleen beschikbaar voor Chrome OS, hoewel je misschien het pictogram in je Chrome-browser ziet staan wanneer je een apparaat gebruikt waarop Chrome OS niet wordt uitgevoerd.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Ge\u00EFmporteerde foto bekijken}other{Ge\u00EFmporteerde foto's bekijken}}"
+   },
+   "4187596523158859173": {
+      "message": "Klik hier om deze foto's te bekijken."
+   },
+   "4201300158283262687": {
+      "message": "Klik hier om deze foto's te bekijken."
+   },
+   "4248380204989256605": {
+      "message": "Toevoegen aan"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Jij alleen}male{Jij alleen}other{Jij alleen}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Toevoegen aan album}female{Toevoegen aan album}other{Toevoegen aan album}}"
+   },
+   "4293741535116795213": {
+      "message": "Deze foto is gemaakt op basis van de beste glimlachen in een reeks vergelijkbare foto's."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Klik om deze foto rechtsom te draaien}male{Klik om deze foto rechtsom te draaien}other{Klik om deze foto rechtsom te draaien}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopi\u00EBren"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}female{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}other{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Alleen zichtbaar voor jou"
+   },
+   "4367940371467792621": {
+      "message": "Registreren voor Google+"
+   },
+   "4384754616332866866": {
+      "message": "Zichtbaar voor iedereen waarmee je dit album hebt gedeeld"
+   },
+   "4397726581488253055": {
+      "message": "Sluiten"
+   },
+   "4451709539238919902": {
+      "message": "Er zijn van sommige foto's meerdere kopie\u00EBn die niet worden verwijderd."
+   },
+   "4458099219143901905": {
+      "message": "Openen met Google+ Foto's"
+   },
+   "4470533259338698234": {
+      "message": "Verplaatsen"
+   },
+   "4472091515638733183": {
+      "message": "Importeren is gestopt"
+   },
+   "4485837491844366665": {
+      "message": "Klik hier om deze foto's te bekijken en te delen."
+   },
+   "4489698681193228521": {
+      "message": "Welkom bij $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Foto's importeren wanneer ik een camera of geheugenkaart aansluit"
+   },
+   "4504920004530359010": {
+      "message": "Volledige grootte (tot 5 GB gratis opslagruimte beschikbaar)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Afspelen}female{Afspelen}other{Afspelen}}"
+   },
+   "4535738935335444945": {
+      "message": "Niet gedeeld"
+   },
+   "4550974869121207169": {
+      "message": "verwijderen"
+   },
+   "4557902876984952242": {
+      "message": "Bewerken"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Als u dit album verwijdert, worden alle reacties, +1's en tags die zijn gekoppeld aan het album verwijderd.}other{Als u deze albums verwijdert, worden alle reacties, +1's en tags die zijn gekoppeld aan de albums verwijderd.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatisch beheer"
+   },
+   "4579986716424813115": {
+      "message": "Afspelen vanaf het begin"
+   },
+   "460600293345244430": {
+      "message": "Selecteer foto's om te delen of toe te voegen aan een album."
+   },
+   "4624285717763544623": {
+      "message": "Toevoegen"
+   },
+   "4630251340863502127": {
+      "message": "Ge\u00EFmporteerde foto's uploaden"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Je hebt geen albums. Upload snel enkele foto's.}male{Je hebt geen albums. Upload snel enkele foto's.}other{Je hebt geen albums. Upload snel enkele foto's.}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto ge\u00EFmporteerd!}other{# foto's ge\u00EFmporteerd}}"
+   },
+   "466730294804943734": {
+      "message": "Nog geen reacties."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B wordt niet ondersteund op dit platform"
+   },
+   "4678028473996848955": {
+      "message": "Al je foto's op \u00E9\u00E9n plek"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Annuleren}female{Annuleren}other{Annuleren}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B van $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Als je deze albums verwijdert, worden ook alle bijbehorende posts, opmerkingen en +1's verwijderd."
+   },
+   "471816275243265264": {
+      "message": "Locatie"
+   },
+   "4726999481668064421": {
+      "message": "Deze HDR-foto is gemaakt op basis van een reeks opnamen met bracketing-belichting."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BJe bent ingelogd als$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hallo! Welkom bij $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Foto's van Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BJe bent ingelogd als$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Je kunt je apparaat nu veilig loskoppelen."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Klik om deze foto te selecteren of te deselecteren}female{Klik om deze foto te selecteren of te deselecteren}other{Klik om deze foto te selecteren of te deselecteren}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Foto's importeren wanneer ik een camera of geheugenkaart aansluit}male{Foto's importeren wanneer ik een camera of geheugenkaart aansluit}other{Foto's importeren wanneer ik een camera of geheugenkaart aansluit}}"
+   },
+   "484542621830317934": {
+      "message": "Je hebt geen albums. Upload nu foto's!"
+   },
+   "489844404897890427": {
+      "message": "Volledig scherm"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 foto's}=1{1 foto}other{{NUM_2} foto's}}"
+   },
+   "4930506384627295710": {
+      "message": "Instellingen"
+   },
+   "495485805564687684": {
+      "message": "Importeren stoppen"
+   },
+   "4957990634817185638": {
+      "message": "Doorgaan met importeren"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Album delen}=1{Geselecteerde foto delen}other{Geselecteerde foto's delen}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Klik om foto's toe te voegen}male{Klik om foto's toe te voegen}other{Klik om foto's toe te voegen}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} dag geselecteerd}other{{COUNT_2} dagen geselecteerd}}"
+   },
+   "5028777105388019087": {
+      "message": "Details"
+   },
+   "5043933900720743682": {
+      "message": "Albums"
+   },
+   "5045200874122539692": {
+      "message": "Sluiten"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Upload een paar foto's om aan de slag te gaan.}male{Upload een paar foto's om aan de slag te gaan.}other{Upload een paar foto's om aan de slag te gaan.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Jouw domein"
+   },
+   "5087678602655068553": {
+      "message": "Camera"
+   },
+   "5094793857629325945": {
+      "message": "Delen voorbereiden..."
+   },
+   "509736707516044180": {
+      "message": "Annuleren..."
+   },
+   "5114432207766092038": {
+      "message": "Alle foto's van alle berichten."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Als u deze foto verwijdert, worden alle reacties, +1's en tags die zijn gekoppeld aan de foto verwijderd.}other{Als u deze foto's verwijdert, worden alle reacties, +1's en tags die zijn gekoppeld aan de foto's verwijderd.}}"
+   },
+   "5127852906617233988": {
+      "message": "Sluiten"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Jouw kringen}male{Jouw kringen}other{Jouw kringen}}"
+   },
+   "5143227875710959810": {
+      "message": "Album delen"
+   },
+   "5146398958364876914": {
+      "message": "Sorteren"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Van {FROM_NAME}}male{Van {FROM_NAME}}other{Van {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Instellen als albumomslag}female{Instellen als albumomslag}other{Instellen als albumomslag}}"
+   },
+   "5179193375793315549": {
+      "message": "Je kunt niet meer dan $1\u200B foto's tegelijk toevoegen."
+   },
+   "5198477912095887288": {
+      "message": "originele foto"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Foto bekijken}other{Foto's bekijken}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Log in op Chrome om foto's te uploaden.}male{Log in op Chrome om foto's te uploaden.}other{Log in op Chrome om foto's te uploaden.}}"
+   },
+   "5233843271957333982": {
+      "message": "opnieuw instellen"
+   },
+   "5252008443782667515": {
+      "message": "Ja"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Er is \u00E9\u00E9n extra kopie die niet wordt verwijderd.}other{Er zijn {NUM_ADDITIONAL_COPIES_2} kopie\u00EBn die niet worden verwijderd.}}"
+   },
+   "5369958865776447504": {
+      "message": "Deze foto staat in het album '$1\u200B'."
+   },
+   "5376084340764125422": {
+      "message": "Volledig scherm sluiten"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Gecombineerd"
+   },
+   "5413761544816529267": {
+      "message": "Registreer je voor een Google+ account om $1\u200B te gebruiken."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Opnieuw proberen"
+   },
+   "545081735380424772": {
+      "message": "Foto's uploaden en delen via Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Foto's verwijderen"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Wazig"
+   },
+   "5522640894890976342": {
+      "message": "Onderbelicht"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Overbelicht}male{Overbelicht}other{Overbelicht}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto gekopieerd.}other{{NUM_PHOTOS_2} foto's gekopieerd.}}"
+   },
+   "5546339789714773759": {
+      "message": "Rechtsom draaien"
+   },
+   "5563891514339188770": {
+      "message": "Instellen als albumomslag"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Klik om deze foto te verwijderen}male{Klik om deze foto te verwijderen}other{Klik om deze foto te verwijderen}}"
+   },
+   "5613209249634786065": {
+      "message": "Volledig (tot 5 GB opslagruimte beschikbaar)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Je kunt met enkele klikken al je foto's en video's opslaan, organiseren en delen.}female{Je kunt met enkele klikken al je foto's en video's opslaan, organiseren en delen.}other{Je kunt met enkele klikken al je foto's en video's opslaan, organiseren en delen.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} beste foto geselecteerd door Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} beste foto's geselecteerd door Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Foto bekijken}other{Foto's bekijken}}}female{{COUNT,plural, =0{unused plural form}=1{Foto bekijken}other{Foto's bekijken}}}other{{COUNT,plural, =0{unused plural form}=1{Foto bekijken}other{Foto's bekijken}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Niemand is getagd in dit album."
+   },
+   "5747301769466451086": {
+      "message": "Volledig ($1\u200B GB van $2\u200B GB resterend)"
+   },
+   "5750062244377347370": {
+      "message": "Je kunt niet meer dan $1\u200B foto's tegelijk delen."
+   },
+   "5750485945694679561": {
+      "message": "Foto"
+   },
+   "5752465522295465624": {
+      "message": "Wat is dit?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto ge\u00EFmporteerd.}other{# foto's ge\u00EFmporteerd.}}"
+   },
+   "5782608665556323710": {
+      "message": "Gedeeld met uitgebreide kringen"
+   },
+   "5792855097053831820": {
+      "message": "Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Deze foto verwijderen}other{Foto's verwijderen}}"
+   },
+   "5822534876981710132": {
+      "message": "Automatisch uploaden"
+   },
+   "5849125517299342831": {
+      "message": "Foto's importeren..."
+   },
+   "5851872412594366640": {
+      "message": "Alle foto's in album verplaatsen"
+   },
+   "585220835732140655": {
+      "message": "Gedeeld op $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Volledig (tot 5 GB opslagruimte beschikbaar)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 foto die al is ge\u00EFmporteerd, wordt alsnog ge\u00FCpload.}other{{NUM_PHOTOS_2} foto's die al zijn ge\u00EFmporteerd, worden alsnog ge\u00FCpload.}}"
+   },
+   "591256046515963756": {
+      "message": "Raak nooit een herinnering kwijt. Je kunt altijd en op elk apparaat toegang krijgen tot je foto's."
+   },
+   "5937251202465808296": {
+      "message": "Meer"
+   },
+   "5963865584069399662": {
+      "message": "priv\u00E9"
+   },
+   "5978216065275630477": {
+      "message": "Er is een fout opgetreden tijdens het inloggen bij Google+ Foto's."
+   },
+   "5981779462795520309": {
+      "message": "Ontvangers van de oorspronkelijke berichten"
+   },
+   "5984859669237993376": {
+      "message": "Klik om foto's toe te voegen"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{E\u00E9n foto toegevoegd en klaar om te delen.}other{# foto's toegevoegd en klaar om te delen.}}"
+   },
+   "6003032126642624287": {
+      "message": "Volledige grootte (tot 5 GB gratis opslagruimte beschikbaar)"
+   },
+   "6021285543212025836": {
+      "message": "Als je deze foto verwijdert, worden ook alle posts, opmerkingen en +1's verwijderd die hieraan zijn gekoppeld."
+   },
+   "605360614133602045": {
+      "message": "am"
+   },
+   "6073020864818444056": {
+      "message": "Gereed"
+   },
+   "612521550010808115": {
+      "message": "Zichtbaar voor iedereen op internet"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto toegevoegd en klaar om te delen.}other{# foto's toegevoegd en klaar om te delen.}}"
+   },
+   "6143433948220856193": {
+      "message": "Overbelicht"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Foto verwijderen"
+   },
+   "6261883509320806048": {
+      "message": "Geselecteerde foto's verwijderen?"
+   },
+   "6328709087873568224": {
+      "message": "Met $1\u200B worden alle foto's op je drive en de foto's die je maakt met je telefoon en camera, op \u00E9\u00E9n plaats samengebracht."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}female{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}other{Laat {APP_NAME} je helpen de beste opnamen te kiezen uit de foto's die je importeert}}"
+   },
+   "6366245138858985671": {
+      "message": "Album voor plakboekfoto's."
+   },
+   "636798263636559500": {
+      "message": "Albumnaam invullen"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Klik om deze foto linksom te draaien}male{Klik om deze foto linksom te draaien}other{Klik om deze foto linksom te draaien}}"
+   },
+   "6402624319890396199": {
+      "message": "Annuleren"
+   },
+   "6405254665227516714": {
+      "message": "Alle profielfoto's."
+   },
+   "6421460271971606186": {
+      "message": "Zoomen"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Je kunt de foto's van anderen niet selecteren}male{Je kunt de foto's van anderen niet selecteren}other{Je kunt de foto's van anderen niet selecteren}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Je hebt momenteel geen verbinding met internet.}female{Je hebt momenteel geen verbinding met internet.}other{Je hebt momenteel geen verbinding met internet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Deze foto's zijn priv\u00E9 ge\u00FCpload naar Google+ en zijn alleen zichtbaar voor jou."
+   },
+   "6546455868033656709": {
+      "message": "Op opnamedatum (nieuw naar oud)"
+   },
+   "6562395422130457272": {
+      "message": "Verlichting"
+   },
+   "6569718559670589774": {
+      "message": "Priv\u00E9 gedeeld"
+   },
+   "6578760328281087395": {
+      "message": "Foto verwijderen"
+   },
+   "6594379652661172876": {
+      "message": "Deze fotokioskachtige foto is gemaakt op basis van meerdere portretfoto's."
+   },
+   "6604371182910178125": {
+      "message": "Als je dit album verwijdert, worden ook alle posts, opmerkingen en +1's verwijderd die hieraan zijn gekoppeld."
+   },
+   "6626842519109915669": {
+      "message": "Foto's vanuit Automatische back-up"
+   },
+   "663126026358360455": {
+      "message": "Standaard (onbeperkte opslagruimte beschikbaar)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto toegevoegd en klaar om te delen.}other{{NUM_PHOTOS_2} foto's toegevoegd en klaar om te delen.}}"
+   },
+   "664682826251689034": {
+      "message": "Nog geen +1's."
+   },
+   "666585356635427967": {
+      "message": "Deze foto is automatisch verbeterd."
+   },
+   "6698080327673689103": {
+      "message": "Beste opnamen zoeken..."
+   },
+   "6721868124884562992": {
+      "message": "Verzamel de foto's van al je apparaten op \u00E9\u00E9n plaats."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Beheren}female{Beheren}other{Beheren}}"
+   },
+   "6747166642870870925": {
+      "message": "Importeren stoppen..."
+   },
+   "6750134343457912784": {
+      "message": "Om het maximale uit $1\u200B te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd."
+   },
+   "675159243189607951": {
+      "message": "Foto toevoegen aan album"
+   },
+   "6778067484492795152": {
+      "message": "Onderbelicht"
+   },
+   "6792549611288275870": {
+      "message": "Focuslengte"
+   },
+   "6803199913053097740": {
+      "message": "Met $1\u200B worden je foto's veilig opgeslagen en kun je deze op elk gewenst moment en op elk gewenste apparaat bekijken."
+   },
+   "680511502310466916": {
+      "message": "Populaire foto's"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{in {NUM_PHOTOS_2} foto}other{in {NUM_PHOTOS_2} foto's}}"
+   },
+   "6872320306636644917": {
+      "message": "Je kunt je apparaat nu veilig loskoppelen."
+   },
+   "6872759799605876555": {
+      "message": "F-nummer"
+   },
+   "687281374586801843": {
+      "message": "$1\u200B starten en foto's importeren wanneer ik een camera of geheugenkaart aansluit"
+   },
+   "6882873153932419461": {
+      "message": "Selectief aanpassen"
+   },
+   "6906406658770551379": {
+      "message": "Deze animatie is gemaakt op basis van een reeks van vijf of meer foto's."
+   },
+   "6983200894459150878": {
+      "message": "Dit panorama is gemaakt op basis van een reeks overlappende foto's."
+   },
+   "7022070615528435141": {
+      "message": "Verwijderen"
+   },
+   "7049887240439736400": {
+      "message": "Afdrukken"
+   },
+   "706796434064753890": {
+      "message": "Diavoorstelling afspelen"
+   },
+   "7102649289752747375": {
+      "message": "Feedback verzenden"
+   },
+   "7105497072958063616": {
+      "message": "Tint"
+   },
+   "7182974689040833178": {
+      "message": "Hervatten"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Jouw domein}male{Jouw domein}other{Jouw domein}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BJe bent ingelogd als$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Foto's importeren van $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Doorgaan met importeren"
+   },
+   "7283005104295613831": {
+      "message": "Kies back-up van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn."
+   },
+   "7288593042347321202": {
+      "message": "Geselecteerde foto verwijderen?"
+   },
+   "7329217250595054697": {
+      "message": "Origineel"
+   },
+   "734934965373819800": {
+      "message": "Teruggaan"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Getagd in: {ALBUM_NAME}}male{Getagd in: {ALBUM_NAME}}other{Getagd in: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Foto's toevoegen"
+   },
+   "7419704019640008953": {
+      "message": "Delen"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Beste}male{Beste}other{Beste}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Welkom bij {XXX}}male{Welkom bij {XXX}}other{Welkom bij {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Maak opnieuw verbinding om alle foto's en albums te bekijken."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pauze}female{Pauze}other{Pauze}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto rechtsom draaien}other{Geselecteerde foto's rechtsom draaien}}"
+   },
+   "7488769419737494778": {
+      "message": "Hallo, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Kies vervolgens je uploadgrootte"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto gekopieerd}other{# foto's gekopieerd}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Delen}female{Delen}other{Delen}}"
+   },
+   "7538539390938534172": {
+      "message": "Witbalans"
+   },
+   "7546970424299309536": {
+      "message": "Automatisch georganiseerd en klaar om te delen"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Geen foto's geselecteerd}=1{{COUNT_2} foto geselecteerd}other{{COUNT_2} foto's geselecteerd}}"
+   },
+   "7637409896935138087": {
+      "message": "Op opnamedatum (oud naar nieuw)"
+   },
+   "7649598852815041947": {
+      "message": "Nieuw album"
+   },
+   "765296891797858248": {
+      "message": "Hallo!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto toegevoegd uit {FOLDER_NAME} en klaar om te delen.}other{{NUM_PHOTOS_2} foto's toegevoegd uit {FOLDER_NAME} en klaar om te delen.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B weergaven"
+   },
+   "7718742267235559288": {
+      "message": "Volledig scherm sluiten"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto gekopieerd uit $1\u200B}other{# foto's gekopieerd uit $1\u200B}}"
+   },
+   "7736850283853703249": {
+      "message": "Veilig opgeslagen"
+   },
+   "7736894743522697089": {
+      "message": "Pano"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto verplaatsen}other{Geselecteerde foto's verplaatsen}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Aan de slag!"
+   },
+   "779808899645033177": {
+      "message": "Laatste import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Alleen jou"
+   },
+   "7828808805120058354": {
+      "message": "Herstellen"
+   },
+   "7856636143847093955": {
+      "message": "Dagen samenvoegen"
+   },
+   "7871095434511949009": {
+      "message": "Diafragma"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Kies vervolgens je uploadgrootte}female{Kies vervolgens je uploadgrootte}other{Kies vervolgens je uploadgrootte}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}male{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}other{Selecteer bronnen waaruit foto's worden ge\u00EFmporteerd en priv\u00E9 worden ge\u00FCpload naar Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Klik om deze foto te selecteren of te deselecteren}male{Klik om deze foto te selecteren of te deselecteren}other{Klik om deze foto te selecteren of te deselecteren}}"
+   },
+   "7899751896282337632": {
+      "message": "Verbeterd"
+   },
+   "7911416166208830577": {
+      "message": "Help"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik hier om deze foto te bekijken en te delen.}other{Klik hier om deze foto's te bekijken en te delen.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Verwijderen}female{Verwijderen}other{Verwijderen}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Klik om deze foto linksom te draaien}female{Klik om deze foto linksom te draaien}other{Klik om deze foto linksom te draaien}}"
+   },
+   "8031489364030461560": {
+      "message": "$1\u200B configureren"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Deze foto is automatisch verbeterd.}male{Deze foto is automatisch verbeterd.}other{Deze foto is automatisch verbeterd.}}"
+   },
+   "8112449587476468078": {
+      "message": "Geselecteerd album verwijderen?"
+   },
+   "8121983485737306983": {
+      "message": "dupliceren"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Foto's"
+   },
+   "8160611829089073754": {
+      "message": "Albums verwijderen"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto toevoegen aan album}other{Geselecteerde foto's toevoegen aan album}}"
+   },
+   "8179903593042831802": {
+      "message": "Foto's toevoegen"
+   },
+   "819996403327805209": {
+      "message": "Meer informatie"
+   },
+   "8209467666747691270": {
+      "message": "Beste"
+   },
+   "8233995188166153420": {
+      "message": "Log in bij Chrome om foto's te uploaden."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Slechter duplicaat}male{Slechter duplicaat}other{Slechter duplicaat}}"
+   },
+   "8257489178421131174": {
+      "message": "Albumnaam invullen"
+   },
+   "8262372758945437018": {
+      "message": "Aan de slag"
+   },
+   "8272813937461935720": {
+      "message": "Er is een fout opgetreden tijdens je aanmelding bij Google+ Foto's."
+   },
+   "8274541876455385064": {
+      "message": "Lachen"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Klik om foto's toe te voegen}female{Klik om foto's toe te voegen}other{Klik om foto's toe te voegen}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Geselecteerde foto delen}other{Geselecteerde foto's delen}}"
+   },
+   "8317910107005018559": {
+      "message": "Minder"
+   },
+   "8324963774100913509": {
+      "message": "Beperkt"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Welkom bij {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Albumnaam invullen}male{Albumnaam invullen}other{Albumnaam invullen}}"
+   },
+   "8405309693308875139": {
+      "message": "Foto's"
+   },
+   "840692109692540367": {
+      "message": "Inloggen"
+   },
+   "8418580476552799567": {
+      "message": "Uploadgrootte"
+   },
+   "8446162208830000966": {
+      "message": "Stoppen"
+   },
+   "8461609631969932886": {
+      "message": "Verbergen"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Versie $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik hier om deze foto te bekijken.}other{Klik hier om deze foto's te bekijken.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Je hebt een of meer foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}male{{COUNT_1,plural, =0{Je hebt een of meer foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}other{{COUNT_1,plural, =0{Je hebt een of meer foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}=1{Je hebt {START_BOLD}1{END_BOLD} foto die klaar is om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}other{Je hebt {START_BOLD}{COUNT_2}{END_BOLD} foto's die klaar zijn om te uploaden. Maak opnieuw verbinding om te uploaden en te delen!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Laat $1\u200B je helpen de beste opnamen te kiezen uit de foto's die je importeert"
+   },
+   "8554704680089748768": {
+      "message": "Foto's ge\u00EFmporteerd op $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Afspelen"
+   },
+   "8566172133042307539": {
+      "message": "Toevoegen aan album"
+   },
+   "8588705294225487286": {
+      "message": "Zichtbaar voor de ontvangers van de oorspronkelijke berichten"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}male{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}other{Kies back-ups van je foto's op volledig formaat of kleinere uploads met standaardgrootte die gratis zijn.}}"
+   },
+   "8654290347345927684": {
+      "message": "Je kunt je apparaat ($1\u200B) nu veilig loskoppelen."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Hallo! Welkom bij {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Beste selecteren"
+   },
+   "8675112326850410714": {
+      "message": "Geheugenkaart of opslagapparaat aangesloten"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Sluiten}female{Sluiten}other{Sluiten}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto ge\u00EFmporteerd uit $1\u200B.}other{# foto's ge\u00EFmporteerd uit $1\u200B.}}"
+   },
+   "8704271911477526098": {
+      "message": "Priv\u00E9"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Je hebt momenteel geen verbinding met internet.}male{Je hebt momenteel geen verbinding met internet.}other{Je hebt momenteel geen verbinding met internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Instellingen opslaan"
+   },
+   "8765880467977864647": {
+      "message": "door $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Gebruikersmenu"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Volledig scherm}female{Volledig scherm}other{Volledig scherm}}"
+   },
+   "8777952755137547655": {
+      "message": "Deze panoramafoto is gemaakt op basis van een reeks foto's met aangrenzende uitzichten."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Uploaden voltooid. 1 foto klaar om te delen.}other{Uploaden voltooid. {COUNT_2} foto's klaar om te delen.}}"
+   },
+   "8832933617217959986": {
+      "message": "Selectie ongedaan maken"
+   },
+   "8874739581425612284": {
+      "message": "Selecteer foto's om te delen of toe te voegen aan een album"
+   },
+   "8890553633144307762": {
+      "message": "Terug"
+   },
+   "8928816882866356838": {
+      "message": "Openbaar"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Album verwijderen}=1{Geselecteerde foto verwijderen}other{Geselecteerde foto's verwijderen}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Afdrukken}female{Afdrukken}other{Afdrukken}}"
+   },
+   "8984549175557747262": {
+      "message": "Video verwerken..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Onderbelicht}male{Onderbelicht}other{Onderbelicht}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Gedeeld met domein"
+   },
+   "9042260521669277115": {
+      "message": "Onderbreken"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 weergaven in totaal}=1{1 weergave in totaal}other{{VIEW_COUNT_2} weergaven in totaal}}"
+   },
+   "9087479077774045963": {
+      "message": "Met $1\u200B worden automatisch de beste foto's uit je verzamelingen geselecteerd en klaargemaakt om te delen."
+   },
+   "9137360918780826967": {
+      "message": "Lage kwaliteit"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto toegevoegd en klaar om te delen.}other{# foto's toegevoegd en klaar om te delen.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} is de gemakkelijke manier om je foto's te organiseren en te delen.}female{{XXX_2} is de gemakkelijke manier om je foto's te organiseren en te delen.}other{{XXX_3} is de gemakkelijke manier om je foto's te organiseren en te delen.}}"
+   },
+   "9219694540199049147": {
+      "message": "Map..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto is al ge\u00FCpload in een eerdere sessie.}other{{NUM_PHOTOS_2} foto's zijn al ge\u00FCpload in een eerdere sessie.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto ge\u00EFmporteerd en ge\u00FCpload.}other{{START_BOLD}{COUNT_2}{END_BOLD} foto's ge\u00EFmporteerd en ge\u00FCpload.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Om het maximale uit {XXX} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}male{Om het maximale uit {XXX} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}other{Om het maximale uit {XXX} te halen, stel je in dat je foto's automatisch worden ge\u00EFmporteerd.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Alle foto's in album verplaatsen}=1{Geselecteerde foto verplaatsen}other{Geselecteerde foto's verplaatsen}}"
+   },
+   "982577805980296193": {
+      "message": "Klik hier om deze foto's te bekijken en te delen."
+   }
+}

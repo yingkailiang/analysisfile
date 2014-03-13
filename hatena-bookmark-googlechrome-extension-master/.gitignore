@@ -1,0 +1,3 @@
+obj/
+.bundle/
+*.pem

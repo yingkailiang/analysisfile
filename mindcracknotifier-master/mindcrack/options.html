@@ -1,0 +1,78 @@
+<html>
+<head><title>Mindcrack Notifier Options</title>
+<style>
+	  /* General Stuff */
+      body {
+		font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+      }
+	  h5 {
+		  margin-top: 15px;
+		  margin-bottom: 4px;
+	  }
+	  .sub {
+		  margin-left: 8px;
+		  border: 1px solid #333;
+		  background-color: #CCC;
+		  width: 260px;
+		  font-size: 14px;
+		  padding-left: 13px;
+		  padding-bottom: 8px;
+	  }
+	  .right {
+		  float: right;
+		  margin-top: 15px;
+		  margin-right: 13px;
+	  }
+	  h4 {
+		  margin-bottom: 4px;
+	  }
+	  #save {
+		  font-size: 18px;
+		  width: 80px;
+		  height: 40px;
+		  margin-top: 20px;
+	  }
+	  .begging {
+		  font-size: 14px;
+		  position: fixed;
+		  right: 12px;
+		  bottom: 8px;
+		  width: 240px;
+	  }
+	  .begging h5 {
+		  margin-bottom: 4px;
+	  }
+	  .begging p {
+		  margin-top: 4px;
+	  }
+</style>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+</head>
+
+<body>
+<h1>Mindcrack Notifier Options</h1>
+
+<h4>Select Your Preferred Mindcrackers</h4>
+<div class="sub"><input type="button" class="right" id="all" value="Toggle All">
+<h5>Notify me about:</h5>
+<div id="ytlist"></div>
+
+</div><br>
+
+<input type="checkbox" name="dark" id="iconcolor">Enable Light Mindcrack Icon (for dark skins)<br>
+<input type="checkbox" name="notifexpire" id="notifExpire">Notifications Auto-Expire<br>
+<input type="checkbox" name="notifupdate" id="notifUpdate">Notifications On Update<br>
+<input type="checkbox" name="notiftweet" id="notifTweet">Twitter Notifications
+<input type="checkbox" name="notiftwitch" id="notifTwitch">Twitch Notifications
+<div id="status"></div>
+<button id="save">Save</button>
+
+<div class="begging">
+	<h5>Donate</h5>
+    <p>Notification software created and maintained by Aubron. <a href="http://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7QXFQA4T7W23U">Click here</a> to donate and allow him to use more of his free time to do stupid things like this.</p>
+</div>
+</body>
+
+<script src="options.js"></script>
+
+</html>

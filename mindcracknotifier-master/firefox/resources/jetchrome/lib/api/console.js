@@ -1,0 +1,1 @@
+"use strict";exports.inject=function(d,c,b){const a=true;if(a||!("console" in b)){b.console.__exposedProps__={};["log","info","debug","warn","error","dir","time","timeEnd"].forEach(function(e){if(e in console){b.console[e]=console[e];b.console.__exposedProps__[e]="r"}})}};

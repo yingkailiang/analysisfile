@@ -1,0 +1,17 @@
+{
+  "name": "VLC Extensions",
+  "version": "1.1.0.1",
+  "description": "a google chrome extension for vlc.",
+  "update_url": "http://extensions.thomasw.nl/chromeExtensions/VLCExtensions/updates.xml",
+  "browser_action": {
+    "default_icon": "favicon.ico",
+	"popup": "popup.html"	
+  },
+  "permissions": [
+    "http://thomasw.nl:8081/",
+    "http://thomasw.nl/",
+    "http://thomasw.nl/requests/",
+    "http://thomasw.nl:8081/requests/"
+
+  ]
+}

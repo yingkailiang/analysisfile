@@ -1,0 +1,9 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+html {
+    /* Defaults css for cssmin process */
+}
+
+button {
+  display: block;
+}

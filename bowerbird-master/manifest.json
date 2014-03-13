@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "default_icon": "images/colors-19.png",
+    "default_title": "Bowerbird helps you work with colors on a webpage.",
+    "popup": "popup.html"
+  },
+  "icons": {
+    "16":  "images/colors-16.png",
+    "48":  "images/colors-48.png",
+    "128": "images/colors-128.png"
+  },
+  "homepage_url": "http://nthloop.github.com/bowerbird",
+  "name": "Bowerbird",
+  "version": "0.5",
+  "description": "Bowerbird helps you work with colors on a webpage. You can see what colors a page uses, find unused colors, and even edit colors.",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}

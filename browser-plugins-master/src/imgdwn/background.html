@@ -1,0 +1,34 @@
+<html>
+<head>
+    <script>
+        var imgurl = "http://i.imgur.com/TAM3h.jpg";
+
+        function getImgDwn(onSuccess, onError) {
+            var xhr = new XMLHttpRequest();
+            try {
+                console.log("request..");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4) {
+                        console.log("response : " + xhr.responseText );
+                    }
+                }
+                xhr.onerror = function(error) {
+                    console.log("error");
+                }
+                xhr.open("GET", imgurl, true);
+                xhr.setRequestHeader('Content-Disposition', 'attachment; filename=image.jpeg');
+                xhr.setRequestHeader('Accept', 'application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5');
+                //    xhr.setRequestHeader('Content-Type', 'image/jpeg');
+                xhr.send(null);
+                } catch(e) {
+                console.log("ex: " + e);
+            }
+        }
+        // Called when the user clicks on the browser action.
+        chrome.browserAction.onClicked.addListener(function(tab) {
+            getImgDwn();
+        });
+    </script>
+</head>
+<body></body>
+</html>

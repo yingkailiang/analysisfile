@@ -1,0 +1,32 @@
+a.extset, a.extset.visited{
+	color:#979797;
+	width:115px !important;
+}
+.ogc_header{
+	min-width:1025px !important;
+}
+#chat_smileyk{
+	background: url('../images/chat/chat_msgbg.png') repeat-y left top #686868;
+}
+
+/*form#hozzaszolas {
+	float:right;
+}*/
+/* div.hozzaszolasok div.uj textarea {
+	width:510px !important;
+} */
+textarea.privat {
+width: 510px !important;
+}
+textarea#message {
+width: 510px !important;
+}
+/* div.hozzaszolas div.hszszoveg p {
+ width: 530px !important; 
+} */
+div.hozzaszolas div.hszszoveg div, div.hozzaszolas div.hszszoveg p {
+    width: 530px !important;
+}
+#smileyk {
+    margin:0px 5px 5px 0px;
+}

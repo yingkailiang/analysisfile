@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Putuskan apakah Anda ingin cadangan foto ukuran penuh atau apakah Anda ingin upload rukuran standar yang lebih kecil."
+   },
+   "106279463205193944": {
+      "message": "Orang dalam album ini"
+   },
+   "1078696495414015742": {
+      "message": "Lanjutkan"
+   },
+   "1079312373208696407": {
+      "message": "Klik di sini bila Anda telah mendaftar"
+   },
+   "1106976338877989624": {
+      "message": "Tentang $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Anda belum memiliki album. Upload foto sekarang!}female{Anda belum memiliki album. Upload foto sekarang!}other{Anda belum memiliki album. Upload foto sekarang!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Upload selesai! {START_BOLD}1{END_BOLD} foto siap dibagikan.}other{Upload selesai! {START_BOLD}{COUNT_2}{END_BOLD} foto siap dibagikan.}}"
+   },
+   "1131710491735646017": {
+      "message": "Pindahkan foto"
+   },
+   "1141157641265116263": {
+      "message": "Simpan, susun, dan bagikan semua foto & video dengan sedikit klik."
+   },
+   "1168286392495236500": {
+      "message": "Dibagikan kepada publik"
+   },
+   "1168912363261265730": {
+      "message": "Putar slideshow"
+   },
+   "1179156232993544339": {
+      "message": "Hapus album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Pilih item}female{Pilih item}other{Pilih item}}"
+   },
+   "1199073624563429103": {
+      "message": "Jika Anda menghapus foto-foto ini, Anda juga akan menghapus semua pos, komentar, dan +1 yang terkait dengan foto tersebut."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BSambungkan kembali$1\u200B untuk melihat semua foto dan album."
+   },
+   "1274379628511980491": {
+      "message": "Memindai foto"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 foto}other{{PHOTO_COUNT_2} foto}}"
+   },
+   "1299278917495979942": {
+      "message": "Menurut tanggal ditambahkan (baru ke lama)"
+   },
+   "1299626955070536636": {
+      "message": "Putar Searah Jarum Jam"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Anda harus tersambung ke Internet untuk pertama kali menyiapkan {XXX}.}male{Anda harus tersambung ke Internet untuk pertama kali menyiapkan {XXX}.}other{Anda harus tersambung ke Internet untuk pertama kali menyiapkan {XXX}.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{1 foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{COUNT_2} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{1 foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{COUNT_2} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{1 foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{COUNT_2} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Pilih lokasi impor lainnya"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}male{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}other{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Impor foto secara otomatis dari kamera dan kartu memori yang terpasang}male{Impor foto secara otomatis dari kamera dan kartu memori yang terpasang}other{Impor foto secara otomatis dari kamera dan kartu memori yang terpasang}}"
+   },
+   "1410409051323941239": {
+      "message": "Mencoba menyambungkan kembali..."
+   },
+   "1425141239403329190": {
+      "message": "Sekarang aman untuk mencabut perangkat Anda, $1\u200B."
+   },
+   "1428301074198348755": {
+      "message": "Simpan"
+   },
+   "1482983300175848685": {
+      "message": "Daftar ke Google+"
+   },
+   "1494518490116523821": {
+      "message": "Pilih semua"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Salin}male{Salin}other{Salin}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Pindahkan}male{Pindahkan}other{Pindahkan}}"
+   },
+   "1535908424500369256": {
+      "message": "Jendela berikut akan ditutup:\n"
+   },
+   "1542576779711006198": {
+      "message": "Mengimpor foto dari $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Pindahkan}female{Pindahkan}other{Pindahkan}}"
+   },
+   "1572187844116018239": {
+      "message": "Lihat layar penuh"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Tambahkan}male{Tambahkan}other{Tambahkan}}"
+   },
+   "163532554661203916": {
+      "message": "Buka $1\u200B untuk mulai mengimpor foto dari $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Foto..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B Versi $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Memuat..."
+   },
+   "1753152144556911377": {
+      "message": "Tentang $1\u200B"
+   },
+   "1754857127237380562": {
+      "message": "Tidak"
+   },
+   "1760918964936396010": {
+      "message": "Hapus $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Tidak dibagikan}male{Tidak dibagikan}other{Tidak dibagikan}}"
+   },
+   "1829542073477142210": {
+      "message": "Dapat dilihat oleh peserta percakapan"
+   },
+   "1863533324056146247": {
+      "message": "pm"
+   },
+   "1898536270078020135": {
+      "message": "Menu Aplikasi"
+   },
+   "1907928780625920048": {
+      "message": "Tersimpan dengan aman"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto siap dibagikan}other{{COUNT_2} foto siap dibagikan}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau apakah Anda ingin salinan berukuran standar yang lebih kecil (2048 piksel) yang gratis.}female{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau apakah Anda ingin salinan berukuran standar yang lebih kecil (2048 piksel) yang gratis.}other{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau apakah Anda ingin salinan berukuran standar yang lebih kecil (2048 piksel) yang gratis.}}"
+   },
+   "1938243880078123136": {
+      "message": "Kami akan mengalihkan Anda ke Google+ untuk menonton video."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Ditandai}male{Ditandai}other{Ditandai}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Putuskan apakah Anda ingin cadangan foto ukuran penuh atau apakah Anda ingin mengupload ukuran standar yang lebih kecil secara gratis.}female{Putuskan apakah Anda ingin cadangan foto ukuran penuh atau apakah Anda ingin mengupload ukuran standar yang lebih kecil secara gratis.}other{Putuskan apakah Anda ingin cadangan foto ukuran penuh atau apakah Anda ingin mengupload ukuran standar yang lebih kecil secara gratis.}}"
+   },
+   "1995266543727924491": {
+      "message": "Foto dari Upload Instan"
+   },
+   "2000146230061979936": {
+      "message": "Foto profil"
+   },
+   "2029980907058777630": {
+      "message": "Persyaratan Layanan"
+   },
+   "2066206612741461379": {
+      "message": "Hak cipta \u00A9 2013 Google Inc. Semua Hak Dilindungi Undang-Undang."
+   },
+   "2079435202927044386": {
+      "message": "Mengimpor foto"
+   },
+   "2097731301533028280": {
+      "message": "Semua Foto"
+   },
+   "2102825898069375693": {
+      "message": "Menu"
+   },
+   "2127917516759723964": {
+      "message": "Hapus album yang dipilih?"
+   },
+   "2134605074025092052": {
+      "message": "Hapus $1\u200B foto"
+   },
+   "2159130950882492111": {
+      "message": "Batal"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Klik untuk memutar foto ini searah jarum jam}female{Klik untuk memutar foto ini searah jarum jam}other{Klik untuk memutar foto ini searah jarum jam}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Bukan yang terbaik}male{Bukan yang terbaik}other{Bukan yang terbaik}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Halo! Selamat datang di {XXX_1}.}female{Halo! Selamat datang di {XXX_2}.}other{Halo! Selamat datang di {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Bantuan}female{Bantuan}other{Bantuan}}"
+   },
+   "2256196161103684642": {
+      "message": "Terbatas"
+   },
+   "2267143557027174044": {
+      "message": "Batal"
+   },
+   "2299297337048329405": {
+      "message": "Salin"
+   },
+   "2354817630223808522": {
+      "message": "Pindahkan"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}female{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}other{Untuk mengoptimalkan {APP_NAME}, konfigurasikan agar secara otomatis mengimpor foto Anda.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pindahkan {XXX_1} foto ke:}other{Pindahkan {XXX_2} foto ke:}}"
+   },
+   "2442822401576040991": {
+      "message": "Foto dari ponsel"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Untuk memulai, impor foto Anda}female{Untuk memulai, impor foto Anda}other{Untuk memulai, impor foto Anda}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 foto}other{{PHOTO_COUNT_2} foto}}"
+   },
+   "2453303348493525919": {
+      "message": "Pilih item"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} album dipilih}other{{COUNT_2} album dipilih}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto telah diupload di sesi sebelumnya. }other{{NUM_PHOTOS_2} foto telah diupload di sesi sebelumnya. }}"
+   },
+   "2503049676444223994": {
+      "message": "Menurut tanggal ditambahkan (lama ke baru)"
+   },
+   "251008425196701054": {
+      "message": "Dapat dilihat oleh siapa saja dalam domain Anda"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}male{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}other{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}}"
+   },
+   "2537804086667442212": {
+      "message": "Pembatalan akan menghentikan pengimporan foto-foto selanjutnya. Foto yang sudah diimpor akan dihapus."
+   },
+   "2543396005338987129": {
+      "message": "Batalkan impor"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Kabur}male{Kabur}other{Kabur}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto dari $1\u200B telah ditambahkan dan siap dibagikan!}other{# foto dari $1\u200B telah ditambahkan dan siap dibagikan!}}"
+   },
+   "2603085641264767659": {
+      "message": "Tamu acara"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Izinkan {XXX} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}male{Izinkan {XXX} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}other{Izinkan {XXX} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B mnt $2\u200B dtk"
+   },
+   "2653328820441876128": {
+      "message": "$1\u200B menyatukan foto dari kamera, ponsel, dan folder Anda di satu tempat."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto disalin dari {FOLDER_NAME}!}other{{NUM_PHOTOS_2} foto disalin dari {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Ukuran penuh (sisa $1\u200B GB dari $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Kami mengalami masalah saat memasukkan Anda ke {XXX}.}male{Kami mengalami masalah saat memasukkan Anda ke {XXX}.}other{Kami mengalami masalah saat memasukkan Anda ke {XXX}.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Pilih semua}female{Pilih semua}other{Pilih semua}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B dtk"
+   },
+   "2710655047330556001": {
+      "message": "Orang di foto ini"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Selamat datang di {XXX_1}}female{Selamat datang di {XXX_2}}other{Selamat datang di {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Pencahayaan"
+   },
+   "2761269382982007883": {
+      "message": "Kami akan membantu Anda tetap teratur dan menyarankan foto terbaik untuk dibagikan."
+   },
+   "2761326392133498772": {
+      "message": "Bagikan foto"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! Astaga!}=1{1 foto}other{{PHOTO_COUNT_2} foto}}"
+   },
+   "2784586982005585140": {
+      "message": "Lainnya"
+   },
+   "2786233632874013852": {
+      "message": "Foto lainnya"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Batal pilih semua}female{Batal pilih semua}other{Batal pilih semua}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatur"
+   },
+   "2820098809819439336": {
+      "message": "Hapus foto"
+   },
+   "2847005022751960352": {
+      "message": "Masih bekerja..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik di sini untuk melihat dan berbagi foto ini.}other{Klik di sini untuk melihat dan berbagi foto berikut.}}"
+   },
+   "287837027263664914": {
+      "message": "Edit lokasi impor"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto dipilih}other{{COUNT_2} foto dipilih}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Klik untuk menghapus foto ini}female{Klik untuk menghapus foto ini}other{Klik untuk menghapus foto ini}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Masuk}female{Masuk}other{Masuk}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Tambahkan {XXX_1} foto ke:}other{Tambahkan {XXX_2} foto ke:}}"
+   },
+   "2973731817320915012": {
+      "message": "Menurut tanggal pembuatan"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Putar dari awal}female{Putar dari awal}other{Putar dari awal}}"
+   },
+   "2987283829749314385": {
+      "message": "Hai, $2\u200B! Selamat datang di $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Tidak ada foto yang dipilih}=1{{COUNT_2} foto siap dibagikan}other{{COUNT_2} foto siap dibagikan}}"
+   },
+   "2991916598129901933": {
+      "message": "1 foto"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Kualitas rendah}male{Kualitas rendah}other{Kualitas rendah}}"
+   },
+   "3018671699054071030": {
+      "message": "Foto dari pos"
+   },
+   "3052031564829371686": {
+      "message": "Hak cipta \u00A9 2012 Google Inc. Semua Hak Dilindungi Undang-Undang."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau salinan gratis berukuran standar yang lebih kecil (2048 piksel).}male{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau salinan gratis berukuran standar yang lebih kecil (2048 piksel).}other{Pilih apakah Anda ingin menyimpan cadangan ukuran penuh dari foto yang Anda impor, atau salinan gratis berukuran standar yang lebih kecil (2048 piksel).}}"
+   },
+   "3062505056927186217": {
+      "message": "Foto kliping"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} selesai dari {TOTAL}}=1{{COUNT_2} selesai dari {TOTAL}}other{{COUNT_2} selesai dari {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Berkualitas rendah"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Anda harus tersambung ke Internet untuk menyiapkan {XXX} untuk pertama kalinya}male{Anda harus tersambung ke Internet untuk menyiapkan {XXX} untuk pertama kalinya}other{Anda harus tersambung ke Internet untuk menyiapkan {XXX} untuk pertama kalinya}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Harap masuk ke Chrome untuk mulai mengupload foto.}female{Harap masuk ke Chrome untuk mulai mengupload foto.}other{Harap masuk ke Chrome untuk mulai mengupload foto.}}"
+   },
+   "3169583722209452922": {
+      "message": "Kurasi"
+   },
+   "3173944879942241188": {
+      "message": "Kabur"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Pilih cadangan foto ukuran penuh atau upload ukuran standar yang lebih kecil secara gratis.}female{Pilih cadangan foto ukuran penuh atau upload ukuran standar yang lebih kecil secara gratis.}other{Pilih cadangan foto ukuran penuh atau upload ukuran standar yang lebih kecil secara gratis.}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B adalah cara menyusun & membagikan foto yang lebih mudah."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}female{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}other{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}}"
+   },
+   "3231427490891919648": {
+      "message": "Lingkaran diperluas"
+   },
+   "3249513483374643425": {
+      "message": "Tambahkan"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} adalah cara menyusun & membagikan foto dengan lebih mudah.}}"
+   },
+   "3266811991857373598": {
+      "message": "Untuk memulai, impor foto Anda"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} foto}other{{COUNT_2} foto}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Hapus album}other{Hapus album}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sortir}female{Sortir}other{Sortir}}"
+   },
+   "3298990500476723192": {
+      "message": "Hapus album"
+   },
+   "3304972143698843178": {
+      "message": "Acara"
+   },
+   "3316542569449182462": {
+      "message": "Menemukan foto terbaik"
+   },
+   "3319379534575065569": {
+      "message": "Duplikat"
+   },
+   "3335855558019774894": {
+      "message": "Tutup"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B dari $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Tidak seorang pun ditandai di foto ini."
+   },
+   "335552911020230570": {
+      "message": "Membatalkan..."
+   },
+   "3392114061661490939": {
+      "message": "Dimensi"
+   },
+   "339966167441018467": {
+      "message": "Foto diurutkan berdasarkan popularitas."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B foto"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Keluar dari Layar Penuh}female{Keluar dari Layar Penuh}other{Keluar dari Layar Penuh}}"
+   },
+   "3479702069824639097": {
+      "message": "Tekan untuk membandingkan dengan yang asli."
+   },
+   "3529907190030543252": {
+      "message": "Anda memerlukan sambungan Internet guna menyiapkan $1\u200B untuk pertama kalinya"
+   },
+   "3549990505176341828": {
+      "message": "Terlalu terang"
+   },
+   "3561019065020608408": {
+      "message": "Siap dibagikan"
+   },
+   "360237722039211543": {
+      "message": "Foto-foto di Drive hanya dapat disalin dan dibagikan"
+   },
+   "3624887810607887590": {
+      "message": "Putar ke kiri"
+   },
+   "3627956543961104309": {
+      "message": "Siapkan $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "Sumber foto"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Batalkan impor (1 foto)}other{Batalkan impor ({NUM_PHOTOS_2} foto)}}"
+   },
+   "3687863378890487189": {
+      "message": "Gerakan"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Hapus foto yang dipilih}other{Hapus foto yang dipilih}}"
+   },
+   "3714818517297325649": {
+      "message": "Pembatalan akan menghentikan pengimporan foto-foto selanjutnya.\nFoto yang sudah di-upload tidak akan dihapus."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Impor foto"
+   },
+   "3807699453257291879": {
+      "message": "Komentar"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik di sini untuk melihat foto ini.}other{Klik di sini untuk melihat foto berikut.}}"
+   },
+   "3818348166201769715": {
+      "message": "Semua foto Anda"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Sisa {COUNT_2} dari {TOTAL}}other{Sisa {COUNT_2} dari {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Terlihat oleh: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Putar Berlawanan Arah Jarum Jam"
+   },
+   "3885024486041657280": {
+      "message": "Kolase ini dibuat dari koleksi foto potret."
+   },
+   "3888600924819157294": {
+      "message": "Semua foto dari Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Hapus album ini}other{Hapus album}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Putar foto yang dipilih ke kiri}other{Putar foto yang dipilih ke kiri}}"
+   },
+   "3973931101896534797": {
+      "message": "Tanggal"
+   },
+   "4023731095051291021": {
+      "message": "Lihat di Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}male{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}other{Beri saya notifikasi dan impor foto dari kamera dan kartu memori yang tersemat}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Lanjutkan}female{Lanjutkan}other{Lanjutkan}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Sepertinya Anda telah meluncurkan {XXX} dari perangkat non-Chrome OS. Saat ini, aplikasi ini hanya tersedia di Chrome OS, meskipun Anda mungkin melihat ikonnya di browser Chrome Anda ketika menggunakan perangkat non-Chrome OS.}male{Sepertinya Anda telah meluncurkan {XXX} dari perangkat non-Chrome OS. Saat ini, aplikasi ini hanya tersedia di Chrome OS, meskipun Anda mungkin melihat ikonnya di browser Chrome Anda ketika menggunakan perangkat non-Chrome OS.}other{Sepertinya Anda telah meluncurkan {XXX} dari perangkat non-Chrome OS. Saat ini, aplikasi ini hanya tersedia di Chrome OS, meskipun Anda mungkin melihat ikonnya di browser Chrome Anda ketika menggunakan perangkat non-Chrome OS.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Lihat foto yang diimpor}other{Lihat foto yang diimpor}}"
+   },
+   "4187596523158859173": {
+      "message": "Klik di sini untuk melihat foto-foto ini."
+   },
+   "4201300158283262687": {
+      "message": "Klik di sini untuk melihat foto-foto ini."
+   },
+   "4248380204989256605": {
+      "message": "Tambahkan ke"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Hanya Anda}male{Hanya Anda}other{Hanya Anda}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Tambahkan ke album}female{Tambahkan ke album}other{Tambahkan ke album}}"
+   },
+   "4293741535116795213": {
+      "message": "Foto ini dibuat menggunakan senyuman terbaik dalam kumpulan foto yang mirip."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Klik untuk memutar foto ini searah jarum jam}male{Klik untuk memutar foto ini searah jarum jam}other{Klik untuk memutar foto ini searah jarum jam}}"
+   },
+   "4323470180912194028": {
+      "message": "Salin"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Pilih sumber asal foto yang akan diimpor dan di-upload secara pribadi ke Google+.}female{Pilih sumber asal foto yang akan diimpor dan di-upload secara pribadi ke Google+.}other{Pilih sumber asal foto yang akan diimpor dan di-upload secara pribadi ke Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Hanya dapat dilihat oleh Anda"
+   },
+   "4367940371467792621": {
+      "message": "Daftar ke Google+"
+   },
+   "4384754616332866866": {
+      "message": "Dapat dilihat oleh mereka yang telah Anda bagikan album ini"
+   },
+   "4397726581488253055": {
+      "message": "Keluar"
+   },
+   "4451709539238919902": {
+      "message": "Sebagian foto memiliki beberapa salinan yang tidak akan dihapus."
+   },
+   "4458099219143901905": {
+      "message": "Buka dengan Google+ Foto"
+   },
+   "4470533259338698234": {
+      "message": "Pindahkan"
+   },
+   "4472091515638733183": {
+      "message": "Pengimporan berhenti"
+   },
+   "4485837491844366665": {
+      "message": "Klik di sini untuk melihat dan membagikan foto-foto ini."
+   },
+   "4489698681193228521": {
+      "message": "Selamat datang di $1\u200B"
+   },
+   "4502210240956101520": {
+      "message": "Impor foto saat saya menyambungkan kamera atau kartu memori"
+   },
+   "4504920004530359010": {
+      "message": "Ukuran penuh (hingga 5 GB penyimpanan gratis)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Putar}female{Putar}other{Putar}}"
+   },
+   "4535738935335444945": {
+      "message": "Tidak dibagi"
+   },
+   "4550974869121207169": {
+      "message": "hapus"
+   },
+   "4557902876984952242": {
+      "message": "Edit"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Menghapus album ini akan menghapus semua komentar, +1, dan tag yang dikaitkan dengan album tersebut.}other{Menghapus album tersebut akan menghapus semua komentar, +1, dan tag yang dikaitkan dengan album tersebut.}}"
+   },
+   "4575337223720002806": {
+      "message": "Kurasi otomatis"
+   },
+   "4579986716424813115": {
+      "message": "Putar dari awal"
+   },
+   "460600293345244430": {
+      "message": "Pilih foto untuk dibagikan atau ditambahkan ke album."
+   },
+   "4624285717763544623": {
+      "message": "Tambahkan"
+   },
+   "4630251340863502127": {
+      "message": "Meng-upload foto yang diimpor"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Anda belum memiliki album. Upload foto sekarang!}male{Anda belum memiliki album. Upload foto sekarang!}other{Anda belum memiliki album. Upload foto sekarang!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto diimpor!}other{# foto diimpor!}}"
+   },
+   "466730294804943734": {
+      "message": "Belum ada komentar."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B tidak didukung di platform ini"
+   },
+   "4678028473996848955": {
+      "message": "Semua foto Anda"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Batal}female{Batal}other{Batal}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B dari $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Jika Anda menghapus album-album ini, Anda juga akan menghapus semua pos, komentar, dan +1 yang terkait dengan album tersebut."
+   },
+   "471816275243265264": {
+      "message": "Lokasi"
+   },
+   "4726999481668064421": {
+      "message": "Foto HDR ini dibuat dari kumpulan variasi pencahayaan."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BAnda masuk sebagai$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Hai! Selamat datang di $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Foto dari Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BAnda masuk sebagai$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Sekarang aman untuk mencabut perangkat Anda."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Klik untuk memilih atau batal memilih foto ini}female{Klik untuk memilih atau batal memilih foto ini}other{Klik untuk memilih atau batal memilih foto ini}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Impor foto saat saya menyambungkan kamera atau kartu memori}male{Impor foto saat saya menyambungkan kamera atau kartu memori}other{Impor foto saat saya menyambungkan kamera atau kartu memori}}"
+   },
+   "484542621830317934": {
+      "message": "Anda tidak memiliki album.  Upload foto sekarang!"
+   },
+   "489844404897890427": {
+      "message": "Layar Penuh"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 foto}=1{1 foto}other{{NUM_2} foto}}"
+   },
+   "4930506384627295710": {
+      "message": "Setelan"
+   },
+   "495485805564687684": {
+      "message": "Berhenti mengimpor"
+   },
+   "4957990634817185638": {
+      "message": "Lanjutkan mengimpor"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Bagikan album}=1{Bagikan foto yang dipilih}other{Bagikan foto yang dipilih}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Klik untuk menambahkan foto}male{Klik untuk menambahkan foto}other{Klik untuk menambahkan foto}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} hari dipilih}other{{COUNT_2} hari dipilih}}"
+   },
+   "5028777105388019087": {
+      "message": "Detail"
+   },
+   "5043933900720743682": {
+      "message": "Album"
+   },
+   "5045200874122539692": {
+      "message": "Keluar"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Upload beberapa foto untuk memulai.}male{Upload beberapa foto untuk memulai.}other{Upload beberapa foto untuk memulai.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Domain Anda"
+   },
+   "5087678602655068553": {
+      "message": "Kamera"
+   },
+   "5094793857629325945": {
+      "message": "Menyiapkan pembagian..."
+   },
+   "509736707516044180": {
+      "message": "Membatalkan..."
+   },
+   "5114432207766092038": {
+      "message": "Semua foto dari semua pos."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Menghapus foto ini akan menghapus semua komentar, +1, dan tag yang dikaitkan dengan foto tersebut.}other{Menghapus foto-foto ini akan menghapus semua komentar, +1, dan tag yang dikaitkan dengan foto tersebut.}}"
+   },
+   "5127852906617233988": {
+      "message": "Tutup"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Lingkaran Anda}male{Lingkaran Anda}other{Lingkaran Anda}}"
+   },
+   "5143227875710959810": {
+      "message": "Bagikan album"
+   },
+   "5146398958364876914": {
+      "message": "Sortir"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Dari {FROM_NAME}}male{Dari {FROM_NAME}}other{Dari {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Tetapkan sebagai sampul album}female{Tetapkan sebagai sampul album}other{Tetapkan sebagai sampul album}}"
+   },
+   "5179193375793315549": {
+      "message": "Anda tidak dapat menambahkan lebih dari $1\u200B foto sekaligus."
+   },
+   "5198477912095887288": {
+      "message": "yang diambil"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Lihat foto}other{Lihat foto}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Harap masuk ke Chrome untuk mulai mengupload foto.}male{Harap masuk ke Chrome untuk mulai mengupload foto.}other{Harap masuk ke Chrome untuk mulai mengupload foto.}}"
+   },
+   "5233843271957333982": {
+      "message": "setel ulang"
+   },
+   "5252008443782667515": {
+      "message": "Ya"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Ada 1 lagi salinan yang tidak akan dihapus.}other{Ada {NUM_ADDITIONAL_COPIES_2} salinan yang tidak akan dihapus.}}"
+   },
+   "5369958865776447504": {
+      "message": "Foto ini ada di album \"$1\u200B\"."
+   },
+   "5376084340764125422": {
+      "message": "Keluar layar penuh"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Campuran"
+   },
+   "5413761544816529267": {
+      "message": "Masuk ke akun Google+ untuk menggunakan $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Coba lagi"
+   },
+   "545081735380424772": {
+      "message": "Upload dan bagikan foto dari Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Hapus foto"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}male{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}other{{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Kabur"
+   },
+   "5522640894890976342": {
+      "message": "Kurang terang"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Terlalu terang}male{Terlalu terang}other{Terlalu terang}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto disalin!}other{{NUM_PHOTOS_2} foto disalin!}}"
+   },
+   "5546339789714773759": {
+      "message": "Putar ke kanan"
+   },
+   "5563891514339188770": {
+      "message": "Jadikan sampul album"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Klik untuk menghapus foto ini}male{Klik untuk menghapus foto ini}other{Klik untuk menghapus foto ini}}"
+   },
+   "5613209249634786065": {
+      "message": "Penuh (hingga 5 GB penyimpanan gratis)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Simpan, susun, dan bagikan semua foto & video dengan beberapa klik.}female{Simpan, susun, dan bagikan semua foto & video dengan beberapa klik.}other{Simpan, susun, dan bagikan semua foto & video dengan beberapa klik.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} foto terbaik dipilih oleh Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} foto terbaik dipilih oleh Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Lihat foto}other{Lihat foto}}}female{{COUNT,plural, =0{unused plural form}=1{Lihat foto}other{Lihat foto}}}other{{COUNT,plural, =0{unused plural form}=1{Lihat foto}other{Lihat foto}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Tidak seorang pun ditandai di album ini."
+   },
+   "5747301769466451086": {
+      "message": "Penuh (Sisa $1\u200B GB dari $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Anda tidak dapat berbagi lebih dari $1\u200B foto sekaligus."
+   },
+   "5750485945694679561": {
+      "message": "Foto"
+   },
+   "5752465522295465624": {
+      "message": "Apa ini?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto diimpor!}other{# foto diimpor!}}"
+   },
+   "5782608665556323710": {
+      "message": "Dibagikan dengan lingkaran diperluas"
+   },
+   "5792855097053831820": {
+      "message": "Pilih sumber tempat foto akan diimpor dan diupload secara pribadi ke Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Hapus foto ini}other{Hapus foto}}"
+   },
+   "5822534876981710132": {
+      "message": "Upload instan"
+   },
+   "5849125517299342831": {
+      "message": "Mengimpor foto..."
+   },
+   "5851872412594366640": {
+      "message": "Pindahkan semua foto di album"
+   },
+   "585220835732140655": {
+      "message": "Dibagikan pada $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Penuh (hingga 5 GB penyimpanan gratis)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 foto yang sudah diimpor akan tetap di-upload.}other{{NUM_PHOTOS_2} foto yang sudah diimpor akan tetap di-upload.}}"
+   },
+   "591256046515963756": {
+      "message": "Kenangan tak kan pernah hilang. Akses foto Anda kapan saja dari perangkat apa saja."
+   },
+   "5937251202465808296": {
+      "message": "Lainnya"
+   },
+   "5963865584069399662": {
+      "message": "pribadi"
+   },
+   "5978216065275630477": {
+      "message": "Kami mengalami masalah saat memasukkan Anda ke Google+ Foto."
+   },
+   "5981779462795520309": {
+      "message": "Penerima pos asli"
+   },
+   "5984859669237993376": {
+      "message": "Klik untuk menambahkan foto"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Satu foto ditambahkan dan siap dibagikan!}other{# foto ditambahkan dan siap dibagikan!}}"
+   },
+   "6003032126642624287": {
+      "message": "Ukuran penuh (hingga 5,0 GB penyimpanan gratis)"
+   },
+   "6021285543212025836": {
+      "message": "Jika Anda menghapus foto ini, Anda juga akan menghapus semua pos, komentar, dan +1 yang dikaitkan dengan foto itu."
+   },
+   "605360614133602045": {
+      "message": "am"
+   },
+   "6073020864818444056": {
+      "message": "Selesai"
+   },
+   "612521550010808115": {
+      "message": "Dapat dilihat oleh siapa saja di web"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto ditambahkan dan siap dibagikan!}other{# foto ditambahkan dan siap dibagikan!}}"
+   },
+   "6143433948220856193": {
+      "message": "Terlalu terang"
+   },
+   "6250697253024491514": {
+      "message": "Oke"
+   },
+   "6261406176927621365": {
+      "message": "Hapus foto"
+   },
+   "6261883509320806048": {
+      "message": "Hapus foto yang dipilih?"
+   },
+   "6328709087873568224": {
+      "message": "$1\u200B menyatukan semua foto di drive Anda dan yang diambil dengan ponsel dan kamera dalam satu tempat."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}female{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}other{Izinkan {APP_NAME} membantu Anda memilih jepretan terbaik dari foto yang Anda impor}}"
+   },
+   "6366245138858985671": {
+      "message": "Album untuk foto kliping."
+   },
+   "636798263636559500": {
+      "message": "Masukkan nama album"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Klik untuk memutar foto ini berlawanan arah jarum jam}male{Klik untuk memutar foto ini berlawanan arah jarum jam}other{Klik untuk memutar foto ini berlawanan arah jarum jam}}"
+   },
+   "6402624319890396199": {
+      "message": "Batal"
+   },
+   "6405254665227516714": {
+      "message": "Semua foto profil."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Anda tidak dapat memilih foto orang lain}male{Anda tidak dapat memilih foto orang lain}other{Anda tidak dapat memilih foto orang lain}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Saat ini Anda tidak terhubung ke internet.}female{Saat ini Anda tidak terhubung ke internet.}other{Saat ini Anda tidak terhubung ke internet.}}"
+   },
+   "6544829965377284375": {
+      "message": "Foto-foto ini di-upload secara pribadi ke Google+ dan hanya dapat dilihat oleh Anda."
+   },
+   "6546455868033656709": {
+      "message": "Menurut tanggal pengambilan (baru ke lama)"
+   },
+   "6562395422130457272": {
+      "message": "Tata Cahaya"
+   },
+   "6569718559670589774": {
+      "message": "Dibagikan secara pribadi"
+   },
+   "6578760328281087395": {
+      "message": "Hapus foto"
+   },
+   "6594379652661172876": {
+      "message": "Gambar bergaya bilik foto ini dibuat dari beberapa potret."
+   },
+   "6604371182910178125": {
+      "message": "Jika Anda menghapus album ini, Anda juga akan menghapus semua pos, komentar, dan +1 yang dikaitkan dengan album."
+   },
+   "6626842519109915669": {
+      "message": "Foto dari Auto Backup"
+   },
+   "663126026358360455": {
+      "message": "Standar (penyimpanan gratis tanpa batas)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto ditambahkan dan siap dibagikan!}other{{NUM_PHOTOS_2} foto ditambahkan dan siap dibagikan!}}"
+   },
+   "664682826251689034": {
+      "message": "Belum ada +1."
+   },
+   "666585356635427967": {
+      "message": "Foto ini telah dikoreksi secara otomatis."
+   },
+   "6698080327673689103": {
+      "message": "Mencari foto terbaik..."
+   },
+   "6721868124884562992": {
+      "message": "Kumpulkan foto dari semua perangkat Anda di satu tempat."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Kurasi}female{Kurasi}other{Kurasi}}"
+   },
+   "6747166642870870925": {
+      "message": "Berhenti mengimpor..."
+   },
+   "6750134343457912784": {
+      "message": "Untuk memaksimalkan $1\u200B, siapkan agar secara otomatis mengimpor foto Anda."
+   },
+   "675159243189607951": {
+      "message": "Tambahkan foto ke album"
+   },
+   "6778067484492795152": {
+      "message": "Kurang terang"
+   },
+   "6792549611288275870": {
+      "message": "Jarak Fokus"
+   },
+   "6803199913053097740": {
+      "message": "$1\u200B menyimpan foto Anda dengan aman dan memungkinkan Anda melihatnya kapan saja dari perangkat apa pun."
+   },
+   "680511502310466916": {
+      "message": "Foto Populer"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{dalam {NUM_PHOTOS_2} foto}other{dalam {NUM_PHOTOS_2} foto}}"
+   },
+   "6872320306636644917": {
+      "message": "Sekarang aman untuk mencabut perangkat Anda."
+   },
+   "6872759799605876555": {
+      "message": "Nomor F"
+   },
+   "687281374586801843": {
+      "message": "Luncurkan $1\u200B & impor foto saat saya memasang kamera atau kartu memori"
+   },
+   "6882873153932419461": {
+      "message": "Penyesuaian selektif"
+   },
+   "6906406658770551379": {
+      "message": "Animasi ini dibuat dari koleksi lima foto atau lebih."
+   },
+   "6983200894459150878": {
+      "message": "Panorama ini dibuat dari sekumpulan foto yang saling tumpang tindih."
+   },
+   "7022070615528435141": {
+      "message": "Hapus"
+   },
+   "7049887240439736400": {
+      "message": "Cetak"
+   },
+   "706796434064753890": {
+      "message": "Mulai Presentasi"
+   },
+   "7102649289752747375": {
+      "message": "Kirim masukan"
+   },
+   "7105497072958063616": {
+      "message": "Rona"
+   },
+   "7182974689040833178": {
+      "message": "Lanjutkan"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Domain Anda}male{Domain Anda}other{Domain Anda}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BAnda masuk sebagai$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Mengimpor foto dari $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Lanjutkan impor"
+   },
+   "7283005104295613831": {
+      "message": "Pilih cadangan foto ukuran penuh atau upload ukuran standar yang lebih kecil."
+   },
+   "7288593042347321202": {
+      "message": "Hapus foto yang dipilih?"
+   },
+   "7329217250595054697": {
+      "message": "Asli"
+   },
+   "734934965373819800": {
+      "message": "Kembali"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Ditandai di: {ALBUM_NAME}}male{Ditandai di: {ALBUM_NAME}}other{Ditandai di: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Tambahkan foto"
+   },
+   "7419704019640008953": {
+      "message": "Bagikan"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Terbaik}male{Terbaik}other{Terbaik}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Selamat datang di {XXX}}male{Selamat datang di {XXX}}other{Selamat datang di {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Sambungkan kembali untuk melihat semua foto dan album."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Jeda}female{Jeda}other{Jeda}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Putar foto yang dipilih ke kanan}other{Putar foto yang dipilih ke kanan}}"
+   },
+   "7488769419737494778": {
+      "message": "Hai, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Selanjutnya, pilih ukuran upload"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto disalin!}other{# foto disalin!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Bagikan}female{Bagikan}other{Bagikan}}"
+   },
+   "7538539390938534172": {
+      "message": "Keseimbangan putih"
+   },
+   "7546970424299309536": {
+      "message": "Secara otomatis tersusun & siap dibagikan"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Tidak ada foto yang dipilih}=1{{COUNT_2} foto dipilih}other{{COUNT_2} foto dipilih}}"
+   },
+   "7637409896935138087": {
+      "message": "Menurut tanggal pengambilan (lama ke baru)"
+   },
+   "7649598852815041947": {
+      "message": "Album baru"
+   },
+   "765296891797858248": {
+      "message": "Hai!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{1 foto dari {FOLDER_NAME} ditambahkan dan siap dibagikan!}other{{NUM_PHOTOS_2} foto dari {FOLDER_NAME} ditambahkan dan siap dibagikan!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200Bx dilihat"
+   },
+   "7718742267235559288": {
+      "message": "Keluar Dari Layar Penuh"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto disalin dari $1\u200B!}other{# foto disalin dari $1\u200B!}}"
+   },
+   "7736850283853703249": {
+      "message": "Tersimpan dengan aman"
+   },
+   "7736894743522697089": {
+      "message": "Pano"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Pindahkan foto yang dipilih}other{Pindahkan foto yang dipilih}}"
+   },
+   "7756231341602930532": {
+      "message": "Oke"
+   },
+   "778874571620222981": {
+      "message": "Mulai!"
+   },
+   "779808899645033177": {
+      "message": "Impor Terakhir ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Hanya Anda"
+   },
+   "7828808805120058354": {
+      "message": "Kembalikan"
+   },
+   "7856636143847093955": {
+      "message": "Gabungkan hari"
+   },
+   "7871095434511949009": {
+      "message": "Bukaan"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Berikutnya, pilih ukuran upload}female{Berikutnya, pilih ukuran upload}other{Berikutnya, pilih ukuran upload}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Pilih sumber asal foto yang akan diimpor dan diupload secara pribadi ke Google+.}male{Pilih sumber asal foto yang akan diimpor dan diupload secara pribadi ke Google+.}other{Pilih sumber asal foto yang akan diimpor dan diupload secara pribadi ke Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Klik untuk memilih atau batal memilih foto ini}male{Klik untuk memilih atau batal memilih foto ini}other{Klik untuk memilih atau batal memilih foto ini}}"
+   },
+   "7899751896282337632": {
+      "message": "Dikoreksi"
+   },
+   "7911416166208830577": {
+      "message": "Bantuan"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik di sini untuk melihat dan berbagi foto ini.}other{Klik di sini untuk melihat dan berbagi foto-foto ini.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Hapus}female{Hapus}other{Hapus}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Klik untuk memutar foto ini berlawanan arah jarum jam}female{Klik untuk memutar foto ini berlawanan arah jarum jam}other{Klik untuk memutar foto ini berlawanan arah jarum jam}}"
+   },
+   "8031489364030461560": {
+      "message": "Siapkan $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{Foto ini telah dikoreksi secara otomatis.}male{Foto ini telah dikoreksi secara otomatis.}other{Foto ini telah dikoreksi secara otomatis.}}"
+   },
+   "8112449587476468078": {
+      "message": "Hapus album yang dipilih?"
+   },
+   "8121983485737306983": {
+      "message": "duplikasi"
+   },
+   "8137181364321684389": {
+      "message": "Foto Google+"
+   },
+   "8160611829089073754": {
+      "message": "Hapus album"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Tambahkan foto yang dipilih ke album}other{Tambahkan foto yang dipilih ke album}}"
+   },
+   "8179903593042831802": {
+      "message": "Tambahkan Foto"
+   },
+   "819996403327805209": {
+      "message": "Pelajari selengkapnya"
+   },
+   "8209467666747691270": {
+      "message": "Terbaik"
+   },
+   "8233995188166153420": {
+      "message": "Masuk ke Chrome untuk mulai mengupload foto."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Duplikat yang lebih jelek}male{Duplikat yang lebih jelek}other{Duplikat yang lebih jelek}}"
+   },
+   "8257489178421131174": {
+      "message": "Masukkan nama album"
+   },
+   "8262372758945437018": {
+      "message": "Mulai"
+   },
+   "8272813937461935720": {
+      "message": "Kami mengalami masalah saat memasukkan Anda ke Google+ Foto."
+   },
+   "8274541876455385064": {
+      "message": "Senyum"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Klik untuk menambahkan foto}female{Klik untuk menambahkan foto}other{Klik untuk menambahkan foto}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Bagikan foto yang dipilih}other{Bagikan foto yang dipilih}}"
+   },
+   "8317910107005018559": {
+      "message": "Lebih Sedikit"
+   },
+   "8324963774100913509": {
+      "message": "Terbatas"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Selamat datang di {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Masukkan nama album}male{Masukkan nama album}other{Masukkan nama album}}"
+   },
+   "8405309693308875139": {
+      "message": "Foto"
+   },
+   "840692109692540367": {
+      "message": "Masuk"
+   },
+   "8418580476552799567": {
+      "message": "Ukuran upload"
+   },
+   "8446162208830000966": {
+      "message": "Keluar"
+   },
+   "8461609631969932886": {
+      "message": "Sembunyikan"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Versi $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Klik di sini untuk melihat foto ini.}other{Klik di sini untuk melihat foto-foto ini.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Beberapa foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}male{{COUNT_1,plural, =0{Beberapa foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}other{{COUNT_1,plural, =0{Beberapa foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}=1{{START_BOLD}1{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}other{{START_BOLD}{COUNT_2}{END_BOLD} foto menunggu untuk Anda upload. Sambungkan kembali untuk mengupload dan berbagi!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Izinkan $1\u200B membantu Anda memilih gambar terbaik dari foto yang Anda impor"
+   },
+   "8554704680089748768": {
+      "message": "Foto diimpor pada $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Putar"
+   },
+   "8566172133042307539": {
+      "message": "Tambahkan ke album"
+   },
+   "8588705294225487286": {
+      "message": "Dapat dilihat oleh penerima pos asli"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Pilih cadangan foto ukuran penuh atau upload gratis ukuran standar yang lebih kecil.}male{Pilih cadangan foto ukuran penuh atau upload gratis ukuran standar yang lebih kecil.}other{Pilih cadangan foto ukuran penuh atau upload gratis ukuran standar yang lebih kecil.}}"
+   },
+   "8654290347345927684": {
+      "message": "Sekarang aman untuk mencabut perangkat Anda, $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Halo! Selamat datang di {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Pilih yang terbaik"
+   },
+   "8675112326850410714": {
+      "message": "Kartu memori atau perangkat penyimpanan terpasang"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Berhenti}female{Berhenti}other{Berhenti}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto diimpor dari $1\u200B!}other{# foto diimpor dari $1\u200B!}}"
+   },
+   "8704271911477526098": {
+      "message": "Pribadi"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Saat ini Anda tidak terhubung ke internet.}male{Saat ini Anda tidak terhubung ke internet.}other{Saat ini Anda tidak terhubung ke internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Simpan setelan"
+   },
+   "8765880467977864647": {
+      "message": "oleh $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Menu Pengguna"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Layar penuh}female{Layar penuh}other{Layar penuh}}"
+   },
+   "8777952755137547655": {
+      "message": "Foto panorama ini dibuat dari sekumpulan foto pemandangan yang berdampingan."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Upload selesai! 1 foto siap dibagikan.}other{Upload selesai! {COUNT_2} foto siap dibagikan.}}"
+   },
+   "8832933617217959986": {
+      "message": "Batal pilih semua"
+   },
+   "8874739581425612284": {
+      "message": "Pilih foto untuk dibagikan atau ditambahkan ke album"
+   },
+   "8890553633144307762": {
+      "message": "Kembali"
+   },
+   "8928816882866356838": {
+      "message": "Publik"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Hapus album}=1{Hapus foto yang dipilih}other{Hapus foto yang dipilih}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Cetak}female{Cetak}other{Cetak}}"
+   },
+   "8984549175557747262": {
+      "message": "Pemrosesan video..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Kurang terang}male{Kurang terang}other{Kurang terang}}"
+   },
+   "8998179362936748717": {
+      "message": "Oke"
+   },
+   "9013643635142116580": {
+      "message": "Dibagikan dengan domain"
+   },
+   "9042260521669277115": {
+      "message": "Jeda"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{0 total tampilan}=1{1 total tampilan}other{{VIEW_COUNT_2} total tampilan}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B secara otomatis memilih gambar terbaik dari koleksi Anda dan menyiapkannya untuk dibagikan."
+   },
+   "9137360918780826967": {
+      "message": "Berkualitas rendah"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 foto ditambahkan dan siap dibagikan!}other{# foto ditambahkan dan siap dibagikan!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} adalah cara menyusun & membagikan foto dengan lebih mudah.}female{{XXX_2} adalah cara menyusun & membagikan foto dengan lebih mudah.}other{{XXX_3} adalah cara menyusun & membagikan foto dengan lebih mudah.}}"
+   },
+   "9219694540199049147": {
+      "message": "Folder..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 foto telah diupload di sesi sebelumnya.}other{{NUM_PHOTOS_2} foto telah diupload di sesi sebelumnya.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Berhasil mengimpor dan meng-upload {START_BOLD}1{END_BOLD} foto.}other{Berhasil mengimpor dan meng-upload {START_BOLD}{COUNT_2}{END_BOLD} foto.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Untuk mengoptimalkan {XXX}, konfigurasikan agar secara otomatis mengimpor foto Anda.}male{Untuk mengoptimalkan {XXX}, konfigurasikan agar secara otomatis mengimpor foto Anda.}other{Untuk mengoptimalkan {XXX}, konfigurasikan agar secara otomatis mengimpor foto Anda.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Pindahkan semua foto di album}=1{Pindahkan foto yang dipilih}other{Pindahkan foto yang dipilih}}"
+   },
+   "982577805980296193": {
+      "message": "Klik di sini untuk melihat dan membagikan foto-foto ini."
+   }
+}

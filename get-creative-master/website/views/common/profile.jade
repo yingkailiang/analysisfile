@@ -1,0 +1,51 @@
+div.profile
+    -if (!user.username)
+        div.register
+            h1
+                span.icon.attention_icon
+                | Important
+            p
+                | Claim a username to make sure you never lose your creations.
+                | You'll be able to log in from other computers and prevent
+                | any loss of data that could occur if you have to reinstall
+                | the Get Creative extension.
+            label(for="js_register_username") Username
+            input(type="text")#js_register_username
+            label(for="js_register_password") Password
+            input(type="password")#js_register_password
+            br
+            button#js_register_button.submit Register
+            span.form_feedback
+            p.footnote
+                | If you already have an account, please
+                a.js_link(href="/login") login
+                |.
+    -else if (!user.email)
+        div.add_email
+            h1
+                span.icon.attention_icon
+                | Hey, Listen!
+            p
+                | Add an email address to your account so you can recover
+                | your username if you forget your password.
+            input(type="text")#js_add_email
+            button#js_add_email_button.submit Add Email
+            br
+            span.form_feedback
+    - else if (!responses.length)
+        div.empty_profile
+            p Thanks! Find a challenge to complete on the left.
+            p Once you've completed a challenge, your responses will appear here.
+    - else
+        div.help_out
+            p
+                | Enjoying Get Creative so far? Tell your friends about it
+                a(href="https://twitter.com/intent/tweet?text=#{tweet_message}").js_external_link
+                    | on Twitter!
+    div.responses
+        -if (responses.length)
+            h1
+                span.icon.list_icon
+                | Your responses:
+            !=partial('common/profile_responses', {responses : responses})
+    include pagination

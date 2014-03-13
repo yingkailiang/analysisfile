@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>bitly | Chrome Extension Background</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="bitly, awesome, ladies love outlaws" />
+        <meta name="description" content="Shorten and Share, right from your browser, instantly" />
+    
+    </head>
+    <body>
+        <div id="container">
+            
+            <div id="middle">
+                <textarea id="instant_clipboad_copy_space"></textarea>
+            </div> <!-- END #middle -->
+            <div id="bottom">
+                    <div id="escape_worker"></div>
+            </div> <!-- end #bottom -->
+        
+        </div> <!-- end #container -->
+        
+        <!-- compress and build these?????? -->
+        <script type="text/javascript" src="js/bitlyapi-v3.0.js"></script>
+        <!-- //*this file does NOT appear in GIT, you will have to manually add the correct credentials* -->
+        <script type="text/javascript" src="js/bitly_oauth_credentials.js"></script>
+        <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.Evt.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.Eventer.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.trends.js"></script>        
+        <script type="text/javascript" src="js/bExt/bExt.hovercard.js"></script>
+        <script type="text/javascript" src="js/bExt/utilities/utils.js"></script>
+        <script type="text/javascript" src="js/bExt/bExt.bg_listeners_chrome.js"></script>
+
+        <script type="text/javascript" src="js/sqldb-v1.0.js"></script>
+        <script type="text/javascript" src="js/libs/md5.js"></script>
+        <script type="text/javascript" src="js/libs/bitNote.js"></script>
+        <script type="text/javascript" src="js/libs/fastFrag.js"></script>        
+        
+        <script type="text/javascript" charset="utf-8">
+            // Begin Application -- Chrome bitly Extension
+            console.log(navigator.onLine, "on line");
+            var api_success = bExt.init_api();
+            if(!api_success) {
+                console.log("user is logged out");
+                // set logged out
+                if( !chrome.browserAction.onClicked.hasListener( bExt.evt_button_listen ) ) {
+                    chrome.browserAction.onClicked.addListener( bExt.evt_button_listen );
+                }
+            } else {
+                // set logged in...
+                //bExt.trends.init();
+                // the worker hangs!
+                //var trends_interval = setInterval(function() {
+                //    console.log("loves jesus");
+                //    }, 30000);
+                bExt.trends.beginPoll();
+                bExt.set_popup();
+            }
+            bExt.init_db();
+
+            bExt.events=new bExt.Eventer();
+            bExt.add_righclick();
+            
+            // see js/bExt/bg_listeners_chrome.js
+            bExt.events.register(null, bExt.bg_listeners_chrome);
+            bExt.events.chrome_listen();
+        </script>
+        
+        
+
+    
+    </body>
+</html>
+

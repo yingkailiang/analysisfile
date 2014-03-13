@@ -1,0 +1,8 @@
+certificates
+certificates/*
+certificates/chrome.pem
+
+output
+output/*
+
+src/common/key.pem

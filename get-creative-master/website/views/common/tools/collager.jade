@@ -1,0 +1,18 @@
+div#collager
+    div.sandbox
+        div.img_container_wrapper
+            div.img_container
+                each image_obj, key in collage
+                    img(src="https://s3.amazonaws.com/get-creative/" + image_obj.remote_path)
+        canvas(width="500", height="375")
+        div.marquee
+            .rotate
+                img(src="https://s3.amazonaws.com/get-creative/img/rotate.png")
+            .scale
+                img(src="https://s3.amazonaws.com/get-creative/img/scale.png")
+    div.tools
+        div.opacity
+            label Opacity
+            input(class="opacity", disabled="true", type="range", min="0.001", max="1", value="1", step="0.01")
+        ul.thumbs
+        span Drag thumbnails to sort layers

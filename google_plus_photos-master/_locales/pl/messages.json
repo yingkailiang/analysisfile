@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Zdecyduj, czy chcesz importowa\u0107 zdj\u0119cia w pe\u0142nym rozmiarze, czy w mniejszym, standardowym rozmiarze (darmowe)."
+   },
+   "106279463205193944": {
+      "message": "Osoby w tym albumie"
+   },
+   "1078696495414015742": {
+      "message": "Dalej"
+   },
+   "1079312373208696407": {
+      "message": "Kliknij tutaj, gdy si\u0119 zarejestrujesz"
+   },
+   "1106976338877989624": {
+      "message": "Informacje o $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}female{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}other{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Przesy\u0142anie zako\u0144czone. {START_BOLD}1{END_BOLD} zdj\u0119cie jest gotowe do udost\u0119pnienia.}few{Przesy\u0142anie zako\u0144czone. {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia s\u0105 gotowe do udost\u0119pnienia.}many{Przesy\u0142anie zako\u0144czone. {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 jest gotowych do udost\u0119pnienia.}other{Przesy\u0142anie zako\u0144czone. {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia jest gotowe do udost\u0119pnienia.}}"
+   },
+   "1131710491735646017": {
+      "message": "Przenie\u015B zdj\u0119cie"
+   },
+   "1141157641265116263": {
+      "message": "Przechowuj, porz\u0105dkuj i udost\u0119pniaj wszystkie swoje zdj\u0119cia i filmy \u2013 wystarczy kilka klikni\u0119\u0107."
+   },
+   "1168286392495236500": {
+      "message": "Udost\u0119pnione publicznie"
+   },
+   "1168912363261265730": {
+      "message": "Wy\u015Bwietl pokaz slajd\u00F3w"
+   },
+   "1179156232993544339": {
+      "message": "Usu\u0144 album"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Zaznacz elementy}female{Zaznacz elementy}other{Zaznacz elementy}}"
+   },
+   "1199073624563429103": {
+      "message": "Je\u015Bli usuniesz te zdj\u0119cia, usuniesz te\u017C wszystkie powi\u0105zane z nimi wpisy, komentarze i +1-ki."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BPo\u0142\u0105cz ponownie$1\u200B, aby wy\u015Bwietli\u0107 wszystkie zdj\u0119cia i albumy."
+   },
+   "1274379628511980491": {
+      "message": "Skanuj\u0119 zdj\u0119cia"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 zdj\u0119cie}few{{PHOTO_COUNT_2} zdj\u0119cia}many{{PHOTO_COUNT_2} zdj\u0119\u0107}other{{PHOTO_COUNT_2} zdj\u0119cia}}"
+   },
+   "1299278917495979942": {
+      "message": "Wed\u0142ug daty dodania (od najnowszych do najstarszych)"
+   },
+   "1299626955070536636": {
+      "message": "Obr\u00F3\u0107 w prawo"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Aby skonfigurowa\u0107 {XXX} po raz pierwszy, musisz mie\u0107 po\u0142\u0105czenie internetowe.}male{Aby skonfigurowa\u0107 {XXX} po raz pierwszy, musisz mie\u0107 po\u0142\u0105czenie internetowe.}other{Aby skonfigurowa\u0107 {XXX} po raz pierwszy, musisz mie\u0107 po\u0142\u0105czenie internetowe.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Masz 1 zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {COUNT_2} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}female{{COUNT_1,plural, =0{unused plural form}=1{Masz 1 zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {COUNT_2} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Masz 1 zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {COUNT_2} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {COUNT_2} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}}"
+   },
+   "133632727011673707": {
+      "message": "Wybierz inne lokalizacje importowania"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}male{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}other{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Automatycznie importuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}male{Automatycznie importuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}other{Automatycznie importuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}}"
+   },
+   "1410409051323941239": {
+      "message": "Pr\u00F3buj\u0119 po\u0142\u0105czy\u0107 ponownie..."
+   },
+   "1425141239403329190": {
+      "message": "Teraz mo\u017Cesz bezpiecznie od\u0142\u0105czy\u0107 urz\u0105dzenie ($1\u200B)."
+   },
+   "1428301074198348755": {
+      "message": "Zapisz"
+   },
+   "1482983300175848685": {
+      "message": "Zarejestruj si\u0119 w Google+"
+   },
+   "1494518490116523821": {
+      "message": "Zaznacz wszystkie"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopiuj}male{Kopiuj}other{Kopiuj}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Przenie\u015B}male{Przenie\u015B}other{Przenie\u015B}}"
+   },
+   "1535908424500369256": {
+      "message": "Te okna zostan\u0105 zamkni\u0119te:\n"
+   },
+   "1542576779711006198": {
+      "message": "Importowanie zdj\u0119\u0107 z $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Przenie\u015B}female{Przenie\u015B}other{Przenie\u015B}}"
+   },
+   "1572187844116018239": {
+      "message": "Wy\u015Bwietl na pe\u0142nym ekranie"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Dodaj}male{Dodaj}other{Dodaj}}"
+   },
+   "163532554661203916": {
+      "message": "Otw\u00F3rz $1\u200B, aby rozpocz\u0105\u0107 importowanie zdj\u0119\u0107 z $2\u200B."
+   },
+   "1678206439013319257": {
+      "message": "Zdj\u0119cia..."
+   },
+   "1689079631242777326": {
+      "message": "$1\u200B, wersja $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "Wczytuj\u0119..."
+   },
+   "1753152144556911377": {
+      "message": "$1\u200B \u2013 informacje"
+   },
+   "1754857127237380562": {
+      "message": "Nie"
+   },
+   "1760918964936396010": {
+      "message": "Usu\u0144 zdj\u0119cie $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nieudost\u0119pniony}male{Nieudost\u0119pniony}other{Nieudost\u0119pniony}}"
+   },
+   "1829542073477142210": {
+      "message": "Widoczne dla uczestnik\u00F3w rozm\u00F3w"
+   },
+   "1863533324056146247": {
+      "message": "pm"
+   },
+   "1898536270078020135": {
+      "message": "Menu aplikacji"
+   },
+   "1907928780625920048": {
+      "message": "Przechowuj zdj\u0119cia w bezpiecznym miejscu"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} zdj\u0119cie gotowe do udost\u0119pnienia}few{{COUNT_2} zdj\u0119cia gotowe do udost\u0119pnienia}many{{COUNT_2} zdj\u0119\u0107 gotowych do udost\u0119pnienia}other{{COUNT_2} zdj\u0119cia gotowego do udost\u0119pnienia}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Okre\u015Bl rozmiar kopii zapasowych zdj\u0119\u0107, kt\u00F3re importujesz. Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowych w pe\u0142nym rozmiarze lub bezp\u0142atne przechowywanie kopii zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (2048 pikseli).}female{Okre\u015Bl rozmiar kopii zapasowych zdj\u0119\u0107, kt\u00F3re importujesz. Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowych w pe\u0142nym rozmiarze lub bezp\u0142atne przechowywanie kopii zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (2048 pikseli).}other{Okre\u015Bl rozmiar kopii zapasowych zdj\u0119\u0107, kt\u00F3re importujesz. Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowych w pe\u0142nym rozmiarze lub bezp\u0142atne przechowywanie kopii zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (2048 pikseli).}}"
+   },
+   "1938243880078123136": {
+      "message": "Aby obejrze\u0107 ten film, przekierujemy Ci\u0119 do Google+."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Oznaczono tagiem}male{Oznaczono tagiem}other{Oznaczono tagiem}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Okre\u015Bl, czy chcesz wykonywa\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze, czy przesy\u0142a\u0107 je w mniejszym, standardowym rozmiarze (darmowe).}female{Okre\u015Bl, czy chcesz wykonywa\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze, czy przesy\u0142a\u0107 je w mniejszym, standardowym rozmiarze (darmowe).}other{Okre\u015Bl, czy chcesz wykonywa\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze, czy przesy\u0142a\u0107 je w mniejszym, standardowym rozmiarze (darmowe).}}"
+   },
+   "1995266543727924491": {
+      "message": "Zdj\u0119cia z Autoprzesy\u0142ania"
+   },
+   "2000146230061979936": {
+      "message": "Zdj\u0119cia profilowe"
+   },
+   "2029980907058777630": {
+      "message": "Warunki korzystania z us\u0142ugi"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. Wszelkie prawa zastrze\u017Cone."
+   },
+   "2079435202927044386": {
+      "message": "Importowanie zdj\u0119\u0107"
+   },
+   "2097731301533028280": {
+      "message": "Wszystkie zdj\u0119cia"
+   },
+   "2102825898069375693": {
+      "message": "Menu"
+   },
+   "2127917516759723964": {
+      "message": "Usun\u0105\u0107 wybrane albumy?"
+   },
+   "2134605074025092052": {
+      "message": "Usu\u0144 zdj\u0119cia ($1\u200B)"
+   },
+   "2159130950882492111": {
+      "message": "Anuluj"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}female{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}other{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Nienajlepsze}male{Nienajlepsze}other{Nienajlepsze}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Cze\u015B\u0107! Witamy w {XXX_1}.}female{Cze\u015B\u0107! Witamy w {XXX_2}.}other{Cze\u015B\u0107! Witamy w {XXX_3}.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Pomoc}female{Pomoc}other{Pomoc}}"
+   },
+   "2256196161103684642": {
+      "message": "Wybrane osoby"
+   },
+   "2267143557027174044": {
+      "message": "Anuluj"
+   },
+   "2299297337048329405": {
+      "message": "Kopiuj"
+   },
+   "2354817630223808522": {
+      "message": "Przenie\u015B"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}female{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}other{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {APP_NAME}, ustaw automatyczne importowanie zdj\u0119\u0107.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Przenie\u015B {XXX_1} zdj\u0119cie do:}few{Przenie\u015B {XXX_2} zdj\u0119cia do:}many{Przenie\u015B {XXX_2} zdj\u0119\u0107 do:}other{Przenie\u015B {XXX_2} zdj\u0119cia do:}}"
+   },
+   "2442822401576040991": {
+      "message": "Zdj\u0119cia z telefonu"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Aby rozpocz\u0105\u0107, zaimportuj zdj\u0119cia}female{Aby rozpocz\u0105\u0107, zaimportuj zdj\u0119cia}other{Aby rozpocz\u0105\u0107, zaimportuj zdj\u0119cia}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 zdj\u0119cie}few{{PHOTO_COUNT_2} zdj\u0119cia}many{{PHOTO_COUNT_2} zdj\u0119\u0107}other{{PHOTO_COUNT_2} zdj\u0119cia}}"
+   },
+   "2453303348493525919": {
+      "message": "Wybierz zdj\u0119cia"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} wybrany album}few{{COUNT_2} wybrane albumy}many{{COUNT_2} wybranych album\u00F3w}other{{COUNT_2} wybranego albumu}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 zdj\u0119cie zosta\u0142o ju\u017C przes\u0142ane w poprzedniej sesji. }few{{NUM_PHOTOS_2} zdj\u0119cia zosta\u0142y ju\u017C przes\u0142ane w poprzedniej sesji. }many{{NUM_PHOTOS_2} zdj\u0119\u0107 zosta\u0142o ju\u017C przes\u0142anych w poprzedniej sesji. }other{{NUM_PHOTOS_2} zdj\u0119cia zosta\u0142o ju\u017C przes\u0142ane w poprzedniej sesji. }}"
+   },
+   "2503049676444223994": {
+      "message": "Wed\u0142ug daty dodania (od najstarszych do najnowszych)"
+   },
+   "251008425196701054": {
+      "message": "Widoczny dla wszystkich w Twojej domenie"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}male{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}other{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}}"
+   },
+   "2537804086667442212": {
+      "message": "Anulowanie spowoduje zatrzymanie importowania zdj\u0119\u0107. Zdj\u0119cia, kt\u00F3re zosta\u0142y ju\u017C przes\u0142ane, zostan\u0105 usuni\u0119te."
+   },
+   "2543396005338987129": {
+      "message": "Anuluj importowanie"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Nieostre}male{Nieostre}other{Nieostre}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 zdj\u0119cie z folderu $1\u200B zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}few{# zdj\u0119cia z folderu $1\u200B zosta\u0142y dodane i przygotowane do udost\u0119pnienia.}many{# zdj\u0119\u0107 z folderu $1\u200B zosta\u0142o dodanych i przygotowanych do udost\u0119pnienia.}other{# zdj\u0119cia z folderu $1\u200B zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}}"
+   },
+   "2603085641264767659": {
+      "message": "Go\u015Bcie wydarzenia"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Pozwalaj aplikacji {XXX} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}male{Pozwalaj aplikacji {XXX} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}other{Pozwalaj aplikacji {XXX} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B s"
+   },
+   "2653328820441876128": {
+      "message": "Dzi\u0119ki aplikacji $1\u200B wszystkie zdj\u0119cia z Twoich aparat\u00F3w, telefon\u00F3w i folder\u00F3w s\u0105 dost\u0119pne w jednym miejscu."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Skopiowano 1 zdj\u0119cie z folderu {FOLDER_NAME}.}few{Skopiowano {NUM_PHOTOS_2} zdj\u0119cia z folderu {FOLDER_NAME}.}many{Skopiowano {NUM_PHOTOS_2} zdj\u0119\u0107 z folderu {FOLDER_NAME}.}other{Skopiowano {NUM_PHOTOS_2} zdj\u0119cia z folderu {FOLDER_NAME}.}}"
+   },
+   "2683351316398940532": {
+      "message": "Pe\u0142ny rozmiar (pozosta\u0142o $1\u200B GB z $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Podczas logowania Ci\u0119 w {XXX} napotkali\u015Bmy problemy.}male{Podczas logowania Ci\u0119 w {XXX} napotkali\u015Bmy problemy.}other{Podczas logowania Ci\u0119 w {XXX} napotkali\u015Bmy problemy.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Zaznacz wszystko}female{Zaznacz wszystko}other{Zaznacz wszystko}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B s"
+   },
+   "2710655047330556001": {
+      "message": "Osoby na tym zdj\u0119ciu"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Witamy w {XXX_1}}female{Witamy w {XXX_2}}other{Witamy w {XXX_3}}}"
+   },
+   "2757591144872178577": {
+      "message": "Ekspozycja"
+   },
+   "2761269382982007883": {
+      "message": "Pomo\u017Cemy Ci uporz\u0105dkowa\u0107 zdj\u0119cia i zaproponujemy najlepsze do udost\u0119pnienia."
+   },
+   "2761326392133498772": {
+      "message": "Udost\u0119pnij zdj\u0119cie"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form}=1{1 zdj\u0119cie}few{{PHOTO_COUNT_2} zdj\u0119cia}many{{PHOTO_COUNT_2} zdj\u0119\u0107}other{{PHOTO_COUNT_2} zdj\u0119cia}}"
+   },
+   "2784586982005585140": {
+      "message": "Wi\u0119cej"
+   },
+   "2786233632874013852": {
+      "message": "Wi\u0119cej zdj\u0119\u0107"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Odznacz wszystko}female{Odznacz wszystko}other{Odznacz wszystko}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperatura"
+   },
+   "2820098809819439336": {
+      "message": "Usuwanie zdj\u0119\u0107"
+   },
+   "2847005022751960352": {
+      "message": "Ca\u0142y czas pracuj\u0119..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 to zdj\u0119cie.}few{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}many{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}other{Kliknij tutaj, by wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}}"
+   },
+   "287837027263664914": {
+      "message": "Edytuj lokalizacje importowania"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Wybrano {COUNT_2} zdj\u0119cie}few{Wybrano {COUNT_2} zdj\u0119cia}many{Wybrano {COUNT_2} zdj\u0119\u0107}other{Wybrano {COUNT_2} zdj\u0119cia}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}female{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}other{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Zaloguj si\u0119}female{Zaloguj si\u0119}other{Zaloguj si\u0119}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dodaj {XXX_1} zdj\u0119cie do:}few{Dodaj {XXX_2} zdj\u0119cia do:}many{Dodaj {XXX_2} zdj\u0119\u0107 do:}other{Dodaj {XXX_2} zdj\u0119cia do:}}"
+   },
+   "2973731817320915012": {
+      "message": "Wed\u0142ug daty utworzenia"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Wy\u015Bwietl od pocz\u0105tku}female{Wy\u015Bwietl od pocz\u0105tku}other{Wy\u015Bwietl od pocz\u0105tku}}"
+   },
+   "2987283829749314385": {
+      "message": "Cze\u015B\u0107, $2\u200B! Witamy w aplikacji $1\u200B."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{Nie wybrano zdj\u0119\u0107}=1{{COUNT_2} zdj\u0119cie gotowe do udost\u0119pnienia}few{{COUNT_2} zdj\u0119cia gotowe do udost\u0119pnienia}many{{COUNT_2} zdj\u0119\u0107 gotowych do udost\u0119pnienia}other{{COUNT_2} zdj\u0119cia gotowego do udost\u0119pnienia}}"
+   },
+   "2991916598129901933": {
+      "message": "Zdj\u0119cia: 1"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Niskiej jako\u015Bci}male{Niskiej jako\u015Bci}other{Niskiej jako\u015Bci}}"
+   },
+   "3018671699054071030": {
+      "message": "Zdj\u0119cia z wpis\u00F3w"
+   },
+   "3052031564829371686": {
+      "message": "Copyright &copy; 2012 Google Inc. Wszelkie prawa zastrze\u017Cone."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Ustaw rozmiar kopii zapasowych importowanych zdj\u0119\u0107. Do wyboru masz pe\u0142en rozmiar lub mniejsze kopie o standardowym rozmiarze (2048 pikseli), kt\u00F3re s\u0105 bezp\u0142atne.}male{Ustaw rozmiar kopii zapasowych importowanych zdj\u0119\u0107. Do wyboru masz pe\u0142en rozmiar lub mniejsze kopie o standardowym rozmiarze (2048 pikseli), kt\u00F3re s\u0105 bezp\u0142atne.}other{Ustaw rozmiar kopii zapasowych importowanych zdj\u0119\u0107. Do wyboru masz pe\u0142en rozmiar lub mniejsze kopie o standardowym rozmiarze (2048 pikseli), kt\u00F3re s\u0105 bezp\u0142atne.}}"
+   },
+   "3062505056927186217": {
+      "message": "Zdj\u0119cia z notatnika"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{Przes\u0142ano {COUNT_2} z {TOTAL}}=1{Przes\u0142ano {COUNT_2} z {TOTAL}}few{Przes\u0142ano {COUNT_2} z {TOTAL}}many{Przes\u0142ano {COUNT_2} z {TOTAL}}other{Przes\u0142ano {COUNT_2} z {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "Niska jako\u015B\u0107"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Aby pierwszy raz skonfigurowa\u0107 {XXX}, musisz mie\u0107 po\u0142\u0105czenie internetowe}male{Aby pierwszy raz skonfigurowa\u0107 {XXX}, musisz mie\u0107 po\u0142\u0105czenie internetowe}other{Aby pierwszy raz skonfigurowa\u0107 {XXX}, musisz mie\u0107 po\u0142\u0105czenie internetowe}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Zaloguj si\u0119 do Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}female{Zaloguj si\u0119 do Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}other{Zaloguj si\u0119 do Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}}"
+   },
+   "3169583722209452922": {
+      "message": "Wyselekcjonuj"
+   },
+   "3173944879942241188": {
+      "message": "Nieostre"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowych zdj\u0119\u0107 w pe\u0142nym rozmiarze lub przesy\u0142anie zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (darmowe).}female{Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowych zdj\u0119\u0107 w pe\u0142nym rozmiarze lub przesy\u0142anie zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (darmowe).}other{Mo\u017Cesz wybra\u0107 tworzenie kopii zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze lub przesy\u0142anie zdj\u0119\u0107 w mniejszym, standardowym rozmiarze (darmowe).}}"
+   },
+   "3183783025590133364": {
+      "message": "$1\u200B to \u0142atwiejszy spos\u00F3b na porz\u0105dkowanie i udost\u0119pnianie zdj\u0119\u0107."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}female{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}other{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}}"
+   },
+   "3231427490891919648": {
+      "message": "Kr\u0119gi rozszerzone"
+   },
+   "3249513483374643425": {
+      "message": "Dodaj"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{{XXX} to \u0142atwy spos\u00F3b na porz\u0105dkowanie i udost\u0119pnianie zdj\u0119\u0107.}}"
+   },
+   "3266811991857373598": {
+      "message": "Aby rozpocz\u0105\u0107, zaimportuj zdj\u0119cia"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} zdj\u0119cie}few{{COUNT_2} zdj\u0119cia}many{{COUNT_2} zdj\u0119\u0107}other{{COUNT_2} zdj\u0119cia}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{Usu\u0144 album}few{Usu\u0144 albumy}many{Usu\u0144 albumy}other{Usu\u0144 albumy}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{Sortuj}female{Sortuj}other{Sortuj}}"
+   },
+   "3298990500476723192": {
+      "message": "Usu\u0144 album"
+   },
+   "3304972143698843178": {
+      "message": "Wydarzenie"
+   },
+   "3316542569449182462": {
+      "message": "Szukam najlepszych zdj\u0119\u0107"
+   },
+   "3319379534575065569": {
+      "message": "Duplikat"
+   },
+   "3335855558019774894": {
+      "message": "Zamknij"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B z $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "Nikt nie zosta\u0142 oznaczony tagiem na tym zdj\u0119ciu."
+   },
+   "335552911020230570": {
+      "message": "Anuluj\u0119..."
+   },
+   "3392114061661490939": {
+      "message": "Rozmiar"
+   },
+   "339966167441018467": {
+      "message": "Zdj\u0119cia uporz\u0105dkowane wed\u0142ug popularno\u015Bci."
+   },
+   "3443823355111334897": {
+      "message": "Zdj\u0119cia: $1\u200B"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{Zamknij pe\u0142ny ekran}female{Zamknij pe\u0142ny ekran}other{Zamknij pe\u0142ny ekran}}"
+   },
+   "3479702069824639097": {
+      "message": "Kliknij, aby por\u00F3wna\u0107 z orygina\u0142em."
+   },
+   "3529907190030543252": {
+      "message": "Aby pierwszy raz skonfigurowa\u0107 $1\u200B, musisz mie\u0107 po\u0142\u0105czenie internetowe"
+   },
+   "3549990505176341828": {
+      "message": "Prze\u015Bwietlone"
+   },
+   "3561019065020608408": {
+      "message": "\u0141atwe dzielenie si\u0119 zdj\u0119ciami"
+   },
+   "360237722039211543": {
+      "message": "Zdj\u0119cia z Dysku mo\u017Cna tylko kopiowa\u0107 i udost\u0119pnia\u0107"
+   },
+   "3624887810607887590": {
+      "message": "Obr\u00F3\u0107 w lewo"
+   },
+   "3627956543961104309": {
+      "message": "Skonfiguruj $1\u200B"
+   },
+   "3630679964489180566": {
+      "message": "\u0179r\u00F3d\u0142a zdj\u0119\u0107"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{Anuluj importowanie (1 zdj\u0119cie)}few{Anuluj importowanie ({NUM_PHOTOS_2} zdj\u0119cia)}many{Anuluj importowanie ({NUM_PHOTOS_2} zdj\u0119\u0107)}other{Anuluj importowanie ({NUM_PHOTOS_2} zdj\u0119cia)}}"
+   },
+   "3687863378890487189": {
+      "message": "Ruch"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Usu\u0144 wybrane zdj\u0119cie}few{Usu\u0144 wybrane zdj\u0119cia}many{Usu\u0144 wybrane zdj\u0119cia}other{Usu\u0144 wybrane zdj\u0119cia}}"
+   },
+   "3714818517297325649": {
+      "message": "Anulowanie spowoduje zatrzymanie importowania kolejnych zdj\u0119\u0107.\nZdj\u0119cia, kt\u00F3re zosta\u0142y ju\u017C przes\u0142ane, nie zostan\u0105 usuni\u0119te."
+   },
+   "3756864109602975489": {
+      "message": "+1-ki"
+   },
+   "3759575685100154990": {
+      "message": "Importowanie zdj\u0119\u0107"
+   },
+   "3807699453257291879": {
+      "message": "Komentarze"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknij tutaj, aby wy\u015Bwietli\u0107 to zdj\u0119cie.}few{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}many{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}other{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}}"
+   },
+   "3818348166201769715": {
+      "message": "Miejsce na wszystkie Twoje zdj\u0119cia"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Pozosta\u0142o {COUNT_2} z {TOTAL}}few{Pozosta\u0142o {COUNT_2} z {TOTAL}}many{Pozosta\u0142o {COUNT_2} z {TOTAL}}other{Pozosta\u0142o {COUNT_2} z {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Widoczny dla: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Obr\u00F3\u0107 w lewo"
+   },
+   "3885024486041657280": {
+      "message": "Ten kola\u017C zosta\u0142 utworzony z kilku zdj\u0119\u0107 portretowych."
+   },
+   "3888600924819157294": {
+      "message": "Wszystkie zdj\u0119cia z czatu."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{Usu\u0144 ten album}few{Usu\u0144 albumy}many{Usu\u0144 albumy}other{Usu\u0144 albumy}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Obr\u00F3\u0107 wybrane zdj\u0119cie w lewo}few{Obr\u00F3\u0107 wybrane zdj\u0119cia w lewo}many{Obr\u00F3\u0107 wybrane zdj\u0119cia w lewo}other{Obr\u00F3\u0107 wybrane zdj\u0119cia w lewo}}"
+   },
+   "3973931101896534797": {
+      "message": "Data"
+   },
+   "4023731095051291021": {
+      "message": "Wy\u015Bwietl w Google+"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}male{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}other{Powiadom mnie i zaimportuj zdj\u0119cia z pod\u0142\u0105czonych aparat\u00F3w i kart pami\u0119ci}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{Wzn\u00F3w}female{Wzn\u00F3w}other{Wzn\u00F3w}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Wygl\u0105da na to, \u017Ce uruchomi\u0142a\u015B {XXX} na urz\u0105dzeniu bez Chrome OS. Obecnie ta aplikacja jest dost\u0119pna tylko na Chrome OS, mimo \u017Ce jej ikona mo\u017Ce by\u0107 widoczna w przegl\u0105darce Chrome na urz\u0105dzeniach bez tego systemu}male{Wygl\u0105da na to, \u017Ce uruchomi\u0142e\u015B {XXX} na urz\u0105dzeniu bez Chrome OS. Obecnie ta aplikacja jest dost\u0119pna tylko na Chrome OS, mimo \u017Ce jej ikona mo\u017Ce by\u0107 widoczna w przegl\u0105darce Chrome na urz\u0105dzeniach bez tego systemu}other{Wygl\u0105da na to, \u017Ce uruchomi\u0142e\u015B(a\u015B) {XXX} na urz\u0105dzeniu bez Chrome OS. Obecnie ta aplikacja jest dost\u0119pna tylko na Chrome OS, mimo \u017Ce jej ikona mo\u017Ce by\u0107 widoczna w przegl\u0105darce Chrome na urz\u0105dzeniach bez tego systemu}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Wy\u015Bwietl zaimportowane zdj\u0119cie}few{Wy\u015Bwietl zaimportowane zdj\u0119cia}many{Wy\u015Bwietl zaimportowane zdj\u0119cia}other{Wy\u015Bwietl zaimportowane zdj\u0119cia}}"
+   },
+   "4187596523158859173": {
+      "message": "Kliknij tutaj, by wy\u015Bwietli\u0107 te zdj\u0119cia."
+   },
+   "4201300158283262687": {
+      "message": "Kliknij tutaj, by wy\u015Bwietli\u0107 te zdj\u0119cia."
+   },
+   "4248380204989256605": {
+      "message": "Dodaj do"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Tylko Ty}male{Tylko Ty}other{Tylko Ty}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Dodaj do albumu}female{Dodaj do albumu}other{Dodaj do albumu}}"
+   },
+   "4293741535116795213": {
+      "message": "To zdj\u0119cie utworzono przy u\u017Cyciu naj\u0142adniejszych u\u015Bmiech\u00F3w z zestawu podobnych zdj\u0119\u0107."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}male{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}other{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w prawo}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopiuj"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}female{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}other{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}}"
+   },
+   "4350850817528648727": {
+      "message": "Widoczny tylko dla Ciebie"
+   },
+   "4367940371467792621": {
+      "message": "Zarejestruj si\u0119 w Google+"
+   },
+   "4384754616332866866": {
+      "message": "Widoczny dla wszystkich, kt\u00F3rym go udost\u0119pnisz"
+   },
+   "4397726581488253055": {
+      "message": "Zako\u0144cz"
+   },
+   "4451709539238919902": {
+      "message": "Niekt\u00F3re zdj\u0119cia maj\u0105 kilka kopii, kt\u00F3re nie zostan\u0105 usuni\u0119te."
+   },
+   "4458099219143901905": {
+      "message": "Otw\u00F3rz w aplikacji Zdj\u0119cia Google+"
+   },
+   "4470533259338698234": {
+      "message": "Przenie\u015B"
+   },
+   "4472091515638733183": {
+      "message": "Importowanie zosta\u0142o zatrzymane"
+   },
+   "4485837491844366665": {
+      "message": "Kliknij tutaj, by wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia."
+   },
+   "4489698681193228521": {
+      "message": "$1\u200B \u2013 witamy!"
+   },
+   "4502210240956101520": {
+      "message": "Importuj zdj\u0119cia, gdy pod\u0142\u0105czam aparat lub kart\u0119 pami\u0119ci"
+   },
+   "4504920004530359010": {
+      "message": "Pe\u0142ny rozmiar (do 5 GB darmowego miejsca)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Odtw\u00F3rz}female{Odtw\u00F3rz}other{Odtw\u00F3rz}}"
+   },
+   "4535738935335444945": {
+      "message": "Nieudost\u0119pnione"
+   },
+   "4550974869121207169": {
+      "message": "usu\u0144"
+   },
+   "4557902876984952242": {
+      "message": "Edytuj"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{Usuni\u0119cie tego albumu spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nim komentarzy, +1-ek i tag\u00F3w.}few{Usuni\u0119cie tych album\u00F3w spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}many{Usuni\u0119cie tych album\u00F3w spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}other{Usuni\u0119cie tych album\u00F3w spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}}"
+   },
+   "4575337223720002806": {
+      "message": "Autoselekcja"
+   },
+   "4579986716424813115": {
+      "message": "Wy\u015Bwietl od pocz\u0105tku"
+   },
+   "460600293345244430": {
+      "message": "Wybierz zdj\u0119cia, kt\u00F3re chcesz udost\u0119pni\u0107 albo doda\u0107 do albumu."
+   },
+   "4624285717763544623": {
+      "message": "Dodaj"
+   },
+   "4630251340863502127": {
+      "message": "Przesy\u0142anie zdj\u0119\u0107"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}male{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}other{Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia.}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Zaimportowano 1 zdj\u0119cie.}few{Zaimportowano # zdj\u0119cia.}many{Zaimportowano # zdj\u0119\u0107.}other{Zaimportowano # zdj\u0119cia.}}"
+   },
+   "466730294804943734": {
+      "message": "Nie ma jeszcze komentarzy."
+   },
+   "467305038295675927": {
+      "message": "Aplikacja $1\u200B nie jest obs\u0142ugiwana na tej platformie"
+   },
+   "4678028473996848955": {
+      "message": "Wszystkie Twoje zdj\u0119cia"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{Anuluj}female{Anuluj}other{Anuluj}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B z $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}female{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Je\u015Bli usuniesz te albumy, usuniesz te\u017C wszystkie powi\u0105zane z nimi wpisy, komentarze i +1-ki."
+   },
+   "471816275243265264": {
+      "message": "Lokalizacja"
+   },
+   "4726999481668064421": {
+      "message": "To zdj\u0119cie HDR utworzono z zestawu zdj\u0119\u0107 z r\u00F3\u017Cnymi ustawieniami ekspozycji."
+   },
+   "4736210244914788712": {
+      "message": "Dysk"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BJeste\u015B zalogowany(a) jako$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Cze\u015B\u0107! Witaj w $1\u200B."
+   },
+   "480004418428835822": {
+      "message": "Zdj\u0119cia z komunikatora"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BJeste\u015B zalogowany jako$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Teraz mo\u017Cesz bezpiecznie od\u0142\u0105czy\u0107 urz\u0105dzenie."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}female{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}other{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Importuj zdj\u0119cia, gdy pod\u0142\u0105czam aparat lub kart\u0119 pami\u0119ci}male{Importuj zdj\u0119cia, gdy pod\u0142\u0105czam aparat lub kart\u0119 pami\u0119ci}other{Importuj zdj\u0119cia, gdy pod\u0142\u0105czam aparat lub kart\u0119 pami\u0119ci}}"
+   },
+   "484542621830317934": {
+      "message": "Nie masz \u017Cadnych album\u00F3w. Prze\u015Blij zdj\u0119cia."
+   },
+   "489844404897890427": {
+      "message": "Pe\u0142ny ekran"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 zdj\u0119\u0107}=1{1 zdj\u0119cie}few{{NUM_2} zdj\u0119cia}many{{NUM_2} zdj\u0119\u0107}other{{NUM_2} zdj\u0119cia}}"
+   },
+   "4930506384627295710": {
+      "message": "Ustawienia"
+   },
+   "495485805564687684": {
+      "message": "Zatrzymaj importowanie"
+   },
+   "4957990634817185638": {
+      "message": "Kontynuuj importowanie"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Udost\u0119pnij album}=1{Udost\u0119pnij wybrane zdj\u0119cie}few{Udost\u0119pnij wybrane zdj\u0119cia}many{Udost\u0119pnij wybrane zdj\u0119cia}other{Udost\u0119pnij wybrane zdj\u0119cia}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Kliknij, aby doda\u0107 zdj\u0119cia}male{Kliknij, aby doda\u0107 zdj\u0119cia}other{Kliknij, aby doda\u0107 zdj\u0119cia}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{COUNT_2} wybrany dzie\u0144}few{{COUNT_2} wybrane dni}many{{COUNT_2} wybranych dni}other{{COUNT_2} wybranego dnia}}"
+   },
+   "5028777105388019087": {
+      "message": "Informacje"
+   },
+   "5043933900720743682": {
+      "message": "Albumy"
+   },
+   "5045200874122539692": {
+      "message": "Zamknij"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{Aby rozpocz\u0105\u0107, prze\u015Blij kilka zdj\u0119\u0107.}male{Aby rozpocz\u0105\u0107, prze\u015Blij kilka zdj\u0119\u0107.}other{Aby rozpocz\u0105\u0107, prze\u015Blij kilka zdj\u0119\u0107.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "Twoja domena"
+   },
+   "5087678602655068553": {
+      "message": "Aparat"
+   },
+   "5094793857629325945": {
+      "message": "Przygotowywanie do udost\u0119pnienia..."
+   },
+   "509736707516044180": {
+      "message": "Anuluj\u0119..."
+   },
+   "5114432207766092038": {
+      "message": "Wszystkie zdj\u0119cia ze wszystkich wpis\u00F3w."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{Usuni\u0119cie tego zdj\u0119cia spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nim komentarzy, +1-ek i tag\u00F3w.}few{Usuni\u0119cie tych zdj\u0119\u0107 spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}many{Usuni\u0119cie tych zdj\u0119\u0107 spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}other{Usuni\u0119cie tych zdj\u0119\u0107 spowoduje te\u017C usuni\u0119cie wszystkich powi\u0105zanych z nimi komentarzy, +1-ek i tag\u00F3w.}}"
+   },
+   "5127852906617233988": {
+      "message": "Zamknij"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{Twoje kr\u0119gi}male{Twoje kr\u0119gi}other{Twoje kr\u0119gi}}"
+   },
+   "5143227875710959810": {
+      "message": "Udost\u0119pnij album"
+   },
+   "5146398958364876914": {
+      "message": "Sortuj"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{Od: {FROM_NAME}}male{Od: {FROM_NAME}}other{Od: {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Ustaw jako ok\u0142adk\u0119 albumu}female{Ustaw jako ok\u0142adk\u0119 albumu}other{Ustaw jako ok\u0142adk\u0119 albumu}}"
+   },
+   "5179193375793315549": {
+      "message": "Maksymalna liczba zdj\u0119\u0107, kt\u00F3re mo\u017Cesz doda\u0107 naraz, to $1\u200B."
+   },
+   "5198477912095887288": {
+      "message": "jak zrobione"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Wy\u015Bwietl zdj\u0119cie}few{Wy\u015Bwietl zdj\u0119cia}many{Wy\u015Bwietl zdj\u0119cia}other{Wy\u015Bwietl zdj\u0119cia}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Zaloguj si\u0119 w Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}male{Zaloguj si\u0119 w Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}other{Zaloguj si\u0119 w Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107.}}"
+   },
+   "5233843271957333982": {
+      "message": "resetuj"
+   },
+   "5252008443782667515": {
+      "message": "Tak"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Istnieje 1 dodatkowa kopia, kt\u00F3ra nie zostanie usuni\u0119ta.}few{Istniej\u0105 {NUM_ADDITIONAL_COPIES_2} dodatkowe kopie, kt\u00F3re nie zostan\u0105 usuni\u0119te.}many{Istnieje {NUM_ADDITIONAL_COPIES_2} dodatkowych kopii, kt\u00F3re nie zostan\u0105 usuni\u0119te.}other{Istnieje {NUM_ADDITIONAL_COPIES_2} dodatkowych kopii, kt\u00F3re nie zostan\u0105 usuni\u0119te.}}"
+   },
+   "5369958865776447504": {
+      "message": "To zdj\u0119cie jest w albumie \u201E$1\u200B\u201D."
+   },
+   "5376084340764125422": {
+      "message": "Zamknij pe\u0142ny ekran"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Mozaika"
+   },
+   "5413761544816529267": {
+      "message": "Za\u0142\u00F3\u017C konto w Google+, aby u\u017Cywa\u0107 $1\u200B."
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Spr\u00F3buj ponownie"
+   },
+   "545081735380424772": {
+      "message": "Przesy\u0142aj i udost\u0119pniaj zdj\u0119cia z Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Usu\u0144 zdj\u0119cie"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}male{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}other{{COUNT_1,plural, =0{unused plural form}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Nieostre"
+   },
+   "5522640894890976342": {
+      "message": "Ma\u0142o \u015Bwiat\u0142a"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Prze\u015Bwietlone}male{Prze\u015Bwietlone}other{Prze\u015Bwietlone}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Skopiowano 1 zdj\u0119cie.}few{Skopiowano {NUM_PHOTOS_2} zdj\u0119cia.}many{Skopiowano {NUM_PHOTOS_2} zdj\u0119\u0107.}other{Skopiowano {NUM_PHOTOS_2} zdj\u0119cia.}}"
+   },
+   "5546339789714773759": {
+      "message": "Obr\u00F3\u0107 w prawo"
+   },
+   "5563891514339188770": {
+      "message": "Ustaw jako ok\u0142adk\u0119 albumu"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}male{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}other{Kliknij, by usun\u0105\u0107 to zdj\u0119cie}}"
+   },
+   "5613209249634786065": {
+      "message": "Pe\u0142ny (do 5 GB darmowego miejsca)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Przechowuj, porz\u0105dkuj i udost\u0119pniaj wszystkie swoje zdj\u0119cia i filmy \u2013 wystarczy kilka klikni\u0119\u0107.}female{Przechowuj, porz\u0105dkuj i udost\u0119pniaj wszystkie swoje zdj\u0119cia i filmy \u2013 wystarczy kilka klikni\u0119\u0107.}other{Przechowuj, porz\u0105dkuj i udost\u0119pniaj wszystkie swoje zdj\u0119cia i filmy \u2013 wystarczy kilka klikni\u0119\u0107.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} najlepsze zdj\u0119cie wybrane przez Google.}few{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najlepsze zdj\u0119cia wybrane przez Google.}many{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najlepszych zdj\u0119\u0107 wybranych przez Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} najlepszego zdj\u0119cia wybranego przez Google.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Wy\u015Bwietl zdj\u0119cie}few{Wy\u015Bwietl zdj\u0119cia}many{Wy\u015Bwietl zdj\u0119cia}other{Wy\u015Bwietl zdj\u0119cia}}}female{{COUNT,plural, =0{unused plural form}=1{Wy\u015Bwietl zdj\u0119cie}few{Wy\u015Bwietl zdj\u0119cia}many{Wy\u015Bwietl zdj\u0119cia}other{Wy\u015Bwietl zdj\u0119cia}}}other{{COUNT,plural, =0{unused plural form}=1{Wy\u015Bwietl zdj\u0119cie}few{Wy\u015Bwietl zdj\u0119cia}many{Wy\u015Bwietl zdj\u0119cia}other{Wy\u015Bwietl zdj\u0119cia}}}}"
+   },
+   "5746809345784803206": {
+      "message": "Nikt nie zosta\u0142 oznaczony tagiem w tym albumie."
+   },
+   "5747301769466451086": {
+      "message": "Pe\u0142ny (pozosta\u0142o $1\u200B GB z $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Maksymalna liczba zdj\u0119\u0107, kt\u00F3re mo\u017Cesz udost\u0119pni\u0107 naraz, to $1\u200B."
+   },
+   "5750485945694679561": {
+      "message": "Zdj\u0119cie"
+   },
+   "5752465522295465624": {
+      "message": "Co to jest?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Zaimportowano 1 zdj\u0119cie.}few{Zaimportowano # zdj\u0119cia.}many{Zaimportowano # zdj\u0119\u0107.}other{Zaimportowano # zdj\u0119cia.}}"
+   },
+   "5782608665556323710": {
+      "message": "Udost\u0119pnione kr\u0119gom rozszerzonym"
+   },
+   "5792855097053831820": {
+      "message": "Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{Usu\u0144 to zdj\u0119cie}few{Usu\u0144 zdj\u0119cia}many{Usu\u0144 zdj\u0119cia}other{Usu\u0144 zdj\u0119cia}}"
+   },
+   "5822534876981710132": {
+      "message": "Autoprzesy\u0142anie"
+   },
+   "5849125517299342831": {
+      "message": "Importowanie zdj\u0119\u0107..."
+   },
+   "5851872412594366640": {
+      "message": "Przenie\u015B wszystkie zdj\u0119cia z albumu"
+   },
+   "585220835732140655": {
+      "message": "Udost\u0119pniony w dniu $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Pe\u0142ny (do 5,0 GB darmowego miejsca)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 zdj\u0119cie, kt\u00F3re zosta\u0142o wcze\u015Bniej zaimportowane, zostanie mimo to przes\u0142ane.}few{{NUM_PHOTOS_2} zdj\u0119cia, kt\u00F3re zosta\u0142y wcze\u015Bniej zaimportowane, zostan\u0105 mimo to przes\u0142ane.}many{{NUM_PHOTOS_2} zdj\u0119\u0107, kt\u00F3re zosta\u0142y wcze\u015Bniej zaimportowane, zostanie mimo to przes\u0142anych.}other{{NUM_PHOTOS_2} zdj\u0119cia, kt\u00F3re zosta\u0142o wcze\u015Bniej zaimportowane, zostanie mimo to przes\u0142ane.}}"
+   },
+   "591256046515963756": {
+      "message": "Zachowaj wspomnienia na zawsze \u2013 korzystaj ze swoich zdj\u0119\u0107 z ka\u017Cdego miejsca i urz\u0105dzenia."
+   },
+   "5937251202465808296": {
+      "message": "Wi\u0119cej"
+   },
+   "5963865584069399662": {
+      "message": "prywatne"
+   },
+   "5978216065275630477": {
+      "message": "Podczas logowania si\u0119 do aplikacji Zdj\u0119cia Google+ wyst\u0105pi\u0142 problem."
+   },
+   "5981779462795520309": {
+      "message": "Adresaci oryginalnych wpis\u00F3w"
+   },
+   "5984859669237993376": {
+      "message": "Kliknij, aby doda\u0107 zdj\u0119cia"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jedno zdj\u0119cie zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}few{# zdj\u0119cia zosta\u0142y dodane i przygotowane do udost\u0119pnienia.}many{# zdj\u0119\u0107 zosta\u0142o dodanych i przygotowanych do udost\u0119pnienia.}other{# zdj\u0119cia zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}}"
+   },
+   "6003032126642624287": {
+      "message": "Pe\u0142ny rozmiar (do 5 GB darmowego miejsca)"
+   },
+   "6021285543212025836": {
+      "message": "Je\u015Bli usuniesz to zdj\u0119cie, usuniesz te\u017C wszystkie powi\u0105zane z nim wpisy, komentarze i +1-ki."
+   },
+   "605360614133602045": {
+      "message": "am"
+   },
+   "6073020864818444056": {
+      "message": "Gotowe"
+   },
+   "612521550010808115": {
+      "message": "Widoczny dla wszystkich os\u00F3b w sieci"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 zdj\u0119cie zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}few{# zdj\u0119cia zosta\u0142y dodane i przygotowane do udost\u0119pnienia.}many{# zdj\u0119\u0107 zosta\u0142o dodanych i przygotowanych do udost\u0119pnienia.}other{# zdj\u0119cia zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}}"
+   },
+   "6143433948220856193": {
+      "message": "Prze\u015Bwietlone"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Usu\u0144 zdj\u0119cie"
+   },
+   "6261883509320806048": {
+      "message": "Usun\u0105\u0107 wybrane zdj\u0119cia?"
+   },
+   "6328709087873568224": {
+      "message": "Dzi\u0119ki aplikacji $1\u200B wszystkie zdj\u0119cia z dysku, telefonu i aparatu masz w jednym miejscu."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}female{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}other{Pozwalaj aplikacji {APP_NAME} wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107}}"
+   },
+   "6366245138858985671": {
+      "message": "Album na zdj\u0119cia z notatnika."
+   },
+   "636798263636559500": {
+      "message": "Wpisz nazw\u0119 albumu"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}male{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}other{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}}"
+   },
+   "6402624319890396199": {
+      "message": "Anuluj"
+   },
+   "6405254665227516714": {
+      "message": "Wszystkie zdj\u0119cia profilowe."
+   },
+   "6421460271971606186": {
+      "message": "Zoom"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Nie mo\u017Cesz wybra\u0107 zdj\u0119\u0107 innych os\u00F3b}male{Nie mo\u017Cesz wybra\u0107 zdj\u0119\u0107 innych os\u00F3b}other{Nie mo\u017Cesz wybra\u0107 zdj\u0119\u0107 innych os\u00F3b}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{Nie jeste\u015B teraz po\u0142\u0105czony z internetem.}female{Nie jeste\u015B teraz po\u0142\u0105czona z internetem.}other{Nie jeste\u015B teraz po\u0142\u0105czony(a) z internetem.}}"
+   },
+   "6544829965377284375": {
+      "message": "Te zdj\u0119cia s\u0105 przesy\u0142ane do prywatnego albumu w Google+. Tylko Ty mo\u017Cesz je ogl\u0105da\u0107."
+   },
+   "6546455868033656709": {
+      "message": "Wed\u0142ug daty zrobienia (od najnowszych do najstarszych)"
+   },
+   "6562395422130457272": {
+      "message": "O\u015Bwietlenie"
+   },
+   "6569718559670589774": {
+      "message": "Udost\u0119pnione prywatnie"
+   },
+   "6578760328281087395": {
+      "message": "Usu\u0144 zdj\u0119cie"
+   },
+   "6594379652661172876": {
+      "message": "To zdj\u0119cie w stylu z budki fotograficznej powsta\u0142o z kilku portret\u00F3w."
+   },
+   "6604371182910178125": {
+      "message": "Razem z tym albumem usuniesz te\u017C wszystkie powi\u0105zane wpisy, komentarze i +1-ki."
+   },
+   "6626842519109915669": {
+      "message": "Zdj\u0119cia z Automatycznej kopii zapasowej"
+   },
+   "663126026358360455": {
+      "message": "Standardowy (nieograniczona ilo\u015B\u0107 darmowego miejsca)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Dodano 1 zdj\u0119cie \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}few{Dodano {NUM_PHOTOS_2} zdj\u0119cia \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}many{Dodano {NUM_PHOTOS_2} zdj\u0119\u0107 \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}other{Dodano {NUM_PHOTOS_2} zdj\u0119cia \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}}"
+   },
+   "664682826251689034": {
+      "message": "Nikt nie da\u0142 jeszcze +1."
+   },
+   "666585356635427967": {
+      "message": "To zdj\u0119cie zosta\u0142o automatycznie ulepszone."
+   },
+   "6698080327673689103": {
+      "message": "Szukanie najlepszych uj\u0119\u0107..."
+   },
+   "6721868124884562992": {
+      "message": "Przechowuj zdj\u0119cia ze wszystkich urz\u0105dze\u0144 w jednym miejscu."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Wybierz zdj\u0119cia}female{Wybierz zdj\u0119cia}other{Wybierz zdj\u0119cia}}"
+   },
+   "6747166642870870925": {
+      "message": "Zatrzymuj\u0119 importowanie..."
+   },
+   "6750134343457912784": {
+      "message": "Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji $1\u200B, ustaw automatyczne importowanie zdj\u0119\u0107."
+   },
+   "675159243189607951": {
+      "message": "Dodaj zdj\u0119cie do albumu"
+   },
+   "6778067484492795152": {
+      "message": "Ma\u0142o \u015Bwiat\u0142a"
+   },
+   "6792549611288275870": {
+      "message": "Ogniskowa"
+   },
+   "6803199913053097740": {
+      "message": "Dzi\u0119ki aplikacji $1\u200B Twoje zdj\u0119cia s\u0105 bezpieczne i mo\u017Cesz je ogl\u0105da\u0107 na dowolnym urz\u0105dzeniu."
+   },
+   "680511502310466916": {
+      "message": "Popularne zdj\u0119cia"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{na {NUM_PHOTOS_2} zdj\u0119ciu}few{na {NUM_PHOTOS_2} zdj\u0119ciach}many{na {NUM_PHOTOS_2} zdj\u0119ciach}other{na {NUM_PHOTOS_2} zdj\u0119cia}}"
+   },
+   "6872320306636644917": {
+      "message": "Teraz mo\u017Cesz bezpiecznie od\u0142\u0105czy\u0107 urz\u0105dzenie."
+   },
+   "6872759799605876555": {
+      "message": "Ogniskowa (warto\u015B\u0107 F)"
+   },
+   "687281374586801843": {
+      "message": "Uruchamiaj aplikacj\u0119 $1\u200B i importuj zdj\u0119cia, gdy pod\u0142\u0105czam aparat lub kart\u0119 pami\u0119ci"
+   },
+   "6882873153932419461": {
+      "message": "Wybi\u00F3rcza korekta"
+   },
+   "6906406658770551379": {
+      "message": "T\u0119 animacj\u0119 utworzono z co najmniej pi\u0119ciu zdj\u0119\u0107."
+   },
+   "6983200894459150878": {
+      "message": "Ta panorama powsta\u0142a z kilku zdj\u0119\u0107 nak\u0142adaj\u0105cych si\u0119 widok\u00F3w."
+   },
+   "7022070615528435141": {
+      "message": "Usu\u0144"
+   },
+   "7049887240439736400": {
+      "message": "Drukuj"
+   },
+   "706796434064753890": {
+      "message": "Wy\u015Bwietl pokaz slajd\u00F3w"
+   },
+   "7102649289752747375": {
+      "message": "Prze\u015Blij opini\u0119"
+   },
+   "7105497072958063616": {
+      "message": "Odcie\u0144"
+   },
+   "7182974689040833178": {
+      "message": "Wzn\u00F3w"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{Twoja domena}male{Twoja domena}other{Twoja domena}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BJeste\u015B zalogowany(a) jako$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Importowanie zdj\u0119\u0107 z: $1\u200B"
+   },
+   "7279199723116672737": {
+      "message": "Kontynuuj importowanie"
+   },
+   "7283005104295613831": {
+      "message": "Mo\u017Cesz wybra\u0107 importowanie zdj\u0119\u0107 w pe\u0142nym rozmiarze lub w mniejszym, standardowym rozmiarze (darmowe)."
+   },
+   "7288593042347321202": {
+      "message": "Usun\u0105\u0107 wybrane zdj\u0119cie?"
+   },
+   "7329217250595054697": {
+      "message": "Orygina\u0142"
+   },
+   "734934965373819800": {
+      "message": "Wr\u00F3\u0107"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Kto\u015B oznaczy\u0142 Ci\u0119 tagiem w: {ALBUM_NAME}}male{Kto\u015B oznaczy\u0142 Ci\u0119 tagiem w: {ALBUM_NAME}}other{Kto\u015B oznaczy\u0142 Ci\u0119 tagiem w: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Dodaj zdj\u0119cia"
+   },
+   "7419704019640008953": {
+      "message": "Udost\u0119pnij"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Najlepsze}male{Najlepsze}other{Najlepsze}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{{XXX} \u2013 witamy}male{{XXX} \u2013 witamy}other{{XXX} \u2013 witamy}}"
+   },
+   "7439652323253850025": {
+      "message": "Po\u0142\u0105cz ponownie, by wy\u015Bwietli\u0107 wszystkie zdj\u0119cia i albumy."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Wstrzymaj}female{Wstrzymaj}other{Wstrzymaj}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Obr\u00F3\u0107 wybrane zdj\u0119cie w prawo}few{Obr\u00F3\u0107 wybrane zdj\u0119cia w prawo}many{Obr\u00F3\u0107 wybrane zdj\u0119cia w prawo}other{Obr\u00F3\u0107 wybrane zdj\u0119cia w prawo}}"
+   },
+   "7488769419737494778": {
+      "message": "Witaj, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Nast\u0119pnie wybierz rozmiar importu"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 zdj\u0119cie zosta\u0142o skopiowane.}few{# zdj\u0119cia zosta\u0142y skopiowane.}many{# zdj\u0119\u0107 zosta\u0142o skopiowanych.}other{# zdj\u0119cia zosta\u0142o skopiowane.}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Udost\u0119pnij}female{Udost\u0119pnij}other{Udost\u0119pnij}}"
+   },
+   "7538539390938534172": {
+      "message": "Balans bieli"
+   },
+   "7546970424299309536": {
+      "message": "Automatycznie porz\u0105dkuj zdj\u0119cia i przygotowuj je do udost\u0119pnienia"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{Nie wybrano zdj\u0119\u0107}=1{{COUNT_2} wybrane zdj\u0119cie}few{{COUNT_2} wybrane zdj\u0119cia}many{{COUNT_2} wybranych zdj\u0119\u0107}other{{COUNT_2} wybranego zdj\u0119cia}}"
+   },
+   "7637409896935138087": {
+      "message": "Wed\u0142ug daty zrobienia (od najstarszych do najnowszych)"
+   },
+   "7649598852815041947": {
+      "message": "Nowy album"
+   },
+   "765296891797858248": {
+      "message": "Witaj!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Dodano 1 zdj\u0119cie z folderu {FOLDER_NAME} \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}few{Dodano {NUM_PHOTOS_2} zdj\u0119cia z folderu {FOLDER_NAME} \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}many{Dodano {NUM_PHOTOS_2} zdj\u0119\u0107 z folderu {FOLDER_NAME} \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}other{Dodano {NUM_PHOTOS_2} zdj\u0119cia z folderu {FOLDER_NAME} \u2013 mo\u017Cna je ju\u017C udost\u0119pnia\u0107.}}"
+   },
+   "7711373991730004597": {
+      "message": "Wy\u015Bwietlenia: $1\u200B"
+   },
+   "7718742267235559288": {
+      "message": "Zamknij pe\u0142ny ekran"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 zdj\u0119cie zosta\u0142o skopiowane z folderu $1\u200B.}few{# zdj\u0119cia zosta\u0142y skopiowane z folderu $1\u200B.}many{# zdj\u0119\u0107 zosta\u0142o skopiowanych z folderu $1\u200B.}other{# zdj\u0119cia zosta\u0142o skopiowane z folderu $1\u200B.}}"
+   },
+   "7736850283853703249": {
+      "message": "Bezpieczne przechowywanie zdj\u0119\u0107"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Przenie\u015B wybrane zdj\u0119cie}few{Przenie\u015B wybrane zdj\u0119cia}many{Przenie\u015B wybrane zdj\u0119cia}other{Przenie\u015B wybrane zdj\u0119cia}}"
+   },
+   "7756231341602930532": {
+      "message": "OK"
+   },
+   "778874571620222981": {
+      "message": "Do dzie\u0142a!"
+   },
+   "779808899645033177": {
+      "message": "Ostatni import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Tylko Ty"
+   },
+   "7828808805120058354": {
+      "message": "Przywr\u00F3\u0107"
+   },
+   "7856636143847093955": {
+      "message": "Scal dni"
+   },
+   "7871095434511949009": {
+      "message": "Przes\u0142ona"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Nast\u0119pnie wybierz rozmiar przesy\u0142anych plik\u00F3w}female{Nast\u0119pnie wybierz rozmiar przesy\u0142anych plik\u00F3w}other{Nast\u0119pnie wybierz rozmiar przesy\u0142anych plik\u00F3w}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}male{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}other{Wybierz \u017Ar\u00F3d\u0142a, z kt\u00F3rych chcesz importowa\u0107 i przesy\u0142a\u0107 zdj\u0119cia do prywatnego albumu w Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}male{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}other{Kliknij, by zaznaczy\u0107 lub odznaczy\u0107 to zdj\u0119cie}}"
+   },
+   "7899751896282337632": {
+      "message": "Poprawione"
+   },
+   "7911416166208830577": {
+      "message": "Pomoc"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 to zdj\u0119cie.}few{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}many{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}other{Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Usu\u0144}female{Usu\u0144}other{Usu\u0144}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}female{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}other{Kliknij, by obr\u00F3ci\u0107 to zdj\u0119cie w lewo}}"
+   },
+   "8031489364030461560": {
+      "message": "Skonfiguruj $1\u200B"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{To zdj\u0119cie zosta\u0142o automatycznie poprawione.}male{To zdj\u0119cie zosta\u0142o automatycznie poprawione.}other{To zdj\u0119cie zosta\u0142o automatycznie poprawione.}}"
+   },
+   "8112449587476468078": {
+      "message": "Usun\u0105\u0107 wybrany album?"
+   },
+   "8121983485737306983": {
+      "message": "duplikuj"
+   },
+   "8137181364321684389": {
+      "message": "Zdj\u0119cia Google+"
+   },
+   "8160611829089073754": {
+      "message": "Usuwanie album\u00F3w"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Dodaj wybrane zdj\u0119cie do albumu}few{Dodaj wybrane zdj\u0119cia do albumu}many{Dodaj wybrane zdj\u0119cia do albumu}other{Dodaj wybrane zdj\u0119cia do albumu}}"
+   },
+   "8179903593042831802": {
+      "message": "Dodaj zdj\u0119cia"
+   },
+   "819996403327805209": {
+      "message": "Dowiedz si\u0119 wi\u0119cej"
+   },
+   "8209467666747691270": {
+      "message": "Najlepsze"
+   },
+   "8233995188166153420": {
+      "message": "Zaloguj si\u0119 do Chrome, aby rozpocz\u0105\u0107 przesy\u0142anie zdj\u0119\u0107."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Gorszy duplikat}male{Gorszy duplikat}other{Gorszy duplikat}}"
+   },
+   "8257489178421131174": {
+      "message": "Wpisz nazw\u0119 albumu"
+   },
+   "8262372758945437018": {
+      "message": "Rozpocznij"
+   },
+   "8272813937461935720": {
+      "message": "Podczas logowania si\u0119 do aplikacji Zdj\u0119cia Google+ wyst\u0105pi\u0142 problem."
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Kliknij, aby doda\u0107 zdj\u0119cia}female{Kliknij, aby doda\u0107 zdj\u0119cia}other{Kliknij, aby doda\u0107 zdj\u0119cia}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Udost\u0119pnij wybrane zdj\u0119cie}few{Udost\u0119pnij wybrane zdj\u0119cia}many{Udost\u0119pnij wybrane zdj\u0119cia}other{Udost\u0119pnij wybrane zdj\u0119cia}}"
+   },
+   "8317910107005018559": {
+      "message": "Mniej"
+   },
+   "8324963774100913509": {
+      "message": "Wybrane osoby"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Witamy w {XXX}}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{Wpisz nazw\u0119 albumu}male{Wpisz nazw\u0119 albumu}other{Wpisz nazw\u0119 albumu}}"
+   },
+   "8405309693308875139": {
+      "message": "Zdj\u0119cia"
+   },
+   "840692109692540367": {
+      "message": "Zaloguj si\u0119"
+   },
+   "8418580476552799567": {
+      "message": "Rozmiar importu"
+   },
+   "8446162208830000966": {
+      "message": "Zako\u0144cz"
+   },
+   "8461609631969932886": {
+      "message": "Ukryj"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B, wersja $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Kliknij tutaj, aby wy\u015Bwietli\u0107 to zdj\u0119cie.}few{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}many{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}other{Kliknij tutaj, aby wy\u015Bwietli\u0107 te zdj\u0119cia.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Niekt\u00F3re zdj\u0119cia oczekuj\u0105 na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}male{{COUNT_1,plural, =0{Niekt\u00F3re zdj\u0119cia oczekuj\u0105 na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}other{{COUNT_1,plural, =0{Niekt\u00F3re zdj\u0119cia oczekuj\u0105 na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}=1{Masz {START_BOLD}1{END_BOLD} zdj\u0119cie oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}few{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105ce na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}many{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 oczekuj\u0105cych na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}other{Masz {START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia oczekuj\u0105cego na przes\u0142anie. Po\u0142\u0105cz si\u0119 z internetem, by je przes\u0142a\u0107 i udost\u0119pni\u0107.}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Pozwalaj aplikacji $1\u200B wybiera\u0107 najlepsze uj\u0119cia spo\u015Br\u00F3d importowanych zdj\u0119\u0107"
+   },
+   "8554704680089748768": {
+      "message": "Zdj\u0119cie zaimportowane $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Odtw\u00F3rz"
+   },
+   "8566172133042307539": {
+      "message": "Dodaj do albumu"
+   },
+   "8588705294225487286": {
+      "message": "Widoczne dla adresat\u00F3w oryginalnych wpis\u00F3w"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Okre\u015Bl, czy chcesz tworzy\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze czy przesy\u0142a\u0107 zdj\u0119cia w mniejszym, standardowym rozmiarze (bezp\u0142atne).}male{Okre\u015Bl, czy chcesz tworzy\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze czy przesy\u0142a\u0107 zdj\u0119cia w mniejszym, standardowym rozmiarze (bezp\u0142atne).}other{Okre\u015Bl, czy chcesz tworzy\u0107 kopie zapasowe zdj\u0119\u0107 w pe\u0142nym rozmiarze czy przesy\u0142a\u0107 zdj\u0119cia w mniejszym, standardowym rozmiarze (bezp\u0142atne).}}"
+   },
+   "8654290347345927684": {
+      "message": "Teraz mo\u017Cesz bezpiecznie od\u0142\u0105czy\u0107 urz\u0105dzenie $1\u200B."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Cze\u015B\u0107! Witamy w {XXX}.}}"
+   },
+   "8667344331777400219": {
+      "message": "Wybierz najlepsze"
+   },
+   "8675112326850410714": {
+      "message": "Pod\u0142\u0105czono kart\u0119 pami\u0119ci lub urz\u0105dzenie magazynuj\u0105ce"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{Wyjd\u017A}female{Wyjd\u017A}other{Wyjd\u017A}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Zaimportowano 1 zdj\u0119cie z folderu $1\u200B.}few{Zaimportowano # zdj\u0119cia z folderu $1\u200B.}many{Zaimportowano # zdj\u0119\u0107 z folderu $1\u200B.}other{Zaimportowano # zdj\u0119cia z folderu $1\u200B.}}"
+   },
+   "8704271911477526098": {
+      "message": "Prywatna"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{Nie jeste\u015B teraz po\u0142\u0105czona z internetem.}male{Nie jeste\u015B teraz po\u0142\u0105czony z internetem.}other{Nie masz teraz po\u0142\u0105czenia z internetem.}}"
+   },
+   "8759519761443041119": {
+      "message": "Zapisz ustawienia"
+   },
+   "8765880467977864647": {
+      "message": "autor: $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Menu u\u017Cytkownika"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Pe\u0142ny ekran}female{Pe\u0142ny ekran}other{Pe\u0142ny ekran}}"
+   },
+   "8777952755137547655": {
+      "message": "To zdj\u0119cie panoramiczne utworzono z zestawu zdj\u0119\u0107 s\u0105siednich widok\u00F3w."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Przesy\u0142anie zako\u0144czone! Teraz mo\u017Cesz udost\u0119pni\u0107 1 zdj\u0119cie.}few{Przesy\u0142anie zako\u0144czone! Teraz mo\u017Cesz udost\u0119pni\u0107 {COUNT_2} zdj\u0119cia.}many{Przesy\u0142anie zako\u0144czone! Teraz mo\u017Cesz udost\u0119pni\u0107 {COUNT_2} zdj\u0119\u0107.}other{Przesy\u0142anie zako\u0144czone! Teraz mo\u017Cesz udost\u0119pni\u0107 {COUNT_2} zdj\u0119cia.}}"
+   },
+   "8832933617217959986": {
+      "message": "Odznacz wszystko"
+   },
+   "8874739581425612284": {
+      "message": "Wybierz zdj\u0119cia, kt\u00F3re chcesz udost\u0119pni\u0107 lub doda\u0107 do albumu."
+   },
+   "8890553633144307762": {
+      "message": "Wstecz"
+   },
+   "8928816882866356838": {
+      "message": "Publiczny"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{Usu\u0144 album}=1{Usu\u0144 wybrane zdj\u0119cie}few{Usu\u0144 wybrane zdj\u0119cia}many{Usu\u0144 wybrane zdj\u0119cia}other{Usu\u0144 wybrane zdj\u0119cia}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Drukuj}female{Drukuj}other{Drukuj}}"
+   },
+   "8984549175557747262": {
+      "message": "Przetwarzanie wideo..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Niedo\u015Bwietlone}male{Niedo\u015Bwietlone}other{Niedo\u015Bwietlone}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Udost\u0119pnione w domenie"
+   },
+   "9042260521669277115": {
+      "message": "Wstrzymaj"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{\u0141\u0105cznie 0 wy\u015Bwietle\u0144}=1{\u0141\u0105cznie 1 wy\u015Bwietlenie}few{\u0141\u0105cznie {VIEW_COUNT_2} wy\u015Bwietlenia}many{\u0141\u0105cznie {VIEW_COUNT_2} wy\u015Bwietle\u0144}other{\u0141\u0105cznie {VIEW_COUNT_2} wy\u015Bwietlenia}}"
+   },
+   "9087479077774045963": {
+      "message": "$1\u200B automatycznie wybiera najlepsze zdj\u0119cia z Twoich kolekcji i przygotowuje je do udost\u0119pnienia."
+   },
+   "9137360918780826967": {
+      "message": "Niska jako\u015B\u0107"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{1 zdj\u0119cie zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}few{# zdj\u0119cia zosta\u0142y dodane i przygotowane do udost\u0119pnienia.}many{# zdj\u0119\u0107 zosta\u0142o dodanych i przygotowanych do udost\u0119pnienia.}other{# zdj\u0119cia zosta\u0142o dodane i przygotowane do udost\u0119pnienia.}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{{XXX_1} to \u0142atwiejszy spos\u00F3b na porz\u0105dkowanie i udost\u0119pnianie zdj\u0119\u0107.}female{{XXX_2} to \u0142atwiejszy spos\u00F3b na porz\u0105dkowanie i udost\u0119pnianie zdj\u0119\u0107.}other{{XXX_3} to \u0142atwiejszy spos\u00F3b na porz\u0105dkowanie i udost\u0119pnianie zdj\u0119\u0107.}}"
+   },
+   "9219694540199049147": {
+      "message": "Folder..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 zdj\u0119cie zosta\u0142o ju\u017C przes\u0142ane w poprzedniej sesji.}few{{NUM_PHOTOS_2} zdj\u0119cia zosta\u0142y ju\u017C przes\u0142ane w poprzedniej sesji.}many{{NUM_PHOTOS_2} zdj\u0119\u0107 zosta\u0142o ju\u017C przes\u0142anych w poprzedniej sesji.}other{{NUM_PHOTOS_2} zdj\u0119cia zosta\u0142o ju\u017C przes\u0142ane w poprzedniej sesji.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{{START_BOLD}1{END_BOLD} zdj\u0119cie zosta\u0142o zaimportowane i przes\u0142ane.}few{{START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia zosta\u0142y zaimportowane i przes\u0142ane.}many{{START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119\u0107 zosta\u0142o zaimportowanych i przes\u0142anych.}other{{START_BOLD}{COUNT_2}{END_BOLD} zdj\u0119cia zosta\u0142o zaimportowane i przes\u0142ane.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {XXX}, w\u0142\u0105cz automatyczne importowanie zdj\u0119\u0107.}male{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {XXX}, w\u0142\u0105cz automatyczne importowanie zdj\u0119\u0107.}other{Aby w pe\u0142ni wykorzysta\u0107 mo\u017Cliwo\u015Bci aplikacji {XXX}, w\u0142\u0105cz automatyczne importowanie zdj\u0119\u0107.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Przenie\u015B wszystkie zdj\u0119cia w albumie}=1{Przenie\u015B wybrane zdj\u0119cie}few{Przenie\u015B wybrane zdj\u0119cia}many{Przenie\u015B wybrane zdj\u0119cia}other{Przenie\u015B wybrane zdj\u0119cia}}"
+   },
+   "982577805980296193": {
+      "message": "Kliknij tutaj, aby wy\u015Bwietli\u0107 i udost\u0119pni\u0107 te zdj\u0119cia."
+   }
+}

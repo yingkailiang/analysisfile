@@ -1,0 +1,29 @@
+{
+	"name": "豆瓣公共电台",
+	"version": "2012.5.17.1",
+	"manifest_version": 2,
+	"description": "豆瓣的公共电台，省略了很多复杂的功能，简单的一个应用，一首歌一个封面一个标题。",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": "images/icon128.png",
+		"default_title": "豆瓣公共电台",
+		"default_popup": "popup.html"
+	},
+	 "options_page": "option.html",
+	"background": {
+		"scripts": [
+			"script/jquery-1.7.2.min.js",
+			"script/MediaPlayer.js",
+			"script/MediaPlayerController.js"
+		]
+	},
+	"permissions": [
+		"background",
+		"http://douban.fm/",
+		"tabs"
+	]
+}

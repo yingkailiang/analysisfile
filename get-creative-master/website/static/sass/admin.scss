@@ -1,0 +1,115 @@
+@import "common";
+
+.close,
+.response .remove,
+.hopper .remove {
+    @extend .remove_x;
+}
+
+.response .remove {
+    right:-20px;
+}
+
+ul.profile_responses .remove {
+    right:-20px;
+}
+
+.challenge p.challenge_prompt,
+.hopper li span {
+    font-family:Georgia;
+    font-style:italic;
+    font-size:2.4em;
+    color:#555;
+    margin:0.5em 0;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+
+.hopper {
+    margin-top:2em;
+
+    li {
+        position:relative;
+        margin:0;
+        padding:1em;
+        @include border-radius(10px);
+
+        .remove {
+            display:inline-block;
+            position:relative;
+            left:0;
+            top:-1px;
+            margin-right:0.5em;
+        }
+
+        .drag {
+            display:none;
+            position:absolute;
+            right:12px;
+            top:8px;
+            width:28px;
+            height:28px;
+            cursor:move;
+            opacity:0.25;
+            background:url(/img/drag-handle-texture.png);
+        }
+
+        &:hover {
+            @include box-shadow((inset -2px -2px 3px rgba(#000, 0.3), inset 3px 3px 5px rgba(#fff, 0.8)));
+
+            .drag {
+                display:block;
+            }
+        }
+    }
+}
+
+.hopper .ugc_img {
+    margin-right:1em;
+}
+
+form.new_challenge {
+    display:none;
+    margin-bottom:2em;
+
+    button {
+        margin-top:1em;
+    }
+}
+
+form.new_challenge.text {
+    display:block;
+}
+
+select.challenge_type {
+    margin-bottom:1em;
+}
+
+input[type=file] {
+    margin-bottom:1em;
+}
+
+.user_admin {
+    margin-bottom:20px;
+    padding:10px;
+    padding-top:0;
+    border:1px solid $attention_color;
+    @include border-radius(4px);
+
+    p {
+        @extend .standard_font;
+        margin:0.5em 0;
+    }
+
+    p.footnote {
+        font-size:1.2em;
+        font-style:italic;
+        text-align:right;
+    }
+
+    strong {
+        &:after {
+            content:": ";
+        }
+    }
+}

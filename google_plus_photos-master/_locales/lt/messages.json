@@ -1,0 +1,1460 @@
+{
+   "1060467196394208811": {
+      "message": "Nuspr\u0119skite, ar norite kurti viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas, ar norite naudoti ma\u017Eesnio, standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami."
+   },
+   "106279463205193944": {
+      "message": "\u017Dmon\u0117s \u0161iame albume"
+   },
+   "1078696495414015742": {
+      "message": "T\u0119sti"
+   },
+   "1079312373208696407": {
+      "message": "Prisiregistrav\u0119 spustel\u0117kite \u010Dia"
+   },
+   "1106976338877989624": {
+      "message": "Apie $1\u200B"
+   },
+   "1116423745149522076": {
+      "message": "{VIEWER_GENDER,select, male{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}female{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}other{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}}"
+   },
+   "1128346816260392918": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u012Ekelta! {START_BOLD}1{END_BOLD} nuotrauka parengta bendrinti.}one{\u012Ekelta! {START_BOLD}{COUNT_2}{END_BOLD} nuotrauka parengta bendrinti.}few{\u012Ekelta! {START_BOLD}{COUNT_2}{END_BOLD} nuotraukos parengtos bendrinti.}other{\u012Ekelta! {START_BOLD}{COUNT_2}{END_BOLD} nuotraukos (-\u0173) parengtos (-a) bendrinti.}}"
+   },
+   "1131710491735646017": {
+      "message": "Perkelti nuotrauk\u0105"
+   },
+   "1141157641265116263": {
+      "message": "Vos keliais paspaudimais galite saugoti, tvarkyti ir bendrinti visas savo nuotraukas bei vaizdo \u012Fra\u0161us."
+   },
+   "1168286392495236500": {
+      "message": "Bendrinama vie\u0161ai"
+   },
+   "1168912363261265730": {
+      "message": "Leisti skaidri\u0173 demonstracij\u0105"
+   },
+   "1179156232993544339": {
+      "message": "I\u0161trinti album\u0105"
+   },
+   "1183737901266521677": {
+      "message": "{VIEWER_GENDER,select, male{Rinktis elementus}female{Rinktis elementus}other{Rinktis elementus}}"
+   },
+   "1199073624563429103": {
+      "message": "Jei i\u0161trinsite \u0161ias nuotraukas, i\u0161trinsite ir visus su jomis susijusius \u012Fra\u0161us, komentarus ir spustel\u0117tus +1."
+   },
+   "1273084338234215688": {
+      "message": "$2\u200BPrisijunkite i\u0161 naujo$1\u200B, kad per\u017Ei\u016Br\u0117tum\u0117te visas nuotraukas ir albumus."
+   },
+   "1274379628511980491": {
+      "message": "Nuotraukos skenuojamos"
+   },
+   "1289322162236701854": {
+      "message": "{PHOTO_COUNT_1,plural, =1{1 nuotrauka}one{{PHOTO_COUNT_2} nuotrauka}few{{PHOTO_COUNT_2} nuotraukos}other{{PHOTO_COUNT_2} nuotraukos (-\u0173)}}"
+   },
+   "1299278917495979942": {
+      "message": "Pagal prid\u0117jimo dat\u0105 (naujausios\u2013seniausios)"
+   },
+   "1299626955070536636": {
+      "message": "Sukti pagal laikrod\u017Eio rodykl\u0119"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select, female{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io.}male{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io.}other{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io.}}"
+   },
+   "1332284465602769057": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Laukiama, kol bus galima \u012Fkelti 1 nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Laukiama, kol bus galima \u012Fkelti 1 nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Laukiama, kol bus galima \u012Fkelti 1 nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotrauk\u0105. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Laukiama, kol bus galima \u012Fkelti {COUNT_2} nuotraukas (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}}"
+   },
+   "133632727011673707": {
+      "message": "Pasirinkite kitas importavimo vietas"
+   },
+   "1344661111827784309": {
+      "message": "{VIEWER_GENDER,select, female{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}male{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}other{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}}"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select, female{Automati\u0161kai importuoti nuotraukas i\u0161 prid\u0117t\u0173 fotoaparat\u0173 ir atminties korteli\u0173}male{Automati\u0161kai importuoti nuotraukas i\u0161 prid\u0117t\u0173 fotoaparat\u0173 ir atminties korteli\u0173}other{Automati\u0161kai importuoti nuotraukas i\u0161 prid\u0117t\u0173 fotoaparat\u0173 ir atminties korteli\u0173}}"
+   },
+   "1410409051323941239": {
+      "message": "Bandoma prisijungti i\u0161 naujo..."
+   },
+   "1425141239403329190": {
+      "message": "Dabar galite saugiai atjungti \u012Frengin\u012F \u201E$1\u200B\u201C."
+   },
+   "1428301074198348755": {
+      "message": "I\u0161saugoti"
+   },
+   "1482983300175848685": {
+      "message": "Registruotis sistemoje \u201EGoogle+\u201C"
+   },
+   "1494518490116523821": {
+      "message": "Pasirinkite visk\u0105"
+   },
+   "1514809299047437509": {
+      "message": "{VIEWER_GENDER,select, female{Kopijuoti}male{Kopijuoti}other{Kopijuoti}}"
+   },
+   "1535550225247369578": {
+      "message": "{VIEWER_GENDER,select, female{Perkelti}male{Perkelti}other{Perkelti}}"
+   },
+   "1535908424500369256": {
+      "message": "Bus u\u017Edaryti \u0161ie langai:\n"
+   },
+   "1542576779711006198": {
+      "message": "Importuojamos nuotraukos i\u0161 $3\u200B$2\u200B$1\u200B"
+   },
+   "1559614775186681615": {
+      "message": "{VIEWER_GENDER,select, male{Perkelti}female{Perkelti}other{Perkelti}}"
+   },
+   "1572187844116018239": {
+      "message": "Per\u017Ei\u016Br\u0117ti per vis\u0105 ekran\u0105"
+   },
+   "1630841836964536422": {
+      "message": "{VIEWER_GENDER,select, female{Prid\u0117ti}male{Prid\u0117ti}other{Prid\u0117ti}}"
+   },
+   "163532554661203916": {
+      "message": "Atidarykite \u201E$1\u200B\u201C, kad b\u016Bt\u0173 prad\u0117tos importuoti nuotraukos i\u0161 \u201E$2\u200B\u201C."
+   },
+   "1678206439013319257": {
+      "message": "Nuotraukos..."
+   },
+   "1689079631242777326": {
+      "message": "\u201E$1\u200B\u201C versija $2\u200B"
+   },
+   "1746371065290613452": {
+      "message": "\u012Ekeliama..."
+   },
+   "1753152144556911377": {
+      "message": "Apie \u201E$1\u200B\u201C"
+   },
+   "1754857127237380562": {
+      "message": "Ne"
+   },
+   "1760918964936396010": {
+      "message": "I\u0161trinti $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select, female{Nebendrinama}male{Nebendrinama}other{Nebendrinama}}"
+   },
+   "1829542073477142210": {
+      "message": "Gali per\u017Ei\u016Br\u0117ti pokalbi\u0173 dalyviai"
+   },
+   "1863533324056146247": {
+      "message": "po piet\u0173"
+   },
+   "1898536270078020135": {
+      "message": "Programos meniu"
+   },
+   "1907928780625920048": {
+      "message": "Saugiai saugomos"
+   },
+   "1913260190483217021": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{{COUNT_2} nuotrauka paruo\u0161ta bendrinti}one{{COUNT_2} nuotrauka paruo\u0161ta bendrinti}few{{COUNT_2} nuotraukos paruo\u0161tos bendrinti}other{{COUNT_2} nuotraukos (-\u0173) paruo\u0161tos (-a) bendrinti}}"
+   },
+   "1924347965678242114": {
+      "message": "{VIEWER_GENDER,select, male{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2 048 piks.), kurios yra nemokamos.}female{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2 048 piks.), kurios yra nemokamos.}other{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2 048 piks.), kurios yra nemokamos.}}"
+   },
+   "1938243880078123136": {
+      "message": "Kad gal\u0117tum\u0117te per\u017Ei\u016Br\u0117tum\u0117te vaizdo \u012Fra\u0161\u0105, ketiname peradresuoti jus \u012F \u201EGoogle+\u201C."
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select, female{Priskirta \u017Eyma}male{Priskirta \u017Eyma}other{Priskirta \u017Eyma}}"
+   },
+   "1993261829742134429": {
+      "message": "{VIEWER_GENDER,select, male{Nuspr\u0119skite, ar norite kurti viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas, ar norite naudoti ma\u017Eesnio, standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}female{Nuspr\u0119skite, ar norite kurti viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas, ar norite naudoti ma\u017Eesnio, standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}other{Nuspr\u0119skite, ar norite kurti viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas, ar norite naudoti ma\u017Eesnio, standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}}"
+   },
+   "1995266543727924491": {
+      "message": "Nuotraukos i\u0161 momentinio \u012Fk\u0117limo"
+   },
+   "2000146230061979936": {
+      "message": "Profilio nuotraukos"
+   },
+   "2029980907058777630": {
+      "message": "Paslaug\u0173 teikimo s\u0105lygos"
+   },
+   "2066206612741461379": {
+      "message": "Autori\u0173 teis\u0117s priklauso \u00A9 \u201EGoogle Inc.\u201C, 2013. Visos teis\u0117s saugomos."
+   },
+   "2079435202927044386": {
+      "message": "Nuotraukos importuojamos"
+   },
+   "2097731301533028280": {
+      "message": "Visos nuotraukos"
+   },
+   "2102825898069375693": {
+      "message": "Meniu"
+   },
+   "2127917516759723964": {
+      "message": "I\u0161trinti pasirinktus albumus?"
+   },
+   "2134605074025092052": {
+      "message": "I\u0161trinti $1\u200B nuotraukas (-\u0173)"
+   },
+   "2159130950882492111": {
+      "message": "At\u0161aukti"
+   },
+   "2178245259931204816": {
+      "message": "{VIEWER_GENDER,select, male{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}female{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}other{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}}"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select, female{Ne pati geriausia}male{Ne pati geriausia}other{Ne pati geriausia}}"
+   },
+   "2222809211589529831": {
+      "message": "{VIEWER_GENDER,select, male{Labas! Sveiki atvyk\u0119 \u012F \u201E{XXX_1}\u201C.}female{Labas! Sveiki atvyk\u0119 \u012F \u201E{XXX_2}\u201C.}other{Labas! Sveiki atvyk\u0119 \u012F \u201E{XXX_3}\u201C.}}"
+   },
+   "2227981220858123161": {
+      "message": "$1\u200B$2\u200B"
+   },
+   "2237779915846411372": {
+      "message": "{VIEWER_GENDER,select, male{Pagalba}female{Pagalba}other{Pagalba}}"
+   },
+   "2256196161103684642": {
+      "message": "Ribotas"
+   },
+   "2267143557027174044": {
+      "message": "At\u0161aukti"
+   },
+   "2299297337048329405": {
+      "message": "Kopijuoti"
+   },
+   "2354817630223808522": {
+      "message": "Perkelti"
+   },
+   "2364499381950976386": {
+      "message": "{VIEWER_GENDER,select, male{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}female{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}other{Jei norite i\u0161naudoti visas \u201E{APP_NAME}\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}}"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Perkelti {XXX_1} nuotrauk\u0105 \u012F:}one{Perkelti {XXX_2} nuotrauk\u0105 \u012F:}few{Perkelti {XXX_2} nuotraukas \u012F:}other{Perkelti {XXX_2} nuotraukas (-\u0173) \u012F:}}"
+   },
+   "2442822401576040991": {
+      "message": "Nuotraukos i\u0161 telefono"
+   },
+   "2445208483884679144": {
+      "message": "{VIEWER_GENDER,select, male{Jei norite prad\u0117ti, importuokite savo nuotraukas}female{Jei norite prad\u0117ti, importuokite savo nuotraukas}other{Jei norite prad\u0117ti, importuokite savo nuotraukas}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{1 nuotrauka}one{{PHOTO_COUNT_2} nuotrauka}few{{PHOTO_COUNT_2} nuotraukos}other{{PHOTO_COUNT_2} nuotraukos (-\u0173)}}"
+   },
+   "2453303348493525919": {
+      "message": "Pasirinkti elementus"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{Pasirinktas {COUNT_2} albumas}one{Pasirinktas {COUNT_2} albumas}few{Pasirinkti {COUNT_2} albumai}other{Pasirinkti (-a) {COUNT_2} albumai (-\u0173)}}"
+   },
+   "2501006418522826917": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 nuotrauka jau \u012Fkelta ankstesnio seanso metu. }one{{NUM_PHOTOS_2} nuotrauka jau \u012Fkelta ankstesnio seanso metu. }few{{NUM_PHOTOS_2} nuotraukos jau \u012Fkeltos ankstesnio seanso metu. }other{{NUM_PHOTOS_2} nuotrauk\u0173 jau \u012Fkelta ankstesnio seanso metu. }}"
+   },
+   "2503049676444223994": {
+      "message": "Pagal prid\u0117jimo dat\u0105 (seniausios\u2013naujausios)"
+   },
+   "251008425196701054": {
+      "message": "Mato visi i\u0161 j\u016Bs\u0173 domeno"
+   },
+   "251738883745307043": {
+      "message": "{VIEWER_GENDER,select, female{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}male{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}other{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}}"
+   },
+   "2537804086667442212": {
+      "message": "At\u0161aukus ateityje nebus leid\u017Eiama importuoti joki\u0173 nuotrauk\u0173.\nJau \u012Fkeltos nuotraukos nebus pa\u0161alintos."
+   },
+   "2543396005338987129": {
+      "message": "At\u0161aukti importavim\u0105"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select, female{Susiliejusi}male{Susiliejusi}other{Susiliejusi}}"
+   },
+   "2595512515294591286": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ta ir parengta bendrinti 1 nuotrauka i\u0161 \u201E$1\u200B\u201C!}one{Prid\u0117ta ir parengta bendrinti # nuotrauka i\u0161 \u201E$1\u200B\u201C!}few{Prid\u0117tos ir parengtos bendrinti # nuotraukos i\u0161 \u201E$1\u200B\u201C!}other{Prid\u0117tos (-a) ir parengtos (-a) bendrinti # nuotraukos (-\u0173) i\u0161 \u201E$1\u200B\u201C!}}"
+   },
+   "2603085641264767659": {
+      "message": "\u012Evykio sve\u010Diai"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select, female{Leisti {XXX} pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}male{Leisti {XXX} pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}other{Leisti {XXX} pad\u0117ti atrinkti geriausius kadrus i\u0161 importuot\u0173 nuotrauk\u0173}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min. $2\u200B sek."
+   },
+   "2653328820441876128": {
+      "message": "\u201E$1\u200B\u201C sudeda nuotraukas i\u0161 j\u016Bs\u0173 fotoaparat\u0173, telefon\u0173 ir aplank\u0173 vienoje vietoje."
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{I\u0161 \u201E{FOLDER_NAME}\u201C nukopijuota 1 nuotrauka.}one{I\u0161 \u201E{FOLDER_NAME}\u201C nukopijuota {NUM_PHOTOS_2} nuotrauka.}few{I\u0161 \u201E{FOLDER_NAME}\u201C nukopijuotos {NUM_PHOTOS_2} nuotraukos.}other{I\u0161 \u201E{FOLDER_NAME}\u201C nukopijuota {NUM_PHOTOS_2} nuotrauk\u0173.}}"
+   },
+   "2683351316398940532": {
+      "message": "Viso dyd\u017Eio (liko $1\u200B GB i\u0161 $2\u200B GB)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select, female{Kilo problem\u0173 bandant jus prijungti prie \u201E{XXX}\u201C.}male{Kilo problem\u0173 bandant jus prijungti prie \u201E{XXX}\u201C.}other{Kilo problem\u0173 bandant jus prijungti prie \u201E{XXX}\u201C.}}"
+   },
+   "2706447255873618539": {
+      "message": "{VIEWER_GENDER,select, male{Pasirinkti visk\u0105}female{Pasirinkti visk\u0105}other{Pasirinkti visk\u0105}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sek."
+   },
+   "2710655047330556001": {
+      "message": "\u017Dmon\u0117s \u0161ioje nuotraukoje"
+   },
+   "2730937801070564093": {
+      "message": "{VIEWER_GENDER,select, male{Sveiki atvyk\u0119 \u012F \u201E{XXX_1}\u201C}female{Sveiki atvyk\u0119 \u012F \u201E{XXX_2}\u201C}other{Sveiki atvyk\u0119 \u012F \u201E{XXX_3}\u201C}}"
+   },
+   "2757591144872178577": {
+      "message": "Ekspozicija"
+   },
+   "2761269382982007883": {
+      "message": "Pad\u0117sime jums susitvarkyti ir pasi\u016Blysime bendrinti geriausias nuotraukas."
+   },
+   "2761326392133498772": {
+      "message": "Bendrinti nuotrauk\u0105"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural, =0{unused plural form! O ne!}=1{1 nuotrauka}one{{PHOTO_COUNT_2} nuotrauka}few{{PHOTO_COUNT_2} nuotraukos}other{{PHOTO_COUNT_2} nuotrauk\u0173}}"
+   },
+   "2784586982005585140": {
+      "message": "Daugiau"
+   },
+   "2786233632874013852": {
+      "message": "Daugiau nuotrauk\u0173"
+   },
+   "2796066575314321901": {
+      "message": "{VIEWER_GENDER,select, male{Panaikinti vis\u0173 \u017Eym\u0117jim\u0105}female{Panaikinti vis\u0173 \u017Eym\u0117jim\u0105}other{Panaikinti vis\u0173 \u017Eym\u0117jim\u0105}}"
+   },
+   "2798901106014707869": {
+      "message": "Temperat\u016Bra"
+   },
+   "2820098809819439336": {
+      "message": "I\u0161trinti nuotraukas"
+   },
+   "2847005022751960352": {
+      "message": "Vis dar atliekama..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161i\u0105 nuotrauk\u0105, spustel\u0117kite \u010Dia.}one{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}few{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}other{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}}"
+   },
+   "287837027263664914": {
+      "message": "Redaguoti importavimo vietas"
+   },
+   "2892510496440068862": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{Pasirinkta {COUNT_2} nuotrauka}one{Pasirinkta {COUNT_2} nuotrauka}few{Pasirinktos {COUNT_2} nuotraukos}other{Pasirinktos (-a) {COUNT_2} nuotraukos (-\u0173)}}"
+   },
+   "2907320313737096902": {
+      "message": "{VIEWER_GENDER,select, male{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}female{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}other{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}}"
+   },
+   "291177439156858949": {
+      "message": "{VIEWER_GENDER,select, male{Prisijungti}female{Prisijungti}other{Prisijungti}}"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ti {XXX_1} nuotrauk\u0105 prie:}one{Prid\u0117ti {XXX_2} nuotrauk\u0105 prie:}few{Prid\u0117ti {XXX_2} nuotraukas prie:}other{Prid\u0117ti {XXX_2} nuotraukas (-\u0173) prie:}}"
+   },
+   "2973731817320915012": {
+      "message": "Pagal suk\u016Brimo dat\u0105"
+   },
+   "2976139461654668657": {
+      "message": "{VIEWER_GENDER,select, male{Leisti nuo prad\u017Ei\u0173}female{Leisti nuo prad\u017Ei\u0173}other{Leisti nuo prad\u017Ei\u0173}}"
+   },
+   "2987283829749314385": {
+      "message": "Sveiki, $2\u200B! Sveiki atvyk\u0119 \u012F \u201E$1\u200B\u201C."
+   },
+   "2988763743411785700": {
+      "message": "{COUNT_1,plural, =0{N\u0117ra pasirinkt\u0173 nuotrauk\u0173}=1{{COUNT_2} nuotrauka paruo\u0161ta bendrinti}one{{COUNT_2} nuotrauka paruo\u0161ta bendrinti}few{{COUNT_2} nuotraukos paruo\u0161tos bendrinti}other{{COUNT_2} nuotraukos (-\u0173) paruo\u0161tos (-a) bendrinti}}"
+   },
+   "2991916598129901933": {
+      "message": "1 nuotrauka"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select, female{Prastos kokyb\u0117s}male{Prastos kokyb\u0117s}other{Prastos kokyb\u0117s}}"
+   },
+   "3018671699054071030": {
+      "message": "Nuotraukos i\u0161 \u012Fra\u0161\u0173"
+   },
+   "3052031564829371686": {
+      "message": "\u00A9 \u201EGoogle Inc.\u201C, 2012. Visos teis\u0117s saugomos."
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select, female{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2048 piks.), kurios yra nemokamos.}male{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2048 piks.), kurios yra nemokamos.}other{Pasirinkite, ar norite saugoti viso dyd\u017Eio importuojam\u0173 nuotrauk\u0173 atsargines kopijas, ar ma\u017Eesnes, standartinio dyd\u017Eio kopijas (2048 piks.), kurios yra nemokamos.}}"
+   },
+   "3062505056927186217": {
+      "message": "I\u0161karp\u0173 knygos nuotraukos"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural, =0{{COUNT_2} atlikt\u0173 i\u0161 {TOTAL}}=1{{COUNT_2} atliktas i\u0161 {TOTAL}}one{{COUNT_2} atliktas i\u0161 {TOTAL}}few{{COUNT_2} atlikti i\u0161 {TOTAL}}other{{COUNT_2} atlikti (-\u0173) i\u0161 {TOTAL}}}"
+   },
+   "313399915776279357": {
+      "message": "\u017Dema kokyb\u0117"
+   },
+   "3134056964257895880": {
+      "message": "{VIEWER_GENDER,select, female{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io}male{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io}other{Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E{XXX}\u201C s\u0105rank\u0105, reikia interneto ry\u0161io}}"
+   },
+   "3148567764473140854": {
+      "message": "{VIEWER_GENDER,select, male{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}female{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}other{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}}"
+   },
+   "3169583722209452922": {
+      "message": "Kuruoti"
+   },
+   "3173944879942241188": {
+      "message": "Susiliejusi"
+   },
+   "3178325363080463400": {
+      "message": "{VIEWER_GENDER,select, male{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}female{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}other{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}}"
+   },
+   "3183783025590133364": {
+      "message": "\u201E$1\u200B\u201C suteikia lengvesn\u012F b\u016Bd\u0105 tvarkyti ir bendrinti nuotraukas."
+   },
+   "3185522292769309897": {
+      "message": "{VIEWER_GENDER,select, male{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}female{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}other{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}}"
+   },
+   "3231427490891919648": {
+      "message": "I\u0161pl\u0117stieji draug\u0173 ratai"
+   },
+   "3249513483374643425": {
+      "message": "Prid\u0117ti"
+   },
+   "3265953050282258340": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{\u201E{XXX}\u201C suteikia lengvesn\u012F b\u016Bd\u0105 tvarkyti ir bendrinti nuotraukas.}}"
+   },
+   "3266811991857373598": {
+      "message": "Jei norite prad\u0117ti, importuokite nuotrauk\u0173"
+   },
+   "3275178141114082310": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{{COUNT_2} nuotrauka}one{{COUNT_2} nuotrauka}few{{COUNT_2} nuotraukos}other{{COUNT_2} nuotraukos (-\u0173)}}"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural, =1{I\u0161trinti album\u0105}one{I\u0161trinti albumus}few{I\u0161trinti albumus}other{I\u0161trinti albumus}}"
+   },
+   "3289858947340768886": {
+      "message": "{VIEWER_GENDER,select, male{R\u016B\u0161iuoti}female{R\u016B\u0161iuoti}other{R\u016B\u0161iuoti}}"
+   },
+   "3298990500476723192": {
+      "message": "I\u0161trinti album\u0105"
+   },
+   "3304972143698843178": {
+      "message": "\u012Evykis"
+   },
+   "3316542569449182462": {
+      "message": "Ie\u0161koma geriausi\u0173 nuotrauk\u0173"
+   },
+   "3319379534575065569": {
+      "message": "Dublikatas"
+   },
+   "3335855558019774894": {
+      "message": "U\u017Edaryti"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B i\u0161 $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "\u0160ioje nuotraukoje niekam nepriskirta \u017Eyma."
+   },
+   "335552911020230570": {
+      "message": "At\u0161aukiama..."
+   },
+   "3392114061661490939": {
+      "message": "Matmenys"
+   },
+   "339966167441018467": {
+      "message": "Nuotraukos i\u0161d\u0117stytos pagal populiarum\u0105."
+   },
+   "3443823355111334897": {
+      "message": "$1\u200B nuotraukos (-\u0173)"
+   },
+   "3454256805979568696": {
+      "message": "{VIEWER_GENDER,select, male{I\u0161jungti viso ekrano re\u017Eim\u0105}female{I\u0161jungti viso ekrano re\u017Eim\u0105}other{I\u0161jungti viso ekrano re\u017Eim\u0105}}"
+   },
+   "3479702069824639097": {
+      "message": "Jei norite palyginti su originalu, paspauskite."
+   },
+   "3529907190030543252": {
+      "message": "Kad pirm\u0105 kart\u0105 gal\u0117tum\u0117te atlikti \u201E$1\u200B\u201C s\u0105rank\u0105, reikia interneto ry\u0161io"
+   },
+   "3549990505176341828": {
+      "message": "Per ma\u017Ea ekspozicija"
+   },
+   "3561019065020608408": {
+      "message": "Parengta bendrinti"
+   },
+   "360237722039211543": {
+      "message": "Diske esan\u010Dias nuotraukas galima tik kopijuoti ir bendrinti"
+   },
+   "3624887810607887590": {
+      "message": "Sukti \u012F kair\u0119"
+   },
+   "3627956543961104309": {
+      "message": "$1\u200B s\u0105ranka"
+   },
+   "3630679964489180566": {
+      "message": "Nuotrauk\u0173 \u0161altiniai"
+   },
+   "3672331729515081547": {
+      "message": "{NUM_PHOTOS_1,plural, =1{At\u0161aukti importavim\u0105 (1 nuotrauka)}one{At\u0161aukti importavim\u0105 ({NUM_PHOTOS_2} nuotrauka)}few{At\u0161aukti importavim\u0105 ({NUM_PHOTOS_2} nuotraukos)}other{At\u0161aukti importavim\u0105 ({NUM_PHOTOS_2} nuotrauk\u0173)}}"
+   },
+   "3687863378890487189": {
+      "message": "Judesys"
+   },
+   "3702472601250372858": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Trinti pasirinkt\u0105 nuotrauk\u0105}one{Trinti pasirinkt\u0105 nuotrauk\u0105}few{Trinti pasirinktas nuotraukas}other{Trinti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "3714818517297325649": {
+      "message": "At\u0161aukus ateityje nebus leid\u017Eiama importuoti joki\u0173 nuotrauk\u0173.\nJau \u012Fkeltos nuotraukos nebus pa\u0161alintos."
+   },
+   "3756864109602975489": {
+      "message": "+1"
+   },
+   "3759575685100154990": {
+      "message": "Nuotrauk\u0173 importavimas"
+   },
+   "3807699453257291879": {
+      "message": "Komentarai"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jei norite per\u017Ei\u016Br\u0117ti \u0161i\u0105 nuotrauk\u0105, spustel\u0117kite \u010Dia.}one{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}few{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}other{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}}"
+   },
+   "3818348166201769715": {
+      "message": "Visos j\u016Bs\u0173 nuotraukos"
+   },
+   "381921307406968468": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{Liko {COUNT_2} i\u0161 {TOTAL}}one{Liko {COUNT_2} i\u0161 {TOTAL}}few{Liko {COUNT_2} i\u0161 {TOTAL}}other{Liko {COUNT_2} i\u0161 {TOTAL}}}"
+   },
+   "3859702527670019826": {
+      "message": "Mato: $3\u200B$1\u200B$2\u200B"
+   },
+   "3872348125461916076": {
+      "message": "Sukti prie\u0161 laikrod\u017Eio rodykl\u0119"
+   },
+   "3885024486041657280": {
+      "message": "\u0160is kolia\u017Eas sukurtas i\u0161 portreto nuotrauk\u0173 serijos."
+   },
+   "3888600924819157294": {
+      "message": "Visos nuotraukos i\u0161 \u201EMessenger\u201C."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural, =1{I\u0161trinti \u0161\u012F album\u0105}one{I\u0161trinti albumus}few{I\u0161trinti albumus}other{I\u0161trinti albumus}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Pasukti pasirinkt\u0105 nuotrauk\u0105 \u012F kair\u0119}one{Pasukti pasirinkt\u0105 nuotrauk\u0105 \u012F kair\u0119}few{Pasukti pasirinktas nuotraukas \u012F kair\u0119}other{Pasukti pasirinkt\u0173 nuotrauk\u0173 \u012F kair\u0119}}"
+   },
+   "3973931101896534797": {
+      "message": "Data"
+   },
+   "4023731095051291021": {
+      "message": "Per\u017Ei\u016Br\u0117ti sistemoje \u201EGoogle+\u201C"
+   },
+   "402510889649686183": {
+      "message": "{VIEWER_GENDER,select, female{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}male{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}other{Prane\u0161ti man ir importuoti nuotraukas i\u0161 prijungt\u0173 fotoaparat\u0173 ir atminties korteli\u0173}}"
+   },
+   "4082272069693443745": {
+      "message": "{VIEWER_GENDER,select, male{T\u0119sti}female{T\u0119sti}other{T\u0119sti}}"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select, female{Pana\u0161u, kad \u201E{XXX}\u201C paleidote naudodami ne \u201EChrome\u201C OS \u012Frengin\u012F. Nors nar\u0161ydami \u201EChrome\u201C nar\u0161ykl\u0117je, kai naudojat\u0117s ne \u201EChrome\u201C OS \u012Frenginiu, galite matyti piktogram\u0105, \u0161iuo metu \u0161ia programa galima naudotis tik \u201EChrome\u201C OS.}male{Pana\u0161u, kad \u201E{XXX}\u201C paleidote naudodami ne \u201EChrome\u201C OS \u012Frengin\u012F. Nors nar\u0161ydami \u201EChrome\u201C nar\u0161ykl\u0117je, kai naudojat\u0117s ne \u201EChrome\u201C OS \u012Frenginiu, galite matyti piktogram\u0105, \u0161iuo metu \u0161ia programa galima naudotis tik \u201EChrome\u201C OS.}other{Pana\u0161u, kad \u201E{XXX}\u201C paleidote naudodami ne \u201EChrome\u201C OS \u012Frengin\u012F. Nors nar\u0161ydami \u201EChrome\u201C nar\u0161ykl\u0117je, kai naudojat\u0117s ne \u201EChrome\u201C OS \u012Frenginiu, galite matyti piktogram\u0105, \u0161iuo metu \u0161ia programa galima naudotis tik \u201EChrome\u201C OS.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural, =1{Per\u017Ei\u016Br\u0117ti importuot\u0105 nuotrauk\u0105}one{Per\u017Ei\u016Br\u0117ti importuot\u0105 nuotrauk\u0105}few{Per\u017Ei\u016Br\u0117ti importuotas nuotraukas}other{Per\u017Ei\u016Br\u0117ti importuot\u0173 nuotrauk\u0173}}"
+   },
+   "4187596523158859173": {
+      "message": "Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia."
+   },
+   "4201300158283262687": {
+      "message": "Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia."
+   },
+   "4248380204989256605": {
+      "message": "Prid\u0117ti prie"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select, female{Tik j\u016Bs}male{Tik j\u016Bs}other{Tik j\u016Bs}}"
+   },
+   "4276826105886541142": {
+      "message": "{VIEWER_GENDER,select, male{Prid\u0117ti prie albumo}female{Prid\u0117ti prie albumo}other{Prid\u0117ti prie albumo}}"
+   },
+   "4293741535116795213": {
+      "message": "\u0160i nuotrauka sukurta naudojant geriausias \u0161ypsenas i\u0161 pana\u0161i\u0173 nuotrauk\u0173 rinkinio."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select, female{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}male{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}other{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 pagal laikrod\u017Eio rodykl\u0119, spustel\u0117kite}}"
+   },
+   "4323470180912194028": {
+      "message": "Kopijuoti"
+   },
+   "4335127504461624690": {
+      "message": "{VIEWER_GENDER,select, male{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}female{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}other{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}}"
+   },
+   "4350850817528648727": {
+      "message": "Matote tik j\u016Bs"
+   },
+   "4367940371467792621": {
+      "message": "Prisiregistruoti \u201EGoogle+\u201C"
+   },
+   "4384754616332866866": {
+      "message": "Mato tie, su kuriais bendrinate \u0161\u012F album\u0105"
+   },
+   "4397726581488253055": {
+      "message": "Baigti"
+   },
+   "4451709539238919902": {
+      "message": "Kai kurios nuotraukos turi po kelias kopijas, kurios nebus i\u0161trintos."
+   },
+   "4458099219143901905": {
+      "message": "Atidaryti naudojant \u201EGoogle+\u201C nuotraukas"
+   },
+   "4470533259338698234": {
+      "message": "Perkelti"
+   },
+   "4472091515638733183": {
+      "message": "Importavimas sustabdytas"
+   },
+   "4485837491844366665": {
+      "message": "Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia."
+   },
+   "4489698681193228521": {
+      "message": "Sveiki atvyk\u0119 \u012F \u201E$1\u200B\u201C"
+   },
+   "4502210240956101520": {
+      "message": "Importuoti nuotraukas, kai prijungiu fotoaparat\u0105 ar atminties kortel\u0119"
+   },
+   "4504920004530359010": {
+      "message": "Viso dyd\u017Eio (iki 5 GB nemokama saugykla)"
+   },
+   "4506487097361028068": {
+      "message": "{VIEWER_GENDER,select, male{Leisti}female{Leisti}other{Leisti}}"
+   },
+   "4535738935335444945": {
+      "message": "Nebendrinama"
+   },
+   "4550974869121207169": {
+      "message": "i\u0161trinti"
+   },
+   "4557902876984952242": {
+      "message": "Redaguoti"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural, =1{I\u0161trynus \u0161\u012F album\u0105 bus pa\u0161alinti visi su juo susij\u0119 komentarai, +1 ir \u017Eymos.}one{I\u0161trynus \u0161iuos albumus bus pa\u0161alinti visi su jais susij\u0119 komentarai, +1 ir \u017Eymos.}few{I\u0161trynus \u0161iuos albumus bus pa\u0161alinti visi su jais susij\u0119 komentarai, +1 ir \u017Eymos.}other{I\u0161trynus \u0161iuos albumus bus pa\u0161alinti visi su jais susij\u0119 komentarai, +1 ir \u017Eymos.}}"
+   },
+   "4575337223720002806": {
+      "message": "Automatinis kuravimas"
+   },
+   "4579986716424813115": {
+      "message": "Leisti nuo prad\u017Eios"
+   },
+   "460600293345244430": {
+      "message": "Pasirinkite nuotraukas, kurias norite bendrinti arba prid\u0117ti prie albumo."
+   },
+   "4624285717763544623": {
+      "message": "Prid\u0117ti"
+   },
+   "4630251340863502127": {
+      "message": "\u012Ekeliamos importuotos nuotraukos"
+   },
+   "4635937633025532722": {
+      "message": "{VIEWER_GENDER,select, female{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}male{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}other{Neturite joki\u0173 album\u0173. \u012Ekelkite nuotrauk\u0173 dabar!}}"
+   },
+   "4641227597543515707": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Importuota 1 nuotrauka!}one{Importuota # nuotrauka!}few{Importuotos # nuotraukos!}other{Importuotos (-a) # nuotraukos (-\u0173)!}}"
+   },
+   "466730294804943734": {
+      "message": "Kol kas komentar\u0173 n\u0117ra."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B n\u0117ra palaikoma naudojantis \u0161ia platforma"
+   },
+   "4678028473996848955": {
+      "message": "Visos j\u016Bs\u0173 nuotraukos"
+   },
+   "468379189970614": {
+      "message": "{VIEWER_GENDER,select, male{At\u0161aukti}female{At\u0161aukti}other{At\u0161aukti}}"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B i\u0161 $1\u200B"
+   },
+   "4694508386615888199": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos (-\u0173) nuotraukos (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}female{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos (-\u0173) nuotraukos (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos (-\u0173) nuotraukos (-\u0173). Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}}"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "470743918935157523": {
+      "message": "Jei i\u0161trinsite \u0161iuos albumus, i\u0161trinsite ir visus su jais susijusius \u012Fra\u0161us, komentarus ir spustel\u0117tus +1."
+   },
+   "471816275243265264": {
+      "message": "Vieta"
+   },
+   "4726999481668064421": {
+      "message": "\u0160i HDR nuotrauka sukurta i\u0161 skirtingo i\u0161laikymo kadr\u0173 rinkinio."
+   },
+   "4736210244914788712": {
+      "message": "Diskas"
+   },
+   "477198218748536546": {
+      "message": "$6\u200BEsate prisijung\u0119 kaip$2\u200B$5\u200B$7\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4799268670647561535": {
+      "message": "Sveiki! Sveiki atvyk\u0119 \u012F \u201E$1\u200B\u201C."
+   },
+   "480004418428835822": {
+      "message": "Nuotraukos i\u0161 \u201EMessenger\u201C"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BEsate prisijung\u0119 kaip$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "Dabar galite saugiai atjungti \u012Frengin\u012F."
+   },
+   "4813004246139628836": {
+      "message": "{VIEWER_GENDER,select, male{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}female{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}other{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}}"
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select, female{Importuoti nuotraukas, kai prijungiu fotoaparat\u0105 ar atminties kortel\u0119}male{Importuoti nuotraukas, kai prijungiu fotoaparat\u0105 ar atminties kortel\u0119}other{Importuoti nuotraukas, kai prijungiu fotoaparat\u0105 ar atminties kortel\u0119}}"
+   },
+   "484542621830317934": {
+      "message": "Neturite n\u0117 vieno albumo. \u012Ekelkite nuotrauk\u0173 dabar!"
+   },
+   "489844404897890427": {
+      "message": "Visas ekranas"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural, =0{0 nuotrauk\u0173}=1{1 nuotrauka}one{{NUM_2} nuotrauka}few{{NUM_2} nuotraukos}other{{NUM_2} nuotraukos (-\u0173)}}"
+   },
+   "4930506384627295710": {
+      "message": "Nustatymai"
+   },
+   "495485805564687684": {
+      "message": "Stabdyti importavim\u0105"
+   },
+   "4957990634817185638": {
+      "message": "T\u0119sti importavim\u0105"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural, =0{Bendrinti album\u0105}=1{Bendrinti pasirinkt\u0105 nuotrauk\u0105}one{Bendrinti pasirinkt\u0105 nuotrauk\u0105}few{Bendrinti pasirinktas nuotraukas}other{Bendrinti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select, female{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}male{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}other{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{Pasirinkta {COUNT_2} diena}one{Pasirinkta {COUNT_2} diena}few{Pasirinktos {COUNT_2} dienos}other{Pasirinktos (-a) {COUNT_2} dienos (-\u0173)}}"
+   },
+   "5028777105388019087": {
+      "message": "I\u0161sami informacija"
+   },
+   "5043933900720743682": {
+      "message": "Albumai"
+   },
+   "5045200874122539692": {
+      "message": "I\u0161eiti"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select, female{\u012Ekelkite kelias nuotraukas, kad prad\u0117tum\u0117te.}male{\u012Ekelkite kelias nuotraukas, kad prad\u0117tum\u0117te.}other{\u012Ekelkite kelias nuotraukas, kad prad\u0117tum\u0117te.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200B mm"
+   },
+   "5082043360618330543": {
+      "message": "J\u016Bs\u0173 domenas"
+   },
+   "5087678602655068553": {
+      "message": "Fotoaparatas"
+   },
+   "5094793857629325945": {
+      "message": "Ruo\u0161iama bendrinti..."
+   },
+   "509736707516044180": {
+      "message": "At\u0161aukiama..."
+   },
+   "5114432207766092038": {
+      "message": "Visos nuotraukos i\u0161 vis\u0173 \u012Fra\u0161\u0173."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural, =1{I\u0161trynus \u0161i\u0105 nuotrauk\u0105 bus pa\u0161alinti visi su ja susij\u0119 komentarai, +1 ir \u017Eymos.}one{I\u0161trynus \u0161ias nuotraukas bus pa\u0161alinti visi su jomis susij\u0119 komentarai, +1 ir \u017Eymos.}few{I\u0161trynus \u0161ias nuotraukas bus pa\u0161alinti visi su jomis susij\u0119 komentarai, +1 ir \u017Eymos.}other{I\u0161trynus \u0161ias nuotraukas bus pa\u0161alinti visi su jomis susij\u0119 komentarai, +1 ir \u017Eymos.}}"
+   },
+   "5127852906617233988": {
+      "message": "U\u017Edaryti"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select, female{J\u016Bs\u0173 draug\u0173 ratai}male{J\u016Bs\u0173 draug\u0173 ratai}other{J\u016Bs\u0173 draug\u0173 ratai}}"
+   },
+   "5143227875710959810": {
+      "message": "Bendrinti album\u0105"
+   },
+   "5146398958364876914": {
+      "message": "R\u016B\u0161iuoti"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select, female{I\u0161 {FROM_NAME}}male{I\u0161 {FROM_NAME}}other{I\u0161 {FROM_NAME}}}"
+   },
+   "517257407977476313": {
+      "message": "{VIEWER_GENDER,select, male{Nustatyti kaip albumo vir\u0161el\u012F}female{Nustatyti kaip albumo vir\u0161el\u012F}other{Nustatyti kaip albumo vir\u0161el\u012F}}"
+   },
+   "5179193375793315549": {
+      "message": "Vienu kartu negalite prid\u0117ti daugiau nei $1\u200B nuotrauk\u0173."
+   },
+   "5198477912095887288": {
+      "message": "nufotografavus"
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural, =0{unused plural form}=1{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}one{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}few{Per\u017Ei\u016Br\u0117ti nuotraukas}other{Per\u017Ei\u016Br\u0117ti nuotrauk\u0173}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select, female{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}male{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}other{Prisijunkite prie \u201EChrome\u201C, kad gal\u0117tum\u0117te prad\u0117ti nuotrauk\u0173 \u012Fk\u0117lim\u0105.}}"
+   },
+   "5233843271957333982": {
+      "message": "nustatyti i\u0161 naujo"
+   },
+   "5252008443782667515": {
+      "message": "Taip"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural, =1{Yra dar 1 kopija, kuri nebus i\u0161trinta.}one{Yra dar {NUM_ADDITIONAL_COPIES_2} kopija, kuri nebus i\u0161trinta.}few{Yra dar {NUM_ADDITIONAL_COPIES_2} kopijos, kurios nebus i\u0161trintos.}other{Yra dar {NUM_ADDITIONAL_COPIES_2} kopij\u0173, kurios nebus i\u0161trintos.}}"
+   },
+   "5369958865776447504": {
+      "message": "\u0160i nuotrauka yra albume \u201E$1\u200B\u201C."
+   },
+   "5376084340764125422": {
+      "message": "I\u0161jungti viso ekrano re\u017Eim\u0105"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Mi\u0161inys"
+   },
+   "5413761544816529267": {
+      "message": "Prisiregistruokite, kad gautum\u0117te \u201EGoogle+\u201C paskyr\u0105, ir naudokit\u0117s \u201E$1\u200B\u201C."
+   },
+   "5429439352984579915": {
+      "message": "$2\u200B $1\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Bandykite dar kart\u0105"
+   },
+   "545081735380424772": {
+      "message": "\u012Ekelkite nuotrauk\u0173 ir bendrinkite jas naudodami \u201EChrome\u201C"
+   },
+   "5467399875821461358": {
+      "message": "I\u0161trinti nuotraukas"
+   },
+   "5471940527620736281": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}male{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}other{{COUNT_1,plural, =0{unused plural form}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}}"
+   },
+   "5472978587211294948": {
+      "message": "Susiliejusi"
+   },
+   "5522640894890976342": {
+      "message": "Ma\u017Ea ekspoz."
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select, female{Per didelis i\u0161laikymas}male{Per didelis i\u0161laikymas}other{Per didelis i\u0161laikymas}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Nukopijuota 1 nuotrauka.}one{Nukopijuota {NUM_PHOTOS_2} nuotrauka.}few{Nukopijuotos {NUM_PHOTOS_2} nuotraukos.}other{Nukopijuota {NUM_PHOTOS_2} nuotrauk\u0173.}}"
+   },
+   "5546339789714773759": {
+      "message": "Sukti \u012F de\u0161in\u0119"
+   },
+   "5563891514339188770": {
+      "message": "Panaudoti kaip albumo vir\u0161el\u012F"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select, female{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}male{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}other{Spustel\u0117kite, kad pa\u0161alintum\u0117te \u0161i\u0105 nuotrauk\u0105}}"
+   },
+   "5613209249634786065": {
+      "message": "Pilna (saugykloje laisvos vietos iki 5 GB)"
+   },
+   "5647970247553506046": {
+      "message": "{VIEWER_GENDER,select, male{Vos keliais spustel\u0117jimais galite saugoti, tvarkyti ir bendrinti visas savo nuotraukas bei vaizdo \u012Fra\u0161us.}female{Vos keliais spustel\u0117jimais galite saugoti, tvarkyti ir bendrinti visas savo nuotraukas bei vaizdo \u012Fra\u0161us.}other{Vos keliais spustel\u0117jimais galite saugoti, tvarkyti ir bendrinti visas savo nuotraukas bei vaizdo \u012Fra\u0161us.}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{\u201EGoogle\u201C i\u0161rinko {START_BOLD}1{END_BOLD} geriausi\u0105 nuotrauk\u0105.}one{\u201EGoogle\u201C i\u0161rinko {START_BOLD}{PICKED_COUNT_2}{END_BOLD} geriausi\u0105 nuotrauk\u0105.}few{\u201EGoogle\u201C i\u0161rinko {START_BOLD}{PICKED_COUNT_2}{END_BOLD} geriausias nuotraukas.}other{\u201EGoogle\u201C i\u0161rinko {START_BOLD}{PICKED_COUNT_2}{END_BOLD} geriausi\u0173 nuotrauk\u0173.}}"
+   },
+   "5668468018736241740": {
+      "message": "{VIEWER_GENDER,select, male{{COUNT,plural, =0{unused plural form}=1{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}one{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}few{Per\u017Ei\u016Br\u0117ti nuotraukas}other{Per\u017Ei\u016Br\u0117ti nuotraukas (-\u0173)}}}female{{COUNT,plural, =0{unused plural form}=1{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}one{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}few{Per\u017Ei\u016Br\u0117ti nuotraukas}other{Per\u017Ei\u016Br\u0117ti nuotraukas (-\u0173)}}}other{{COUNT,plural, =0{unused plural form}=1{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}one{Per\u017Ei\u016Br\u0117ti nuotrauk\u0105}few{Per\u017Ei\u016Br\u0117ti nuotraukas}other{Per\u017Ei\u016Br\u0117ti nuotraukas (-\u0173)}}}}"
+   },
+   "5746809345784803206": {
+      "message": "\u0160iame albume niekam nepriskirta \u017Eyma."
+   },
+   "5747301769466451086": {
+      "message": "Pilna (liko $1\u200B GB i\u0161 $2\u200B GB)"
+   },
+   "5750062244377347370": {
+      "message": "Vienu kartu negalite bendrinti daugiau nei $1\u200B nuotrauk\u0173."
+   },
+   "5750485945694679561": {
+      "message": "Nuotrauka"
+   },
+   "5752465522295465624": {
+      "message": "Kas tai?"
+   },
+   "5759076623771236663": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{Importuota 1 nuotrauka!}one{Importuota # nuotrauka!}few{Importuotos # nuotraukos!}other{Importuotos (-a) # nuotraukos (-\u0173)!}}"
+   },
+   "5782608665556323710": {
+      "message": "Bendrinama su i\u0161pl\u0117staisiais draug\u0173 ratais"
+   },
+   "5792855097053831820": {
+      "message": "Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C."
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural, =1{I\u0161trinti \u0161i\u0105 nuotrauk\u0105}one{I\u0161trinti nuotraukas}few{I\u0161trinti nuotraukas}other{I\u0161trinti nuotraukas}}"
+   },
+   "5822534876981710132": {
+      "message": "Momentinis \u012Fk\u0117limas"
+   },
+   "5849125517299342831": {
+      "message": "Importuojamos nuotraukos..."
+   },
+   "5851872412594366640": {
+      "message": "Perkelti visas albumo nuotraukas"
+   },
+   "585220835732140655": {
+      "message": "Prad\u0117ta bendrinti $1\u200B"
+   },
+   "5887135910403798952": {
+      "message": "Pilna (saugykloje laisvos vietos iki 5,0 GB)"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural, =1{1 nuotrauka, kuri jau buvo importuota, vis tiek bus \u012Fkelta.}one{{NUM_PHOTOS_2} nuotrauka, kuri jau buvo importuota, vis tiek bus \u012Fkelta.}few{{NUM_PHOTOS_2} nuotraukos, kurios jau buvo importuotos, vis tiek bus \u012Fkeltos.}other{{NUM_PHOTOS_2} nuotrauk\u0173, kurios jau buvo importuotos, vis tiek bus \u012Fkeltos.}}"
+   },
+   "591256046515963756": {
+      "message": "Atsiminimai i\u0161liks. Savo nuotraukas galite bet kada pasiekti naudodami bet kur\u012F \u012Frengin\u012F."
+   },
+   "5937251202465808296": {
+      "message": "Daugiau"
+   },
+   "5963865584069399662": {
+      "message": "privatus"
+   },
+   "5978216065275630477": {
+      "message": "Prijungiant jus prie \u201EGoogle+\u201C nuotrauk\u0173 kilo problema."
+   },
+   "5981779462795520309": {
+      "message": "Pradini\u0173 \u012Fra\u0161\u0173 gav\u0117jai"
+   },
+   "5984859669237993376": {
+      "message": "Jei norite prid\u0117ti nuotrauk\u0173, spustel\u0117kite"
+   },
+   "5998476730772231628": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ta ir paruo\u0161ta bendrinti viena nuotrauka!}one{Prid\u0117ta ir paruo\u0161ta bendrinti # nuotrauka!}few{Prid\u0117tos ir paruo\u0161tos bendrinti # nuotraukos!}other{Prid\u0117tos (-a) ir paruo\u0161tos (-a) bendrinti # nuotraukos (-\u0173)!}}"
+   },
+   "6003032126642624287": {
+      "message": "Viso dyd\u017Eio (iki 5,0 GB nemokama saugykla)"
+   },
+   "6021285543212025836": {
+      "message": "Jei i\u0161trinsite \u0161i\u0105 nuotrauk\u0105, i\u0161trinsite ir visus su ja susijusius \u012Fra\u0161us, komentarus ir spustel\u0117tus +1."
+   },
+   "605360614133602045": {
+      "message": "iki piet\u0173"
+   },
+   "6073020864818444056": {
+      "message": "Atlikta"
+   },
+   "612521550010808115": {
+      "message": "Matoma visiems \u017Einiatinklio naudotojams"
+   },
+   "6132949926220971651": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ta ir paruo\u0161ta bendrinti 1 nuotrauka!}one{Prid\u0117ta ir paruo\u0161ta bendrinti # nuotrauka!}few{Prid\u0117tos ir paruo\u0161tos bendrinti # nuotraukos!}other{Prid\u0117tos (-a) ir paruo\u0161tos (-a) bendrinti # nuotraukos (-\u0173)!}}"
+   },
+   "6143433948220856193": {
+      "message": "Per ma\u017Ea ekspozicija"
+   },
+   "6250697253024491514": {
+      "message": "Gerai"
+   },
+   "6261406176927621365": {
+      "message": "I\u0161trinti nuotrauk\u0105"
+   },
+   "6261883509320806048": {
+      "message": "I\u0161trinti pasirinktas nuotraukas?"
+   },
+   "6328709087873568224": {
+      "message": "\u201E$1\u200B\u201C padeda vienoje vietoje surinkti visas diske saugomas bei telefonu ir fotoaparatu darytas nuotraukas."
+   },
+   "6342758018446480022": {
+      "message": "{VIEWER_GENDER,select, male{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausias nuotraukas i\u0161 importuot\u0173 nuotrauk\u0173}female{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausias nuotraukas i\u0161 importuot\u0173 nuotrauk\u0173}other{Leisti \u201E{APP_NAME}\u201C pad\u0117ti atrinkti geriausias nuotraukas i\u0161 importuot\u0173 nuotrauk\u0173}}"
+   },
+   "6366245138858985671": {
+      "message": "I\u0161karp\u0173 knygos nuotrauk\u0173 albumas."
+   },
+   "636798263636559500": {
+      "message": "\u012Eveskite albumo pavadinim\u0105"
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select, female{Jei norite pasukti nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}male{Jei norite pasukti nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}other{Jei norite pasukti nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}}"
+   },
+   "6402624319890396199": {
+      "message": "At\u0161aukti"
+   },
+   "6405254665227516714": {
+      "message": "Visos profilio nuotraukos."
+   },
+   "6421460271971606186": {
+      "message": "Keisti mastel\u012F"
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select, female{Negalite pasirinkti kit\u0173 \u017Emoni\u0173 nuotrauk\u0173}male{Negalite pasirinkti kit\u0173 \u017Emoni\u0173 nuotrauk\u0173}other{Negalite pasirinkti kit\u0173 \u017Emoni\u0173 nuotrauk\u0173}}"
+   },
+   "64425665605827809": {
+      "message": "{VIEWER_GENDER,select, male{\u0160iuo metu nesate prisijung\u0119 prie interneto.}female{\u0160iuo metu nesate prisijung\u0119 prie interneto.}other{\u0160iuo metu nesate prisijung\u0119 prie interneto.}}"
+   },
+   "6544829965377284375": {
+      "message": "\u0160ios nuotraukos \u012Fkeliamos priva\u010Diai \u012F sistem\u0105 \u201EGoogle+\u201C ir yra matomos tik jums."
+   },
+   "6546455868033656709": {
+      "message": "Pagal darymo dat\u0105 (naujausios\u2013seniausios)"
+   },
+   "6562395422130457272": {
+      "message": "Ap\u0161vietimas"
+   },
+   "6569718559670589774": {
+      "message": "Bendrinama priva\u010Diai"
+   },
+   "6578760328281087395": {
+      "message": "I\u0161trinti nuotrauk\u0105"
+   },
+   "6594379652661172876": {
+      "message": "\u0160i fotografavimo b\u016Bdel\u0117s tipo nuotrauka sukurta i\u0161 keli\u0173 portret\u0173."
+   },
+   "6604371182910178125": {
+      "message": "Jei i\u0161trinsite \u0161\u012F album\u0105, i\u0161trinsite ir visus su juo susijusius \u012Fra\u0161us, komentarus ir spustel\u0117tus +1."
+   },
+   "6626842519109915669": {
+      "message": "Nuotraukos i\u0161 automatinio atsarginio kopijavimo"
+   },
+   "663126026358360455": {
+      "message": "Standartinis (neribota nemokama saugykla)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Prid\u0117ta ir paruo\u0161ta bendrinti 1 nuotrauka.}one{Prid\u0117ta ir paruo\u0161ta bendrinti {NUM_PHOTOS_2} nuotrauka.}few{Prid\u0117tos ir paruo\u0161tos bendrinti {NUM_PHOTOS_2} nuotraukos.}other{Prid\u0117ta ir paruo\u0161ta bendrinti {NUM_PHOTOS_2} nuotrauk\u0173.}}"
+   },
+   "664682826251689034": {
+      "message": "Kol kas n\u0117ra joki\u0173 +1."
+   },
+   "666585356635427967": {
+      "message": "\u0160i nuotrauka patobulinta automati\u0161kai."
+   },
+   "6698080327673689103": {
+      "message": "Ie\u0161koma geriausi\u0173 kadr\u0173..."
+   },
+   "6721868124884562992": {
+      "message": "Surinkite nuotraukas i\u0161 vis\u0173 savo \u012Frengini\u0173 vienoje vietoje."
+   },
+   "6740470536804684325": {
+      "message": "{VIEWER_GENDER,select, male{Kuruoti}female{Kuruoti}other{Kuruoti}}"
+   },
+   "6747166642870870925": {
+      "message": "Importavimas stabdomas..."
+   },
+   "6750134343457912784": {
+      "message": "Jei norite i\u0161naudoti visas \u201E$1\u200B\u201C galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai."
+   },
+   "675159243189607951": {
+      "message": "Prid\u0117ti nuotrauk\u0105 prie albumo"
+   },
+   "6778067484492795152": {
+      "message": "Ma\u017Ea ekspoz."
+   },
+   "6792549611288275870": {
+      "message": "\u017Didinio nuotolis"
+   },
+   "6803199913053097740": {
+      "message": "\u201E$1\u200B\u201C laiko j\u016Bs\u0173 nuotraukas saugiai ir leid\u017Eia jas bet kuriuo metu per\u017Ei\u016Br\u0117ti bet kuriame \u012Frenginyje."
+   },
+   "680511502310466916": {
+      "message": "Populiarios nuotraukos"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural, =0{nevartojama daugiskaitos forma}=1{{NUM_PHOTOS_2} nuotraukoje}one{{NUM_PHOTOS_2} nuotraukoje}few{{NUM_PHOTOS_2} nuotraukose}other{{NUM_PHOTOS_2} nuotraukose (-\u0173)}}"
+   },
+   "6872320306636644917": {
+      "message": "Dabar galite saugiai atjungti \u012Frengin\u012F."
+   },
+   "6872759799605876555": {
+      "message": "F skai\u010Dius"
+   },
+   "687281374586801843": {
+      "message": "Paleisti \u201E$1\u200B\u201C ir importuoti nuotraukas, kai prijungiu fotoaparat\u0105 ar atminties kortel\u0119"
+   },
+   "6882873153932419461": {
+      "message": "Pasirinktinis reguliavimas"
+   },
+   "6906406658770551379": {
+      "message": "\u0160i animacija sukurta i\u0161 penki\u0173 ar daugiau nuotrauk\u0173 serijos."
+   },
+   "6983200894459150878": {
+      "message": "\u0160i panorama sukurta i\u0161 persidengian\u010Di\u0173 nuotrauk\u0173 rinkinio."
+   },
+   "7022070615528435141": {
+      "message": "I\u0161trinti"
+   },
+   "7049887240439736400": {
+      "message": "Spausdinti"
+   },
+   "706796434064753890": {
+      "message": "Leisti skaidri\u0173 demonstracij\u0105"
+   },
+   "7102649289752747375": {
+      "message": "Si\u0173sti atsiliepim\u0105"
+   },
+   "7105497072958063616": {
+      "message": "Atspalvis"
+   },
+   "7182974689040833178": {
+      "message": "Atnaujinti"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select, female{J\u016Bs\u0173 domenas}male{J\u016Bs\u0173 domenas}other{J\u016Bs\u0173 domenas}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BEsate prisijung\u0119 kaip$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7271877329627611301": {
+      "message": "Importuojamos nuotraukos i\u0161 \u201E$1\u200B\u201C"
+   },
+   "7279199723116672737": {
+      "message": "T\u0119sti importavim\u0105"
+   },
+   "7283005104295613831": {
+      "message": "Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami."
+   },
+   "7288593042347321202": {
+      "message": "I\u0161trinti pasirinkt\u0105 nuotrauk\u0105?"
+   },
+   "7329217250595054697": {
+      "message": "Pradin\u0117"
+   },
+   "734934965373819800": {
+      "message": "Gr\u012F\u017Eti"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select, female{Priskirta \u017Eyma: \u201E{ALBUM_NAME}\u201C}male{Priskirta \u017Eyma: \u201E{ALBUM_NAME}\u201C}other{Priskirta \u017Eyma: \u201E{ALBUM_NAME}\u201C}}"
+   },
+   "739391781989434686": {
+      "message": "Prid\u0117ti nuotrauk\u0173"
+   },
+   "7419704019640008953": {
+      "message": "Bendrinti"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select, female{Geriausia}male{Geriausia}other{Geriausia}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select, female{Sveiki atvyk\u0119 \u012F \u201E{XXX}\u201C}male{Sveiki atvyk\u0119 \u012F \u201E{XXX}\u201C}other{Sveiki atvyk\u0119 \u012F \u201E{XXX}\u201C}}"
+   },
+   "7439652323253850025": {
+      "message": "Prisijunkite dar kart\u0105, kad gal\u0117tum\u0117te per\u017Ei\u016Br\u0117ti visas nuotraukas ir albumus."
+   },
+   "7469072433919604867": {
+      "message": "{VIEWER_GENDER,select, male{Pristabdyti}female{Pristabdyti}other{Pristabdyti}}"
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Pasukti pasirinkt\u0105 nuotrauk\u0105 \u012F de\u0161in\u0119}one{Pasukti pasirinkt\u0105 nuotrauk\u0105 \u012F de\u0161in\u0119}few{Pasukti pasirinktas nuotraukas \u012F de\u0161in\u0119}other{Pasukti pasirinkt\u0173 nuotrauk\u0173 \u012F de\u0161in\u0119}}"
+   },
+   "7488769419737494778": {
+      "message": "Sveiki, $1\u200B!"
+   },
+   "7496736746864872636": {
+      "message": "Tada pasirinkite \u012Fk\u0117limo dyd\u012F"
+   },
+   "7500233142936096758": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Nukopijuota 1 nuotrauka!}one{Nukopijuota # nuotrauka!}few{Nukopijuotos # nuotraukos!}other{Nukopijuota # nuotrauk\u0173!}}"
+   },
+   "7523879346834536502": {
+      "message": "{VIEWER_GENDER,select, male{Bendrinti}female{Bendrinti}other{Bendrinti}}"
+   },
+   "7538539390938534172": {
+      "message": "Baltos spalvos balansas"
+   },
+   "7546970424299309536": {
+      "message": "Automati\u0161kai sutvarkyta ir paruo\u0161ta bendrinti"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural, =0{N\u0117ra pasirinkt\u0173 nuotrauk\u0173}=1{Pasirinkta {COUNT_2} nuotrauka}one{Pasirinkta {COUNT_2} nuotrauka}few{Pasirinktos {COUNT_2} nuotraukos}other{Pasirinktos (-a) {COUNT_2} nuotraukos (-\u0173)}}"
+   },
+   "7637409896935138087": {
+      "message": "Pagal darymo dat\u0105 (seniausios\u2013naujausios)"
+   },
+   "7649598852815041947": {
+      "message": "Naujas albumas"
+   },
+   "765296891797858248": {
+      "message": "Sveiki!"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural, =0{unused plural form}=1{Prid\u0117ta ir paruo\u0161ta bendrinti 1 nuotrauka i\u0161 \u201E{FOLDER_NAME}\u201C.}one{Prid\u0117ta ir paruo\u0161ta bendrinti {NUM_PHOTOS_2} nuotrauka i\u0161 \u201E{FOLDER_NAME}\u201C.}few{Prid\u0117tos ir paruo\u0161tos bendrinti {NUM_PHOTOS_2} nuotraukos i\u0161 \u201E{FOLDER_NAME}\u201C.}other{Prid\u0117ta ir paruo\u0161ta bendrinti {NUM_PHOTOS_2} nuotrauk\u0173 i\u0161 \u201E{FOLDER_NAME}\u201C.}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B per\u017Ei\u016Bros (-\u0173)"
+   },
+   "7718742267235559288": {
+      "message": "I\u0161jungti viso ekrano re\u017Eim\u0105"
+   },
+   "7724716448605093669": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{I\u0161 \u201E$1\u200B\u201C nukopijuota 1 nuotrauka!}one{I\u0161 \u201E$1\u200B\u201C nukopijuota # nuotrauka!}few{I\u0161 \u201E$1\u200B\u201C nukopijuotos # nuotraukos!}other{I\u0161 \u201E$1\u200B\u201C nukopijuota # nuotrauk\u0173!}}"
+   },
+   "7736850283853703249": {
+      "message": "Saugoma saugiai"
+   },
+   "7736894743522697089": {
+      "message": "Panorama"
+   },
+   "7742597111304593344": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Perkelti pasirinkt\u0105 nuotrauk\u0105}one{Perkelti pasirinkt\u0105 nuotrauk\u0105}few{Perkelti pasirinktas nuotraukas}other{Perkelti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "7756231341602930532": {
+      "message": "Gerai"
+   },
+   "778874571620222981": {
+      "message": "Prad\u0117kite!"
+   },
+   "779808899645033177": {
+      "message": "Paskutinis importavimas ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Tik j\u016Bs"
+   },
+   "7828808805120058354": {
+      "message": "Gr\u0105\u017Einti"
+   },
+   "7856636143847093955": {
+      "message": "Sujungti dienas"
+   },
+   "7871095434511949009": {
+      "message": "Diafragma"
+   },
+   "7871564886193063899": {
+      "message": "{VIEWER_GENDER,select, male{Dabar pasirinkite \u012Fk\u0117limo dyd\u012F}female{Dabar pasirinkite \u012Fk\u0117limo dyd\u012F}other{Dabar pasirinkite \u012Fk\u0117limo dyd\u012F}}"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select, female{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}male{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}other{Pasirinkite \u0161altinius, i\u0161 kuri\u0173 nuotraukos bus priva\u010Diai importuojamos ir \u012Fkeliamos \u012F \u201EGoogle+\u201C.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select, female{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}male{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}other{Spustel\u0117kite, kad pasirinktum\u0117te \u0161i\u0105 nuotrauk\u0105 arba panaikintum\u0117te jos pasirinkim\u0105}}"
+   },
+   "7899751896282337632": {
+      "message": "Patobulinta"
+   },
+   "7911416166208830577": {
+      "message": "Pagalba"
+   },
+   "7965388543250324409": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161i\u0105 nuotrauk\u0105, spustel\u0117kite \u010Dia.}one{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}few{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}other{Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}}"
+   },
+   "7979880970290440574": {
+      "message": "{VIEWER_GENDER,select, male{Trinti}female{Trinti}other{Trinti}}"
+   },
+   "7982195206547981689": {
+      "message": "{VIEWER_GENDER,select, male{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}female{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}other{Jei norite pasukti \u0161i\u0105 nuotrauk\u0105 prie\u0161 laikrod\u017Eio rodykl\u0119, spustel\u0117kite}}"
+   },
+   "8031489364030461560": {
+      "message": "\u201E$1\u200B\u201C s\u0105ranka"
+   },
+   "8111609102739217440": {
+      "message": "{VIEWER_GENDER,select, female{\u0160i nuotrauka buvo patobulinta automati\u0161kai.}male{\u0160i nuotrauka buvo patobulinta automati\u0161kai.}other{\u0160i nuotrauka buvo patobulinta automati\u0161kai.}}"
+   },
+   "8112449587476468078": {
+      "message": "I\u0161trinti pasirinkt\u0105 album\u0105?"
+   },
+   "8121983485737306983": {
+      "message": "dublikatas"
+   },
+   "8137181364321684389": {
+      "message": "\u201EGoogle+\u201C nuotraukos"
+   },
+   "8160611829089073754": {
+      "message": "I\u0161trinti albumus"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ti pasirinkt\u0105 nuotrauk\u0105 prie albumo}one{Prid\u0117ti pasirinkt\u0105 nuotrauk\u0105 prie albumo}few{Prid\u0117ti pasirinktas nuotraukas prie albumo}other{Prid\u0117ti pasirinkt\u0173 nuotrauk\u0173 prie albumo}}"
+   },
+   "8179903593042831802": {
+      "message": "Prid\u0117ti nuotrauk\u0173"
+   },
+   "819996403327805209": {
+      "message": "Su\u017Einokite daugiau"
+   },
+   "8209467666747691270": {
+      "message": "Geriausia"
+   },
+   "8233995188166153420": {
+      "message": "Prisijunkite prie \u201EChrome\u201C ir prad\u0117kite kelti nuotraukas."
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select, female{Blogesnis dublikatas}male{Blogesnis dublikatas}other{Blogesnis dublikatas}}"
+   },
+   "8257489178421131174": {
+      "message": "\u012Eveskite albumo pavadinim\u0105"
+   },
+   "8262372758945437018": {
+      "message": "Darbo prad\u017Eia"
+   },
+   "8272813937461935720": {
+      "message": "Prijungiant jus prie \u201EGoogle+\u201C nuotrauk\u0173 kilo problema."
+   },
+   "8274541876455385064": {
+      "message": "\u201ESmile\u201C"
+   },
+   "8286036185334307148": {
+      "message": "{VIEWER_GENDER,select, male{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}female{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}other{Spustel\u0117kite ir prid\u0117kite nuotrauk\u0173}}"
+   },
+   "8294002849383244904": {
+      "message": "{COUNT,plural, =0{nevartojama daugiskaitos forma}=1{Bendrinti pasirinkt\u0105 nuotrauk\u0105}one{Bendrinti pasirinkt\u0105 nuotrauk\u0105}few{Bendrinti pasirinktas nuotraukas}other{Bendrinti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "8317910107005018559": {
+      "message": "Ma\u017Eiau"
+   },
+   "8324963774100913509": {
+      "message": "Apribota"
+   },
+   "8328322680010656196": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Sveiki atvyk\u0119 \u012F \u201E{XXX}\u201C}}"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select, female{\u012Eveskite albumo pavadinim\u0105}male{\u012Eveskite albumo pavadinim\u0105}other{\u012Eveskite albumo pavadinim\u0105}}"
+   },
+   "8405309693308875139": {
+      "message": "Nuotraukos"
+   },
+   "840692109692540367": {
+      "message": "Prisijungti"
+   },
+   "8418580476552799567": {
+      "message": "\u012Ek\u0117limo dydis"
+   },
+   "8446162208830000966": {
+      "message": "Baigti"
+   },
+   "8461609631969932886": {
+      "message": "Sl\u0117pti"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B versija $1\u200B"
+   },
+   "847094502493397870": {
+      "message": "{NUM_PHOTOS,plural, =0{unused plural form}=1{Jei norite per\u017Ei\u016Br\u0117ti \u0161i\u0105 nuotrauk\u0105, spustel\u0117kite \u010Dia.}one{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}few{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}other{Jei norite per\u017Ei\u016Br\u0117ti \u0161ias nuotraukas, spustel\u0117kite \u010Dia.}}"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select, female{{COUNT_1,plural, =0{Laukiama, kol bus \u012Fkeltos kai kurios i\u0161 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}male{{COUNT_1,plural, =0{Laukiama, kol bus \u012Fkeltos kai kurios i\u0161 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}other{{COUNT_1,plural, =0{Laukiama, kol bus \u012Fkeltos kai kurios i\u0161 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}=1{Yra {START_BOLD}1{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}one{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelta nuotrauka. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}few{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkeltos nuotraukos. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}other{Yra {START_BOLD}{COUNT_2}{END_BOLD} ne\u012Fkelt\u0173 nuotrauk\u0173. Prisijunkite i\u0161 naujo, kad gal\u0117tum\u0117te \u012Fkelti ir bendrinti!}}}}"
+   },
+   "8523058396622240712": {
+      "message": "Leisti \u201E$1\u200B\u201C pad\u0117ti atrinkti geriausias nuotraukas i\u0161 importuot\u0173 nuotrauk\u0173"
+   },
+   "8554704680089748768": {
+      "message": "Nuotraukos importuotos $1\u200B"
+   },
+   "8564202903947049539": {
+      "message": "Leisti"
+   },
+   "8566172133042307539": {
+      "message": "Prid\u0117ti prie albumo"
+   },
+   "8588705294225487286": {
+      "message": "Mato pradini\u0173 \u012Fra\u0161\u0173 gav\u0117jai"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select, female{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}male{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}other{Pasirinkite viso dyd\u017Eio atsargines nuotrauk\u0173 kopijas arba ma\u017Eesnio standartinio dyd\u017Eio \u012Fk\u0117limus, kurie yra nemokami.}}"
+   },
+   "8654290347345927684": {
+      "message": "Dabar galite saugiai atjungti \u012Frengin\u012F \u201E$1\u200B\u201C."
+   },
+   "8665436922686801627": {
+      "message": "{VIEWER_GENDER,select, male{}female{}other{Labas! Sveiki atvyk\u0119 \u012F \u201E{XXX}\u201C.}}"
+   },
+   "8667344331777400219": {
+      "message": "Pasirinkti geriausi\u0105"
+   },
+   "8675112326850410714": {
+      "message": "Prijungta atminties kortel\u0117 ar saugojimo \u012Frenginys"
+   },
+   "8696582343981289920": {
+      "message": "{VIEWER_GENDER,select, male{I\u0161eiti}female{I\u0161eiti}other{I\u0161eiti}}"
+   },
+   "8703525622665207503": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{I\u0161 \u201E$1\u200B\u201C importuota 1 nuotrauka!}one{I\u0161 \u201E$1\u200B\u201C importuota # nuotrauka!}few{I\u0161 \u201E$1\u200B\u201C importuotos # nuotraukos!}other{I\u0161 \u201E$1\u200B\u201C importuotos (-a) # nuotraukos (-\u0173)!}}"
+   },
+   "8704271911477526098": {
+      "message": "Privatu"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select, female{\u0160iuo metu nesate prisijung\u0119 prie interneto.}male{\u0160iuo metu nesate prisijung\u0119 prie interneto.}other{\u0160iuo metu nesate prisijung\u0119 prie interneto.}}"
+   },
+   "8759519761443041119": {
+      "message": "I\u0161saugoti nustatymus"
+   },
+   "8765880467977864647": {
+      "message": "autorius $2\u200B$3\u200B$1\u200B"
+   },
+   "8767912651395089354": {
+      "message": "Naudotojo meniu"
+   },
+   "8771654206518703274": {
+      "message": "{VIEWER_GENDER,select, male{Viso ekrano re\u017Eimas}female{Viso ekrano re\u017Eimas}other{Viso ekrano re\u017Eimas}}"
+   },
+   "8777952755137547655": {
+      "message": "\u0160i panoramin\u0117 nuotrauka sukurta i\u0161 \u0161alia esan\u010Di\u0173 vaizd\u0173 nuotrauk\u0173 rinkinio."
+   },
+   "8808787736763459576": {
+      "message": "{COUNT_1,plural, =0{unused plural form}=1{\u012Ekelta! 1 nuotrauka paruo\u0161ta bendrinti.}one{\u012Ekelta! {COUNT_2} nuotrauka paruo\u0161ta bendrinti.}few{\u012Ekelta! {COUNT_2} nuotraukos paruo\u0161tos bendrinti.}other{\u012Ekelta! {COUNT_2} nuotraukos (-\u0173) paruo\u0161tos (-a) bendrinti.}}"
+   },
+   "8832933617217959986": {
+      "message": "Panaikinti vis\u0173 pasirinkim\u0105"
+   },
+   "8874739581425612284": {
+      "message": "Pasirinkite nuotraukas, kurias norite bendrinti arba prid\u0117ti prie albumo"
+   },
+   "8890553633144307762": {
+      "message": "Atgal"
+   },
+   "8928816882866356838": {
+      "message": "Vie\u0161a"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural, =0{I\u0161trinti album\u0105}=1{Trinti pasirinkt\u0105 nuotrauk\u0105}one{Trinti pasirinkt\u0105 nuotrauk\u0105}few{Trinti pasirinktas nuotraukas}other{Trinti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "8968225077877358728": {
+      "message": "{VIEWER_GENDER,select, male{Spausdinti}female{Spausdinti}other{Spausdinti}}"
+   },
+   "8984549175557747262": {
+      "message": "Apdorojamas vaizdo \u012Fra\u0161as..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select, female{Per ma\u017Eas i\u0161laikymas}male{Per ma\u017Eas i\u0161laikymas}other{Per ma\u017Eas i\u0161laikymas}}"
+   },
+   "8998179362936748717": {
+      "message": "Gerai"
+   },
+   "9013643635142116580": {
+      "message": "Bendrinama domene"
+   },
+   "9042260521669277115": {
+      "message": "Pristabdyti"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural, =0{I\u0161 viso 0 per\u017Ei\u016Br\u0173}=1{I\u0161 viso 1 per\u017Ei\u016Bra}one{I\u0161 viso {VIEW_COUNT_2} per\u017Ei\u016Bra}few{I\u0161 viso {VIEW_COUNT_2} per\u017Ei\u016Bros}other{I\u0161 viso {VIEW_COUNT_2} per\u017Ei\u016Bros (-\u0173)}}"
+   },
+   "9087479077774045963": {
+      "message": "\u201E$1\u200B\u201C automati\u0161kai parenka geriausias nuotraukas i\u0161 j\u016Bs\u0173 kolekcij\u0173 ir paruo\u0161ia jas bendrinti."
+   },
+   "9137360918780826967": {
+      "message": "\u017Dema kokyb\u0117"
+   },
+   "9205519663804560500": {
+      "message": "{NUM_PHOTOS,plural, =0{nevartojama daugiskaitos forma}=1{Prid\u0117ta ir paruo\u0161ta bendrinti 1 nuotrauka!}one{Prid\u0117ta ir paruo\u0161ta bendrinti # nuotrauka!}few{Prid\u0117tos ir paruo\u0161tos bendrinti # nuotraukos!}other{Prid\u0117tos (-a) ir paruo\u0161tos (-a) bendrinti # nuotraukos (-\u0173)!}}"
+   },
+   "9208178625411979207": {
+      "message": "{VIEWER_GENDER,select, male{\u201E{XXX_1}\u201C yra lengviausias b\u016Bdas tvarkyti ir bendrinti nuotraukas.}female{\u201E{XXX_2}\u201C yra lengviausias b\u016Bdas tvarkyti ir bendrinti nuotraukas.}other{\u201E{XXX_3}\u201C yra lengviausias b\u016Bdas tvarkyti ir bendrinti nuotraukas.}}"
+   },
+   "9219694540199049147": {
+      "message": "Aplankas..."
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural, =0{}=1{1 nuotrauka jau \u012Fkelta ankstesnio seanso metu.}one{{NUM_PHOTOS_2} nuotrauka jau \u012Fkelta ankstesnio seanso metu.}few{{NUM_PHOTOS_2} nuotraukos jau \u012Fkeltos ankstesnio seanso metu.}other{{NUM_PHOTOS_2} nuotrauk\u0173 jau \u012Fkelta ankstesnio seanso metu.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural, =0{nevartojama daugiskaitos forma}=1{S\u0117kmingai importuota ir \u012Fkelta {START_BOLD}1{END_BOLD} nuotrauka.}one{S\u0117kmingai importuota ir \u012Fkelta {START_BOLD}{COUNT_2}{END_BOLD} nuotrauka.}few{S\u0117kmingai importuotos ir \u012Fkeltos {START_BOLD}{COUNT_2}{END_BOLD} nuotraukos.}other{S\u0117kmingai importuota ir \u012Fkelta {START_BOLD}{COUNT_2}{END_BOLD} nuotrauk\u0173.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select, female{Jei norite i\u0161naudoti visas {XXX} galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}male{Jei norite i\u0161naudoti visas {XXX} galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}other{Jei norite i\u0161naudoti visas {XXX} galimybes, pasirinkite tokius nustatymus, kad nuotraukos b\u016Bt\u0173 importuojamos automati\u0161kai.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural, =0{Perkelti visas albumo nuotraukas}=1{Perkelti pasirinkt\u0105 nuotrauk\u0105}one{Perkelti pasirinkt\u0105 nuotrauk\u0105}few{Perkelti pasirinktas nuotraukas}other{Perkelti pasirinkt\u0173 nuotrauk\u0173}}"
+   },
+   "982577805980296193": {
+      "message": "Jei norite per\u017Ei\u016Br\u0117ti ir bendrinti \u0161ias nuotraukas, spustel\u0117kite \u010Dia."
+   }
+}

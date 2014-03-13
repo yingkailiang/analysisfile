@@ -1,0 +1,22 @@
+{
+	"widgets" : {
+		"description" : "Widgets",
+		"message" : "Gadgets"
+	},
+	"apps" : {
+		"description" : "applications",
+		"message" : "Applications"
+	},
+	"mostvisited" : {
+		"description" : "Most visited",
+		"message" : "Les plus visités"
+	},
+	"recentlyclosed" : {
+		"description" : "Recently closed",
+		"message" : "Récemment fermés"
+	},
+	"title" : {
+		"description" : "New tab",
+		"message" : "Nouvel onglet"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "New Tab",
+  "description": "This is my custom new tab.",
+  "version": "1.0",
+  "chrome_url_overrides":  {
+    "newtab": "newtab.html"
+  }
+}

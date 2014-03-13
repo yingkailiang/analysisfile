@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "KeePassX Password Manager",
+  "description": "Manage passwords using KeePassX.",
+  "version": "0.1.0",
+
+  "permissions": ["tabs", "storage", "https://*.dropbox.com/*"],
+
+  "background": {
+    "scripts": [
+      "lib/jquery.js",
+      "lib/kpdb.js",
+      "lib/dropbox.js",
+      "lib/chrome.utils.js",
+      "dropbox_helpers/dropbox.js",
+      "keepass_helpers/keepass_credentials.js",
+      "dropbox_keepass_background.js"
+    ],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["lib/jquery.js", "credentials_check.js"],
+      "all_frames": true
+    }
+  ],
+
+  "web_accessible_resources": [
+    "dropbox_helpers/chrome_oauth_receiver.html"
+  ],
+
+  "options_page": "dropbox_keepass_options.html"
+}

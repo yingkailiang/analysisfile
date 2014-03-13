@@ -1,0 +1,92 @@
+/* ================================================================================
+ * @license
+ * Copyright (c) 2012, 2011 IBM Corporation and others.
+ * All rights reserved. This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License v1.0
+ * (http://www.eclipse.org/legal/epl-v10.html), and the Eclipse Distribution
+ * License v1.0 (http://www.eclipse.org/org/documents/edl-v10.html).
+ *
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *     Zachariah Moreno
+ *     John J Barton
+ *     John Arthorne
+ *     Ken Walker
+ *     GitHub Nav Bar style
+================================================================================ */
+
+
+#header {
+	height: 33px; 
+	background: -webkit-linear-gradient(top, #FAFAFA, #EAEAEA); 
+	border-bottom: 1px solid #CACACA;
+}
+
+#actions {
+	float: left;
+	display: block;
+	padding-top: 7px;
+}
+
+#status {
+	float: right;
+	display: block;
+	padding: 7px;
+	padding-bottom: 0px;
+	height: 27px;
+	font-size: 13px;
+	line-height: auto;
+}
+
+a {
+	color: black;
+	/*font-weight: bold;*/
+	font-size: 12px;
+	cursor: default;
+}
+
+a:hover {
+	/* GitHub Blue #4183C4 */
+	color: #4183C4;
+	text-decoration: none;
+}
+
+#stars-logo {
+	margin-top: -6px;
+}
+
+/* Orion logo H2 */
+#orion-logo {
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: -32px;
+	margin-left: 30px;
+	display: block;
+	font-weight: bold;
+}
+
+.btn-toolbar {
+	margin-top: -33px;
+}
+
+#actions .btn-group:first-child {
+	margin-left: 90px;
+}
+
+#actions .btn-group:last-child {
+	margin-left: -7px;
+}
+
+.btn-mini {
+	font-size: 12px;
+}
+
+/* status */
+h2 {
+	diplay: block;
+	margin-top: -9px;
+	margin-left: 60px;
+	line-height: auto;
+	font-weight: normal;
+	font-size: 13px;
+}

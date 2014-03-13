@@ -1,0 +1,119 @@
+[
+    {
+        "name": "name",
+        "required": true,
+        "type": "string"
+    }, {
+        "name": "version",
+        "required": true,
+        "type": "string"
+    }, {
+        "name": "description",
+        "type": "string"
+    }, {
+        "name": "icons",
+        "type": "object"
+    }, {
+        "name": "default_locale",
+        "type": "string"
+    }, {
+        "name": "minimum_chrome_version",
+        "type": "string"
+    }, {
+        "name": "homepage_url",
+        "type": "string"
+    }, {
+        "name": "update_url",
+        "type": "string"
+    }, {
+        "name": "key",
+        "type": "string"
+    }, {
+        "name": "incognito",
+        "type": "string",
+        "choices": ["spanning", "split"]
+    }, {
+        "name": "background_page",
+        "type": "string"
+    }, {
+        "name": "background",
+        "type": "object",
+        "children": [
+            {
+                "name": "page",
+                "type": "string"
+            }
+        ]
+    }, {
+        "name": "options_page",
+        "type": "string"
+    }, {
+        "name": "browser_action",
+        "type": "object",
+        "group": "action",
+        "children": [
+            {
+                "name": "default_title",
+                "type": "string"
+            }, {
+                "name": "default_icon",
+                "type": "string"
+            }, {
+                "name": "default_popup",
+                "type": "string"
+            }
+        ]
+    }, {
+        "name": "page_action",
+        "type": "object",
+        "group": "action",
+        "children": [
+            {
+                "name": "default_title",
+                "type": "string"
+            }, {
+                "name": "default_icon",
+                "type": "string"
+            }, {
+                "name": "default_popup",
+                "type": "string"
+            }
+        ]
+    }, {
+        "name": "app",
+        "type": "object",
+        "group": "action",
+        "children": [
+            {
+                "name": "urls",
+                "type": "object"
+            }, {
+                "name": "launch",
+                "type": "object"
+            }
+        ]
+    }, {
+        "name": "theme",
+        "type": "object",
+        "group": "action"
+    }, {
+        "name": "app",
+        "type": "object",
+        "group": "action"
+    }, {
+        "name": "content_scripts",
+        "type": "array"
+    }, {
+        "name": "omnibox",
+        "type": "object"
+    }, {
+        "name": "chrome_url_overrides",
+        "type": "object"
+    }, {
+        "name": "permissions",
+        "type": "array"
+    }, {
+        "name": "plugins",
+        "type": "array"
+    }
+]

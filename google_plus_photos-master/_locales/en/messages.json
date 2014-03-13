@@ -1,0 +1,797 @@
+{
+   "106279463205193944": {
+      "message": "People in this album"
+   },
+   "1078696495414015742": {
+      "message": "Continue"
+   },
+   "1106976338877989624": {
+      "message": "About $1\u200B"
+   },
+   "1131710491735646017": {
+      "message": "Move photo"
+   },
+   "1168286392495236500": {
+      "message": "Shared publicly"
+   },
+   "1168912363261265730": {
+      "message": "Play slideshow"
+   },
+   "1179156232993544339": {
+      "message": "Delete album"
+   },
+   "1274379628511980491": {
+      "message": "Scanning photos"
+   },
+   "1309816460662746011": {
+      "message": "{VIEWER_GENDER,select,female{You need an Internet connection to set up {XXX} for the first time.}male{You need an Internet connection to set up {XXX} for the first time.}other{You need an Internet connection to set up {XXX} for the first time.}}"
+   },
+   "133632727011673707": {
+      "message": "Select other import locations"
+   },
+   "1400080368002077999": {
+      "message": "{VIEWER_GENDER,select,female{Automatically import photos from attached cameras and memory cards}male{Automatically import photos from attached cameras and memory cards}other{Automatically import photos from attached cameras and memory cards}}"
+   },
+   "1428301074198348755": {
+      "message": "Save"
+   },
+   "1482983300175848685": {
+      "message": "Sign up for Google+"
+   },
+   "1494518490116523821": {
+      "message": "Select all"
+   },
+   "1535908424500369256": {
+      "message": "The following windows will be closed:\n"
+   },
+   "1572187844116018239": {
+      "message": "View fullscreen"
+   },
+   "163532554661203916": {
+      "message": "Open $1\u200B to start importing photos from $2\u200B."
+   },
+   "1746371065290613452": {
+      "message": "Loading..."
+   },
+   "1754857127237380562": {
+      "message": "No"
+   },
+   "1760918964936396010": {
+      "message": "Delete $1\u200B"
+   },
+   "1776190887766955393": {
+      "message": "{VIEWER_GENDER,select,female{Not shared}male{Not shared}other{Not shared}}"
+   },
+   "1829542073477142210": {
+      "message": "Visible to the participants of the conversations"
+   },
+   "1863533324056146247": {
+      "message": "pm"
+   },
+   "1898536270078020135": {
+      "message": "Application Menu"
+   },
+   "1955141669465161163": {
+      "message": "{GENDER,select,female{Tagged}male{Tagged}other{Tagged}}"
+   },
+   "2000146230061979936": {
+      "message": "Profile photos"
+   },
+   "2029980907058777630": {
+      "message": "Terms of Service"
+   },
+   "2066206612741461379": {
+      "message": "Copyright \u00A9 2013 Google Inc. All Rights Reserved."
+   },
+   "2079435202927044386": {
+      "message": "Importing photos"
+   },
+   "2097731301533028280": {
+      "message": "All Photos"
+   },
+   "2134605074025092052": {
+      "message": "Delete $1\u200B photos"
+   },
+   "2159130950882492111": {
+      "message": "Cancel"
+   },
+   "2186020356538005310": {
+      "message": "{VIEWER_GENDER,select,female{Not best}male{Not best}other{Not best}}"
+   },
+   "2267143557027174044": {
+      "message": "Cancel"
+   },
+   "2354817630223808522": {
+      "message": "Move"
+   },
+   "2387953510687445880": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{Move {XXX_1} photo to:}other{Move {XXX_2} photos to:}}"
+   },
+   "2451995853746876604": {
+      "message": "{PHOTO_COUNT_1,plural,=0{unused plural form}=1{1 photo}other{{PHOTO_COUNT_2} photos}}"
+   },
+   "248827996852087329": {
+      "message": "{COUNT_1,plural,=0{unused plural form}=1{{COUNT_2} album selected}other{{COUNT_2} albums selected}}"
+   },
+   "251008425196701054": {
+      "message": "Visible to anyone in your domain"
+   },
+   "2594941459746241010": {
+      "message": "{VIEWER_GENDER,select,female{Blurry}male{Blurry}other{Blurry}}"
+   },
+   "2603085641264767659": {
+      "message": "Event guests"
+   },
+   "2608563245759025837": {
+      "message": "{VIEWER_GENDER,select,female{Let {XXX} help you select the best shots from photos you import}male{Let {XXX} help you select the best shots from photos you import}other{Let {XXX} help you select the best shots from photos you import}}"
+   },
+   "264147897131767597": {
+      "message": "$1\u200B min $2\u200B sec"
+   },
+   "2675325363860523589": {
+      "message": "{NUM_PHOTOS_1,plural,=0{unused plural form}=1{1 photo copied from {FOLDER_NAME}!}other{{NUM_PHOTOS_2} photos copied from {FOLDER_NAME}!}}"
+   },
+   "2683351316398940532": {
+      "message": "Full size ($1\u200BGB of $2\u200BGB remaining)"
+   },
+   "2700868845570542904": {
+      "message": "{VIEWER_GENDER,select,female{We had trouble signing you in to {XXX}.}male{We had trouble signing you in to {XXX}.}other{We had trouble signing you in to {XXX}.}}"
+   },
+   "2710001102530019052": {
+      "message": "$1\u200B sec"
+   },
+   "2710655047330556001": {
+      "message": "People in this photo"
+   },
+   "2757591144872178577": {
+      "message": "Exposure"
+   },
+   "2761269382982007883": {
+      "message": "We'll help you stay organized and suggest the best photos to share."
+   },
+   "2761326392133498772": {
+      "message": "Share photo"
+   },
+   "2780634533467690306": {
+      "message": "{PHOTO_COUNT_1,plural,=0{unused plural form! Oh noooo!}=1{1 photo}other{{PHOTO_COUNT_2} photos}}"
+   },
+   "2786233632874013852": {
+      "message": "More photos"
+   },
+   "2847005022751960352": {
+      "message": "Still working..."
+   },
+   "2872608160291072032": {
+      "message": "{NUM_PHOTOS,plural,=0{unused plural form}=1{Click here to view and share this photo.}other{Click here to view and share these photos.}}"
+   },
+   "287837027263664914": {
+      "message": "Edit import locations"
+   },
+   "2921704166091908554": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{Add {XXX_1} photo to:}other{Add {XXX_2} photos to:}}"
+   },
+   "3011994044964619975": {
+      "message": "{VIEWER_GENDER,select,female{Low quality}male{Low quality}other{Low quality}}"
+   },
+   "3018671699054071030": {
+      "message": "Photos from posts"
+   },
+   "3062437638198659266": {
+      "message": "{VIEWER_GENDER,select,female{Choose if you want to store full size backups of the photos you import, or if you want smaller, standard size copies (2048 px) that are free.}male{Choose if you want to store full size backups of the photos you import, or if you want smaller, standard size copies (2048 px) that are free.}other{Choose if you want to store full size backups of the photos you import, or if you want smaller, standard size copies (2048 px) that are free.}}"
+   },
+   "3062505056927186217": {
+      "message": "Scrapbook photos"
+   },
+   "3077376031885543429": {
+      "message": "{COUNT_1,plural,=0{{COUNT_2} done of {TOTAL}}=1{{COUNT_2} done of {TOTAL}}other{{COUNT_2} done of {TOTAL}}}"
+   },
+   "3231427490891919648": {
+      "message": "Extended circles"
+   },
+   "3249513483374643425": {
+      "message": "Add"
+   },
+   "327541840762211649": {
+      "message": "{NUM_ALBUMS,plural,=1{Delete album}other{Delete albums}}"
+   },
+   "3304972143698843178": {
+      "message": "Event"
+   },
+   "3316542569449182462": {
+      "message": "Finding best photos"
+   },
+   "3335855558019774894": {
+      "message": "Close"
+   },
+   "3339828869616330675": {
+      "message": "$1\u200B of $2\u200B"
+   },
+   "3349080460707711336": {
+      "message": "No one is tagged in this photo."
+   },
+   "335552911020230570": {
+      "message": "Canceling..."
+   },
+   "3392114061661490939": {
+      "message": "Dimensions"
+   },
+   "3479702069824639097": {
+      "message": "Press to compare to original."
+   },
+   "3561019065020608408": {
+      "message": "Ready to share"
+   },
+   "360237722039211543": {
+      "message": "Drive photos can only be copied and shared"
+   },
+   "3624887810607887590": {
+      "message": "Rotate left"
+   },
+   "3630679964489180566": {
+      "message": "Photo sources"
+   },
+   "3687863378890487189": {
+      "message": "Motion"
+   },
+   "3756864109602975489": {
+      "message": "+1's"
+   },
+   "3759575685100154990": {
+      "message": "Photo import"
+   },
+   "3807699453257291879": {
+      "message": "Comments"
+   },
+   "381101668616382054": {
+      "message": "{NUM_PHOTOS,plural,=0{unused plural form}=1{Click here to view this photo.}other{Click here to view these photos.}}"
+   },
+   "3818348166201769715": {
+      "message": "All your photos"
+   },
+   "3859702527670019826": {
+      "message": "Visible to: $3\u200B$1\u200B$2\u200B"
+   },
+   "3888600924819157294": {
+      "message": "All photos from Messenger."
+   },
+   "3922921387764781187": {
+      "message": "{NUM_ALBUMS,plural,=1{Delete this album}other{Delete albums}}"
+   },
+   "3941295125829029468": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{Rotate selected photo left}other{Rotate selected photos left}}"
+   },
+   "3973931101896534797": {
+      "message": "Date"
+   },
+   "4023731095051291021": {
+      "message": "View on Google+"
+   },
+   "411238991589027838": {
+      "message": "{VIEWER_GENDER,select,female{It looks like you've launched {XXX} from a non-Chrome OS device. Currently, this app is only available on Chrome OS, though you may see the icon on your Chrome browser when using a non-Chrome OS device.}male{It looks like you've launched {XXX} from a non-Chrome OS device. Currently, this app is only available on Chrome OS, though you may see the icon on your Chrome browser when using a non-Chrome OS device.}other{It looks like you've launched {XXX} from a non-Chrome OS device. Currently, this app is only available on Chrome OS, though you may see the icon on your Chrome browser when using a non-Chrome OS device.}}"
+   },
+   "4171359468462795970": {
+      "message": "{NUM_PHOTOS,plural,=1{View imported photo}other{View imported photos}}"
+   },
+   "4270391521204683011": {
+      "message": "{VIEWER_GENDER,select,female{Only you}male{Only you}other{Only you}}"
+   },
+   "4293741535116795213": {
+      "message": "This photo was created using the best smiles in a set of similar photos."
+   },
+   "4310738235832859580": {
+      "message": "{VIEWER_GENDER,select,female{Click to rotate this photo clockwise}male{Click to rotate this photo clockwise}other{Click to rotate this photo clockwise}}"
+   },
+   "4323470180912194028": {
+      "message": "Copy"
+   },
+   "4350850817528648727": {
+      "message": "Visible to only you"
+   },
+   "4384754616332866866": {
+      "message": "Visible to those you shared this album with"
+   },
+   "4397726581488253055": {
+      "message": "Quit"
+   },
+   "4451709539238919902": {
+      "message": "Some photos have multiple copies that will not be deleted."
+   },
+   "4472091515638733183": {
+      "message": "Import stopped"
+   },
+   "4504920004530359010": {
+      "message": "Full size (up to 5GB free storage)"
+   },
+   "4535738935335444945": {
+      "message": "Not shared"
+   },
+   "4557902876984952242": {
+      "message": "Edit"
+   },
+   "4559489968090993500": {
+      "message": "{NUM_ALBUMS,plural,=1{Deleting this album will remove all comments, +1's, and tags associated with the album.}other{Deleting these albums will remove all comments, +1's, and tags associated with the albums.}}"
+   },
+   "4575337223720002806": {
+      "message": "Auto curation"
+   },
+   "4579986716424813115": {
+      "message": "Play from beginning"
+   },
+   "4630251340863502127": {
+      "message": "Uploading imported photos"
+   },
+   "466730294804943734": {
+      "message": "No comments yet."
+   },
+   "467305038295675927": {
+      "message": "$1\u200B is not supported on this platform"
+   },
+   "4688117850199233895": {
+      "message": "$2\u200B of $1\u200B"
+   },
+   "4698389139720209747": {
+      "message": "$2\u200B \u00D7 $1\u200B"
+   },
+   "471816275243265264": {
+      "message": "Location"
+   },
+   "4726999481668064421": {
+      "message": "This HDR photo was created from a set of bracketed exposures."
+   },
+   "4736210244914788712": {
+      "message": "Drive"
+   },
+   "480004418428835822": {
+      "message": "Photos from Messenger"
+   },
+   "4801808167770993381": {
+      "message": "$5\u200BYou're signed in as$2\u200B$7\u200B$6\u200B$4\u200B ($1\u200B)$2\u200B"
+   },
+   "4807648335870186129": {
+      "message": "It's now safe to unplug your device."
+   },
+   "4840335127695898959": {
+      "message": "{VIEWER_GENDER,select,female{Import photos when I plug in a camera or memory card}male{Import photos when I plug in a camera or memory card}other{Import photos when I plug in a camera or memory card}}"
+   },
+   "490326361671237032": {
+      "message": "{NUM_1,plural,=0{0 photos}=1{1 photo}other{{NUM_2} photos}}"
+   },
+   "4930506384627295710": {
+      "message": "Settings"
+   },
+   "495485805564687684": {
+      "message": "Stop importing"
+   },
+   "4999395067418297229": {
+      "message": "{COUNT,plural,=0{Share album}=1{Share selected photo}other{Share selected photos}}"
+   },
+   "5017414689542727124": {
+      "message": "{VIEWER_GENDER,select,female{Click to add photos}male{Click to add photos}other{Click to add photos}}"
+   },
+   "502473459076768333": {
+      "message": "{COUNT_1,plural,=0{unused plural form}=1{{COUNT_2} day selected}other{{COUNT_2} days selected}}"
+   },
+   "5028777105388019087": {
+      "message": "Details"
+   },
+   "5043933900720743682": {
+      "message": "Albums"
+   },
+   "5045200874122539692": {
+      "message": "Exit"
+   },
+   "5056242269330429761": {
+      "message": "{VIEWER_GENDER,select,female{Upload some photos to get started.}male{Upload some photos to get started.}other{Upload some photos to get started.}}"
+   },
+   "5079630520292777193": {
+      "message": "$1\u200Bmm"
+   },
+   "5082043360618330543": {
+      "message": "Your domain"
+   },
+   "5087678602655068553": {
+      "message": "Camera"
+   },
+   "5094793857629325945": {
+      "message": "Preparing to share..."
+   },
+   "5114432207766092038": {
+      "message": "All photos from all posts."
+   },
+   "5114676767321050583": {
+      "message": "{NUM_PHOTOS,plural,=1{Deleting this photo will remove all comments, +1's, and tags associated with the photo.}other{Deleting these photos will remove all comments, +1's, and tags associated with the photos.}}"
+   },
+   "5127852906617233988": {
+      "message": "Close"
+   },
+   "5142608684030389550": {
+      "message": "{VIEWER_GENDER,select,female{Your circles}male{Your circles}other{Your circles}}"
+   },
+   "5143227875710959810": {
+      "message": "Share album"
+   },
+   "5155831717991025570": {
+      "message": "{GENDER,select,female{From {FROM_NAME}}male{From {FROM_NAME}}other{From {FROM_NAME}}}"
+   },
+   "5179193375793315549": {
+      "message": "You cannot add more than $1\u200B photos at a time."
+   },
+   "5208577007102380716": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{View photo}other{View photos}}"
+   },
+   "5221708890224721122": {
+      "message": "{VIEWER_GENDER,select,female{Please sign in to Chrome to start uploading photos.}male{Please sign in to Chrome to start uploading photos.}other{Please sign in to Chrome to start uploading photos.}}"
+   },
+   "5252008443782667515": {
+      "message": "Yes"
+   },
+   "5310390699173478629": {
+      "message": "{NUM_ADDITIONAL_COPIES_1,plural,=1{There is 1 additional copy that will not be deleted.}other{There are {NUM_ADDITIONAL_COPIES_2} copies that will not be deleted.}}"
+   },
+   "5369958865776447504": {
+      "message": "This photo is in the album \"$1\u200B.\""
+   },
+   "5376084340764125422": {
+      "message": "Exit fullscreen"
+   },
+   "5392482057506331601": {
+      "message": "ISO"
+   },
+   "5404253870701803927": {
+      "message": "Mix"
+   },
+   "5429439352984579915": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "5438842342016861353": {
+      "message": "Try again"
+   },
+   "545081735380424772": {
+      "message": "Upload and share photos from Chrome"
+   },
+   "5467399875821461358": {
+      "message": "Delete photos"
+   },
+   "5532763264807944616": {
+      "message": "{VIEWER_GENDER,select,female{Overexposed}male{Overexposed}other{Overexposed}}"
+   },
+   "554412557808883595": {
+      "message": "{NUM_PHOTOS_1,plural,=0{unused plural form}=1{1 photo copied!}other{{NUM_PHOTOS_2} photos copied!}}"
+   },
+   "5546339789714773759": {
+      "message": "Rotate right"
+   },
+   "5578272636907148135": {
+      "message": "{VIEWER_GENDER,select,female{Click to remove this photo}male{Click to remove this photo}other{Click to remove this photo}}"
+   },
+   "5649128086315812334": {
+      "message": "{PICKED_COUNT_1,plural,=0{unused plural form}=1{{START_BOLD}1{END_BOLD} best photo selected by Google.}other{{START_BOLD}{PICKED_COUNT_2}{END_BOLD} best photos selected by Google.}}"
+   },
+   "5746809345784803206": {
+      "message": "No one is tagged in this album."
+   },
+   "5750062244377347370": {
+      "message": "You cannot share more than $1\u200B photos at a time."
+   },
+   "5750485945694679561": {
+      "message": "Photo"
+   },
+   "5752465522295465624": {
+      "message": "What's this?"
+   },
+   "5782608665556323710": {
+      "message": "Shared with extended circles"
+   },
+   "5796906609708591180": {
+      "message": "{NUM_PHOTOS,plural,=1{Delete this photo}other{Delete photos}}"
+   },
+   "5849125517299342831": {
+      "message": "Importing photos..."
+   },
+   "5851872412594366640": {
+      "message": "Move all photos in album"
+   },
+   "585220835732140655": {
+      "message": "Shared on $1\u200B"
+   },
+   "5893769354597290290": {
+      "message": "{NUM_PHOTOS_1,plural,=1{1 photo that was already imported will still be uploaded.}other{{NUM_PHOTOS_2} photos that were already imported will still be uploaded.}}"
+   },
+   "591256046515963756": {
+      "message": "Never lose a memory. Access your photos at any time from any device."
+   },
+   "5937251202465808296": {
+      "message": "More"
+   },
+   "5978216065275630477": {
+      "message": "We had trouble signing you in to Google+ Photos."
+   },
+   "5981779462795520309": {
+      "message": "Recipients of the original posts"
+   },
+   "6003032126642624287": {
+      "message": "Full size (up to 5.0GB free storage)"
+   },
+   "605360614133602045": {
+      "message": "am"
+   },
+   "612521550010808115": {
+      "message": "Visible to anyone on the web"
+   },
+   "6250697253024491514": {
+      "message": "OK"
+   },
+   "6261406176927621365": {
+      "message": "Delete photo"
+   },
+   "6366245138858985671": {
+      "message": "Album for scrapbook photos."
+   },
+   "6401957111096629769": {
+      "message": "{VIEWER_GENDER,select,female{Click to rotate this photo counterclockwise}male{Click to rotate this photo counterclockwise}other{Click to rotate this photo counterclockwise}}"
+   },
+   "6405254665227516714": {
+      "message": "All profile photos."
+   },
+   "6433258058048120601": {
+      "message": "{VIEWER_GENDER,select,female{You can't select other people's photos}male{You can't select other people's photos}other{You can't select other people's photos}}"
+   },
+   "6544829965377284375": {
+      "message": "These photos are uploaded privately to Google+ and are only visible to you."
+   },
+   "6569718559670589774": {
+      "message": "Shared privately"
+   },
+   "6594379652661172876": {
+      "message": "This photobooth-style picture was created from multiple portraits."
+   },
+   "6626842519109915669": {
+      "message": "Photos from Auto Backup"
+   },
+   "663126026358360455": {
+      "message": "Standard (unlimited free storage)"
+   },
+   "6642753526731255153": {
+      "message": "{NUM_PHOTOS_1,plural,=0{unused plural form}=1{1 photo added and ready to share!}other{{NUM_PHOTOS_2} photos added and ready to share!}}"
+   },
+   "664682826251689034": {
+      "message": "No +1's yet."
+   },
+   "666585356635427967": {
+      "message": "This photo was enhanced automatically."
+   },
+   "6698080327673689103": {
+      "message": "Finding best shots..."
+   },
+   "6721868124884562992": {
+      "message": "Gather the photos from all your devices in one place."
+   },
+   "6747166642870870925": {
+      "message": "Stopping import..."
+   },
+   "675159243189607951": {
+      "message": "Add photo to album"
+   },
+   "6792549611288275870": {
+      "message": "Focal Length"
+   },
+   "684840724754877535": {
+      "message": "{NUM_PHOTOS_1,plural,=0{unused plural form}=1{in {NUM_PHOTOS_2} photo}other{in {NUM_PHOTOS_2} photos}}"
+   },
+   "6872759799605876555": {
+      "message": "F Number"
+   },
+   "6906406658770551379": {
+      "message": "This animation was created from a burst of five or more photos."
+   },
+   "6983200894459150878": {
+      "message": "This panorama was created from a set of overlapping photos."
+   },
+   "7049887240439736400": {
+      "message": "Print"
+   },
+   "7102649289752747375": {
+      "message": "Send feedback"
+   },
+   "7182974689040833178": {
+      "message": "Resume"
+   },
+   "7190442832820405949": {
+      "message": "{VIEWER_GENDER,select,female{Your domain}male{Your domain}other{Your domain}}"
+   },
+   "724829812644820519": {
+      "message": "$4\u200BYou're signed in as$1\u200B$6\u200B$5\u200B$3\u200B$1\u200B"
+   },
+   "7329217250595054697": {
+      "message": "Original"
+   },
+   "734934965373819800": {
+      "message": "Go back"
+   },
+   "7369759355127489779": {
+      "message": "HDR"
+   },
+   "7390076501944848314": {
+      "message": "{GENDER,select,female{Tagged in: {ALBUM_NAME}}male{Tagged in: {ALBUM_NAME}}other{Tagged in: {ALBUM_NAME}}}"
+   },
+   "739391781989434686": {
+      "message": "Add photos"
+   },
+   "7419704019640008953": {
+      "message": "Share"
+   },
+   "7435958322934097718": {
+      "message": "{VIEWER_GENDER,select,female{Best}male{Best}other{Best}}"
+   },
+   "7438281275357609024": {
+      "message": "{VIEWER_GENDER,select,female{Welcome to {XXX}}male{Welcome to {XXX}}other{Welcome to {XXX}}}"
+   },
+   "7439652323253850025": {
+      "message": "Reconnect to view all photos and albums."
+   },
+   "7469079642067482164": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{Rotate selected photo right}other{Rotate selected photos right}}"
+   },
+   "7563158691665399627": {
+      "message": "{COUNT_1,plural,=0{No photos selected}=1{{COUNT_2} photo selected}other{{COUNT_2} photos selected}}"
+   },
+   "7649598852815041947": {
+      "message": "New album"
+   },
+   "7677669941581940117": {
+      "message": "Google+"
+   },
+   "768231197058223561": {
+      "message": "{NUM_PHOTOS_1,plural,=0{unused plural form}=1{1 photo from {FOLDER_NAME} added and ready to share!}other{{NUM_PHOTOS_2} photos from {FOLDER_NAME} added and ready to share!}}"
+   },
+   "7711373991730004597": {
+      "message": "$1\u200B views"
+   },
+   "7718742267235559288": {
+      "message": "Exit Fullscreen"
+   },
+   "7736850283853703249": {
+      "message": "Stored safely"
+   },
+   "7736894743522697089": {
+      "message": "Pano"
+   },
+   "779808899645033177": {
+      "message": "Last Import ($1\u200B)"
+   },
+   "7811971308408477620": {
+      "message": "Only you"
+   },
+   "7828808805120058354": {
+      "message": "Revert"
+   },
+   "7871095434511949009": {
+      "message": "Aperture"
+   },
+   "7878683391269298756": {
+      "message": "{VIEWER_GENDER,select,female{Select sources from which photos are imported and uploaded privately to Google+.}male{Select sources from which photos are imported and uploaded privately to Google+.}other{Select sources from which photos are imported and uploaded privately to Google+.}}"
+   },
+   "7882304909632794251": {
+      "message": "{VIEWER_GENDER,select,female{Click to select or deselect this photo}male{Click to select or deselect this photo}other{Click to select or deselect this photo}}"
+   },
+   "7899751896282337632": {
+      "message": "Enhanced"
+   },
+   "7911416166208830577": {
+      "message": "Help"
+   },
+   "8031489364030461560": {
+      "message": "Set Up $1\u200B"
+   },
+   "8137181364321684389": {
+      "message": "Google+ Photos"
+   },
+   "8170477015887093293": {
+      "message": "{COUNT,plural,=0{unused plural form}=1{Add selected photo to album}other{Add selected photos to album}}"
+   },
+   "819996403327805209": {
+      "message": "Learn more"
+   },
+   "8257098748764064209": {
+      "message": "{VIEWER_GENDER,select,female{Worse duplicate}male{Worse duplicate}other{Worse duplicate}}"
+   },
+   "8262372758945437018": {
+      "message": "Get Started"
+   },
+   "8274541876455385064": {
+      "message": "Smile"
+   },
+   "8317910107005018559": {
+      "message": "Less"
+   },
+   "8324963774100913509": {
+      "message": "Limited"
+   },
+   "833971648913836585": {
+      "message": "{VIEWER_GENDER,select,female{Enter album name}male{Enter album name}other{Enter album name}}"
+   },
+   "8405309693308875139": {
+      "message": "Photos"
+   },
+   "840692109692540367": {
+      "message": "Sign In"
+   },
+   "8418580476552799567": {
+      "message": "Upload size"
+   },
+   "8468663062047239482": {
+      "message": "$2\u200B Version $1\u200B"
+   },
+   "8488064700885943298": {
+      "message": "{VIEWER_GENDER,select,female{{COUNT_1,plural,=0{Some photo(s) are waiting to upload. Reconnect to upload and share!}=1{You have {START_BOLD}1{END_BOLD} photo waiting to upload. Reconnect to upload and share!}other{You have {START_BOLD}{COUNT_2}{END_BOLD} photos waiting to upload. Reconnect to upload and share!}}}male{{COUNT_1,plural,=0{Some photo(s) are waiting to upload. Reconnect to upload and share!}=1{You have {START_BOLD}1{END_BOLD} photo waiting to upload. Reconnect to upload and share!}other{You have {START_BOLD}{COUNT_2}{END_BOLD} photos waiting to upload. Reconnect to upload and share!}}}other{{COUNT_1,plural,=0{Some photo(s) are waiting to upload. Reconnect to upload and share!}=1{You have {START_BOLD}1{END_BOLD} photo waiting to upload. Reconnect to upload and share!}other{You have {START_BOLD}{COUNT_2}{END_BOLD} photos waiting to upload. Reconnect to upload and share!}}}}"
+   },
+   "8566172133042307539": {
+      "message": "Add to album"
+   },
+   "8588705294225487286": {
+      "message": "Visible to the recipients of the original posts"
+   },
+   "860495115682635993": {
+      "message": "{VIEWER_GENDER,select,female{Choose full size backups of your photos or smaller standard sized uploads that are free.}male{Choose full size backups of your photos or smaller standard sized uploads that are free.}other{Choose full size backups of your photos or smaller standard sized uploads that are free.}}"
+   },
+   "8654290347345927684": {
+      "message": "It's now safe to unplug your device, $1\u200B."
+   },
+   "8667344331777400219": {
+      "message": "Select best"
+   },
+   "8675112326850410714": {
+      "message": "Memory card or storage device attached"
+   },
+   "8712654963843890123": {
+      "message": "{VIEWER_GENDER,select,female{You are currently not connected to the Internet.}male{You are currently not connected to the Internet.}other{You are currently not connected to the Internet.}}"
+   },
+   "8759519761443041119": {
+      "message": "Save settings"
+   },
+   "8765880467977864647": {
+      "message": "by $2\u200B$3\u200B$1\u200B"
+   },
+   "8832933617217959986": {
+      "message": "Unselect all"
+   },
+   "8874739581425612284": {
+      "message": "Select photos to share or add to album"
+   },
+   "8928816882866356838": {
+      "message": "Public"
+   },
+   "8956208379747661986": {
+      "message": "{COUNT,plural,=0{Delete album}=1{Delete selected photo}other{Delete selected photos}}"
+   },
+   "8984549175557747262": {
+      "message": "Video processing..."
+   },
+   "8997897914694235678": {
+      "message": "{VIEWER_GENDER,select,female{Underexposed}male{Underexposed}other{Underexposed}}"
+   },
+   "8998179362936748717": {
+      "message": "OK"
+   },
+   "9013643635142116580": {
+      "message": "Shared with domain"
+   },
+   "9042260521669277115": {
+      "message": "Pause"
+   },
+   "9052074513901572305": {
+      "message": "{VIEW_COUNT_1,plural,=0{0 total views}=1{1 total view}other{{VIEW_COUNT_2} total views}}"
+   },
+   "923534599482814896": {
+      "message": "{NUM_PHOTOS_1,plural,=0{}=1{1 photo was already uploaded in a previous session.}other{{NUM_PHOTOS_2} photos were already uploaded in a previous session.}}"
+   },
+   "952996748307729023": {
+      "message": "{COUNT_1,plural,=0{unused plural form}=1{Successfully imported and uploaded {START_BOLD}1{END_BOLD} photo.}other{Successfully imported and uploaded {START_BOLD}{COUNT_2}{END_BOLD} photos.}}"
+   },
+   "956660802168844931": {
+      "message": "{VIEWER_GENDER,select,female{To get the most out of {XXX}, set it up so that it automatically imports your photos.}male{To get the most out of {XXX}, set it up so that it automatically imports your photos.}other{To get the most out of {XXX}, set it up so that it automatically imports your photos.}}"
+   },
+   "965705696798803036": {
+      "message": "{COUNT,plural,=0{Move all photos in album}=1{Move selected photo}other{Move selected photos}}"
+   }
+}

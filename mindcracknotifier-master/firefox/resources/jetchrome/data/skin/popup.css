@@ -1,0 +1,39 @@
+body {
+	font-size:13px;
+	max-width:300px;
+	text-align:center;
+}
+
+body>* {
+	display:inline-block;
+	vertical-align:top;
+	white-space:normal;
+}
+
+#content {
+	margin-right:8px;
+}
+
+#icon {
+	max-width:48px;
+	max-height:48px;
+	vertical-align:middle;
+}
+
+#icon:not([src]) {
+	display:none;
+}
+
+#description {
+	display:none;
+}
+
+
+
+
+#title {
+	font-weight:bold;
+	white-space:nowrap;
+	max-width:200px;
+	text-overflow:ellipsis;
+}

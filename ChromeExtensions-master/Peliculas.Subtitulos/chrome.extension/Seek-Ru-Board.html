@@ -1,0 +1,191 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link   rel="stylesheet" href="style/jquery-ui-1.8.21.custom.css"  type="text/css" media="all">
+		<link   rel="stylesheet" href="style/content.css"    type="text/css" media="all">
+		<script src='js/jquery.min.js'></script>
+		<script src='js/jquery-ui.min.js'></script>
+		<script src="js/jquery.xdomainajax.js"></script>
+		<script src="js/content.js"></script>
+		<script src="autocomplete/jquery.ui.autocomplete.autoSelect.js"></script>
+		<script src="autocomplete/jquery.ui.autocomplete.accentFolding.js"></script>
+		<style>
+			input.ui-button { padding: .4em 1em; }
+			.ui-widget { font-family: Segoe UI, Arial, sans-serif; font-size: 0.7em; }		
+		</style>
+		
+	</head>
+	<body>
+		<!-- div>
+			<span class='subtitle'>Busqueda y descarga de Torrents</span>
+			<TABLE>
+				<tr>
+					<td style='width:80%;text-align:right;'>
+						<span class='legend'>Busqueda :</span>
+					</td>
+					<td>
+						<input type="text" class='imput-text' id="txt1" name="txt1" size="40" placeholder='Detalle de la busqueda'/>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<span class='subtitle'>Busqueda y descarga de Torrents</span>
+			<table style='width: 50%;text-align: center;margin-left: 25%;margin-right: 25%;'>
+				<tr>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="Usniff"     onClick="Go2('http://usniff.com/q/'+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="IsoHunt"    onClick="Go2('http://isohunt.com/torrents/?ihq='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="Mininova"   onClick="Go2('http://www.mininova.org/search/?search='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="YouTorrent" onClick="Go2('http://www.youtorrent.com/tag/?q='+txt1.value,txt1.value);">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="Torrentz"   onClick="Go2('http://www.torrentz.com/search?q='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="Monova"     onClick="Go2('http://www.monova.org/search.php?term='+txt1.value+'&cat=0',txt1.value);"><br>
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="BTmon"      onClick="Go2('http://www.btmon.com/torrent/'+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="Meganova"   onClick="Go2('http://www.meganova.org/search.php?search='+txt1.value,txt1.value);">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="TPortal"    onClick="Go2('http://torrentportal.com/torrents-search.php?search='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="TReactor"   onClick="Go2('http://torrentreactor.net/search.php?search=&words='+txt1.value+'&cid=0',txt1.value);">
+					</td>
+					<td>
+						<input type="button" class='bt' name="tipo1" value="BTorrent"   onClick="Go2('http://www.bittorrent.am/search.php?kwds='+txt1.value+'&cat=5&x=0&y=0',txt1.value);">
+					</td>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div>
+			<span class='subtitle'>Hacks</span>
+			<table style='width: 50%;text-align: center;margin-left: 25%;margin-right: 25%;'>
+				<tr>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Ru-Board" onClick="Go2('http://forum.ru-board.com/forums.cgi?action=filter&forum=35&filterby=topictitle&word='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="FileMirrors" onClick="Go2('http://www.filemirrors.com/search.src?file='+txt1.value,txt1.value);">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Proisk-RU" onClick="Go2('http://proisk.ru/?q='+txt1.value+'&page=1',txt1.value);">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Anonymz URL" onClick="Go2('http://www.anonymz.com/?http://'+txt1.value,txt1.value);">
+					</td>
+				<tr>
+			</table>
+		</div -->
+
+		<div style='width: 550px;'>
+			<span class='subtitle'>TV Series</span>
+			<table style='width: 80%;text-align: center;margin-left: 10%;'>
+				<tr>
+					<td colspan=5 style='text-align: left;'>
+						<div class="ui-widget">
+							<label for="tagsSubtitulosES"><span class='legend'>Subtitulos.es serie :</span></label>
+							<input id="tagsSubtitulosES" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" onclick='this.select();' placeholder='Nombre de la serie'>
+
+							<label for="tagsEZTV"><span class='legend'>EZTV Shows :</span></label>
+							<input id="tagsEZTV" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" onclick='this.select();' placeholder='Nombre de la serie'>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Calendario" onClick="Go('http://next-episode.net/calendar/');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="EZTV" onClick="Go('http://eztv.it');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Subtitulos.es" onClick="Go('http://subtitulos.es');">	
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Solo Subtitulos" onClick="Go('http://www.solosubtitulos.com');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="SubDivx" onClick="Go('http://www.subdivx.com/index.asp');">
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- span class='separator' style=''></span>		
+		
+		<div>
+			<span class='subtitle'>Webs Externas</span>
+			<table style='width: 99%;text-align: center;'>
+				<tr>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="I. Virtuales" onClick="Go('http://www.intercambiosvirtuales.org/');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Neoteo" onClick="Go('http://www.neoteo.com/');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="LifeHacker" onClick="Go('http://lifehacker.com');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="gHackes" onClick="Go('http://www.ghacks.net');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Metacefe" onClick="Go('http://www.metacafe.com');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Sun Alert" onClick="Go('http://www.security-database.com/view-all.php?year=All&month=All&day=All&sev=High&type=Sun');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Milw0rm" onClick="Go('http://www.milw0rm.com');">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Frsirt" onClick="Go('http://www.frsirt.com/english');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Hispasec" onClick="Go('http://www.hispasec.com/rss/unaaldia.xml');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Security Focus" onClick="Go('http://www.securityfocus.com/vulnerabilities');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Softarchive" onClick="Go('http://softarchive.net');">
+					</td>
+					<td>
+						<input class='bt' type="button" name="tipo1" value="Fixdown" onClick="Go('http://www.fixdown.com/english/');">
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</div -->
+		<div class='footer' style='margin-top:1em;'>&copy; 2012 by Germen</div>
+		<span style='text-align:center;display:block;margin-top: -5px;'>
+			<span id='idUpdated' style='font-size: 0.7em;color:red;'>xx/xx/xxxx xx:xx:xx</span>
+		</span>
+	</body>
+</html>

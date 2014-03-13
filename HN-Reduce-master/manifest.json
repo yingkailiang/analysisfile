@@ -1,0 +1,14 @@
+{
+  "name": "Hacker News Story Reduce",
+  "version": "1.0",
+  "background_page": "background.html",
+  "options_page": "options.html",
+  
+  "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/", "http://news.ycombinator.com/news", "http://news.ycombinator.com/newest", "http://news.ycombinator.com/best", "http://news.ycombinator.com/active", "http://news.ycombinator.com/noobstories", "http://news.ycombinator.com/ask", "http://news.ycombinator.com/x*"],
+      "js": ["hnreduce.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[submodule "code/IE/Magpie"]
+	path = code/IE/Magpie
+	url = git@github.com:salsita/Magpie.git
+[submodule "code/IE/libprothandlers"]
+	path = code/IE/libprothandlers
+	url = git@github.com:salsita/libprothandlers.git
+[submodule "code/IE/libbhohelper"]
+	path = code/IE/libbhohelper
+	url = git@github.com:salsita/libbhohelper.git
+[submodule "code/IE/passthruapp"]
+	path = code/IE/passthruapp
+	url = git@github.com:salsita/passthruapp.git
+[submodule "code/IE/zlib"]
+	path = code/IE/zlib
+	url = git@github.com:madler/zlib.git

@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Mindcrack Notifier</title>
+    <style>
+	  /* General Stuff */
+	  * {
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+	  }
+      body {
+        min-width: 400px;
+		height: 420px;
+        overflow-x: hidden;
+		margin: 0;
+		padding: 0;
+		font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+      }
+	  a {
+		  text-decoration: none;
+		  color: #333;
+	  }
+	  a:hover {
+		  color: #000;
+	  }
+	  
+	  
+	  /* Header and footer */
+	  header {
+		position: fixed;
+		top: 0;
+		left: 0;  
+		height: 46px;
+		width: 400px;
+	  }
+	  footer {
+		  position: fixed;
+		  bottom: 0;
+		  left: 0;
+		  height: 30px;
+		  width: 380px;
+		  border-top: 1px solid #000;
+		  padding-left: 10px;
+		  padding-right: 10px;
+	  }
+	  header figure {
+		  margin: 0;
+		  margin-top: 5px;
+		  border-bottom: 1px solid #000;
+	  }
+	  header figure img {
+		  margin-left: -20px;
+	  }
+	  footer span {
+		  font-size: 12px;
+		  line-height: 30px;  
+	  }
+	  .left {
+		  float: left;
+	  }
+	  .right {
+		  float: right;
+	  }
+	  .hide {
+		  display: none;
+	  }
+	  
+	  /* Main Section */
+	  .main, .twitter {
+		  margin-top: 56px;
+		  height: 390px;
+		  width: 400px;
+		  overflow-x: hidden;
+		  overflow-y: scroll;
+		  display: none;
+	  }
+	  
+	  /* Article Stuff */
+	  .main article {
+		  height: 70px;
+		  width: 400px;
+		  background-color: rgb(70, 70, 70);
+		  border-bottom: 1px solid rgb(54,54,54);
+	  }
+	  .main article:hover {
+		  background-color: rgb(90, 90, 90);
+	  }
+	  .twitter article {
+		  height: auto;
+		  width: 400px;
+		  background-color: rgb(70, 70, 70);
+		  border-bottom: 1px solid rgb(54,54,54);
+	  }
+	  .twitter article:hover {
+		  background-color: rgb(90, 90, 90);
+	  }
+	  .main .details {
+		  width: 264px;
+		  float: right;
+		  padding-top: 8px;
+		  padding-right: 4px;
+	  }
+	  .twitter .details {
+		  width: 320px;
+		  float: right;
+		  padding-top: 8px;
+		  padding-bottom: 8px;
+		  padding-right: 25px;
+	  }
+	  .twitter h1 {
+		  margin-left: -40px;
+		  font-weight: 300;
+	  }
+	  h1 {
+		  font-size: 16px;
+		  color: #FFF;
+	  }
+	  h2 {
+		  font-size: 12px;
+		  font-weight: 300;
+		  color: #999;
+	  }
+	  .twitter h2 {
+		  margin-bottom: 14px;
+	  }
+	  h3 {
+		  font-size: 14px;
+		  color: #FFF;
+	  }
+	  .ytimg {
+		  width: 128px;
+		  height: 70px;
+		  overflow: hidden;
+		  float: left;
+	  }
+	  .ytimg img {
+		  height: 93px;
+		  margin-top: -12px;
+	  }
+	  .twitterimg {
+		  float: left;
+	  }
+	  .twitterimg img {
+		  height: 48px;
+	  }
+	  .twitterbutton, .youtubebutton {
+		  position: absolute;
+		  top: 14px;
+		  right: 16px;
+		  display: none;
+	  }
+	  .clear {
+		  clear: both;
+	  }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+     <base target="_blank">
+     <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+     <script type="text/javascript" src="mindcrack.js"></script>
+  </head>
+  <body>
+  	<header>
+    	<figure>
+        	<img src="biglogo.png" />
+        </figure>
+        <img class="twitterbutton" src="twitter_small.png" /></a>
+        <img class="youtubebutton" src="youtube_small.png" /></a>
+    </header>
+    
+    <section class="main">
+    </section>
+    
+    <section class="twitter">
+    </section>
+    
+    <footer>
+    	<span class="left"><a href="http://www.aubronwood.com">Made by Aubron Wood</a> <a class="hide" href="http://www.viralblog.com/wp-content/uploads/2011/07/dead-horse1.jpg" target="_blank">Etho</a></span>
+        <span class="right"><a href="http://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7QXFQA4T7W23U">Donate</a></span>
+    </footer>
+  </body>
+</html>
+

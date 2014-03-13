@@ -1,0 +1,20 @@
+- if (typeof page_count !== "undefined" && page_count > 1)
+    div.pagination
+        - if (page_current > 1)
+            a(href="#{page_base_url}/#{page_current - 1}").js_link
+                button.prev Prev
+        - else
+            button(disabled).prev Prev
+        span.page_numbers
+            - for (var i = 1; i <= page_count; i++) {
+                - if (i !== page_current)
+                    a(href="#{page_base_url}/#{i}").js_link
+                        button #{i}
+                - else
+                    button(disabled) #{i}
+            - }
+        - if (page_current < page_count)
+            a(href="#{page_base_url}/#{page_current + 1}").js_link
+                button.next Next
+        - else
+            button(disabled).next Next

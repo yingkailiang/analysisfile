@@ -1,0 +1,28 @@
+.login-page{background:url(../img/login-bg-2.png) repeat;}
+.login-main{width:395px; margin:0 auto; position:relative;}
+.login-main h1{text-align:center;margin-bottom:20px; height:55px;}
+.login-module-wrap{background:url(../img/login-mod-bg.png) no-repeat center top; padding-top:10px;}
+.login-module{width:385px; padding:16px 5px 26px;background:url(../img/login-mod-bg.png) no-repeat center bottom;}/*border-radius:5px; box-shadow:0 0 5px #C8C8C8;*/
+.login-module .login-error{color:#E65455; background:#FFFADE url(../img/icon-warning.png) no-repeat 5px center; border:1px solid #EFE298; padding:5px 5px 5px 25px;height:16px; line-height:16px; width:275px; margin:0 auto 20px;}
+.login-module .form-field{margin:0 40px; position:relative; height:46px; margin-bottom:20px;}
+.login-module .form-field .label{height:20px; line-height:20px; font-size:14px; color:#CCC;position:absolute; top:13px; left:23px;}
+.login-module .form-field .label label{ cursor:text;}
+.login-module .form-field .input-txt{height:16px; line-height:16px; width:231px; padding:12px 50px 13px 20px; border:1px solid #C1C1C1;border-radius:3px; box-shadow:0 0 3px #ccc inset; outline:none; background:url(../img/login-sprite.png) no-repeat;}
+.login-module .form-field .input-txt:focus{border:1px solid #A6D3FF; box-shadow:0 0 5px #90B6DC;}
+.login-module .mail .input-txt{background-position:265px -180px;}
+.login-module .pass .input-txt{background-position:265px -225px;}
+.login-module .validate .ipt{display:inline-block; vertical-align: middle;*display:inline; zoom:1;}
+.login-module .validate .code{display:inline-block; vertical-align:middle;*display:inline; zoom:1;}
+.login-module .validate .code img{vertical-align:middle;}
+.login-module .validate .input-txt{background:url(../img/a.gif); width:50px;}
+.login-module .remember{height:18px; line-height:18px; overflow:hidden; zoom:1;}
+.login-module .remember .ipt label{cursor:pointer; vertical-align:middle;}
+.login-module .remember span{float:left;}
+.login-module .remember .reset{float:right; color:#36A7F4;}
+.login-module .submit-btn{display:inline-block; height:45px; width:305px; border:0; cursor:pointer; color:#FFF; font-size:18px; background:url(../img/login-sprite.png) no-repeat;}
+.login-module .submit-btn:hover{background-position:0 -45px;}
+.login-module .submit-btn:active{background-position:0 -90px;}
+.login-module .submit-btn-disabled,
+.login-module .submit-btn-disabled:hover,
+.login-module .submit-btn-disabled:active{background-position:0 -135px; cursor:default; color:#C8C8C8;}
+.login-footer{position:absolute; bottom:25px;width:100%; text-align:center; color:#AFAFAF;}

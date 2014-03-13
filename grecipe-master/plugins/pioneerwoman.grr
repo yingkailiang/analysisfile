@@ -1,0 +1,118 @@
+/***********************************************************************
+ * 
+ *     This file is part of gRecipes.
+ *
+ *     gRecipes is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     gRecipes is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *     You should have received a copy of the GNU General Public License
+ *     along with gRecipes.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ **********************************************************************/
+
+{
+	"name": "Pioneer Woman",
+	"author": "Jim <cutiger02@gmail.com> and William T. Olson",
+	"version": "1.0",
+	"url": "http://thepioneerwoman.com/cooking/*",
+	
+	hasRecipe: function() {
+		return !!$('[itemtype="http://data-vocabulary.org/Recipe"]').size();
+	},
+  
+	getName: function() {
+		return $('[itemprop="name"]').first().text().reduce();
+	},
+  
+  getPhoto: function() {
+    var photo = $('[itemprop="photo"]');
+    return (photo.size()) ? {
+      src: photo.get(0).src,
+      alt: photo.get(0).alt,
+      title: photo.get(0).title,
+    } : undefined;
+  },
+  
+  getPublished: function() {
+    var time = $('[itemprop="published"]');
+    return (time.size()) ? {
+      "value": time.attr("datetime").reduce(),
+    } : undefined;
+  },
+
+  getYield: function() { // yeild is a reserved word!!!
+    var y = $('[itemprop="yield"]').first();
+    return (y.size()) ? y.text().reduce() : undefined;
+  },
+  
+  getSummary: function() {
+    var summary = $('[itemprop="summary"]');
+    return (summary.size()) ? summary.html().reduce() : undefined;
+  },
+
+  getCookTime: function() {
+    var time = $('[itemprop="cookTime"]').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": time.attr("datetime")
+    } : undefined;
+  },
+  
+  getPrepTime: function() {
+    var time = $('[itemprop="prepTime"]').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": time.attr("datetime")
+    } : undefined;
+  },
+  
+  getTotalTime: function() {
+    var time = $('[itemprop="duration"]').first();
+    return (time.size()) ? {
+      "value": time.text().reduce(),
+      "value-title": time.attr("datetime")
+    } : undefined;
+  },
+  
+  getInstructions: function() {
+    
+    var instructions = $('[itemprop="instructions"]').children('p');
+    if (!instructions.size()) {return undefined;};
+    
+    instructions = instructions.map(function() {
+      return this.textContent.reduce();
+    }).get().filter(function(item) {
+      return !item.empty();
+    });
+
+    return {section: {instruction: instructions}};
+  },
+  
+  getIngredients: function() {
+    var ingredients = $('[itemprop="ingredient"]');
+
+    if (!ingredients.size()) {return undefined;}
+
+    var ingredients = ingredients.get().filter(function(item) {
+      return !item.textContent.empty();
+    }).map(function(item) {
+      return item.textContent.reduce();
+    });
+    
+    return (ingredients.length) ? {
+      section: {ingredient: ingredients}
+    } : undefined;
+  },
+  
+  getAuthor: function() {
+    var author = $('[itemprop="author"]').first();
+    return (author.size()) ? author.text().reduce() : undefined;
+  }
+}

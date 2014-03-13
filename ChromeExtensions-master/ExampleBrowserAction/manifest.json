@@ -1,0 +1,11 @@
+{
+  "name"   : "ExampleBrowserAction",
+  "version": "1.0",
+  "description": "This is an example browser action",
+  "browser_action": {
+    "default_icon" : "ExampleBrowserAction.png",
+    "default_title": "ExampleBrowserAction",
+    "default_popup": "ExampleBrowserAction.html"
+  },
+  "manifest_version": 2
+}

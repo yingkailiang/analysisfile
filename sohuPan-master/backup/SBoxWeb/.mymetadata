@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SBoxWeb"
+  id="myeclipse.1334548445916"
+  context-root="/SBoxWeb"
+  j2ee-spec="5.0"
+  archive="SBoxWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

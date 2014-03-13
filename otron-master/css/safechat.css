@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    overflow: hidden;
+
+    font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+    font-size: 11px;
+}
+
+.overlay {
+    position: absolute;
+    height: 259px;
+    width: 260px;
+
+    top: 0;
+    left: 0;
+
+    background-color: #f2f2f2;
+    opacity: 0.8;
+
+    text-align: center;
+
+    z-index: 100;
+}
+.loading {
+    background-image: url("../img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+button {
+    background-color: #5b74a8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 8px;
+    cursor: pointer;
+}
+button:active {
+    background: #4f6aa3;
+    border-bottom-color: #29447e;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.trust {
+    position: absolute;
+    top: 0px;
+    height: 28px;
+    width: 100%;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.trust:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(242, 242, 242, 0.9);
+    pointer-events: none;
+}
+
+.trust .icon {
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 9px;
+    height: 9px;
+}
+.icon.circle {
+    border-radius: 6px;
+    margin-top: -1px;
+    border: 1px solid rgb(176, 114, 19);
+}
+
+.trust .fingerprint {
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    border-bottom: 1px gray dotted;
+}
+
+#new .fingerprint, #seen .fingerprint {
+    color: rgb(176, 114, 19);
+    border-color: rgb(176, 114, 19);
+}
+#unseen .fingerprint {
+    color: red;
+    border-color: red;
+}
+
+.tip-token {
+    display: inline-block;
+    background-size: contain;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.verify {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+#messages {
+    position: absolute;
+    top: 29px;
+    bottom: 25px;
+
+    padding-top: 4px;
+    width: 100%;
+
+    background-color: rgb(237, 239, 244);
+
+    overflow-y: auto;
+}
+
+.row {
+    min-height: 33px;
+    overflow: auto;
+    position: relative;
+}
+
+.profilePhoto {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 4px;
+}
+
+.token {
+    background-size: contain;
+    position: absolute;
+    opacity: 0.1;
+    margin-left: -5px;
+    margin-top: -3px;
+    pointer-events: none;
+}
+
+.message {
+    background-color: #f7f7f7;
+
+    border: 1px solid rgba(0, 0, 0, .18);
+    border-bottom-color: rgba(0, 0, 0, .29);
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 0 #dce0e6;
+
+    margin: 0px 5px 5px 45px;
+    padding: 4px 6px 3px 5px;
+    float: left;
+
+    color: #3e454c;
+    line-height: 1.28;
+    text-align: left;
+    text-shadow: rgba(255, 255, 255, .5) 0 1px 0;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;
+
+    max-width: 157px;
+}
+
+.message:not(.own):not(.error):before {
+    content: '';
+
+    position: absolute;
+    top: 8px;
+    left: 40px;
+
+    width: 0;
+    height: 0;
+
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-right: 6px solid #f7f7f7; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+
+    z-index: 10;
+}
+/* arrow which acts as a background shadow */
+.message:not(.own):not(.error):after {
+    content: '';
+
+    position: absolute;
+    top: 8px;
+    left: 39px;
+
+    width: 0;
+    height: 0;
+
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-right: 6px solid rgba(0, 0, 0, .18); /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+
+    z-index: 9;
+}
+
+.message.own {
+    /* background-color: #dbedfe; */
+
+    float: right;
+    margin-right: 11px;
+}
+
+.message.own:before {
+    content: '';
+
+    position: absolute;
+    top: 8px;
+    right: 6px;
+
+    width: 0;
+    height: 0;
+
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-left: 6px solid #f7f7f7; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+
+    z-index: 10;
+}
+/* arrow which acts as a background shadow */
+.message.own:after {
+    content: '';
+
+    position: absolute;
+    top: 8px;
+    right: 5px;
+
+    width: 0;
+    height: 0;
+
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-left: 6px solid rgba(0, 0, 0, .18); /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+
+    z-index: 9;
+}
+
+.message.single-line {
+    margin-top: 4px;
+}
+.message.single-line:before, .message.single-line:after {
+    top: 10px !important;
+}
+
+.message.typing {
+    background-color: rgb(237, 239, 244);
+    -webkit-box-shadow: none;
+    border: 1px solid rgb(200, 202, 206);
+    color: rgb(209, 211, 215);
+    vertical-align: middle;
+}
+
+.message.error {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: none;
+
+    background: #ddd;
+    -webkit-border-radius: 0;
+    -webkit-box-shadow: none;
+    border: none;
+
+    text-align: center;
+}
+.message.error img {
+    height: 9px;
+    width: 9px;
+    margin-right: 0.2em;
+}
+
+.message:not(.encrypted):not(.error):not(.typing) {
+    border: 1px solid red;
+}
+.message:not(.encrypted):not(.error):not(.typing):after {
+    border-right-color: red;
+}
+.message.own:not(.encrypted):not(.typing):after {
+    border-left-color: red;
+}
+
+a {
+    color: #3b5998;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#entry {
+    position: absolute;
+    bottom: 0;
+
+    border-top: 1px solid #c9d0da;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+
+    width: 100%;
+    height: 25px;
+
+    padding-top: 5px;
+    padding-left: 5px;
+
+    outline: none;
+    box-shadow: none;
+    resize: none;
+}
+
+#entry-token {
+    position: absolute;
+    bottom: 2;
+    right: 2;
+    pointer-events: none;
+}

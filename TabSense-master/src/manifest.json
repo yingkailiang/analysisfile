@@ -1,0 +1,26 @@
+{
+  "name": "TabSense",
+  "version": "1.7.4",
+
+  "description": "Lost in million tabs? Use TabSense.",
+  "background_page": "background.html",
+  "options_page" : "options.html",
+  "browser_action":{
+    "default_icon" : "images/icon48.png",
+    "default_popup" : "popup.html"
+  },
+  "icons":{
+    "16" : "images/icon16.png",
+    "28" : "images/icon28.png",
+    "48" : "images/icon48.png",
+    "128" : "images/icon128.png"
+  },
+  "content_scripts":[{
+    "matches" : ["http://*/*","https://*/*","ftp://*/*"],
+    "js" : ["scripts/background/register_key_shortcut.js"],
+    "run_at" : "document_start"
+  }],
+  "permissions": [
+    "tabs"
+  ]
+}

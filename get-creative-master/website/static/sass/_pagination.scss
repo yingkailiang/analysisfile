@@ -1,0 +1,15 @@
+.pagination {
+    margin:1em 0.5em 2em;
+    text-align:center;
+
+    .prev:before {
+        content:"❮ ";
+    }
+    .next:after {
+        content:" ❯";
+    }
+
+    button:not([disabled]) {
+        cursor:pointer;
+    }
+}

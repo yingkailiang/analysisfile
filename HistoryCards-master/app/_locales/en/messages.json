@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "History Cards",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "History as word cards for learning foreign languages",
+    "description": "The description of the application"
+  }
+}

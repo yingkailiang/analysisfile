@@ -1,0 +1,18 @@
+﻿{
+  "name": "定位页面网页元素",
+  "version": "1.0",
+  "description": "可以验证jquery选择器写法的正确性，并且可以根据用户点击网页的某个元素逆向获取能够唯一确定该元素最优jquery选择器",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["dabao.js","page.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_title": "惦记我",
+    "default_icon": "clock.png",
+    "popup": "popup.html"
+  }
+}

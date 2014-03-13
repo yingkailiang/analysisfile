@@ -1,0 +1,90 @@
+## Current Status
+1.2.1
+    Display currently watched links, ability to modify and remove 'watched' links
+1.2
+    Watch Button, Trending, character counter
+
+1.1.0.13 
+    Copy Link
+
+1.1
+    html5
+
+
+
+## Future Rev
+
+vr2 plan
+    
+    Move to clicks per min api. 
+    
+    Change trending api usage (only targets your links, this will be used for graphing your impact against a click per min score)
+    
+    Canvas Charting
+    
+    Attempt to integrate goog analytics (believe to be resolved, check bug status)
+    
+    Speed Shortens
+        skips shorten and share, copy link directly to clipbord
+            (notifications -- > see have-a-cookie project for examples of this)
+    
+    Translate HTML into JSON for fastFrag deployment
+    
+    All tasks moved to BG progrecces
+    
+    Disable emile.js in favor of CSS transitions. 
+        Transitions are hardware accelerated. JS 'tweening' is not via CSS step algo is not.
+
+
+    Attempt to support local(e) via fastFrag seperation of 'language' and structure on render
+
+
+
+## Notes / Paste Ground
+
+==== Manifest.json ====
+
+/*
+The version number is automatically incremented by build.sh
+    Note:
+        In order to deploy this to google extension gallery, must remove all comments and the update url
+        Consider altering 'deploy' script to handle this
+*/
+---- as noted, comments moved
+
+
+(resolved?)
+---- Bug
+to fix the open issue with calls to all_domains that aren't logged in, required a restructuring of the startup process
+    .. set from cache should do only that...
+    ... I need some methods to manage this
+    ... then if I am get signed in, it should call all_domains then....
+    
+    
+===========
+Consider moving 'watch and alert' into a worker, where the timer and processing is done via the worker, which 'reaches' out/up to the background to get 'data' as it needs it.
+
+With this adjustment, allow for display of 'watch list' and un-watching links via the UI
+
+This UI change could also add 'timeout' value, which would be the amount of time to stop looking for this link. 2 hours 1 day, 5 days etc
+
+
+
+
+=== Handling Images / Screen Captures ===
+
+it might be possible to port an image lib to JS and have an ext worker resize, crop etc etc the results from capture visible tab area.
+
+The worker should be able to make a local ajax connection and load the library (if it hasn't already) then process any results and return a string.
+
+If this was possible, it would mean the server aspect could be removed and data could be uploaded directly to twitpic or Facebook etc etc
+
+1. Build Test Case to capture visible tab area, return string
+2. attempt to decode string from base64, examine if 'editing' is possible (aka removing duplicate values in order to downsize etc, other BASIC operations)
+
+
+
+Notes:
+    from contributor gregory80: on github.com all my contributions should be consider unlicensed by http://unlicense.org/. The full text of the unlicensing document can be found there.
+
+

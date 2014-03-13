@@ -1,0 +1,28 @@
+<html>
+<head><title>Lukas Tencer's modification of instant messaging client imo.im (beta) -  Options</title></head>
+<script src="jquery-1.7.2.min.js"></script>
+<script src="options.js"></script>
+<body>
+<h2>Lukas Tencer's modification of instant messaging client imo.im (beta)</h2>
+<hr>
+<div><input type="checkbox" id="o_style" />Visual style change</div>
+<div><input type="checkbox" id="o_video" />Embedding youtube videos - (currently works just for [youtube.com/watch=...] format)</div>
+<div><input type="checkbox" id="o_offline" />Offline -> Online notifications</div>
+<div><input type="checkbox" id="o_bug1" />Bugfix #1</div>
+<h4>Offline lists</h4>
+<i>Changes will reflect, only if imo.im is not open in any tab!</i><br><br>
+OFFLINE: One time notifications list:
+<select id="once_list">
+	<option>---select value---</option>
+</select><button id="rem_once">Remove</button>
+<br>
+OFFLINE: Regular notifications list:
+<select id="perm_list">
+	<option>---select value---</option>
+</select><button id="rem_perm">Remove</button>
+<br>
+<br>
+<button id="submit">Save</button>
+<span id="status" style="border: rgb(226,110,110) 5px solid; background: rgb(181,211,255); border-radius: 10px; box-shadow: 3px 3px 5px #888888;"></span>
+</body>
+</html>

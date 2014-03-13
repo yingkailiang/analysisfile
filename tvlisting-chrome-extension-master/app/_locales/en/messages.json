@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "TWC Channel Lookup",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Quick Time Warner TV Channel Lookup",
+    "description": "The description of the application"
+  }
+}

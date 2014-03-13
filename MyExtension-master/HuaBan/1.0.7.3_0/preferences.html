@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="copyright" content="huaban.com"/>
+        <title>Preferences</title>
+        <link rel="stylesheet" href="/css/preferences.css" />
+        <script src="js/utils.js"></script>
+        <script src="js/huaban.js"></script>
+        <script src="js/account.js"></script>
+        <script src="js/preferences.js"></script>
+        <script type="text/javascript" src="js/analytics.js"></script>
+    </head>
+    <body>
+        <div id="page">
+            <div class="wfx">
+                <div id="header">
+                    <a id="logo" href="http://huaban.com/"><img src="http://huaban.com/img/about/logo.png" alt="花瓣" /></a>
+                </div>
+                <ul id="nav">
+                    <li class="preferences selected"><span>Preferences</span></li>
+                    <li class="about"><a href="http://huaban.com/about/" target="_blank">About Huaban.com</a></li>
+                </ul>
+                <div id="main">
+                    <div class="box">
+                        <h2>Preferences</h2>
+                        <fieldset>
+                            <p>
+                                <label for="toggle" class="title">Pin Button</label>
+                                <input type="checkbox" name="toggle" id="toggle"/>
+                                <label for="toggle"></label>
+                            </p>
+                            <p>
+                                <label for="minWidth" class="title">Minimum Image side</label>
+                                <input type="range" name="minWidth" id="minWidth" min="100" max="800" step="100" value="200"/>
+                                <label></label> px
+                            </p>
+                            <p id="authorization">
+                                <label class="title">Authorization</label>
+                            </p>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

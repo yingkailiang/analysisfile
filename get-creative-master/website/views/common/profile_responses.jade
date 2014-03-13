@@ -1,0 +1,12 @@
+-if (responses.length)
+    ul.profile_responses
+        each response in responses
+            -if (is_admin || !response.is_hidden)
+                li
+                    -if (typeof response.challenge !== "undefined")
+                        a(href="#{response.challenge.get_url(is_admin)}").js_link
+                            div.challenge_info
+                                p
+                                    span.icon.challenge_icon_white
+                                    | #{response.challenge.prompt}
+                    !=partial('response', {response : response, hide_signature : true})

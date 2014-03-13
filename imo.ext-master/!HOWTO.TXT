@@ -1,0 +1,13 @@
+1. Type in address: chrome://chrome/extensions/
+2. Click on "Load unpacked extension..." button
+3. Navigate to extension folder and press "OK" button
+// by default, all features are off, you need to turn them on
+4. Go to "Options" page of extension (you find it on page: chrome://chrome/extensions/, under "Lukas Tencer's modification of instant messaging client imo.im (beta)")
+5. Check in required features and press save.
+6 Reload imo.im.
+
+NOTE: there is currently bug present if you check/uncheck options, you need to press "Reload" for extension options, I hope to fix it soon.
+
+To contribute: Install Git (for windows: http://dbanck.de/2009/10/08/github-windows-and-tortoisegit-part-1-installing-pulling/) and some editor (http://notepad-plus-plus.org/), feel free to contribute!
+
+--Lukas 8.10.2012

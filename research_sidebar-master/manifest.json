@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Research",
+	"description": "This extension creates a research sidebar.",
+	"version": "1.0",
+	
+	"browser_action": { },
+	
+	"permissions": ["tabs", "storage"],
+	"background": {"scripts": ["background.js"], "persistent": false},
+	
+	"content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+			"js": ["contentscript.js"]
+	}
+	],
+	
+	"web_accessible_resources": [
+		"sidebar/sidebar.html",
+		"sidebar/sidebar_script.js",
+		"sidebar/sidebar_style.css"
+	]
+}

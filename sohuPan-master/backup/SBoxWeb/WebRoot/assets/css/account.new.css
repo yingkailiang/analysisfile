@@ -1,0 +1,73 @@
+/*
+* @description: 个人设置相关页面使用
+* @author: zufang.wang
+* @update: zufang.wang 2013-08-15 09:37
+*/
+
+.account-page .content{background: url(../img/account-sidebar-bg.png) repeat-y;}
+.account-page .sidebar{background: url(../img/account-sidebar-bg.png) repeat-y; padding-bottom: 0; border-right: none;}
+.account-page .main{}
+
+.setting-nav{padding-top: 18px;}
+.setting-nav li{height: 28px; line-height: 28px; margin-bottom: 18px;}
+.setting-nav li a{display: block; height: 28px; padding-left: 70px; font-size: 14px; }
+.setting-nav li a:hover,
+.setting-nav li a.current{background: #CDE2FD; text-decoration: none;}
+
+.setting-mod{padding: 20px 50px 0 50px; margin: 0; zoom: 1;}
+.setting-mod h3{padding: 8px 0 8px 25px; height: 18px; line-height: 18px; margin-bottom: 30px; font-size: 16px; font-weight: normal; border-bottom: 1px solid #EBEBEB; background: url(../img/setting-icons.png) no-repeat;}
+.account-setting h3{background-position: left 8px;}
+.password-setting h3{background-position: left -22px;}
+.safety-setting h3{background-position: left -52px;}
+.msg-setting h3{background-position: left -82px;}
+.device-setting h3{background-position: left -112px;}
+.share-setting h3{background-position: left -142px;}
+
+.setting-mod dl dt{margin-bottom: 20px;}
+.setting-mod dl dt strong{margin-right: 10px; }
+.setting-mod dl dt span{ color: #9E9E9E;}
+.setting-mod dl dd .btn{margin-right: 10px;}
+
+.account-setting .field{margin-bottom: 20px;}
+.account-setting .field .label{width: 44px;}
+.account-setting .field .ipt-text{width: 190px;}
+
+.password-setting .field{margin-bottom: 20px;}
+.password-setting .field .label{width: 60px;}
+.password-setting .field .ipt-text{width: 190px;}
+.password-strength{margin-top:-10px; margin-bottom:10px; height:16px; line-height:16px; overflow:hidden;}
+.password-strength .ipt{overflow:hidden;zoom:1;}
+.password-strength .ipt span{float:left; width:66px; margin-right:1px;_display:inline; zoom:1; background:#DEDEDE; color:#FFF;text-align:center; padding-top: 0;}
+.password-strength .ipt span.cur{background:#66ADF6;}
+
+.msg-setting .field .label{margin-right: 0;}
+.msg-setting .field .ipt{color: #6A6A6A;}
+
+.share-setting{margin-bottom: 30px;}
+.share-setting .desc{margin-bottom: 10px;}
+.share-setting-detail{width: 680px;}
+.share-setting-detail .ss-hd{height: 40px; background: #E9F3FF; padding: 10px 20px 0; position: relative;}
+.share-setting-detail .ss-tab li{float: left; position: relative;}
+.ss-tab li .arrow{display: none; position: absolute; top: 30px; left: 50%; margin-left: -4px; border-left: 4px dashed transparent; border-right: 4px dashed transparent; border-top: 4px solid #61A1E9; border-bottom: 0;}
+.ss-tab li a{display: block; height: 30px; line-height: 30px; padding: 0 16px; text-decoration: none;}
+.ss-tab li.cur a{background: #61A1E9; color: #FFF;
+    -webkit-border-radius:3px;
+       -moz-border-radius:3px;
+        -ms-border-radius:3px;
+         -o-border-radius:3px;
+            border-radius:3px;
+}
+.ss-tab li.cur .arrow{display: block; }
+.ss-hd .check-all{position: absolute; top: 20px; left: 620px;}
+.ss-list ul{padding: 0 19px; height: 240px; overflow: auto; border: 1px solid #EBEBEB;}
+.ss-list li{border-bottom: 1px solid #EBEBEB; position: relative; height: 58px; overflow: hidden;}
+.ss-list li .file-icon{float: left; padding: 14px;}
+.ss-list li .file-info{float: left; padding: 10px 0;}
+.ss-list li .file-info .file-name{font-size: 14px;}
+.ss-list li .file-info .file-meta{color: #9E9E9E;}
+.ss-list li .check-box{position: absolute; top: 24px; left: 600px;}
+.ss-list li.empty{height: 240px; line-height: 240px; text-align: center; border: none;}
+
+.device-setting .desc{margin-bottom: 10px;}
+.device-setting .table{width: 100%; }
+.device-setting .table td{color: #9E9E9E;}

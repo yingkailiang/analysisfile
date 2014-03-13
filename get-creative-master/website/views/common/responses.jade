@@ -1,0 +1,6 @@
+-if (responses.length)
+    ul.responses
+        each response in responses
+            -if (is_admin || !response.is_hidden)
+                li
+                    !=partial('response', {response : response})

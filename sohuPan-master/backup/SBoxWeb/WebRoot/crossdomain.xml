@@ -1,0 +1,6 @@
+<cross-domain-policy> 
+<allow-access-from domain="localhost"/>
+<allow-access-from domain="127.0.0.1"/>
+<allow-access-from domain="pan.sohu.net"/>
+<allow-access-from domain="10.7.8.39"/>
+</cross-domain-policy>

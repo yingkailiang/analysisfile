@@ -1,0 +1,30 @@
+.message
+
+%form
+  %section.repo-select
+    %select{name: 'repository', id: 'repo_list'}
+      - for repository in @repositories.models
+        - full_name = repository.get('full_name')
+        - if localStorage['new_issue_last_repo'] == repository.get('full_name')
+          %option{value: full_name, selected: 'selected'}= repository.get('full_name')
+        - else
+          %option{value: full_name}= repository.get('full_name')
+
+  %section
+    %label{for: "title"} Title:
+    %input{name: "title", type: "text", value: ""}
+
+  %section.assignee-select
+    %label{for: "title"} Assignee
+    %select{name: 'assignee',id: 'assignee'}
+      
+  %section.mile-stone
+    %label{for: "title"} Milestone
+    %select{name: 'milestone',id: 'milestone'}
+
+  %section
+    %label{for: "body"} Comment:
+    %textarea{name: "body", value: "", id: "comment"}
+
+  %section
+    %input.submit{type: "submit", value: "Create Issue"}

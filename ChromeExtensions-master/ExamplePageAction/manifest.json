@@ -1,0 +1,12 @@
+{
+  "name"   : "ExamplePageAction",
+  "version": "1.0",
+  "description": "This is an example page action",
+  "background": { "scripts": ["ExamplePageAction.js"] },
+  "page_action": {
+    "default_icon" : "ExamplePageAction.png",
+    "default_title": "ExamplePageAction"
+  },
+  "permissions": [ "tabs" ],
+  "manifest_version": 2
+}

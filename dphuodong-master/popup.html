@@ -1,0 +1,272 @@
+<html ng-app="dp-app" ng-csp>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="datepicker.css" rel="stylesheet" media="screen">
+
+<style type="text/css">
+body{
+	width: 450px;
+	height: 450px;
+	font-family:Microsoft YaHei;
+}
+.container{
+	width: 430px;
+}
+.accordion-group {
+	width: 430px;
+}
+.event-header{
+	width: 390px;
+}
+#event-desc-input{
+	width: 370px;
+	height: 80px;
+}
+.s-icon {
+	width:50px;
+	height:50px;
+}
+.gmap {
+	width:200px;
+	height:200px;
+	margin-left:80px;
+}
+.invitee {
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+input[type='text']{
+	height:30px;
+}
+
+.add-friend ,.description{
+	margin-top:10px;
+}
+ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+.alert-success{
+	width: 300px;
+}
+.mini-icon{
+	width: 20px;
+	height: 20px;
+}
+.reply-header,.reply-list{
+	margin: 10px;
+}
+.r-date span{
+	color:rgb(140,140,140);
+}
+.r-date{
+	font-size: 7px;
+}
+.accordion-toggle{
+	font-size:14px;
+	color:rgb(90,90,120);
+}
+.shop-title{
+	font-size: 12px;
+	color: #7c8c74;
+}
+
+</style>
+<div class="title" style="font-size:11px;color:#bbb;margin:10px">
+	<span style="font-size:13px;color:#f29999">w/点评</span>－－探你想探的店，见你想见的人。
+</div>
+<div class="outTab" style="margin-left:5px">
+	<ul class="nav nav-tabs">
+		<li class="active">
+			<a href="#newInvitation" data-toggle="tab">新邀請</a>
+		</li>
+		<li>
+			<a href="#openInvitation" data-toggle="tab">邀請</a>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div class="container tab-pane fade in active" id="newInvitation" ng-controller='InviteControllor'>
+					<div id="shopinfo">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						<a class="accordion-toggle" data-toggle="collapse" href="#shop-detail">
+							<span class="shop-title">当前商户：</span>{{shop.shopName}}
+						</a>
+					</div>
+					<div id="shop-detail" class="accordion-body collapse in">
+						<div class="accordion-inner">
+							<span class="shop-title">商户地址: </span>{{shop.address}}<br>
+							<span class="shop-title">商户电话: </span>{{shop.phoneNo}}<br>
+
+							<img class="gmap img-polaroid" src="http://maps.googleapis.com/maps/api/staticmap?center={{shop.latitude}},{{shop.longtitude}}&zoom=17&size=400x400&maptype=roadmap&markers=color:blue%7Clabel:S%7C{{shop.latitude}},{{shop.longtitude}}&sensor=false"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="add-friend">
+				<div class="description input-prepend">
+					<span class="add-on"><i class="icon-tag"></i></span>
+					<input type="text" id="add-description" ng-model="description" value="在{{shop.shopName}}吃饭"></input>
+				</div>
+				<form class="form-inline">
+					<div class="input-prepend">
+						<span class="add-on">@</span>
+						<input type="text" id="add-friend-input"></input>
+					</div>
+					<button type="submit" href="#myModal"  data-toggle='modal' class="btn">发送邀请</button>
+				</form>
+				<div class="alert alert-success" ng-show="weiboSuccess">
+				  <button type="button" class="close" data-dismiss="alert">×</button>
+				  成功发送微博～
+				</div>
+
+			</div>
+			<div class="invitee-friends">
+				<ul>
+					<li class="invitee" ng-repeat="invitee in invitees">
+						<img class='s-icon img-polaroid' src={{invitee.user.weiboIcon}} />
+					</li>
+				</ul>
+			</div>
+			<!-- Modal -->
+			<div id="myModal" style="width:400px;margin-left:-200px;" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h3 id="myModalLabel">选择时间</h3>
+				</div>
+				<div class="modal-body">
+					<form class="form-inline">
+						<div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="mm dd,yyyy">
+						  <input class="span2" size="16" type="text" ng-model="startday" id='datepicker'>
+						  <span class="add-on"><i class="icon-th"></i></span>
+						  <input style="width:80px" size="16" type="text" value="" ng-model="hours"/>点
+
+						</div>:
+						<div id="dp4">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+					<button class="btn btn-primary" data-dismiss="modal" aria-hidden="true" ng-click="sendInvitation()">发送</button>
+				</div>
+			
+		</div>
+		</div>
+				<div class="container tab-pane fade" id="openInvitation" ng-controller="OpenInvitationController" >
+			<div class="invatations accordion" id="myInvitation">
+				<div ng-repeat="i in openInvitations" class="accordion-group">
+					<div class="accordion-heading">
+				      <a class="accordion-toggle" data-toggle="collapse"  href="#invite{{$index}}" ng-hide="i.inviter.user.weiboName==user.weiboName">
+				        <span ng-show="getStatus(i)">[y]</span>
+				        <span ng-hide="getStatus(i)">[n]</span>
+				        From.{{i.inviter.user.weiboName}}: 在{{i.shopList[0].shopName}} w/ {{i.invitees.length-1}} others
+				        <span class="pull-right">
+				        <i class="icon-comment"></i>{{i.replyList.length}}
+				    	</span>
+				      </a>
+				      <a class="accordion-toggle" data-toggle="collapse"  href="#invite{{$index}}" ng-show="i.inviter.user.weiboName==user.weiboName">
+				     	<span ng-show="getStatus(i)">[y]</span>
+				     	<span ng-hide="getStatus(i)">[n]</span>
+				        From.me: {{i.shopList[0].shopName}} w/ {{i.invitees.length}} others
+				        <span class="pull-right">
+				        <i class="icon-tag"> </i>{{getCount(i)}}
+				        <i class="icon-comment"></i>{{i.replyList.length}}
+				    	</span>
+				      </a>
+				    </div>
+				    <div class="state">
+				    	<a role="button" class="btn" ng-click="changeState('accpted',i.id)" ng-show="getState(i)!='a'&&getState(i)!='owner'">reject</a>
+				        <a role="button" class="btn" ng-click="changeState('rejected',i.id)" ng-show="getState(i)!='b'&&getState(i)!='owner'">accept</a>
+				    </div>
+				    <div id="invite{{$index}}" class="accordion-body collapse">
+				      <div class="accordion-inner">
+				        <div class="persons clearfix">
+				        	<div>
+									<ul>
+										<li class="invitee" ng-repeat="invitee in i.invitees">
+										<a href="#" rel="tooltip" title="{{invitee.user.weiboName}}-{{invitee.status}}">
+										<img class='mini-icon img-polaroid' src={{invitee.user.weiboIcon}} rel="tooltip" data-placement="top" data-original-title="{{invitee.status}}"/>
+										</a>
+										<span ng-show="invitee.state" class="badge badge-success">2</span>
+										</li>
+									</ul>
+				        	</div>
+				      </div>
+				      <div>
+				      <div class="accordion-group" style="width:400px">
+						<div class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" href="#shop-detail{{$index}}">
+								{{getFormatDate(i.startDate)}} 在{{i.shopList[0].shopName}}
+							</a>
+						</div>
+						<div id="shop-detail{{$index}}" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<span class='shop-title'>商户地址</span>:{{i.shopList[0].address}}<br>
+								<span class="shop-title">商户电话</span>:{{i.shopList[0].phoneNo}}<br>
+
+								<img class="gmap img-polaroid" src="http://maps.googleapis.com/maps/api/staticmap?center={{i.shopList[0].latitude}},{{i.shopList[0].longtitude}}&zoom=17&size=400x400&maptype=roadmap&markers=color:blue%7Clabel:S%7C{{i.shopList[0].latitude}},{{i.shopList[0].longtitude}}&sensor=false"/>
+							</div>
+						</div>
+					</div>
+					<div class="choose">
+						<button class="btn-success" ng-show="getState(i)=='undefine'"><i class="icon-ok icon-white"></i></button>
+					</div>
+					<div>
+						<div class="reply-header">
+							<div class="input-prepend">
+								<span class="add-on"><i class="icon-comment"></i></span>
+								<input type="text" ng-model="i.content" value="添加回应" style="width:280px"></input>
+								<span style="font-size:15px;text-align: center;line-height: 30px;margin-left: 30px;"><a ng-click="sendReply($index,i,i.content)">reply</a></span>
+							</div>
+							
+						</span>
+					</div > 
+						<div>
+							<div ng-repeat="r in i.replyList"class="reply-list">
+									<img class="mini-icon img-polaroid" src="{{r.user.weiboIconSmall}}" />
+									<div class="r-content pull-right" style="width:330px" >
+										<div class="r-date"><span>{{r.user.weiboName}}</span>说{{getFormatDate(r.date)}}</div>
+										<div>{{r.content}}</div>
+									</div>
+									<hr>
+							</div>
+						</div>
+					</div>
+					<div  id="addReply" style="width:400px;margin-left:-200px;" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-header">
+					    <button type="button" class="close" style=""data-dismiss="modal" aria-hidden="true">&times;</button>
+					    <h5>添加回应</h5>
+					  </div>
+					  <div class="modal-footer">
+					    <a href="#" class="btn">Close</a>
+					    <a href="#" class="btn btn-primary" ng-click="sendReply(i)">{{i.startDate}}send</a>
+					  </div>
+					</div>
+				</div>
+
+				    </div>
+				</div>
+			</div>
+			</div>
+			<div class="invatations" id="recievedInvitation">
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="Settings.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap-datepicker.js"></script>
+<script src="angular.js"></script>
+<script src="socketio.js"></script>
+<script src="angular-resource.js"></script>
+<script src="services.js"></script>
+<script src="controller.js"></script>
+</div>
+

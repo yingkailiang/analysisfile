@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!--[if gte IE 9]><!-->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100italic,300"
+          media="all" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="/static/{{ version }}/main.css">
+
+    {% block head %}{% endblock head %}
+
+    <title>{{ title|default('Meaningles: Uncovering the Semantics of the Real Web') }}</title>
+
+    <!-- async GA snippet -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39624542-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="clear">
+        <ul>
+          <li>
+            <a href="/global">Global Stats</a>
+          </li>
+          <!--
+          <li>
+            <a href="/trends">Trends</a>
+          </li>
+          <li>
+            <a href="/privacy">Privacy</a>
+          </li>
+          -->
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="https://chrome.google.com/webstore/detail/meaningless/gmmhpelpfhlofjjolcegdddjadkmincn">Get the Extension</a>
+          </li>
+        </ul>
+      </nav>
+      {% block title %}
+      <h1>{{ title | default('Uncovering the Web\'s Semantics') }}</h1>
+      {% endblock title %}
+    </header>
+    <main>
+      {% block main %}
+      <p>This site reports on the elements and add-on semantics in use across the web. It gathers data from users who install the <a href="https://chrome.google.com/webstore/detail/meaningless/gmmhpelpfhlofjjolcegdddjadkmincn?hl=en&gl=GB">Meaningless Chrome Extension</a>. This data is being gathered in an effort to do <em>more science</em> and <em>less guessing</em> about how developers making the web platform work for them when the built-in elements aren't enough.</p>
+
+      <p>This reporting tool and the extension are <a href="https://github.com/slightlyoff/meaningless">Open Source software</a>.</p>
+    {% endblock %}
+    </main>
+    <footer>
+    <!--
+      {{ app }}, version {{ version }}
+    -->
+    </footer>
+  </body>
+</html>

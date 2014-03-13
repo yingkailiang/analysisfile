@@ -1,0 +1,29 @@
+- youtube video extension - done
+- restyling (remove bottom-bar, hide top toolbar, (still display history, change windows...)) - +work
+- post everywhere - done by imo
+- custom background + transparency + efects?
+- continuous sliding of new in right toolbar - probably can not be done
+- image extension
+- alert on online extension - done, need tuning for local storage
+- image preview extension
+- HTML5 audio/video extension
+- browser to destop drop extension - can not be done
+- one contact
+- dropbox/GD/SD integration
+- Photo Directory
+- watch updates - hard to do - probably need server side
+- superfeed news
+- windows arrangement - better one than ctrl + y
+- auto URL shortening
+- canvas invaders: http://www.somethinghitme.com/projects/canvasinvaders/
+- asteroids: http://www.gameshtml5.net/games.php?id=27
+- capman: http://www.kesiev.com/akihabara/demo/game-capman.html
+- imo applications
+- send one message to amny people
+- send urgent message, which will pop up as desktop notification
+- call/sms from imo using google-voice-java api
+-
+-
+-
+- accessibility
+

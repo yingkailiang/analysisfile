@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml1-transitional.dtd">
+<html>	
+	<head>
+		<script  src="jquery-1.10.2.min.js"></script>
+		<script  src = "table_management.js"></script>	
+		<script  src = "background.js"></script>
+		
+	</head>	
+	<body>
+	    <form>
+			<input type="text" name="url" placeholder="url(eg. google.com)" id="urlBox" size="40">
+			<input type="text" name="folder" placeholder="folder" id="folderBox" size="40">
+			<br/>
+			<input type="button" value="Select Folder" id = "selectFolder">
+			<input type="button" value="Add" id = "addrow">			
+		</form>
+		<br/>
+		<table id = "mytable" border = "1">			
+			<tr>
+				<td>URLS</td>
+				<td>Filepath</td>				
+			</tr>			
+		</table>	
+		<button id = "clearLocal">Clear Storage</button>
+		
+	</body>
+</html>

@@ -1,0 +1,25 @@
+ <?xml version="1.0" encoding="utf-8"?> 
+ <extension> 
+	 <id>com.sohu.pan</id>
+	 <name>搜狐企业网盘</name>
+	 <show_icon>true</show_icon> 
+	 <description>搜狐企业网盘向您提供集在线存储、实时同步、协同共享为一体的云办公平台! 云端文件100%无丢失，多账号分权限管理，轻松实现移动办公！</description> 
+	 <background page="background.html"/>
+	 <content_scripts>
+		<content_script core_type="webkit"> 
+			<match>https://*.mail.163.com/*</match> 
+			<match>http://*.mail.163.com/*</match> 
+			<css>css/insertedCss/site.css</css> 
+			<js>js/insertedJs/test.js</js> 
+		</content_script> 
+		<content_script all_frames="true" core_type="webkit"> 
+			<match>https://*.mail.qq.com/*</match> 
+			<match>http://*.mail.qq.com/*</match> 
+			<css>css/insertedCss/site.css</css> 
+			<js>js/insertedJs/test.js</js> 
+		</content_script> 
+	 </content_scripts>
+	 <version>1.1.0</version>
+	 <request_api_version>1</request_api_version>
+	 <author>Sohu.com</author>
+ </extension> 

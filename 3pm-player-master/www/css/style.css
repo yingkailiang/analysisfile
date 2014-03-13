@@ -1,0 +1,104 @@
+.btn {
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.btn.prev {
+    background-image: url(/images/playback_prev.png);
+}
+.btn.prev_10 {
+    background-image: url(/images/playback_prev_down.png);
+}
+.btn.play {
+    background-image: url(/images/playback_play.png);
+}
+.btn.pause {
+    background-image: url(/images/playback_pause.png);
+}
+.btn.stop {
+    background-image: url(/images/playback_stop.png);
+}
+.btn.next {
+    background-image: url(/images/playback_next.png);
+}
+.btn.next_10 {
+    background-image: url(/images/playback_next_up.png);
+}
+.btn.playlist {
+    background-image: url(/images/playlist.png);
+    background-position-y: 4px;
+}
+.playlist {
+    margin-top: 10px;
+    margin-bottom: 44px;
+}
+li a.selected {
+    background-color: rgb(255, 204, 0);
+}
+.bottom-panel {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 10;
+}
+.btn.shuffle {
+    background-image: url(../images/shuffle.png);
+}
+.btn.loop {
+    background-image: url(../images/loop.png);
+}
+.btn.shuffle.on {
+    background-image: url(../images/shuffle_on.png);
+}
+.btn.loop.on {
+    background-image: url(../images/loop_on.png);
+}
+.btn.volume {
+    font-weight: bolder;
+}
+.btn.read_tags {
+    background-image: url(../images/read_tags.png);
+}
+.title {
+    text-align: center;
+    height: 38px;
+    max-height: 38px;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+.hidden_for_phone {
+    display: none !important;
+}
+@media (min-width: 450px) {
+    .hidden_for_phone {
+        display: table-cell !important;
+    }
+}
+.playlists {
+    margin-top: 10px;
+}
+.btn-default:focus, .btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:active {
+    color: #333;
+    background-color: #ccc;
+    border-color: #adadad;
+}
+.btn {
+    padding: 9px 12px;
+}
+@media (min-height: 500px) {
+    .bottom-panel {
+        position: fixed;
+    }
+}
+div.playlists {
+    display: none;
+}
+.playlist .list-group-item {
+    word-break: break-all;
+}

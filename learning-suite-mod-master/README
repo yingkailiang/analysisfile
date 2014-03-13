@@ -1,0 +1,9 @@
+This is how it works:
+1. The save.js file grabs the list of courses from the learning suite home page and sends it to a background page running eventPage.js.
+2. eventPage.js saves the list using the chrome.storage api.
+3. On each pageload load.js requests the list from the eventPage and then adds it to the drop-down part of the DOM.
+
+tl; dr: It does a copy-paste of your course list.
+
+Google Group: https://groups.google.com/forum/#!forum/byu-coding-ninjas
+Web Store: https://chrome.google.com/webstore/detail/mmhploinnaiicaipbigobhhbegichkcf/publish-accepted

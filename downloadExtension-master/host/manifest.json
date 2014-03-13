@@ -1,0 +1,9 @@
+{
+  "name": "com.google.chrome.example.nativefoldercreator",
+  "description": "Application makes new folders based on file type and organizes the files it receives",
+  "path": "NativeFolderCreator.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://hkdeomodfgebnbgegloeokjboacfiain/"		
+  ]  
+}

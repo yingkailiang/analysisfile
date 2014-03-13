@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Notifeed",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "A Chrome extension for getting notifications from my Github feed",
+    "description": "The description of the application"
+  }
+}

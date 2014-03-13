@@ -1,0 +1,22 @@
+<div class="container partial-index">
+  <div class="row">
+    <div class="col-lg-12 page-header">
+      <div class="menu">
+        <h1>History Cards</h1>
+        <button type="button" class="btn btn-link btn-xs" ng-click="isSubmenuCollapsed = !isSubmenuCollapsed">
+          <span class="glyphicon" ng-class="isSubmenuCollapsed ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'"></span>
+        </button>
+      </div>
+      <div class="submenu" ng-init="isSubmenuCollapsed = true" ng-style="{'display':isSubmenuCollapsed ? 'none' : ''}">
+        <input type="text" class="form-control" placeholder="Acceptable Host Regex" ng-model="acceptableHost"></input>
+      </div>
+    </div>
+
+    <div class="col-lg-2" ng-repeat="host in hosts">
+      <a class="text-center host" ng-class="host == selected ? 'selected' : ''" ng-href="#/cards/{{host}}" style="display:block">
+        <div class="center icon" ng-style="{'background-image': 'url(\'chrome://favicon/' + bundles[host][0].url + '\')'}"></div>
+        <span class="name">{{host}}</span>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{
+    "name": "RakutenMLRefuse",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "楽天の購入時にML購読のチェックをはずすChrome拡張です。",
+    "content_scripts": [
+        {
+            "matches": ["https://basket.step.rakuten.co.jp/*","https://rsvh.travel.rakuten.co.jp/*"],
+            "js": ["jquery-1.8.3.min.js","script.js"],
+            "run_at": "document_start"
+        }
+    ]
+}

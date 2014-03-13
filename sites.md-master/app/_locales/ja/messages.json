@@ -1,0 +1,79 @@
+{
+  "appName": {
+    "message": "sites.md"
+  },
+  "appDescription": {
+    "message": "Google SitesのページをMarkdownとしてパースします。"
+  },
+  "Markdownized" : {
+    "message" : "Markdownパース"
+  },
+  "saveAutoSetting": {
+    "message" : "このURLを自動でMarkdownパースする"
+  },
+  "saveIgnoreSetting" :{
+    "message" : "このURLを自動でMarkdownパースしないようにする"
+  },
+  "showOptionPage" : {
+    "message" : "オプションページを開く"
+  },
+  "AutoMarknizedSettingHeader" : {
+    "message" : "Auto Markdownパース設定"
+  },
+  "AutoMarknizedSettingLead" : {
+    "message" : "Auto Markdownパース設定の管理を行います。 設定を行うとページを表示する際に自動でMarkdownパースします。"
+  },
+  "CreateNewOption" : {
+    "message" : "Auto Markdownパース設定を作成"
+  },
+  "AutoMarknizedSettingLegend" : {
+    "message" : "設定"
+  },
+  "Name" : {
+    "message" : "名前"
+  },
+  "AutoMarknized" : {
+    "message" : "Auto Markdownパース"
+  },
+  "Ignore" : {
+    "message" : "除外"
+  },
+  "Type" : {
+    "message" : "タイプ"
+  },
+  "Contents" : {
+    "message" : "コンテンツ"
+  },
+  "contains" : {
+    "message" : "に右記を含む"
+  },
+  "Add" : {
+    "message" : "追加"
+  },
+  "Copy" : {
+    "message" : "コピー"
+  },
+  "Modify" : {
+    "message" : "修正"
+  },
+  "Delete" : {
+    "message" : "削除"
+  },
+  "Cancel" : {
+    "message" : "Cancel"
+  },
+  "Expression" : {
+    "message" : "条件"
+  },  
+  "Title": {
+    "message": "タイトル"
+  },
+  "PageContent" : {
+    "message" : "ページコンテンツ"
+  }
+
+
+
+
+
+}

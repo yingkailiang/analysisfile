@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <domain>pan.sohu.net</domain> 
+  <withindomain>sbox.sce.sohu.com</withindomain> 
+  <port>8809</port> 
+
+  <!-- OFFIC   
+  <sboxUrl>http://sohupanapi.sce.sohu.com</sboxUrl>
+  <sboxPort>80</sboxPort>
+  <cdnpath>https://pan.cdn.sohusce.com</cdnpath>
+  -->
+  <!-- Test 
+  <sboxUrl>http://test.sohupanapi.sce.sohu.com</sboxUrl>
+  <sboxPort>80</sboxPort>
+  <cdnpath>https://pan.cdn.sohusce.com</cdnpath>
+  -->
+  <!-- DEV -->
+  <sboxUrl>http://test.sohupanapi.sce.sohu.com</sboxUrl>
+  <sboxPort>8001</sboxPort>
+  <cdnpath>http://pan.cdn.sohusce.com</cdnpath>
+
+  <applationId>1025</applationId>
+  <secretKey>7f2d73f4e3c0c6b70ca2ba620577b30f</secretKey>
+  <xmlns>http://api.pan.sohu.net/doc/2012-07-19/</xmlns>
+  <jspath>/assets</jspath>
+  <view>http://10.7.8.65:6543/@@view?source=</view>
+  <authorization>1</authorization>
+</config>

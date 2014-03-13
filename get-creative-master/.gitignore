@@ -1,0 +1,6 @@
+*.DS_Store
+*.scssc
+website/css/cache/*
+website/js/cache/*
+/data/*
+website/node_modules/*

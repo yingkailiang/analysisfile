@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'compass', '-g' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.16
+4 verbose cache add [ 'compass', null ]
+5 verbose cache add name=undefined spec="compass" args=["compass",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'compass',
+6 verbose parsed url   path: 'compass',
+6 verbose parsed url   href: 'compass' }
+7 silly lockFile 9d0f85fe-compass compass
+8 verbose lock compass /home/subhasish/.npm/9d0f85fe-compass.lock
+9 silly lockFile 9d0f85fe-compass compass
+10 silly lockFile 9d0f85fe-compass compass
+11 verbose addNamed [ 'compass', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1c2955e8-compass compass@
+14 verbose lock compass@ /home/subhasish/.npm/1c2955e8-compass.lock
+15 silly addNameRange { name: 'compass', range: '*', hasData: false }
+16 verbose url raw compass
+17 verbose url resolving [ 'https://registry.npmjs.org/', './compass' ]
+18 verbose url resolved https://registry.npmjs.org/compass
+19 info trying registry request attempt 1 at 09:16:08
+20 verbose etag "592KRUS0ABDRAJPMFH4CNZ9XI"
+21 http GET https://registry.npmjs.org/compass
+22 http 304 https://registry.npmjs.org/compass
+23 silly registry.get cb [ 304,
+23 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+23 silly registry.get     etag: '"592KRUS0ABDRAJPMFH4CNZ9XI"',
+23 silly registry.get     date: 'Mon, 02 Sep 2013 03:46:12 GMT',
+23 silly registry.get     'content-length': '0' } ]
+24 verbose etag compass from cache
+25 silly addNameRange number 2 { name: 'compass', range: '*', hasData: true }
+26 silly addNameRange versions [ 'compass', [ '0.1.0' ] ]
+27 verbose addNamed [ 'compass', '0.1.0' ]
+28 verbose addNamed [ '0.1.0', '0.1.0' ]
+29 silly lockFile 09d61c13-compass-0-1-0 compass@0.1.0
+30 verbose lock compass@0.1.0 /home/subhasish/.npm/09d61c13-compass-0-1-0.lock
+31 silly lockFile 09d61c13-compass-0-1-0 compass@0.1.0
+32 silly lockFile 09d61c13-compass-0-1-0 compass@0.1.0
+33 silly lockFile 1c2955e8-compass compass@
+34 silly lockFile 1c2955e8-compass compass@
+35 silly resolved [ { name: 'compass',
+35 silly resolved     version: '0.1.0',
+35 silly resolved     description: 'Compass for node.js',
+35 silly resolved     main: 'index.js',
+35 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+35 silly resolved     repository: { type: 'git', url: 'git@github.com:ngryman/compass.git' },
+35 silly resolved     keywords: [ 'compass', 'sass', 'scss' ],
+35 silly resolved     author: { name: 'Nicolas Gryman' },
+35 silly resolved     license: 'MIT',
+35 silly resolved     devDependencies:
+35 silly resolved      { mocha: '1.8.x',
+35 silly resolved        chai: '1.5.x',
+35 silly resolved        express: '3.1.x',
+35 silly resolved        supertest: '0.5.x' },
+35 silly resolved     readme: '# compass\r\n\r\n[Compass](http://compass-style.org) wrapper and middleware for node.js.\r\n\r\n## Install\r\n\r\nEnsure **compass** is already installed ([install compass](http://compass-style.org/install)).\r\n\r\nThen just use **npm**:\r\n\r\n```javascript\r\nnpm install compass\r\n```\r\n\r\n## Usage\r\n\r\n### Middelware\r\n\r\nEnsure **compass** comes before a static middleware. **compass** generates your css files but **does not** serve them. You need a static middleware for that.\r\n\r\n```javascript\r\nvar compass = require(\'compass\'),\r\n    express = require(\'express\')();\r\n\r\napp = express();\r\napp.use(compass({ cwd: __dirname + \'public\' })\r\napp.use(express.static(__dirname + \'public\');\r\n```\r\n\r\n### Manually\r\n\r\nFor now **compass** only wraps the compile action.\r\n\r\n```javascript\r\nvar compass = require(\'compass\');\r\n\r\n// compiles in process.cwd()\r\ncompass.compile(function(err, stdout, stderr) {\r\n    console.log(\'done\');\r\n});\r\n\r\n// compiles in the given directory\r\ncompass.compile({ cwd: __dirname + \'public\' }, function(err, stdout, stderr) {\r\n    console.log(\'done\');\r\n});\r\n```\r\n\r\n## Options\r\n\r\nFor now **compass** only offer the `cwd` option.\r\n\r\nIf you want to customize stuff, please use a `config.rb` ([http://compass-style.org/help/tutorials/configuration-reference](configuration reference))',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     bugs: { url: 'https://github.com/ngryman/compass/issues' },
+35 silly resolved     _id: 'compass@0.1.0',
+35 silly resolved     _from: 'compass@' } ]
+36 info install compass@0.1.0 into /usr/lib
+37 info installOne compass@0.1.0
+38 info /usr/lib/node_modules/compass unbuild
+39 verbose tar unpack /home/subhasish/.npm/compass/0.1.0/package.tgz
+40 silly lockFile 5cb91105-tar-usr-lib-node-modules-compass tar:///usr/lib/node_modules/compass
+41 verbose lock tar:///usr/lib/node_modules/compass /home/subhasish/.npm/5cb91105-tar-usr-lib-node-modules-compass.lock
+42 silly lockFile 57f1a50c-sh-npm-compass-0-1-0-package-tgz tar:///home/subhasish/.npm/compass/0.1.0/package.tgz
+43 verbose lock tar:///home/subhasish/.npm/compass/0.1.0/package.tgz /home/subhasish/.npm/57f1a50c-sh-npm-compass-0-1-0-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 error Error: EACCES, mkdir '/usr/lib/node_modules/compass'
+45 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/compass']
+45 error   errno: 3,
+45 error   code: 'EACCES',
+45 error   path: '/usr/lib/node_modules/compass',
+45 error   fstream_type: 'Directory',
+45 error   fstream_path: '/usr/lib/node_modules/compass',
+45 error   fstream_class: 'DirWriter',
+45 error   fstream_stack:
+45 error    [ '/usr/lib/node_modules/fstream/lib/dir-writer.js:36:23',
+45 error      '/usr/lib/node_modules/mkdirp/index.js:37:53',
+45 error      'Object.oncomplete (fs.js:107:15)' ] }
+46 error Please try running this command again as root/Administrator.
+47 error System Linux 3.10.9-200.fc19.x86_64
+48 error command "node" "/usr/bin/npm" "install" "compass" "-g"
+49 error cwd /home/subhasish/github/github-chrome/build
+50 error node -v v0.10.16
+51 error npm -v 1.3.6
+52 error path /usr/lib/node_modules/compass
+53 error fstream_path /usr/lib/node_modules/compass
+54 error fstream_type Directory
+55 error fstream_class DirWriter
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/usr/lib/node_modules/compass'
+59 error fstream_stack /usr/lib/node_modules/fstream/lib/dir-writer.js:36:23
+59 error fstream_stack /usr/lib/node_modules/mkdirp/index.js:37:53
+59 error fstream_stack Object.oncomplete (fs.js:107:15)
+60 verbose exit [ 3, true ]

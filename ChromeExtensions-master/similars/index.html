@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+		body {margin:0px 4px 0px 9px;}
+		.statusRow {width:160px;}
+		.statusRow BUTTON {display:inline-block;color:#fff;width:80px;font-size:14px;border-radius:0px 4px 4px 0px;height:32px;border:medium none;background:#DB3E3B;box-shadow:-1px 1px 2px rgba(0,0,0,0.25), inset 0px -2px 0px rgba(0,0,0,0.4);margin-left:-4px;}
+		.statusRow BUTTON#enable {background:#059E9A;border-radius:4px 0px 0px 4px;box-shadow:-1px 1px 2px rgba(0,0,0,0.25);}
+		.statusRow.disable BUTTON#enable {box-shadow:1px 1px 2px rgba(0,0,0,0.25), inset 0px -2px 0px rgba(0,0,0,0.4);position:relative;}
+		.statusRow.disable BUTTON#disable {box-shadow:1px 1px 2px rgba(0,0,0,0.25);}
+    </style>
+	<script src="popup.js"></script>
+  </head>
+  <body>
+  <p class="statusRow" id="statusRow">
+		<button id="enable">enable</button>
+		<button id="disable">disable</button>
+		</p>
+  </body>
+</html>

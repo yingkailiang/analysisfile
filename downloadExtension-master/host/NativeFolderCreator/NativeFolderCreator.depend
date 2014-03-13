@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1390513078 source:c:\anish\c++ programs\nativefoldercreator\main.cpp
+	<stdio.h>
+	<string.h>
+	<fstream>
+	<windows.h>
+	<shlobj.h>
+	"rapidjson/document.h"
+	<direct.h>
+	<algorithm>
+
+1388182890 c:\anish\c++ programs\nativefoldercreator\rapidjson\document.h
+	"reader.h"
+	"internal/strfunc.h"
+	<new>
+
+1388182891 c:\anish\c++ programs\nativefoldercreator\rapidjson\reader.h
+	"rapidjson.h"
+	"internal/pow10.h"
+	"internal/stack.h"
+	<csetjmp>
+	<nmmintrin.h>
+	<emmintrin.h>
+
+1388182891 c:\anish\c++ programs\nativefoldercreator\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	<inttypes.h>
+	<cassert>
+
+1388182891 c:\anish\c++ programs\nativefoldercreator\rapidjson\internal\pow10.h
+
+1388182891 c:\anish\c++ programs\nativefoldercreator\rapidjson\internal\stack.h
+
+1388182891 c:\anish\c++ programs\nativefoldercreator\rapidjson\internal\strfunc.h
+
+1390513054 source:c:\anish\c++ programs\nativefoldercreator\fileselect.cpp
+	<stdio.h>
+	<string.h>
+	<fstream>
+	<windows.h>
+	<shlobj.h>
+	"rapidjson/document.h"
+	<direct.h>
+	<iostream>
+	<algorithm>
+
+1390495729 c:\anish\c++ programs\nativefoldercreator\shobjidl.h
+	<_mingw.h>
+	<ole2.h>
+	<shlguid.h>
+	<shellapi.h>
+	<commctrl.h>
+

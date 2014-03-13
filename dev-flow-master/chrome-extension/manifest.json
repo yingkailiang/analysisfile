@@ -1,0 +1,16 @@
+{
+    "name": "Sync To Dev",
+    "version": "0.1",
+    "description": "Sync files to dev",
+    "browser_action": {
+        "default_icon": {
+          "19": "idle.png"           // optional
+        },
+        "default_title": "Sync To Dev"      // optional; shown in tooltip
+    },
+    "permissions": ["tabs", "http://*/"],
+    "background": {
+        "page": "background.html"
+    },
+    "manifest_version": 2
+}

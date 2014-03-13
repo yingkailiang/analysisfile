@@ -1,0 +1,4 @@
+appid: 1021
+version: 1
+static: 
+- url: {"local_file":"assets/" , "remote_file":" "}

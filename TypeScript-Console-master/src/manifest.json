@@ -1,0 +1,11 @@
+{
+	"name": "TypeScript Console",
+	"version": "0.0.1",
+	"description": "A TypeScript console within the Web Inspector.",
+	"devtools_page": "extension.html",
+	"manifest_version": 2,
+	"icons": { "16": "badge.png",
+           "48": "badge.png",
+          "128": "128.png" },
+		  "homepage_url": "http://www.sepier.com"
+}

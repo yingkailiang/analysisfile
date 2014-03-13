@@ -1,0 +1,33 @@
+<div class="partial-cards">
+  <div class="col-lg-3">
+    <div class="menu-container">
+      <div class="menu">
+        <img ng-src="chrome://favicon/{{cards[0].url}}">
+        <span>{{host}}</span>
+        <button type="button" class="btn btn-link btn-xs" ng-click="isSubmenuCollapsed = !isSubmenuCollapsed">
+          <span class="glyphicon" ng-class="isSubmenuCollapsed ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'"></span>
+        </button>
+      </div>
+      <div class="submenu" ng-init="isSubmenuCollapsed = true" ng-style="{'display':isSubmenuCollapsed ? 'none' : ''}">
+        <input type="text" class="form-control" placeholder="Acceptable URL Regex" ng-model="acceptableUrl"></input>
+        <input type="text" class="form-control" placeholder="Acceptable Title Regex" ng-model="acceptableTitle"></input>
+      </div>
+    </div>
+    <div class="bundle">
+      <ul class="list-unstyled cards">
+        <li class="card"
+            ng-class="(card == selected ? 'selected ': '') + (isMarked(card) ? 'marked ' : '')"
+            ng-repeat="card in cards" 
+            ng-click="onCardClick(card, $event)"
+            tooltip="{{card.url}}" tooltip-placement="right" tooltip-popup-delay="1000">
+          <div class="row">
+            <div class="col-lg-12">
+              <span>{{card.title ? card.title : card.url}}</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <iframe class="col-lg-9 pull-right" ng-src="{{getCurrentUrl()}}" frameborder="0"></iframe>
+</div>

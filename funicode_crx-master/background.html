@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"></script>
+    <script type="text/javascript" src="jquery.js" rel="javascript"></script>
+    <script type="text/javascript" src="selective_php.js" rel="javascript"></script>
+    <script type="text/javascript" src="transmogrify.js" rel="javascript"></script>
+    <script>
+    var first_run = false;
+    if (!localStorage['ran_before']) {
+        first_run = true;
+        localStorage['ran_before'] = '1';
+    }
+
+    if (first_run) {
+        //chrome.tabs.create({url: chrome.extension.getURL('options.html')});
+    }
+
+    chrome.extension.onConnect.addListener(function(port) {
+    port.onMessage.addListener(function(msg) {
+        switch (msg.action) {
+        case "transform_page":
+            chrome.tabs.executeScript(null, {file: "jquery.js"});
+            chrome.tabs.executeScript(null, {file: "selective_php.js"});
+            chrome.tabs.executeScript(null, {file: "transmogrify.js"});
+            chrome.tabs.executeScript(null, {file: "transmogrify_page.js"});
+            break;
+        case "get_method":
+            port.postMessage({ action: 'get_method_resp', method: localStorage['pageMethod'] });
+            break;
+        }
+    });
+    });
+    </script>
+</html>

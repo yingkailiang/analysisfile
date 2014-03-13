@@ -1,0 +1,17 @@
+{
+  "name": "NWPlayer",
+  "description": "Play video in new window",
+  "version": "0.1",
+  "permissions": ["tabs"],
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.min.js", "content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "page_action": {
+    "default_icon": "play.png"
+  }
+}

@@ -1,0 +1,61 @@
+#media-next{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 48px;
+	width: 48px;
+	background-image: url('../resource/next.png');
+	opacity: 0.7;
+}
+
+#media-next:hover, #media-stop:hover, #media-play:hover{
+	opacity: 1;
+}
+
+#media-stop, #media-play{
+	position: absolute;
+	left: 48px;
+	top: 0;
+	height: 48px;
+	width: 48px;
+	background-image: url('../resource/stop.png');
+	opacity: 0.7;
+}
+
+#media-play{
+	left: 96px;
+	background-image: url('../resource/play.png');
+}
+
+#media-title{
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	width: 100%;
+	height: 163px;
+	opacity: 0.7;
+	background-color: #343434;
+}
+
+h2, h6{
+	color: #ffffff;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-weight: bold;
+	font-size: 2.0em;
+	margin-right: 20px;
+	text-align: right;
+}
+
+h6{
+	font-size: 1.0em;
+	margin-right: 40px;
+}
+
+.float{
+	/*float: left;*/
+}
+
+#buttonbar{
+	width: 500px;
+	height: 100px;
+}

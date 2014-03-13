@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Options</title>
+    <link rel="stylesheet" type="text/css" href="css/pannel.css?v=4.0" />
+    <link rel="stylesheet" type="text/css" href="../content/share.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../scripts/language.js"></script>
+    <script type="text/javascript" src="../scripts/common.js"></script>
+    <script type="text/javascript" src="../scripts/share/share.js"></script>
+    <script type="text/javascript" src="../scripts/share/invite.js"></script>
+    <script type="text/javascript" src="../scripts/publish-sync/foreground/socialClient.js"></script>
+    <script type="text/javascript" src="scripts/panel.js"></script>
+</head>
+<body style="width: 470px; margin: 0; overflow: hidden;">
+    <div class="layout lay_home">
+        <header>
+            <div class="profile">
+                <img class="avatar" alt="Socialba!" src="images/profile.gif" />
+                <div class="accountDetails">
+                    <h3 class="accountName">
+                        SocialBa!
+                    </h3>
+                    <h4 class="accountDetail">
+                        The extension sync publish for social network!
+                    </h4>
+                </div>
+                <a class="logout_btn" href="#">
+                    <img src="images/logout.png" />
+                </a>
+                <label id="version">
+                </label>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a el="home" class="btn loginSites active" href="#"></a></li>
+                    <li><a el="options" class="btn options" href="#"></a></li>
+                    <li><a el="buffer" class="btn buffer" href="#"></a></li>
+                    <li><a el="writing" class="btn writing" href="#"></a></li>
+                    <li><a el="notify" class="btn notifyInfo" href="#"></a></li>
+                    <li><a el="refresh" class="btn refresh" href="/pages/loading.html#no_like"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <ul id="loginSites" class="c">
+            <li style="display: none" id="facebook"><span class="logon" href="#"><i class="ifb"></i><i class="lg"></i></span><a target="_blank" href="http://www.facebook.com"><em></em></a></li>
+            <li style="display: none" id="gplus"><span class="logon" href="#"><i class="igg"></i><i class="lg"></i></span><a target="_blank" href="https://plus.google.com"><em></em></a></li>
+            <li style="display: none" id="twitter"><span class="logon" href="#"><i class="itt"></i><i class="lg"></i></span><a target="_blank" href="http://www.twitter.com"><em></em></a></li>
+            <li style="display: none" id="linkedin"><span class="logon" href="#"><i class="ili"></i><i class="lg"></i></span><a target="_blank" href="http://www.linkedin.com/"><em></em></a></li>
+            <li style="display: none" id="vkontakte"><span class="logon" href="#"><i class="ivk"></i><i class="lg"></i></span><a target="_blank" href="http://www.vk.com/"><em></em></a></li>
+            <li style="display: none" id="plurk"><span class="logon" href="#"><i class="ipk"></i><i class="lk"></i></span><a target="_blank" href="http://www.plurk.com"><em></em></a></li>
+            <li style="display: none" id="weibo"><span class="logon" href="#"><i class="iwb"></i><i class="lg"></i></span><a target="_blank" href="http://www.weibo.com"><em></em></a></li>
+            <li style="display: none" id="tencent"><span class="logon" href="#"><i class="iqq"></i><i class="lg"></i></span><a target="_blank" href="http://t.qq.com"><em></em></a></li>
+            <li style="display: none" id="renren"><span class="logon" href="#"><i class="irr"></i><i class="lg"></i></span><a target="_blank" href="http://www.renren.com/"><em></em></a></li>
+            <li style="display: none" id="kaixin001"><span class="logon" href="#"><i class="ikx"></i><i class="lg"></i></span><a target="_blank" href="http://www.kaixin001.com/"><em></em></a></li>
+            <li style="display: none" id="qzone"><span class="logon" href="#"><i class="iqz"></i><i class="lg"></i></span><a target="_blank" href="http://user.qzone.qq.com/"><em></em></a></li>
+        </ul>
+            <ul id="options" class="c">
+            <li>
+                <table id="siteOptions" style="margin-top: -9px; font-size: 12px;">
+                    <tr>
+                        <td colspan="6" text="SelectWebSite">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input value="facebook" id="es_fb" type="checkbox" />&nbsp;<label hl="facebook" for="es_fb">Facebook</label>
+                        </td>
+                        <td>
+                            <input value="gplus" id="es_gg" type="checkbox" />&nbsp;<label for="es_gg">Google+</label>
+                        </td>
+                        <td>
+                            <input value="twitter" id="es_tt" type="checkbox" />&nbsp;<label for="es_tt">Twitter</label>
+                        </td>
+                        <td>                        
+                            <input value="linkedin" id="es_li" type="checkbox" />&nbsp;<label for="es_li">LinkedIn</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input value="vkontakte" id="es_vk" type="checkbox" />&nbsp;<label for="es_vk">VK.com</label>
+                        </td>
+                        <td>
+                            <input value="plurk" id="es_pk" type="checkbox" />&nbsp;<label for="es_pk">Plurk</label>
+                        </td>
+                        <td>
+                            <input value="weibo" id="es_wb" type="checkbox" />&nbsp;<label hl="weibo" for="es_wb">新浪微博</label>
+                        </td>
+                        <td>
+                            <input value="tencent" id="es_tc" type="checkbox" />&nbsp;<label hl="tqqcom" for="es_tc">腾讯微博</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input value="renren" id="es_rr" type="checkbox" />&nbsp;<label hl="renren" for="es_rr">人人网</label>
+                        </td>
+                        <td>
+                            <input value="kaixin001" id="es_kx" type="checkbox" />&nbsp;<label hl="kaixin001" for="es_kx">开心网</label>
+                        </td>
+                        <td>
+                            <input value="qzone" id="es_qz" type="checkbox" />&nbsp;<label hl="qzone" for="es_qz">QQ空间</label>
+                        </td>
+                        <td>                            
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li class="hidden">
+                <table style="margin-top: -9px; font-size: 12px; width: 100%;">
+                    <tr>
+                        <td colspan="3" text="EnableShare">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="width: 100px;">
+                                <input id="esc_1" name="enableShareControl" value="1" type="radio" /><label for="esc_1">ON</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="width: 100px;">
+                                <input id="esc_0" name="enableShareControl" value="0" type="radio" /><label for="esc_0">OFF</label>
+                            </div>
+                        </td>
+                        <td style="width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table style="margin-top: -9px; font-size: 12px; width: 100%;">
+                    <tr>
+                        <td colspan="3" text="TellFriends">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="width: 100px;">
+                                <input id="erc_1" name="enableRecommendControl" value="1" type="radio" /><label for="erc_1">ON</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="width: 100px;">
+                                <input id="erc_0" name="enableRecommendControl" value="0" type="radio" /><label for="erc_0">OFF</label>
+                            </div>
+                        </td>
+                        <td style="width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table style="margin-top: -9px; font-size: 12px; width: 100%;">
+                    <tr>
+                        <td colspan="3" text="EnableAds">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="width: 100px;">
+                                <label for="ad_video">
+                                    <input id="ad_video" name="adShowControl" value="video" type="checkbox" />
+                                    <span text="AdsOfVideo"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="width: 100px;">
+                                <label for="ad_right">
+                                    <input id="ad_right" name="adShowControl" value="right" type="checkbox" />
+                                    <span text="AdsOfRight"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td style="width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+        <div id="notifyInfo" class="c" style="max-height: 305px; margin: 1em 1.5em 0;">
+        </div><div id="bufferlist" class="c" >
+        </div>
+        </section>
+        <footer>
+            <div class="lfloat">
+                <a href="#" target="_blank" style="display: none;">
+                    <img src="images/invite.png" />
+                </a>
+            </div>
+            <div class="rfloat" style="height: 31px; overflow: hidden;">
+                <span id="global"></span>
+                <div style="float: right; margin: 4px 3px 0 0;" id="shareControl">
+                </div>
+            </div>
+            <div class="clear">
+                Contact us: <b class="blue">service@socialba.com</b>
+            </div>
+        </footer>
+        <div class="clear line">
+        </div>
+    </div>
+</body>
+</html>

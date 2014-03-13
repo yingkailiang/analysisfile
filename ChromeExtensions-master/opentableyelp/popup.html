@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <style type="text/css"></style>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">-->
+    <title>Gmail Tab Renamer Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+    - JavaScript and HTML must be in separate files: see our Content Security
+    - Policy documentation[1] for details and explanation.
+    -
+    - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+    -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="popup.js"></script>
+
+    <h4 id="header">Tab Renamer for GmailTM</h4>
+  </head>
+  <body>
+    <div>
+      <div id="firsttab" class="tab">
+        <span id="firstspan" class="input-group-addon">First Span</span>
+        <input id="firstinput" type="text" class="form-control" placeholder="New Tab Name">
+      </div>
+      <div id="secondtab" class="tab">
+        <span id="secondspan" class="input-group-addon">Second Span</span>
+        <input id="secondinput" type="text" class="form-control" placeholder="New Tab Name">
+      </div>
+      <div id="thirdtab" class="tab">
+        <span id="thirdspan" class="input-group-addon">Third Span</span>
+        <input id="thirdinput" type="text" class="form-control" placeholder="New Tab Name">
+      </div>
+      <div id="fourthtab" class="tab">
+        <span id="fourthspan" class="input-group-addon">Fourth Span</span>
+        <input id="fourthinput" type="text" class="form-control" placeholder="New Tab Name">
+      </div>
+      <div id="fifthtab" class="tab">
+        <span id="fifthspan" class="input-group-addon">Fifth Span</span>
+        <input id="fifthinput" type="text" class="form-control" placeholder="New Tab Name">
+      </div>
+      <div id="sixthdiv" class="tab">
+        <input id="submitbutton" type="submit" value="Submit" class="button"></input>
+      </div>
+  </div>
+  </body>
+</html>

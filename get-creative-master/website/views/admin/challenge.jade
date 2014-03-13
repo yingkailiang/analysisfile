@@ -1,0 +1,5 @@
+extends _base
+
+block main_area
+    - if (current_challenge)
+        !=partial('common/challenge', {'challenge' : current_challenge})
